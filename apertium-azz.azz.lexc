@@ -1,0 +1,163 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols
+
+%<n%>                                  ! Sustantivo
+%<num%>                                ! Número
+%<prn%>                                ! Pronombre
+
+%<pl%>                                 ! Plural
+
+%<sg1%>
+%<sg2%>
+%<sg3%>
+%<pl1%>
+%<pl2%>
+%<pl3%>
+
+%<s_sg1%>
+%<s_sg2%>
+%<s_sg3%>
+%<s_pl1%>
+%<s_pl2%>
+%<s_pl3%>
+
+%<o_sg1%>
+%<o_sg2%>
+%<o_sg3%>
+%<o_pl1%>
+%<o_pl2%>
+%<o_pl3%>
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Pronombres ; 
+Sustantivos  ; 
+Adverbios ; 
+Números ; 
+Prefijos ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON PRON-NEHUATL
+
+%<abs%>:%>huatl # ; 
+%<hon%>:%>hua%>tsin # ; 
+%<short%>:%>j # ; 
+
+LEXICON PRON-SG1
+
+%<prn%>%<pers%>%<sg1%>: PRON-NEHUATL ;
+
+LEXICON PRON-SG2
+
+%<prn%>%<pers%>%<sg2%>: PRON-NEHUATL ;
+
+LEXICON PRON-SG3
+
+%<prn%>%<pers%>%<sg3%>: PRON-NEHUATL ;
+
+LEXICON N-TL
+
+%<n%>%<abs%>:%>tl # ; 
+%<n%>%<pl%>:%>mej # ; 
+
+LEXICON N-TLI
+
+%<n%>%<abs%>:%>tli # ; 
+%<n%>%<pl%>:%>mej # ; 
+
+LEXICON N-Ø
+
+%<n%>%<abs%>: # ; 
+%<n%>%<pl%>:%>mej # ; 
+
+LEXICON NUM 
+
+%<num%>: # ; 
+
+LEXICON ADV
+
+%<adv%>: # ; 
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prefijos 
+
+Transitivo ;
+!Intransitivo ;
+
+LEXICON Transitivo
+
+AGR-SUBJ-TV ;
+
+!LEXICON Intransitivo
+
+!AGR-SUBJ-IV ;
+
+LEXICON AGR-SUBJ-TV 
+
+%<s_sg1%>:ni%> AGR-OBJ-TV ;
+
+LEXICON AGR-OBJ-TV
+
+%<o_sg3%>:k%> TV ; 
+%<o_pl3%>:kin%> TV ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Pronombres
+
+nehuatl:ne PRON-SG1 ;
+tehuatl:te PRON-SG2 ;
+yehuatl:ye PRON-SG3 ;
+
+LEXICON Números
+
+se:se NUM ; ! "uno"
+ome:ome NUM ; ! "dos"
+eyi:eyi NUM ; ! "tres"
+nahui:nahui NUM ; ! "cuatro"
+makuil:makuil NUM ; ! "cinco"
+
+LEXICON Sustantivos 
+
+ahuakatl:ahuaka N-TL ; ! "aguacate"
+chechelotl:chechelo N-TL ; ! "ardilla"
+ejekatl:ejeka N-TL ; ! "viento"
+huehuetl:huehue N-TL ; ! "viejo"
+itskuintli:itskuin N-TLI ; ! "perro"
+kamak:kamak N-Ø ; ! "boca"
+lapo:lapo N-Ø ; ! "recortado"
+mestli:mes N-TLI ; ! "luna"
+nojpal:nojpal N-Ø ; ! "nopal"
+okichpil:okichpil N-Ø ; ! "niño"
+piyo:piyo N-Ø ; ! "pollo"
+sihuatl:sihua N-TL ; ! "mujer"
+sihuapil:sihuapil N-Ø ; ! "niña"
+tepos:tepos N-Ø ; ! "máquina, metal"
+tiotlak:tiotlak N-Ø ; ! "tarde"
+tlakatl:tlaka N-TL ; ! "hombre"
+tlaso:tlaso N-Ø ; ! "cariño"
+tlasol:tlasol N-Ø ; ! "basura"
+tlaxkal:tlaxcal N-Ø ; ! "tortilla"
+tsinaka:tsinaka N-Ø ; ! "murciélago"
+tsolteko:tsolteko N-Ø ; ! "cabeza"
+xochitl:xochi N-TL ; ! "flor"
+yolotl:yolo N-TL ; ! "corazón"
+
+LEXICON Adverbios 
+
+kuali:kuali ADV ; ! "bien"
+
+LEXICON TV
+
+piya:piya V-TV ; ! "tener"
