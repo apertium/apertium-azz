@@ -29,6 +29,14 @@ Multichar_Symbols
 %<o_pl2%>
 %<o_pl3%>
 
+
+%<px1sg%>                                ! Posesivo (1ra singular)
+%<px2sg%>
+%<px3sg%>
+%<px1pl%>
+%<px2pl%>
+%<px3pl%>
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
@@ -59,20 +67,27 @@ LEXICON PRON-SG3
 
 %<prn%>%<pers%>%<sg3%>: PRON-NEHUATL ;
 
+LEXICON N-POSS
+%<n%>:%>%{w%} # ; ! falta una regla morfofonemica que borra esto después de un consonante 
+%<n%>%<pl%>:%>huan # ;
+
 LEXICON N-TL
 
 %<n%>%<abs%>:%>tl # ; 
 %<n%>%<pl%>:%>mej # ; 
+N-POSS ;
 
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>tli # ; 
 %<n%>%<pl%>:%>mej # ; 
+N-POSS ;
 
 LEXICON N-Ø
 
 %<n%>%<abs%>: # ; 
 %<n%>%<pl%>:%>mej # ; 
+N-POSS ;
 
 LEXICON NUM 
 
@@ -91,24 +106,46 @@ LEXICON V-TV
 LEXICON Prefijos 
 
 Transitivo ;
-!Intransitivo ;
+Intransitivo ;
 
 LEXICON Transitivo
 
 AGR-SUBJ-TV ;
 
-!LEXICON Intransitivo
+LEXICON Intransitivo
+AGR-SUBJ-IV ;
 
-!AGR-SUBJ-IV ;
+LEXICON AGR-SUBJ-IV
+%<s_sg1%>:ni%> N-PREF ;
+%<s_sg2%>:ti%> N-PREF ;
+%<s_sg3%>:0%> N-PREF ;
+%<s_pl1%>:ti%> N-PREF ;
+%<s_pl2%>:nan%> N-PREF ;
 
 LEXICON AGR-SUBJ-TV 
 
 %<s_sg1%>:ni%> AGR-OBJ-TV ;
+%<s_sg2%>:ti%> AGR-OBJ-TV ;
+%<s_pl1%>:ti%> AGR-OBJ-TV ;
+%<s_pl2%>:nan%> AGR-OBJ-TV ;
 
 LEXICON AGR-OBJ-TV
 
 %<o_sg3%>:k%> TV ; 
 %<o_pl3%>:kin%> TV ; 
+
+LEXICON N-PREF
+POSS-SUST ;
+Sustantivos ;
+
+LEXICON POSS-SUST
+%<px1sg%>:no%>  Sustantivos ;
+%<px2sg%>:mo%>  Sustantivos ;
+%<px3sg%>:i%>  Sustantivos ;
+%<px3sg%>:ni%>  Sustantivos ;
+%<px1pl%>:to%>  Sustantivos ;
+%<px2pl%>:namo%>  Sustantivos ;
+%<px3sg%>:in%>  Sustantivos ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
