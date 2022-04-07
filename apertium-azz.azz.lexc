@@ -29,8 +29,6 @@ Multichar_Symbols
 %<o_pl2%>
 %<o_pl3%>
 
-
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
@@ -131,6 +129,7 @@ makuil:makuil NUM ; ! "cinco"
 LEXICON Sustantivos 
 
 ahuakatl:ahuaka N-TL ; ! "aguacate"
+ajkol:ajkol N-Ø ; ! "hombro"
 chechelotl:chechelo N-TL ; ! "ardilla"
 ejekatl:ejeka N-TL ; ! "viento"
 huehuetl:huehue N-TL ; ! "viejo"
@@ -153,6 +152,7 @@ tsinaka:tsinaka N-Ø ; ! "murciélago"
 tsolteko:tsolteko N-Ø ; ! "cabeza"
 xochitl:xochi N-TL ; ! "flor"
 yolotl:yolo N-TL ; ! "corazón"
+tekuani:tekuani N-Ø ; ! "bestia"
 
 LEXICON Adverbios 
 
