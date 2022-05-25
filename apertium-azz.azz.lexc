@@ -101,6 +101,11 @@ LEXICON V-TV
 
 %<v%>%<tv%>: # ; 
 
+LEXICON V-IV
+
+%<v%>%<iv%>: # ; 
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Prefijos 
@@ -121,6 +126,7 @@ LEXICON AGR-SUBJ-IV
 %<s_sg3%>:0%> N-PREF ;
 %<s_pl1%>:ti%> N-PREF ;
 %<s_pl2%>:nan%> N-PREF ;
+%<s_pl3%>:0%> N-PREF ;
 
 LEXICON AGR-SUBJ-TV 
 
@@ -128,6 +134,7 @@ LEXICON AGR-SUBJ-TV
 %<s_sg2%>:ti%> AGR-OBJ-TV ;
 %<s_pl1%>:ti%> AGR-OBJ-TV ;
 %<s_pl2%>:nan%> AGR-OBJ-TV ;
+%<s_pl3%>:0%> AGR-OBJ-TV ;
 
 LEXICON AGR-OBJ-TV
 
@@ -137,12 +144,13 @@ LEXICON AGR-OBJ-TV
 LEXICON N-PREF
 POSS-SUST ;
 Sustantivos ;
+IV ;
 
 LEXICON POSS-SUST
 %<px1sg%>:no%>  Sustantivos ;
 %<px2sg%>:mo%>  Sustantivos ;
 %<px3sg%>:i%>  Sustantivos ;
-%<px3sg%>:ni%>  Sustantivos ;
+%<px3sg%>:ni%>  Sustantivos ; !! ??
 %<px1pl%>:to%>  Sustantivos ;
 %<px2pl%>:namo%>  Sustantivos ;
 %<px3sg%>:in%>  Sustantivos ;
@@ -198,3 +206,7 @@ kuali:kuali ADV ; ! "bien"
 LEXICON TV
 
 piya:piya V-TV ; ! "tener"
+
+LEXICON IV
+
+huala:huala V-IV ; ! "llegar"
