@@ -5,6 +5,8 @@ Multichar_Symbols
 %<n%>                                  ! Sustantivo
 %<num%>                                ! Número
 %<prn%>                                ! Pronombre
+%<cop%>
+%<adv%>
 
 %<pl%>                                 ! Plural
 
@@ -41,7 +43,10 @@ Multichar_Symbols
 
 LEXICON Root
 
+Miscellanea ; 
 Pronombres ; 
+Determinantes ; 
+Relacionales ;
 Sustantivos  ; 
 Adverbios ; 
 Números ; 
@@ -71,15 +76,19 @@ LEXICON N-POSS
 %<n%>:%>%{w%} # ; ! falta una regla morfofonemica que borra esto después de un consonante 
 %<n%>%<pl%>:%>huan # ;
 
+LEXICON N-REL
+
+%<n%>%<rel%>: # ;
+
 LEXICON N-TL
 
-%<n%>%<abs%>:%>tl # ; 
+%<n%>%<abs%>:%>t # ; 
 %<n%>%<pl%>:%>mej # ; 
 N-POSS ;
 
 LEXICON N-TLI
 
-%<n%>%<abs%>:%>tli # ; 
+%<n%>%<abs%>:%>ti # ; 
 %<n%>%<pl%>:%>mej # ; 
 N-POSS ;
 
@@ -155,7 +164,23 @@ LEXICON POSS-SUST
 %<px2pl%>:namo%>  Sustantivos ;
 %<px3sg%>:in%>  Sustantivos ;
 
+LEXICON COP 
+
+%<cop%>: # ;
+
+LEXICON DET
+
+%<det%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Miscellanea
+
+etok:etok COP ; ! "estar"
+
+LEXICON Determinantes 
+
+in:in DET ; ! "el"
 
 LEXICON Pronombres
 
@@ -170,22 +195,38 @@ ome:ome NUM ; ! "dos"
 eyi:eyi NUM ; ! "tres"
 nahui:nahui NUM ; ! "cuatro"
 makuil:makuil NUM ; ! "cinco"
+chikuase:chikuase NUM ; ! "seis"
+chikome:chikome NUM ; ! "siete"
+chikueyi:chikueyi NUM ; ! "ocho"
+chiknahui:chiknahui NUM ; ! "nueve"
+majtakti:majtakti NUM ; ! "diez"
+kaxtol:kaxtol NUM ; ! "quince"
+pohual:pohual NUM ; ! "veinte"
 
 LEXICON Sustantivos 
 
-ahuakatl:ahuaka N-TL ; ! "aguacate"
+Comunes ; 
+Relacionales ; 
+
+LEXICON Relacionales 
+
+huan:huan N-REL ; 
+
+LEXICON Comunes
+
+ahuakat:ahuaka N-TL ; ! "aguacate"
 ajkol:ajkol N-Ø ; ! "hombro"
-chechelotl:chechelo N-TL ; ! "ardilla"
+chechelot:chechelo N-TL ; ! "ardilla"
 ejekatl:ejeka N-TL ; ! "viento"
-huehuetl:huehue N-TL ; ! "viejo"
-itskuintli:itskuin N-TLI ; ! "perro"
+huehuet:huehue N-TL ; ! "viejo"
+itskuinti:itskuin N-TLI ; ! "perro"
 kamak:kamak N-Ø ; ! "boca"
 lapo:lapo N-Ø ; ! "recortado"
 mestli:mes N-TLI ; ! "luna"
 nojpal:nojpal N-Ø ; ! "nopal"
 okichpil:okichpil N-Ø ; ! "niño"
 piyo:piyo N-Ø ; ! "pollo"
-sihuatl:sihua N-TL ; ! "mujer"
+sihuat:sihua N-TL ; ! "mujer"
 sihuapil:sihuapil N-Ø ; ! "niña"
 tepos:tepos N-Ø ; ! "máquina, metal"
 tiotlak:tiotlak N-Ø ; ! "tarde"
@@ -195,13 +236,18 @@ tlasol:tlasol N-Ø ; ! "basura"
 tlaxkal:tlaxkal N-Ø ; ! "tortilla"
 tsinaka:tsinaka N-Ø ; ! "murciélago"
 tsolteko:tsolteko N-Ø ; ! "cabeza"
-xochitl:xochi N-TL ; ! "flor"
-yolotl:yolo N-TL ; ! "corazón"
+xochit:xochi N-TL ; ! "flor"
+yolot:yolo N-TL ; ! "corazón"
 tekuani:tekuani N-Ø ; ! "bestia"
+
 
 LEXICON Adverbios 
 
 kuali:kuali ADV ; ! "bien"
+
+nikan:nikan ADV ; ! "aquí"
+ompa:ompa ADV ; ! "allá"
+
 
 LEXICON TV
 
@@ -209,4 +255,5 @@ piya:piya V-TV ; ! "tener"
 
 LEXICON IV
 
+kochi:kochi V-IV ; ! "dormir"
 huala:huala V-IV ; ! "llegar"
