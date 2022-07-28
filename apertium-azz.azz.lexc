@@ -68,6 +68,7 @@ Determinantes ;
 Relacionales ;
 Sustantivos  ; 
 Adverbios ; 
+Adjetivos ; 
 Números ; 
 Interyecciones ;
 Conjunciones ;
@@ -155,6 +156,11 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
+LEXICON ADV-REL
+
+%<adv%>%<rel%>: # ; 
+
+
 LEXICON V-AGR-PRES
 
 : # ; 
@@ -212,13 +218,18 @@ LEXICON AGR-SUBJ-TV
 
 %<s_sg1%>:ni%> AGR-OBJ-TV ;
 %<s_sg2%>:ti%> AGR-OBJ-TV ;
+%<s_sg3%>:0%> AGR-OBJ-TV ;
 %<s_pl1%>:ti%> AGR-OBJ-TV ;
 %<s_pl2%>:nan%> AGR-OBJ-TV ;
 %<s_pl3%>:0%> AGR-OBJ-TV ;
 
 LEXICON AGR-OBJ-TV
 
+%<o_sg1%>:nech%> TV ; 
+%<o_sg2%>:mits%> TV ; 
 %<o_sg3%>:k%{i%}%> TV ; 
+%<o_pl1%>:tech%> TV ; 
+%<o_pl2%>:namech%> TV ; 
 %<o_pl3%>:kin%> TV ; 
 %<refl%>:mo%> TV ; 
 
@@ -235,6 +246,10 @@ LEXICON POSS-SUST
 %<px1pl%>:to%>  Sustantivos ;
 %<px2pl%>:namo%>  Sustantivos ;
 %<px3sg%>:in%>  Sustantivos ;
+
+LEXICON ADJ
+
+%<adj%>: # ; 
 
 LEXICON COP 
 
@@ -289,10 +304,12 @@ maj%<aux%>:ma # ;
 LEXICON Conjunciones 
 
 pero:pero CC ; ! "pero"
+o:o CC ; ! "o"
 huan:huan CC ; ! "y"
 
 porque:porque CS ; ! "porque"
-para:para CS ; ! "porque"
+para:para CS ; ! "para"
+cuando:cuando CS ; ! "cuando"
 
 LEXICON Determinantes 
 
@@ -376,9 +393,13 @@ tekuani:tekuani N-Ø ; ! "bestia"
 kohuit:kohui N-TL ; ! "árbol, leña"
 xihuit:xihui N-TL ; ! "hierba"
 okuilin:okuil N-IN ; ! "animal"
+tekpin:tekpin N-Ø ; ! "pulga"
+chiltekpin:chiltekpin N-Ø ; ! "chiltepín"
 tokay:tokay N-Ø ; ! "nombre"
 pajti:pajti N-Ø ; ! "medicina"
+masehualpajti:masehual%>pajti N-Ø ; ! "medicina tradicional"
 pili:pili N-Ø ; ! "niño"
+taman:taman N-Ø ; ! "tipo"
 
 
 !FIXME: Comprobar
@@ -396,12 +417,19 @@ Ernesto:Ernesto NP-ANT-M ;
 Vazquez:Vazquez NP-COG ; 
 
 Tzinacapan:Tzinacapan NP-TOP ;
+Zacapoaxtla:Zacapoaxtla NP-TOP ;
 Ometepetl:Ometepetl NP-TOP ;
 Tetela:Tetela NP-TOP ;
 Cuetzalan:Cuetzalan NP-TOP ;
 Matixco:Matixco NP-TOP ;
 Zacaloma:Zacaloma NP-TOP ;
 Omitlan:Omitlan NP-TOP ;
+
+LEXICON Adjetivos 
+
+huelik:huelik ADJ ; ! "bueno"
+istak:istak ADJ ; ! "blanco"
+kuali:kuali ADJ ; ! "bonito"
 
 LEXICON Adverbios 
 
@@ -417,6 +445,7 @@ onkak:onkak ADV ; ! "aquí"
 nochipa:nochipa ADV ; ! "cada día, siempre"
 
 pos:pos ADV ; ! "pues"
+pues:pues ADV ; ! "pues"
 entos:entos ADV ; ! "entonces"
 
 semi:semi ADV ; ! "muy"
@@ -429,11 +458,24 @@ ijkon:ijkon ADV ; ! "así"
 
 ya:ya ADV ; ! ""
 
+saj:saj ADV ; ! ""
+
+kemej:kemej ADV ; ! "como" ! FIXME: Comprobar categoría
+
+no:no ADV ; ! "también"
+
+kampa:kampa ADV-REL ; ! "donde"
+
+keman:keman ADV ; ! ""
+
+neli:neli ADV ; ! "certamente"
+
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
 este:este INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
+mm:mm INTERJ ; ! ""
 
 LEXICON TV
 
@@ -446,6 +488,9 @@ nonotsa:nonotsa V-TV ; ! "platicar"
 ita:ita V-TV ; ! "ver"
 tokaytia:tokaytia V-TV ; ! "nombrar, llamar"
 ijtohua:ijtohua V-TV ; ! "decir"
+ixmati:ixmati V-TV ; ! "conocer"
+teki:teki V-TV ; ! "cortar"
+ilia:ilia V-TV ; ! "llamar"
 
 LEXICON IV
 
