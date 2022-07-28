@@ -113,7 +113,9 @@ LEXICON PRON-PL2
 
 %<prn%>%<pers%>%<pl2%>: PRON-TEHUAN ;
 
+LEXICON PRON-PL3
 
+%<prn%>%<pers%>%<pl3%>: PRON-TEHUAN ;
 
 LEXICON N-POSS
 %<n%>:%>%{w%} # ; ! falta una regla morfofonemica que borra esto después de un consonante 
@@ -144,7 +146,7 @@ N-POSS ;
 LEXICON N-IN
 
 %<n%>%<abs%>:%>in # ; 
-%<n%>%<pl%>:%>mej # ; 
+%<n%>%<pl%>:i%>mej # ; 
 N-POSS ;
 
 
@@ -297,6 +299,9 @@ etok:etok COP ; ! "estar"
 yehuatl%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
 
 de%<pr%>:de # ; 
+hasta%<pr%>:hasta # ; 
+por%<pr%>:por # ; 
+para%<pr%>:para # ; 
 
 maj%<aux%>:maj # ; 
 maj%<aux%>:ma # ; 
@@ -328,6 +333,7 @@ tehuatl:te PRON-SG2 ;
 yehuatl:ye PRON-SG3 ;
 tehuan:te PRON-PL1 ;
 namehuan:name PRON-PL2 ;
+yehuan:ye PRON-PL3 ;
 
 !namehwan namoixpan onkak wan ika yon nantekitih.
 
@@ -391,6 +397,8 @@ xochit:xochi N-TL ; ! "flor"
 yolot:yolo N-TL ; ! "corazón"
 tekuani:tekuani N-Ø ; ! "bestia"
 kohuit:kohui N-TL ; ! "árbol, leña"
+kohuit:kuohui N-TL ; ! "árbol, leña" ! Use/Typo
+kalkohuit:kal%>kohui N-TL ; ! "madera de casa"
 xihuit:xihui N-TL ; ! "hierba"
 okuilin:okuil N-IN ; ! "animal"
 tekpin:tekpin N-Ø ; ! "pulga"
@@ -400,6 +408,23 @@ pajti:pajti N-Ø ; ! "medicina"
 masehualpajti:masehual%>pajti N-Ø ; ! "medicina tradicional"
 pili:pili N-Ø ; ! "niño"
 taman:taman N-Ø ; ! "tipo"
+tepexilot:tepexilot N-TL ; ! "tejilote"
+konet:kone N-TL ; ! "niño"
+tepet:tepe N-TL ; ! "montaña"
+tomat:toma N-TL ; ! "jitomate"
+komekat:komeka N-TL ; ! "bejuco"
+komekat:kuomeka N-TL ; ! "bejuco" ! Use/Typo
+ixtahuat:ixtahua N-TL ; ! "potrero"
+koutet:koute N-TL ; ! "fruto" ! kou#tet
+tet:te N-TL ; ! "piedra"
+piotet:piote N-TL ; ! "huevo"
+xonot:xono N-TL ; ! "jonote"
+mosot:moso N-TL ; ! ""
+altepet:altepe N-TL ; ! "altepetl"
+tesuat:tesua N-TL ; ! ""
+tomakilit:tomakili N-TL ; ! "hierbamora"
+amat:ama N-TL ; ! "papel"
+takat:taka N-TL ; ! "hombre"
 
 
 !FIXME: Comprobar
@@ -416,6 +441,7 @@ Ernesto:Ernesto NP-ANT-M ;
 
 Vazquez:Vazquez NP-COG ; 
 
+San:San NP-TOP ;
 Tzinacapan:Tzinacapan NP-TOP ;
 Zacapoaxtla:Zacapoaxtla NP-TOP ;
 Ometepetl:Ometepetl NP-TOP ;
@@ -429,6 +455,7 @@ LEXICON Adjetivos
 
 huelik:huelik ADJ ; ! "bueno"
 istak:istak ADJ ; ! "blanco"
+tiltik:tiltik ADJ ; ! "negro"
 kuali:kuali ADJ ; ! "bonito"
 
 LEXICON Adverbios 
@@ -470,12 +497,17 @@ keman:keman ADV ; ! ""
 
 neli:neli ADV ; ! "certamente"
 
+xa:xa ADV ; ! ""
+
+kachi:kachi ADV ; ! "más"
+
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
 este:este INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
 mm:mm INTERJ ; ! ""
+a:a INTERJ ; ! ""
 
 LEXICON TV
 
@@ -491,6 +523,7 @@ ijtohua:ijtohua V-TV ; ! "decir"
 ixmati:ixmati V-TV ; ! "conocer"
 teki:teki V-TV ; ! "cortar"
 ilia:ilia V-TV ; ! "llamar"
+kua:kua V-TV ; ! "comer"
 
 LEXICON IV
 
@@ -499,6 +532,8 @@ huala:huala V-IV ; ! "llegar"
 choka:choka V-IV ; ! "llorar"
 tekiti:tekiti V-IV ; ! "trabajar"
 chanchihua:chanchihua V-IV ; ! "vivir"
+kualtia:kualtia V-IV ; ! "servir"
+moskaltia:moskaltia V-IV ; ! "crecer"
 
 LEXICON Punctuación
 
