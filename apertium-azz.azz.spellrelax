@@ -2,6 +2,7 @@
  [ ?* [ e h u a -> e h w a | e h u a ] ?* ] .o.
  [ ?* [ j -> h | j ] ?* ] .o.
  [ ?* [ h u -> w | h u ] ?* ]  .o.
+ [ ?* [ u h -> w | u h ] ?* ]  .o.
  [ ?* [ u -> w | u ] ?* ]  .o.
  [ ?* [ i y a -> i a | i y a ] ?* ]  .o.
  [ ?* [ k u -> k w | k u ] ?* ] 

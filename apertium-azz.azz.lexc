@@ -89,7 +89,7 @@ LEXICON PRON-TEHUAN
 
 %<abs%>:%>huan # ; 
 !%<hon%>:%>hua%>tsin # ; 
-!%<short%>:%>j # ; 
+%<short%>:%>jan # ; 
 !:%>hua # ; 
 
 
@@ -128,13 +128,17 @@ LEXICON N-REL
 LEXICON N-TL
 
 %<n%>%<abs%>:%>t # ; 
+%<n%>%<hon%>:%>tsin # ; 
 %<n%>%<pl%>:%>mej # ; 
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin # ; 
 N-POSS ;
 
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>ti # ; 
+%<n%>%<hon%>:%>tsin # ; 
 %<n%>%<pl%>:%>mej # ; 
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin # ; 
 N-POSS ;
 
 LEXICON N-Ø
@@ -147,6 +151,12 @@ LEXICON N-IN
 
 %<n%>%<abs%>:%>in # ; 
 %<n%>%<pl%>:i%>mej # ; 
+N-POSS ;
+
+LEXICON N-SPA
+
+%<n%>%<sg%>: # ; 
+%<n%>%<pl%>:%>s # ; 
 N-POSS ;
 
 
@@ -425,11 +435,40 @@ tesuat:tesua N-TL ; ! ""
 tomakilit:tomakili N-TL ; ! "hierbamora"
 amat:ama N-TL ; ! "papel"
 takat:taka N-TL ; ! "hombre"
+huauhkilit:huauhkili N-TL ; ! ""
+nexkijit:nexkiji N-TL ; ! ""
+kilit:kili N-TL ; ! "quilite"
+huitstotomat:huitstotoma N-TL ; ! ""
+xalkohuit:xalkohui N-TL ; ! ""
+tsotsolpajxihui:tsotsolpajxihui N-TL ; ! ""
+kokot:koko N-TL ; ! "grano"
+ehuat:ehua N-TL ; ! "corteza"
+isuat:isua N-TL ; ! ""
+tepexonot:tepexono N-TL ; ! ""
+naluat:nalua N-TL ; ! "raíz"
+milajmosot:milajmoso N-TL ; ! ""
+huejhueikilit:huejhueikili N-TL ; ! ""
+tepechilkohuit:tepe%>chil%>kohui N-TL ; ! ""
+kuitakohuit:kuita%>kohui N-TL ; ! ""
+komit:komi N-TL ; ! "olla"
+kopalkohuit:kopal%>kohuit N-TL ; ! ""
+okuilkohuit:okuil%>kohuit N-TL ; ! ""
+amakohuit:ama%>kohuit N-TL ; ! ""
+chilkohuit:chil%>kohuit N-TL ; ! ""
+chichihualayot:chichihualayo N-TL ; ! ""
+kohuat:kohua N-TL ; ! "víbora, serpiente"
+sempohualxochit:sempohual%>xochi N-TL ; ! ""
+papalokilit:papalo%>kilit N-TL ; ! ""
+ojti:oj N-TLI ; ! "camino"
+et:e N-TL ; ! "frijol"
 
 
 !FIXME: Comprobar
 
 ixpan:ixpan N-Ø ; ! ""
+
+
+trabajo:trabajo N-SPA ; ! ""
 
 LEXICON Propios 
 
@@ -485,7 +524,7 @@ ijkon:ijkon ADV ; ! "así"
 
 ya:ya ADV ; ! ""
 
-saj:saj ADV ; ! ""
+saj:saj ADV ; ! "sólo"
 
 kemej:kemej ADV ; ! "como" ! FIXME: Comprobar categoría
 
@@ -500,6 +539,10 @@ neli:neli ADV ; ! "certamente"
 xa:xa ADV ; ! ""
 
 kachi:kachi ADV ; ! "más"
+
+satepan:satepan ADV ; ! "después"
+
+casi:casi ADV ; ! "casi"
 
 LEXICON Interyecciones
 
@@ -524,6 +567,7 @@ ixmati:ixmati V-TV ; ! "conocer"
 teki:teki V-TV ; ! "cortar"
 ilia:ilia V-TV ; ! "llamar"
 kua:kua V-TV ; ! "comer"
+namaka:namaka V-TV ; ! "vender"
 
 LEXICON IV
 
