@@ -7,6 +7,7 @@ Multichar_Symbols
 %<prn%>                                ! Pronombre
 %<cop%>
 %<adv%>
+%<ij%>
 
 %<pl%>                                 ! Plural
 
@@ -39,6 +40,9 @@ Multichar_Symbols
 %<px2pl%>
 %<px3pl%>
 
+%{w%}
+%{i%}
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
@@ -50,6 +54,8 @@ Relacionales ;
 Sustantivos  ; 
 Adverbios ; 
 Números ; 
+Interyecciones ;
+Conjunciones ;
 Prefijos ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -59,6 +65,7 @@ LEXICON PRON-NEHUATL
 %<abs%>:%>huatl # ; 
 %<hon%>:%>hua%>tsin # ; 
 %<short%>:%>j # ; 
+:%>hua # ; 
 
 LEXICON PRON-SG1
 
@@ -147,7 +154,7 @@ LEXICON AGR-SUBJ-TV
 
 LEXICON AGR-OBJ-TV
 
-%<o_sg3%>:k%> TV ; 
+%<o_sg3%>:k%{i%}%> TV ; 
 %<o_pl3%>:kin%> TV ; 
 
 LEXICON N-PREF
@@ -172,11 +179,23 @@ LEXICON DET
 
 %<det%>: # ;
 
+LEXICON INTERJ
+
+%<ij%>: # ; 
+
+LEXICON CC 
+
+%<cnjcoo%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellanea
 
 etok:etok COP ; ! "estar"
+
+LEXICON Conjunciones 
+
+pero:pero CC ; ! "pero"
 
 LEXICON Determinantes 
 
@@ -211,6 +230,8 @@ Relacionales ;
 LEXICON Relacionales 
 
 huan:huan N-REL ; 
+ka:ka N-REL ; 
+tech:tech N-REL ;
 
 LEXICON Comunes
 
@@ -239,9 +260,13 @@ tsolteko:tsolteko N-Ø ; ! "cabeza"
 xochit:xochi N-TL ; ! "flor"
 yolot:yolo N-TL ; ! "corazón"
 tekuani:tekuani N-Ø ; ! "bestia"
+kohuit:kohui N-TL ; ! "árbol, leña"
+xihuit:xihui N-TL ; ! "hierba"
 
 
 LEXICON Adverbios 
+
+amo:amo ADV ; ! "no"
 
 kuali:kuali ADV ; ! "bien"
 
@@ -250,10 +275,15 @@ ompa:ompa ADV ; ! "allá"
 ne:ne ADV ; ! "allá"
 
 
+LEXICON Interyecciones
+
+kemaj:kemaj INTERJ ; ! "sí"
+
 LEXICON TV
 
 piya:piya V-TV ; ! "tener"
 chihua:chihua V-TV ; ! "hacer"
+matia:mati V-TV ; ! "hacer"
 
 LEXICON IV
 
