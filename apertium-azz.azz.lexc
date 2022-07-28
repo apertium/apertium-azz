@@ -8,6 +8,8 @@ Multichar_Symbols
 %<cop%>
 %<adv%>
 %<ij%>
+%<cnjcoo%>
+%<cnjsub%>
 
 %<pl%>                                 ! Plural
 
@@ -57,6 +59,7 @@ Números ;
 Interyecciones ;
 Conjunciones ;
 Prefijos ; 
+Punctuación ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -66,6 +69,14 @@ LEXICON PRON-NEHUATL
 %<hon%>:%>hua%>tsin # ; 
 %<short%>:%>j # ; 
 :%>hua # ; 
+
+LEXICON PRON-TEHUAN
+
+%<abs%>:%>huan # ; 
+!%<hon%>:%>hua%>tsin # ; 
+!%<short%>:%>j # ; 
+!:%>hua # ; 
+
 
 LEXICON PRON-SG1
 
@@ -78,6 +89,11 @@ LEXICON PRON-SG2
 LEXICON PRON-SG3
 
 %<prn%>%<pers%>%<sg3%>: PRON-NEHUATL ;
+
+LEXICON PRON-PL1
+
+%<prn%>%<pers%>%<pl1%>: PRON-TEHUAN ;
+
 
 LEXICON N-POSS
 %<n%>:%>%{w%} # ; ! falta una regla morfofonemica que borra esto después de un consonante 
@@ -113,13 +129,23 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
+LEXICON V-AGR 
+
+: # ; 
+:%>j # ; 
+
+LEXICON V-TAM
+
+%<pres%>: V-AGR ;
+%<fut%>:%>s V-AGR ;
+
 LEXICON V-TV 
 
-%<v%>%<tv%>: # ; 
+%<v%>%<tv%>: V-TAM ; 
 
 LEXICON V-IV
 
-%<v%>%<iv%>: # ; 
+%<v%>%<iv%>: V-TAM ; 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -183,6 +209,11 @@ LEXICON INTERJ
 
 %<ij%>: # ; 
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
+
 LEXICON CC 
 
 %<cnjcoo%>: # ;
@@ -197,15 +228,20 @@ LEXICON Conjunciones
 
 pero:pero CC ; ! "pero"
 
+porque:porque CS ; ! "porque"
+para:para CS ; ! "porque"
+
 LEXICON Determinantes 
 
 in:in DET ; ! "el"
+in:n DET ; ! "el"
 
 LEXICON Pronombres
 
 nehuatl:ne PRON-SG1 ;
 tehuatl:te PRON-SG2 ;
 yehuatl:ye PRON-SG3 ;
+tehuan:te PRON-PL1 ;
 
 LEXICON Números
 
@@ -274,6 +310,9 @@ nikan:nikan ADV ; ! "aquí"
 ompa:ompa ADV ; ! "allá"
 ne:ne ADV ; ! "allá"
 
+nochipa:nochipa ADV ; ! "cada día, siempre"
+
+pos:pos ADV ; ! "pues"
 
 LEXICON Interyecciones
 
@@ -284,8 +323,18 @@ LEXICON TV
 piya:piya V-TV ; ! "tener"
 chihua:chihua V-TV ; ! "hacer"
 matia:mati V-TV ; ! "hacer"
+neki:neki V-TV ; ! "querer"
 
 LEXICON IV
 
 kochi:kochi V-IV ; ! "dormir"
 huala:huala V-IV ; ! "llegar"
+
+LEXICON Punctuación
+
+%.%<sent%>:%. # ; 
+%!%<sent%>:%! # ; 
+%?%<sent%>:%? # ; 
+%¿%<sent%>:%¿ # ; 
+%¡%<sent%>:%¡ # ; 
+%,%<cm%>:%, # ; 
