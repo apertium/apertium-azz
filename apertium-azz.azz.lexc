@@ -247,11 +247,13 @@ kuali:kuali ADV ; ! "bien"
 
 nikan:nikan ADV ; ! "aquí"
 ompa:ompa ADV ; ! "allá"
+ne:ne ADV ; ! "allá"
 
 
 LEXICON TV
 
 piya:piya V-TV ; ! "tener"
+chihua:chihua V-TV ; ! "hacer"
 
 LEXICON IV
 
