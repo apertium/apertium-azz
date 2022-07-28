@@ -5,3 +5,4 @@ all:
 	hfst-regexp2fst -S -o azz.spellrelax.hfst < apertium-azz.azz.spellrelax
 	hfst-compose-intersect -1 azz.lexc.hfst -2 azz.twol.hfst | hfst-compose-intersect -1 - -2 azz.mor.twol.hfst | hfst-compose-intersect -1 - -2 azz.spellrelax.hfst  | hfst-invert -o azz.mor.hfst
 	hfst-fst2fst -O azz.mor.hfst -o azz.automorf.hfst
+	apertium-gen-modes modes.xml

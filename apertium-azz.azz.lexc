@@ -7,11 +7,24 @@ Multichar_Symbols
 %<prn%>                                ! Pronombre
 %<cop%>
 %<adv%>
+%<det%>
 %<ij%>
 %<cnjcoo%>
 %<cnjsub%>
+%<pr%>
+%<cm%>
+%<sent%>
 
 %<pl%>                                 ! Plural
+
+%<pers%>
+%<dem%>
+%<refl%>
+
+%<short%>
+
+%<top%>
+%<ant%>
 
 %<sg1%>
 %<sg2%>
@@ -58,6 +71,7 @@ Adverbios ;
 Números ; 
 Interyecciones ;
 Conjunciones ;
+Propios ;
 Prefijos ; 
 Punctuación ;
 
@@ -94,6 +108,11 @@ LEXICON PRON-PL1
 
 %<prn%>%<pers%>%<pl1%>: PRON-TEHUAN ;
 
+LEXICON PRON-PL2
+
+%<prn%>%<pers%>%<pl2%>: PRON-TEHUAN ;
+
+
 
 LEXICON N-POSS
 %<n%>:%>%{w%} # ; ! falta una regla morfofonemica que borra esto después de un consonante 
@@ -121,6 +140,13 @@ LEXICON N-Ø
 %<n%>%<pl%>:%>mej # ; 
 N-POSS ;
 
+LEXICON N-IN
+
+%<n%>%<abs%>:%>in # ; 
+%<n%>%<pl%>:%>mej # ; 
+N-POSS ;
+
+
 LEXICON NUM 
 
 %<num%>: # ; 
@@ -129,15 +155,28 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
-LEXICON V-AGR 
+LEXICON V-AGR-PRES
 
 : # ; 
 :%>j # ; 
 
+LEXICON V-AGR-PROG
+
+: # ; 
+:%>ej # ; 
+
+
+LEXICON V-AGR-FUT
+
+: # ; 
+:%>ke%>j # ; 
+
+
 LEXICON V-TAM
 
-%<pres%>: V-AGR ;
-%<fut%>:%>s V-AGR ;
+%<pres%>: V-AGR-PRES ;
+%<fut%>:%>s V-AGR-FUT ;
+%<prog%>:%>tok V-AGR-PROG ;
 
 LEXICON V-TV 
 
@@ -146,7 +185,6 @@ LEXICON V-TV
 LEXICON V-IV
 
 %<v%>%<iv%>: V-TAM ; 
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -182,6 +220,7 @@ LEXICON AGR-OBJ-TV
 
 %<o_sg3%>:k%{i%}%> TV ; 
 %<o_pl3%>:kin%> TV ; 
+%<refl%>:mo%> TV ; 
 
 LEXICON N-PREF
 POSS-SUST ;
@@ -213,10 +252,26 @@ LEXICON CS
 
 %<cnjsub%>: # ;
 
+LEXICON PRON 
+
+%<prn%>: # ;
+
 
 LEXICON CC 
 
 %<cnjcoo%>: # ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: # ; 
+
+LEXICON NP-COG
+
+%<np%>%<cog%>: # ; 
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -226,9 +281,15 @@ etok:etok COP ; ! "estar"
 
 yehuatl%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
 
+de%<pr%>:de # ; 
+
+maj%<aux%>:maj # ; 
+maj%<aux%>:ma # ; 
+
 LEXICON Conjunciones 
 
 pero:pero CC ; ! "pero"
+huan:huan CC ; ! "y"
 
 porque:porque CS ; ! "porque"
 para:para CS ; ! "porque"
@@ -237,6 +298,11 @@ LEXICON Determinantes
 
 in:in DET ; ! "el"
 in:n DET ; ! "el"
+in:n%' DET ; ! "el"
+
+no:no DET ; ! "este"
+okse:okse DET ; ! "otro"
+miak:miak DET ; ! "mucho"
 
 LEXICON Pronombres
 
@@ -244,6 +310,14 @@ nehuatl:ne PRON-SG1 ;
 tehuatl:te PRON-SG2 ;
 yehuatl:ye PRON-SG3 ;
 tehuan:te PRON-PL1 ;
+namehuan:name PRON-PL2 ;
+
+!namehwan namoixpan onkak wan ika yon nantekitih.
+
+nochi:nochi PRON ;
+tein:tein PRON ;
+toni:toni PRON ;
+nen:nen PRON ;
 
 LEXICON Números
 
@@ -257,6 +331,7 @@ chikome:chikome NUM ; ! "siete"
 chikueyi:chikueyi NUM ; ! "ocho"
 chiknahui:chiknahui NUM ; ! "nueve"
 majtakti:majtakti NUM ; ! "diez"
+majtakti:majtak NUM ; ! "diez"
 kaxtol:kaxtol NUM ; ! "quince"
 pohual:pohual NUM ; ! "veinte"
 
@@ -300,7 +375,33 @@ yolot:yolo N-TL ; ! "corazón"
 tekuani:tekuani N-Ø ; ! "bestia"
 kohuit:kohui N-TL ; ! "árbol, leña"
 xihuit:xihui N-TL ; ! "hierba"
+okuilin:okuil N-IN ; ! "animal"
+tokay:tokay N-Ø ; ! "nombre"
+pajti:pajti N-Ø ; ! "medicina"
+pili:pili N-Ø ; ! "niño"
 
+
+!FIXME: Comprobar
+
+ixpan:ixpan N-Ø ; ! ""
+
+LEXICON Propios 
+
+Miguel:Miguel NP-ANT-M ; 
+Anastacio:Anastacio NP-ANT-M ; 
+Nicolas:Nicolas NP-ANT-M ; 
+Damian:Damian NP-ANT-M ; 
+Ernesto:Ernesto NP-ANT-M ; 
+
+Vazquez:Vazquez NP-COG ; 
+
+Tzinacapan:Tzinacapan NP-TOP ;
+Ometepetl:Ometepetl NP-TOP ;
+Tetela:Tetela NP-TOP ;
+Cuetzalan:Cuetzalan NP-TOP ;
+Matixco:Matixco NP-TOP ;
+Zacaloma:Zacaloma NP-TOP ;
+Omitlan:Omitlan NP-TOP ;
 
 LEXICON Adverbios 
 
@@ -311,14 +412,28 @@ kuali:kuali ADV ; ! "bien"
 nikan:nikan ADV ; ! "aquí"
 ompa:ompa ADV ; ! "allá"
 ne:ne ADV ; ! "allá"
+onkak:onkak ADV ; ! "aquí"
 
 nochipa:nochipa ADV ; ! "cada día, siempre"
 
 pos:pos ADV ; ! "pues"
+entos:entos ADV ; ! "entonces"
+
+semi:semi ADV ; ! "muy"
+
+miak:miak ADV ; ! "mucho"
+
+ayamo:ayamo ADV ; ! ""
+
+ijkon:ijkon ADV ; ! "así"
+
+ya:ya ADV ; ! ""
 
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
+este:este INTERJ ; ! ""
+aja:aja INTERJ ; ! ""
 
 LEXICON TV
 
@@ -326,11 +441,19 @@ piya:piya V-TV ; ! "tener"
 chihua:chihua V-TV ; ! "hacer"
 matia:mati V-TV ; ! "hacer"
 neki:neki V-TV ; ! "querer"
+notsa:notsa V-TV ; ! "llamar"
+nonotsa:nonotsa V-TV ; ! "platicar"
+ita:ita V-TV ; ! "ver"
+tokaytia:tokaytia V-TV ; ! "nombrar, llamar"
+ijtohua:ijtohua V-TV ; ! "decir"
 
 LEXICON IV
 
 kochi:kochi V-IV ; ! "dormir"
 huala:huala V-IV ; ! "llegar"
+choka:choka V-IV ; ! "llorar"
+tekiti:tekiti V-IV ; ! "trabajar"
+chanchihua:chanchihua V-IV ; ! "vivir"
 
 LEXICON Punctuación
 
