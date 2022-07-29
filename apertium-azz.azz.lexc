@@ -57,6 +57,7 @@ Multichar_Symbols
 
 %{w%}
 %{i%}
+%{j%}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -172,6 +173,9 @@ LEXICON ADV-REL
 
 %<adv%>%<rel%>: # ; 
 
+LEXICON V-FUT-AUX
+
+%+neki%<aux%>:%>neki # ;
 
 LEXICON V-AGR-PRES
 
@@ -189,6 +193,14 @@ LEXICON V-AGR-FUT
 : # ; 
 :%>ke%>j # ; 
 
+V-FUT-AUX ; 
+
+
+LEXICON V-TAM-A
+
+%<pres%>:%>a V-AGR-PRES ;
+%<fut%>:%>s V-AGR-FUT ;
+%<prog%>:%>tok V-AGR-PROG ;
 
 LEXICON V-TAM
 
@@ -199,6 +211,10 @@ LEXICON V-TAM
 LEXICON V-TV 
 
 %<v%>%<tv%>: V-TAM ; 
+
+LEXICON V-TV-A
+
+%<v%>%<tv%>: V-TAM-A ;
 
 LEXICON V-IV
 
@@ -244,6 +260,8 @@ LEXICON AGR-OBJ-TV
 %<o_pl2%>:namech%> TV ; 
 %<o_pl3%>:kin%> TV ; 
 %<refl%>:mo%> TV ; 
+%<o_nn%>:ta%> TV ; 
+%<o_aa%>:te%> TV ; 
 
 LEXICON N-PREF
 POSS-SUST ;
@@ -461,6 +479,8 @@ sempohualxochit:sempohual%>xochi N-TL ; ! ""
 papalokilit:papalo%>kilit N-TL ; ! ""
 ojti:oj N-TLI ; ! "camino"
 et:e N-TL ; ! "frijol"
+tapial:tapial N-Ø ; ! "animal"
+tamal:tamal N-Ø ; ! "tamale"
 
 
 !FIXME: Comprobar
@@ -556,18 +576,22 @@ LEXICON TV
 
 piya:piya V-TV ; ! "tener"
 chihua:chihua V-TV ; ! "hacer"
-matia:mati V-TV ; ! "hacer"
 neki:neki V-TV ; ! "querer"
-notsa:notsa V-TV ; ! "llamar"
-nonotsa:nonotsa V-TV ; ! "platicar"
+mati:mati V-TV ; ! "saber"
 ita:ita V-TV ; ! "ver"
-tokaytia:tokaytia V-TV ; ! "nombrar, llamar"
-ijtohua:ijtohua V-TV ; ! "decir"
 ixmati:ixmati V-TV ; ! "conocer"
 teki:teki V-TV ; ! "cortar"
 ilia:ilia V-TV ; ! "llamar"
 kua:kua V-TV ; ! "comer"
 namaka:namaka V-TV ; ! "vender"
+maka:maka V-TV ; ! "dar"
+notsa:notsa V-TV ; ! "llamar"
+nonotsa:no%{j%}notsa V-TV ; ! "platicar"
+ijtohua:ijtohua V-TV ; ! "decir"
+
+tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
+palehuia:palehui V-TV-A ; ! "ayudar"
+tajtania:ta%{j%}tani V-TV-A ; ! ""
 
 LEXICON IV
 
