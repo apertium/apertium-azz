@@ -169,6 +169,11 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ; 
+
+
 LEXICON ADV-REL
 
 %<adv%>%<rel%>: # ; 
@@ -285,6 +290,12 @@ LEXICON COP
 
 %<cop%>: # ;
 
+LEXICON DET-OKSE
+
+%<det%>: # ;
+%<det%>%<pl%>:%>ki # ;
+
+
 LEXICON DET
 
 %<det%>: # ;
@@ -351,7 +362,7 @@ in:n DET ; ! "el"
 in:n%' DET ; ! "el"
 
 no:no DET ; ! "este"
-okse:okse DET ; ! "otro"
+okse:okse DET-OKSE ; ! "otro"
 miak:miak DET ; ! "mucho"
 
 LEXICON Pronombres
@@ -369,6 +380,7 @@ nochi:nochi PRON ;
 tein:tein PRON ;
 toni:toni PRON ;
 nen:nen PRON ;
+seki:seki PRON ; ! "algunos"
 
 LEXICON Números
 
@@ -564,6 +576,13 @@ satepan:satepan ADV ; ! "después"
 
 casi:casi ADV ; ! "casi"
 
+keni:keni ADV-ITG ; ! "cómo"
+keni:keniuh ADV-ITG ; ! "cómo"
+
+ok:ok ADV ; ! ""
+
+oksepa:oksepa ADV ; ! "otro momento"
+
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
@@ -571,6 +590,7 @@ este:este INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
 mm:mm INTERJ ; ! ""
 a:a INTERJ ; ! ""
+igual:igual INTERJ ; ! ""
 
 LEXICON TV
 
@@ -588,6 +608,7 @@ maka:maka V-TV ; ! "dar"
 notsa:notsa V-TV ; ! "llamar"
 nonotsa:no%{j%}notsa V-TV ; ! "platicar"
 ijtohua:ijtohua V-TV ; ! "decir"
+toka:toka V-TV ; ! "sembrar"
 
 tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
 palehuia:palehui V-TV-A ; ! "ayudar"
@@ -602,6 +623,7 @@ tekiti:tekiti V-IV ; ! "trabajar"
 chanchihua:chanchihua V-IV ; ! "vivir"
 kualtia:kualtia V-IV ; ! "servir"
 moskaltia:moskaltia V-IV ; ! "crecer"
+xochiohua:xochiohua V-IV ; ! "florecer"
 
 LEXICON Punctuación
 
