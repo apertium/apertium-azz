@@ -145,7 +145,9 @@ N-POSS ;
 LEXICON N-Ø
 
 %<n%>%<abs%>: # ; 
+%<n%>%<hon%>:%>tsin # ; 
 %<n%>%<pl%>:%>mej # ; 
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin # ; 
 N-POSS ;
 
 LEXICON N-IN
@@ -198,32 +200,41 @@ LEXICON V-AGR-FUT
 : # ; 
 :%>ke%>j # ; 
 
+LEXICON V-AGR-PLU
+
+: # ; 
+:%>j # ; 
+
+
 V-FUT-AUX ; 
 
-
-LEXICON V-TAM-A
-
-%<pres%>:%>a V-AGR-PRES ;
-%<fut%>:%>s V-AGR-FUT ;
-%<prog%>:%>tok V-AGR-PROG ;
-
-LEXICON V-TAM
+LEXICON V-TAM-PRES
 
 %<pres%>: V-AGR-PRES ;
 %<fut%>:%>s V-AGR-FUT ;
 %<prog%>:%>tok V-AGR-PROG ;
 
-LEXICON V-TV 
+LEXICON V-TAM-PRET
 
-%<v%>%<tv%>: V-TAM ; 
+%<pret%>: V-AGR-PRES ;
+%<plu%>: V-AGR-PLU ;
 
-LEXICON V-TV-A
+LEXICON V-TV-PRES
 
-%<v%>%<tv%>: V-TAM-A ;
+%<v%>%<tv%>: V-TAM-PRES ; 
 
-LEXICON V-IV
+LEXICON V-TV-PRET
 
-%<v%>%<iv%>: V-TAM ; 
+%<v%>%<tv%>: V-TAM-PRET ; 
+
+LEXICON V-IV-PRES
+
+%<v%>%<iv%>: V-TAM-PRES ; 
+
+LEXICON V-IV-PRET
+
+%<v%>%<iv%>: V-TAM-PRET ; 
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -494,6 +505,7 @@ ojti:oj N-TLI ; ! "camino"
 et:e N-TL ; ! "frijol"
 tapial:tapial N-Ø ; ! "animal"
 tamal:tamal N-Ø ; ! "tamale"
+tajtol:tajtol N-Ø ; ! "palabra, lengua"
 
 
 !FIXME: Comprobar
@@ -595,36 +607,93 @@ igual:igual INTERJ ; ! ""
 
 LEXICON TV
 
-piya:piya V-TV ; ! "tener"
-chihua:chihua V-TV ; ! "hacer"
-neki:neki V-TV ; ! "querer"
-mati:mati V-TV ; ! "saber"
-ita:ita V-TV ; ! "ver"
-ixmati:ixmati V-TV ; ! "conocer"
-teki:teki V-TV ; ! "cortar"
-ilia:ilia V-TV ; ! "llamar"
-kua:kua V-TV ; ! "comer"
-namaka:namaka V-TV ; ! "vender"
-maka:maka V-TV ; ! "dar"
-notsa:notsa V-TV ; ! "llamar"
-nonotsa:no%{j%}notsa V-TV ; ! "platicar"
-ijtohua:ijtohua V-TV ; ! "decir"
-toka:toka V-TV ; ! "sembrar"
+piya:piya V-TV-PRES ; ! "tener"
+piya:pix V-TV-PRET ; ! "tener"
 
-tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
-palehuia:palehui V-TV-A ; ! "ayudar"
-tajtania:ta%{j%}tani V-TV-A ; ! ""
+chihua:chihua V-TV-PRES ; ! "hacer"
+chihua:chihua V-TV-PRET ; ! "hacer"
+
+ijtohua:ijtohua V-TV-PRES ; ! "decir"
+ijtohua:ijtohua V-TV-PRET ; ! "decir"
+
+ilia:ilia V-TV-PRES ; ! "llamar"
+ilia:ilia V-TV-PRET ; ! "llamar"
+
+ita:ita V-TV-PRES ; ! "ver"
+ita:ita V-TV-PRET ; ! "ver"
+
+ixmati:ixmati V-TV-PRES ; ! "conocer"
+ixmati:ixmati V-TV-PRET ; ! "conocer"
+
+kua:kua V-TV-PRES ; ! "comer"
+kua:kua V-TV-PRET ; ! "comer"
+
+maka:maka V-TV-PRES ; ! "dar"
+maka:maka V-TV-PRET ; ! "dar"
+
+mati:mati V-TV-PRES ; ! "saber"
+mati:mati V-TV-PRET ; ! "saber"
+
+namaka:namaka V-TV-PRES ; ! "vender"
+namaka:namaka V-TV-PRET ; ! "vender"
+
+neki:neki V-TV-PRES ; ! "querer"
+neki:neki V-TV-PRET ; ! "querer"
+
+notsa:notsa V-TV-PRES ; ! "llamar"
+notsa:notsa V-TV-PRET ; ! "llamar"
+
+nonotsa:no%{j%}notsa V-TV-PRES ; ! "platicar"
+nonotsa:no%{j%}notsa V-TV-PRET ; ! "platicar"
+
+teki:teki V-TV-PRES ; ! "cortar"
+teki:teki V-TV-PRET ; ! "cortar"
+
+toka:toka V-TV-PRES ; ! "sembrar"
+toka:toka V-TV-PRET ; ! "sembrar"
+
+kahua:kahua V-TV-PRES ; ! "dejar"
+kahua:kahua V-TV-PRET ; ! "dejar"
+
+!tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
+!palehuia:palehui V-TV-A ; ! "ayudar"
+!tajtania:ta%{j%}tani V-TV-A ; ! ""
 
 LEXICON IV
 
-kochi:kochi V-IV ; ! "dormir"
-huala:huala V-IV ; ! "llegar"
-choka:choka V-IV ; ! "llorar"
-tekiti:tekiti V-IV ; ! "trabajar"
-chanchihua:chanchihua V-IV ; ! "vivir"
-kualtia:kualtia V-IV ; ! "servir"
-moskaltia:moskaltia V-IV ; ! "crecer"
-xochiohua:xochiohua V-IV ; ! "florecer"
+chanchihua:chanchihua V-IV-PRES ; ! "vivir"
+chanchihua:chanchihua V-IV-PRET ; ! "vivir"
+
+choka:choka V-IV-PRES ; ! "llorar"
+choka:choka V-IV-PRET ; ! "llorar"
+
+kisa:kisa V-IV-PRES ; ! "salir"
+kisa:kisa V-IV-PRET ; ! "salir"
+
+nemi:nemi V-IV-PRES ; ! "caminar"
+nemi:nemi V-IV-PRET ; ! "caminar"
+
+huala:huala V-IV-PRES ; ! "llegar"
+huala:huala V-IV-PRET ; ! "llegar"
+
+huihuiti:hui%{j%}huiti V-IV-PRES ; ! "salir"
+huihuiti:hui%{j%}huiti V-IV-PRET ; ! "salir"
+
+kochi:kochi V-IV-PRES ; ! "dormir"
+kochi:kochi V-IV-PRET ; ! "dormir"
+
+kualtia:kualtia V-IV-PRES ; ! "servir"
+kualtia:kualtia V-IV-PRET ; ! "servir"
+
+moskaltia:moskaltia V-IV-PRES ; ! "crecer"
+moskaltia:moskaltia V-IV-PRET ; ! "crecer"
+
+tekiti:tekiti V-IV-PRES ; ! "trabajar"
+tekiti:tekiti V-IV-PRET ; ! "trabajar"
+
+xochiohua:xochiohua V-IV-PRES ; ! "florecer"
+xochiohua:xochiohua V-IV-PRET ; ! "florecer"
+
 
 LEXICON Punctuación
 
