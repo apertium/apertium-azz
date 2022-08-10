@@ -211,12 +211,13 @@ V-FUT-AUX ;
 LEXICON V-TAM-PRES
 
 %<pres%>: V-AGR-PRES ;
+%<imper%>:%>ya V-AGR-PRES ;
 %<fut%>:%>s V-AGR-FUT ;
 %<prog%>:%>tok V-AGR-PROG ;
 
 LEXICON V-TAM-PRET
 
-%<pret%>: V-AGR-PRES ;
+%<pret%>:%>k V-AGR-PRES ;
 %<plu%>: V-AGR-PLU ;
 
 LEXICON V-TV-PRES
@@ -242,6 +243,11 @@ LEXICON Prefijos
 
 Transitivo ;
 Intransitivo ;
+Predicados ;
+
+LEXICON Predicados
+
+ADV-INCORP-ADJ ; 
 
 LEXICON Transitivo
 
@@ -251,12 +257,12 @@ LEXICON Intransitivo
 AGR-SUBJ-IV ;
 
 LEXICON AGR-SUBJ-IV
-%<s_sg1%>:ni%> N-PREF ;
-%<s_sg2%>:ti%> N-PREF ;
-%<s_sg3%>:0%> N-PREF ;
-%<s_pl1%>:ti%> N-PREF ;
-%<s_pl2%>:nan%> N-PREF ;
-%<s_pl3%>:0%> N-PREF ;
+%<s_sg1%>:ni%> ADV-INCORP-IV ;
+%<s_sg2%>:ti%> ADV-INCORP-IV ;
+%<s_sg3%>:0%> ADV-INCORP-IV ;
+%<s_pl1%>:ti%> ADV-INCORP-IV ;
+%<s_pl2%>:nan%> ADV-INCORP-IV ;
+%<s_pl3%>:0%> ADV-INCORP-IV ;
 
 LEXICON AGR-SUBJ-TV 
 
@@ -269,15 +275,36 @@ LEXICON AGR-SUBJ-TV
 
 LEXICON AGR-OBJ-TV
 
-%<o_sg1%>:nech%> TV ; 
-%<o_sg2%>:mits%> TV ; 
-%<o_sg3%>:k%{i%}%> TV ; 
-%<o_pl1%>:tech%> TV ; 
-%<o_pl2%>:namech%> TV ; 
-%<o_pl3%>:kin%> TV ; 
-%<refl%>:mo%> TV ; 
-%<o_nn%>:ta%> TV ; 
-%<o_aa%>:te%> TV ; 
+%<o_sg1%>:nech%> ADV-INCORP-TV ; 
+%<o_sg2%>:mits%> ADV-INCORP-TV ; 
+%<o_sg3%>:k%{i%}%> ADV-INCORP-TV ; 
+%<o_pl1%>:tech%> ADV-INCORP-TV ; 
+%<o_pl2%>:namech%> ADV-INCORP-TV ; 
+%<o_pl3%>:kin%> ADV-INCORP-TV ; 
+%<refl%>:mo%> ADV-INCORP-TV ; 
+%<o_nn%>:ta%> ADV-INCORP-TV ; 
+%<o_aa%>:te%> ADV-INCORP-TV ; 
+
+LEXICON ADV-INCORP-IV
+
+%<a_yek%>:yek%> IV ;
+%<a_tel%>:tel%> IV ;
+
+N-PREF ;
+IV ;
+                IV ;
+
+LEXICON ADV-INCORP-TV
+
+%<a_yek%>:yek%> TV ;
+%<a_tel%>:tel%> TV ;
+                TV ;
+
+LEXICON ADV-INCORP-ADJ
+
+yek%<adv%>%+:yek%> Adjetivos ;
+tel%<adv%>%+:tel%> Adjetivos ;
+
 
 LEXICON N-PREF
 POSS-SUST ;
@@ -299,7 +326,7 @@ LEXICON ADJ
 
 LEXICON COP 
 
-%<cop%>: # ;
+%<cop%>: V-AGR-PROG ;
 
 LEXICON DET-OKSE
 
@@ -336,6 +363,11 @@ LEXICON NP-COG
 
 %<np%>%<cog%>: # ; 
 
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: # ;
+
+
 LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>: # ;
@@ -345,6 +377,7 @@ LEXICON NP-ANT-M
 LEXICON Miscellanea
 
 etok:etok COP ; ! "estar"
+yetok:yetok COP ; ! "estar"
 
 yehuatl%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
 
@@ -378,9 +411,9 @@ miak:miak DET ; ! "mucho"
 
 LEXICON Pronombres
 
-nehuatl:ne PRON-SG1 ;
-tehuatl:te PRON-SG2 ;
-yehuatl:ye PRON-SG3 ;
+nehua:ne PRON-SG1 ;
+tehua:te PRON-SG2 ;
+yehua:ye PRON-SG3 ;
 tehuan:te PRON-PL1 ;
 namehuan:name PRON-PL2 ;
 yehuan:ye PRON-PL3 ;
@@ -519,11 +552,14 @@ LEXICON Propios
 
 Miguel:Miguel NP-ANT-M ; 
 Anastacio:Anastacio NP-ANT-M ; 
-Nicolas:Nicolas NP-ANT-M ; 
-Damian:Damian NP-ANT-M ; 
+Nicolás:Nicolás NP-ANT-M ; 
+Damián:Damián NP-ANT-M ; 
 Ernesto:Ernesto NP-ANT-M ; 
 
-Vazquez:Vazquez NP-COG ; 
+Celina:Celina NP-ANT-F ; 
+María:María NP-ANT-F ; 
+
+Vázquez:Vázquez NP-COG ; 
 
 San:San NP-TOP ;
 Tzinacapan:Tzinacapan NP-TOP ;
@@ -534,13 +570,20 @@ Cuetzalan:Cuetzalan NP-TOP ;
 Matixco:Matixco NP-TOP ;
 Zacaloma:Zacaloma NP-TOP ;
 Omitlan:Omitlan NP-TOP ;
+Xopanaco:Xopanaco NP-TOP ;
+Jonotla:Jonotla NP-TOP ;
+Tozan:Tozan NP-TOP ;
 
 LEXICON Adjetivos 
 
 huelik:huelik ADJ ; ! "bueno"
+huehuelik:hue%{j%}huelik ADJ ; ! "bueno"
 istak:istak ADJ ; ! "blanco"
+nextik:nextik ADJ ; ! "gris"
+nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
 kuali:kuali ADJ ; ! "bonito"
+huehuei:huehuei ADJ ; ! "grande"
 
 LEXICON Adverbios 
 
@@ -596,6 +639,9 @@ ok:ok ADV ; ! ""
 
 oksepa:oksepa ADV ; ! "otro momento"
 
+yek:yek ADV ; ! "muy"
+tel:tel ADV ; ! "muy"
+
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
@@ -609,6 +655,9 @@ LEXICON TV
 
 piya:piya V-TV-PRES ; ! "tener"
 piya:pix V-TV-PRET ; ! "tener"
+
+chichihua:chi%{j%}chihua V-TV-PRES ; ! "hacer"
+chichihua:chi%{j%}chihua V-TV-PRET ; ! "hacer"
 
 chihua:chihua V-TV-PRES ; ! "hacer"
 chihua:chihua V-TV-PRET ; ! "hacer"
@@ -652,14 +701,14 @@ teki:teki V-TV-PRET ; ! "cortar"
 toka:toka V-TV-PRES ; ! "sembrar"
 toka:toka V-TV-PRET ; ! "sembrar"
 
-kahua:kahua V-TV-PRES ; ! "dejar"
-kahua:kahua V-TV-PRET ; ! "dejar"
 
 !tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
 !palehuia:palehui V-TV-A ; ! "ayudar"
 !tajtania:ta%{j%}tani V-TV-A ; ! ""
 
 LEXICON IV
+
+etok:etok COP ; ! "estar"
 
 chanchihua:chanchihua V-IV-PRES ; ! "vivir"
 chanchihua:chanchihua V-IV-PRET ; ! "vivir"
@@ -670,8 +719,8 @@ choka:choka V-IV-PRET ; ! "llorar"
 kisa:kisa V-IV-PRES ; ! "salir"
 kisa:kisa V-IV-PRET ; ! "salir"
 
-nemi:nemi V-IV-PRES ; ! "caminar"
-nemi:nemi V-IV-PRET ; ! "caminar"
+nemi:nemi V-IV-PRES ; ! "caminar, nacer"
+nemi:nemi V-IV-PRET ; ! "caminar, nacer"
 
 huala:huala V-IV-PRES ; ! "llegar"
 huala:huala V-IV-PRET ; ! "llegar"
@@ -694,6 +743,8 @@ tekiti:tekiti V-IV-PRET ; ! "trabajar"
 xochiohua:xochiohua V-IV-PRES ; ! "florecer"
 xochiohua:xochiohua V-IV-PRET ; ! "florecer"
 
+panohua:panohua V-IV-PRES ; ! "trasladar"
+panohua:panohua V-IV-PRET ; ! "trasladar"
 
 LEXICON Punctuación
 
