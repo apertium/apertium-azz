@@ -187,23 +187,23 @@ LEXICON V-FUT-AUX
 LEXICON V-AGR-PRES
 
 : # ; 
-:%>j # ; 
+:%>j # ;  ! Flag PL
 
 LEXICON V-AGR-PROG
 
 : # ; 
-:%>ej # ; 
+:%>ej # ;  ! Flag PL
 
 
 LEXICON V-AGR-FUT
 
 : # ; 
-:%>ke%>j # ; 
+:%>ke%>j # ;  ! Flag PL
 
 LEXICON V-AGR-PLU
 
 : # ; 
-:%>j # ; 
+:%>j # ;  ! Flag PL
 
 
 V-FUT-AUX ; 
@@ -247,7 +247,7 @@ Predicados ;
 
 LEXICON Predicados
 
-ADV-INCORP-ADJ ; 
+AGR-SUBJ-PRED ;
 
 LEXICON Transitivo
 
@@ -263,6 +263,17 @@ LEXICON AGR-SUBJ-IV
 %<s_pl1%>:ti%> ADV-INCORP-IV ;
 %<s_pl2%>:nan%> ADV-INCORP-IV ;
 %<s_pl3%>:0%> ADV-INCORP-IV ;
+
+LEXICON AGR-SUBJ-PRED
+%<s_sg1%>:ni%> ADV-INCORP-ADJ ;
+%<s_sg2%>:ti%> ADV-INCORP-ADJ ;
+%<s_sg3%>:0%> ADV-INCORP-ADJ ;
+%<s_pl1%>:ti%> ADV-INCORP-ADJ ;
+%<s_pl2%>:nan%> ADV-INCORP-ADJ ;
+%<s_pl3%>:0%> ADV-INCORP-ADJ ;
+
+ADV-INCORP-ADJ ;
+
 
 LEXICON AGR-SUBJ-TV 
 
@@ -305,6 +316,8 @@ LEXICON ADV-INCORP-ADJ
 yek%<adv%>%+:yek%> Adjetivos ;
 tel%<adv%>%+:tel%> Adjetivos ;
 
+Adjetivos ;
+
 
 LEXICON N-PREF
 POSS-SUST ;
@@ -322,7 +335,7 @@ LEXICON POSS-SUST
 
 LEXICON ADJ
 
-%<adj%>: # ; 
+%<adj%>: V-AGR-PROG ; 
 
 LEXICON COP 
 
@@ -497,6 +510,7 @@ tepexilot:tepexilot N-TL ; ! "tejilote"
 konet:kone N-TL ; ! "niño"
 tepet:tepe N-TL ; ! "montaña"
 tomat:toma N-TL ; ! "jitomate"
+xitomat:xitoma N-TL ; ! "jitomate"
 komekat:komeka N-TL ; ! "bejuco"
 komekat:kuomeka N-TL ; ! "bejuco" ! Use/Typo
 ixtahuat:ixtahua N-TL ; ! "potrero"
@@ -539,6 +553,10 @@ et:e N-TL ; ! "frijol"
 tapial:tapial N-Ø ; ! "animal"
 tamal:tamal N-Ø ; ! "tamale"
 tajtol:tajtol N-Ø ; ! "palabra, lengua"
+chil:chil N-Ø ; ! "chile"
+xitomachil:xitoma%>chil N-Ø ; ! ""
+xolal:xolal N-Ø ; ! "pueblo"
+xolalkonet:xolal%>kone N-TL ; ! ""
 
 
 !FIXME: Comprobar
@@ -571,6 +589,7 @@ Matixco:Matixco NP-TOP ;
 Zacaloma:Zacaloma NP-TOP ;
 Omitlan:Omitlan NP-TOP ;
 Xopanaco:Xopanaco NP-TOP ;
+Xopanako:Xopanako NP-TOP ;
 Jonotla:Jonotla NP-TOP ;
 Tozan:Tozan NP-TOP ;
 
@@ -584,6 +603,7 @@ nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
 kuali:kuali ADJ ; ! "bonito"
 huehuei:huehuei ADJ ; ! "grande"
+miak:miak ADJ ; ! "mucho"
 
 LEXICON Adverbios 
 
@@ -641,6 +661,11 @@ oksepa:oksepa ADV ; ! "otro momento"
 
 yek:yek ADV ; ! "muy"
 tel:tel ADV ; ! "muy"
+
+
+!!!
+
+xolalpan:xolal%>pan ADV ; ! ""
 
 LEXICON Interyecciones
 
@@ -709,6 +734,7 @@ toka:toka V-TV-PRET ; ! "sembrar"
 LEXICON IV
 
 etok:etok COP ; ! "estar"
+katka:katka COP ; ! ""
 
 chanchihua:chanchihua V-IV-PRES ; ! "vivir"
 chanchihua:chanchihua V-IV-PRET ; ! "vivir"
@@ -749,6 +775,8 @@ panohua:panohua V-IV-PRET ; ! "trasladar"
 LEXICON Punctuación
 
 %.%<sent%>:%. # ; 
+%.%.%<sent%>:%.%. # ; 
+%.%.%.%<sent%>:%.%.%. # ; 
 %!%<sent%>:%! # ; 
 %?%<sent%>:%? # ; 
 %¿%<sent%>:%¿ # ; 
