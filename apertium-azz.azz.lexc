@@ -242,6 +242,7 @@ LEXICON V-TAM-PRES
 %<pres%>: V-AGR-PRES ;
 %<impf%>:%>ya V-AGR-PRES ;
 %<fut%>:%>s V-AGR-FUT ;
+%<cni%>:%>skia V-AGR-PRES ;
 %<prog%>:%>tok V-AGR-PROG ;
 
 LEXICON V-TAM-PRET
@@ -480,6 +481,8 @@ komojkon:komojkon CS ; ! "si"
 komamo:komamo CS ; ! "si"
 porin:porin CS ; ! "porque"
 
+kox:kox CS ; ! "si"
+
 LEXICON Determinantes 
 
 in:in DET ; ! "el"
@@ -662,6 +665,7 @@ chiktej:chiktej N-Ø ; ! "pájaro"
 chiktejkonet:chiktej%>kone N-TL ; ! ""
 ajuiak:ajuiak N-Ø ; ! "olor"
 koutatil:koutatil N-Ø ; ! "leña"
+nano:nano N-Ø ; ! "señora"
 
 toknihuan:toknihua N-HUAN ; ! "persona"
 
@@ -820,12 +824,20 @@ niman:niman ADV ; ! "luego"
 huejka:huejka ADV ; ! "lejos"
 huehuejka:huehuejka ADV ; ! "disperso"
 
+tepitsin:tepitsin ADV ; ! "un poco"
+tepitsitsin:tepitsitsin ADV ; ! "un poquito"
+tetepitsitsin:te%{j%}tepitsitsin ADV ; ! "un poquito"
+tetepitsin:te%{j%}tepitsin ADV ; ! "un poquito"
+
+komo:komo ADV ; ! "como" ! FIXME: Comprobar categoría
+
 !!!
 
 xolalpan:xolal%>pan ADV ; ! ""
 talpan:tal%>pan ADV ; ! ""
 
 !!! 
+
 
 siempre:siempre ADV-ES ; ! "
 después:después ADV-ES ; ! "
@@ -971,6 +983,9 @@ oksi:oksi V-IV-PRET ; ! "madurar"
 
 yoksi:yoksi V-IV-PRES ; ! "madurar"
 yoksi:yoksi V-IV-PRET ; ! "madurar"
+
+selia:selia V-IV-PRES ; ! "retoñar"
+selia:selia V-IV-PRET ; ! "retoñar"
 
 
 
