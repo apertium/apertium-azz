@@ -77,6 +77,7 @@ Propios ;
 Prefijos ; 
 Digitos ;
 Contracciones ;
+Irregulares ; 
 Punctuación ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -179,7 +180,9 @@ N-POSS ;
 LEXICON N-IN
 
 %<n%>%<abs%>:%>in # ; 
+%<n%>%<hon%>:%>tsin # ; 
 %<n%>%<pl%>:i%>mej # ; 
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin # ; 
 N-POSS ;
 
 LEXICON N-O-SPA
@@ -258,6 +261,19 @@ LEXICON V-TV-PRET
 
 %<v%>%<tv%>: V-TAM-PRET ; 
 
+LEXICON V-TV-TI-PRES
+
+%<v%>%<tv%>%<pres%>:%>i V-AGR-PRES ; 
+%<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
+%<v%>%<tv%>%<fut%>:%>is V-AGR-FUT ;
+%<v%>%<tv%>%<impf%>:%>iya V-AGR-PRES ;
+%<v%>%<tv%>%<cni%>:%>iskia V-AGR-PRES ;
+
+LEXICON V-TV-TI-PRET
+
+%<v%>%<tv%>:%>i V-TAM-PRET ; 
+
+
 LEXICON V-TV-HUA-PRES
 
 %<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
@@ -267,7 +283,7 @@ LEXICON V-TV-HUA-PRES
 
 LEXICON V-TV-HUA-PRET
 
-%<v%>%<tv%>:hua V-TAM-PRET ; 
+%<v%>%<tv%>:%>hua V-TAM-PRET ; 
 
 LEXICON V-IV-PRES
 
@@ -379,6 +395,19 @@ LEXICON ADJ
 
 %<adj%>: V-AGR-PROG ; 
 %<adj%>%<hon%>:%>tsin V-AGR-PROG ; 
+%<adj%>%<hon%>%<pl%>:%>tsi%>tsin V-AGR-PROG ; 
+
+LEXICON PL-ES
+
+%<sg%>: # ;
+%<pl%>:%>s # ; 
+
+LEXICON ADJ-ES
+
+%<adj%>%<m%>:%>o PL-ES ; 
+%<adj%>%<f%>:%>a PL-ES ; 
+%<adj%>%<dim%>%<m%>:%>it%>o PL-ES ; 
+%<adj%>%<dim%>%<f%>:%>it%>a PL-ES ; 
 
 LEXICON ADJ-KUALI
 
@@ -466,6 +495,7 @@ huan:huan CC ; ! "y"
 oso:oso CC ; ! "o"
 
 porque:porque CS ; ! "porque"
+porke:porke CS ; ! "porque"
 para:para CS ; ! "para"
 cuando:cuando CS ; ! "cuando"
 que:que CS ; ! "que"
@@ -482,6 +512,8 @@ komamo:komamo CS ; ! "si"
 porin:porin CS ; ! "porque"
 
 kox:kox CS ; ! "si"
+
+sanoke:sanoke CS ; ! "sino que"
 
 LEXICON Determinantes 
 
@@ -560,6 +592,7 @@ ajkol:ajkol N-Ø ; ! "hombro"
 chechelot:chechelo N-TL ; ! "ardilla"
 ejekatl:ejeka N-TL ; ! "viento"
 huehuet:huehue N-TL ; ! "viejo"
+takilot:takilo N-TL ; ! "fruto"
 itskuinti:itskuin N-TLI ; ! "perro"
 kamak:kamak N-Ø ; ! "boca"
 lapo:lapo N-Ø ; ! "recortado"
@@ -582,7 +615,8 @@ xochiot:xochio N-TL ; ! "flor"
 yolot:yolo N-TL ; ! "corazón"
 tekuani:tekuani N-Ø ; ! "bestia"
 kohuit:ko N-HUITL ; ! "árbol, leña"
-kohuit:kuo N-HUITL ; ! "árbol, leña" ! Use/Typo
+kohuit:kuo N-HUITL ; ! "árbol, leña" ! Use/?
+kouyo:kouyo N-Ø ; ! ""
 kalkohuit:kal%>ko N-HUITL ; ! "madera de casa"
 xihuit:xi N-HUITL ; ! "hierba"
 okuilin:okuil N-IN ; ! "animal"
@@ -664,8 +698,10 @@ milaj:milaj N-Ø ; ! "milpa"
 chiktej:chiktej N-Ø ; ! "pájaro"
 chiktejkonet:chiktej%>kone N-TL ; ! ""
 ajuiak:ajuiak N-Ø ; ! "olor"
-koutatil:koutatil N-Ø ; ! "leña"
+koutatil:kou%>tatil N-Ø ; ! "leña"
 nano:nano N-Ø ; ! "señora"
+yohual:yohual N-Ø ; ! "noche"
+kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
 
 toknihuan:toknihua N-HUAN ; ! "persona"
 
@@ -736,11 +772,25 @@ sasaltik:sasaltik ADJ ; ! "pegajoso"
 tsopek:tsopek ADJ ; ! "dulce"
 yemanik:yemanik ADJ ; ! "blando"
 
+takuahuak:takuahuak ADJ ; ! "resistente"
+
+totonik:totonik ADJ ; ! "caliente"
+tototonik:to%{j%}totonik ADJ ; ! "caliente"
+sesek:sesek ADJ ; ! "frío"
+
 eski:eski ADJ ; ! "cierto"
+
+morado:morad ADJ-ES ; ! ""
+momorado:mo%{j%}morad ADJ-ES ; ! ""
 
 LEXICON Adverbios 
 
 amo:amo ADV ; ! "no"
+
+keni:keni ADV-ITG ; ! "cómo"
+keni:keniuh ADV-ITG ; ! "cómo"
+
+kani:kani ADV-ITG ; ! "dónde"
 
 kuali:kuali ADV ; ! "bien"
 
@@ -752,6 +802,8 @@ onkak:onkak ADV ; ! "aquí"
 nikahuin:nikahuin ADV ; ! "por aquí"
 
 nochipa:nochipa ADV ; ! "cada día, siempre"
+
+ta:ta ADV ; ! "pues"
 
 pos:pos ADV ; ! "pues"
 pues:pues ADV ; ! "pues"
@@ -789,9 +841,6 @@ satepan:satepan ADV ; ! "después"
 
 casi:casi ADV ; ! "casi"
 
-keni:keni ADV-ITG ; ! "cómo"
-keni:keniuh ADV-ITG ; ! "cómo"
-
 ok:ok ADV ; ! ""
 
 oksepa:oksepa ADV ; ! "otro momento"
@@ -808,6 +857,8 @@ sayoj:sayoj ADV ; ! "sólo"
 ajko:ajko ADV ; ! "arriba"
 
 ekintsin:ekintsin ADV ; ! "ahora"
+ekintsin:kintsin ADV ; ! "ahora"
+aman:aman ADV ; ! "ahora"
 
 kemasa:kemasa ADV ; ! "a veces"
 
@@ -829,7 +880,15 @@ tepitsitsin:tepitsitsin ADV ; ! "un poquito"
 tetepitsitsin:te%{j%}tepitsitsin ADV ; ! "un poquito"
 tetepitsin:te%{j%}tepitsin ADV ; ! "un poquito"
 
+yohuak:yohuak ADV ; ! "por las noches"
+
 komo:komo ADV ; ! "como" ! FIXME: Comprobar categoría
+como:como ADV ; ! "como" ! FIXME: Comprobar categoría
+
+mahya:mahya ADV ; ! "como"  ! FIXME: Comprobar categoría
+
+
+nehuin:nehuin ADV ; ! "por ahí"
 
 !!!
 
@@ -846,6 +905,7 @@ solamente:solamente ADV-ES ; ! "
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
+kanaj:kanaj INTERJ ; ! "no"
 este:este INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
 mm:mm INTERJ ; ! ""
@@ -877,8 +937,8 @@ ilia:ilia V-TV-PRET ; ! "llamar"
 ita:ita V-TV-PRES ; ! "ver"
 ita:ita V-TV-PRET ; ! "ver"
 
-ixmati:ixmati V-TV-PRES ; ! "conocer"
-ixmati:ixmati V-TV-PRET ; ! "conocer"
+ixmati:ixmat V-TV-TI-PRES ; ! "conocer"
+ixmati:ixmat V-TV-TI-PRET ; ! "conocer"
 
 kua:kua V-TV-PRES ; ! "comer"
 kua:kua V-TV-PRET ; ! "comer"
@@ -914,6 +974,8 @@ tepehua:tepehua V-TV-PRES ; ! "regar"
 tepehua:tepehua V-TV-PRET ; ! "regar"
 
 
+molontia:molontia V-TV-PRES ; ! "hervir"
+molontia:molontia V-TV-PRET ; ! "hervir"
 
 !tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
 !palehuia:palehui V-TV-A ; ! "ayudar"
@@ -926,6 +988,12 @@ katka:katka COP ; ! ""
 
 hueli:hueli V-IV-PRES ; ! "poder"
 hueli:hueli V-IV-PRET ; ! "poder"
+
+huala:huala V-IV-PRES ; ! "venir"
+huala:huala V-IV-PRET ; ! "venir"
+
+hualeu:hualeu V-IV-PRES ; ! "venir"
+hualeu:hualeu V-IV-PRET ; ! "venir"
 
 chanchihua:chanchihua V-IV-PRES ; ! "vivir"
 chanchihua:chanchihua V-IV-PRET ; ! "vivir"
@@ -987,7 +1055,28 @@ yoksi:yoksi V-IV-PRET ; ! "madurar"
 selia:selia V-IV-PRES ; ! "retoñar"
 selia:selia V-IV-PRET ; ! "retoñar"
 
+taki:taki V-IV-PRES ; ! "producir"
+taki:taki V-IV-PRET ; ! "producir"
 
+pankisa:pankisa V-IV-PRES ; ! "subir"
+pankisa:pankisa V-IV-PRET ; ! "subir"
+
+teyohua:teyohua V-IV-PRES ; ! "producir frutos"
+teyohua:teyohua V-IV-PRET ; ! "producir frutos"
+
+LEXICON Irregulares 
+
+Yohui ; 
+
+
+LEXICON Yohui 
+
+%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%} # ;
+%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%} # ;
+%<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui # ;
+%<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej # ;
+!%<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yo%{w%}% # ;
+%<s_pl3%>yohui%<v%>%<iv%>%<pres%>:yohui%>j # ;
 
 
 LEXICON Digitos
