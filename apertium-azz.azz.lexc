@@ -469,8 +469,13 @@ LEXICON Contracciones
 
 in%<det%>%+%<px3sg%>:n%>i%>  Sustantivos ;
 in%<det%>%+%<px3pl%>:n%>in%>  Sustantivos ;
+yeh%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;  ! FIXME: Comprobar
 
 LEXICON Miscellanea
+
+i%<x%>:i # ; ! FIXME: False start?
+ki%<x%>:ki # ; ! FIXME: False start?
+mo%<x%>:mo # ; ! FIXME: False start?
 
 etok:etok COP ; ! "estar"
 yetok:yetok COP ; ! "estar"
@@ -786,6 +791,7 @@ momorado:mo%{j%}morad ADJ-ES ; ! ""
 LEXICON Adverbios 
 
 amo:amo ADV ; ! "no"
+kan:kan ADV ; ! "no"
 
 keni:keni ADV-ITG ; ! "cómo"
 keni:keniuh ADV-ITG ; ! "cómo"
@@ -804,6 +810,7 @@ nikahuin:nikahuin ADV ; ! "por aquí"
 nochipa:nochipa ADV ; ! "cada día, siempre"
 
 ta:ta ADV ; ! "pues"
+kit:kit ADV ; ! "pues"
 
 pos:pos ADV ; ! "pues"
 pues:pues ADV ; ! "pues"
@@ -822,6 +829,7 @@ ijkuin:ijkuin ADV ; ! "así"
 ya:ya ADV ; ! ""
 
 saj:saj ADV ; ! "sólo"
+ipa:ipa ADV ; ! "sólo"
 
 kemej:kemej ADV ; ! "como" ! FIXME: Comprobar categoría
 
@@ -844,6 +852,7 @@ casi:casi ADV ; ! "casi"
 ok:ok ADV ; ! ""
 
 oksepa:oksepa ADV ; ! "otro momento"
+sepa:sepa ADV ; ! "otro vez"
 
 yek:yek ADV ; ! "muy"
 tel:tel ADV ; ! "muy"
@@ -1063,6 +1072,10 @@ pankisa:pankisa V-IV-PRET ; ! "subir"
 
 teyohua:teyohua V-IV-PRES ; ! "producir frutos"
 teyohua:teyohua V-IV-PRET ; ! "producir frutos"
+
+!yoni:yoni V-IV-PRES ; ! ""
+!yoni:yoni V-IV-PRET ; ! ""
+
 
 LEXICON Irregulares 
 
