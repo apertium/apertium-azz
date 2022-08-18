@@ -374,6 +374,7 @@ yek%<adv%>%+:yek%> Adjetivos ;
 tel%<adv%>%+:tel%> Adjetivos ;
 
 Adjetivos ;
+Propios ; 
 
 
 LEXICON N-PREF
@@ -476,6 +477,10 @@ LEXICON Miscellanea
 i%<x%>:i # ; ! FIXME: False start?
 ki%<x%>:ki # ; ! FIXME: False start?
 mo%<x%>:mo # ; ! FIXME: False start?
+t%<x%>:t # ; ! FIXME: False start?
+ti%<x%>:ti # ; ! FIXME: False start?
+tik%<x%>:tik # ; ! FIXME: False start?
+nik%<x%>:nik # ; ! FIXME: False start?
 
 etok:etok COP ; ! "estar"
 yetok:yetok COP ; ! "estar"
@@ -517,6 +522,7 @@ komamo:komamo CS ; ! "si"
 porin:porin CS ; ! "porque"
 
 kox:kox CS ; ! "si"
+ox:ox CS ; ! "si"
 
 sanoke:sanoke CS ; ! "sino que"
 
@@ -531,6 +537,7 @@ okse:oks DET-OKSE ; ! "otro"
 miak:miak DET ; ! "mucho"
 kachi:kachi DET ; ! "mucho"
 nochi:nochi DET ; ! "todo"
+seki:seki DET ; ! "algunos"
 
 LEXICON Pronombres
 
@@ -557,6 +564,7 @@ nijon:nijon PRON ;
 ke:ke PRON ; ! "que"
 
 teisa:tei%{j%}sa PRON ; ! "algo"
+tei:tei PRON ; ! "algo"
 
 katin:katin PRON ; ! "cuál, qué"
 
@@ -625,6 +633,7 @@ kouyo:kouyo N-Ø ; ! ""
 kalkohuit:kal%>ko N-HUITL ; ! "madera de casa"
 xihuit:xi N-HUITL ; ! "hierba"
 okuilin:okuil N-IN ; ! "animal"
+xokoyolin:xokoyol N-IN ; ! "xokoyolin"
 tekpin:tekpin N-Ø ; ! "pulga"
 chiltekpin:chiltekpin N-Ø ; ! "chiltepín"
 tokay:tokay N-Ø ; ! "nombre"
@@ -632,6 +641,7 @@ pajti:pajti N-Ø ; ! "medicina"
 masehualpajti:masehual%>pajti N-Ø ; ! "medicina tradicional"
 pili:pili N-Ø ; ! "niño"
 taman:taman N-Ø ; ! "tipo"
+tataman:tataman N-Ø ; ! "diferente"
 tepexilot:tepexilot N-TL ; ! "tejilote"
 konet:kone N-TL ; ! "niño"
 tepet:tepe N-TL ; ! "montaña"
@@ -707,6 +717,7 @@ koutatil:kou%>tatil N-Ø ; ! "leña"
 nano:nano N-Ø ; ! "señora"
 yohual:yohual N-Ø ; ! "noche"
 kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
+nanakat:nanaka N-TL ; ! ""
 
 toknihuan:toknihua N-HUAN ; ! "persona"
 
@@ -733,6 +744,7 @@ Anastacio:Anastacio NP-ANT-M ;
 Nicolás:Nicolás NP-ANT-M ; 
 Damián:Damián NP-ANT-M ; 
 Ernesto:Ernesto NP-ANT-M ; 
+Ernesto:Erneesto NP-ANT-M ;  ! Use/Typo
 
 Celina:Celina NP-ANT-F ; 
 María:María NP-ANT-F ; 
@@ -784,6 +796,8 @@ tototonik:to%{j%}totonik ADJ ; ! "caliente"
 sesek:sesek ADJ ; ! "frío"
 
 eski:eski ADJ ; ! "cierto"
+weyak:weyak ADJ ; ! "largo"
+weweyak:we%{j%}weyak ADJ ; ! "largo"
 
 morado:morad ADJ-ES ; ! ""
 momorado:mo%{j%}morad ADJ-ES ; ! ""
@@ -896,8 +910,11 @@ como:como ADV ; ! "como" ! FIXME: Comprobar categoría
 
 mahya:mahya ADV ; ! "como"  ! FIXME: Comprobar categoría
 
+nion:nion ADV ; ! "ni"  ! FIXME: Comprobar categoría
 
 nehuin:nehuin ADV ; ! "por ahí"
+
+tak:tak ADV ; ! "quizás, a lo mejor"
 
 !!!
 
@@ -982,9 +999,11 @@ kui:kui V-TV-PRET ; ! "ocupar, usar"
 tepehua:tepehua V-TV-PRES ; ! "regar"
 tepehua:tepehua V-TV-PRET ; ! "regar"
 
-
 molontia:molontia V-TV-PRES ; ! "hervir"
 molontia:molontia V-TV-PRET ; ! "hervir"
+
+ajsik:ajsik V-TV-PRES ; ! "encontrar"
+ajsik:ajsik V-TV-PRET ; ! "encontrar"
 
 !tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
 !palehuia:palehui V-TV-A ; ! "ayudar"
@@ -1073,8 +1092,8 @@ pankisa:pankisa V-IV-PRET ; ! "subir"
 teyohua:teyohua V-IV-PRES ; ! "producir frutos"
 teyohua:teyohua V-IV-PRET ; ! "producir frutos"
 
-!yoni:yoni V-IV-PRES ; ! ""
-!yoni:yoni V-IV-PRET ; ! ""
+huaki:huaki V-IV-PRES ; ! "secarse"
+huaki:huaki V-IV-PRET ; ! "secarse"
 
 
 LEXICON Irregulares 
