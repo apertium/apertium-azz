@@ -288,6 +288,17 @@ LEXICON V-TV-TI-PRET
 %<v%>%<tv%>:%>i V-TAM-PRET ; 
 
 
+LEXICON V-TV-IA-PRES
+
+%<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
+%<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
+%<v%>%<tv%>%<pres%>:%>a V-AGR-PRES ; 
+%<v%>%<tv%>%<impf%>:%>aya V-AGR-PRES ;
+
+LEXICON V-TV-IA-PRET
+
+%<v%>%<tv%>:%>a V-TAM-PRET ; 
+
 LEXICON V-TV-HUA-PRES
 
 %<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
@@ -816,16 +827,27 @@ ixpan:ixpan N-Ø ; ! ""
 LEXICON Propios 
 
 Miguel:Miguel NP-ANT-M ; 
+Rubén:Rubén NP-ANT-M ; 
 Anastacio:Anastacio NP-ANT-M ; 
 Nicolás:Nicolás NP-ANT-M ; 
 Damián:Damián NP-ANT-M ; 
 Ernesto:Ernesto NP-ANT-M ; 
 Ernesto:Erneesto NP-ANT-M ;  ! Use/Typo
+Juan:Juan NP-ANT-M ; 
 
 Celina:Celina NP-ANT-F ; 
 María:María NP-ANT-F ; 
+Elena:Elena NP-ANT-F ; 
 
+Pérez:Pérez NP-COG ;
 Vázquez:Vázquez NP-COG ; 
+Vásquez:Vásquez NP-COG ; 
+Salazar:Salazar NP-COG ; 
+González:González NP-COG ; 
+Martínez:Martínez NP-COG ;
+Hernández:Hernández NP-COG ;
+Santos:Santos NP-COG ;
+Rivera:Rivera NP-COG ;
 
 San:San NP-TOP ;
 Tzinacapan:Tzinacapan NP-TOP ;
@@ -833,6 +855,7 @@ Zacapoaxtla:Zacapoaxtla NP-TOP ;
 Ometepetl:Ometepetl NP-TOP ;
 Tetela:Tetela NP-TOP ;
 Cuetzalan:Cuetzalan NP-TOP ;
+Cuetzalan:Kwesalan NP-TOP ; ! Use/Typo
 Matixco:Matixco NP-TOP ;
 Zacaloma:Zacaloma NP-TOP ;
 Omitlan:Omitlan NP-TOP ;
@@ -841,6 +864,15 @@ Xopanako:Xopanako NP-TOP ;
 Jonotla:Jonotla NP-TOP ;
 Tozan:Tozan NP-TOP ;
 Chilkoutaj:Chilkoutaj NP-TOP ;
+
+Xaltipan:Xaltipan NP-TOP ;
+Yohualichan:Yohualichan NP-TOP ;
+Ocotlan:Ocotlan NP-TOP ;
+Xalpantzingo:Xalpantzingo NP-TOP ;
+Zacatipan:Zacatipan NP-TOP ;
+Tepango:Tepango NP-TOP ;
+Atsalan:Atsalan  NP-TOP ;
+
 
 LEXICON Adjetivos 
 
@@ -858,8 +890,10 @@ istak:istak ADJ ; ! "blanco"
 nextik:nextik ADJ ; ! "gris"
 chichiltik:chichiltik ADJ ; ! "rojo"
 kostik:kostik ADJ ; ! "amarillo"
+kokostik:ko%{j%}kostik ADJ ; ! "amarillo"
 nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
+titiltik:ti%{j%}tiltik ADJ ; ! "negro"
 xoxoktik:xoxoktik ADJ ; ! "verde"
 
 chikahuak:chikahuak ADJ ; ! "fuerte"
@@ -899,6 +933,8 @@ keniuki:keniuki ADV-ITG ; ! ""
 kani:kani ADV-ITG ; ! "dónde"
 
 kuali:kuali ADV ; ! "bien"
+
+axkan:axkan ADV ; ! "hoy"
 
 nikan:nikan ADV ; ! "aquí"
 ompa:ompa ADV ; ! "allá"
@@ -1031,12 +1067,16 @@ siempre:siempre ADV-ES ; ! "
 después:después ADV-ES ; ! "
 solamente:solamente ADV-ES ; ! "
 medio:medio ADV-ES ; ! ""
+entonces:entonces ADV-ES ; ! "entonces"
 
 LEXICON Interyecciones
 
 kemaj:kemaj INTERJ ; ! "sí"
 kanaj:kanaj INTERJ ; ! "no"
 este:este INTERJ ; ! ""
+ej:ej INTERJ ; ! ""
+eje:eje INTERJ ; ! ""
+ay:ay INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
 aj:aj INTERJ ; ! ""
 mm:mm INTERJ ; ! ""
@@ -1063,8 +1103,8 @@ chihua:chihua V-TV-PRET ; ! "hacer"
 ijtohua:ijto V-TV-HUA-PRES ; ! "decir"
 ijtohua:ijto V-TV-HUA-PRET ; ! "decir"
 
-ilia:ilia V-TV-PRES ; ! "llamar"
-ilia:ilia V-TV-PRET ; ! "llamar"
+ilia:ili V-TV-IA-PRES ; ! "llamar"
+ilia:ili V-TV-IA-PRET ; ! "llamar"
 
 ita:ita V-TV-PRES ; ! "ver"
 ita:ita V-TV-PRET ; ! "ver"
@@ -1120,9 +1160,14 @@ yehualohua:yehualo V-TV-HUA-PRET ; ! ""
 totolohua:to%{j%}tolo V-TV-HUA-PRES ; ! "tragar"
 totolohua:to%{j%}tolo V-TV-HUA-PRET ; ! "tragar"
 
-!tokaytia:tokayti V-TV-A ; ! "nombrar, llamar"
-!palehuia:palehui V-TV-A ; ! "ayudar"
-!tajtania:ta%{j%}tani V-TV-A ; ! ""
+tokaytia:tokayti V-TV-IA-PRES ; ! "nombrar, llamar"
+tokaytia:tokayti V-TV-IA-PRET ; ! "nombrar, llamar"
+
+palehuia:palehui V-TV-IA-PRES ; ! "ayudar"
+palehuia:palehui V-TV-IA-PRET ; ! "ayudar"
+
+tajtania:ta%{j%}tani V-TV-IA-PRES ; ! ""
+tajtania:ta%{j%}tani V-TV-IA-PRET ; ! ""
 
 hui:hui V-TV-PRES ; ! "usar"
 hui:hui V-TV-PRET ; ! "usar"
@@ -1234,6 +1279,8 @@ tekokoj:tekokoj V-IV-PRET ; ! "doler"
 tai:tai V-IV-PRES ; ! "beber"
 tai:tai V-IV-PRET ; ! "beber"
 
+ehui:ehui V-IV-PRES ; ! "nacer"
+ehui:ehui V-IV-PRET ; ! "nacer"
 
 LEXICON Irregulares 
 
