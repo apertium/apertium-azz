@@ -61,6 +61,7 @@ Multichar_Symbols
 %{y%}
 %{h%}
 %{n%}
+%{k%}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -209,6 +210,11 @@ LEXICON NUM
 
 %<num%>: # ; 
 
+LEXICON NUM-ES
+
+%<num%>: # ; 
+
+
 LEXICON ADV
 
 %<adv%>: # ; 
@@ -263,7 +269,7 @@ LEXICON V-TAM-PRES
 
 LEXICON V-TAM-PRET
 
-%<pret%>:%>k V-AGR-PRES ;
+%<pret%>:%>%{k%} V-AGR-PRES ;
 %<plu%>: V-AGR-PLU ;
 %<pp%>:%>ni # ;
 
@@ -303,12 +309,12 @@ LEXICON V-TV-HUA-PRES
 
 %<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
 %<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
-%<v%>%<tv%>%<pres%>:%>hua V-AGR-PRES ; 
-%<v%>%<tv%>%<impf%>:%>huaya V-AGR-PRES ;
+%<v%>%<tv%>%<pres%>:hua V-AGR-PRES ; 
+%<v%>%<tv%>%<impf%>:hua%>ya V-AGR-PRES ;
 
 LEXICON V-TV-HUA-PRET
 
-%<v%>%<tv%>:%>hua V-TAM-PRET ; 
+%<v%>%<tv%>:hua V-TAM-PRET ; 
 
 LEXICON V-IV-PRES
 
@@ -641,6 +647,31 @@ majtakti:majtakti NUM ; ! "diez"
 majtakti:majtak NUM ; ! "diez"
 kaxtol:kaxtol NUM ; ! "quince"
 pohual:pohual NUM ; ! "veinte"
+
+cien:cien NUM-ES ; ! ""
+ciento:ciento NUM-ES ; ! ""
+cientos:cientos NUM-ES ; ! ""
+cinco:cinco NUM-ES ; ! ""
+cincuenta:cincuenta NUM-ES ; ! ""
+cuarenta:cuarenta NUM-ES ; ! ""
+cuatro:cuatro NUM-ES ; ! ""
+diecinueve:diecinueve NUM-ES ; ! ""
+diez:diez NUM-ES ; ! ""
+dos:dos NUM-ES ; ! ""
+mil:mil NUM-ES ; ! ""
+nueve:nueve NUM-ES ; ! ""
+ocho:ocho NUM-ES ; ! ""
+quince:quince NUM-ES ; ! ""
+seis:seis NUM-ES ; ! ""
+sesenta:sesenta NUM-ES ; ! ""
+setenta:setenta NUM-ES ; ! ""
+siete:siete NUM-ES ; ! ""
+treinta:treinta NUM-ES ; ! ""
+tres:tres NUM-ES ; ! ""
+veinte:veinte NUM-ES ; ! ""
+veinticinco:veinticinco NUM-ES ; ! ""
+veinticuatro:veinticuatro NUM-ES ; ! ""
+
 
 LEXICON Sustantivos 
 

@@ -9,6 +9,7 @@ Alphabet
  %{y%}:y %{y%}:0
  %{h%}:h %{h%}:0
  %{n%}:n %{n%}:0
+ %{k%}:k 
 
  %>:%> ;
 
@@ -25,3 +26,19 @@ Rules
 
 "Morpheme boundary"
 %>:%> <=> _ ; 
+
+"Preterite I"
+%{k%}:0 <=> [ o: h: u: a: | i: y: a: ] %>: _ ; 
+
+"Preterite II"
+Vx:0 <=> [ o: h: u: | i: y: ] _ %>: %{k%}:0 ;
+	where Vx in ( a o )  ; 
+
+"Preterite III" 
+Cx:j <=> [ o: h: | i: ] _ :0 %>: %{k%}:0 ;
+	where Cx in ( u y ) ;
+
+"Preterite IV"
+h:0 <=> o: _ :j :0 %>: %{k%}:0 ;
+
+!@ >:> k:k {i}:0 >:> i:i j:j t:t o:o h:0 u:j a:0 >:> {k}:0
