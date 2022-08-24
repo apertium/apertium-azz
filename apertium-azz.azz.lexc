@@ -1155,6 +1155,9 @@ ijtohua:ijto V-TV-HUA-PRET ; ! "decir"
 ilia:ili V-TV-IA-PRES ; ! "llamar"
 ilia:ili V-TV-IA-PRET ; ! "llamar"
 
+ilhuia:ilhui V-TV-IA-PRES ; ! "llamar"
+ilhuia:ilhui V-TV-IA-PRET ; ! "llamar"
+
 ita:ita V-TV-PRES ; ! "ver"
 ita:ita V-TV-PRET ; ! "ver"
 
