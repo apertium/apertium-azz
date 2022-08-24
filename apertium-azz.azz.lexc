@@ -371,12 +371,17 @@ ADV-INCORP-ADJ ;
 
 LEXICON AGR-SUBJ-TV 
 
-%<s_sg1%>:ni%> AGR-OBJ-TV ;
-%<s_sg2%>:ti%> AGR-OBJ-TV ;
-%<s_sg3%>:0%> AGR-OBJ-TV ;
-%<s_pl1%>:ti%> AGR-OBJ-TV ;
-%<s_pl2%>:nan%> AGR-OBJ-TV ;
-%<s_pl3%>:0%> AGR-OBJ-TV ;
+%<s_sg1%>:ni%> AGR-OBJS-TV ;
+%<s_sg2%>:ti%> AGR-OBJS-TV ;
+%<s_sg3%>:0%> AGR-OBJS-TV ;
+%<s_pl1%>:ti%> AGR-OBJS-TV ;
+%<s_pl2%>:nan%> AGR-OBJS-TV ;
+%<s_pl3%>:0%> AGR-OBJS-TV ;
+
+LEXICON AGR-OBJS-TV
+
+AGR-OBJ-TV ;
+AGR-IOBJ-TV ;
 
 LEXICON AGR-OBJ-TV
 
@@ -387,6 +392,21 @@ LEXICON AGR-OBJ-TV
 %<o_pl2%>:namech%> ADV-INCORP-TV ; 
 %<o_pl3%>:kin%> ADV-INCORP-TV ; 
 %<refl%>:mo%> ADV-INCORP-TV ; 
+
+INDEF-OBJ-TV ;
+
+LEXICON AGR-IOBJ-TV
+
+%<i_sg1%>:nech%> INDEF-OBJ-TV ; 
+%<i_sg2%>:mits%> INDEF-OBJ-TV ; 
+%<i_sg3%>:k%{i%}%> INDEF-OBJ-TV ; 
+%<i_pl1%>:tech%> INDEF-OBJ-TV ; 
+%<i_pl2%>:namech%> INDEF-OBJ-TV ; 
+%<i_pl3%>:kin%> INDEF-OBJ-TV ; 
+%<refl%>:mo%> INDEF-OBJ-TV ; 
+
+LEXICON INDEF-OBJ-TV
+
 %<o_nn%>:ta%> ADV-INCORP-TV ; 
 %<o_aa%>:te%> ADV-INCORP-TV ; 
 
@@ -1233,6 +1253,9 @@ talia:talia V-TV-PRET ; ! "sembrar"
 kua:kua V-TV-PRES ; ! "comer"
 kua:kua V-TV-PRET ; ! "comer"
 
+temolia:temolia V-TV-PRES ; ! "buscar"
+temolia:temolia V-TV-PRET ; ! "buscar"
+
 
 LEXICON IV
 
@@ -1350,6 +1373,8 @@ polihui:polihui V-IV-PRET ; ! "acabar"
 tami:tami V-IV-PRES ; ! "acabar"
 tami:tami V-IV-PRET ; ! "acabar"
 
+molia:molia V-IV-PRES ; ! ""
+molia:molia V-IV-PRET ; ! ""
 
 
 LEXICON Irregulares 
