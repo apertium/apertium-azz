@@ -199,6 +199,12 @@ LEXICON N-IN
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin # ; 
 N-POSS ;
 
+LEXICON N-A-SPA
+
+%<n%>%<sg%>: # ; 
+%<n%>%<pl%>:%>s # ; 
+N-POSS ;
+
 LEXICON N-O-SPA
 
 %<n%>%<sg%>: # ; 
@@ -520,6 +526,7 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+ih%<x%>:ih # ; 
 to%<x%>:to # ; 
 s%<x%>:s # ; 
 x%<x%>:x # ; 
@@ -581,6 +588,8 @@ maski:maski CS ; ! "aunque"
 
 takan:takan CS ; ! "si"
 
+ijkuak:i%{j%}kuak CS ; ! "cuando"
+
 LEXICON Determinantes 
 
 in:in DET ; ! "el"
@@ -596,6 +605,8 @@ nochi:nochi DET ; ! "todo"
 seki:seki DET ; ! "algunos"
 
 cada:cada DET ; ! ""
+
+kanachi:kanachi DET ; ! "cuántos"
 
 LEXICON Pronombres
 
@@ -811,6 +822,7 @@ yohual:yohual N-Ø ; ! "noche"
 kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
 nanakat:nanaka N-TL ; ! ""
 itsmol:itsmol N-Ø ; ! ""
+tal:tal N-Ø ; ! "tierra, cielo"
 
 taltikpak:taltikpak N-Ø ; ! "planeta"
 iluikak:iluikak N-Ø ; ! "cielo"
@@ -820,6 +832,7 @@ atsitsikas:atsitsikas N-Ø ; ! ""
 huitsti:%{h%}uits N-TLI ; ! "espina"
 may:may N-Ø ; ! "hoja"
 maxiuyo:maxiuyo N-Ø ; ! "hoja"
+xinach:xinach N-Ø ; ! "semilla"
 
 toknihuan:toknihua N-HUAN ; ! "persona"
 
@@ -848,6 +861,7 @@ chilito:chil%>ito N-O-SPA ; ! ""
 abuelito:abuel%>ito N-O-SPA ; ! ""
 polvito:polv%>ito N-O-SPA ; ! ""
 atolito:atol%>ito N-O-SPA ; ! ""
+cuenta:cuenta N-A-SPA ; ! ""
 
 !FIXME: Comprobar
 
@@ -926,6 +940,7 @@ nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
 titiltik:ti%{j%}tiltik ADJ ; ! "negro"
 xoxoktik:xoxoktik ADJ ; ! "verde"
+xoxohuik:xoxohuik ADJ ; ! "verde"
 
 chikahuak:chikahuak ADJ ; ! "fuerte"
 sasaltik:sasaltik ADJ ; ! "pegajoso"
@@ -947,6 +962,7 @@ wejkapan:wejkapan ADJ ; ! "alto"
 wejkapan:we%{j%}wejkapan ADJ ; ! "alto"
 
 morado:morad ADJ-ES ; ! ""
+mero:mer ADJ-ES ; ! ""
 mismo:mism ADJ-ES ; ! ""
 momorado:mo%{j%}morad ADJ-ES ; ! ""
 
@@ -990,6 +1006,7 @@ miak:miak ADV ; ! "mucho"
 ayamo:ayamo ADV ; ! ""
 
 ijkon:ijkon ADV ; ! "así"
+ijkon:jkon ADV ; ! "así"
 ijkoni:ijkoni ADV ; ! "así"
 ijkuin:ijkuin ADV ; ! "así"
 
@@ -1116,6 +1133,7 @@ ujuj:ujuj INTERJ ; ! ""
 a:a INTERJ ; ! ""
 igual:igual INTERJ ; ! ""
 bueno:bueno INTERJ ; ! ""
+huenoj:huenoj INTERJ ; ! ""
 tasojkamatik:tasojkamatik INTERJ ; ! ""
 tasojkamatiktsin:tasojkamatiktsin INTERJ ; ! ""
 nejen:neje%{n%} INTERJ ; ! ""
@@ -1142,9 +1160,6 @@ ita:ita V-TV-PRET ; ! "ver"
 
 ixmati:ixmat V-TV-TI-PRES ; ! "conocer"
 ixmati:ixmat V-TV-TI-PRET ; ! "conocer"
-
-kua:kua V-TV-PRES ; ! "comer"
-kua:kua V-TV-PRET ; ! "comer"
 
 maka:maka V-TV-PRES ; ! "dar"
 maka:maka V-TV-PRET ; ! "dar"
@@ -1191,6 +1206,9 @@ yehualohua:yehualo V-TV-HUA-PRET ; ! ""
 totolohua:to%{j%}tolo V-TV-HUA-PRES ; ! "tragar"
 totolohua:to%{j%}tolo V-TV-HUA-PRET ; ! "tragar"
 
+xinachohua:xinacho V-TV-HUA-PRES ; ! ""
+xinachohua:xinacho V-TV-HUA-PRET ; ! ""
+
 xejekohua:xejeko V-TV-HUA-PRES ; ! ""
 xejekohua:xejeko V-TV-HUA-PRET ; ! ""
 
@@ -1208,6 +1226,10 @@ hui:hui V-TV-PRET ; ! "usar"
 
 talia:talia V-TV-PRES ; ! "sembrar"
 talia:talia V-TV-PRET ; ! "sembrar"
+
+kua:kua V-TV-PRES ; ! "comer"
+kua:kua V-TV-PRET ; ! "comer"
+
 
 LEXICON IV
 
@@ -1315,6 +1337,17 @@ tai:tai V-IV-PRET ; ! "beber"
 
 ehui:ehui V-IV-PRES ; ! "nacer"
 ehui:ehui V-IV-PRET ; ! "nacer"
+
+huejkahua:huejkahua V-IV-PRES ; ! "tardar"
+huejkahua:huejkahua V-IV-PRET ; ! "tardar"
+
+polihui:polihui V-IV-PRES ; ! "acabar"
+polihui:polihui V-IV-PRET ; ! "acabar"
+
+tami:tami V-IV-PRES ; ! "acabar"
+tami:tami V-IV-PRET ; ! "acabar"
+
+
 
 LEXICON Irregulares 
 
