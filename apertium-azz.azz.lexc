@@ -488,21 +488,28 @@ LEXICON INDEF-OBJ-TV
 %<o_nn%>:ta%> ADV-INCORP-TV ; 
 %<o_aa%>:te%> ADV-INCORP-TV ; 
 
+ADV-INCORP-TV ;
+
 LEXICON ADV-INCORP-IV
 
 %<a_yek%>:yek%> IV ;
 %<a_yek%>:ek%> IV ;
 %<a_tel%>:tel%> IV ;
 
-N-PREF ;
-IV ;
+                N-PREF ;
                 IV ;
 
 LEXICON ADV-INCORP-TV
 
-%<a_yek%>:yek%> TV ;
-%<a_tel%>:tel%> TV ;
-                TV ;
+%<a_yek%>:yek%> INDEF-OBJ-ROOT-TV ;
+%<a_tel%>:tel%> INDEF-OBJ-ROOT-TV ;
+                INDEF-OBJ-ROOT-TV ;
+
+LEXICON INDEF-OBJ-ROOT-TV 
+
+%<o_nn%>:ta%> TV ;
+%<o_aa%>:te%> TV ;
+              TV ;
 
 LEXICON ADV-INCORP-ADJ
 
@@ -1507,6 +1514,18 @@ huilana:%{h%}uilana V-TV-PRET ; ! "extender"
 
 huihuilana:%{h%}uihuilana V-TV-PRES ; ! "extender"
 huihuilana:%{h%}uihuilana V-TV-PRET ; ! "extender"
+
+xikohua:xiko V-TV-HUA-PRES ; ! "aguantar"
+xikohua:xiko V-TV-HUA-PRET ; ! "aguantar"
+
+sohua:sohua V-TV-PRES ; ! "extender"
+sohua:sohua V-TV-PRET ; ! "extender"
+
+sosohua:so%{j%}sohua V-TV-PRES ; ! "extender"
+sosohua:so%{j%}sohua V-TV-PRET ; ! "extender"
+
+maxakualohua:maxakualo V-TV-HUA-PRES ; ! "machachar"
+maxakualohua:maxakualo V-TV-HUA-PRET ; ! "machachar"
 
 
 LEXICON IV
