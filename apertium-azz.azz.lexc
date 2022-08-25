@@ -1492,7 +1492,7 @@ talia:talia V-TV-PRET ; ! "sembrar"
 kua:kua V-TV-PRES ; ! "comer"
 kua:kua V-TV-PRET ; ! "comer"
 
-temolia:temolia V-TV-PRES ; ! "buscar" TODO: Sospecho que esto es buscar por alguien, "buscar" seria "temoa"
+temolia:temolia V-TV-PRES ; ! "buscar" TODO: Sospecho que esto es buscar algo por alguien, "buscar" seria "temoa"
 temolia:temoli V-TV-PRET ; ! "buscar"
 
 pajtia:pajtia V-TV-PRES ; ! "curar"
