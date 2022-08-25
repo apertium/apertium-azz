@@ -67,6 +67,7 @@ Multichar_Symbols
 %{h%}
 %{n%}
 %{N%}
+%{o%}
 %{k%}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -329,13 +330,22 @@ LEXICON V-TAM-PRES
 %<plu%>:%>ka V-AGR-PLU ;
 %<fut%>:%>s V-AGR-FUT ;
 %<cni%>:%>skia V-AGR-PRES ;
-%<prog%>:%>tok V-AGR-PROG ;
+!%<prog%>:%>tok V-AGR-PROG ;
 
 LEXICON V-TAM-PRET
 
 %<pret%>:%>%{k%} V-AGR-PRES ;
+%<prog%>:%>tok V-AGR-PROG ;
+%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
 !%<plu%>: V-AGR-PLU ;
 %<pp%>:%>ni # ;
+
+LEXICON V-TAM-FUT
+
+%<fut%>:%>s V-AGR-FUT ;
+%<cni%>:%>skia V-AGR-PRES ;
+%<prog%>:%>tok V-AGR-PROG ;
+%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
 
 LEXICON V-TV-PRES
 
@@ -345,10 +355,16 @@ LEXICON V-TV-PRET
 
 %<v%>%<tv%>: V-TAM-PRET ; 
 
+LEXICON V-TV-FUT
+
+%<v%>%<tv%>: V-TAM-FUT ; 
+
+
 LEXICON V-TV-TI-PRES
 
 %<v%>%<tv%>%<pres%>:%>i V-AGR-PRES ; 
 %<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
+%<v%>%<tv%>%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
 %<v%>%<tv%>%<fut%>:%>is V-AGR-FUT ;
 %<v%>%<tv%>%<impf%>:%>iya V-AGR-PRES ;
 %<v%>%<tv%>%<cni%>:%>iskia V-AGR-PRES ;
@@ -374,6 +390,7 @@ LEXICON V-TV-HUA-PRES
 %<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
 %<v%>%<tv%>%<cni%>:%>s%>kia V-AGR-PRES ;
 %<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
+%<v%>%<tv%>%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
 %<v%>%<tv%>%<pres%>:hua V-AGR-PRES ; 
 %<v%>%<tv%>%<impf%>:hua%>ya V-AGR-PRES ;
 
@@ -389,12 +406,16 @@ LEXICON V-IV-PRET
 
 %<v%>%<iv%>: V-TAM-PRET ; 
 
+LEXICON V-IV-FUT
+
+%<v%>%<iv%>: V-TAM-FUT ; 
 
 LEXICON V-IV-HUA-PRES
 
 %<v%>%<iv%>%<fut%>:%>s V-AGR-FUT ;
 %<v%>%<iv%>%<fut%>:%>s%>kia V-AGR-PRES ;
 %<v%>%<iv%>%<prog%>:%>tok V-AGR-PROG ;
+%<v%>%<iv%>%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
 %<v%>%<iv%>%<pres%>:hua V-AGR-PRES ; 
 %<v%>%<iv%>%<impf%>:hua%>ya V-AGR-PRES ;
 
@@ -469,7 +490,7 @@ LEXICON AGR-OBJ-TV
 %<o_pl1%>:tech%> ADV-INCORP-TV ; 
 %<o_pl2%>:namech%> ADV-INCORP-TV ; 
 %<o_pl3%>:ki%{N%}%> ADV-INCORP-TV ; 
-%<refl%>:mo%> ADV-INCORP-TV ; 
+%<refl%>:m%{o%}%> ADV-INCORP-TV ; 
 
 INDEF-OBJ-TV ;
 
@@ -481,7 +502,7 @@ LEXICON AGR-IOBJ-TV
 %<i_pl1%>:tech%> INDEF-OBJ-TV ; 
 %<i_pl2%>:namech%> INDEF-OBJ-TV ; 
 %<i_pl3%>:ki%{N%}%> INDEF-OBJ-TV ; 
-%<refl%>:mo%> INDEF-OBJ-TV ; 
+%<refl%>:m%{o%}%> INDEF-OBJ-TV ; 
 
 LEXICON INDEF-OBJ-TV
 
@@ -634,6 +655,7 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+niwia%<x%>:niwia # ; 
 co%<x%>:co # ; 
 mot%<x%>:mot # ; 
 timo%<x%>:timo # ; 
@@ -891,7 +913,8 @@ xitomat:xitoma N-TL ; ! "jitomate"
 komekat:komeka N-TL ; ! "bejuco"
 komekat:kuomeka N-TL ; ! "bejuco" ! Use/Typo
 ixtahuat:ixtahua N-TL ; ! "potrero"
-koutet:koute N-TL ; ! "fruto" ! kou#tet
+koutet:kou%>te N-TL ; ! "fruto" ! kou#tet
+chiltet:chil%>te N-TL ; ! "fruto" ! kou#tet
 tet:te N-TL ; ! "piedra"
 piotet:piote N-TL ; ! "huevo"
 xonot:xono N-TL ; ! "jonote"
@@ -983,6 +1006,7 @@ xinach:xinach N-Ø ; ! "semilla"
 taxkal:taxkal N-Ø ; ! "tortilla"
 taxkalisuat:taxkal%>isua N-TL ; ! ""
 komal:komal N-Ø ; ! "comal"
+kopal:kopal N-Ø ; ! "copal"
 xokot:xoko N-TL ; ! ""
 kouxokot:kou%>xoko N-TL ; ! ""
 kuouxokot:kuou%>xoko N-TL ; ! ""
@@ -1273,7 +1297,7 @@ tel:tel ADV ; ! "muy"
 
 iuki:iuki ADV ; ! "así"
 
-mas:mas ADV ; ! "más"
+más:más ADV ; ! "más"
 
 sayoj:sayoj ADV ; ! "sólo"
 
@@ -1384,8 +1408,9 @@ nejen:neje%{n%} INTERJ ; ! ""
 
 LEXICON TV
 
-piya:piya V-TV-PRES ; ! "tener"
-piya:pix V-TV-PRET ; ! "tener"
+piya:piya V-TV-PRES ; ! "tener" ! 1
+piya:pix V-TV-PRET ; ! "tener" ! 2 
+piya:piya V-TV-FUT ; ! "tener" ! 3
 
 chichihua:chi%{j%}chihua V-TV-PRES ; ! "hacer"
 chichihua:chi%{j%}chihua V-TV-PRET ; ! "hacer"
@@ -1480,11 +1505,11 @@ tokaytia:tokayti V-TV-IA-PRET ; ! "nombrar, llamar"
 palehuia:palehui V-TV-IA-PRES ; ! "ayudar"
 palehuia:palehui V-TV-IA-PRET ; ! "ayudar"
 
-tajtania:ta%{j%}tania V-TV-IA-PRES ; ! TODO: "preguntar/pedir"
-tajtania:ta%{j%}tania V-TV-IA-PRET ; ! TODO: "preguntar/pedir"
+tajtania:ta%{j%}tani V-TV-IA-PRES ; ! TODO: "preguntar/pedir"
+tajtania:ta%{j%}tani V-TV-IA-PRET ; ! TODO: "preguntar/pedir"
 
-hui:hui V-TV-PRES ; ! "usar" TODO: deberia ser "kui"
-hui:hui V-TV-PRET ; ! "usar"
+kui:kui V-TV-PRES ; ! "usar" TODO: deberia ser "kui"
+kui:kui V-TV-PRET ; ! "usar"
 
 talia:talia V-TV-PRES ; ! "sembrar" TODO: Tambien es "poner"
 talia:talia V-TV-PRET ; ! "sembrar"
@@ -1527,6 +1552,62 @@ sosohua:so%{j%}sohua V-TV-PRET ; ! "extender"
 maxakualohua:maxakualo V-TV-HUA-PRES ; ! "machachar"
 maxakualohua:maxakualo V-TV-HUA-PRET ; ! "machachar"
 
+kokohua:koko V-TV-HUA-PRES ; ! "doler"
+kokohua:koko V-TV-HUA-PRET ; ! "doler"
+
+maxalohua:maxalo V-TV-HUA-PRES ; ! ""
+maxalohua:maxalo V-TV-HUA-PRET ; ! ""
+
+mamaxalohua:ma%{j%}maxalo V-TV-HUA-PRES ; ! ""
+mamaxalohua:ma%{j%}maxalo V-TV-HUA-PRET ; ! ""
+
+pepechohua:pe%{j%}pecho V-TV-HUA-PRES ; ! ""
+pepechohua:pe%{j%}pecho V-TV-HUA-PRET ; ! ""
+
+
+pampilohua:pampilo V-TV-HUA-PRES ; ! ""
+pampilohua:pampilo V-TV-HUA-PRET ; ! ""
+
+papampilohua:pa%{j%}pampilo V-TV-HUA-PRES ; ! ""
+papampilohua:pa%{j%}pampilo V-TV-HUA-PRET ; ! ""
+
+polohua:polo V-TV-HUA-PRES ; ! ""
+polohua:polo V-TV-HUA-PRET ; ! ""
+
+temohua:temo V-TV-HUA-PRES ; ! ""
+temohua:temo V-TV-HUA-PRET ; ! ""
+
+kohua:ko V-TV-HUA-PRES ; ! "vender"
+kohua:ko V-TV-HUA-PRET ; ! "vender"
+
+tsetselohua:tsetselo V-TV-HUA-PRES ; ! "sacudir"
+tsetselohua:tsetselo V-TV-HUA-PRET ; ! "sacudir"
+
+chihkolohua:chihkolo V-TV-HUA-PRES ; ! ""
+chihkolohua:chihkolo V-TV-HUA-PRET ; ! ""
+
+salohua:salo V-TV-HUA-PRES ; ! ""
+salohua:salo V-TV-HUA-PRET ; ! ""
+
+tapohua:tapo V-TV-HUA-PRES ; ! ""
+tapohua:tapo V-TV-HUA-PRET ; ! ""
+
+
+nelohua:nelo V-TV-HUA-PRES ; ! ""
+nelohua:nelo V-TV-HUA-PRET ; ! ""
+
+manelohua:manelo V-TV-HUA-PRES ; ! ""
+manelohua:manelo V-TV-HUA-PRET ; ! ""
+
+ahuilohua:ahuilo V-TV-HUA-PRES ; ! ""
+ahuilohua:ahuilo V-TV-HUA-PRET ; ! ""
+
+kuechohua:kuecho V-TV-HUA-PRES ; ! ""
+kuechohua:kuecho V-TV-HUA-PRET ; ! ""
+
+
+
+
 
 LEXICON IV
 
@@ -1551,8 +1632,9 @@ chanchihua:chanchihua V-IV-PRET ; ! "vivir"
 choka:choka V-IV-PRES ; ! "llorar"
 choka:choka V-IV-PRET ; ! "llorar"
 
-kisa:kisa V-IV-PRES ; ! "salir"
-kisa:kis V-IV-PRET ; ! "salir"
+kisa:kisa V-IV-PRES ; ! "salir" ! 1
+kisa:kisa V-IV-PRET ; ! "salir" ! 2
+kisa:kis  V-IV-FUT ; ! "salir" ! 3
 
 nemi:nemi V-IV-PRES ; ! "caminar, nacer"
 nemi:nemi V-IV-PRET ; ! "caminar, nacer"
@@ -1674,11 +1756,24 @@ servirohua:serviro V-IV-HUA-PRET ; ! "servir"
 servirohua:serbiro V-IV-HUA-PRES ; ! "servir"
 servirohua:serbiro V-IV-HUA-PRET ; ! "servir"
 
+kamojyohua:kamojyo V-IV-HUA-PRES ; ! ""
+kamojyohua:kamojyo V-IV-HUA-PRET ; ! ""
+
+okuilohua:okuilo V-IV-HUA-PRES ; ! ""
+okuilohua:okuilo V-IV-HUA-PRET ; ! ""
+
+temalohua:temalo V-IV-HUA-PRES ; ! ""
+temalohua:temalo V-IV-HUA-PRET ; ! ""
+
+
+
+
 
 
 LEXICON Irregulares 
 
 Yohui ; 
+Huitsa ; 
 
 
 LEXICON Yohui 
@@ -1690,6 +1785,9 @@ LEXICON Yohui
 !%<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yo%{w%}% # ;
 %<s_pl3%>yohui%<v%>%<iv%>%<pres%>:yohui%>j # ;
 
+LEXICON Huitsa
+
+%<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa # ;
 
 LEXICON Digitos
 
