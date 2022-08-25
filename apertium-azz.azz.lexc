@@ -1315,7 +1315,7 @@ maka:maka V-TV-PRET ; ! "dar"
 mati:mat V-TV-TI-PRES ; ! "saber"
 mati:mat V-TV-TI-PRET ; ! "saber"
 
-talilia:talilia V-TV-PRES ; ! "poner"
+talilia:talilia V-TV-PRES ; ! "poner" ! TODO: Es "ponerle algo" no?
 talilia:talilia V-TV-PRET ; ! "poner"
 
 namaka:namaka V-TV-PRES ; ! "vender"
@@ -1328,7 +1328,7 @@ notsa:notsa V-TV-PRES ; ! "llamar"
 notsa:notsa V-TV-PRET ; ! "llamar"
 
 nonotsa:no%{j%}notsa V-TV-PRES ; ! "platicar"
-nonotsa:no%{j%}notsa V-TV-PRET ; ! "platicar"
+nonotsa:no%{j%}nots V-TV-PRET ; ! "platicar"
 
 teki:teki V-TV-PRES ; ! "cortar"
 teki:teki V-TV-PRET ; ! "cortar"
@@ -1348,7 +1348,7 @@ molontia:molontia V-TV-PRET ; ! "hervir"
 ajsi:ajsi V-TV-PRES ; ! "encontrar"
 ajsi:ajsi V-TV-PRET ; ! "encontrar"
 
-yehualohua:yehualo V-TV-HUA-PRES ; ! ""
+yehualohua:yehualo V-TV-HUA-PRES ; ! "TODO: hacer un círculo"
 yehualohua:yehualo V-TV-HUA-PRET ; ! ""
 
 totolohua:to%{j%}tolo V-TV-HUA-PRES ; ! "tragar"
@@ -1376,29 +1376,29 @@ tokaytia:tokayti V-TV-IA-PRET ; ! "nombrar, llamar"
 palehuia:palehui V-TV-IA-PRES ; ! "ayudar"
 palehuia:palehui V-TV-IA-PRET ; ! "ayudar"
 
-tajtania:ta%{j%}tani V-TV-IA-PRES ; ! ""
-tajtania:ta%{j%}tani V-TV-IA-PRET ; ! ""
+tajtania:ta%{j%}tania V-TV-IA-PRES ; ! TODO: "preguntar/pedir"
+tajtania:ta%{j%}tania V-TV-IA-PRET ; ! TODO: "preguntar/pedir"
 
-hui:hui V-TV-PRES ; ! "usar"
+hui:hui V-TV-PRES ; ! "usar" TODO: deberia ser "kui"
 hui:hui V-TV-PRET ; ! "usar"
 
-talia:talia V-TV-PRES ; ! "sembrar"
+talia:talia V-TV-PRES ; ! "sembrar" TODO: Tambien es "poner"
 talia:talia V-TV-PRET ; ! "sembrar"
 
 kua:kua V-TV-PRES ; ! "comer"
 kua:kua V-TV-PRET ; ! "comer"
 
-temolia:temolia V-TV-PRES ; ! "buscar"
-temolia:temolia V-TV-PRET ; ! "buscar"
+temolia:temolia V-TV-PRES ; ! "buscar" TODO: Sospecho que esto es buscar por alguien, "buscar" seria "temoa"
+temolia:temoli V-TV-PRET ; ! "buscar"
 
 pajtia:pajtia V-TV-PRES ; ! "curar"
-pajtia:pajtia V-TV-PRET ; ! "curar"
+pajtia:pajti V-TV-PRET ; ! "curar"
 
 
 kuiti:kuiti V-TV-PRES ; ! ""
 kuiti:kuiti V-TV-PRET ; ! ""
 
-mana:mana V-TV-PRES ; ! "hervir"
+mana:mana V-TV-PRES ; ! "hervir" TODO: tipicamente este verbo se entiende por "parar", su uso para decir "hervir" se refiere a que se tiene que parar el comal y la olla encima de las piedras
 mana:mana V-TV-PRET ; ! "hervir"
 
 
@@ -1436,7 +1436,7 @@ choka:choka V-IV-PRES ; ! "llorar"
 choka:choka V-IV-PRET ; ! "llorar"
 
 kisa:kisa V-IV-PRES ; ! "salir"
-kisa:kisa V-IV-PRET ; ! "salir"
+kisa:kis V-IV-PRET ; ! "salir"
 
 nemi:nemi V-IV-PRES ; ! "caminar, nacer"
 nemi:nemi V-IV-PRET ; ! "caminar, nacer"
