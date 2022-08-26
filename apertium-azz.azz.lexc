@@ -676,6 +676,8 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+ton%<x%>:ton # ; 
+nimits%<x%>:ni%>mits # ; 
 its%<x%>:its # ; 
 kima%<x%>:kima # ; 
 kin%<x%>:kin # ; 
@@ -720,6 +722,7 @@ pero:pero CC ; ! "pero"
 o:o CC ; ! "o"
 huan:%{h%}uan CC ; ! "y"
 oso:oso CC ; ! "o"
+y:y CC ; ! ""
 
 porque:porque CS ; ! "porque"
 porke:porke CS ; ! "porque"
@@ -748,6 +751,8 @@ maski:maski CS ; ! "aunque"
 
 takan:takan CS ; ! "si"
 
+os:os CS ; ! "si"
+
 ijkuak:i%{j%}kuak CS ; ! "cuando"
 
 LEXICON Determinantes 
@@ -763,6 +768,8 @@ miak:mi%{y%}ak DET-MIAK ; ! "mucho"
 kachi:kachi DET ; ! "mucho"
 nochi:nochi DET ; ! "todo"
 seki:seki%{n%} DET ; ! "algunos"
+
+nijin:niji%{n%} DET ; 
 
 cada:cada DET ; ! ""
 lo:lo DET ; ! ""
@@ -791,6 +798,7 @@ kachi:kachi PRON ; ! "mucho"
 nejon:nejo%{n%} PRON ; 
 nejen:neje%{n%} PRON ; 
 nijon:nijo%{n%} PRON ; 
+nijin:niji%{n%} PRON ; 
 
 teisa:tei%{j%}sa PRON ; ! "algo"
 tei:tei PRON ; ! "algo"
@@ -877,6 +885,7 @@ LEXICON Comunes
 at:a N-TL ; ! "agua"
 ahuakat:ahuaka N-TL ; ! "aguacate"
 ajkol:ajkol N-Ø ; ! "hombro"
+topits:topits N-Ø ; ! "ganglio"
 tiopan:tiopan N-Ø ; ! "iglesia"
 temaskal:temaskal N-Ø ; ! "temascal"
 chechelot:chechelo N-TL ; ! "ardilla"
@@ -884,6 +893,8 @@ ejekatl:ejeka N-TL ; ! "viento"
 huehuet:%{h%}uehue N-TL ; ! "viejo"
 takilot:takilo N-TL ; ! "fruto"
 itskuinti:itskuin N-TLI ; ! "perro"
+metsti:mets N-TLI ; ! "mes"
+metskouyo:metskouyo N-Ø ; ! "tallo"
 tixti:tix N-TLI ; ! ""
 kamak:kamak N-Ø ; ! "boca"
 lapo:lapo N-Ø ; ! "recortado"
@@ -970,6 +981,7 @@ nexkijit:nexkiji N-TL ; ! ""
 kilit:kili N-TL ; ! "quilite"
 huitstotomat:%{h%}uitstotoma N-TL ; ! ""
 tepetomat:tepe%>toma N-TL ; ! ""
+miltomat:mil%>toma N-TL ; ! ""
 xalkohuit:xalko N-HUITL ; ! ""
 tsotsolpajxihui:tsotsolpajxihui N-TL ; ! ""
 kokot:koko N-TL ; ! "grano"
@@ -1044,6 +1056,7 @@ kali:kal N-LI ; ! "casa"
 corral:corral N-Ø ; ! "corral"
 tomin:tomin N-Ø ; ! "dinero"
 kamoj:kamoj N-Ø ; ! "camote"
+tajko:tajko N-Ø ; ! "medio"
 
 iluiti:ilui N-TLI ; ! "fiesta"
 iluit:ilui N-TL ; ! "fiesta"
@@ -1177,6 +1190,8 @@ ciruela:ciruela N-A-SPA ; ! ""
 cuarta:cuarta N-A-SPA ; ! ""
 manteca:manteca N-A-SPA ; ! ""
 aceite:aceite N-A-SPA ; ! ""
+viaje:viaje N-A-SPA ; ! ""
+semilla:semilla N-A-SPA ; ! ""
 vez:ve N-Z-SPA ; ! ""
 color:color N-R-SPA ; ! ""
 cimarrón:cimarr N-ÓN-SPA ; ! ""
@@ -1215,11 +1230,14 @@ Damián:Damián NP-ANT-M ;
 Ernesto:Ernesto NP-ANT-M ; 
 Ernesto:Erneesto NP-ANT-M ;  ! Use/Typo
 Juan:Juan NP-ANT-M ; 
+Hermelindo:Hermelindo NP-ANT-M ;
 
 Celina:Celina NP-ANT-F ; 
 María:María NP-ANT-F ; 
 Elena:Elena NP-ANT-F ; 
 
+Nazario:Nazario NP-COG ; 
+Osollo:Osollo NP-COG ;
 Pérez:Pérez NP-COG ;
 Macario:Macario NP-COG ;
 Vázquez:Vázquez NP-COG ; 
@@ -1290,6 +1308,7 @@ tiltik:tiltik ADJ ; ! "negro"
 titiltik:ti%{j%}tiltik ADJ ; ! "negro"
 xoxoktik:xoxoktik ADJ ; ! "verde"
 xoxohuik:xoxohuik ADJ ; ! "verde"
+chichik:chichik ADJ ; ! "amargo"
 
 chikahuak:chikahuak ADJ ; ! "fuerte"
 sasaltik:sasaltik ADJ ; ! "pegajoso"
@@ -1304,6 +1323,10 @@ totonik:totonik ADJ ; ! "caliente"
 tototonik:to%{j%}totonik ADJ ; ! "caliente"
 sesek:sesek ADJ ; ! "frío"
 
+ajalaxtik:ajalaxtik ADJ ; ! "liso"
+maajalaxtik:maajalaxtik ADJ ; ! "liso"
+xaxakachtik:xaxakachtik ADJ ; ! "reposo"
+
 eski:eski ADJ ; ! "cierto"
 hueyak:hueyak ADJ ; ! "largo"
 huehueyak:hue%{j%}hueyak ADJ ; ! "largo"
@@ -1315,6 +1338,7 @@ mayohyohualtik:mayohyohualtik ADJ ; ! "redondo"
 huejkapan:huejkapan ADJ ; ! "alto"
 huejkapan:hue%{j%}huejkapan ADJ ; ! "alto"
 
+todo:tod ADJ-ES ; ! ""
 morado:morad ADJ-ES ; ! ""
 mero:mer ADJ-ES ; ! ""
 mismo:mism ADJ-ES ; ! ""
@@ -1477,12 +1501,14 @@ xolalpan:xolal%>pan ADV ; ! ""
 talpan:tal%>pan ADV ; ! ""
 kalijtik:kal%>ijtik ADV ; ! "dentro de la casa"
 taijtik:ta%>ijtik ADV ; ! "por dentro"
+tanikuakopa:tanikuakopa ADV ; ! "por allá abajo"
 
 !!! 
 
 cerca:cerca ADV-ES ;
 cecerca:cecerca ADV-ES ;
 
+bien:bien ADV-ES ; ! "
 siempre:siempre ADV-ES ; ! "
 siquiera:siquiera ADV-ES ; ! "
 antes:antes ADV-ES ; ! "
@@ -1501,6 +1527,7 @@ eje:eje INTERJ ; ! ""
 ay:ay INTERJ ; ! ""
 aja:aja INTERJ ; ! ""
 aj:aj INTERJ ; ! ""
+aaj:aaj INTERJ ; ! ""
 mm:mm INTERJ ; ! ""
 ejej:ejej INTERJ ; ! ""
 ujuj:ujuj INTERJ ; ! ""
@@ -1559,8 +1586,11 @@ neki:neki V-TV-PRET ; ! "querer"
 notsa:notsa V-TV-PRES ; ! "llamar"
 notsa:notsa V-TV-PRET ; ! "llamar"
 
+! timonohnotskeh~timonohnotsaskeh
 nonotsa:no%{j%}notsa V-TV-PRES ; ! "platicar"
 nonotsa:no%{j%}nots V-TV-PRET ; ! "platicar"
+nonotsa:no%{j%}notsa V-TV-FUT ; ! "platicar"
+nonotsa:no%{j%}not V-TV-FUT ; ! "platicar"
 
 teki:teki V-TV-PRES ; ! "cortar"
 teki:teki V-TV-PRET ; ! "cortar"
