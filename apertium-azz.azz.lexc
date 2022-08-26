@@ -886,6 +886,9 @@ ixpan:ixpan N-REL ; ! ""
 ikan:ikan N-REL ; ! ""
 kechko:kechko N-REL ; ! ""
 kechtan:kechtan N-REL ; ! ""
+tenoj:tenoj N-REL ; ! ""
+tentenoj:tentenoj N-REL ; ! ""
+yolpan:yolpan N-REL ; ! ""
 
 LEXICON Comunes
 
@@ -1048,6 +1051,7 @@ nano:nano N-Ø ; ! "señora"
 yohual:yohual N-Ø ; ! "noche"
 kafen:ka%{j%}fen N-Ø ; ! "café"
 kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
+kafentaj:ka%{j%}bentaj N-Ø ; ! "planta de café" ! Use/?
 istat:ista N-TL ; ! "sal"
 nakat:naka N-TL ; ! "carne"
 nanakat:nanaka N-TL ; ! "hongo"
@@ -1065,6 +1069,7 @@ corral:corral N-Ø ; ! "corral"
 tomin:tomin N-Ø ; ! "dinero"
 kamoj:kamoj N-Ø ; ! "camote"
 tajko:tajko N-Ø ; ! "medio"
+talmanik:talmanik N-Ø ; ! "tierra"
 
 iluiti:ilui N-TLI ; ! "fiesta"
 iluit:ilui N-TL ; ! "fiesta"
@@ -1089,6 +1094,7 @@ kuouxokot:kuou%>xoko N-TL ; ! ""
 axokot:a%>xoko N-TL ; ! ""
 sinti:sin N-TLI ; ! "mazorca"
 ejkau:ejkau N-Ø ; ! ""
+tiotak:tiotak N-Ø ; ! "tarde"
 
 ajuiakkayot:ajuiakkayo N-TL ; ! ""
 chichilkokot:chichil%>koko N-TL ; ! ""
@@ -1224,6 +1230,7 @@ ciruela:ciruela N-A-SPA ; ! ""
 cuarta:cuarta N-A-SPA ; ! ""
 manteca:manteca N-A-SPA ; ! ""
 aceite:aceite N-A-SPA ; ! ""
+machete:machete N-A-SPA ; ! ""
 viaje:viaje N-A-SPA ; ! ""
 esquina:esquina N-A-SPA ; ! ""
 semilla:semilla N-A-SPA ; ! ""
@@ -1331,6 +1338,8 @@ selik:selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
 selontsin:selontsin ADJ-TSIN ; ! "tiernitos"
 
+yolik:yolik ADJ ; ! "difícil"
+
 tsik:tsik ADJ ; ! "un poco de"
 
 mapisiltik:mapisiltik ADJ ; ! "pequeño"
@@ -1341,14 +1350,19 @@ istak:istak ADJ ; ! "blanco"
 ijistak:i%{j%}istak ADJ ; ! "blanco"
 nextik:nextik ADJ ; ! "gris"
 chichiltik:chichiltik ADJ ; ! "rojo"
+chichichiltik:chi%{j%}chichiltik ADJ ; ! "rojo"
 kostik:kostik ADJ ; ! "amarillo"
 kokostik:ko%{j%}kostik ADJ ; ! "amarillo"
 nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
 titiltik:ti%{j%}tiltik ADJ ; ! "negro"
 xoxoktik:xoxoktik ADJ ; ! "verde"
+xoxoxoktik:xo%{j%}xoxoktik ADJ ; ! "verde"
 xoxohuik:xoxohuik ADJ ; ! "verde"
 chichik:chichik ADJ ; ! "amargo"
+
+pipitsaktik:pi%{j%}pitsaktik ADJ ; ! "delgado"
+alaktik:alaktik ADJ ; ! "resbaloso"
 
 chikahuak:chikahuak ADJ ; ! "fuerte"
 sasaltik:sasaltik ADJ ; ! "pegajoso"
@@ -1358,6 +1372,7 @@ yemanik:yemanik ADJ ; ! "blando"
 takuahuak:takuahuak ADJ ; ! "resistente"
 
 kanak:kanak ADJ ; ! "delgado"
+xokok:xokok ADJ ; ! "ácido"
 
 totonik:totonik ADJ ; ! "caliente"
 tototonik:to%{j%}totonik ADJ ; ! "caliente"
@@ -1373,7 +1388,20 @@ hueyak:hueyak ADJ ; ! "largo"
 huehueyak:hue%{j%}hueyak ADJ ; ! "largo"
 mahuehueyak:mahue%{j%}hueyak ADJ ; ! "alargado"
 
+etik:etik ADJ ; ! "pesado"
+iukitik:iukitik ADJ ; ! "parecido"
+huakkatik:huakkatik ADJ ; ! "liviano"
+
+pitsahuak:pitsahuak ADJ ; ! "angosto, delgado"
+pipitsahuak:pi%{j%}pitsahuak ADJ ; ! "angosto, delgado"
+
+moloxtik:moloxtik ADJ ; ! "agradable"
+momoloxtik:mo%{j%}moloxtik ADJ ; ! "agradable"
+
+yehualtik:yehualtik ADJ ; ! "redondo"
+yeyehualtik:ye%{j%}yehualtik ADJ ; ! "redondo"
 yohyohualtik:yohyohualtik ADJ ; ! "redondo"
+mayehyehualtik:mayehyehualtik ADJ ; ! "redondo"
 mayohyohualtik:mayohyohualtik ADJ ; ! "redondo"
 
 huejkapan:huejkapan ADJ ; ! "alto"
@@ -1396,6 +1424,7 @@ kinin:kinin ADV-ITG ; ! "cómo"
 keni:keniuj ADV-ITG ; ! "cómo"
 keniuki:keniuki ADV-ITG ; ! "cómo es"
 kiniuki:kiniuki ADV-ITG ; ! "cómo es"
+keniukitik:keniukitik ADV-ITG ; ! "cómo es"
 
 keyej:keyej ADV-ITG ; ! "por qué"
 
@@ -1490,6 +1519,7 @@ kansika:kansika ADV ; ! "en algun lugar"
 noyan:noyan ADV ; ! "en muchos lugares"
 
 sakera:sakera ADV ; ! "siquiera"
+sikiera:sikiera ADV ; ! "siquiera"
 
 panian:panian ADV ; ! "encima"
 
@@ -1547,6 +1577,7 @@ talpan:tal%>pan ADV ; ! ""
 kalijtik:kal%>ijtik ADV ; ! "dentro de la casa"
 taijtik:ta%>ijtik ADV ; ! "por dentro"
 tanikuakopa:tanikuakopa ADV ; ! "por allá abajo"
+tiotakpa:tiotak%>pa ADV ; ! "por la tarde"
 
 !!! 
 
@@ -1559,32 +1590,9 @@ siquiera:siquiera ADV-ES ; ! "
 antes:antes ADV-ES ; ! "
 después:después ADV-ES ; ! "
 solamente:solamente ADV-ES ; ! "
+sólo:sólo ADV-ES ; ! "
 medio:medio ADV-ES ; ! ""
 entonces:entonces ADV-ES ; ! "entonces"
-
-LEXICON Interyecciones
-
-kemaj:kemaj INTERJ ; ! "sí"
-kanaj:kanaj INTERJ ; ! "no"
-este:este INTERJ ; ! ""
-ej:ej INTERJ ; ! ""
-eje:eje INTERJ ; ! ""
-ay:ay INTERJ ; ! ""
-aja:aja INTERJ ; ! ""
-aj:aj INTERJ ; ! ""
-aaj:aaj INTERJ ; ! ""
-mm:mm INTERJ ; ! ""
-ejej:ejej INTERJ ; ! ""
-ujuj:ujuj INTERJ ; ! ""
-a:a INTERJ ; ! ""
-igual:igual INTERJ ; ! ""
-parejo:parejo INTERJ ; ! ""
-bueno:bueno INTERJ ; ! ""
-huenoj:huenoj INTERJ ; ! ""
-tasojkamatik:tasojkamatik INTERJ ; ! ""
-cuidado:cuidado INTERJ ; ! ""
-tasojkamatiktsin:tasojkamatiktsin INTERJ ; ! ""
-nejen:neje%{n%} INTERJ ; ! ""
 
 LEXICON TV
 
@@ -1835,6 +1843,11 @@ paka:paka V-TV-PRET ; ! "lavar"
 tenteki:tenteki V-TV-PRES ; ! "tumbar"
 tenteki:tenteki V-TV-PRET ; ! "tumbar"
 
+huelita:%{h%}uelita V-TV-PRES ; ! "usar"
+huelita:%{h%}uelita V-TV-PRET ; ! "usar"
+
+
+
 
 
 
@@ -2014,12 +2027,40 @@ LEXICON Yohui
 %<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%} # ;
 %<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej # ;
+%<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>ohu%>ij # ;
 !%<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yo%{w%}% # ;
 %<s_pl3%>yohui%<v%>%<iv%>%<pres%>:yohui%>j # ;
 
 LEXICON Huitsa
 
 %<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa # ;
+
+LEXICON Interyecciones
+
+kemaj:kemaj INTERJ ; ! "sí"
+kanaj:kanaj INTERJ ; ! "no"
+este:este INTERJ ; ! ""
+ej:ej INTERJ ; ! ""
+eje:eje INTERJ ; ! ""
+ay:ay INTERJ ; ! ""
+aja:aja INTERJ ; ! ""
+aj:aj INTERJ ; ! ""
+aaj:aaj INTERJ ; ! ""
+mm:mm INTERJ ; ! ""
+ejej:ejej INTERJ ; ! ""
+ujuj:ujuj INTERJ ; ! ""
+a:a INTERJ ; ! ""
+tiotaki:tiotaki INTERJ ; ! "buenas tardes"
+tataki:tataki INTERJ ; ! "buenos días"
+igual:igual INTERJ ; ! ""
+parejo:parejo INTERJ ; ! ""
+bueno:bueno INTERJ ; ! ""
+huenoj:huenoj INTERJ ; ! ""
+tasojkamatik:tasojkamatik INTERJ ; ! ""
+cuidado:cuidado INTERJ ; ! ""
+tasojkamatiktsin:tasojkamatiktsin INTERJ ; ! ""
+nejen:neje%{n%} INTERJ ; ! ""
+
 
 LEXICON Digitos
 
