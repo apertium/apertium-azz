@@ -508,6 +508,7 @@ LEXICON INDEF-OBJ-TV
 
 %<o_nn%>:ta%> ADV-INCORP-TV ; 
 %<o_aa%>:te%> ADV-INCORP-TV ; 
+%<refl%>:m%{o%}%> ADV-INCORP-TV ; 
 
 ADV-INCORP-TV ;
 
@@ -526,6 +527,7 @@ LEXICON ADV-INCORP-IV
 LEXICON ADV-INCORP-TV
 
 %<a_yek%>:yek%> INDEF-OBJ-ROOT-TV ;
+%<a_yek%>:ek%> INDEF-OBJ-ROOT-TV ;
 %<a_tel%>:tel%> INDEF-OBJ-ROOT-TV ;
 %<a_nal%>:nal%> INDEF-OBJ-ROOT-TV ;
 %<a_sen%>:sen%> INDEF-OBJ-ROOT-TV ;
@@ -536,11 +538,13 @@ LEXICON INDEF-OBJ-ROOT-TV
 
 %<o_nn%>:ta%> TV ;
 %<o_aa%>:te%> TV ;
+%<refl%>:m%{o%}%> TV ; 
               TV ;
 
 LEXICON ADV-INCORP-ADJ
 
 yek%<adv%>%+:yek%> Adjetivos ;
+yek%<adv%>%+:ek%> Adjetivos ;
 tel%<adv%>%+:tel%> Adjetivos ;
 nal%<adv%>%+:nal%> Adjetivos ;
 sen%<adv%>%+:sen%> Adjetivos ;
@@ -665,6 +669,7 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+kima%<x%>:kima # ; 
 kin%<x%>:kin # ; 
 niwia%<x%>:niwia # ; 
 co%<x%>:co # ; 
@@ -1284,8 +1289,10 @@ kan:kan ADV ; ! "no"
 keni:keni ADV-ITG ; ! "cómo"
 kinin:kinin ADV-ITG ; ! "cómo"
 keni:keniuj ADV-ITG ; ! "cómo"
+keniuki:keniuki ADV-ITG ; ! "cómo es"
+kiniuki:kiniuki ADV-ITG ; ! "cómo es"
+
 keyej:keyej ADV-ITG ; ! "por qué"
-keniuki:keniuki ADV-ITG ; ! ""
 
 kani:kani ADV-ITG ; ! "dónde"
 
@@ -1684,12 +1691,34 @@ huilia:%{h%}uilia V-TV-PRET ; ! "tener miedo"
 piki:piki V-TV-PRES ; ! ""
 piki:piki V-TV-PRET ; ! ""
 
+altia:altia V-TV-PRES ; ! "bañar"
+altia:altia V-TV-PRET ; ! "bañar"
+
+tali:tali V-TV-PRES ; ! "poner"
+tali:tali V-TV-PRET ; ! "poner"
+
+
 pata:pata V-TV-PRES ; ! ""
 pata:pata V-TV-PRET ; ! ""
 
 tahuelia:tahuelia V-TV-PRES ; ! ""
 tahuelia:tahuelia V-TV-PRET ; ! ""
 
+majsehua:majsehua V-TV-PRES ; ! ""
+majsehua:majsehua V-TV-PRET ; ! ""
+
+tatekiutia:tatekiutia V-TV-PRES ; ! ""
+tatekiutia:tatekiutia V-TV-PRET ; ! ""
+
+
+tekiti:tekiti V-TV-PRES ; ! "trabajar"
+tekiti:tekiti V-TV-PRET ; ! "trabajar"
+
+paka:paka V-TV-PRES ; ! "lavar"
+paka:paka V-TV-PRET ; ! "lavar"
+
+tenteki:tenteki V-TV-PRES ; ! "tumbar"
+tenteki:tenteki V-TV-PRET ; ! "tumbar"
 
 
 
@@ -1738,7 +1767,6 @@ kualtia:kualtia V-IV-PRET ; ! "servir"
 
 moskaltia:moskaltia V-IV-PRES ; ! "crecer"
 moskaltia:moskaltia V-IV-PRET ; ! "crecer"
-
 
 tekiti:tekiti V-IV-PRES ; ! "trabajar"
 tekiti:tekiti V-IV-PRET ; ! "trabajar"
