@@ -516,6 +516,9 @@ LEXICON ADV-INCORP-IV
 %<a_yek%>:yek%> IV ;
 %<a_yek%>:ek%> IV ;
 %<a_tel%>:tel%> IV ;
+%<a_nal%>:nal%> IV ;
+%<a_sen%>:sen%> IV ;
+%<a_pan%>:pan%> IV ;
 
                 N-PREF ;
                 IV ;
@@ -524,6 +527,9 @@ LEXICON ADV-INCORP-TV
 
 %<a_yek%>:yek%> INDEF-OBJ-ROOT-TV ;
 %<a_tel%>:tel%> INDEF-OBJ-ROOT-TV ;
+%<a_nal%>:nal%> INDEF-OBJ-ROOT-TV ;
+%<a_sen%>:sen%> INDEF-OBJ-ROOT-TV ;
+%<a_pan%>:pan%> INDEF-OBJ-ROOT-TV ;
                 INDEF-OBJ-ROOT-TV ;
 
 LEXICON INDEF-OBJ-ROOT-TV 
@@ -536,6 +542,9 @@ LEXICON ADV-INCORP-ADJ
 
 yek%<adv%>%+:yek%> Adjetivos ;
 tel%<adv%>%+:tel%> Adjetivos ;
+nal%<adv%>%+:nal%> Adjetivos ;
+sen%<adv%>%+:sen%> Adjetivos ;
+pan%<adv%>%+:pan%> Adjetivos ;
 
 Adjetivos ;
 Propios ; 
@@ -561,6 +570,7 @@ LEXICON POSS-SUST
 LEXICON ADJ
 
 %<adj%>: V-AGR-PROG ; 
+%<adj%>%<pl%>:%>mej V-AGR-PROG ; 
 %<adj%>%<hon%>:%>tsin V-AGR-PROG ; 
 %<adj%>%<hon%>%<pl%>:%>tsi%>tsin V-AGR-PROG ; 
 
@@ -655,6 +665,7 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+kin%<x%>:kin # ; 
 niwia%<x%>:niwia # ; 
 co%<x%>:co # ; 
 mot%<x%>:mot # ; 
@@ -686,6 +697,7 @@ hasta%<pr%>:hasta # ;
 por%<pr%>:por # ; 
 para%<pr%>:para # ; 
 desde%<pr%>:desde # ; 
+en%<pr%>:en # ; 
 
 ma%<aux%>:ma%{j%} # ; 
 
@@ -916,6 +928,13 @@ ixtahuat:ixtahua N-TL ; ! "potrero"
 koutet:kou%>te N-TL ; ! "fruto" ! kou#tet
 chiltet:chil%>te N-TL ; ! "fruto" ! kou#tet
 tet:te N-TL ; ! "piedra"
+piot:pio N-TL ; ! "gallina"
+askat:aska N-TL ; ! "hormiga"
+tokat:toka N-TL ; ! "araña"
+tsotsokat:tsotsoka N-TL ; ! "mezquino"
+koyot:koyo N-TL ; ! ""
+totolin:totol N-IN ; ! ""
+totolkonet:totol%>kone N-TL ; ! ""
 piotet:piote N-TL ; ! "huevo"
 xonot:xono N-TL ; ! "jonote"
 mosot:moso N-TL ; ! ""
@@ -929,6 +948,7 @@ huauhkilit:%{h%}uauhkili N-TL ; ! ""
 nexkijit:nexkiji N-TL ; ! ""
 kilit:kili N-TL ; ! "quilite"
 huitstotomat:%{h%}uitstotoma N-TL ; ! ""
+tepetomat:tepe%>toma N-TL ; ! ""
 xalkohuit:xalko N-HUITL ; ! ""
 tsotsolpajxihui:tsotsolpajxihui N-TL ; ! ""
 kokot:koko N-TL ; ! "grano"
@@ -1050,7 +1070,45 @@ totolkilit:totol%>kil N-ITL ; ! ""
 tsikilit:tsi%>kil N-ITL ; ! ""
 huiitsuaukilit:huitsuau%>kil N-ITL ; ! ""
 
+akokojxihuit:akokoj%>xi N-HUITL ; ! ""
+atenxihuit:aten%>xi N-HUITL ; ! ""
+axihuit:a%>xi N-HUITL ; ! ""
+axokoxihuit:axoko%>xi N-HUITL ; ! ""
+chichikxihuit:chichik%>xi N-HUITL ; ! ""
+huakojxihuit:huakoj%>xi N-HUITL ; ! ""
+huitsikixihuit:huitsiki%>xi N-HUITL ; ! ""
+kabayojkhuitaxihuit:kabayojkhuita%>xi N-HUITL ; ! ""
+khuakhualaxihuit:khuakhuala%>xi N-HUITL ; ! ""
+kohuapajxihuit:kohuapaj%>xi N-HUITL ; ! ""
+kohuatapitsxihuit:kohuatapits%>xi N-HUITL ; ! ""
+kouxihuit:kou%>xi N-HUITL ; ! ""
+mohuijxihuit:mohuij%>xi N-HUITL ; ! ""
+pitsoaxihuit:pitsoa%>xi N-HUITL ; ! ""
+polihuinixihuit:polihuini%>xi N-HUITL ; ! ""
+tanechikolxihuit:tanechikol%>xi N-HUITL ; ! ""
+tanokhuilpajxihuit:tanokhuilpaj%>xi N-HUITL ; ! ""
+tenayopajxihuit:tenayopaj%>xi N-HUITL ; ! ""
+topitsxihuit:topits%>xi N-HUITL ; ! ""
+tsopelikxihuit:tsopelik%>xi N-HUITL ; ! ""
+tsotsokapajxihuit:tsotsokapaj%>xi N-HUITL ; ! ""
+yolpolihukaxihuit:yolpolihuka%>xi N-HUITL ; ! ""
 
+oloxochit:olo%>xochi N-TL ; ! ""
+tanokhuilpajxochit:tanokhuilpaj%>xochi N-TL ; ! ""
+tenkhuakhualaxochit:tenkhuakhuala%>xochi N-TL ; ! ""
+kakaloxochit:kakalo%>xochi N-TL ; ! ""
+xiloxochit:xilo%>xochi N-TL ; ! ""
+atenkhuakhualaxochit:atenkhuakhuala%>xochi N-TL ; ! ""
+istakxochit:istak%>xochi N-TL ; ! ""
+xelajxochit:xelaj%>xochi N-TL ; ! ""
+tejtsonkilxochit:tejtsonkil%>xochi N-TL ; ! ""
+tajkhuilolxochit:tajkhuilol%>xochi N-TL ; ! ""
+
+
+peso:peso%{j%} N-Ø ; ! "peso"
+peso:peso N-O-SPA ; ! "peso"
+
+kilo:kilo N-O-SPA ; ! ""
 remedio:remedio N-O-SPA ; ! ""
 racimo:racimo N-O-SPA ; ! ""
 hilo:hilo N-O-SPA ; ! ""
@@ -1138,6 +1196,7 @@ Santos:Santos NP-COG ;
 Rivera:Rivera NP-COG ;
 
 San:San NP-TOP ;
+Santa:Santa NP-TOP ;
 Tzinacapan:Tzinacapan NP-TOP ;
 Zacapoaxtla:Zacapoaxtla NP-TOP ;
 Ometepetl:Ometepetl NP-TOP ;
@@ -1177,6 +1236,8 @@ selik:selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
 
 mapisiltik:mapisiltik ADJ ; ! "pequeño"
+
+nohnel:nohnel ADJ ; ! "pequeño"
 
 istak:istak ADJ ; ! "blanco"
 ijistak:i%{j%}istak ADJ ; ! "blanco"
@@ -1605,6 +1666,30 @@ ahuilohua:ahuilo V-TV-HUA-PRET ; ! ""
 kuechohua:kuecho V-TV-HUA-PRES ; ! ""
 kuechohua:kuecho V-TV-HUA-PRET ; ! ""
 
+namiki:namiki V-TV-PRES ; ! "encontrar"
+namiki:namiki V-TV-PRET ; ! "encontrar"
+
+tilana:tilana V-TV-PRES ; ! "jalar"
+tilana:tilana V-TV-PRET ; ! "jalar"
+
+kixtia:kixtia V-TV-PRES ; ! ""
+kixtia:kixtia V-TV-PRET ; ! ""
+
+teteki:te%{j%}teki V-TV-PRES ; ! ""
+teteki:te%{j%}teki V-TV-PRET ; ! ""
+
+huilia:%{h%}uilia V-TV-PRES ; ! "tener miedo"
+huilia:%{h%}uilia V-TV-PRET ; ! "tener miedo"
+
+piki:piki V-TV-PRES ; ! ""
+piki:piki V-TV-PRET ; ! ""
+
+pata:pata V-TV-PRES ; ! ""
+pata:pata V-TV-PRET ; ! ""
+
+tahuelia:tahuelia V-TV-PRES ; ! ""
+tahuelia:tahuelia V-TV-PRET ; ! ""
+
 
 
 
@@ -1653,6 +1738,7 @@ kualtia:kualtia V-IV-PRET ; ! "servir"
 
 moskaltia:moskaltia V-IV-PRES ; ! "crecer"
 moskaltia:moskaltia V-IV-PRET ; ! "crecer"
+
 
 tekiti:tekiti V-IV-PRES ; ! "trabajar"
 tekiti:tekiti V-IV-PRET ; ! "trabajar"
@@ -1749,6 +1835,9 @@ tapani:tapani V-IV-PRET ; ! "partir"
 
 pati:pati V-IV-PRES ; ! "arder"
 pati:pati V-IV-PRET ; ! "arder"
+
+rendirohua:rendiro V-IV-HUA-PRES ; ! "rendir"
+rendirohua:rendiro V-IV-HUA-PRET ; ! "rendir"
 
 servirohua:serviro V-IV-HUA-PRES ; ! "servir"
 servirohua:serviro V-IV-HUA-PRET ; ! "servir"
