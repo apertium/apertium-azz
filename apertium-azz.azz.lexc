@@ -60,6 +60,8 @@ Multichar_Symbols
 %<tv%>
 %<iv%>
 
+%<opt%>
+
 %{w%}
 %{i%}
 %{j%}
@@ -325,12 +327,18 @@ LEXICON V-AGR-PLU
 :                    # ; 
 :%>j                 # ;  ! Flag PL
 
+LEXICON V-AGR-OPT
+
+!:                    # ; 
+:%>kan                # ;  ! Flag PL
+
 
 LEXICON V-TAM-PRES
 
 %<pres%>: V-AGR-PRES ;
 %<impf%>:%>ya V-AGR-PRES ;
 %<plu%>:%>ka V-AGR-PLU ;
+%<opt%>: V-AGR-OPT ;
 %<fut%>:%>s V-AGR-FUT ;
 %<cni%>:%>skia V-AGR-PRES ;
 !%<prog%>:%>tok V-AGR-PROG ;
@@ -391,6 +399,7 @@ LEXICON V-TV-IA-PRET
 LEXICON V-TV-HUA-PRES
 
 %<v%>%<tv%>%<fut%>:%>s V-AGR-FUT ;
+%<v%>%<tv%>%<opt%>: V-AGR-OPT ;
 %<v%>%<tv%>%<cni%>:%>s%>kia V-AGR-PRES ;
 %<v%>%<tv%>%<prog%>:%>tok V-AGR-PROG ;
 %<v%>%<tv%>%<prog%>%<fut%>:%>to%>s V-AGR-PROG ;
@@ -521,8 +530,8 @@ LEXICON ADV-INCORP-IV
 %<a_yek%>:ek%> IV ;
 %<a_tel%>:tel%> IV ;
 %<a_nal%>:nal%> IV ;
-%<a_sen%>:sen%> IV ;
-%<a_pan%>:pan%> IV ;
+%<a_sen%>:se%{N%}%> IV ;
+%<a_pan%>:pa%{N%}%> IV ;
 
                 N-PREF ;
                 IV ;
@@ -533,8 +542,8 @@ LEXICON ADV-INCORP-TV
 %<a_yek%>:ek%> INDEF-OBJ-ROOT-TV ;
 %<a_tel%>:tel%> INDEF-OBJ-ROOT-TV ;
 %<a_nal%>:nal%> INDEF-OBJ-ROOT-TV ;
-%<a_sen%>:sen%> INDEF-OBJ-ROOT-TV ;
-%<a_pan%>:pan%> INDEF-OBJ-ROOT-TV ;
+%<a_sen%>:se%{N%}%> INDEF-OBJ-ROOT-TV ;
+%<a_pan%>:pa%{N%}%> INDEF-OBJ-ROOT-TV ;
                 INDEF-OBJ-ROOT-TV ;
 
 LEXICON INDEF-OBJ-ROOT-TV 
@@ -550,8 +559,8 @@ yek%<adv%>%+:yek%> Adjetivos ;
 yek%<adv%>%+:ek%> Adjetivos ;
 tel%<adv%>%+:tel%> Adjetivos ;
 nal%<adv%>%+:nal%> Adjetivos ;
-sen%<adv%>%+:sen%> Adjetivos ;
-pan%<adv%>%+:pan%> Adjetivos ;
+sen%<adv%>%+:se%{N%}%> Adjetivos ;
+pan%<adv%>%+:pa%{N%}%> Adjetivos ;
 
 Adjetivos ;
 Propios ; 
@@ -678,8 +687,10 @@ LEXICON Miscellanea
 ! FIXME: False starts?
 i%<x%>:i # ; 
 kim%<x%>:kim # ; 
+am%<x%>:am # ;  ! amo
 ton%<x%>:ton # ; 
 nimits%<x%>:ni%>mits # ; 
+niki%<x%>:ni%>ki # ; 
 its%<x%>:its # ; 
 kima%<x%>:kima # ; 
 kin%<x%>:kin # ; 
@@ -718,6 +729,8 @@ en%<pr%>:en # ;
 
 ma%<aux%>:ma%{j%} # ; 
 
+huej%<mod%>:huej # ;
+
 LEXICON Conjunciones 
 
 pero:pero CC ; ! "pero"
@@ -725,6 +738,7 @@ o:o CC ; ! "o"
 huan:%{h%}uan CC ; ! "y"
 oso:oso CC ; ! "o"
 y:y CC ; ! ""
+sino:sino CC ; ! ""
 
 porque:porque CS ; ! "porque"
 porke:porke CS ; ! "porque"
@@ -806,6 +820,7 @@ nijin:niji%{n%} PRON ;
 nejin:neji%{n%} PRON ; 
 
 teisa:tei%{j%}sa PRON ; ! "algo"
+teisa:te%{j%}sa PRON ; ! "algo"
 tei:tei PRON ; ! "algo"
 
 katin:katin PRON ; ! "cuál, qué"
@@ -889,6 +904,9 @@ kechtan:kechtan N-REL ; ! ""
 tenoj:tenoj N-REL ; ! ""
 tentenoj:tentenoj N-REL ; ! ""
 yolpan:yolpan N-REL ; ! ""
+metsko:metsko N-REL ; ! ""
+mako:mako N-REL ; ! ""
+kuapan:kuapan N-REL ; ! ""
 
 LEXICON Comunes
 
@@ -1060,6 +1078,7 @@ itsmol:itsmol N-Ø ; ! ""
 tal:tal N-Ø ; ! "tierra, cielo"
 chanti:chan N-TLI ; ! "casa"
 emol:emol N-Ø ; ! "frijol"
+akolin:akolin N-Ø ; ! "ajonjolí"
 
 taltikpak:taltikpak N-Ø ; ! "planeta"
 iluikak:iluikak N-Ø ; ! "cielo"
@@ -1070,6 +1089,7 @@ tomin:tomin N-Ø ; ! "dinero"
 kamoj:kamoj N-Ø ; ! "camote"
 tajko:tajko N-Ø ; ! "medio"
 talmanik:talmanik N-Ø ; ! "tierra"
+tepesin:tepesin N-Ø ; ! ""
 
 iluiti:ilui N-TLI ; ! "fiesta"
 iluit:ilui N-TL ; ! "fiesta"
@@ -1118,6 +1138,8 @@ tototsapot:toto%>tsapo N-TL ; ! ""
 tsapot:tsapo N-TL ; ! ""
 
 toknihuan:toknihua N-HUAN ; ! "persona"
+tokniu:tokniu N-Ø ; ! "persona"
+hueitokniu:%{h%}uei%>tokniu N-Ø ; ! "persona adulta"
 
 chiahuakilit:chiahua%>kil N-ITL ; ! ""
 ekexikilit:ekexi%>kil N-ITL ; ! ""
@@ -1261,6 +1283,7 @@ tapalan:tapalan N-Ø ; ! "abono"
 
 ix:ix N-Ø ; ! "cara"
 kes:kes N-Ø ; ! "pie"
+mets:mets N-Ø ; ! "pierna"
 mait:ma N-ITL ; ! "mano"
 kech:kech N-Ø ; ! "cuello"
 
@@ -1371,6 +1394,8 @@ yemanik:yemanik ADJ ; ! "blando"
 
 takuahuak:takuahuak ADJ ; ! "resistente"
 
+mapapatahuak:mapapatahuak ADJ ; ! "ancho"
+
 kanak:kanak ADJ ; ! "delgado"
 xokok:xokok ADJ ; ! "ácido"
 
@@ -1404,8 +1429,17 @@ yohyohualtik:yohyohualtik ADJ ; ! "redondo"
 mayehyehualtik:mayehyehualtik ADJ ; ! "redondo"
 mayohyohualtik:mayohyohualtik ADJ ; ! "redondo"
 
+tohtomahuak:tohtomahuak ADJ ; ! "grueso"
+
 huejkapan:huejkapan ADJ ; ! "alto"
 huejkapan:hue%{j%}huejkapan ADJ ; ! "alto"
+
+fiero:fiero%{j%} ADJ ; ! "feo"
+
+patachtik:patachtik ADJ ; ! "plano"
+papatachtik:pa%{j%}patachtik ADJ ; ! "aplastado"
+
+tamanal:tamanal ADJ ; ! "hervido"
 
 todo:tod ADJ-ES ; ! ""
 morado:morad ADJ-ES ; ! ""
@@ -1419,6 +1453,7 @@ LEXICON Adverbios
 amo:amo ADV ; ! "no"
 kan:kan ADV ; ! "no"
 
+ken:ken ADV-ITG ; ! "cómo"
 keni:keni ADV-ITG ; ! "cómo"
 kinin:kinin ADV-ITG ; ! "cómo"
 keni:keniuj ADV-ITG ; ! "cómo"
@@ -1451,6 +1486,8 @@ kit:kit ADV ; ! "pues"
 pos:pos ADV ; ! "pues"
 pues:pues ADV ; ! "pues"
 entos:entos ADV ; ! "entonces"
+
+nenken:nenken ADV ; ! "rápido"
 
 semi:semi ADV ; ! "muy"
 
@@ -1847,6 +1884,10 @@ huelita:%{h%}uelita V-TV-PRES ; ! "usar"
 huelita:%{h%}uelita V-TV-PRET ; ! "usar"
 
 
+xotaltia:xotaltia V-TV-PRES ; ! ""
+xotaltia:xotaltia V-TV-PRET ; ! ""
+
+
 
 
 
@@ -2009,6 +2050,21 @@ okuilohua:okuilo V-IV-HUA-PRET ; ! ""
 
 temalohua:temalo V-IV-HUA-PRES ; ! ""
 temalohua:temalo V-IV-HUA-PRET ; ! ""
+
+ketsa:ketsa V-IV-PRES ; ! "pararse"
+ketsa:ketsa V-IV-PRET ; ! "pararse"
+
+keketsa:ke%{j%}ketsa V-IV-PRES ; ! "pararse"
+keketsa:ke%{j%}ketsa V-IV-PRET ; ! "pararse"
+
+mokeketsa:moke%{j%}ketsa V-IV-PRES ; ! "pararse"
+mokeketsa:moke%{j%}ketsa V-IV-PRET ; ! "pararse"
+
+xota:xota V-IV-PRES ; ! ""
+xota:xota V-IV-PRET ; ! ""
+
+
+
 
 
 
