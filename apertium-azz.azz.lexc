@@ -282,6 +282,8 @@ LEXICON NUM-ES
 LEXICON ADV
 
 %<adv%>: # ; 
+%<adv%>%<hon%>:%>tsin # ; 
+%<adv%>%<hon%>%<pl%>:tsi%>tsin # ; 
 
 LEXICON ADV-ITG
 
@@ -571,6 +573,10 @@ LEXICON POSS-SUST
 %<px3aa%>:te%>  Sustantivos ;
 
 
+LEXICON ADJ-TSIN
+
+%<adj%>: V-AGR-PROG ; 
+
 LEXICON ADJ
 
 %<adj%>: V-AGR-PROG ; 
@@ -594,6 +600,7 @@ LEXICON ADJ-KUALI
 
 %<adj%>:%>i V-AGR-PROG ; 
 %<adj%>%<hon%>:%>tsin V-AGR-PROG ; 
+%<adj%>%<hon%>%<pl%>:%>tsi%>tsin V-AGR-PROG ; 
 
 LEXICON COP-KATKA
 
@@ -669,6 +676,7 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i # ; 
+its%<x%>:its # ; 
 kima%<x%>:kima # ; 
 kin%<x%>:kin # ; 
 niwia%<x%>:niwia # ; 
@@ -813,6 +821,7 @@ majtakti:majtakti NUM ; ! "diez"
 majtakti:majtak NUM ; ! "diez"
 kaxtol:kaxtol NUM ; ! "quince"
 pohual:pohual NUM ; ! "veinte"
+sempohual:sempohual NUM ; ! ""
 
 cien:cien NUM-ES ; ! ""
 ciento:ciento NUM-ES ; ! ""
@@ -851,6 +860,7 @@ huan:%{h%}uan N-REL ;
 ka:ka N-REL ; 
 tech:tech N-REL ;
 panko:panko N-REL ;
+talpan:talpan N-REL ; ! ""
 
 LEXICON Locativos 
 
@@ -859,17 +869,22 @@ kespan:kespan N-REL ;
 tampa:tampa N-REL ;
 ixko:ixko N-REL ;
 ijtik:ijtik N-REL ;
+ixpan:ixpan N-REL ; ! ""
+ikan:ikan N-REL ; ! ""
 
 LEXICON Comunes
 
 at:a N-TL ; ! "agua"
 ahuakat:ahuaka N-TL ; ! "aguacate"
 ajkol:ajkol N-Ø ; ! "hombro"
+tiopan:tiopan N-Ø ; ! "iglesia"
+temaskal:temaskal N-Ø ; ! "temascal"
 chechelot:chechelo N-TL ; ! "ardilla"
 ejekatl:ejeka N-TL ; ! "viento"
 huehuet:%{h%}uehue N-TL ; ! "viejo"
 takilot:takilo N-TL ; ! "fruto"
 itskuinti:itskuin N-TLI ; ! "perro"
+tixti:tix N-TLI ; ! ""
 kamak:kamak N-Ø ; ! "boca"
 lapo:lapo N-Ø ; ! "recortado"
 mestli:mes N-TLI ; ! "luna"
@@ -907,9 +922,10 @@ xokoyolin:xokoyol N-IN ; ! "xokoyolin"
 tekpin:tekpin N-Ø ; ! "pulga"
 chiltekpin:chiltekpin N-Ø ; ! "chiltepín"
 tokay:tokay N-Ø ; ! "nombre"
-pajti:pajti N-Ø ; ! "medicina"
-pajti:pati N-Ø ; ! "medicina"
+pajti:paj N-TLI ; ! "medicina"
+pajti:pa N-TLI ; ! "medicina"
 masehualpajti:masehual%>pajti N-Ø ; ! "medicina tradicional"
+tilmaj:tilmaj N-Ø ; ! "niño"
 pili:pili N-Ø ; ! "niño"
 pipili:pipil N-LI ; ! "niño"
 pipilkonet:pipil%>kone N-TL ; ! "niño"
@@ -1010,10 +1026,16 @@ ajuiak:ajuiak N-Ø ; ! "olor"
 koutatil:kou%>tatil N-Ø ; ! "leña"
 nano:nano N-Ø ; ! "señora"
 yohual:yohual N-Ø ; ! "noche"
+kafen:ka%{j%}fen N-Ø ; ! "café"
 kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
-nanakat:nanaka N-TL ; ! ""
+istat:ista N-TL ; ! "sal"
+nakat:naka N-TL ; ! "carne"
+nanakat:nanaka N-TL ; ! "hongo"
+kuanakat:kua%>naka N-TL ; ! ""
 itsmol:itsmol N-Ø ; ! ""
 tal:tal N-Ø ; ! "tierra, cielo"
+chanti:chan N-TLI ; ! "casa"
+emol:emol N-Ø ; ! "frijol"
 
 taltikpak:taltikpak N-Ø ; ! "planeta"
 iluikak:iluikak N-Ø ; ! "cielo"
@@ -1023,6 +1045,10 @@ corral:corral N-Ø ; ! "corral"
 tomin:tomin N-Ø ; ! "dinero"
 kamoj:kamoj N-Ø ; ! "camote"
 
+iluiti:ilui N-TLI ; ! "fiesta"
+iluit:ilui N-TL ; ! "fiesta"
+koyoiluit:koyo%>ilui N-TL ; ! "fiesta"
+
 atsitsikas:atsitsikas N-Ø ; ! ""
 huitsti:%{h%}uits N-TLI ; ! "espina"
 may:may N-Ø ; ! "hoja"
@@ -1031,11 +1057,16 @@ xinach:xinach N-Ø ; ! "semilla"
 taxkal:taxkal N-Ø ; ! "tortilla"
 taxkalisuat:taxkal%>isua N-TL ; ! ""
 komal:komal N-Ø ; ! "comal"
+komit:kom N-ITL ; ! "olla"
+tikomit:tikom N-ITL ; ! "fogón"
+koyotikomit:koyo%>tikom N-ITL ; ! "fogón"
+atoltikomit:atol%>tikom N-ITL ; ! ""
 kopal:kopal N-Ø ; ! "copal"
 xokot:xoko N-TL ; ! ""
 kouxokot:kou%>xoko N-TL ; ! ""
 kuouxokot:kuou%>xoko N-TL ; ! ""
 axokot:a%>xoko N-TL ; ! ""
+sinti:sin N-TLI ; ! "mazorca"
 
 ajuiakkayot:ajuiakkayo N-TL ; ! ""
 chichilkokot:chichil%>koko N-TL ; ! ""
@@ -1149,6 +1180,7 @@ aceite:aceite N-A-SPA ; ! ""
 vez:ve N-Z-SPA ; ! ""
 color:color N-R-SPA ; ! ""
 cimarrón:cimarr N-ÓN-SPA ; ! ""
+riñón:riñ N-ÓN-SPA ; ! ""
 
 enero:enero N-O-SPA ; ! ""
 febrero:febrero N-O-SPA ; ! ""
@@ -1167,7 +1199,6 @@ deciembre:deciembre N-O-SPA ; ! ""
 
 tapalan:tapalan N-Ø ; ! "abono"
 
-ixpan:ixpan N-Ø ; ! ""
 
 ix:ix N-Ø ; ! "cara"
 kes:kes N-Ø ; ! "pie"
@@ -1236,9 +1267,13 @@ huei:%{h%}ue ADJ-KUALI ; ! "grande"
 huehuei:%{h%}uehue ADJ-KUALI ; ! "grande"
 miak:miak ADJ ; ! "mucho"
 tsiki:tsiki ADJ ; ! "pequeño"
+tsikili:tsikili ADJ ; ! "pequeño"
 pisiltik:pisiltik ADJ ; ! "chiquito"
 selik:selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
+selontsin:selontsin ADJ-TSIN ; ! "tiernitos"
+
+tsik:tsik ADJ ; ! "un poco de"
 
 mapisiltik:mapisiltik ADJ ; ! "pequeño"
 
@@ -1263,17 +1298,22 @@ yemanik:yemanik ADJ ; ! "blando"
 
 takuahuak:takuahuak ADJ ; ! "resistente"
 
+kanak:kanak ADJ ; ! "delgado"
+
 totonik:totonik ADJ ; ! "caliente"
 tototonik:to%{j%}totonik ADJ ; ! "caliente"
 sesek:sesek ADJ ; ! "frío"
 
 eski:eski ADJ ; ! "cierto"
-weyak:weyak ADJ ; ! "largo"
-weweyak:we%{j%}weyak ADJ ; ! "largo"
-maweweyak:mawe%{j%}weyak ADJ ; ! "alargado"
+hueyak:hueyak ADJ ; ! "largo"
+huehueyak:hue%{j%}hueyak ADJ ; ! "largo"
+mahuehueyak:mahue%{j%}hueyak ADJ ; ! "alargado"
 
-wejkapan:wejkapan ADJ ; ! "alto"
-wejkapan:we%{j%}wejkapan ADJ ; ! "alto"
+yohyohualtik:yohyohualtik ADJ ; ! "redondo"
+mayohyohualtik:mayohyohualtik ADJ ; ! "redondo"
+
+huejkapan:huejkapan ADJ ; ! "alto"
+huejkapan:hue%{j%}huejkapan ADJ ; ! "alto"
 
 morado:morad ADJ-ES ; ! ""
 mero:mer ADJ-ES ; ! ""
