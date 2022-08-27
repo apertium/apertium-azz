@@ -696,6 +696,11 @@ LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>: # ;
 
+LEXICON FALSE
+
+:%.%.%. # ; 
+        # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Contracciones 
@@ -707,49 +712,50 @@ yeh%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;  ! FIXME: Comprobar
 LEXICON Miscellanea
 
 ! FIXME: False starts?
-i%<x%>:i # ; 
-w%<x%>:w # ; 
-p%<x%>:p # ; 
-me%<x%>:me # ; 
-ik%<x%>:ik # ; 
-xo%<x%>:xo # ; 
-kon%<x%>:kon # ; 
-on%<x%>:on # ; 
-nech%<x%>:nech # ; 
-wa%<x%>:wa # ; 
-is%<x%>:is # ; 
-po%<x%>:po # ; 
-mi%<x%>:mi # ; 
-tit%<x%>:tit # ; 
-tiki%<x%>:ti%>ki # ; 
-iw%<x%>:iw # ; 
-it%<x%>:it # ; 
-ts%<x%>:ts # ; 
-kim%<x%>:kim # ; 
-am%<x%>:am # ;  ! amo
-ton%<x%>:ton # ; 
-nimits%<x%>:ni%>mits # ; 
-niki%<x%>:ni%>ki # ; 
-its%<x%>:its # ; 
-kima%<x%>:kima # ; 
-kin%<x%>:kin # ; 
-nihuia%<x%>:nihuia # ; 
-co%<x%>:co # ; 
-mot%<x%>:mot # ; 
-timo%<x%>:timo # ; 
-ih%<x%>:ih # ; 
-to%<x%>:to # ; 
-s%<x%>:s # ; 
-x%<x%>:x # ; 
-m%<x%>:m # ; 
-ni%<x%>:ni # ; 
-ki%<x%>:ki # ; 
-k%<x%>:k # ; 
-mo%<x%>:mo # ; 
-t%<x%>:t # ; 
-ti%<x%>:ti # ; 
-tik%<x%>:tik # ; 
-nik%<x%>:nik # ; 
+i%<x%>:i FALSE ; 
+w%<x%>:w FALSE ; 
+e%<x%>:e FALSE ; 
+p%<x%>:p FALSE ; 
+me%<x%>:me FALSE ; 
+ik%<x%>:ik FALSE ; 
+xo%<x%>:xo FALSE ; 
+kon%<x%>:kon FALSE ; 
+on%<x%>:on FALSE ; 
+nech%<x%>:nech FALSE ; 
+wa%<x%>:wa FALSE ; 
+is%<x%>:is FALSE ; 
+po%<x%>:po FALSE ; 
+mi%<x%>:mi FALSE ; 
+tit%<x%>:tit FALSE ; 
+tiki%<x%>:ti%>ki FALSE ; 
+iw%<x%>:iw FALSE ; 
+it%<x%>:it FALSE ; 
+ts%<x%>:ts FALSE ; 
+kim%<x%>:kim FALSE ; 
+am%<x%>:am FALSE ;  ! amo
+ton%<x%>:ton FALSE ; 
+nimits%<x%>:ni%>mits FALSE ; 
+niki%<x%>:ni%>ki FALSE ; 
+its%<x%>:its FALSE ; 
+kima%<x%>:kima FALSE ; 
+kin%<x%>:kin FALSE ; 
+nihuia%<x%>:nihuia FALSE ; 
+co%<x%>:co FALSE ; 
+mot%<x%>:mot FALSE ; 
+timo%<x%>:timo FALSE ; 
+ih%<x%>:ih FALSE ; 
+to%<x%>:to FALSE ; 
+s%<x%>:s FALSE ; 
+x%<x%>:x FALSE ; 
+m%<x%>:m FALSE ; 
+ni%<x%>:ni FALSE ; 
+ki%<x%>:ki FALSE ; 
+k%<x%>:k FALSE ; 
+mo%<x%>:mo FALSE ; 
+t%<x%>:t FALSE ; 
+ti%<x%>:ti FALSE ; 
+tik%<x%>:tik FALSE ; 
+nik%<x%>:nik FALSE ; 
 
 sea%<x%>:sea # ; ! o sea
 ver%<x%>:ver # ; ! a ver
@@ -2180,6 +2186,9 @@ huatsa:%{h%}uatsa V-TV-PRET ; ! "secar"
 
 kahuani:kahuani V-TV-PRES ; ! "hacer calor"
 kahuani:kahuani V-TV-PRET ; ! "hacer calor"
+
+machilia:machili V-TV-IA-PRES ; ! "sentir"
+machilia:machili V-TV-IA-PRET ; ! "sentir"
 
 
 
