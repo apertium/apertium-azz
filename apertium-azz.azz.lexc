@@ -713,7 +713,10 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i FALSE ; 
+chi%<x%>:chi FALSE ; 
+tinech%<x%>:ti%>nech FALSE ; 
 w%<x%>:w FALSE ; 
+we%<x%>:we FALSE ; 
 e%<x%>:e FALSE ; 
 p%<x%>:p FALSE ; 
 me%<x%>:me FALSE ; 
@@ -781,6 +784,8 @@ ma%<aux%>:ma%{j%} # ;
 huej%<mod%>:huej # ;
 
 kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eskia # ;
+
+%<imp%>%<i_sg1%>ilia%<v%>%<tv%>%<pres%>:%'nech%>ili # ;
 
 LEXICON Conjunciones 
 
@@ -1169,9 +1174,13 @@ xonoochpahuas:xono%>ochpahuas N-Ø ; ! ""
 tamachiuj:tamachiuj N-Ø ; ! "metro"
 teiskaltijka:teiskaltijka N-Ø ; ! "padres"
 
+chapolistit:chapolist N-ITL ; ! ""
+
 taltikpak:taltikpak N-Ø ; ! "planeta"
 iluikak:iluikak N-Ø ; ! "cielo"
 nemilis:nemilis N-Ø ; ! "vida"
+talnamikilis:talnamikilis N-Ø ; ! "conocimiento"
+tatsintokalis:tatsintokalis N-Ø ; ! "pregunta"
 kali:kal N-LI ; ! "casa"
 corral:corral N-Ø ; ! "corral"
 tomin:tomin N-Ø ; ! "dinero"
@@ -1183,6 +1192,7 @@ tepesin:tepesin N-Ø ; ! ""
 pa:pa%{n%} N-Ø ; ! "papá"
 knihuan:knihuan N-Ø ; ! "hermano"
 pipiliknihuan:pipili%>knihuan N-Ø ; ! ""
+chokil:chokil N-Ø ; ! ""
 
 iluiti:ilui N-TLI ; ! "fiesta"
 iluit:ilui N-TL ; ! "fiesta"
@@ -1234,6 +1244,7 @@ taijtiyot:taijtiyo N-TL ; ! ""
 takot:tako N-TL ; ! ""
 tototsapot:toto%>tsapo N-TL ; ! ""
 tsapot:tsapo N-TL ; ! ""
+tatok:tatok N-Ø ; ! ""
 
 panehuayot:panehuayo N-TL ; ! "cáscara"
 
@@ -1335,9 +1346,13 @@ kouten:kou%>ten N-Ø ; ! ""
 ojten:oj%>ten N-Ø ; ! ""
 tekol:tekol N-Ø ; ! "fuego"
 taol:taol N-Ø ; ! "grano de maíz"
+tatsakuil:tatsakuil N-Ø ; ! "puerta"
 
 tankuakuikuil:tankuakuikuil N-Ø ; ! ""
 xiukahual:xiukahual N-Ø ; ! ""
+tajtay:tajtay N-Ø ; ! ""
+teajuach:teajuach N-Ø ; ! ""
+chahuis:chahuis N-Ø ; ! ""
 
 peso:peso%{j%} N-Ø ; ! "peso"
 peso:peso N-O-SPA ; ! "peso"
@@ -1414,6 +1429,7 @@ radiación:radiaci N-ÓN-SPA ; ! ""
 fusión:fusi N-ÓN-SPA ; ! ""
 riñón:riñ N-ÓN-SPA ; ! ""
 gas:gas N-R-SPA ; ! ""
+mal:mal N-R-SPA ;  ! ""
 
 enero:enero N-O-SPA ; ! ""
 febrero:febrero N-O-SPA ; ! ""
@@ -1429,12 +1445,18 @@ noviembre:noviembre N-O-SPA ; ! ""
 deciembre:deciembre N-O-SPA ; ! ""
 
 tapal:tapal N-Ø ; ! "tintura"
+taktson:taktson N-Ø ; ! "mata"
+mata:mata N-A-SPA ; ! "mata"
+ahuil:ahuil N-Ø ; ! "juguete"
+yolan:yolan N-Ø ; ! "centro"
+selo:selo N-Ø ; ! ""
 
 !FIXME: Comprobar
 
 tapalan:tapalan N-Ø ; ! "abono"
 pochne:pochne N-Ø ; ! ""
 parajko:parajko N-Ø ; ! "arriba"
+tani:tani N-Ø ; ! "abajo"
 nexwitil:nexwitil N-Ø ; ! "empacho"
 ajuiaya:ajuiaya N-Ø ; ! "fragrancia"
 
@@ -1533,6 +1555,7 @@ LEXICON Adjetivos
 huelik:%{h%}uelik ADJ ; ! "bueno"
 huehuelik:%{h%}ue%{j%}huelik ADJ ; ! "bueno"
 kuali:kual ADJ-KUALI ; ! "bonito"
+kuakuali:kua%{j%}kual ADJ-KUALI ; ! "bonito"
 huei:%{h%}ue ADJ-KUALI ; ! "grande"
 huehuei:%{h%}uehue ADJ-KUALI ; ! "grande"
 miak:miak ADJ ; ! "mucho"
@@ -1544,7 +1567,9 @@ seselik:se%{j%}selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
 selontsin:selontsin ADJ-TSIN ; ! "tiernitos"
 
+ajuiyak:ajuiyak ADJ ; ! "fragrante"
 yolik:yolik ADJ ; ! "difícil"
+ohuij:ohuij ADJ ; ! "difícil"
 
 tsik:tsik ADJ ; ! "un poco de"
 
@@ -1562,6 +1587,7 @@ kokostik:ko%{j%}kostik ADJ ; ! "amarillo"
 nejnextik:ne%{j%}nextik ADJ ; ! "gris"
 tiltik:tiltik ADJ ; ! "negro"
 titiltik:ti%{j%}tiltik ADJ ; ! "negro"
+selistok:selistok ADJ ; ! "verde"
 xoxoktik:xoxoktik ADJ ; ! "verde"
 xoxoxoktik:xo%{j%}xoxoktik ADJ ; ! "verde"
 xoxohuik:xoxohuik ADJ ; ! "verde"
@@ -1629,6 +1655,8 @@ huejkapan:huejkapan ADJ ; ! "alto"
 huejkapan:hue%{j%}huejkapan ADJ ; ! "alto"
 huejkapantik:huejkapantik ADJ ; ! "alto"
 
+elihuis:elihuis ADJ ; ! "salvaje"
+
 chichijkoltik:chi%{j%}chijkoltik ADJ ; ! "torcido"
 
 fiero:fiero%{j%} ADJ ; ! "feo"
@@ -1679,6 +1707,7 @@ nikampakopa:nikampakopa ADV ; ! "para acá"
 nikan:nikan ADV ; ! "aquí"
 ompa:ompa ADV ; ! "allá"
 ompaka:ompaka ADV ; ! "allá"
+ompakahuin:ompakahuin ADV ; ! "allá"
 ne:ne ADV ; ! "allá"
 nepa:nepa ADV ; ! "allá"
 onkak:onkak ADV ; ! "aquí"
@@ -1713,6 +1742,7 @@ ijkokon:ijkokon ADV ; ! "así"
 ijkon:jkon ADV ; ! "así"
 ijkoni:ijkoni ADV ; ! "así"
 ijkuin:ijkuin ADV ; ! "así"
+ijkuikuin:ijkuikuin ADV ; ! "así"
 
 nikakuin:nika%{j%}kuin ADV ; ! "por aquí"
 
@@ -1739,6 +1769,7 @@ neli:neli ADV ; ! "certamente"
 xa:xa ADV ; ! ""
 
 kachi:kachi ADV ; ! "más"
+kachi:okachi ADV ; ! "más"
 
 satepan:satepan ADV ; ! "después"
 
@@ -1783,6 +1814,8 @@ sikiera:sikiera ADV ; ! "siquiera"
 sakiera:sakiera ADV ; ! "siquiera"
 
 panian:panian ADV ; ! "encima"
+
+huejkau:huejkau ADV ; ! "hace tiempo"
 
 niman:niman ADV ; ! "luego"
 
@@ -1831,6 +1864,9 @@ iksa:iksa ADV ; ! "a veces"
 acha:acha ADV ; ! "tal vez"
 
 nepaka:nepaka ADV ; ! "allá"
+nejkuin:ne%{j%}kuin ADV ; ! "por allá"
+
+sejse:sejse ADV ; ! ""
 
 !!!
 
@@ -2173,6 +2209,9 @@ mamayotia:ma%{j%}mayotia V-TV-PRET ; ! ""
 huejkapantia:%{h%}uejkapantia V-TV-PRES ; ! ""
 huejkapantia:%{h%}uejkapantia V-TV-PRET ; ! ""
 
+ehua:ehua V-TV-PRES ; ! "levantar"
+ehua:ehua V-TV-PRET ; ! "levantar"
+
 kueliltia:kueliltia V-TV-PRES ; ! ""
 kueliltia:kueliltia V-TV-PRET ; ! ""
 
@@ -2204,6 +2243,59 @@ machilia:machili V-TV-IA-PRES ; ! "sentir"
 machilia:machili V-TV-IA-PRET ; ! "sentir"
 
 
+kixtilia:kixtili V-TV-IA-PRES ; ! "sacar, extraer"
+kixtilia:kixtili V-TV-IA-PRET ; ! "sacar, extraer"
+
+tekilia:tekili V-TV-IA-PRES ; ! "cortar"
+tekilia:tekili V-TV-IA-PRET ; ! "cortar"
+
+huelilia:%{h%}uelili V-TV-IA-PRES ; ! "gustar"
+huelilia:%{h%}uelili V-TV-IA-PRET ; ! "gustar"
+
+tsakuilia:tsakuili V-TV-IA-PRES ; ! "detener"
+tsakuilia:tsakuili V-TV-IA-PRET ; ! "detener"
+
+kakilia:kakili V-TV-IA-PRES ; ! ""
+kakilia:kakili V-TV-IA-PRET ; ! ""
+
+sehuia:sehuia V-TV-PRES ; ! ""
+sehuia:sehuia V-TV-PRET ; ! ""
+
+
+pantema:pantema V-TV-PRES ; ! ""
+pantema:pantema V-TV-PRET ; ! ""
+
+pantemilia:pantemili V-TV-IA-PRES ; ! ""
+pantemilia:pantemili V-TV-IA-PRET ; ! ""
+
+chihuilia:chihuili V-TV-IA-PRES ; ! ""
+chihuilia:chihuili V-TV-IA-PRET ; ! ""
+
+chichihuilia:chi%{j%}chihuili V-TV-IA-PRES ; ! ""
+chichihuilia:chi%{j%}chihuili V-TV-IA-PRET ; ! ""
+
+sentilia:sentili V-TV-IA-PRES ; ! ""
+sentilia:sentili V-TV-IA-PRET ; ! ""
+
+
+yokolia:yokoli V-TV-IA-PRES ; ! ""
+yokolia:yokoli V-TV-IA-PRET ; ! ""
+
+
+poyelia:poyeli V-TV-IA-PRES ; ! ""
+poyelia:poyeli V-TV-IA-PRET ; ! ""
+
+ajuialia:ajuiali V-TV-IA-PRES ; ! ""
+ajuialia:ajuiali V-TV-IA-PRET ; ! ""
+
+ketsa:ketsa V-TV-PRES ; ! "parar"
+ketsa:ketsa V-TV-PRET ; ! "parar"
+
+keketsa:ke%{j%}ketsa V-TV-PRES ; ! "parar"
+keketsa:ke%{j%}ketsa V-TV-PRET ; ! "parar"
+
+mota:mota V-TV-PRES ; ! ""
+mota:mota V-TV-PRET ; ! ""
 
 LEXICON IV
 
@@ -2335,6 +2427,9 @@ ixpolihui:%{i%}xpolihui V-IV-PRET ; ! "dejar de existir"
 itsmolini:itsmolini V-IV-PRES ; ! "retoñar"
 itsmolini:itsmolini V-IV-PRET ; ! "retoñar"
 
+tatapani:ta%{j%}tapani V-IV-PRES ; ! "partir"
+tatapani:ta%{j%}tapani V-IV-PRET ; ! "partir"
+
 tapani:tapani V-IV-PRES ; ! "partir"
 tapani:tapani V-IV-PRET ; ! "partir"
 
@@ -2359,11 +2454,8 @@ okuilohua:okuilo V-IV-HUA-PRET ; ! ""
 temalohua:temalo V-IV-HUA-PRES ; ! ""
 temalohua:temalo V-IV-HUA-PRET ; ! ""
 
-ketsa:ketsa V-IV-PRES ; ! "pararse"
-ketsa:ketsa V-IV-PRET ; ! "pararse"
-
-keketsa:ke%{j%}ketsa V-IV-PRES ; ! "pararse"
-keketsa:ke%{j%}ketsa V-IV-PRET ; ! "pararse"
+moketsa:moketsa V-IV-PRES ; ! "pararse"
+moketsa:moketsa V-IV-PRET ; ! "pararse"
 
 mokeketsa:moke%{j%}ketsa V-IV-PRES ; ! "pararse"
 mokeketsa:moke%{j%}ketsa V-IV-PRET ; ! "pararse"
@@ -2395,6 +2487,9 @@ huala:%{h%}uala V-IV-PRET ; ! "venir"
 hualeu:%{h%}ualeu V-IV-PRES ; ! "venir"
 hualeu:%{h%}ualeu V-IV-PRET ; ! "venir"
 
+moloni:moloni V-IV-PRES ; ! "hervir"
+moloni:moloni V-IV-PRET ; ! "hervir"
+
 xini:xini V-IV-PRES ; ! ""
 xini:xini V-IV-PRET ; ! ""
 
@@ -2406,6 +2501,44 @@ ejejkehui:ejejkehui V-IV-PRET ; ! "desprender"
 
 ejkehui:ejkehui V-IV-PRES ; ! "desprender"
 ejkehui:ejkehui V-IV-PRET ; ! "desprender"
+
+patani:patani V-IV-PRES ; ! "volar"
+patani:patani V-IV-PRET ; ! "volar"
+
+potoni:potoni V-IV-PRES ; ! "volar"
+potoni:potoni V-IV-PRET ; ! "volar"
+
+kotoni:kotoni V-IV-PRES ; ! "tronar"
+kotoni:kotoni V-IV-PRET ; ! "tronar"
+
+kokotoni:ko%{j%}kotoni V-IV-PRES ; ! "tronar"
+kokotoni:ko%{j%}kotoni V-IV-PRET ; ! "tronar"
+
+ijka:ijka V-IV-PRES ; ! "estar parado"
+ijka:ijka V-IV-PRET ; ! "estar parado"
+
+sehui:sehui V-IV-PRES ; ! ""
+sehui:sehui V-IV-PRET ; ! ""
+
+chichilehui:chichilehui V-IV-PRES ; ! ""
+chichilehui:chichilehui V-IV-PRET ; ! ""
+
+poyeya:poyeya V-IV-PRES ; ! ""
+poyeya:poyeya V-IV-PRET ; ! ""
+
+huitsyo:%{h%}uitsyo V-IV-PRES ; ! ""
+huitsyo:%{h%}uitsyo V-IV-PRET ; ! ""
+
+huitsyo:%{h%}uitsio V-IV-PRES ; ! ""
+huitsyo:%{h%}uitsio V-IV-PRET ; ! ""
+
+
+momiakilia:momiakilia V-IV-PRES ; ! ""
+momiakilia:momiakilia V-IV-PRET ; ! ""
+
+mohueitalia:mohueitalia V-IV-PRES ; ! ""
+mohueitalia:mohueitalia V-IV-PRET ; ! ""
+
 
 LEXICON Irregulares 
 
@@ -2427,13 +2560,20 @@ LEXICON Yohui
 LEXICON Huitsa
 
 %<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa # ;
+%<s_sg2%>huitsa%<v%>%<iv%>%<pres%>:ti%>huitsa # ;
+%<s_sg3%>huitsa%<v%>%<iv%>%<pres%>:huitsa # ;
+%<s_pl1%>huitsa%<v%>%<iv%>%<pres%>:huits%>ej # ;
 
 LEXICON Huala
 
 %<s_sg1%>huala%<v%>%<iv%>%<pres%>:ni%>hualehua # ;
 %<s_sg2%>huala%<v%>%<iv%>%<pres%>:ti%>hualehua # ;
 %<s_sg3%>huala%<v%>%<iv%>%<pres%>:hualehua # ;
+%<s_pl3%>huala%<v%>%<iv%>%<pres%>:hualehua%>j # ;
 
+%<s_sg1%>huala%<v%>%<iv%>%<pret%>:ni%>hualehua%>k # ;
+%<s_sg2%>huala%<v%>%<iv%>%<pret%>:ti%>hualehua%>k # ;
+%<s_sg2%>huala%<v%>%<iv%>%<pret%>:hualehua%>k # ;
 
 LEXICON Interyecciones
 
