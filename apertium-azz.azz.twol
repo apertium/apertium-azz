@@ -18,10 +18,10 @@ Alphabet
 
 Sets
 
-Vow   = A E I O U 
-        a e i o u ;
+Vow   = A E I O 
+        a e i o ;
 
-Cns   = b c d f g h j k l m n p q r s t w x y z ;
+Cns   = b c d f g h j k l m n p q r s t w x y z u ;
 
 
 Rules
@@ -54,3 +54,7 @@ k:0 <=> _ %{i%}:0 %>: k ;
 m:n <=> _ %>: t s i n ;
 
 !@ k:k o:o m:n >:> t:t s:s i:i n:n
+
+"No M before vowel"
+%{N%}:n <= _ %>: [ Cns - [ m | p ] | Vow ] ;
+

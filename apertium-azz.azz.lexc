@@ -72,6 +72,11 @@ Multichar_Symbols
 %{o%}
 %{k%}
 
+@P.PLUR.1@
+@R.PLUR.1@
+@P.OBJ.1@
+@D.OBJ.1@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
@@ -313,30 +318,30 @@ LEXICON V-FUT-AUX
 LEXICON V-AGR-PRES
 
 :                    # ; 
-:%>j                 # ;  ! Flag PL
+@R.PLUR.1@:@R.PLUR.1@%>j                 # ;  ! Flag PL
 
 LEXICON V-AGR-PROG
 
 :                    # ; 
-:%>ej                # ;  ! Flag PL
+@R.PLUR.1@:@R.PLUR.1@%>ej                # ;  ! Flag PL
 
 
 LEXICON V-AGR-FUT
 
 :                    # ; 
-:%>ke%>j             # ;  ! Flag PL
+@R.PLUR.1@:@R.PLUR.1@%>ke%>j             # ;  ! Flag PL
 
                      V-FUT-AUX ; 
 
 LEXICON V-AGR-PLU
 
 :                    # ; 
-:%>j                 # ;  ! Flag PL
+@R.PLUR.1@:@R.PLUR.1@%>j                 # ;  ! Flag PL
 
 LEXICON V-AGR-OPT
 
 !:                    # ; 
-:%>kan                # ;  ! Flag PL
+@R.PLUR.1@:@R.PLUR.1@%>kan                # ;  ! Flag PL
 
 
 LEXICON V-TAM-PRES
@@ -472,17 +477,17 @@ LEXICON AGR-SUBJ-IV
 %<s_sg1%>:ni%> DIR-IV ;
 %<s_sg2%>:ti%> DIR-IV ;
 %<s_sg3%>:0%> DIR-IV ;
-%<s_pl1%>:ti%> DIR-IV ;
-%<s_pl2%>:nan%> DIR-IV ;
-%<s_pl3%>:0%> DIR-IV ;
+@P.PLUR.1@%<s_pl1%>:@P.PLUR.1@ti%> DIR-IV ;
+@P.PLUR.1@%<s_pl2%>:@P.PLUR.1@nan%> DIR-IV ;
+@P.PLUR.1@%<s_pl3%>:@P.PLUR.1@0%> DIR-IV ;
 
 LEXICON AGR-SUBJ-PRED
 %<s_sg1%>:ni%> ADV-INCORP-ADJ ;
 %<s_sg2%>:ti%> ADV-INCORP-ADJ ;
 %<s_sg3%>:0%> ADV-INCORP-ADJ ;
-%<s_pl1%>:ti%> ADV-INCORP-ADJ ;
-%<s_pl2%>:nan%> ADV-INCORP-ADJ ;
-%<s_pl3%>:0%> ADV-INCORP-ADJ ;
+@P.PLUR.1@%<s_pl1%>:@P.PLUR.1@ti%> ADV-INCORP-ADJ ;
+@P.PLUR.1@%<s_pl2%>:@P.PLUR.1@nan%> ADV-INCORP-ADJ ;
+@P.PLUR.1@%<s_pl3%>:@P.PLUR.1@0%> ADV-INCORP-ADJ ;
 
 ADV-INCORP-ADJ ;
 
@@ -497,13 +502,13 @@ LEXICON AGR-SUBJ-TV
 %<s_sg1%>:ni%> AGR-OBJS-TV ;
 %<s_sg2%>:ti%> AGR-OBJS-TV ;
 %<s_sg3%>:0%> AGR-OBJS-TV ;
-%<s_pl1%>:ti%> AGR-OBJS-TV ;
-%<s_pl2%>:nan%> AGR-OBJS-TV ;
-%<s_pl3%>:0%> AGR-OBJS-TV ;
+@P.PLUR.1@%<s_pl1%>:@P.PLUR.1@ti%> AGR-OBJS-TV ;
+@P.PLUR.1@%<s_pl2%>:@P.PLUR.1@nan%> AGR-OBJS-TV ;
+@P.PLUR.1@%<s_pl3%>:@P.PLUR.1@0%> AGR-OBJS-TV ;
 
 LEXICON AGR-OBJS-TV
 
-AGR-OBJ-TV ;
+@P.OBJ.1@:@P.OBJ.1@ AGR-OBJ-TV ;
 AGR-IOBJ-TV ;
 
 LEXICON AGR-OBJ-TV
@@ -537,9 +542,9 @@ LEXICON DIR-TV
 
 LEXICON INDEF-OBJ-TV
 
-%<o_nn%>:ta%> ADV-INCORP-TV ; 
-%<o_aa%>:te%> ADV-INCORP-TV ; 
-%<refl%>:m%{o%}%> ADV-INCORP-TV ; 
+@D.OBJ.1@%<o_nn%>:@D.OBJ.1@ta%> ADV-INCORP-TV ; 
+@D.OBJ.1@%<o_aa%>:@D.OBJ.1@te%> ADV-INCORP-TV ; 
+@D.OBJ.1@%<refl%>:@D.OBJ.1@m%{o%}%> ADV-INCORP-TV ; 
 
 ADV-INCORP-TV ;
 
@@ -862,7 +867,7 @@ neje:neje DET ; ! "este"
 okse:oks DET-OKSE ; ! "otro"
 miak:mi%{y%}ak DET-MIAK ; ! "mucho"
 kachi:kachi DET ; ! "mucho"
-nochi:nochi DET ; ! "todo"
+nochi:nochi%{n%} DET ; ! "todo"
 seki:seki%{n%} DET ; ! "algunos"
 
 nijin:niji%{n%} DET ; 
@@ -1073,6 +1078,7 @@ siuapipili:siua%>pipil N-LI ; ! "niña"
 koyopipili:koyo%>pipil N-LI ; ! ""
 okichpipili:okich%>pipil N-LI ; ! ""
 taman:taman N-Ø ; ! "tipo"
+semanahuak:semanahuak N-Ø ; ! "mundo"
 tataj:tataj N-Ø ; ! "señor"
 nanaj:nanaj N-Ø ; ! "señora"
 hueinanaj:huei%>nanaj N-Ø ; ! "abuela"
@@ -1173,6 +1179,7 @@ sitali:sitali N-Ø ; ! "estrella"
 sitalin:sital N-IN ; ! "estrella"
 kaxtoltonal:kaxtol%>tonal N-Ø ; ! "quince días"
 kokolis:kokolis N-Ø ; ! "enfermedad" ! Use/Incorp
+chikahualis:chikahualis N-Ø ; ! "fuerza"
 tsompil:tsompil N-Ø ; ! "dolor de cabeza"
 huitsikitempil:%{h%}uitsikitempil N-Ø ; ! ""
 milaj:milaj N-Ø ; ! "milpa"
@@ -1181,6 +1188,8 @@ chiktej:chiktej N-Ø ; ! "pájaro"
 chiktejkonet:chiktej%>kone N-TL ; ! ""
 ajuiak:ajuiak N-Ø ; ! "olor"
 koutatil:kou%>tatil N-Ø ; ! "leña"
+nemachtil:nemachtil N-Ø ; ! "estudio"
+mixti:mix N-TLI ; ! "nube"
 nano:nano N-Ø ; ! "señora"
 yohual:yohual N-Ø ; ! "noche"
 kafen:ka%{j%}fen N-Ø ; ! "café"
@@ -1276,6 +1285,8 @@ takot:tako N-TL ; ! ""
 tototsapot:toto%>tsapo N-TL ; ! ""
 tsapot:tsapo N-TL ; ! ""
 tatok:tatok N-Ø ; ! ""
+nekmej:nekmej N-Ø ; ! "abeja"
+nechikol:nechikol N-Ø ; ! "reunión"
 
 panehuayot:panehuayo N-TL ; ! "cáscara"
 
@@ -1371,6 +1382,10 @@ juiyot:juiyo N-TL ; ! ""
 jtikyot:jtikyo N-TL ; ! ""
 kakauyot:kakauyo N-TL ; ! ""
 
+tekit:teki N-TL ; ! "trabajo"
+tasojkamatilis:tasohjamatilis N-Ø ; ! "agradecimiento"
+tapalehuijkej:tapalehuijkej N-Ø ; ! "ayudante"
+pakilis:pakilis N-Ø ; ! ""
 
 tsojyak:tsojyak N-Ø ; ! "olor"
 kouten:kou%>ten N-Ø ; ! ""
@@ -1424,6 +1439,7 @@ eskinado:eskinado%{j%} N-Ø ; ! ""
 tiempo:tiempo N-O-SPA ; ! ""
 cuidado:cuidado N-O-SPA ; ! ""
 compadre:compadre N-O-SPA ; ! ""
+alambre:alambre N-O-SPA ; ! ""
 compadrito:compadr%>ito N-O-SPA ; ! ""
 pedacito:pedac%>ito N-O-SPA ; ! ""
 chilito:chil%>ito N-O-SPA ; ! ""
@@ -1466,6 +1482,9 @@ vez:ve N-Z-SPA ; ! ""
 color:color N-R-SPA ; ! ""
 sociedad:sociedad N-R-SPA ; ! ""
 universidad:universidad N-R-SPA ; ! ""
+navidad:navidad N-R-SPA ; ! ""
+felicidad:felicidad N-R-SPA ; ! ""
+comunidad:comunidad N-R-SPA ; ! ""
 cáncer:cáncer N-R-SPA ; ! ""
 dios:dios N-R-SPA ; ! ""
 cimarrón:cimarr N-ÓN-SPA ; ! ""
@@ -1491,6 +1510,310 @@ septiembre:septiembre N-O-SPA ; ! ""
 octubre:octubre N-O-SPA ; ! ""
 noviembre:noviembre N-O-SPA ; ! ""
 deciembre:deciembre N-O-SPA ; ! ""
+diciembre:diciembre N-O-SPA ; ! ""
+
+lunes:lunes N-S-SPA ; ! ""
+martes:martes N-S-SPA ; ! ""
+miércoles:miércoles N-S-SPA ; ! ""
+jueves:jueves N-S-SPA ; ! ""
+viernes:viernes N-S-SPA ; ! ""
+sábado:sábado N-O-SPA ; ! ""
+domingo:domingo N-O-SPA ; ! ""
+
+haba:haba N-A-SPA ; ! ""
+escoba:escoba N-A-SPA ; ! ""
+albahaca:albahaca N-A-SPA ; ! ""
+canica:canica N-A-SPA ; ! ""
+palanca:palanca N-A-SPA ; ! ""
+finca:finca N-A-SPA ; ! ""
+pomada:pomada N-A-SPA ; ! ""
+rebanada:rebanada N-A-SPA ; ! ""
+granada:granada N-A-SPA ; ! ""
+parada:parada N-A-SPA ; ! ""
+entrada:entrada N-A-SPA ; ! ""
+calzada:calzada N-A-SPA ; ! ""
+vereda:vereda N-A-SPA ; ! ""
+rueda:rueda N-A-SPA ; ! ""
+bebida:bebida N-A-SPA ; ! ""
+medida:medida N-A-SPA ; ! ""
+salida:salida N-A-SPA ; ! ""
+herida:herida N-A-SPA ; ! ""
+vida:vida N-A-SPA ; ! ""
+borda:borda N-A-SPA ; ! ""
+tarea:tarea N-A-SPA ; ! ""
+vejiga:vejiga N-A-SPA ; ! ""
+viga:viga N-A-SPA ; ! ""
+purga:purga N-A-SPA ; ! ""
+hacha:hacha N-A-SPA ; ! ""
+cosecha:cosecha N-A-SPA ; ! ""
+lucha:lucha N-A-SPA ; ! ""
+cola_sustancia:cola_sustancia N-A-SPA ; ! ""
+experiencia:experiencia N-A-SPA ; ! ""
+media:media N-A-SPA ; ! ""
+vigilia:vigilia N-A-SPA ; ! ""
+familia:familia N-A-SPA ; ! ""
+momia:momia N-A-SPA ; ! ""
+zanahoria:zanahoria N-A-SPA ; ! ""
+victoria:victoria N-A-SPA ; ! ""
+paja:paja N-A-SPA ; ! ""
+navaja:navaja N-A-SPA ; ! ""
+bandeja:bandeja N-A-SPA ; ! ""
+reja:reja N-A-SPA ; ! ""
+pareja:pareja N-A-SPA ; ! ""
+teja:teja N-A-SPA ; ! ""
+granja:granja N-A-SPA ; ! ""
+hoja:hoja N-A-SPA ; ! ""
+aguja:aguja N-A-SPA ; ! ""
+ka:ka N-A-SPA ; ! ""
+tabla:tabla N-A-SPA ; ! ""
+tela:tela N-A-SPA ; ! ""
+escuela:escuela N-A-SPA ; ! ""
+estrella:estrella N-A-SPA ; ! ""
+botella:botella N-A-SPA ; ! ""
+escobilla:escobilla N-A-SPA ; ! ""
+manzanilla:manzanilla N-A-SPA ; ! ""
+vainilla:vainilla N-A-SPA ; ! ""
+capilla:capilla N-A-SPA ; ! ""
+sombrilla:sombrilla N-A-SPA ; ! ""
+cuadrilla:cuadrilla N-A-SPA ; ! ""
+pastilla:pastilla N-A-SPA ; ! ""
+bola:bola N-A-SPA ; ! ""
+cola:cola N-A-SPA ; ! ""
+cama:cama N-A-SPA ; ! ""
+mama:mama N-A-SPA ; ! ""
+rama:rama N-A-SPA ; ! ""
+yema:yema N-A-SPA ; ! ""
+palma:palma N-A-SPA ; ! ""
+loma:loma N-A-SPA ; ! ""
+sabana:sabana N-A-SPA ; ! ""
+gana:gana N-A-SPA ; ! ""
+pana:pana N-A-SPA ; ! ""
+manzana:manzana N-A-SPA ; ! ""
+faena:faena N-A-SPA ; ! ""
+hierbabuena:hierbabuena N-A-SPA ; ! ""
+yerbabuena:yerbabuena N-A-SPA ; ! ""
+nochebuena:nochebuena N-A-SPA ; ! ""
+medicina:medicina N-A-SPA ; ! ""
+cocina:cocina N-A-SPA ; ! ""
+medina:medina N-A-SPA ; ! ""
+gasolina:gasolina N-A-SPA ; ! ""
+vitamina:vitamina N-A-SPA ; ! ""
+harina:harina N-A-SPA ; ! ""
+escarlatina:escarlatina N-A-SPA ; ! ""
+corona:corona N-A-SPA ; ! ""
+persona:persona N-A-SPA ; ! ""
+seña:seña N-A-SPA ; ! ""
+trampa:trampa N-A-SPA ; ! ""
+sopa:sopa N-A-SPA ; ! ""
+cuchara:cuchara N-A-SPA ; ! ""
+vara:vara N-A-SPA ; ! ""
+palabra:palabra N-A-SPA ; ! ""
+cera:cera N-A-SPA ; ! ""
+bandera:bandera N-A-SPA ; ! ""
+galera:galera N-A-SPA ; ! ""
+carrera:carrera N-A-SPA ; ! ""
+carretera:carretera N-A-SPA ; ! ""
+costera:costera N-A-SPA ; ! ""
+vera:vera N-A-SPA ; ! ""
+primavera:primavera N-A-SPA ; ! ""
+licuadora:licuadora N-A-SPA ; ! ""
+sierra:sierra N-A-SPA ; ! ""
+motosierra:motosierra N-A-SPA ; ! ""
+pintura:pintura N-A-SPA ; ! ""
+masa:masa N-A-SPA ; ! ""
+mesa:mesa N-A-SPA ; ! ""
+salsa:salsa N-A-SPA ; ! ""
+bolsa:bolsa N-A-SPA ; ! ""
+garrapata:garrapata N-A-SPA ; ! ""
+cubeta:cubeta N-A-SPA ; ! ""
+dieta:dieta N-A-SPA ; ! ""
+paleta:paleta N-A-SPA ; ! ""
+galleta:galleta N-A-SPA ; ! ""
+corneta:corneta N-A-SPA ; ! ""
+camiseta:camiseta N-A-SPA ; ! ""
+teta:teta N-A-SPA ; ! ""
+palanqueta:palanqueta N-A-SPA ; ! ""
+tacita:tacita N-A-SPA ; ! ""
+cajita:cajita N-A-SPA ; ! ""
+tablita:tablita N-A-SPA ; ! ""
+botellita:botellita N-A-SPA ; ! ""
+capillita:capillita N-A-SPA ; ! ""
+bolita:bolita N-A-SPA ; ! ""
+palomita:palomita N-A-SPA ; ! ""
+pita:pita N-A-SPA ; ! ""
+banderita:banderita N-A-SPA ; ! ""
+mesita:mesita N-A-SPA ; ! ""
+bolsita:bolsita N-A-SPA ; ! ""
+cosita:cosita N-A-SPA ; ! ""
+tita:tita N-A-SPA ; ! ""
+rayita:rayita N-A-SPA ; ! ""
+falta:falta N-A-SPA ; ! ""
+vuelta:vuelta N-A-SPA ; ! ""
+planta:planta N-A-SPA ; ! ""
+manta:manta N-A-SPA ; ! ""
+pimienta:pimienta N-A-SPA ; ! ""
+renta:renta N-A-SPA ; ! ""
+cinta:cinta N-A-SPA ; ! ""
+pelota:pelota N-A-SPA ; ! ""
+sarta:sarta N-A-SPA ; ! ""
+puerta:puerta N-A-SPA ; ! ""
+fiesta:fiesta N-A-SPA ; ! ""
+vista:vista N-A-SPA ; ! ""
+puta:puta N-A-SPA ; ! ""
+cueva:cueva N-A-SPA ; ! ""
+cooperativa:cooperativa N-A-SPA ; ! ""
+curva:curva N-A-SPA ; ! ""
+uva:uva N-A-SPA ; ! ""
+papaya:papaya N-A-SPA ; ! ""
+raya:raya N-A-SPA ; ! ""
+chirimoya:chirimoya N-A-SPA ; ! ""
+plaza:plaza N-A-SPA ; ! ""
+taza:taza N-A-SPA ; ! ""
+cerveza:cerveza N-A-SPA ; ! ""
+matanza:matanza N-A-SPA ; ! ""
+pinza:pinza N-A-SPA ; ! ""
+fuerza:fuerza N-A-SPA ; ! ""
+comal:comal N-R-SPA ; ! ""
+anal:anal N-R-SPA ; ! ""
+canal:canal N-R-SPA ; ! ""
+panal:panal N-R-SPA ; ! ""
+chaparral:chaparral N-R-SPA ; ! ""
+morral:morral N-R-SPA ; ! ""
+hospital:hospital N-R-SPA ; ! ""
+costal:costal N-R-SPA ; ! ""
+tonel:tonel N-R-SPA ; ! ""
+papel:papel N-R-SPA ; ! ""
+diésel:diésel N-R-SPA ; ! ""
+motel:motel N-R-SPA ; ! ""
+candil:candil N-R-SPA ; ! ""
+perejil:perejil N-R-SPA ; ! ""
+alcohol:alcohol N-R-SPA ; ! ""
+mol:mol N-R-SPA ; ! ""
+sol:sol N-R-SPA ; ! ""
+tubo:tubo N-O-SPA ; ! ""
+tabaco:tabaco N-O-SPA ; ! ""
+taco:taco N-O-SPA ; ! ""
+pico:pico N-O-SPA ; ! ""
+arco:arco N-O-SPA ; ! ""
+surco:surco N-O-SPA ; ! ""
+refresco:refresco N-O-SPA ; ! ""
+mercado:mercado N-O-SPA ; ! ""
+pescado:pescado N-O-SPA ; ! ""
+anaranjado:anaranjado N-O-SPA ; ! ""
+cuadrado:cuadrado N-O-SPA ; ! ""
+diputado:diputado N-O-SPA ; ! ""
+cruzado:cruzado N-O-SPA ; ! ""
+conocido:conocido N-O-SPA ; ! ""
+nido:nido N-O-SPA ; ! ""
+segundo:segundo N-O-SPA ; ! ""
+mundo:mundo N-O-SPA ; ! ""
+acuerdo:acuerdo N-O-SPA ; ! ""
+recreo:recreo N-O-SPA ; ! ""
+pliego:pliego N-O-SPA ; ! ""
+amigo:amigo N-O-SPA ; ! ""
+pecho:pecho N-O-SPA ; ! ""
+derecho:derecho N-O-SPA ; ! ""
+dicho:dicho N-O-SPA ; ! ""
+gancho:gancho N-O-SPA ; ! ""
+rancho:rancho N-O-SPA ; ! ""
+palacio:palacio N-O-SPA ; ! ""
+lucio:lucio N-O-SPA ; ! ""
+domicilio:domicilio N-O-SPA ; ! ""
+santuario:santuario N-O-SPA ; ! ""
+barrio:barrio N-O-SPA ; ! ""
+ajo:ajo N-O-SPA ; ! ""
+estropajo:estropajo N-O-SPA ; ! ""
+conejo:conejo N-O-SPA ; ! ""
+hijo:hijo N-O-SPA ; ! ""
+palo:palo N-O-SPA ; ! ""
+armadillo:armadillo N-O-SPA ; ! ""
+cuchillo:cuchillo N-O-SPA ; ! ""
+martillo:martillo N-O-SPA ; ! ""
+criollo:criollo N-O-SPA ; ! ""
+pollo:pollo N-O-SPA ; ! ""
+capullo:capullo N-O-SPA ; ! ""
+ejemplo:ejemplo N-O-SPA ; ! ""
+mayordomo:mayordomo N-O-SPA ; ! ""
+cristiano:cristiano N-O-SPA ; ! ""
+veneno:veneno N-O-SPA ; ! ""
+vecino:vecino N-O-SPA ; ! ""
+chino:chino N-O-SPA ; ! ""
+molino:molino N-O-SPA ; ! ""
+padrino:padrino N-O-SPA ; ! ""
+abono:abono N-O-SPA ; ! ""
+mono:mono N-O-SPA ; ! ""
+uno:uno N-O-SPA ; ! ""
+durazno:durazno N-O-SPA ; ! ""
+año:año N-O-SPA ; ! ""
+baño:baño N-O-SPA ; ! ""
+caño:caño N-O-SPA ; ! ""
+tamaño:tamaño N-O-SPA ; ! ""
+dueño:dueño N-O-SPA ; ! ""
+retoño:retoño N-O-SPA ; ! ""
+campo:campo N-O-SPA ; ! ""
+trompo:trompo N-O-SPA ; ! ""
+claro:claro N-O-SPA ; ! ""
+taladro:taladro N-O-SPA ; ! ""
+panadero:panadero N-O-SPA ; ! ""
+lindero:lindero N-O-SPA ; ! ""
+sombrero:sombrero N-O-SPA ; ! ""
+macetero:macetero N-O-SPA ; ! ""
+frutero:frutero N-O-SPA ; ! ""
+vivero:vivero N-O-SPA ; ! ""
+peligro:peligro N-O-SPA ; ! ""
+tiro:tiro N-O-SPA ; ! ""
+cloro:cloro N-O-SPA ; ! ""
+poro:poro N-O-SPA ; ! ""
+tarro:tarro N-O-SPA ; ! ""
+burro:burro N-O-SPA ; ! ""
+litro:litro N-O-SPA ; ! ""
+cilantro:cilantro N-O-SPA ; ! ""
+seguro:seguro N-O-SPA ; ! ""
+vaso:vaso N-O-SPA ; ! ""
+compromiso:compromiso N-O-SPA ; ! ""
+poso:poso N-O-SPA ; ! ""
+curso:curso N-O-SPA ; ! ""
+plato:plato N-O-SPA ; ! ""
+carbonato:carbonato N-O-SPA ; ! ""
+zapato:zapato N-O-SPA ; ! ""
+rato:rato N-O-SPA ; ! ""
+bachillerato:bachillerato N-O-SPA ; ! ""
+respeto:respeto N-O-SPA ; ! ""
+pobrecito:pobrecito N-O-SPA ; ! ""
+trocito:trocito N-O-SPA ; ! ""
+caballito:caballito N-O-SPA ; ! ""
+pollito:pollito N-O-SPA ; ! ""
+pajarito:pajarito N-O-SPA ; ! ""
+tarrito:tarrito N-O-SPA ; ! ""
+burrito:burrito N-O-SPA ; ! ""
+vasito:vasito N-O-SPA ; ! ""
+bulto:bulto N-O-SPA ; ! ""
+pegamento:pegamento N-O-SPA ; ! ""
+cemento:cemento N-O-SPA ; ! ""
+alimento:alimento N-O-SPA ; ! ""
+difunto:difunto N-O-SPA ; ! ""
+cuarto:cuarto N-O-SPA ; ! ""
+pasto:pasto N-O-SPA ; ! ""
+gusto:gusto N-O-SPA ; ! ""
+texto:texto N-O-SPA ; ! ""
+clavo:clavo N-O-SPA ; ! ""
+centavo:centavo N-O-SPA ; ! ""
+polvo:polvo N-O-SPA ; ! ""
+pedazo:pedazo N-O-SPA ; ! ""
+macizo:macizo N-O-SPA ; ! ""
+trozo:trozo N-O-SPA ; ! ""
+pop:pop N-R-SPA ; ! ""
+lugar:lugar N-R-SPA ; ! ""
+mar:mar N-R-SPA ; ! ""
+ser:ser N-R-SPA ; ! ""
+sabor:sabor N-R-SPA ; ! ""
+dolor:dolor N-R-SPA ; ! ""
+señor:señor N-R-SPA ; ! ""
+doctor:doctor N-R-SPA ; ! ""
+motor:motor N-R-SPA ; ! ""
+favor:favor N-R-SPA ; ! ""
+rey:rey N-R-SPA ; ! ""
+
 
 tapal:tapal N-Ø ; ! "tintura"
 taktson:taktson N-Ø ; ! "mata"
@@ -1507,6 +1830,9 @@ parajko:parajko N-Ø ; ! "arriba"
 tani:tani N-Ø ; ! "abajo"
 nexwitil:nexwitil N-Ø ; ! "empacho"
 ajuiaya:ajuiaya N-Ø ; ! "fragrancia"
+kosantsin:kosantsin N-Ø ; ! "arcoiris"
+kalnemachtiloyan:kalnemachtiloyan N-Ø ; ! "escuela"
+chipahuakat:chipahuak%>a N-TL ; ! "agua simple"
 
 
 ix:ix N-Ø ; ! "cara"
@@ -1515,6 +1841,7 @@ nakas:nakas N-Ø ; ! "oreja" ! Use/Incorp
 mets:mets N-Ø ; ! "pierna"
 mait:ma N-ITL ; ! "mano"
 kech:kech N-Ø ; ! "cuello"
+ixtololo:ixtololo N-Ø ; ! "ojo"
 
 
 LEXICON Propios 
@@ -1620,6 +1947,8 @@ seselik:se%{j%}selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
 selontsin:selontsin ADJ-TSIN ; ! "tiernitos"
 
+ololtik:ololtik ADJ ; ! "esférico"
+
 yankuik:yankuik ADJ ; ! "nuevo"
 
 ajuiyak:ajuiyak ADJ ; ! "fragrante"
@@ -1673,6 +2002,8 @@ xokok:xokok ADJ ; ! "ácido"
 totonik:totonik ADJ ; ! "caliente"
 tototonik:to%{j%}totonik ADJ ; ! "caliente"
 sesek:sesek ADJ ; ! "frío"
+
+takistok:takistok ADJ ; ! "despedejo"
 
 alaxtik:alaxtik ADJ ; ! "liso"
 ajalaxtik:a%{j%}alaxtik ADJ ; ! "liso"
@@ -1779,6 +2110,8 @@ ne:ne ADV ; ! "allá"
 nepa:nepa ADV ; ! "allá"
 onkak:onkak ADV ; ! "aquí"
 
+yekinika:yekinika ADV ; ! "por primera vez"
+
 nikahuin:nikahuin ADV ; ! "por aquí"
 
 nochipa:nochipa ADV ; ! "cada día, siempre"
@@ -1850,6 +2183,8 @@ sepa:sepa ADV ; ! "otro vez"
 yek:yek ADV ; ! "muy"
 tel:tel ADV ; ! "muy"
 
+senka:senka ADV ; ! "en exceso"
+
 iuki:iuki ADV ; ! "así"
 
 más:más ADV ; ! "más"
@@ -1862,7 +2197,7 @@ ekintsin:ekintsin ADV ; ! "ahora"
 ekintsin:kintsin ADV ; ! "ahora"
 aman:aman ADV ; ! "ahora"
 
-ohpa:ohpa ADV ; ! "dos veces"
+ojpa:ojpa ADV ; ! "dos veces"
 expa:expa ADV ; ! "tres veces"
 kemasa:kemasa ADV ; ! "a veces"
 
@@ -1952,6 +2287,7 @@ sitalkopa:sital%>kopa ADV ; ! ""
 
 cerca:cerca ADV-ES ;
 cecerca:cecerca ADV-ES ;
+aparte:aparte ADV-ES ;
 
 tanto:tanto ADV-ES ;
 bien:bien ADV-ES ; ! "
@@ -2362,8 +2698,17 @@ ketsa:ketsa V-TV-PRET ; ! "parar"
 keketsa:ke%{j%}ketsa V-TV-PRES ; ! "parar"
 keketsa:ke%{j%}ketsa V-TV-PRET ; ! "parar"
 
+mehua:mehua V-TV-PRES ; ! ""
+mehua:mehua V-TV-PRET ; ! ""
+
 mota:mota V-TV-PRES ; ! ""
 mota:mota V-TV-PRET ; ! ""
+
+tahuelita:tahuelita V-TV-PRES ; ! "odiar"
+tahuelita:tahuelita V-TV-PRET ; ! "odiar"
+
+tamaka:tamaka V-TV-PRES ; ! "dar de comer"
+tamaka:tamaka V-TV-PRET ; ! "dar de comer"
 
 LEXICON IV
 
@@ -2409,6 +2754,10 @@ tekiti:tekiti V-IV-PRET ; ! "trabajar"
 
 xochiohua:xochiohua V-IV-PRES ; ! "florecer"
 xochiohua:xochiohua V-IV-PRET ; ! "florecer"
+
+panohua:panoa V-IV-PRES ; ! "trasladar"
+panohua:panoa V-IV-PRET ; ! "trasladar"
+panohua:pano V-IV-FUT ; ! "trasladar"
 
 panohua:panohua V-IV-PRES ; ! "trasladar"
 panohua:panohua V-IV-PRET ; ! "trasladar"
@@ -2607,10 +2956,29 @@ momiakilia:momiakilia V-IV-PRET ; ! ""
 mohueitalia:mohueitalia V-IV-PRES ; ! ""
 mohueitalia:mohueitalia V-IV-PRET ; ! ""
 
+toponi:toponi V-IV-PRES ; ! "tronar"
+toponi:toponi V-IV-PRET ; ! "tronar"
+
+aki:aki V-IV-PRES ; ! "caber"
+aki:aki V-IV-PRET ; ! "caber"
+
+miki:miki V-IV-PRES ; ! "morir"
+miki:miki V-IV-PRET ; ! "morir"
+
 kaki:kaki V-IV-PRES ; ! "escuchar"
 kaki:kaki V-IV-PRET ; ! "escuchar"
 
+tatapaka:tatapaka V-IV-PRES ; ! "romperse"
+tatapaka:tatapaka V-IV-PRET ; ! "romperse"
 
+kiyohui:kiohui V-IV-PRES ; ! ""
+kiyohui:kiohui V-IV-PRET ; ! ""
+
+kiyohui:kiyohui V-IV-PRES ; ! ""
+kiyohui:kiyohui V-IV-PRET ; ! ""
+
+metstona:metstona V-IV-PRES ; ! ""
+metstona:metstona V-IV-PRET ; ! ""
 
 LEXICON Irregulares 
 
@@ -2668,6 +3036,7 @@ igual:igual INTERJ ; ! ""
 parejo:parejo INTERJ ; ! ""
 bueno:bueno INTERJ ; ! ""
 huenoj:huenoj INTERJ ; ! ""
+buenoj:buenoj INTERJ ; ! ""
 tasojkamatik:tasojkamatik INTERJ ; ! ""
 cuidado:cuidado INTERJ ; ! ""
 tasojkamatiktsin:tasojkamatiktsin INTERJ ; ! ""
