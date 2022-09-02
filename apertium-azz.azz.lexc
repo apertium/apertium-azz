@@ -260,6 +260,12 @@ LEXICON N-ÓN-SPA
 %<n%>%<pl%>:on%>es # ; 
 N-POSS ;
 
+LEXICON N-S-SPA
+
+%<n%>%<sg%>: # ; 
+%<n%>%<pl%>: # ; 
+N-POSS ;
+
 LEXICON N-R-SPA
 
 %<n%>%<sg%>: # ; 
@@ -336,6 +342,7 @@ LEXICON V-AGR-OPT
 LEXICON V-TAM-PRES
 
 %<pres%>: V-AGR-PRES ;
+%<dir%>:%>ti V-AGR-PRES ;
 %<impf%>:%>ya V-AGR-PRES ;
 %<plu%>:%>ka V-AGR-PLU ;
 %<opt%>: V-AGR-OPT ;
@@ -612,6 +619,7 @@ LEXICON PL-ES
 
 %<sg%>: # ;
 %<pl%>:%>s # ; 
+%<pl%>:%>es # ; 
 
 LEXICON ADJ-MF-ES
 
@@ -713,8 +721,22 @@ LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i FALSE ; 
+nikil%<x%>:ni%>ki%>l FALSE ; 
+tikim%<x%>:ti%>kim FALSE ; 
 chi%<x%>:chi FALSE ; 
 tinech%<x%>:ti%>nech FALSE ; 
+ch%<x%>:ch FALSE ;
+c%<x%>:c FALSE ;
+d%<x%>:d FALSE ;
+g%<x%>:g FALSE ;
+h%<x%>:h FALSE ;
+kw%<x%>:kw FALSE ;
+l%<x%>:l FALSE ;
+r%<x%>:r FALSE ;
+sk%<x%>:sk FALSE ;
+tst%<x%>:tst FALSE ;
+t%<x%>:t FALSE ;
+v%<x%>:v FALSE ;
 w%<x%>:w FALSE ; 
 we%<x%>:we FALSE ; 
 e%<x%>:e FALSE ; 
@@ -856,9 +878,9 @@ LEXICON Pronombres
 nehua:ne PRON-SG1 ;
 tehua:te PRON-SG2 ;
 yehua:ye PRON-SG3 ;
-tehuan:te PRON-PL1 ;
+tehuan:te%{j%} PRON-PL1 ;
 namehuan:name PRON-PL2 ;
-yehuan:ye PRON-PL3 ;
+yehuan:ye%{j%} PRON-PL3 ;
 
 !namehwan namoixpan onkak wan ika yon nantekitih.
 
@@ -980,6 +1002,7 @@ LEXICON Comunes
 at:a N-TL ; ! "agua"
 ahuakat:ahuaka N-TL ; ! "aguacate"
 ajkol:ajkol N-Ø ; ! "hombro"
+tajkuilol:tajkuilol N-Ø ; ! ""
 topits:topits N-Ø ; ! "ganglio"
 tiopan:tiopan N-Ø ; ! "iglesia"
 temaskal:temaskal N-Ø ; ! "temascal"
@@ -1025,6 +1048,7 @@ kouyo:kouyo N-Ø ; ! ""
 kalkohuit:kal%>ko N-HUITL ; ! "madera de casa"
 xihuit:xi N-HUITL ; ! "hierba"
 okuilin:okuil N-IN ; ! "animal"
+ixtakopin:ixtakop N-IN ; ! ""
 ayotochin:ayotoch N-IN ; ! "armadillo"
 ayo:ayo N-YO ; ! "jugo"
 kapolin:kapol N-IN ; ! "capulin"
@@ -1058,6 +1082,7 @@ tepexilot:tepexilot N-TL ; ! "tejilote"
 konet:kone N-TL ; ! "niño"
 tepet:tepe N-TL ; ! "montaña"
 tomat:toma N-TL ; ! "jitomate"
+sitaltomat:sital%>toma N-TL ; ! ""
 metat:meta N-TL ; ! "metate"
 xomet:xome N-TL ; ! "sauco"
 xitomat:xitoma N-TL ; ! "jitomate"
@@ -1111,6 +1136,7 @@ amakohuit:ama%>ko N-HUITL ; ! ""
 chilkohuit:chil%>ko N-HUITL ; ! ""
 chichihualayot:chichihualayo N-TL ; ! ""
 kohuat:kohua N-TL ; ! "víbora, serpiente"
+sitalkohuat:sital%>kohua N-TL ; ! ""
 masaohuat:masa%>ohua N-TL ; ! ""
 sempohualxochit:sempohual%>xochi N-TL ; ! ""
 papalokilit:papalo%>kilit N-TL ; ! ""
@@ -1121,6 +1147,7 @@ tamal:tamal N-Ø ; ! "tamale"
 tajtol:tajtol N-Ø ; ! "palabra, lengua"
 ejekatajtol:ejeka%>tajtol N-Ø ; ! ""
 masehualtajtol:masehual%>tajtol N-Ø ; ! ""
+masehualtajtol:masehuala%>tajtol N-Ø ; ! "" ! Use/Typo
 chil:chil N-Ø ; ! "chile"
 xitomachil:xitoma%>chil N-Ø ; ! ""
 xolal:xolal N-Ø ; ! "pueblo"
@@ -1138,12 +1165,14 @@ masehualtapalol:masehual%>tapalol N-Ø ; ! "comida de campesino"
 xiuyo:xiuyo N-YO ; ! ""
 naluayo:naluayo N-YO ; ! "raíz"
 chokilo:chokilo N-YO ; ! "savia"
-tapajtiani:tapajtiani N-NI ; ! "doctor"
+tapajtiani:tapajtia%>ni N-NI ; ! "doctor"
+teposejekatanojnotsaloni:tepos%>ejeka%>ta%>nojnotsa%>lo%>ni N-Ø ; ! ""
 tsontekon:tsontekon N-Ø ; ! "cabeza"
 tonal:tonal N-Ø ; ! "día"
 sitali:sitali N-Ø ; ! "estrella"
+sitalin:sital N-IN ; ! "estrella"
 kaxtoltonal:kaxtol%>tonal N-Ø ; ! "quince días"
-kokolis:kokolis N-Ø ; ! "enfermedad"
+kokolis:kokolis N-Ø ; ! "enfermedad" ! Use/Incorp
 tsompil:tsompil N-Ø ; ! "dolor de cabeza"
 huitsikitempil:%{h%}uitsikitempil N-Ø ; ! ""
 milaj:milaj N-Ø ; ! "milpa"
@@ -1158,7 +1187,7 @@ kafen:ka%{j%}fen N-Ø ; ! "café"
 kafentaj:ka%{j%}fentaj N-Ø ; ! "planta de café"
 kafentaj:ka%{j%}bentaj N-Ø ; ! "planta de café" ! Use/?
 istat:ista N-TL ; ! "sal"
-nakat:naka N-TL ; ! "carne"
+nakat:naka N-TL ; ! "carne" ! Use/Incorp
 nanakat:nanaka N-TL ; ! "hongo"
 kuanakat:kua%>naka N-TL ; ! ""
 itsmol:itsmol N-Ø ; ! ""
@@ -1179,6 +1208,7 @@ chapolistit:chapolist N-ITL ; ! ""
 taltikpak:taltikpak N-Ø ; ! "planeta"
 iluikak:iluikak N-Ø ; ! "cielo"
 nemilis:nemilis N-Ø ; ! "vida"
+tamachilis:tamachilis N-Ø ; ! ""
 talnamikilis:talnamikilis N-Ø ; ! "conocimiento"
 tatsintokalis:tatsintokalis N-Ø ; ! "pregunta"
 kali:kal N-LI ; ! "casa"
@@ -1223,6 +1253,7 @@ ejkau:ejkau N-Ø ; ! ""
 tiotak:tiotak N-Ø ; ! "tarde"
 tekosej:tekosej N-Ø ; ! ""
 tajsol:tajsol N-Ø ; ! "basura"
+tahuil:tahuil N-Ø ; ! "luz"
 
 ajuiakkayot:ajuiakkayo N-TL ; ! ""
 chichilkokot:chichil%>koko N-TL ; ! ""
@@ -1347,6 +1378,7 @@ ojten:oj%>ten N-Ø ; ! ""
 tekol:tekol N-Ø ; ! "fuego"
 taol:taol N-Ø ; ! "grano de maíz"
 tatsakuil:tatsakuil N-Ø ; ! "puerta"
+makpal:makpal N-Ø ; ! "palma"
 
 tankuakuikuil:tankuakuikuil N-Ø ; ! ""
 xiukahual:xiukahual N-Ø ; ! ""
@@ -1356,6 +1388,7 @@ chahuis:chahuis N-Ø ; ! ""
 
 peso:peso%{j%} N-Ø ; ! "peso"
 peso:peso N-O-SPA ; ! "peso"
+instituto:instituto N-O-SPA ; ! ""
 físico:físico N-O-SPA ; ! ! ""
 refino:refino N-O-SPA ; ! "aguardiente"
 teléfono:teléfono N-O-SPA ; ! ""
@@ -1365,6 +1398,7 @@ rayo:rayo N-O-SPA ; ! ""
 kilo:kilo N-O-SPA ; ! ""
 remedio:remedio N-O-SPA ; ! ""
 racimo:racimo N-O-SPA ; ! ""
+estado:estado N-O-SPA ; ! ""
 hilo:hilo N-O-SPA ; ! ""
 daño:daño N-O-SPA ; ! ""
 racimito:racimito N-O-SPA ; ! ""
@@ -1398,6 +1432,14 @@ polvito:polv%>ito N-O-SPA ; ! ""
 atolito:atol%>ito N-O-SPA ; ! ""
 santito:sant%>ito N-O-SPA ; ! ""
 cuenta:cuenta N-A-SPA ; ! ""
+nanotecnología:nanotecnología N-A-SPA ; ! ""
+radiografía:radiografía N-A-SPA ; ! ""
+electromagnética:electromagnética N-A-SPA ; ! ""
+nanométrica:nanométrica N-A-SPA ; ! ""
+vía:vía N-A-SPA ; ! ""
+física:física N-A-SPA ; ! ""
+molécula:molécula N-A-SPA ; ! ""
+célula:célula N-A-SPA ; ! ""
 semana:semana N-A-SPA ; ! ""
 kuenta:kuenta%{j%} N-Ø ; ! ""
 hora:hora N-A-SPA ; ! ""
@@ -1419,8 +1461,11 @@ viaje:viaje N-A-SPA ; ! ""
 esquina:esquina N-A-SPA ; ! ""
 semilla:semilla N-A-SPA ; ! ""
 galaxia:galaxia N-A-SPA ; ! ""
+lengua:lengua N-A-SPA ; ! ""
 vez:ve N-Z-SPA ; ! ""
 color:color N-R-SPA ; ! ""
+sociedad:sociedad N-R-SPA ; ! ""
+universidad:universidad N-R-SPA ; ! ""
 cáncer:cáncer N-R-SPA ; ! ""
 dios:dios N-R-SPA ; ! ""
 cimarrón:cimarr N-ÓN-SPA ; ! ""
@@ -1430,6 +1475,9 @@ fusión:fusi N-ÓN-SPA ; ! ""
 riñón:riñ N-ÓN-SPA ; ! ""
 gas:gas N-R-SPA ; ! ""
 mal:mal N-R-SPA ;  ! ""
+robot:robot N-O-SPA ; ! ""
+
+microondas:microondas N-S-SPA ; 
 
 enero:enero N-O-SPA ; ! ""
 febrero:febrero N-O-SPA ; ! ""
@@ -1463,7 +1511,7 @@ ajuiaya:ajuiaya N-Ø ; ! "fragrancia"
 
 ix:ix N-Ø ; ! "cara"
 kes:kes N-Ø ; ! "pie"
-nakas:nakas N-Ø ; ! "oreja"
+nakas:nakas N-Ø ; ! "oreja" ! Use/Incorp
 mets:mets N-Ø ; ! "pierna"
 mait:ma N-ITL ; ! "mano"
 kech:kech N-Ø ; ! "cuello"
@@ -1490,6 +1538,8 @@ Cristina:Cristina NP-ANT-F ;
 Deonila:Deonila NP-ANT-F ;
 Amelia:Amelia NP-ANT-F ;
 
+Zamora:Zamora NP-COG ;
+Islas:Islas NP-COG ;
 Nazario:Nazario NP-COG ; 
 Gorostiza:Gorostiza NP-COG ; 
 Salgado:Salgado NP-COG ;
@@ -1505,6 +1555,9 @@ Martínez:Martínez NP-COG ;
 Hernández:Hernández NP-COG ;
 Santos:Santos NP-COG ;
 Rivera:Rivera NP-COG ;
+
+Próxima:Próxima NP-TOP ;
+Centauri:Centauri NP-TOP ;
 
 México:México NP-TOP ;
 Puebla:Puebla NP-TOP ;
@@ -1557,7 +1610,7 @@ huehuelik:%{h%}ue%{j%}huelik ADJ ; ! "bueno"
 kuali:kual ADJ-KUALI ; ! "bonito"
 kuakuali:kua%{j%}kual ADJ-KUALI ; ! "bonito"
 huei:%{h%}ue ADJ-KUALI ; ! "grande"
-huehuei:%{h%}uehue ADJ-KUALI ; ! "grande"
+huehuei:%{h%}ue%{j%}hue ADJ-KUALI ; ! "grande"
 miak:miak ADJ ; ! "mucho"
 tsiki:tsiki ADJ ; ! "pequeño"
 tsikili:tsikili ADJ ; ! "pequeño"
@@ -1567,9 +1620,13 @@ seselik:se%{j%}selik ADJ ; ! "tierno"
 ojololtik:o%{j%}ololtik ADJ ; ! "redondo"
 selontsin:selontsin ADJ-TSIN ; ! "tiernitos"
 
+yankuik:yankuik ADJ ; ! "nuevo"
+
 ajuiyak:ajuiyak ADJ ; ! "fragrante"
 yolik:yolik ADJ ; ! "difícil"
 ohuij:ohuij ADJ ; ! "difícil"
+yolpakij:yol%>pakij ADJ ; ! ""
+pakij:pakij ADJ ; ! ""
 
 tsik:tsik ADJ ; ! "un poco de"
 
@@ -1667,10 +1724,20 @@ papatachtik:pa%{j%}patachtik ADJ ; ! "aplastado"
 tamanal:tamanal ADJ ; ! "hervido"
 
 fuerte:fuerte ADJ-MF-ES ;
+espacial:espacial ADJ-MF-ES ;
+nuclear:nuclear ADJ-MF-ES ;
+celular:celular ADJ-MF-ES ;
 mejor:mejor ADJ-MF-ES ;
+nacional:nacional ADJ-MF-ES ;
+
+indígena:indígena ADJ-MF-ES ;
+
 malo:mal ADJ-ES ;
+lácteo:lácte ADJ-ES ; ! ""
+cancerígeno:cancerígen ADJ-ES ;
 todo:tod ADJ-ES ; ! ""
 puro:pur ADJ-ES ; ! ""
+mexicano:mexican ADJ-ES ; ! ""
 sano:san ADJ-ES ; ! ""
 primero:primer ADJ-ES ; ! ""
 igualito:igualit ADJ-ES ; ! ""
@@ -1874,11 +1941,12 @@ xolalpan:xolal%>pan ADV ; ! ""
 talpan:tal%>pan ADV ; ! ""
 kalijtik:kal%>ijtik ADV ; ! "dentro de la casa"
 taijtik:ta%>ijtik ADV ; ! "por dentro"
-tanikuakopa:tanikuakopa ADV ; ! "por allá abajo"
+tanikuakopa:tanikua%>kopa ADV ; ! "por allá abajo"
 tiotakpa:tiotak%>pa ADV ; ! "por la tarde"
-ahkokopa:ahkokopa ADV ; ! "de arriba"
+ahkokopa:ahko%>kopa ADV ; ! "de arriba"
 ohuijkan:ohui%{j%}kan ADV ; ! "lugar difícil"
 analpa:analpa ADV ; ! "al otro lado"
+sitalkopa:sital%>kopa ADV ; ! ""
 
 !!! 
 
@@ -2538,6 +2606,10 @@ momiakilia:momiakilia V-IV-PRET ; ! ""
 
 mohueitalia:mohueitalia V-IV-PRES ; ! ""
 mohueitalia:mohueitalia V-IV-PRET ; ! ""
+
+kaki:kaki V-IV-PRES ; ! "escuchar"
+kaki:kaki V-IV-PRET ; ! "escuchar"
+
 
 
 LEXICON Irregulares 
