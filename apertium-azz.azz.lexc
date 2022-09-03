@@ -23,6 +23,7 @@ Multichar_Symbols
 
 %{i%}                        ! 
 %{o%}                        ! 
+%{n%}                        !
 %{N%}                        ! 
 %> 
 
@@ -59,12 +60,18 @@ LEXICON Verbos
  
                                                    AGR-SUBJ-SIO ;
                                                    AGR-ZERO ;
+                                                   AGR-IMPER ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON AGR-ZERO 
 
 %<s_sg3%>:0%>                                      INCORP-ADV ;
+
+LEXICON AGR-IMPER
+
+%<imp%>%<s_sg2%>:x%{i%}%>                          AGR-SUBJ-FLAGS ;
+%<imp%>%<s_pl2%>:x%{i%}%>                          AGR-SUBJ-FLAGS-PLUR ;
 
 LEXICON AGR-SUBJ-SIO
 
@@ -109,6 +116,7 @@ LEXICON AGR-OBJ-SI
 %<i_pl1%>:tech%>                                   AGR-OBJ-SI-FLAGS ;
 %<i_pl2%>:namech%>                                 AGR-OBJ-SI-FLAGS ;
 %<i_pl3%>:ki%{N%}%>                                AGR-OBJ-SI-FLAGS ;
+                                                   AGR-REFL ;
 
 LEXICON AGR-OBJ-SI-FLAGS
 
@@ -123,10 +131,16 @@ LEXICON AGR-OBJ-SO
 %<o_pl1%>:tech%>                                   AGR-OBJ-SO-FLAGS ;
 %<o_pl2%>:namech%>                                 AGR-OBJ-SO-FLAGS ;
 %<o_pl3%>:ki%{N%}%>                                AGR-OBJ-SO-FLAGS ;
+                                                   AGR-REFL ;
 
 LEXICON AGR-OBJ-SO-FLAGS 
  
 @P.OBJ.1@:@P.OBJ.1@                                INCORP-ADV ;
+
+LEXICON AGR-REFL 
+
+@P.IOBJ.1@%<i_ref%>:@P.IOBJ.1@mo%>                 AGR-IOBJ-SIO ;
+@P.OBJ.1@%<o_ref%>:@P.OBJ.1@mo%>                   INCORP-ADV ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! ni-mits-in-maka-s
@@ -134,8 +148,8 @@ LEXICON AGR-OBJ-SO-FLAGS
 LEXICON AGR-IOBJ-SIO
 
 %<o_sg3%>:                                         AGR-OBJ-SIO-FLAGS  ; 
-%<o_pl3%>:i%{N%}%>                                 AGR-OBJ-SIO-FLAGS  ; 
-
+%<o_pl3%>:i%{n%}%>                                 AGR-OBJ-SIO-FLAGS  ; 
+                                                   INCORP-ADV ;
 LEXICON AGR-OBJ-SIO-FLAGS
 
 @P.OBJ.1@:@P.OBJ.1@                                INCORP-ADV ;
@@ -364,6 +378,13 @@ namaka:namaka                                      V-SIO-PROG ;
 namaka:namaka                                      V-SIO-PRET ; ! Base II
 namaka:namaka                                      V-SIO-FUTR ; ! Base III
 
+! "llamar"
+notsa:notsa                                        V-SIO-PRES ; ! Base I
+notsa:notsa                                        V-SIO-IMPF ;
+notsa:notsa                                        V-SIO-PROG ;
+notsa:notsa                                        V-SIO-PRET ; ! Base II
+notsa:notsa                                        V-SIO-FUTR ; ! Base III
+
 LEXICON SO
 
 ! "tener"
@@ -376,11 +397,19 @@ piya:piya                                          V-SO-FUTR  ; ! Base III
 LEXICON SI 
 
 ! "dar de comer"
-tamaka:tamaka                                      V-SI-PRES ; ! Base I
-tamaka:tamaka                                      V-SI-IMPF ;
-tamaka:tamaka                                      V-SI-PROG ;
-tamaka:tamaka                                      V-SI-PRET ; ! Base II
-tamaka:tamaka                                      V-SI-FUTR ; ! Base III
+tamaka:ta%>maka                                    V-SI-PRES ; ! Base I
+tamaka:ta%>maka                                    V-SI-IMPF ;
+tamaka:ta%>maka                                    V-SI-PROG ;
+tamaka:ta%>maka                                    V-SI-PRET ; ! Base II
+tamaka:ta%>maka                                    V-SI-FUTR ; ! Base III
+
+! "darse poder"
+huelimaka:hueli%>maka                              V-SI-PRES ; ! Base I
+huelimaka:hueli%>maka                              V-SI-IMPF ;
+huelimaka:hueli%>maka                              V-SI-PROG ;
+huelimaka:hueli%>maka                              V-SI-PRET ; ! Base II
+huelimaka:hueli%>maka                              V-SI-FUTR ; ! Base III
+
 
 LEXICON S
 

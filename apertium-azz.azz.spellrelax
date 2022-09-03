@@ -14,6 +14,9 @@
  [ ?* [ é -> e | é ] ?* ]  .o.
  [ ?* [ ó -> o | ó ] ?* ]  .o.
  [ ?* [ ú -> u | ú ] ?* ]  .o.
- [ ?* [ k u -> k w | k u ] ?* ] 
+ [ ?* [ k u -> k w | k u ] ?* ]  .o.
+ [ ?* [ .#. t i k p i a -> t %' p i a | t i k p i a ] ?* ]  .o.
+ [ ?* [ .#. m o p i a -> m %' p i a | m o p i a ] ?* ]  .o.
+ [ ?* [ .#. t i k m a k a -> t %' m a k a | t i k m a k a ] ?* ]  
 ]
 
