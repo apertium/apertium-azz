@@ -11,7 +11,7 @@ Alphabet
  %{h%}:h %{h%}:0
  %{n%}:n %{n%}:0
  %{N%}:n %{N%}:m
- %{k%}:k 
+ %{k%}:k %{k%}:j
 
  %>:%> ;
 
@@ -29,21 +29,17 @@ Rules
 "Morpheme boundary"
 %>:%> <=> _ ; 
 
-"Preterite I"
-%{k%}:0 <=> [ o: h: u: a: | i: y: a: ] %>: _ ; 
+!"Preterite rule I"
+!%{k%}:0 <=>  h u i %{j%}: %> _ ;
+!
+!"Preterite rule II"
+!e:0 <=>  h u i %{j%}: %> %{k%}: %>: _ ;
+!
+!"Preterite rule III"
+!e:0 <=>  h u i %{j%}: %> %{k%}: %>: _ ;
 
-"Preterite II"
-Vx:0 <=> [ o: h: u: | i: y: ] _ %>: %{k%}:0 ;
-	where Vx in ( a o )  ; 
 
-"Preterite III" 
-Cx:j <=> [ o: h: | i: ] _ :0 %>: %{k%}:0 ;
-	where Cx in ( u y ) ;
-
-"Preterite IV"
-h:0 <=> o: _ :j :0 %>: %{k%}:0 ;
-
-!@ >:> k:k {i}:0 >:> i:i j:j t:t o:o h:0 u:j a:0 >:> {k}:0
+!@ ti>k{i}>ilhui{j}>k>ej
 
 "K gemination reduction"
 k:0 <=> _ %{i%}:0 %>: k ; 
