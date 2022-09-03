@@ -21,6 +21,7 @@ Multichar_Symbols
 
 %<imp%>                      !
 
+%{y%}                        !
 %{i%}                        ! 
 %{o%}                        ! 
 %{n%}                        !
@@ -40,9 +41,8 @@ Multichar_Symbols
 @D.OBJ@                      !
 @D.IOBJ@                     !
 
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
@@ -51,9 +51,6 @@ LEXICON Root
                                                    Verbos ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-! Asp/Temp = Subjeto = Objeto = Plural objeto II = Adverbio = Direcc. = Refl./Recip. = Obj indef. = Incorp = BASE = Liga = Aux = Aspecto = Dir = Plural
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Verbos 
@@ -100,10 +97,6 @@ LEXICON AGR-SUBJ-FLAGS
 !%<s_pl1%>:ti%>                                     # ;
 !%<s_pl2%>:nan%>                                    # ;
 !%<s_pl3%>:0%>                                      # ;
-!
-!LEXICON AGR-SUBJ-Ø
-!
-!%<s_sg3%>:0%>                                      Ø ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -158,8 +151,12 @@ LEXICON AGR-OBJ-SIO-FLAGS
 
 LEXICON INCORP-ADV
 
-%<yek%>:yek%>                                      INCORP-DIR ;
+%<yek%>:%{y%}ek%>                                  INCORP-DIR ;
 %<tel%>:tel%>                                      INCORP-DIR ;
+%<pan%>:pa%>                                       INCORP-DIR ;
+%<pan%>:pa%{N%}%>                                  INCORP-DIR ;
+%<sen%>:se%{N%}%>                                  INCORP-DIR ;
+%<nal%>:nal%>                                      INCORP-DIR ;
                                                    INCORP-DIR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -215,13 +212,14 @@ LEXICON V-SIO-IMPF
 
 LEXICON V-SIO-PROG
 
-%<v%>%<tv%>%<prog%>%<pres%>:%>to%>k                V-AGR-PRET ;
-%<v%>%<tv%>%<prog%>%<fut%>:%>to%>s                 V-AGR-FUTR;
-%<v%>%<tv%>%<prog%>%<impf%>:%>to%>ya               V-AGR-PRES ;
+%<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
+%<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 
 LEXICON V-SIO-FUTR
 
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -246,6 +244,7 @@ LEXICON V-SO-PROG
 LEXICON V-SO-FUTR
 
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -270,6 +269,7 @@ LEXICON V-SI-PROG
 LEXICON V-SI-FUTR
 
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -294,6 +294,7 @@ LEXICON V-S-PROG
 LEXICON V-S-FUTR
 
 %<v%>%<iv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<iv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -318,6 +319,7 @@ LEXICON V-Ø-PROG
 LEXICON V-Ø-FUTR
 
 %<v%>%<iv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<iv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -335,7 +337,6 @@ LEXICON V-AGR-FUTR
 
 @D.PLUR@:@D.PLUR@                                  # ; 
 @R.PLUR.1@:@R.PLUR.1@%>kej                         # ; 
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -363,6 +364,11 @@ LEXICON BASES
 @D.SUBJ@@D.OBJ@@D.IOBJ@:@D.SUBJ@@D.OBJ@@D.IOBJ@             Ø ;
 
 LEXICON SIO
+! V-*-PRES: Base I
+! V-*-IMPF:
+! V-*-PROG:
+! V-*-PRET: Base II
+! V-*-FUT:  Base III
 
 ! "dar"
 maka:maka                                          V-SIO-PRES ; ! Base I
@@ -384,6 +390,14 @@ notsa:notsa                                        V-SIO-IMPF ;
 notsa:notsa                                        V-SIO-PROG ;
 notsa:notsa                                        V-SIO-PRET ; ! Base II
 notsa:notsa                                        V-SIO-FUTR ; ! Base III
+
+! "tirar"
+tamota:tamota                                      V-SIO-PRES ; ! Base I
+tamota:tamota                                      V-SIO-IMPF ;
+tamota:tamota                                      V-SIO-PROG ;
+tamota:tamota                                      V-SIO-PRET ; ! Base II
+tamota:tamota                                      V-SIO-FUTR ; ! Base III
+
 
 LEXICON SO
 
