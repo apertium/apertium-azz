@@ -7,4 +7,5 @@ all:
 	hfst-invert azz.mor.hfst -o azz.gen.hfst
 	hfst-fst2fst -O azz.mor.hfst -o azz.automorf.hfst
 	hfst-fst2fst -O azz.gen.hfst -o azz.autogen.hfst
+	cg-comp apertium-azz.azz.rlx azz.rlx.bin
 	apertium-gen-modes modes.xml
