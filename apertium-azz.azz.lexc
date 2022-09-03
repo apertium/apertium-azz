@@ -23,6 +23,8 @@ Multichar_Symbols
 
 %{y%}                        !
 %{j%}                        !
+%{w%}                        !
+%{k%}                        !
 %{i%}                        ! 
 %{o%}                        ! 
 %{n%}                        !
@@ -62,8 +64,10 @@ LEXICON Root
                                                    Adverbios ;
                                                    Propios ;
                                                    Predicados ;
+                                                   Prefijos ;
                                                    Interyecciones ;
                                                    Digitos ; 
+                                                   Irregulares ; 
                                                    Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -76,6 +80,15 @@ LEXICON Predicados
                                                    AGR-ZERO ;
                                                    AGR-IMPER ;
 
+LEXICON Prefijos
+
+%<yek%>:%{y%}ek%>                                  Adjetivos ;
+%<tel%>:tel%>                                      Adjetivos ;
+%<pan%>:pa%>                                       Adjetivos ;
+%<pan%>:pa%{N%}%>                                  Adjetivos ;
+%<sen%>:se%{N%}%>                                  Adjetivos ;
+%<nal%>:nal%>                                      Adjetivos ;
+                                                   Adjetivos ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON AGR-SUBJ-NV
@@ -99,6 +112,7 @@ LEXICON NO-VERBALES
                                                    Adjetivos ;
                                                    Propios ;
                                                    Comunes ;
+                                                   Copula ;
 LEXICON AGR-ZERO 
 
 %<s_sg3%>:0%>                                      INCORP-ADV ;
@@ -170,8 +184,8 @@ LEXICON AGR-OBJ-SO-FLAGS
 
 LEXICON AGR-REFL 
 
-@P.IOBJ.1@%<i_ref%>:@P.IOBJ.1@mo%>                 AGR-IOBJ-SIO ;
-@P.OBJ.1@%<o_ref%>:@P.OBJ.1@mo%>                   INCORP-ADV ;
+@P.IOBJ.1@%<i_ref%>:@P.IOBJ.1@m%{o%}%>             AGR-IOBJ-SIO ;
+@P.OBJ.1@%<o_ref%>:@P.OBJ.1@m%{o%}%>               INCORP-ADV ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! ni-mits-in-maka-s
@@ -203,7 +217,7 @@ LEXICON INCORP-DIR
 
 %<on%>:on%>                                        INCORP-DIR-FLAGS ;
 %<hual%>:hual%>                                    INCORP-DIR-FLAGS ;
-                                                   BASES ;
+                                                   INCORP-DIR-FLAGS ;
 
 LEXICON INCORP-DIR-FLAGS 
 
@@ -239,11 +253,12 @@ LEXICON INCORP-NOMINAL-FLAGS
 LEXICON V-SIO-PRES 
 
 %<v%>%<tv%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<tv%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-SIO-PRET
 
-%<v%>%<tv%>%<pret%>:%{j%}%>k                       V-AGR-PRET ;
-%<v%>%<tv%>%<plu%>:%>ka                            V-AGR-PRES ;
+%<v%>%<tv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<tv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-SIO-IMPF
 
@@ -254,7 +269,7 @@ LEXICON V-SIO-PROG
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<tv%>:%>t                                    V-AUX-II ;
+%<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
 LEXICON V-SIO-FUTR
 
@@ -269,11 +284,12 @@ LEXICON V-SIO-FUTR
 LEXICON V-SO-PRES 
 
 %<v%>%<tv%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<tv%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-SO-PRET
 
-%<v%>%<tv%>%<pret%>:%{j%}%>k                       V-AGR-PRET ;
-%<v%>%<tv%>%<plu%>:%>ka                            V-AGR-PRES ;
+%<v%>%<tv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<tv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-SO-IMPF
 
@@ -284,7 +300,7 @@ LEXICON V-SO-PROG
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<tv%>:%>t                                    V-AUX-II ;
+%<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
 LEXICON V-SO-FUTR
 
@@ -299,11 +315,12 @@ LEXICON V-SO-FUTR
 LEXICON V-SI-PRES 
 
 %<v%>%<tv%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<tv%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-SI-PRET
 
-%<v%>%<tv%>%<pret%>:%{j%}%>k                       V-AGR-PRET ;
-%<v%>%<tv%>%<plu%>:%>ka                            V-AGR-PRES ;
+%<v%>%<tv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<tv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-SI-IMPF
 
@@ -314,7 +331,7 @@ LEXICON V-SI-PROG
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<tv%>:%>t                                    V-AUX-II ;
+%<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
 LEXICON V-SI-FUTR
 
@@ -329,11 +346,12 @@ LEXICON V-SI-FUTR
 LEXICON V-S-PRES 
 
 %<v%>%<iv%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<iv%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-S-PRET
 
-%<v%>%<iv%>%<pret%>:%{j%}%>k                       V-AGR-PRET ;
-%<v%>%<iv%>%<plu%>:%>ka                            V-AGR-PRES ;
+%<v%>%<iv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<iv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-S-IMPF
 
@@ -344,7 +362,7 @@ LEXICON V-S-PROG
 %<v%>%<iv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<iv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
 %<v%>%<iv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<iv%>:%>t                                    V-AUX-II ;
+%<v%>%<iv%>:%{j%}%>t                               V-AUX-II ;
 
 LEXICON V-S-FUTR
 
@@ -362,8 +380,8 @@ LEXICON V-Ø-PRES
 
 LEXICON V-Ø-PRET
 
-%<v%>%<iv%>%<pret%>:%{j%}%>k                       V-AGR-PRET ;
-%<v%>%<iv%>%<plu%>:%>ka                            V-AGR-PRES ;
+%<v%>%<iv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<iv%>%<plu%>:%{j%}%>ka                            V-AGR-PRES ;
 
 LEXICON V-Ø-IMPF
 
@@ -374,7 +392,7 @@ LEXICON V-Ø-PROG
 %<v%>%<iv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<iv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
 %<v%>%<iv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<iv%>:%>t                                    V-AUX-II ;
+%<v%>%<iv%>:%{j%}%>t                               V-AUX-II ;
 
 LEXICON V-Ø-FUTR
 
@@ -458,6 +476,7 @@ LEXICON N-LOC
 LEXICON N-TL 
 
 %<n%>%<abs%>:%>t                                   # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -466,6 +485,7 @@ LEXICON N-TL
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>ti                                  # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -474,6 +494,7 @@ LEXICON N-TLI
 LEXICON N-Ø
 
 %<n%>%<abs%>:%>                                    # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -481,7 +502,8 @@ LEXICON N-Ø
 
 LEXICON N-ITL
 
-%<n%>%<abs%>:%>itl                                 # ;
+%<n%>%<abs%>:%>it                                  # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -490,6 +512,7 @@ LEXICON N-ITL
 LEXICON N-LI
 
 %<n%>%<abs%>:%>i                                   # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -498,14 +521,16 @@ LEXICON N-LI
 LEXICON N-IN
 
 %<n%>%<abs%>:%>in                                  # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
-%<n%>%<pl%>:%>mej                                  # ;
+%<n%>%<pl%>:i%>mej                                 # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-YO
 
 %<n%>%<abs%>:                                      # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -514,6 +539,7 @@ LEXICON N-YO
 LEXICON N-NI
 
 %<n%>%<abs%>:                                      # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
@@ -522,6 +548,7 @@ LEXICON N-NI
 LEXICON N-HUITL
 
 %<n%>%<abs%>:%>huit                                # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:u%>tsin                               # ;
 %<n%>%<pl%>:hui%>mej                               # ;
 %<n%>%<hon%>%<pl%>:u%>tsi%>tsin                    # ;
@@ -530,6 +557,7 @@ LEXICON N-HUITL
 LEXICON N-HUAN
 
 %<n%>%<abs%>:n                                     # ;
+%<n%>:                                             N-POSS ;
 %<n%>%<hon%>:n%>tsin                               # ;
 %<n%>%<pl%>:%>j                                    # ;
 %<n%>%<hon%>%<pl%>:n%>tsi%>tsin                    # ;
@@ -537,12 +565,12 @@ LEXICON N-HUAN
 
 LEXICON N-SPA-PESO
 
-%<n%>%<m%>%<sg%>:                                  # ;
+%<n%>%<m%>%<sg%>:%{j%}                             # ;
 %<n%>%<m%>%<pl%>:%>s                               # ;
 
 LEXICON N-SPA-MESA
 
-%<n%>%<f%>%<sg%>:                                  # ;
+%<n%>%<f%>%<sg%>:%{j%}                             # ;
 %<n%>%<f%>%<pl%>:%>s                               # ;
 
 LEXICON N-SPA-LUGAR
@@ -568,6 +596,12 @@ LEXICON N-SPA-FUSIÓN
 LEXICON CMPND 
 
 :                                                  Locativos ;
+
+LEXICON N-POSS
+
+@R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;
+@R.POSS.1@%<pl%>:@R.POSS.1@%>huan                  # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -660,6 +694,8 @@ LEXICON PRON-SEKI
 LEXICON ADV
 
 %<adv%>:                                           # ; 
+%<adv%>%<hon%>:%>tsin                              # ; 
+%<adv%>%<hon%>%<pl%>:%>tsi%>tsin                   # ; 
 
 LEXICON ADV-SPA
 
@@ -778,8 +814,8 @@ namaka:namaka                                      V-SIO-FUTR ;
 ! "llamar"
 notsa:notsa                                        V-SIO-PRES ; 
 notsa:notsa                                        V-SIO-IMPF ;
-notsa:notsa                                        V-SIO-PROG ;
-notsa:notsa                                        V-SIO-PRET ; 
+notsa:nots                                         V-SIO-PROG ;
+notsa:nots                                         V-SIO-PRET ; 
 notsa:notsa                                        V-SIO-FUTR ; 
 
 ! "tirar"
@@ -792,8 +828,8 @@ tamota:tamota                                      V-SIO-FUTR ;
 ! "platicar"
 nojnotsa:no%{j%}notsa                               V-SIO-PRES ;
 nojnotsa:no%{j%}notsa                               V-SIO-IMPF ;
-nojnotsa:no%{j%}notsa                               V-SIO-PROG ;
-nojnotsa:no%{j%}notsa                               V-SIO-PRET ;
+nojnotsa:no%{j%}nots                                V-SIO-PROG ;
+nojnotsa:no%{j%}nots                                V-SIO-PRET ;
 nojnotsa:no%{j%}notsa                               V-SIO-FUTR ;
 
 ! "buscar"
@@ -802,6 +838,13 @@ temolia:temolia                                     V-SIO-IMPF ;
 temolia:temolia                                     V-SIO-PROG ;
 temolia:temolia                                     V-SIO-PRET ;
 temolia:temoli                                      V-SIO-FUTR ;
+
+! "decirle"
+ilhuia:ilhuia                                       V-SIO-PRES ;
+ilhuia:ilhuia                                       V-SIO-IMPF ;
+ilhuia:ilhuia                                       V-SIO-PROG ;
+ilhuia:ilhui                                        V-SIO-PRET ;
+ilhuia:ilhui                                        V-SIO-FUTR ;
 
 LEXICON SO
 
@@ -881,6 +924,13 @@ toka:toka                                           V-SO-IMPF ;
 toka:toka                                           V-SO-PROG ;
 toka:toka                                           V-SO-PRET ;
 toka:toka                                           V-SO-FUTR ;
+
+! "ocupar, usar"
+kuijkui:kui%{j%}kui                                 V-SO-PRES ;
+kuijkui:kui%{j%}kui                                 V-SO-IMPF ;
+kuijkui:kui%{j%}kui                                 V-SO-PROG ;
+kuijkui:kui%{j%}kui                                 V-SO-PRET ;
+kuijkui:kui%{j%}kui                                 V-SO-FUTR ;
 
 ! "ocupar, usar"
 kui:kui                                             V-SO-PRES ;
@@ -1001,12 +1051,19 @@ tejteki:te%{j%}teki                                 V-SO-PROG ;
 tejteki:te%{j%}teki                                 V-SO-PRET ;
 tejteki:te%{j%}teki                                 V-SO-FUTR ;
 
+! "llamar"
+ilia:ilia                                           V-SO-PRES ;
+ilia:ilia                                           V-SO-IMPF ;
+ilia:ili                                            V-SO-PROG ;
+ilia:ilia                                           V-SO-PRET ;
+ilia:ili                                            V-SO-FUTR ;
+
 ! "tener miedo"
-huilia:huilia                                       V-SO-PRES ;
-huilia:huilia                                       V-SO-IMPF ;
-huilia:huilia                                       V-SO-PROG ;
-huilia:huilia                                       V-SO-PRET ;
-huilia:huili                                       V-SO-FUTR ;
+mohuilia:mohuilia                                   V-SO-PRES ;
+mohuilia:mohuilia                                   V-SO-IMPF ;
+mohuilia:mohuili                                    V-SO-PROG ;
+mohuilia:mohuili                                    V-SO-PRET ;
+mohuilia:mohuili                                    V-SO-FUTR ;
 
 ! ""
 piki:piki                                           V-SO-PRES ;
@@ -1018,9 +1075,9 @@ piki:piki                                           V-SO-FUTR ;
 ! "bañar"
 altia:altia                                         V-SO-PRES ;
 altia:altia                                         V-SO-IMPF ;
-altia:altia                                         V-SO-PROG ;
-altia:altia                                         V-SO-PRET ;
-altia:altia                                         V-SO-FUTR ;
+altia:alti                                          V-SO-PROG ;
+altia:alti                                          V-SO-PRET ;
+altia:alti                                          V-SO-FUTR ;
 
 ! ""
 pata:pata                                           V-SO-PRES ;
@@ -1067,9 +1124,9 @@ huelita:huelita                                     V-SO-FUTR ;
 ! ""
 xotaltia:xotaltia                                   V-SO-PRES ;
 xotaltia:xotaltia                                   V-SO-IMPF ;
-xotaltia:xotaltia                                   V-SO-PROG ;
-xotaltia:xotaltia                                   V-SO-PRET ;
-xotaltia:xotaltia                                   V-SO-FUTR ;
+xotaltia:xotalti                                    V-SO-PROG ;
+xotaltia:xotalti                                    V-SO-PRET ;
+xotaltia:xotalti                                    V-SO-FUTR ;
 
 ! ""
 neltoka:neltoka                                     V-SO-PRES ;
@@ -1107,11 +1164,11 @@ huika:huika                                         V-SO-FUTR ;
 !hualkui:hualkui                                    V-SO-FUTR ;
 
 ! "pertenecer"
-pohui:pohui                                         V-SO-PRES ;
-pohui:pohui                                         V-SO-IMPF ;
-pohui:pohui                                         V-SO-PROG ;
-pohui:pohui                                         V-SO-PRET ;
-pohui:pohui                                         V-SO-FUTR ;
+tapohui:tapohui                                     V-SO-PRES ;
+tapohui:tapohui                                     V-SO-IMPF ;
+tapohui:tapohui                                     V-SO-PROG ;
+tapohui:tapohui                                     V-SO-PRET ;
+tapohui:tapohui                                     V-SO-FUTR ;
 
 ! "limpiar"
 chipahua:chipahua                                   V-SO-PRES ;
@@ -1179,44 +1236,44 @@ ehua:ehua                                           V-SO-FUTR ;
 ! ""
 kueliltia:kueliltia                                 V-SO-PRES ;
 kueliltia:kueliltia                                 V-SO-IMPF ;
-kueliltia:kueliltia                                 V-SO-PROG ;
-kueliltia:kueliltia                                 V-SO-PRET ;
-kueliltia:kueliltia                                 V-SO-FUTR ;
+kueliltia:kuelilti                                  V-SO-PROG ;
+kueliltia:kuelilti                                  V-SO-PRET ;
+kueliltia:kuelilti                                  V-SO-FUTR ;
 
 ! ""
 tsotsoltia:tsotsoltia                               V-SO-PRES ;
 tsotsoltia:tsotsoltia                               V-SO-IMPF ;
-tsotsoltia:tsotsoltia                               V-SO-PROG ;
-tsotsoltia:tsotsoltia                               V-SO-PRET ;
-tsotsoltia:tsotsoltia                               V-SO-FUTR ;
+tsotsoltia:tsotsolti                                V-SO-PROG ;
+tsotsoltia:tsotsolti                                V-SO-PRET ;
+tsotsoltia:tsotsolti                                V-SO-FUTR ;
 
 ! ""
 mayotia:mayotia                                     V-SO-PRES ;
 mayotia:mayotia                                     V-SO-IMPF ;
-mayotia:mayotia                                     V-SO-PROG ;
-mayotia:mayotia                                     V-SO-PRET ;
-mayotia:mayotia                                     V-SO-FUTR ;
+mayotia:mayoti                                      V-SO-PROG ;
+mayotia:mayoti                                      V-SO-PRET ;
+mayotia:mayoti                                      V-SO-FUTR ;
 
 ! ""
 xoxoktia:xoxoktia                                   V-SO-PRES ;
 xoxoktia:xoxoktia                                   V-SO-IMPF ;
-xoxoktia:xoxoktia                                   V-SO-PROG ;
-xoxoktia:xoxoktia                                   V-SO-PRET ;
-xoxoktia:xoxoktia                                   V-SO-FUTR ;
+xoxoktia:xoxokti                                    V-SO-PROG ;
+xoxoktia:xoxokti                                    V-SO-PRET ;
+xoxoktia:xoxokti                                    V-SO-FUTR ;
 
 ! "cocer"
 okxitia:okxitia                                     V-SO-PRES ;
 okxitia:okxitia                                     V-SO-IMPF ;
-okxitia:okxitia                                     V-SO-PROG ;
-okxitia:okxitia                                     V-SO-PRET ;
-okxitia:okxitia                                     V-SO-FUTR ;
+okxitia:okxiti                                      V-SO-PROG ;
+okxitia:okxiti                                      V-SO-PRET ;
+okxitia:okxiti                                      V-SO-FUTR ;
 
 ! ""
 patanaltia:patanaltia                               V-SO-PRES ;
 patanaltia:patanaltia                               V-SO-IMPF ;
-patanaltia:patanaltia                               V-SO-PROG ;
-patanaltia:patanaltia                               V-SO-PRET ;
-patanaltia:patanaltia                               V-SO-FUTR ;
+patanaltia:patanalti                                V-SO-PROG ;
+patanaltia:patanalti                                V-SO-PRET ;
+patanaltia:patanalti                                V-SO-FUTR ;
 
 ! "quebrar"
 posteki:posteki                                     V-SO-PRES ;
@@ -1268,6 +1325,14 @@ kejketsa:ke%{j%}ketsa                               V-SO-PRET ;
 kejketsa:ke%{j%}ketsa                               V-SO-FUTR ;
 
 ! ""
+ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-PRES ;
+ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-IMPF ;
+ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-PROG ;
+ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-PRET ;
+ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-FUTR ;
+
+
+! ""
 mehua:mehua                                         V-SO-PRES ;
 mehua:mehua                                         V-SO-IMPF ;
 mehua:mehua                                         V-SO-PROG ;
@@ -1317,11 +1382,11 @@ xejekohua:xejeko                                    V-SO-PRET ;
 xejekohua:xejeko                                    V-SO-FUTR ;
 
 ! ""
-pipilohua:pipilohua                                 V-SO-PRES ;
-pipilohua:pipilohua                                 V-SO-IMPF ;
-pipilohua:pipilohua                                 V-SO-PROG ;
-pipilohua:pipilo                                    V-SO-PRET ;
-pipilohua:pipilo                                    V-SO-FUTR ;
+pijpilohua:pi%{j%}pilohua                           V-SO-PRES ;
+pijpilohua:pi%{j%}pilohua                           V-SO-IMPF ;
+pijpilohua:pi%{j%}pilohua                           V-SO-PROG ;
+pijpilohua:pi%{j%}pilo                              V-SO-PRET ;
+pijpilohua:pi%{j%}pilo                              V-SO-FUTR ;
 
 ! "esparzar"
 moyahua:moyahua                                     V-SO-PRES ;
@@ -1366,11 +1431,11 @@ maxalohua:maxalo                                    V-SO-PRET ;
 maxalohua:maxalo                                    V-SO-FUTR ;
 
 ! ""
-mamaxalohua:mamaxalohua                             V-SO-PRES ;
-mamaxalohua:mamaxalohua                             V-SO-IMPF ;
-mamaxalohua:mamaxalohua                             V-SO-PROG ;
-mamaxalohua:mamaxalo                                V-SO-PRET ;
-mamaxalohua:mamaxalo                                V-SO-FUTR ;
+majmaxalohua:ma%{j%}maxalohua                       V-SO-PRES ;
+majmaxalohua:ma%{j%}maxalohua                       V-SO-IMPF ;
+majmaxalohua:ma%{j%}maxalohua                       V-SO-PROG ;
+majmaxalohua:ma%{j%}maxalo                          V-SO-PRET ;
+majmaxalohua:ma%{j%}maxalo                          V-SO-FUTR ;
 
 ! ""
 pepechohua:pepechohua                               V-SO-PRES ;
@@ -1463,6 +1528,134 @@ kuechohua:kuechohua                                 V-SO-PROG ;
 kuechohua:kuecho                                    V-SO-PRET ;
 kuechohua:kuecho                                    V-SO-FUTR ;
 
+! "saber"
+mati:mati                                           V-SO-PRES ;
+mati:mati                                           V-SO-IMPF ;
+mati:mat                                            V-SO-PROG ;
+mati:mati                                           V-SO-PRET ;
+mati:mati                                           V-SO-FUTR ;
+
+! "nombrar"
+tokaytia:tokaytia                                   V-SO-PRES ;
+tokaytia:tokaytia                                   V-SO-IMPF ;
+tokaytia:tokayt                                     V-SO-PROG ;
+tokaytia:tokayti                                    V-SO-PRET ;
+tokaytia:tokayti                                    V-SO-FUTR ;
+
+! "preguntar"
+tajtania:ta%{j%}tania                               V-SO-PRES ;
+tajtania:ta%{j%}tania                               V-SO-IMPF ;
+tajtania:ta%{j%}tani                                V-SO-PROG ;
+tajtania:ta%{j%}tani                                V-SO-PRET ;
+tajtania:ta%{j%}tani                                V-SO-FUTR ;
+
+! ""
+palehuia:palehuia                                   V-SO-PRES ;
+palehuia:palehuia                                   V-SO-IMPF ;
+palehuia:palehuia                                   V-SO-PROG ;
+palehuia:palehui                                    V-SO-PRET ;
+palehuia:palehui                                    V-SO-FUTR ;
+
+! ""
+xinia:xinia                                         V-SO-PRES ;
+xinia:xinia                                         V-SO-IMPF ;
+xinia:xinia                                         V-SO-PROG ;
+xinia:xini                                          V-SO-PRET ;
+xinia:xini                                          V-SO-FUTR ;
+
+! ""
+machilia:machilia                                   V-SO-PRES ;
+machilia:machilia                                   V-SO-IMPF ;
+machilia:machilia                                   V-SO-PROG ;
+machilia:machili                                    V-SO-PRET ;
+machilia:machili                                    V-SO-FUTR ;
+
+! ""
+kixtilia:kixtilia                                   V-SO-PRES ;
+kixtilia:kixtilia                                   V-SO-IMPF ;
+kixtilia:kixtilia                                   V-SO-PROG ;
+kixtilia:kixtili                                    V-SO-PRET ;
+kixtilia:kixtili                                    V-SO-FUTR ;
+
+! ""
+tekilia:tekilia                                     V-SO-PRES ;
+tekilia:tekilia                                     V-SO-IMPF ;
+tekilia:tekilia                                     V-SO-PROG ;
+tekilia:tekili                                      V-SO-PRET ;
+tekilia:tekili                                      V-SO-FUTR ;
+
+! ""
+huelilia:huelilia                                   V-SO-PRES ;
+huelilia:huelilia                                   V-SO-IMPF ;
+huelilia:huelilia                                   V-SO-PROG ;
+huelilia:huelili                                    V-SO-PRET ;
+huelilia:huelili                                    V-SO-FUTR ;
+
+! ""
+tsakuilia:tsakuilia                                 V-SO-PRES ;
+tsakuilia:tsakuilia                                 V-SO-IMPF ;
+tsakuilia:tsakuilia                                 V-SO-PROG ;
+tsakuilia:tsakuili                                  V-SO-PRET ;
+tsakuilia:tsakuili                                  V-SO-FUTR ;
+
+! ""
+kakilia:kakilia                                     V-SO-PRES ;
+kakilia:kakilia                                     V-SO-IMPF ;
+kakilia:kakilia                                     V-SO-PROG ;
+kakilia:kakili                                      V-SO-PRET ;
+kakilia:kakili                                      V-SO-FUTR ;
+
+! ""
+pantemilia:pantemilia                               V-SO-PRES ;
+pantemilia:pantemilia                               V-SO-IMPF ;
+pantemilia:pantemilia                               V-SO-PROG ;
+pantemilia:pantemili                                V-SO-PRET ;
+pantemilia:pantemili                                V-SO-FUTR ;
+
+! ""
+chihuilia:chihuilia                                 V-SO-PRES ;
+chihuilia:chihuilia                                 V-SO-IMPF ;
+chihuilia:chihuilia                                 V-SO-PROG ;
+chihuilia:chihuili                                  V-SO-PRET ;
+chihuilia:chihuili                                  V-SO-FUTR ;
+
+! ""
+chijchihuilia:chi%{j%}chihuilia                     V-SO-PRES ;
+chijchihuilia:chi%{j%}chihuilia                     V-SO-IMPF ;
+chijchihuilia:chi%{j%}chihuilia                     V-SO-PROG ;
+chijchihuilia:chi%{j%}chihuili                      V-SO-PRET ;
+chijchihuilia:chi%{j%}chihuili                      V-SO-FUTR ;
+
+! ""
+sentilia:sentilia                                   V-SO-PRES ;
+sentilia:sentilia                                   V-SO-IMPF ;
+sentilia:sentilia                                   V-SO-PROG ;
+sentilia:sentili                                    V-SO-PRET ;
+sentilia:sentili                                    V-SO-FUTR ;
+
+! ""
+yokolia:yokolia                                     V-SO-PRES ;
+yokolia:yokolia                                     V-SO-IMPF ;
+yokolia:yokolia                                     V-SO-PROG ;
+yokolia:yokoli                                      V-SO-PRET ;
+yokolia:yokoli                                      V-SO-FUTR ;
+
+! ""
+poyelia:poyelia                                     V-SO-PRES ;
+poyelia:poyelia                                     V-SO-IMPF ;
+poyelia:poyelia                                     V-SO-PROG ;
+poyelia:poyeli                                      V-SO-PRET ;
+poyelia:poyeli                                      V-SO-FUTR ;
+
+! ""
+ajuialia:ajuialia                                   V-SO-PRES ;
+ajuialia:ajuialia                                   V-SO-IMPF ;
+ajuialia:ajuialia                                   V-SO-PROG ;
+ajuialia:ajuiali                                    V-SO-PRET ;
+ajuialia:ajuiali                                    V-SO-FUTR ;
+
+
+
 LEXICON SI 
 
 ! "dar de comer"
@@ -1552,16 +1745,16 @@ tajtapana:ta%{j%}tapana                             V-SI-FUTR ;
 ! ""
 takiltia:takiltia                                   V-SI-PRES ;
 takiltia:takiltia                                   V-SI-IMPF ;
-takiltia:takiltia                                   V-SI-PROG ;
-takiltia:takiltia                                   V-SI-PRET ;
-takiltia:takiltia                                   V-SI-FUTR ;
+takiltia:takilti                                    V-SI-PROG ;
+takiltia:takilti                                    V-SI-PRET ;
+takiltia:takilti                                    V-SI-FUTR ;
 
 ! "odiar"
 tahuelita:tahuelita                                 V-SI-PRES ;
 tahuelita:tahuelita                                 V-SI-IMPF ;
-tahuelita:tahuelita                                 V-SI-PROG ;
-tahuelita:tahuelita                                 V-SI-PRET ;
-tahuelita:tahuelita                                 V-SI-FUTR ;
+tahuelita:tahuelit                                  V-SI-PROG ;
+tahuelita:tahuelit                                  V-SI-PRET ;
+tahuelita:tahuelit                                  V-SI-FUTR ;
 
 LEXICON S
 
@@ -1876,9 +2069,9 @@ moneneki:moneneki                                   V-S-FUTR ;
 ! "crecer"
 moskaltia:moskaltia                                 V-S-PRES ;
 moskaltia:moskaltia                                 V-S-IMPF ;
-moskaltia:moskaltia                                 V-S-PROG ;
-moskaltia:moskaltia                                 V-S-PRET ;
-moskaltia:moskaltia                                 V-S-FUTR ;
+moskaltia:moskalti                                  V-S-PROG ;
+moskaltia:moskalti                                  V-S-PRET ;
+moskaltia:moskalti                                  V-S-FUTR ;
 
 ! "ponerse"
 motalia:motalia                                     V-S-PRES ;
@@ -2086,9 +2279,9 @@ xini:xini                                           V-S-FUTR ;
 ! "florecer"
 xochiohua:xochiohua                                 V-S-PRES ;
 xochiohua:xochiohua                                 V-S-IMPF ;
-xochiohua:xochiohua                                 V-S-PROG ;
+xochiohua:xochio                                    V-S-PROG ;
 xochiohua:xochiohua                                 V-S-PRET ;
-xochiohua:xochiohua                                 V-S-FUTR ;
+xochiohua:xochio                                    V-S-FUTR ;
 
 ! "agriarse"
 xokoya:xokoya                                       V-S-PRES ;
@@ -2132,7 +2325,63 @@ rendirohua:rendiro                                  V-S-PROG ;
 rendirohua:rendirohua                               V-S-PRET ;
 rendirohua:rendiro                                  V-S-FUTR ;
 
+! "partir"
+ehua:ehua                                           V-S-PRES ;
+ehua:ehua                                           V-S-IMPF ;
+ehua:ehua                                           V-S-PROG ;
+ehua:ehua                                           V-S-PRET ;
+ehua:ehua                                           V-S-FUTR ;
 
+! "llegar"
+ajsi:ajsi                                           V-S-PRES ;
+ajsi:ajsi                                           V-S-IMPF ;
+ajsi:ajsi                                           V-S-PROG ;
+ajsi:ajsi                                           V-S-PRET ;
+ajsi:ajsi                                           V-S-FUTR ;
+
+! "ser efectivo"
+tenamiki:tenamiki                                   V-S-PRES ;
+tenamiki:tenamiki                                   V-S-IMPF ;
+tenamiki:tenamiki                                   V-S-PROG ;
+tenamiki:tenamiki                                   V-S-PRET ;
+tenamiki:tenamiki                                   V-S-FUTR ;
+
+! "regarse"
+pixohui:pixohui                                     V-S-PRES ;
+pixohui:pixohui                                     V-S-IMPF ;
+pixohui:pixohui                                     V-S-PROG ;
+pixohui:pixohui                                     V-S-PRET ;
+pixohui:pixohui                                     V-S-FUTR ;
+
+
+! ""
+kakisti:kakisti                                     V-S-PRES ;
+kakisti:kakisti                                     V-S-IMPF ;
+kakisti:kakisti                                     V-S-PROG ;
+kakisti:kakisti                                     V-S-PRET ;
+kakisti:kakisti                                     V-S-FUTR ;
+
+
+! "parecerse"
+tamati:tamati                                       V-S-PRES ;
+tamati:tamati                                       V-S-IMPF ;
+tamati:tamati                                       V-S-PROG ;
+tamati:tamati                                       V-S-PRET ;
+tamati:tamati                                       V-S-FUTR ;
+
+! "" 
+okuilohua:okuilohua                                 V-S-PRES ;
+okuilohua:okuilohua                                 V-S-IMPF ;
+okuilohua:okuilo                                    V-S-PROG ;
+okuilohua:okuilohua                                 V-S-PRET ;
+okuilohua:okuilo                                    V-S-FUTR ;
+
+! "pertenecer"
+pohui:pohui                                         V-S-PRES ;
+pohui:pohui                                         V-S-IMPF ;
+pohui:pohui                                         V-S-PROG ;
+pohui:pohui                                         V-S-PRET ;
+pohui:pohui                                         V-S-FUTR ;
 
 LEXICON Ø
 
@@ -2152,6 +2401,43 @@ metstona:metstona                                  V-Ø-FUTR   ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Irregulares 
+
+Yohui ; 
+Huitsa ; 
+Huala ; 
+
+
+LEXICON Yohui 
+
+%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%}      # ;
+%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ;
+%<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui            # ;
+%<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej     # ;
+%<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>ohu%>ij      # ;
+!%<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yo%{w%}%    # ;
+%<s_pl3%>yohui%<v%>%<iv%>%<pres%>:yohui%>j         # ;
+
+LEXICON Huitsa
+
+%<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa      # ;
+%<s_sg2%>huitsa%<v%>%<iv%>%<pres%>:ti%>huitsa      # ;
+%<s_sg3%>huitsa%<v%>%<iv%>%<pres%>:huitsa          # ;
+%<s_pl1%>huitsa%<v%>%<iv%>%<pres%>:huits%>ej       # ;
+
+LEXICON Huala
+
+%<s_sg1%>huala%<v%>%<iv%>%<pres%>:ni%>hualehua     # ;
+%<s_sg2%>huala%<v%>%<iv%>%<pres%>:ti%>hualehua     # ;
+%<s_sg3%>huala%<v%>%<iv%>%<pres%>:hualehua         # ;
+%<s_pl3%>huala%<v%>%<iv%>%<pres%>:hualehua%>j      # ;
+
+%<s_sg1%>huala%<v%>%<iv%>%<pret%>:ni%>hualehua%>k  # ;
+%<s_sg2%>huala%<v%>%<iv%>%<pret%>:ti%>hualehua%>k  # ;
+%<s_sg2%>huala%<v%>%<iv%>%<pret%>:hualehua%>k      # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Contracciones 
 
 in%<det%>%+%<px3sg%>:n%>i%>                        Sustantivos ;
@@ -2163,14 +2449,21 @@ yehua%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ;
 
 kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eskia        # ;
 
+LEXICON Copula
+
+etok:%{y%}e                                        COP ; ! "estar"
+katka:katka                                        COP-KATKA ; ! ""
+
 LEXICON Miscellanea
 
 ! FIXME: False starts?
 i%<x%>:i                                           FALSE ; 
 nikil%<x%>:ni%>ki%>l                               FALSE ; 
+nimo%<x%>:ni%>mo                                   FALSE ; 
 tikim%<x%>:ti%>kim                                 FALSE ; 
 chi%<x%>:chi                                       FALSE ; 
 tinech%<x%>:ti%>nech                               FALSE ; 
+te%<x%>:te                                         FALSE ;
 ch%<x%>:ch                                         FALSE ;
 c%<x%>:c                                           FALSE ;
 d%<x%>:d                                           FALSE ;
@@ -2183,6 +2476,7 @@ l%<x%>:l                                           FALSE ;
 r%<x%>:r                                           FALSE ;
 sk%<x%>:sk                                         FALSE ;
 tst%<x%>:tst                                       FALSE ;
+xiw%<x%>:xiw                                       FALSE ;
 t%<x%>:t                                           FALSE ;
 v%<x%>:v                                           FALSE ;
 w%<x%>:w                                           FALSE ; 
@@ -2234,9 +2528,6 @@ sea%<x%>:sea                                       # ; ! o sea
 ver%<x%>:ver                                       # ; ! a ver
 es%<x%>:es                                         # ; ! 
 
-etok:%{y%}e                                        COP ; ! "estar"
-katka:katka                                        COP-KATKA ; ! ""
-
 hueli%<vaux%>:hueli                                # ; ! "poder"
 hueli%<vaux%>:huel                                 # ; ! "poder"
 
@@ -2252,7 +2543,15 @@ ma%<aux%>:ma%{j%}                                  # ;
 
 huej%<mod%>:huej                                   # ;
 
-%<imp%>%<i_sg1%>ilia%<v%>%<tv%>%<pres%>:%'nech%>ili # ;
+%<imp%>%<s_sg2%>%<i_sg1%>ilia%<v%>%<tv%>%<pres%>:%'nech%>ili # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:%'nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:x%{i%}%>nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_pl1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:x%{i%}%>tech%>ilhui # ;
+
+! Se kiteki, nen, nochi ka n' xoxowik se kiteki.
+%<px3sg%>ka%<n%>%<rel%>:ka                         # ;
+%<px3sg%>tech%<n%>%<rel%>:tech                     # ;
 
 LEXICON Conjunciones 
 
@@ -2466,6 +2765,7 @@ ahuakat:ahuaka                                      N-TL ; ! "aguacate"
 ajkol:ajkol                                         N-Ø ; ! "hombro"
 tajkuilol:tajkuilol                                 N-Ø ; ! ""
 topits:topits                                       N-Ø ; ! "ganglio"
+kounex:kounex                                       N-Ø ; ! "ceniza"
 tiopan:tiopan                                       N-Ø ; ! "iglesia"
 temaskal:temaskal                                   N-Ø ; ! "temascal"
 chechelot:chechelo                                  N-TL ; ! "ardilla"
@@ -2523,12 +2823,13 @@ koutajokuilin:koutaj%>okuil                         N-IN ; ! "animales de monte"
 xokoyolin:xokoyol                                   N-IN ; ! "xokoyolin"
 tekpin:tekpin                                       N-Ø ; ! "pulga"
 chiltekpin:chiltekpin                               N-Ø ; ! "chiltepín"
-tokay:tokay                                         N-Ø ; ! "nombre"
+tokay:tokay                                         N-Ø ; ! "nombre" ! Use/Incorp
 pajti:paj                                           N-TLI ; ! "medicina"
 pajti:pa                                            N-TLI ; ! "medicina"
 masehualpajti:masehual%>pajti                       N-Ø ; ! "medicina tradicional"
 tilmaj:tilmaj                                       N-Ø ; ! "niño"
 pili:pili                                           N-Ø ; ! "niño"
+pili:pil                                            N-LI ; ! "niño"
 pipili:pipil                                        N-LI ; ! "niño"
 pipilkonet:pipil%>kone                              N-TL ; ! "niño"
 siuapipili:siua%>pipil                              N-LI ; ! "niña"
@@ -2541,7 +2842,7 @@ nanaj:nanaj                                         N-Ø ; ! "señora"
 hueinanaj:huei%>nanaj                               N-Ø ; ! "abuela"
 nananaj:nananaj                                     N-Ø ; ! "mujer"
 tataman:tataman                                     N-Ø ; ! "diferente"
-tepexilot:tepexilot                                 N-TL ; ! "tejilote"
+tepexilot:tepexilo                                  N-TL ; ! "tejilote"
 konet:kone                                          N-TL ; ! "niño"
 tepet:tepe                                          N-TL ; ! "montaña"
 tomat:toma                                          N-TL ; ! "jitomate"
@@ -2570,11 +2871,13 @@ xonot:xono                                          N-TL ; ! "jonote"
 mosot:moso                                          N-TL ; ! ""
 altepet:altepe                                      N-TL ; ! "altepetl"
 tesuat:tesua                                        N-TL ; ! ""
-tomakilit:tomakili                                  N-TL ; ! "hierbamora"
+tomakilit:toma%>kili                                N-TL ; ! "hierbamora"
+totolkilit:totol%>kili                              N-TL ; ! ""
+omekilit:ome%>kili                                  N-TL ; ! ""
 kilit:kil                                           N-ITL ; ! "quelite"
 amat:ama                                            N-TL ; ! "papel"
 takat:taka                                          N-TL ; ! "hombre"
-huauhkilit:huauhkili                                N-TL ; ! ""
+huauhkilit:huauh%>kili                              N-TL ; ! ""
 nexkijit:nexkiji                                    N-TL ; ! ""
 kilit:kili                                          N-TL ; ! "quilite"
 huitstotomat:huitstotoma                            N-TL ; ! ""
@@ -2602,7 +2905,7 @@ kohuat:kohua                                        N-TL ; ! "víbora, serpiente
 sitalkohuat:sital%>kohua                            N-TL ; ! ""
 masaohuat:masa%>ohua                                N-TL ; ! ""
 sempohualxochit:sempohual%>xochi                    N-TL ; ! ""
-papalokilit:papalo%>kilit                           N-TL ; ! ""
+papalokilit:papalo%>kili                            N-TL ; ! ""
 ojti:oj                                             N-TLI ; ! "camino"
 et:e                                                N-TL ; ! "frijol"
 tapial:tapial                                       N-Ø ; ! "animal"
@@ -2644,6 +2947,7 @@ popotot:popoto                                      N-Ø ; ! "algodoncillo"
 chiktej:chiktej                                     N-Ø ; ! "pájaro"
 chiktejkonet:chiktej%>kone                          N-TL ; ! ""
 ajuiak:ajuiak                                       N-Ø ; ! "olor"
+ajuiakka:ajuiakka                                   N-Ø ; ! "olor"
 koutatil:kou%>tatil                                 N-Ø ; ! "leña"
 nemachtil:nemachtil                                 N-Ø ; ! "estudio"
 mixti:mix                                           N-TLI ; ! "nube"
@@ -2696,8 +3000,8 @@ koyoiluit:koyo%>ilui                                N-TL ; ! "fiesta"
 
 atsitsikas:atsitsikas                               N-Ø ; ! ""
 huitsti:huits                                       N-TLI ; ! "espina"
-itskuimpajuits:itskuinpajuits                       N-TLI ; ! ""
-itskuimpajuits:itskuimpajuits                       N-TLI ; ! ""
+itskuimpajuits:itskuinpajuits                       N-Ø ; ! ""
+itskuimpajuits:itskuimpajuits                       N-Ø ; ! ""
 may:may                                             N-Ø ; ! "hoja"
 maxiuyo:maxiuyo                                     N-Ø ; ! "hoja"
 xinach:xinach                                       N-Ø ; ! "semilla"
@@ -4005,6 +4309,7 @@ indígena:indígena                                   ADJ-SPA-LIBRE ;
 
 malo:mal                                            ADJ-SPA-MALO ;
 lácteo:lácte                                        ADJ-SPA-MALO ; ! ""
+seguido:seguid                                      ADJ-SPA-MALO ; ! ""
 cancerígeno:cancerígen                              ADJ-SPA-MALO ;
 todo:tod                                            ADJ-SPA-MALO ; ! ""
 puro:pur                                            ADJ-SPA-MALO ; ! ""
@@ -4212,6 +4517,7 @@ nepaka:nepaka                                       ADV ; ! "allá"
 nejkuin:ne%{j%}kuin                                 ADV ; ! "por allá"
 
 sejse:sejse                                         ADV ; ! ""
+iselti:iselti                                       ADV ; ! "sólo"
 
 !!!
 
@@ -4231,6 +4537,8 @@ sitalkopa:sital%>kopa                               ADV ; ! ""
 cerca:cerca                                         ADV-SPA ;
 cecerca:cecerca                                     ADV-SPA ;
 aparte:aparte                                       ADV-SPA ;
+demás:demás                                         ADV-SPA ;
+apenas:apenas                                       ADV-SPA ;
 
 tanto:tanto                                         ADV-SPA ;
 bien:bien                                           ADV-SPA ; ! "
@@ -4264,6 +4572,7 @@ aaj:aaj                                             INTERJ ; ! ""
 ajaja:ajaja                                         INTERJ ; ! ""
 eej:eej                                             INTERJ ; ! ""
 mm:mm                                               INTERJ ; ! ""
+oj:oj                                               INTERJ ; ! ""
 ejej:ejej                                           INTERJ ; ! ""
 ujuj:ujuj                                           INTERJ ; ! ""
 a:a                                                 INTERJ ; ! ""

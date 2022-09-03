@@ -18,5 +18,6 @@
  [ ?* [ h u -> u | h u ] ?* ]  .o.
  [ ?* [ .#. m o p i a -> m %' p i a | m o p i a ] ?* ]  .o.
  [ ?* [ .#. t i k -> t %' | t i k ] ?* ]  
+ [ ?* [ .#. n i k -> n %' | n i k ] ?* ]  
 ]
 

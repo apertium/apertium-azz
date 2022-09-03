@@ -3,7 +3,7 @@
 
 <!--  <mode name="azz-morph" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+     <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
       <program name="hfst-proc -w">
         <file name="azz.automorf.hfst"/>
       </program>
@@ -20,7 +20,7 @@
 
   <mode name="azz-phone" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+<!--      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>-->
       <program name="hfst-proc -w -N 1">
         <file name="azz.autophon.hfst"/>
       </program>
@@ -29,7 +29,7 @@
 
   <mode name="azz-segmenter" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+<!--      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>-->
       <program name="hfst-proc">
         <file name="azz.autoseg.hfst"/>
       </program>
@@ -38,7 +38,7 @@
 
   <mode name="azz-disam" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+<!--      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>-->
       <program name="hfst-proc -w">
         <file name="azz.automorf.hfst"/>
       </program>
@@ -51,7 +51,7 @@
 
   <mode name="azz-tagger" install="yes">
     <pipeline>
-      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+<!--      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>-->
       <program name="hfst-proc -w">
         <file name="azz.automorf.hfst"/>
       </program>
