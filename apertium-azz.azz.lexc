@@ -10,16 +10,108 @@ Multichar_Symbols
 %<num%>                      ! 
 %<prn%>                      !
 %<det%>                      !
+%<mod%>                      !
 %<adv%>                      !
 %<adj%>                      ! 
 %<cnjcoo%>                   !
 %<cnjsub%>                   !
 %<aux%>                      !
+%<vaux%>                     !
+%<cop%>                      !
+%<ij%>                       !
+%<pr%>                       !
 %<x%>                        !
 %<cm%>                       !
 %<sent%>                     !
 
+%<tv%>                       !
+%<iv%>                       !
+
 %<imp%>                      !
+%<cni%>                      !
+%<impf%>                     !
+%<fut%>                      !
+%<pres%>                     !
+%<pret%>                     !
+%<prog%>                     !
+%<opt%>                      !
+%<plu%>                      !
+%<pp%>                       !
+
+%<abs%>                      !
+%<top%>                      !
+%<ant%>                      !
+%<cog%>                      !
+%<cmp%>                      !
+%<dim%>                      !
+%<hon%>                      !
+%<incorp%>                   !
+
+%<f%>                        !
+%<m%>                        !
+%<mf%>                       !
+
+%<itg%>                      !
+%<pers%>                     !
+%<short%>                    !
+%<rel%>                      !
+
+%<sg1%>                      !
+%<sg2%>                      !
+%<sg3%>                      !
+%<pl1%>                      !
+%<pl2%>                      !
+%<pl3%>                      !
+
+%<o_sg1%>                    !
+%<o_sg2%>                    !
+%<o_sg3%>                    !
+%<o_pl1%>                    !
+%<o_pl2%>                    !
+%<o_pl3%>                    !
+%<o_ref%>                    !
+%<o_aa%>                     !
+%<o_nn%>                     !
+
+%<i_sg1%>                    !
+%<i_sg2%>                    !
+%<i_sg3%>                    !
+%<i_pl1%>                    !
+%<i_pl2%>                    !
+%<i_pl3%>                    !
+%<i_ref%>                    !
+
+%<on%>                       !
+%<hual%>                     !
+
+
+%<pl%>                       !
+%<sg%>                       !
+
+%<s_pl1%>                    !
+%<s_pl2%>                    !
+%<s_pl3%>                    !
+%<s_sg1%>                    !
+%<s_sg2%>                    !
+%<s_sg3%>                    !
+
+%<px1pl%>                    !
+%<px1sg%>                    !
+%<px2pl%>                    !
+%<px2sg%>                    !
+%<px3aa%>                    !
+%<px3nn%>                    !
+%<px3pl%>                    !
+%<px3sg%>                    !
+
+%<and%>                      !
+%<ven%>                      !
+
+%<sen%>                      !
+%<yek%>                      !
+%<nal%>                      !
+%<pan%>                      !
+%<tel%>                      !
 
 %{y%}                        !
 %{j%}                        !
@@ -29,6 +121,9 @@ Multichar_Symbols
 %{o%}                        ! 
 %{n%}                        !
 %{N%}                        ! 
+
+%{@%}                        !
+
 %> 
 
 @P.POSS.1@                   !
@@ -900,7 +995,7 @@ seguirohua:seguiro                                  V-SO-FUTR ;
 ! "ver"
 ita:ita                                             V-SO-PRES ;
 ita:ita                                             V-SO-IMPF ;
-ita:ita                                             V-SO-PROG ;
+ita:its                                             V-SO-PROG ;
 ita:ita                                             V-SO-PRET ;
 ita:ita                                             V-SO-FUTR ;
 
@@ -1288,6 +1383,13 @@ huatsa:huatsa                                       V-SO-IMPF ;
 huatsa:huatsa                                       V-SO-PROG ;
 huatsa:huatsa                                       V-SO-PRET ;
 huatsa:huatsa                                       V-SO-FUTR ;
+
+! "quedar"
+kahua:kahua                                         V-SO-PRES ;
+kahua:kahua                                         V-SO-IMPF ;
+kahua:kahua                                         V-SO-PROG ;
+kahua:kahua                                         V-SO-PRET ;
+kahua:kahua                                         V-SO-FUTR ;
 
 ! "hacer calor"
 kahuani:kahuani                                     V-SO-PRES ;
@@ -2517,6 +2619,7 @@ x%<x%>:x                                           FALSE ;
 m%<x%>:m                                           FALSE ; 
 ni%<x%>:ni                                         FALSE ; 
 ki%<x%>:ki                                         FALSE ; 
+ke%<x%>:ke                                         FALSE ; 
 k%<x%>:k                                           FALSE ; 
 mo%<x%>:mo                                         FALSE ; 
 t%<x%>:t                                           FALSE ; 
@@ -2884,7 +2987,7 @@ huitstotomat:huitstotoma                            N-TL ; ! ""
 tepetomat:tepe%>toma                                N-TL ; ! ""
 miltomat:mil%>toma                                  N-TL ; ! ""
 xalkohuit:xalko                                     N-HUITL ; ! ""
-tsotsolpajxihui:tsotsolpajxihui                     N-TL ; ! ""
+tsotsolpajxihui:tsotsolpaj%>xihui                   N-TL ; ! ""
 kokot:koko                                          N-TL ; ! "grano"
 ehuat:ehua                                          N-TL ; ! "corteza"
 isuat:isua                                          N-TL ; ! ""
@@ -3071,6 +3174,7 @@ totolkilit:totol%>kil                               N-ITL ; ! ""
 tsikilit:tsi%>kil                                   N-ITL ; ! ""
 huiitsuaukilit:huitsuau%>kil                        N-ITL ; ! ""
 
+mikexihuit:mike%>xi                                 N-HUITL ; ! ""
 akokojxihuit:akokoj%>xi                             N-HUITL ; ! ""
 atenxihuit:aten%>xi                                 N-HUITL ; ! ""
 axihuit:a%>xi                                       N-HUITL ; ! ""
@@ -4027,6 +4131,7 @@ kosantsin:kosantsin                                 N-Ø ; ! "arcoiris"
 kalnemachtiloyan:kalnemachtiloyan                   N-Ø ; ! "escuela"
 chipahuakat:chipahuak%>a                            N-TL ; ! "agua simple"
 
+chanka:chanka                                       N-Ø ; ! "padres"
 
 ix:ix                                               N-Ø ; ! "cara"
 kes:kes                                             N-Ø ; ! "pie"
@@ -4041,6 +4146,8 @@ ixtololo:ixtololo                                   N-Ø ; ! "ojo"
 LEXICON Propios 
 
 Miguel:Miguel                                       NP-ANT-M ; 
+Roberto:Roberto                                     NP-ANT-M ; 
+Pancho:Pancho                                       NP-ANT-M ; 
 Rubén:Rubén                                         NP-ANT-M ; 
 Anastacio:Anastacio                                 NP-ANT-M ; 
 Nicolás:Nicolás                                     NP-ANT-M ; 
@@ -4056,6 +4163,9 @@ Andrés:Andrés                                       NP-ANT-M ;
 
 Celina:Celina                                       NP-ANT-F ; 
 María:María                                         NP-ANT-F ; 
+Valeria:Valeria                                     NP-ANT-F ; 
+Patricia:Patricia                                   NP-ANT-F ; 
+Evelyn:Evelyn                                       NP-ANT-F ; 
 Elena:Elena                                         NP-ANT-F ; 
 Francisca:Francisca                                 NP-ANT-F ;
 Cristina:Cristina                                   NP-ANT-F ;
@@ -4127,6 +4237,7 @@ Centauri:Centauri                                   NP-TOP ;
 
 México:México                                       NP-TOP ;
 Puebla:Puebla                                       NP-TOP ;
+Zotolo:Zotolo                                       NP-TOP ;
 San:San                                             NP-TOP ;
 Santa:Santa                                         NP-TOP ;
 Tzinacapan:Tzinacapan                               NP-TOP ;
@@ -4198,8 +4309,8 @@ yankuik:yankuik                                     ADJ ; ! "nuevo"
 ajuiyak:ajuiyak                                     ADJ ; ! "fragrante"
 yolik:yolik                                         ADJ ; ! "difícil"
 ohuij:ohuij                                         ADJ ; ! "difícil"
-yolpakij:yol%>pakij                                 ADJ ; ! ""
-pakij:pakij                                         ADJ ; ! ""
+yolpakij:yol%>pa%{j%}ki%{j%}                        ADJ ; ! ""
+pakij:pa%{j%}ki%{j%}                                ADJ ; ! "feliz"
 
 tsik:tsik                                           ADJ ; ! "un poco de"
 
@@ -4246,6 +4357,7 @@ xokok:xokok                                         ADJ ; ! "ácido"
 totonik:totonik                                     ADJ ; ! "caliente"
 tototonik:to%{j%}totonik                            ADJ ; ! "caliente"
 sesek:sesek                                         ADJ ; ! "frío"
+sesek:sejsek                                        ADJ ; ! "frío"
 
 takistok:takistok                                   ADJ ; ! "despedejo"
 
