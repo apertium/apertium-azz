@@ -122,7 +122,7 @@ Multichar_Symbols
 %{n%}                        !
 %{N%}                        ! 
 
-%{@%}                        !
+%{»%}                        !
 
 %> 
 
@@ -337,7 +337,7 @@ LEXICON INCORP-INDEF-FLAGS
 
 LEXICON INCORP-NOMINAL
 
-%<incorp%>:%{@%}%>                                 INCORP-NOMINAL-FLAGS ; 
+%<incorp%>%{»%}:0%{»%}%>                           INCORP-NOMINAL-FLAGS ; 
 
 LEXICON INCORP-NOMINAL-FLAGS 
 
@@ -993,11 +993,11 @@ seguirohua:seguirohua                               V-SO-PRET ;
 seguirohua:seguiro                                  V-SO-FUTR ;
 
 ! "ver"
-ita:ita                                             V-SO-PRES ;
-ita:ita                                             V-SO-IMPF ;
-ita:its                                             V-SO-PROG ;
-ita:ita                                             V-SO-PRET ;
-ita:ita                                             V-SO-FUTR ;
+ita:%{i%}ta                                         V-SO-PRES ;
+ita:%{i%}ta                                         V-SO-IMPF ;
+ita:%{i%}ts                                         V-SO-PROG ;
+ita:%{i%}ta                                         V-SO-PRET ;
+ita:%{i%}ta                                         V-SO-FUTR ;
 
 ! "querer"
 neki:neki                                           V-SO-PRES ;
@@ -1135,9 +1135,9 @@ tilana:tilana                                       V-SO-FUTR ;
 ! ""
 kixtia:kixtia                                       V-SO-PRES ;
 kixtia:kixtia                                       V-SO-IMPF ;
-kixtia:kixtia                                       V-SO-PROG ;
-kixtia:kixtia                                       V-SO-PRET ;
-kixtia:kixtia                                       V-SO-FUTR ;
+kixtia:kixti                                        V-SO-PROG ;
+kixtia:kixti                                        V-SO-PRET ;
+kixtia:kixti                                        V-SO-FUTR ;
 
 ! ""
 tejteki:te%{j%}teki                                 V-SO-PRES ;
@@ -1755,6 +1755,14 @@ ajuialia:ajuialia                                   V-SO-IMPF ;
 ajuialia:ajuialia                                   V-SO-PROG ;
 ajuialia:ajuiali                                    V-SO-PRET ;
 ajuialia:ajuiali                                    V-SO-FUTR ;
+
+! "divertir"
+ixpetani:ixpetani                                   V-SO-PRES ;
+ixpetani:ixpetani                                   V-SO-IMPF ;
+ixpetani:ixpetani                                   V-SO-PROG ;
+ixpetani:ixpetani                                   V-SO-PRET ;
+ixpetani:ixpetani                                   V-SO-FUTR ;
+
 
 
 
@@ -2485,6 +2493,28 @@ pohui:pohui                                         V-S-PROG ;
 pohui:pohui                                         V-S-PRET ;
 pohui:pohui                                         V-S-FUTR ;
 
+! "tener hambre"
+mayana:mayana                                       V-S-PRES ;
+mayana:mayana                                       V-S-IMPF ;
+mayana:mayana                                       V-S-PROG ;
+mayana:mayana                                       V-S-PRET ;
+mayana:mayana                                       V-S-FUTR ;
+
+! "amanecer"
+tanesi:tanesi                                       V-S-PRES ;
+tanesi:tanesi                                       V-S-IMPF ;
+tanesi:tanesi                                       V-S-PROG ;
+tanesi:tanesi                                       V-S-PRET ;
+tanesi:tanesi                                       V-S-FUTR ;
+
+! "ixpetani"
+ixpetani:ixpetani                                   V-S-PRES ;
+ixpetani:ixpetani                                   V-S-IMPF ;
+ixpetani:ixpetani                                   V-S-PROG ;
+ixpetani:ixpetani                                   V-S-PRET ;
+ixpetani:ixpetani                                   V-S-FUTR ;
+
+
 LEXICON Ø
 
 ! "llover"
@@ -2697,6 +2727,7 @@ takan:takan                                        CS ; ! "si"
 os:os                                              CS ; ! "si"
 
 ijkuak:i%{j%}kuak                                  CS ; ! "cuando"
+ijkuak:kuak                                        CS ; ! "cuando"
 
 LEXICON Pronombres
 
@@ -2841,7 +2872,7 @@ tsintan:tsintan                                    N-LOC ;
 kespan:kespan                                      N-LOC ;
 tampa:tampa                                        N-LOC ;
 ixko:ixko                                          N-LOC ;
-ijtik:ijtik                                        N-LOC ;
+ijtik:i%{j%}tik                                        N-LOC ;
 ixpan:ixpan                                        N-LOC ; ! ""
 ikan:ikan                                          N-LOC ; ! ""
 kechko:kechko                                      N-LOC ; ! ""
@@ -3706,6 +3737,7 @@ físico:físico                                       N-SPA-PESO ; ! ! ""
 refino:refino                                       N-SPA-PESO ; ! "aguardiente"
 teléfono:teléfono                                   N-SPA-PESO ; ! ""
 
+nombre:nombre                                       N-SPA-PESO ; ! ""
 átomo:átomo                                         N-SPA-PESO ; ! ""
 rayo:rayo                                           N-SPA-PESO ; ! ""
 kilo:kilo                                           N-SPA-PESO ; ! ""
@@ -4359,7 +4391,7 @@ tototonik:to%{j%}totonik                            ADJ ; ! "caliente"
 sesek:sesek                                         ADJ ; ! "frío"
 sesek:sejsek                                        ADJ ; ! "frío"
 
-takistok:takistok                                   ADJ ; ! "despedejo"
+takistok:takistok                                   ADJ ; ! "despejado"
 
 alaxtik:alaxtik                                     ADJ ; ! "liso"
 ajalaxtik:a%{j%}alaxtik                             ADJ ; ! "liso"
@@ -4635,8 +4667,8 @@ iselti:iselti                                       ADV ; ! "sólo"
 
 xolalpan:xolal%>pan                                 ADV ; ! ""
 talpan:tal%>pan                                     ADV ; ! ""
-kalijtik:kal%>ijtik                                 ADV ; ! "dentro de la casa"
-taijtik:ta%>ijtik                                   ADV ; ! "por dentro"
+kalijtik:kal%>i%{j%}tik                                 ADV ; ! "dentro de la casa"
+taijtik:ta%>i%{j%}tik                                   ADV ; ! "por dentro"
 tanikuakopa:tanikua%>kopa                           ADV ; ! "por allá abajo"
 tiotakpa:tiotak%>pa                                 ADV ; ! "por la tarde"
 ahkokopa:ahko%>kopa                                 ADV ; ! "de arriba"
@@ -4695,6 +4727,7 @@ parejo:parejo                                       INTERJ ; ! ""
 bueno:bueno                                         INTERJ ; ! ""
 huenoj:huenoj                                       INTERJ ; ! ""
 buenoj:buenoj                                       INTERJ ; ! ""
+tanesik:tanesik                                     INTERJ ; ! ""
 tasojkamatik:tasojkamatik                           INTERJ ; ! ""
 cuidado:cuidado                                     INTERJ ; ! ""
 tasojkamatiktsin:tasojkamatiktsin                   INTERJ ; ! ""
