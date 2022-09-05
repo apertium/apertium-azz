@@ -3103,7 +3103,7 @@ tapajtiani:tapajtia%>ni                             N-NI ; ! "doctor"
 teposejekatanojnotsaloni:tepos%>ejeka%>ta%>nojnotsa%>lo%>ni  N-Ø ; ! ""
 tsontekon:tsontekon                                 N-Ø ; ! "cabeza"
 tonal:tonal                                         N-Ø ; ! "día"
-sitali:sitali                                       N-Ø ; ! "estrella"
+!sitalin:sitali                                       N-Ø ; ! "estrella"
 sitalin:sital                                       N-IN ; ! "estrella"
 kaxtoltonal:kaxtol%>tonal                           N-Ø ; ! "quince días"
 kokolis:kokolis                                     N-Ø ; ! "enfermedad" ! Use/Incorp
