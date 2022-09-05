@@ -225,6 +225,7 @@ LEXICON AGR-SUBJ-SIO
 %<s_pl1%>:ti%>                                     AGR-SUBJ-FLAGS-PLUR ;
 %<s_pl2%>:nan%>                                    AGR-SUBJ-FLAGS-PLUR ;
 %<s_pl3%>:0%>                                      AGR-SUBJ-FLAGS-PLUR ;
+%<s_ind%>:se%>                                     AGR-SUBJ-FLAGS ;
 
 LEXICON AGR-SUBJ-FLAGS-PLUR
 
@@ -851,6 +852,11 @@ LEXICON PL-ES
 LEXICON NUM
 
 %<num%>:                                           # ; 
+
+LEXICON NUM-SE
+
+%<num%>:                                           # ; 
+%<num%>%<hon%>:%>tsin                              # ; 
 
 LEXICON NUM-SPA
 
@@ -1755,6 +1761,21 @@ ajuialia:ajuialia                                   V-SO-IMPF ;
 ajuialia:ajuialia                                   V-SO-PROG ;
 ajuialia:ajuiali                                    V-SO-PRET ;
 ajuialia:ajuiali                                    V-SO-FUTR ;
+
+! "voltear"
+kepa:kepa                                           V-SO-PRES ;
+kepa:kepa                                           V-SO-IMPF ;
+kepa:kepa                                           V-SO-PROG ;
+kepa:kepa                                           V-SO-PRET ;
+kepa:kepa                                           V-SO-FUTR ;
+
+
+! "regresar"
+kopa:kopa                                           V-SO-PRES ;
+kopa:kopa                                           V-SO-IMPF ;
+kopa:kopa                                           V-SO-PROG ;
+kopa:kopa                                           V-SO-PRET ;
+kopa:kopa                                           V-SO-FUTR ;
 
 ! "divertir"
 ixpetani:ixpetani                                   V-SO-PRES ;
@@ -2797,7 +2818,7 @@ kanachi:kanachi                                    DET ; ! "cuántos"
 
 LEXICON Números 
 
-se:se                                              NUM ; ! "uno"
+se:se                                              NUM-SE ; ! "uno"
 ome:ome                                            NUM ; ! "dos"
 eyi:eyi                                            NUM ; ! "tres"
 ejeyi:ej%>eyi                                      NUM ; ! "tres"
@@ -3044,10 +3065,11 @@ ojti:oj                                             N-TLI ; ! "camino"
 et:e                                                N-TL ; ! "frijol"
 tapial:tapial                                       N-Ø ; ! "animal"
 tamal:tamal                                         N-Ø ; ! "tamale"
-tajtol:tajtol                                       N-Ø ; ! "palabra, lengua"
-ejekatajtol:ejeka%>tajtol                           N-Ø ; ! ""
-masehualtajtol:masehual%>tajtol                     N-Ø ; ! ""
-masehualtajtol:masehuala%>tajtol                    N-Ø ; ! "" ! Use/Typo
+tajtol:ta%{j%}tol                                   N-Ø ; ! "palabra, lengua"
+ejekatajtol:ejeka%>ta%{j%}tol                       N-Ø ; ! ""
+masehualtajtol:masehual%>ta%{j%}tol                 N-Ø ; ! ""
+masehualtajtol:masehuala%>ta%{j%}tol                N-Ø ; ! "" ! Use/Typo
+masehualtajtol:maseula%>ta%{j%}tol                  N-Ø ; ! "" ! Use/Typo
 chil:chil                                           N-Ø ; ! "chile"
 xitomachil:xitoma%>chil                             N-Ø ; ! ""
 xolal:xolal                                         N-Ø ; ! "pueblo"
