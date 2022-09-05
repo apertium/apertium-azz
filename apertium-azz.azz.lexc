@@ -980,14 +980,14 @@ ixmati:ixmati                                       V-SO-FUTR ;
 ! "hacer"
 chihua:chihua                                       V-SO-PRES ;
 chihua:chihua                                       V-SO-IMPF ;
-chihua:chihua                                       V-SO-PROG ;
+chihua:chihu                                        V-SO-PROG ;
 chihua:chihua                                       V-SO-PRET ;
 chihua:chihua                                       V-SO-FUTR ;
 
 ! "hacer"
 chijchihua:chi%{j%}chihua                           V-SO-PRES ;
 chijchihua:chi%{j%}chihua                           V-SO-IMPF ;
-chijchihua:chi%{j%}chihua                           V-SO-PROG ;
+chijchihua:chi%{j%}chihu                            V-SO-PROG ;
 chijchihua:chi%{j%}chihua                           V-SO-PRET ;
 chijchihua:chi%{j%}chihua                           V-SO-FUTR ;
 
@@ -1783,6 +1783,13 @@ ixpetani:ixpetani                                   V-SO-IMPF ;
 ixpetani:ixpetani                                   V-SO-PROG ;
 ixpetani:ixpetani                                   V-SO-PRET ;
 ixpetani:ixpetani                                   V-SO-FUTR ;
+
+! "ordenar"
+tekpana:tekpana                                     V-SO-PRES ;
+tekpana:tekpana                                     V-SO-IMPF ;
+tekpana:tekpana                                     V-SO-PROG ;
+tekpana:tekpana                                     V-SO-PRET ;
+tekpana:tekpana                                     V-SO-FUTR ;
 
 
 
@@ -2801,13 +2808,14 @@ in:n                                               DET ; ! "el"
 in:n%'                                             DET ; ! "el"
 
 no:no                                              DET ; ! "este"
-neje:neje                                          DET ; ! "este"
+ne:ne                                              DET ; ! "este"
 okse:oks                                           DET-OKSE ; ! "otro"
 miak:mi%{y%}ak                                     DET-MIAK ; ! "mucho"
 kachi:kachi                                        DET ; ! "mucho"
 nochi:nochi%{n%}                                   DET ; ! "todo"
 seki:seki%{n%}                                     DET ; ! "algunos"
 
+neje:neje                                          DET ; ! "este"
 nijin:niji%{n%}                                    DET ; 
 nejin:neji%{n%}                                    DET ; 
 
@@ -2919,6 +2927,8 @@ at:a                                                N-TL ; ! "agua"
 ahuakat:ahuaka                                      N-TL ; ! "aguacate"
 ajkol:ajkol                                         N-Ø ; ! "hombro"
 tajkuilol:tajkuilol                                 N-Ø ; ! ""
+tit:ti                                              N-TL ; ! "fuego"
+tio:tio                                             N-Ø; ! "tío"
 topits:topits                                       N-Ø ; ! "ganglio"
 kounex:kounex                                       N-Ø ; ! "ceniza"
 tiopan:tiopan                                       N-Ø ; ! "iglesia"
@@ -3000,6 +3010,7 @@ tataman:tataman                                     N-Ø ; ! "diferente"
 tepexilot:tepexilo                                  N-TL ; ! "tejilote"
 konet:kone                                          N-TL ; ! "niño"
 tepet:tepe                                          N-TL ; ! "montaña"
+mixkouat:mixkoua                                    N-TL ; ! ""
 tomat:toma                                          N-TL ; ! "jitomate"
 sitaltomat:sital%>toma                              N-TL ; ! ""
 metat:meta                                          N-TL ; ! "metate"
@@ -3051,6 +3062,7 @@ huejhueikilit:huejhueikili                          N-TL ; ! ""
 tepechilkohuit:tepe%>chil%>ko                       N-HUITL ; ! ""
 kuitakohuit:kuita%>ko                               N-HUITL ; ! ""
 komit:komi                                          N-TL ; ! "olla"
+kuemit:kuemi                                        N-TL ; ! ""
 kopalkohuit:kopal%>ko                               N-HUITL ; ! ""
 okuilkohuit:okuil%>ko                               N-HUITL ; ! ""
 amakohuit:ama%>ko                                   N-HUITL ; ! ""
@@ -3377,7 +3389,6 @@ hueyakaxtik:hueyakaxtik                             N-Ø ; ! "largo"
 taxuis:taxuis                                       N-Ø ; ! "grano"
 tatsoyon:tatsoyon                                   N-Ø ; ! "frito"
 taksa:taksa                                         N-Ø ; ! "pisar"
-chijchiutok:chijchiutok                             N-Ø ; ! "arreglado"
 xaltik:xaltik                                       N-Ø ; ! "precocido"
 tanahual:tanahual                                   N-Ø ; ! "abrazada(medida)"
 tamantik:tamantik                                   N-Ø ; ! "deformado"
@@ -3694,6 +3705,7 @@ patachohua:patachohua                               N-Ø ; ! "aplastar"
 papatankahuia:papatankahuia                         N-Ø ; ! "sobrevolar"
 panchijkoltik:panchijkoltik                         N-Ø ; ! "jorobado"
 paltel:paltel                                       N-Ø ; ! "talega"
+ijpotok:ijpotok                                     N-Ø ; ! "vapor"
 pachtik:pachtik                                     N-Ø ; ! "raído"
 olol:olol                                           N-Ø ; ! "bola"
 ojtoka:ojtoka                                       N-Ø ; ! "caminar"
@@ -3817,6 +3829,7 @@ panela:panela                                       N-SPA-MESA ; ! ""
 panela:panela%{j%}                                  N-Ø ; ! ""
 costumbre:costumbre                                 N-SPA-MESA ; ! ""
 semillita:semill%>ita                               N-SPA-MESA ; ! ""
+comadrita:comadr%>ita                               N-SPA-MESA ; ! ""
 matita:mat%>ita                                     N-SPA-MESA ; ! ""
 cosa:cosa                                           N-SPA-MESA ; ! ""
 cebolla:cebolla                                     N-SPA-MESA ; ! ""
@@ -4345,6 +4358,7 @@ kuali:kual                                          ADJ-KUALI ; ! "bonito"
 kuakuali:kua%{j%}kual                               ADJ-KUALI ; ! "bonito"
 huei:hue                                            ADJ-KUALI ; ! "grande"
 huehuei:hue%{j%}hue                                 ADJ-KUALI ; ! "grande"
+huejueyin:hue%{j%}ueyin                             ADJ ; ! "grande"
 miak:miak                                           ADJ ; ! "mucho"
 tsiki:tsiki                                         ADJ ; ! "pequeño"
 tsikili:tsikili                                     ADJ ; ! "pequeño"
@@ -4425,7 +4439,7 @@ hueyak:hueyak                                       ADJ ; ! "largo"
 huehueyak:hue%{j%}hueyak                            ADJ ; ! "largo"
 mahuehueyak:mahue%{j%}hueyak                        ADJ ; ! "alargado"
 
-etik:etik                                           ADJ ; ! "pesado"
+etik:%{y%}etik                                      ADJ ; ! "pesado"
 iukitik:iukitik                                     ADJ ; ! "parecido"
 huakkatik:huakkatik                                 ADJ ; ! "liviano"
 
@@ -4455,6 +4469,7 @@ huejkapantik:huejkapantik                           ADJ ; ! "alto"
 
 elihuis:elihuis                                     ADJ ; ! "salvaje"
 
+chijchiutok:chijchiu%{j%}tok                        ADJ ; ! "arreglado"
 chichijkoltik:chi%{j%}chijkoltik                    ADJ ; ! "torcido"
 
 fiero:fiero%{j%}                                    ADJ ; ! "feo"
@@ -4689,14 +4704,16 @@ iselti:iselti                                       ADV ; ! "sólo"
 
 xolalpan:xolal%>pan                                 ADV ; ! ""
 talpan:tal%>pan                                     ADV ; ! ""
-kalijtik:kal%>i%{j%}tik                                 ADV ; ! "dentro de la casa"
-taijtik:ta%>i%{j%}tik                                   ADV ; ! "por dentro"
+kalijtik:kal%>i%{j%}tik                             ADV ; ! "dentro de la casa"
+taijtik:ta%>i%{j%}tik                               ADV ; ! "por dentro"
 tanikuakopa:tanikua%>kopa                           ADV ; ! "por allá abajo"
 tiotakpa:tiotak%>pa                                 ADV ; ! "por la tarde"
 ahkokopa:ahko%>kopa                                 ADV ; ! "de arriba"
 ohuijkan:ohui%{j%}kan                               ADV ; ! "lugar difícil"
 analpa:analpa                                       ADV ; ! "al otro lado"
 sitalkopa:sital%>kopa                               ADV ; ! ""
+achtopa:achtopa                                     ADV ; ! ""
+tayijtik:tayijtik                                   ADV ; ! "en su interior"
 
 !!! 
 
