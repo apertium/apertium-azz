@@ -52,6 +52,12 @@ m:n <=> _ %>: t s i n ;
 
 !@ k:k o:o m:n >:> t:t s:s i:i n:n
 
+"N assimilation II"
+n:0 <=> .#. n a _ %>: m ; 
+
+!@ n a n:0 > m {o}:o > n o {j} n o t s {j} > t o > y a > j
+
 "No M before vowel"
 %{N%}:n <= _ %>: [ Cns - [ m | p ] | Vow ] ;
+
 

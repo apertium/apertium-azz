@@ -1004,6 +1004,7 @@ ita:%{i%}ta                                         V-SO-IMPF ;
 ita:%{i%}ts                                         V-SO-PROG ;
 ita:%{i%}ta                                         V-SO-PRET ;
 ita:%{i%}ta                                         V-SO-FUTR ;
+ita%<v%>%<tv%>:%{i%}ts                              V-DIR ;
 
 ! "querer"
 neki:neki                                           V-SO-PRES ;
@@ -1050,9 +1051,9 @@ tepehua:tepehua                                     V-SO-FUTR ;
 ! "hervir"
 molontia:molontia                                   V-SO-PRES ;
 molontia:molontia                                   V-SO-IMPF ;
-molontia:molontia                                   V-SO-PROG ;
-molontia:molontia                                   V-SO-PRET ;
-molontia:molontia                                   V-SO-FUTR ;
+molontia:molonti                                    V-SO-PROG ;
+molontia:molonti                                    V-SO-PRET ;
+molontia:molonti                                    V-SO-FUTR ;
 
 ! "encontrar"
 ajsi:ajsi                                           V-SO-PRES ;
@@ -1078,9 +1079,9 @@ kua:kua                                             V-SO-FUTR ;
 ! "curar"
 pajtia:pajtia                                       V-SO-PRES ;
 pajtia:pajtia                                       V-SO-IMPF ;
-pajtia:pajtia                                       V-SO-PROG ;
-pajtia:pajtia                                       V-SO-PRET ;
-pajtia:pajtia                                       V-SO-FUTR ;
+pajtia:pajti                                        V-SO-PROG ;
+pajtia:pajti                                        V-SO-PRET ;
+pajtia:pajti                                        V-SO-FUTR ;
 
 ! ""
 kuiti:kuiti                                         V-SO-PRES ;
@@ -1302,30 +1303,30 @@ ixka:ixka                                           V-SO-FUTR ;
 ! "enraizar"
 naluayotia:naluayotia                               V-SO-PRES ;
 naluayotia:naluayotia                               V-SO-IMPF ;
-naluayotia:naluayotia                               V-SO-PROG ;
-naluayotia:naluayotia                               V-SO-PRET ;
-naluayotia:naluayotia                               V-SO-FUTR ;
+naluayotia:naluayoti                                V-SO-PROG ;
+naluayotia:naluayoti                                V-SO-PRET ;
+naluayotia:naluayoti                                V-SO-FUTR ;
 
 ! ""
 maytia:maytia                                       V-SO-PRES ;
 maytia:maytia                                       V-SO-IMPF ;
-maytia:maytia                                       V-SO-PROG ;
-maytia:maytia                                       V-SO-PRET ;
-maytia:maytia                                       V-SO-FUTR ;
+maytia:mayti                                        V-SO-PROG ;
+maytia:mayti                                        V-SO-PRET ;
+maytia:mayti                                        V-SO-FUTR ;
 
 ! ""
 majmayotia:ma%{j%}mayotia                           V-SO-PRES ;
 majmayotia:ma%{j%}mayotia                           V-SO-IMPF ;
-majmayotia:ma%{j%}mayotia                           V-SO-PROG ;
-majmayotia:ma%{j%}mayotia                           V-SO-PRET ;
-majmayotia:ma%{j%}mayotia                           V-SO-FUTR ;
+majmayotia:ma%{j%}mayoti                            V-SO-PROG ;
+majmayotia:ma%{j%}mayoti                            V-SO-PRET ;
+majmayotia:ma%{j%}mayoti                            V-SO-FUTR ;
 
 ! ""
 huejkapantia:huejkapantia                           V-SO-PRES ;
 huejkapantia:huejkapantia                           V-SO-IMPF ;
-huejkapantia:huejkapantia                           V-SO-PROG ;
-huejkapantia:huejkapantia                           V-SO-PRET ;
-huejkapantia:huejkapantia                           V-SO-FUTR ;
+huejkapantia:huejkapanti                            V-SO-PROG ;
+huejkapantia:huejkapanti                            V-SO-PRET ;
+huejkapantia:huejkapanti                            V-SO-FUTR ;
 
 ! "levantar"
 ehua:ehua                                           V-SO-PRES ;
@@ -1862,8 +1863,8 @@ tahuelia:tahueli                                    V-SI-FUTR ;
 ! ""
 tatekiutia:tatekiutia                               V-SI-PRES ;
 tatekiutia:tatekiutia                               V-SI-IMPF ;
-tatekiutia:tatekiutia                               V-SI-PROG ;
-tatekiutia:tatekiutia                               V-SI-PRET ;
+tatekiutia:tatekiuti                                V-SI-PROG ;
+tatekiutia:tatekiuti                                V-SI-PRET ;
 tatekiutia:tatekiuti                                V-SI-FUTR ;
 
 ! ""
@@ -2102,9 +2103,9 @@ kochi:kochi                                         V-S-FUTR ;
 ! "amarrillar"
 kojkostia:ko%{j%}kostia                             V-S-PRES ;
 kojkostia:ko%{j%}kostia                             V-S-IMPF ;
-kojkostia:ko%{j%}kostia                             V-S-PROG ;
-kojkostia:ko%{j%}kostia                             V-S-PRET ;
-kojkostia:ko%{j%}kostia                             V-S-FUTR ;
+kojkostia:ko%{j%}kosti                              V-S-PROG ;
+kojkostia:ko%{j%}kosti                              V-S-PRET ;
+kojkostia:ko%{j%}kosti                              V-S-FUTR ;
 
 ! "tronar"
 kojkotoni:ko%{j%}kotoni                             V-S-PRES ;
@@ -2116,9 +2117,9 @@ kojkotoni:ko%{j%}kotoni                             V-S-FUTR ;
 ! ""
 kostia:kostia                                       V-S-PRES ;
 kostia:kostia                                       V-S-IMPF ;
-kostia:kostia                                       V-S-PROG ;
-kostia:kostia                                       V-S-PRET ;
-kostia:kostia                                       V-S-FUTR ;
+kostia:kosti                                        V-S-PROG ;
+kostia:kosti                                        V-S-PRET ;
+kostia:kosti                                        V-S-FUTR ;
 
 ! "tronar"
 kotoni:kotoni                                       V-S-PRES ;
@@ -2649,6 +2650,7 @@ xo%<x%>:xo                                         FALSE ;
 kon%<x%>:kon                                       FALSE ; 
 on%<x%>:on                                         FALSE ; 
 nech%<x%>:nech                                     FALSE ; 
+iyol%<x%>:iyol                                     FALSE ; 
 wa%<x%>:wa                                         FALSE ; 
 is%<x%>:is                                         FALSE ; 
 po%<x%>:po                                         FALSE ; 
@@ -3803,6 +3805,8 @@ eskinado:eskinado%{j%}                              N-Ø ; ! ""
 tiempo:tiempo                                       N-SPA-PESO ; ! ""
 cuidado:cuidado                                     N-SPA-PESO ; ! ""
 compadre:compadre                                   N-SPA-PESO ; ! ""
+comadre:comadre                                     N-SPA-MESA ; ! ""
+komadre:komadre                                     N-SPA-MESA ; ! ""
 alambre:alambre                                     N-SPA-PESO ; ! ""
 compadrito:compadr%>ito                             N-SPA-PESO ; ! ""
 pedacito:pedac%>ito                                 N-SPA-PESO ; ! ""
