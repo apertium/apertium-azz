@@ -646,6 +646,7 @@ LEXICON N-HUITL
 %<n%>%<abs%>:%>huit                                # ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:u%>tsin                               # ;
+%<n%>%<hon%>:ui%>tsin                              # ;
 %<n%>%<pl%>:hui%>mej                               # ;
 %<n%>%<hon%>%<pl%>:u%>tsi%>tsin                    # ;
 %<n%>%<cmp%>%+:u                                   CMPND ;
@@ -926,12 +927,6 @@ tamota:tamota                                      V-SIO-PROG ;
 tamota:tamota                                      V-SIO-PRET ; 
 tamota:tamota                                      V-SIO-FUTR ; 
 
-! "platicar"
-nojnotsa:no%{j%}notsa                               V-SIO-PRES ;
-nojnotsa:no%{j%}notsa                               V-SIO-IMPF ;
-nojnotsa:no%{j%}nots                                V-SIO-PROG ;
-nojnotsa:no%{j%}nots                                V-SIO-PRET ;
-nojnotsa:no%{j%}notsa                               V-SIO-FUTR ;
 
 ! "buscar"
 temolia:temolia                                     V-SIO-PRES ;
@@ -1792,6 +1787,13 @@ tekpana:tekpana                                     V-SO-PROG ;
 tekpana:tekpana                                     V-SO-PRET ;
 tekpana:tekpana                                     V-SO-FUTR ;
 
+! "platicar"
+nojnotsa:no%{j%}notsa                               V-SO-PRES ;
+nojnotsa:no%{j%}notsa                               V-SO-IMPF ;
+nojnotsa:no%{j%}nots                                V-SO-PROG ;
+nojnotsa:no%{j%}nots                                V-SO-PRET ;
+nojnotsa:no%{j%}notsa                               V-SO-FUTR ;
+
 
 
 
@@ -2543,6 +2545,13 @@ ixpetani:ixpetani                                   V-S-PROG ;
 ixpetani:ixpetani                                   V-S-PRET ;
 ixpetani:ixpetani                                   V-S-FUTR ;
 
+! ""
+monojnotsa:monojnotsa                               V-S-PRES ;
+monojnotsa:monojnotsa                               V-S-IMPF ;
+monojnotsa:monojnots                                V-S-PROG ;
+monojnotsa:monojnots                                V-S-PRET ;
+monojnotsa:monojnotsa                               V-S-FUTR ;
+
 
 LEXICON Ø
 
@@ -2554,11 +2563,33 @@ kiyohui:kiyohui                                    V-Ø-PRET   ;
 kiyohui:kiyohui                                    V-Ø-FUTR   ; 
 
 ! ""
+tona:tona                                          V-Ø-PRES   ; 
+tona:tona                                          V-Ø-IMPF   ;
+tona:tona                                          V-Ø-PROG   ;
+tona:tona                                          V-Ø-PRET   ; 
+tona:tona                                          V-Ø-FUTR   ; 
+
+! ""
+ejeka:ejeka                                        V-Ø-PRES   ; 
+ejeka:ejeka                                        V-Ø-IMPF   ;
+ejeka:ejeka                                        V-Ø-PROG   ;
+ejeka:ejeka                                        V-Ø-PRET   ; 
+ejeka:ejeka                                        V-Ø-FUTR   ; 
+
+! ""
 metstona:metstona                                  V-Ø-PRES   ; 
 metstona:metstona                                  V-Ø-IMPF   ;
 metstona:metstona                                  V-Ø-PROG   ;
 metstona:metstona                                  V-Ø-PRET   ; 
 metstona:metstona                                  V-Ø-FUTR   ; 
+
+! ""
+tayemani:tayemani                                  V-Ø-PRES   ; 
+tayemani:tayemani                                  V-Ø-IMPF   ;
+tayemani:tayemani                                  V-Ø-PROG   ;
+tayemani:tayemani                                  V-Ø-PRET   ; 
+tayemani:tayemani                                  V-Ø-FUTR   ; 
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -2799,6 +2830,9 @@ ait:ait                                            PRON ; ! "quien"
 yeha:yeha                                          PRON ; ! "eso"
 ke:ke                                              PRON ; ! "que"
 
+neni:neni                                          PRON ; 
+ini:ini                                            PRON ; 
+
 eso:eso                                            PRON ; 
 lo:lo                                              PRON ; 
 
@@ -2820,6 +2854,9 @@ seki:seki%{n%}                                     DET ; ! "algunos"
 neje:neje                                          DET ; ! "este"
 nijin:niji%{n%}                                    DET ; 
 nejin:neji%{n%}                                    DET ; 
+
+neni:neni                                          DET ; 
+ini:ini                                            DET ; 
 
 cada:cada                                          DET ; ! ""
 lo:lo                                              DET ; ! ""
@@ -2936,7 +2973,7 @@ kounex:kounex                                       N-Ø ; ! "ceniza"
 tiopan:tiopan                                       N-Ø ; ! "iglesia"
 temaskal:temaskal                                   N-Ø ; ! "temascal"
 chechelot:chechelo                                  N-TL ; ! "ardilla"
-ejekatl:ejeka                                       N-TL ; ! "viento"
+ejekat:ejeka                                       N-TL ; ! "viento"
 huehuet:huehue                                      N-TL ; ! "viejo"
 takilot:takilo                                      N-TL ; ! "fruto"
 itskuinti:itskuin                                   N-TLI ; ! "perro"
@@ -2953,7 +2990,7 @@ sihuat:sihua                                        N-TL ; ! "mujer"
 sihuapil:sihuapil                                   N-Ø ; ! "niña"
 tepos:tepos                                         N-Ø ; ! "máquina, metal"
 tiotlak:tiotlak                                     N-Ø ; ! "tarde"
-tlakatl:tlaka                                       N-TL ; ! "hombre"
+tlakat:tlaka                                       N-TL ; ! "hombre"
 tlaso:tlaso                                         N-Ø ; ! "cariño"
 tlasol:tlasol                                       N-Ø ; ! "basura"
 tlaxkal:tlaxkal                                     N-Ø ; ! "tortilla"
@@ -4528,6 +4565,17 @@ keniukitik:keniukitik                               ADV-ITG ; ! "cómo es"
 keyej:keyej                                         ADV-ITG ; ! "por qué"
 
 kani:kani                                           ADV-ITG ; ! "dónde"
+kanachpa:kanachpa                                   ADV-ITG ; ! "cuántas veces"
+
+importaj:importa%{j%}                               ADV ; ! ""
+inachi:inachi                                       ADV ; ! ""
+masehualkopa:masehualkopa                           ADV ; ! ""
+nenkaj:nenka%{j%}                                   ADV ; ! ""
+nestok:nestok                                       ADV ; ! ""
+santeinamo:santeinamo                               ADV ; ! ""
+talchik:talchik                                     ADV ; ! ""
+teki:teki                                           ADV ; ! ""
+
 
 kuali:kuali                                         ADV ; ! "bien"
 
@@ -4703,6 +4751,49 @@ nejkuin:ne%{j%}kuin                                 ADV ; ! "por allá"
 
 sejse:sejse                                         ADV ; ! ""
 iselti:iselti                                       ADV ; ! "sólo"
+
+achichika:achichika                                 ADV ; ! ""
+achka:achka                                         ADV ; ! ""
+miakpa:miakpa                                       ADV ; ! ""
+nelika:nelika                                       ADV ; ! ""
+sentajmaj:sentajmaj                                 ADV ; ! ""
+hueika:hueika                                       ADV ; ! ""
+
+kalampa:kalampa                                     ADV ; ! ""
+kalan:kalan                                         ADV ; ! ""
+miakkan:miakkan                                     ADV ; ! ""
+okseko:okseko                                       ADV ; ! ""
+paratani:paratani                                   ADV ; ! ""
+sanipa:sanipa                                       ADV ; ! ""
+sentapal:sentapal                                   ADV ; ! ""
+sentapalika:sentapalika                             ADV ; ! ""
+tanikopa:tanikopa                                   ADV ; ! ""
+tatempan:tatempan                                   ADV ; ! ""
+
+aik:aik                                             ADV ; ! "nunca"
+chikueika:chikueika                                 ADV ; ! ""
+chikueitonalika:chikueitonalika                     ADV ; ! ""
+ekin:ekin                                           ADV ; ! "ahorita, apenas"
+imanin:imanin                                       ADV ; ! ""
+kaya:kaya                                           ADV ; ! ""
+kemaniantika:kemaniantika                           ADV ; ! ""
+metstika:metstika                                   ADV ; ! ""
+naupa:naupa                                         ADV ; ! ""
+nojma:nojma                                         ADV ; ! "aún"
+nono:nono                                           ADV ; ! ""
+okyohuatika:okyohuatika                             ADV ; ! ""
+tanesnahuak:tanesnahuak                             ADV ; ! ""
+tiotaktempan:tiotaktempan                           ADV ; ! ""
+tonalika:tonalika                                   ADV ; ! ""
+tona:tona                                           ADV ; ! ""
+tonayan:tonayan                                     ADV ; ! ""
+tona:tona                                           ADV ; ! ""
+tontonaltika:tontonaltika                           ADV ; ! ""
+hual:hual                                           ADV ; ! ""
+huipta:huipta                                       ADV ; ! ""
+huiptika:huiptika                                   ADV ; ! ""
+xiutika:xiutika                                     ADV ; ! ""
+
 
 !!!
 
