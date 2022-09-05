@@ -710,6 +710,7 @@ LEXICON NP-TOP
 LEXICON NP-COG
 
 %<np%>%<cog%>:                                     # ; 
+%<np%>%<cog%>%<pl%>:%>mej                          # ; 
 
 LEXICON NP-ANT-M
 
@@ -3774,6 +3775,7 @@ yehua%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
 
 kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eskia        # ;
+kemej%<adv%>%+etok%<cop%>%<cni%>:kemej%>eskia      # ;
 
 LEXICON Copula
 
@@ -4944,6 +4946,45 @@ akoxoktik:akoxoktik                                 N-Ø ; ! "jugoso"
 ajtok:ajtok                                         N-Ø ; ! "azolve"
 ajoktok:ajoktok                                     N-Ø ; ! "levantado"
 
+almasal:almasal                                     N-Ø ; ! "almuerzo"
+almon:almon                                         N-Ø ; ! "almud"
+atahuit:ata                                         N-HUITL ; ! "barranco,"
+ayakach:ayakach                                     N-Ø ; ! "sonaja"
+chikilich:chikilich                                 N-Ø ; ! "Cicadidae"
+chikolat:chikola                                    N-TL ; ! "chocolate"
+kakalotet:kakalote                                  N-TL ; ! "tipo"
+kaltentatsakuil:kaltentatsakuil                     N-Ø ; ! "puerta"
+kolal:kolal                                         N-Ø ; ! "corral"
+koton:koton                                         N-Ø ; ! "sarape"
+koutusan:koutusan                                   N-Ø ; ! "tuza"
+kuitaxkol:kuitaxkol                                 N-Ø ; ! "intestinos"
+maltomoj:maltomoj                                   N-Ø ; ! "mayordomo"
+maltomojyot:maltomojyo                              N-TL ; ! "mayordomía"
+mikesahuamej:mikesahuamej                           N-Ø ; ! "sarpullido"
+moto:moto                                           N-Ø ; ! "ardilla"
+naylon:naylon                                       N-Ø ; ! "nailon"
+pajpata:pajpata                                     N-Ø ; ! "plátano"
+salon:salon                                         N-Ø ; ! "azadón"
+takitskil:takitskil                                 N-Ø ; ! "manojo"
+tamatekoch:tamatekoch                               N-Ø ; ! "puñado"
+tanokuilin:tanokuilin                               N-Ø ; ! "caries"
+tapech:tapech                                       N-Ø ; ! "calza"
+pantsakoni:pantsakoni                               N-Ø ; ! "naylon"
+tajkuiloloni:tajkuiloloni                           N-Ø ; ! "lápiz"
+koyokuatsakoni:koyokuatsakoni                       N-Ø ; ! "paraguas"
+kuatsakoni:kuatsakoni                               N-Ø ; ! "sombrero"
+tapepecholoni:tapepecholoni                         N-Ø ; ! "pegamento"
+tatamachihualoni:tatamachihualoni                   N-Ø ; ! "báscula"
+tatsomotaloni:tatsomotaloni                         N-Ø ; ! "parte"
+teposmekat:teposmeka                                N-TL ; ! "teléfono"
+tepotadoj:tepotadoj                                 N-Ø ; ! "diputado"
+huitsikitsin:huitsikitsin                           N-Ø ; ! "colibrí"
+xantoj:xantoj                                       N-Ø ; ! "santo"
+xapoj:xapoj                                         N-Ø ; ! "jabón"
+xolasoj:xolasoj                                     N-Ø ; ! "cedazo"
+
+mes:mes                                             N-SPA-LUGAR ; ! "mes"
+
 
 peso:peso%{j%}                                      N-Ø ; ! "peso"
 peso:peso                                           N-SPA-PESO ; ! "peso"
@@ -5473,6 +5514,7 @@ Dominguez:Dominguez                                 NP-COG ;
 Osollo:Osollo                                       NP-COG ;
 Pérez:Pérez                                         NP-COG ;
 Macario:Macario                                     NP-COG ;
+Álvarez:Álvarez                                     NP-COG ; 
 Vázquez:Vázquez                                     NP-COG ; 
 Vásquez:Vásquez                                     NP-COG ; 
 Salazar:Salazar                                     NP-COG ; 
