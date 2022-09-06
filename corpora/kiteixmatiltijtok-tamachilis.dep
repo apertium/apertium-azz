@@ -14,7 +14,7 @@
 	"sitalin" n pl @nsubj #5->3
 "<?>"
 	"?" sent @punct #6->3
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:3
 # text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
 # text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
@@ -58,7 +58,7 @@
 	"iluikak" n abs @nmod
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:4
 # text = Neje sitalimej no chijchiujtokej kemej ne tonal, sekin kachi uejueyin uan oksekin kachi tsikitsitsin sayoj ke nochin mochiuaj ika ijpotok teyin monotsa hidrógeno uan mixuak.
 # text[spa] = Estas estrellas son similares a nuestro sol, algunas más grandes y otras más chicas, pero todas nacen a partir de nubes de gas y polvo.
@@ -121,7 +121,7 @@
 	"mixuak" n abs @conj
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
@@ -170,7 +170,7 @@
 	"xota" v iv pres s_sg3 @conj #21->13
 "<.>"
 	"." sent @punct #22->5
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:8
 # text = Achtopa momaneloua yejua ne ijpotok hidrógeno, ta amo yetik uan yej kachi onkak itech in Semanauak; ijkon mochiua se kuemit kanpa motekpanaj átomos teyin ijkon etixtiyouej uan, ika in, mochiua tit itech ne sitalin.
 # text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
@@ -274,7 +274,7 @@
 ;	"sitalin" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:10
 # text = Ijkuak miki, ne sitalin toponi uan seki átomos teyin mochiuak tayijtik momoyaua itech ne mixkouat, uan kichiua maj mochiuakan oksekin sitalimej.
 # text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
@@ -338,7 +338,7 @@
 ;	"sitalin" n pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:12
 # text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
 # text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
@@ -398,7 +398,7 @@
 	"tehuan" prn pers pl1 abs
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:14
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
 # text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
@@ -444,14 +444,14 @@
 ;	"sitalin" n pl s_sg3 REMOVE:29
 "<?>"
 	"?" sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:16
 # text = Ueyichikaujkameyot
 # text[spa] = Radiación electromagnética
 # labels = complete
 "<Ueyichikaujkameyot>"
 	"hueyichikaujkameyot" n abs @root #1->0
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:18
 # text = Onkak miyak tauil teyin toixtololouan amo kitaj.
 # text[spa] = Existe más luz de la que nuestros ojos ven.
@@ -472,7 +472,7 @@
 	"ita" v tv pres s_pl3 o_sg3 @acl:relcl #7->3
 "<.>"
 	"." sent @punct #8->1
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:19
 # text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
 # text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
@@ -515,7 +515,7 @@
 	"xochit" n abs @nsubj #18->16
 "<.>"
 	"." sent @punct #19->
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:21
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
 # text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
@@ -597,7 +597,7 @@
 	"ita" v tv pres s_pl1 o_sg3 @acl:relcl #37->33
 "<.>"
 	"." sent @punct #38->14
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:22
 # text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.
 # text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
@@ -656,7 +656,7 @@
 	"*tojomiuan"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:24
 # text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
 # text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
@@ -732,7 +732,7 @@
 ”
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:25
 # text = Ininchikaujkayo kintamanchiuaj.
 # text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
@@ -743,7 +743,7 @@
 	"*kintamanchiuaj"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:26
 # text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
 # text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
@@ -850,7 +850,7 @@
 ;	"teposejekatanojnotsaloni" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:28
 # text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
 # text[spa] = A partir de que se logró entender cómo funciona la radiación electromagnética, ha sido posible utilizarla para desarrollar la tecnología necesaria para inventar la televisión, el radio, los teléfonos celulares, las radiografías e incluso tratamientos para el cáncer.
@@ -954,7 +954,7 @@
 ;	"cáncer" n m sg s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:30
 # text = Keniuj se Tayis Ueyistajat
 # text[spa] = Tomar la mar
@@ -967,7 +967,7 @@
 	"tai" v iv fut s_sg3
 "<Ueyistajat>"
 	"*Ueyistajat"
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:32
 # text = ¿Keniuj uelis titayis in ueyistajat?
 # text[spa] = ¿Te puedes tomar el agua del mar?
@@ -986,7 +986,7 @@
 	"*ueyistajat"
 "<?>"
 	"?" sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:33
 # text = ¡Maj sekikixtili in istat!
 # text[spa] = ¡Sí, quitándole la sal!
@@ -1003,7 +1003,7 @@
 ;	"istat" n abs s_sg3 REMOVE:29
 "<!>"
 	"!" sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:34
 # text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
 # text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
@@ -1051,7 +1051,7 @@
 ;	"at" n abs s_sg3 REMOVE:29
 "<?>"
 	"?" sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:35
 # text = Yejuan nejin tekimej teyin motenijtouaj, achipaualis ika teposmej teyin amo tapitsochiuaj, kemej ne ichikaujka tonalmeyot.
 # text[spa] = Las propuestas más interesantes para lograrlo son aquellas que quitan la sal del agua utilizando energías renovables, como la energía del sol.
@@ -1098,7 +1098,7 @@
 	"*tonalmeyot"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:37
 # text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
 # text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
@@ -1164,7 +1164,7 @@
 ;	"at" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:38
 # text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
 # text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
@@ -1230,7 +1230,7 @@
 	"tai" v iv fut s_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:40
 # text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
 # text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
@@ -1294,7 +1294,7 @@
 	"chipahua" v tv fut s_sg3 o_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:41
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
@@ -1357,7 +1357,7 @@
 	"at" n hon px1pl
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:43
 # text = Próxima Centauri B
 # text[spa] = Próxima Centauri B
@@ -1372,7 +1372,7 @@
 ;	"Centauri" np top s_sg3 REMOVE:31
 "<B>"
 	"B" x
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
 # text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
@@ -1415,7 +1415,7 @@
 	"yehualohua" v tv pres s_pl3 o_pl3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:46
 # text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
 # text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
@@ -1444,7 +1444,7 @@
 ;	"nemilis" n abs s_sg3 REMOVE:29
 "<!>"
 	"!" sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:47
 # text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
 # text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
@@ -1516,7 +1516,7 @@
 ;	"sitalin" n pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:49
 # text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
 # text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
@@ -1678,7 +1678,7 @@
 	"ita" v tv pret s_sg2 o_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:50
 # text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
@@ -1770,7 +1770,7 @@
 )
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:52
 # text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
 # text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
@@ -1876,7 +1876,7 @@
 	"*tayouatok"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:54
 # text = In Nanotecnologías
 # text[spa] = Nanotecnología
@@ -1887,7 +1887,7 @@
 	"nanotecnología" n f pl
 	"nanotecnología" n f pl s_pl3
 	"nanotecnología" n f pl s_sg3
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:56
 # text = In tamachilis teyin motokaytiya nanotecnologías, se nemachtil uan kinchijchiua teposmej tel senkaj tsikitsitsin teyin amo ueli motaj ta sayoj ueli motaj ika se tepos teyin motokaytiya microscopio.
 # text[spa] = La nanotecnología es el estudio y creación de dispositivos a una escala tan pequeña que no pueden percibirse a simple vista y sólo se pueden ver con ayuda de microscopios.
@@ -1968,7 +1968,7 @@
 ;	"microscópio" n m sg s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:57
 # text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
 # text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
@@ -2104,7 +2104,7 @@
 	"ita" v tv pres s_sg3 o_ref
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:58
 # text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
 # text[spa] = Los dispositivos que se utilizan en la nanotecnología son tan pequeños que se construyen con unas pocas moléculas y átomos.
@@ -2157,7 +2157,7 @@
 	"átomo" n m pl s_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:60
 # text = In teposmej motekitiltiyaj itech in tapajtilnemachtilmej kampa mochijchiujtokej nano-robots, teyin uelij kinpaleuiyaj seki células oso kinpojpolouaj teyin mokokouaj, kemej in células cancerígenas.
 # text[spa] = Una de las aplicaciones más importantes de estos objetos es su posible uso en la medicina para la que se están desarrollando nano-robots que sean capaces de atacar a células específicas, como las cancerígenas.
@@ -2230,7 +2230,7 @@
 	"cancerígeno" adj f pl s_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:62
 # text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
 # text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
@@ -2351,7 +2351,7 @@
 	"*tekokolismakaj"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:64
 # text = In ueyi tatoponilis
 # text[spa] = La Gran Explosión
@@ -2363,7 +2363,7 @@
 	"huei" adj s_sg3
 "<tatoponilis>"
 	"*tatoponilis"
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:66
 # text = Xiujmej tayikan moajsik ke ne mixkouamej teyin monotsaj galaxias techkaujteuaj uan ne teyin kachi uejka moajsij kachi ijsiujka mouekatiliya.
 # text[spa] = Durante el siglo pasado se descubrió que las galaxias en el universo se alejan de nosotros y que, mientras más lejos estén, se alejan más rápido.
@@ -2420,7 +2420,7 @@
 	"*mouekatiliya"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:67
 # text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
 # text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
@@ -2456,7 +2456,7 @@
 ;	"semanahuak" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:69
 # text = Ta ijkuak tikitaj kachi teyin panok ya itech in Semauak, kachi netechiujtokej nochi teyin onkak itech, yej ika se kinemiliya ke achtopa nochi in Semanauak tel senka olochyetoya.
 # text[spa] = Entre más al pasado del universo observemos, veremos que más cerca están todas las cosas que en él existen; por eso suponemos que, en algún momento, todo dentro de él estuvo súper comprimido.
@@ -2534,7 +2534,7 @@
 	"*olochyetoya"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:70
 # text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
 # text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
@@ -2641,7 +2641,7 @@
 	"*kikajkaua"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:72
 # text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
 # text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
@@ -2679,7 +2679,7 @@
 	"*mochiujtiuetskej"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:73
 # text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
 # text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
@@ -2718,7 +2718,7 @@
 	"*tamatemolis"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:74
 # text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
 # text[spa] = A este acontacimiento se le llama “La Gran Explosión”, que dio origen a la luz, la materia y todo lo que ahora observamos que existe.
@@ -2766,7 +2766,7 @@
 	"ita" v tv pret s_sg2 o_sg3
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:76
 # text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. Ika nejin sekinemiliya ke nochi taolochiujtoya.
 # text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
@@ -2843,14 +2843,14 @@
 	"*taolochiujtoya"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:78
 # text = Tajtoleualoni
 # text[spa] = Glosario
 # labels =  
 "<Tajtoleualoni>"
 	"*Tajtoleualoni"
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:84
 # text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
@@ -2930,7 +2930,7 @@
 ;	"átomo" n m pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:86
 # text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
@@ -2992,7 +2992,7 @@
 ;	"célula" n f pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:92
 # text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. Keman mosentiliyaj xota. Ijkon in sitalimej milinij.
 # text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
@@ -3051,7 +3051,7 @@
 	"*milinij"
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:94
 # text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
 # text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
@@ -3129,7 +3129,7 @@
 ;	"lácteo" adj f sg s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:102
 # text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
 # text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
@@ -3172,7 +3172,7 @@
 ;	"ixtololo" n abs s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:104
 # text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
@@ -3214,7 +3214,7 @@
 ;	"molécula" n f sg s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:114
 # text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
 # text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
@@ -3254,7 +3254,7 @@
 ;	"Centauri" np top s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:116
 # text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
 # text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
@@ -3285,7 +3285,7 @@
 ;	"tonal" n abs s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:118
 # text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
@@ -3331,7 +3331,7 @@
 	"x" x
 "<.>"
 	"." sent @punct
- 
+
 # sent_id = kiteixmatiltijtok-tamachilis:120
 # text = rayos X: nejin se tit teyin amo ueli sekita uan semi chikauak teyin panouaj itech tonakayo uan ajsi itech tojomiyouan.
 # text[spa] = rayos X: luz que no podemos ver pero que tiene tanta energía que puede traspasar la carne hasta llegar a los huesos.
@@ -3388,4 +3388,4 @@
 	"*tojomiyouan"
 "<.>"
 	"." sent @punct
- 
+

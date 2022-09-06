@@ -1,0 +1,101 @@
+# sent_id = kiteixmatiltijtok-tamachilis:1
+# text = ¿Keniuj Mochijchiuaj ne Sitalimej?
+# text[spa] = ¿Cómo se forman las estrellas?
+# labels = complete
+1	¿	¿	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Keniuj	keni	ADV	_	PronType=Int	3	advmod	_	_
+3	Mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	ne	ne	DET	_	_	5	det	_	_
+5	Sitalimej	sitalin	NOUN	_	Number=Plur	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:6
+# text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
+# text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
+# labels = tree-complete
+1	Nijin	nijin	DET	_	_	2	det	_	_
+2	ijpotok	ijpotok	NOUN	_	Case=Abs	5	nsubj	_	_
+3	uan	huan	CCONJ	_	_	4	cc	_	_
+4	mixuak	mixuak	NOUN	_	Case=Abs	2	conj	_	_
+5	mololouaj	ololohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	nejin	nejin	PRON	_	_	11	nsubj	_	_
+8	teyin	tein	PRON	_	_	9	nsubj	_	_
+9	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	acl:relcl	_	_
+10	ololtik	ololtik	ADJ	_	_	9	dep	_	_
+11	moskaltiya	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	5	parataxis	_	_
+14	tel	tel	ADV	_	Incorporated=Tel	15	advmod	_	_
+15	ueyi	huei	ADJ	_	_	13	dep	_	_
+16	uan	huan	CCONJ	_	_	18	cc	_	_
+17	ijkon	ijkon	ADV	_	_	18	advmod	_	_
+18	moteltaliya	tali	VERB	_	Aspect=Imp|Incorporated=Tel|Number[subj]=Sing|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran	13	conj	_	_
+19	tatajko	tatajko	ADV	_	_	18	advmod	_	_
+20	uan	huan	CCONJ	_	_	21	cc	_	_
+21	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:16
+# text = Ueyichikaujkameyot
+# text[spa] = Radiación electromagnética
+# labels = complete
+1	Ueyichikaujkameyot	hueyichikaujkameyot	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:18
+# text = Onkak miyak tauil teyin toixtololouan amo kitaj.
+# text[spa] = Existe más luz de la que nuestros ojos ven.
+# labels = complete
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+2	miyak	miak	DET	_	_	3	det	_	_
+3	tauil	tahuil	NOUN	_	Case=Abs	1	nsubj	_	_
+4	teyin	tein	PRON	_	_	7	obj	_	_
+5	toixtololouan	ixtololo	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	7	nsubj	_	_
+6	amo	amo	ADV	_	_	7	advmod	_	_
+7	kitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:21
+# text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
+# text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
+# text[gloss] = La máquina que se llama horno de microondas, con lo cual se puede calentar cosas, ocupa una luz que no podemos ver, ésta se llama microondas también así los celulares y teléfonos ocupan la luz que no podemos ver.
+# labels =
+1	In	in	DET	_	_	2	det	_	_
+2	tepos	tepos	NOUN	_	Case=Abs	14	nsubj	_	_
+3	teyin	tein	PRON	_	_	4	nsubj	_	_
+4	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	2	acl:relcl	_	_
+5	horno	horno	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	microondas	microonda	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	teyin	tein	PRON	_	_	10	nmod	_	_
+10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+11	se	se	NUM	_	_	12	nsubj	_	_
+12	tatotonia	totonia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	2	punct	_	_
+14	kitekitiltiya	tekitiltia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+15	se	se	NUM	_	_	16	det	_	_
+16	tauil	tahuil	NOUN	_	Case=Abs	14	obj	_	_
+17	teyin	tein	PRON	_	_	20	obj	_	_
+18	amo	amo	ADV	_	_	20	advmod	_	_
+19	ueli	hueli	AUX	_	_	20	aux	_	_
+20	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	16	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	nejin	nejin	PRON	_	_	23	nsubj	_	_
+23	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	14	parataxis	_	_
+24	microondas	microondas	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	no	no	ADV	_	_	23	advmod	_	_
+26	ijkon	ijkon	ADV	_	_	31	advmod	_	_
+27	in	in	DET	_	_	28	det	_	_
+28	celulares	celular	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
+29	uan	huan	CCONJ	_	_	30	cc	_	_
+30	teposejekatanojnotsalonimej	teposejekatanojnotsaloni	NOUN	_	Number=Plur	28	conj	_	_
+31	kitekitiltiyaj	tekitiltia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	14	parataxis	_	_
+32	in	in	DET	_	_	33	det	_	_
+33	tauil	tahuil	NOUN	_	Case=Abs	31	obj	_	_
+34	teyin	tein	PRON	_	_	37	obj	_	_
+35	amo	amo	ADV	_	_	37	advmod	_	_
+36	ueli	hueli	AUX	_	_	37	aux	_	_
+37	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	33	acl:relcl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	14	punct	_	_
+
