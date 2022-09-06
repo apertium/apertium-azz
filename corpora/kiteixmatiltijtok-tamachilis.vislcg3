@@ -125,7 +125,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
-# labels =  
+# labels = tree-complete 
 "<Nijin>"
 	"nijin" det @det #1->2
 "<ijpotok>"
@@ -448,203 +448,155 @@
 # sent_id = kiteixmatiltijtok-tamachilis:16
 # text = Ueyichikaujkameyot
 # text[spa] = Radiación electromagnética
-# labels =  
+# labels = complete
 "<Ueyichikaujkameyot>"
-	"*Ueyichikaujkameyot"
+	"hueyichikaujkameyot" n abs @root #1->0
  
 # sent_id = kiteixmatiltijtok-tamachilis:18
 # text = Onkak miyak tauil teyin toixtololouan amo kitaj.
 # text[spa] = Existe más luz de la que nuestros ojos ven.
-# labels =  
+# labels = complete
 "<Onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @root #1->0
 "<miyak>"
-	"miak" det @det
+	"miak" det @det #2->3
 "<tauil>"
-	"tahuil" n abs
-;	"tahuil" n abs s_pl3 REMOVE:31
-;	"tahuil" n abs s_sg3 REMOVE:31
+	"tahuil" n abs @nsubj #3->1
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #4->7
 "<toixtololouan>"
-	"ixtololo" n pl px1pl
+	"ixtololo" n pl px1pl @nsubj #5->7
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #6->7
 "<kitaj>"
-	"ita" v tv pres s_pl3 o_sg3
-	"ita" v tv pret s_sg3 o_sg3
+	"ita" v tv pres s_pl3 o_sg3 @acl:relcl #7->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->1
  
 # sent_id = kiteixmatiltijtok-tamachilis:19
 # text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
 # text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
 # labels =  
 "<Kemej>"
-	"kemej" adv
+	"kemej" adv @discourse #1->
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->
 "<in>"
-	"in" det @det
+	"in" det @det #3->4
 "<kouamej>"
-	"kohuat" n pl
-	"kohuat" n pl s_pl3
-	"kohuat" n pl s_sg3
+	"kohuat" n pl @nsubj #4->
 "<teyin>"
-	"tein" prn
+	"tein" prn @dep #5->
 "<kuali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adv @advmod #6->
 "<kitaj>"
-	"ita" v tv pres s_pl3 o_sg3
-	"ita" v tv pret s_sg3 o_sg3
+	"ita" v tv pres s_pl3 o_sg3 @dep #7->
 "<tokauanyoj>"
-	"*tokauanyoj"
+	"*kauanyoj" n px1pl @obj #8->7
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #9->
 "<nekmej>"
-	"nekmej" n abs
-	"nekti" n pl
-;	"nekmej" n abs s_pl3 REMOVE:29
-;	"nekti" n pl s_pl3 REMOVE:29
-;	"nekmej" n abs s_sg3 REMOVE:29
-;	"nekti" n pl s_sg3 REMOVE:29
+	"nekti" n pl @nsubj #10->
 "<kuali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adv @advmod #11->12
 "<kitaj>"
-	"ita" v tv pres s_pl3 o_sg3
-	"ita" v tv pret s_sg3 o_sg3
+	"ita" v tv pres s_pl3 o_sg3 @conj #12->
 "<nochin>"
-	"nochi" det @det
+	"nochi" det @det #13->14
 "<tapalmej>"
-	"tapal" n pl
-;	"tapal" n pl s_pl3 REMOVE:29
-;	"tapal" n pl s_sg3 REMOVE:29
+	"tapal" n pl @obj #14->12
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #15->16
 "<kipia>"
-	"piya" v tv pres s_sg3 o_sg3
+	"piya" v tv pres s_sg3 o_sg3 @acl:relcl #16->14
 "<se>"
-	"se" num
+	"se" num @det #17->18
 "<xochit>"
-	"xochit" n abs
-;	"xochit" n abs s_pl3 REMOVE:29
-;	"xochit" n abs s_sg3 REMOVE:29
+	"xochit" n abs @nsubj #18->16
 "<.>"
-	"." sent @punct
+	"." sent @punct #19->
  
 # sent_id = kiteixmatiltijtok-tamachilis:21
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
 # text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
+# text[gloss] = La máquina que se llama horno de microondas, con lo cual se puede calentar cosas, ocupa una luz que no podemos ver, ésta se llama microondas también así los celulares y teléfonos ocupan la luz que no podemos ver.
 # labels =  
 "<In>"
-	"in" det @det
+	"in" det @det #1->2
 "<tepos>"
-	"tepos" n abs
-;	"tepos" n abs s_pl3 REMOVE:31
-;	"tepos" n abs s_sg3 REMOVE:31
+	"tepos" n abs @nsubj #2->14
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #3->4
 "<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @acl:relcl #4->2
 "<horno>"
-	"horno" n m sg
-;	"horno" n m sg s_pl3 REMOVE:29
-;	"horno" n m sg s_sg3 REMOVE:29
+	"horno" n m sg @obj #5->4
 "<de>"
-	"de" pr
+	"de" pr @case #6->7
 "<microondas>"
-	"microondas" n m pl
-	"microondas" n m sg
-;	"microondas" n m pl s_pl3 REMOVE:29
-;	"microondas" n m sg s_pl3 REMOVE:29
-;	"microondas" n m pl s_sg3 REMOVE:29
-;	"microondas" n m sg s_sg3 REMOVE:29
+	"microonda" n f pl @nmod #7->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->4
 "<teyin>"
-	"tein" prn
+	"tein" prn @nmod #9->10
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #10->12
 "<se>"
-	"se" num
+	"se" num @nsubj #11->12
 "<tatotonia>"
-	"*tatotonia"
+	"totonia" v tv pres s_sg3 o_nn @acl:relcl #12->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #13->14
 "<kitekitiltiya>"
-	"*kitekitiltiya"
+	"tekitiltia" v tv pres s_sg3 o_sg3 @root #14->0
 "<se>"
-	"se" num
+	"se" num @det #15->16
 "<tauil>"
-	"tahuil" n abs
-;	"tahuil" n abs s_pl3 REMOVE:29
-;	"tahuil" n abs s_sg3 REMOVE:29
+	"tahuil" n abs @obj #16->14
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #17->20
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #18->20
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #19->20
 "<tikitaj>"
-	"ita" v tv pres s_pl1 o_sg3
-	"ita" v tv pret s_sg2 o_sg3
+	"ita" v tv pres s_pl1 o_sg3 @acl:relcl #20->16
 "<,>"
-	"," cm @punct
+	"," cm @punct #21->14
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" prn @nsubj #22->23
 "<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @parataxis #23->14
 "<microondas>"
-	"microondas" n m pl
-	"microondas" n m sg
-;	"microondas" n m pl s_pl3 REMOVE:29
-;	"microondas" n m sg s_pl3 REMOVE:29
-;	"microondas" n m pl s_sg3 REMOVE:29
-;	"microondas" n m sg s_sg3 REMOVE:29
+	"microondas" n m sg @obj #24->23
 "<no>"
-	"no" adv
-	"no" det @det
+	"no" adv @advmod #25->23
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #26->31
 "<in>"
-	"in" det @det
+	"in" det @det #27->28
 "<celulares>"
-	"celular" adj mf pl
-	"celular" adj mf pl s_pl3
-	"celular" adj mf pl s_sg3
+	"celular" n m pl @nsubj #28->31
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #29->30
 "<teposejekatanojnotsalonimej>"
-	"teposejekatanojnotsaloni" n pl
-	"teposejekatanojnotsaloni" n pl s_pl3
-	"teposejekatanojnotsaloni" n pl s_sg3
+	"teposejekatanojnotsaloni" n pl @conj #30->28
 "<kitekitiltiyaj>"
-	"*kitekitiltiyaj"
+	"tekitiltia" v tv pres s_pl3 o_sg3 @parataxis #31->14
 "<in>"
-	"in" det @det
+	"in" det @det #32->33
 "<tauil>"
-	"tahuil" n abs
-	"tahuil" n abs s_pl3
-	"tahuil" n abs s_sg3
+	"tahuil" n abs @obj #33->31
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #34->37
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #35->37
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #36->37
 "<tikitaj>"
-	"ita" v tv pres s_pl1 o_sg3
-	"ita" v tv pret s_sg2 o_sg3
+	"ita" v tv pres s_pl1 o_sg3 @acl:relcl #37->33
 "<.>"
-	"." sent @punct
+	"." sent @punct #38->14
  
 # sent_id = kiteixmatiltijtok-tamachilis:22
 # text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.

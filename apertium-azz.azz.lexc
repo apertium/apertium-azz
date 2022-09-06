@@ -1812,6 +1812,20 @@ iskaltia:%{i%}skalti%{y%}a                          V-SO-PROG ;
 iskaltia:%{i%}skalti%{y%}a                          V-SO-PRET ;
 iskaltia:%{i%}skalti%{y%}a                          V-SO-FUTR ;
 
+! "calentar"
+totonia:totonia                                     V-SO-PRES ;
+totonia:totonia                                     V-SO-IMPF ;
+totonia:totonia                                     V-SO-PROG ;
+totonia:totonia                                     V-SO-PRET ;
+totonia:totonia                                     V-SO-FUTR ;
+
+! "ocupar"
+tekitiltia:tekitilti%{y%}a                          V-SO-PRES ;
+tekitiltia:tekitilti%{y%}a                          V-SO-IMPF ;
+tekitiltia:tekitilti%{y%}a                          V-SO-PROG ;
+tekitiltia:tekitilti%{y%}a                          V-SO-PRET ;
+tekitiltia:tekitilti%{y%}a                          V-SO-FUTR ;
+
 
 LEXICON SI
 
@@ -5005,6 +5019,8 @@ huitsikitsin:huitsikitsin                           N-Ø ; ! "colibrí"
 xantoj:xantoj                                       N-Ø ; ! "santo"
 xapoj:xapoj                                         N-Ø ; ! "jabón"
 xolasoj:xolasoj                                     N-Ø ; ! "cedazo"
+
+hueyichikaujkameyot:hueyi%>chikaujkameyo            N-TL ; ! "radiación electromagnética"
 
 mes:mes                                             N-SPA-LUGAR ; ! "mes"
 
