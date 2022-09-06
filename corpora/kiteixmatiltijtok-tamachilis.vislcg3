@@ -126,64 +126,55 @@
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
 # labels =  
-
 "<Nijin>"
-	"nijin" det @det
-	"nijin" prn
+	"nijin" det @det #1->2
 "<ijpotok>"
-	"ijpotok" n abs
-;	"ijpotok" n abs s_pl3 REMOVE:31
-;	"ijpotok" n abs s_sg3 REMOVE:31
+	"ijpotok" n abs @nsubj #2->5
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #3->4
 "<mixuak>"
-	"*mixuak"
+	"mixuak" n abs @conj #4->2
 "<mololouaj>"
-	"*mololouaj"
+	"ololohua" v tv pres s_pl3 o_ref @root #5->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->5
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" prn @nsubj #7->11
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #8->9
 "<mochiua>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @acl:relcl #9->7
 "<ololtik>"
-	"ololtik" adj
-	"ololtik" adj s_sg3
+	"ololtik" adj @dep #10->9
 "<moskaltiya>"
-	"*moskaltiya"
+	"moskaltia" v iv pres s_sg3 @parataxis #11->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->11
 "<mochiua>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @parataxis #13->5
 "<tel>"
-	"tel" adv
+	"tel" adv @advmod #14->15
 "<ueyi>"
-	"huei" adj
-	"huei" adj s_sg3
+	"huei" adj @dep #15->13
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #16->18
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #17->18
 "<moteltaliya>"
-	"tali" v tv impf s_sg3 i_ref tel
+	"tali" v tv impf s_sg3 i_ref tel @conj #18->13
 "<tatajko>"
-	"tajko" n px3nn
-	"tajko" n abs px3nn
+	"tatajko" adv @advmod #19->18
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #20->21
 "<xota>"
-	"xota" v iv pres s_sg3
+	"xota" v iv pres s_sg3 @conj #21->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #22->5
  
 # sent_id = kiteixmatiltijtok-tamachilis:8
 # text = Achtopa momaneloua yejua ne ijpotok hidrógeno, ta amo yetik uan yej kachi onkak itech in Semanauak; ijkon mochiua se kuemit kanpa motekpanaj átomos teyin ijkon etixtiyouej uan, ika in, mochiua tit itech ne sitalin.
 # text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
 # labels =  
-
 "<Achtopa>"
 	"achtopa" adv
 "<momaneloua>"
@@ -288,7 +279,6 @@
 # text = Ijkuak miki, ne sitalin toponi uan seki átomos teyin mochiuak tayijtik momoyaua itech ne mixkouat, uan kichiua maj mochiuakan oksekin sitalimej.
 # text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
 # labels =  
-
 "<Ijkuak>"
 	"ijkuak" cnjsub
 "<miki>"
@@ -353,7 +343,6 @@
 # text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
 # text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
 # labels =  
-
 "<Ne>"
 	"ne" adv
 	"ne" det @det
@@ -414,7 +403,6 @@
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
 # text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
 # labels =  
-
 "<Maj>"
 	"ma" aux
 "<amo>"
@@ -493,7 +481,6 @@
 # text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
 # text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
 # labels =  
-
 "<Kemej>"
 	"kemej" adv
 "<,>"
@@ -554,7 +541,6 @@
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
 # text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
 # labels =  
-
 "<In>"
 	"in" det @det
 "<tepos>"
@@ -664,7 +650,6 @@
 # text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.
 # text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
 # labels =  
-
 "<Itech>"
 	"tech" n rel px3sg
 "<kaltapajtiloyanimej>"
@@ -724,7 +709,6 @@
 # text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
 # text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
 # labels =  
-
 "<Nochin>"
 	"nochi" det @det
 "<tauilmej>"
@@ -801,7 +785,6 @@
 # text = Ininchikaujkayo kintamanchiuaj.
 # text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
 # labels =  
-
 "<Ininchikaujkayo>"
 	"*Ininchikaujkayo"
 "<kintamanchiuaj>"
@@ -813,7 +796,6 @@
 # text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
 # text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
 # labels =  
-
 "<In>"
 	"in" det @det
 "<,>"
@@ -921,7 +903,6 @@
 # text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
 # text[spa] = A partir de que se logró entender cómo funciona la radiación electromagnética, ha sido posible utilizarla para desarrollar la tecnología necesaria para inventar la televisión, el radio, los teléfonos celulares, las radiografías e incluso tratamientos para el cáncer.
 # labels =  
-
 "<Satepan>"
 	"satepan" adv
 "<ika>"
@@ -1026,7 +1007,6 @@
 # text = Keniuj se Tayis Ueyistajat
 # text[spa] = Tomar la mar
 # labels =  
-
 "<Keniuj>"
 	"keni" adv itg
 "<se>"
@@ -1075,7 +1055,9 @@
 # sent_id = kiteixmatiltijtok-tamachilis:34
 # text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
 # text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
-# labels =  ¿
+# labels =  
+"<¿>"
+	"¿" sent @punct
 "<Tikmatiya>"
 	"mati" v tv impf s_sg2 o_sg3
 "<ke>"
@@ -1169,7 +1151,6 @@
 # text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
 # text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
 # labels =  
-
 "<Keman>"
 	"keman" adv
 "<se>"
@@ -1236,7 +1217,6 @@
 # text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
 # text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
 # labels =  
-
 "<Nejin>"
 	"nejin" det @det
 	"nejin" prn
@@ -1303,7 +1283,6 @@
 # text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
 # text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
 # labels =  
-
 "<Nejin>"
 	"nejin" det @det
 	"nejin" prn
@@ -1368,7 +1347,6 @@
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
 # labels =  
-
 "<Moneki>"
 	"neki" v tv pres s_sg3 o_ref
 "<maj>"
@@ -1432,7 +1410,6 @@
 # text = Próxima Centauri B
 # text[spa] = Próxima Centauri B
 # labels =  
-
 "<Próxima>"
 	"Próxima" np top
 ;	"Próxima" np top s_pl3 REMOVE:31
@@ -1442,7 +1419,7 @@
 ;	"Centauri" np top s_pl3 REMOVE:31
 ;	"Centauri" np top s_sg3 REMOVE:31
 "<B>"
-	"*B"
+	"B" x
  
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
@@ -1491,7 +1468,6 @@
 # text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
 # text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
 # labels =  
-
 "<Sekimej>"
 	"seki" prn pl
 "<uelis>"
@@ -1593,7 +1569,6 @@
 # text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
 # text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
 # labels =  
-
 "<Itech>"
 	"tech" n rel px3sg
 "<in>"
@@ -1756,7 +1731,6 @@
 # text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
 # labels =  
-
 "<Ika>"
 	"ka" n rel px3sg
 "<nijin>"
@@ -1849,7 +1823,6 @@
 # text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
 # text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
 # labels =  
-
 "<Ika>"
 	"ka" n rel px3sg
 "<oksekin>"
@@ -1956,7 +1929,6 @@
 # text = In Nanotecnologías
 # text[spa] = Nanotecnología
 # labels =  
-
 "<In>"
 	"in" det @det
 "<Nanotecnologías>"
@@ -2049,7 +2021,6 @@
 # text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
 # text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
 # labels =  
-
 "<Nijin>"
 	"nijin" det @det
 	"nijin" prn
@@ -2149,7 +2120,6 @@
 	"*motokotsojtiyaj"
 "<.>"
 	"." sent @punct
-
 "<Nejin>"
 	"nejin" det @det
 	"nejin" prn
@@ -2175,7 +2145,6 @@
 ;	"nanómetro" n m sg s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
-
 "<Amo>"
 	"amo" adv
 "<mota>"
@@ -2188,7 +2157,6 @@
 # text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
 # text[spa] = Los dispositivos que se utilizan en la nanotecnología son tan pequeños que se construyen con unas pocas moléculas y átomos.
 # labels =  
-
 "<In>"
 	"in" det @det
 "<teposkonemej>"
@@ -2242,7 +2210,6 @@
 # text = In teposmej motekitiltiyaj itech in tapajtilnemachtilmej kampa mochijchiujtokej nano-robots, teyin uelij kinpaleuiyaj seki células oso kinpojpolouaj teyin mokokouaj, kemej in células cancerígenas.
 # text[spa] = Una de las aplicaciones más importantes de estos objetos es su posible uso en la medicina para la que se están desarrollando nano-robots que sean capaces de atacar a células específicas, como las cancerígenas.
 # labels =  
-
 "<In>"
 	"in" det @det
 "<teposmej>"
@@ -2316,7 +2283,6 @@
 # text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
 # text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
 # labels =  
-
 "<Ueli>"
 	"hueli" vaux
 	"hueli" v iv pres s_sg3
@@ -2389,7 +2355,6 @@
 ;	"kimichin" n pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
-
 "<Nijin>"
 	"nijin" det @det
 	"nijin" prn
@@ -2439,7 +2404,6 @@
 # text = In ueyi tatoponilis
 # text[spa] = La Gran Explosión
 # labels =  
-
 "<In>"
 	"in" det @det
 "<ueyi>"
@@ -2509,7 +2473,6 @@
 # text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
 # text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
 # labels =  
-
 "<Ika>"
 	"ka" n rel px3sg
 "<nijin>"
@@ -2546,7 +2509,6 @@
 # text = Ta ijkuak tikitaj kachi teyin panok ya itech in Semauak, kachi netechiujtokej nochi teyin onkak itech, yej ika se kinemiliya ke achtopa nochi in Semanauak tel senka olochyetoya.
 # text[spa] = Entre más al pasado del universo observemos, veremos que más cerca están todas las cosas que en él existen; por eso suponemos que, en algún momento, todo dentro de él estuvo súper comprimido.
 # labels =  
-
 "<Ta>"
 	"ta" adv
 "<ijkuak>"
@@ -2625,7 +2587,6 @@
 # text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
 # text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
 # labels =  
-
 "<Maj>"
 	"ma" aux
 "<sekinemili>"
@@ -2706,7 +2667,6 @@
 	"*kikajkaua"
 "<.>"
 	"." sent @punct
-
 "<Maj>"
 	"ma" aux
 "<se>"
@@ -2734,7 +2694,6 @@
 # text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
 # text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
 # labels =  
-
 "<Ijkon>"
 	"ijkon" adv
 "<mochiuj>"
@@ -2773,7 +2732,6 @@
 # text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
 # text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
 # labels =  
-
 "<Nijin>"
 	"nijin" det @det
 	"nijin" prn
@@ -2813,7 +2771,6 @@
 # text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
 # text[spa] = A este acontacimiento se le llama “La Gran Explosión”, que dio origen a la luz, la materia y todo lo que ahora observamos que existe.
 # labels =  
-
 "<Ika>"
 	"ka" n rel px3sg
 "<nijin>"
@@ -2862,7 +2819,6 @@
 # text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. Ika nejin sekinemiliya ke nochi taolochiujtoya.
 # text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
 # labels =  
-
 "<Se>"
 	"se" num
 "<tamachilis>"
@@ -2940,7 +2896,6 @@
 # text = Tajtoleualoni
 # text[spa] = Glosario
 # labels =  
-
 "<Tajtoleualoni>"
 	"*Tajtoleualoni"
  
@@ -3028,7 +2983,6 @@
 # text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
 # labels =  
-
 "<células>"
 	"célula" n f pl
 	"célula" n f pl s_pl3
@@ -3059,7 +3013,6 @@
 ;	"nemilis" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
-
 "<Totakayo>"
 	"*Totakayo"
 "<,>"
@@ -3092,7 +3045,6 @@
 # text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. Keman mosentiliyaj xota. Ijkon in sitalimej milinij.
 # text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
 # labels =  
-
 "<fusiones>"
 	"fusión" n f pl
 	"fusión" n f pl s_pl3
@@ -3127,7 +3079,6 @@
 	"huei" adj s_sg3
 "<.>"
 	"." sent @punct
-
 "<Keman>"
 	"keman" adv
 "<mosentiliyaj>"
@@ -3136,7 +3087,6 @@
 	"xota" v iv pres s_sg3
 "<.>"
 	"." sent @punct
-
 "<Ijkon>"
 	"ijkon" adv
 "<in>"
@@ -3186,7 +3136,7 @@
 "<uan>"
 	"huan" cnjcoo @cc
 "<mixuak>"
-	"*mixuak"
+	"mixuak" n abs
 "<,>"
 	"," cm @punct
 "<uan>"
@@ -3201,7 +3151,6 @@
 ;	"taltikpak" n pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
-
 "<In>"
 	"in" det @det
 "<sitalkouat>"
@@ -3233,7 +3182,6 @@
 # text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
 # text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
 # labels =  
-
 "<microscopio>"
 	"microscópio" n m sg
 	"microscópio" n m sg s_sg3
@@ -3277,7 +3225,6 @@
 # text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
 # labels =  
-
 "<moléculas>"
 	"molécula" n f pl
 	"molécula" n f pl s_pl3
@@ -3303,7 +3250,6 @@
 	"*monetechouaj"
 "<.>"
 	"." sent @punct
-
 "<In>"
 	"in" det @det
 "<kiskaltia>"
@@ -3321,7 +3267,6 @@
 # text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
 # text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
 # labels =  
-
 "<Próxima>"
 	"Próxima" np top
 	"Próxima" np top s_sg3
@@ -3330,7 +3275,8 @@
 	"*centauri"
 "<B>"
 	"*B"
-: 
+"<:>"
+	":" sent @punct 
 "<ne>"
 	"ne" adv
 	"ne" det @det
@@ -3361,7 +3307,6 @@
 # text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
 # text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
 # labels =  
-
 "<Próxima>"
 	"Próxima" np top
 	"Próxima" np top s_sg3
@@ -3393,7 +3338,6 @@
 # text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
 # labels =  
-
 "<radiografías>"
 	"radiografía" n f pl
 	"radiografía" n f pl s_sg3
@@ -3440,7 +3384,6 @@
 # text = rayos X: nejin se tit teyin amo ueli sekita uan semi chikauak teyin panouaj itech tonakayo uan ajsi itech tojomiyouan.
 # text[spa] = rayos X: luz que no podemos ver pero que tiene tanta energía que puede traspasar la carne hasta llegar a los huesos.
 # labels =  
-
 "<rayos>"
 	"rayo" n m pl
 	"rayo" n m pl s_sg3
@@ -3494,4 +3437,3 @@
 "<.>"
 	"." sent @punct
  
-

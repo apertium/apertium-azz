@@ -23,6 +23,8 @@ Multichar_Symbols
 %<x%>                        !
 %<cm%>                       !
 %<sent%>                     !
+%<lpar%>                     !
+%<rpar%>                     !
 
 %<tv%>                       !
 %<iv%>                       !
@@ -1796,10 +1798,22 @@ nojnotsa:no%{j%}nots                                V-SO-PROG ;
 nojnotsa:no%{j%}nots                                V-SO-PRET ;
 nojnotsa:no%{j%}notsa                               V-SO-FUTR ;
 
+! "formar"
+ololohua:ololohua                                   V-SO-PRES ;
+ololohua:ololohua                                   V-SO-IMPF ;
+ololohua:ololo                                      V-SO-PROG ;
+ololohua:ololo                                      V-SO-PRET ;
+ololohua:ololo                                      V-SO-FUTR ;
+
+! "criar"
+iskaltia:%{i%}skalti%{y%}a                          V-SO-PRES ;
+iskaltia:%{i%}skalti%{y%}a                          V-SO-IMPF ;
+iskaltia:%{i%}skalti%{y%}a                          V-SO-PROG ;
+iskaltia:%{i%}skalti%{y%}a                          V-SO-PRET ;
+iskaltia:%{i%}skalti%{y%}a                          V-SO-FUTR ;
 
 
-
-LEXICON SI 
+LEXICON SI
 
 ! "dar de comer"
 tamaka:ta%>maka                                    V-SI-PRES ; 
@@ -2210,8 +2224,8 @@ moneneki:moneneki                                   V-S-PRET ;
 moneneki:moneneki                                   V-S-FUTR ;
 
 ! "crecer"
-moskaltia:moskaltia                                 V-S-PRES ;
-moskaltia:moskaltia                                 V-S-IMPF ;
+moskaltia:moskalti%{y%}a                            V-S-PRES ;
+moskaltia:moskalti%{y%}a                            V-S-IMPF ;
 moskaltia:moskalti                                  V-S-PROG ;
 moskaltia:moskalti                                  V-S-PRET ;
 moskaltia:moskalti                                  V-S-FUTR ;
@@ -2433,7 +2447,7 @@ xokoya:xokoya                                       V-S-PROG ;
 xokoya:xokoya                                       V-S-PRET ;
 xokoya:xokoya                                       V-S-FUTR ;
 
-! ""
+! "encenderse"
 xota:xota                                           V-S-PRES ;
 xota:xota                                           V-S-IMPF ;
 xota:xota                                           V-S-PROG ;
@@ -6004,6 +6018,7 @@ analpa:analpa                                       ADV ; ! "al otro lado"
 sitalkopa:sital%>kopa                               ADV ; ! ""
 achtopa:achtopa                                     ADV ; ! ""
 tayijtik:tayijtik                                   ADV ; ! "en su interior"
+tatajko:tatajko                                     ADV ; ! "en medio
 
 !!! 
 
@@ -6074,9 +6089,14 @@ LEXICON Punctuación
 %.%<sent%>:%. # ;
 %.%.%<sent%>:%.%. # ;
 %.%.%.%<sent%>:%.%.%. # ;
+%:%<sent%>:%: # ;
+%;%<sent%>:%; # ;
 %!%<sent%>:%! # ;
+%(%<lpar%>:%( # ;
+%)%<rpar%>:%) # ;
 %?%<sent%>:%? # ;
 %¿%<sent%>:%¿ # ;
 %¡%<sent%>:%¡ # ;
 %,%<cm%>:%, # ;
+%"%<quot%>:%" # ;
 
