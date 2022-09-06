@@ -1412,7 +1412,7 @@
 "<chijchiujtoskej>"
 	"chijchihua" v iv prog fut s_pl3 @root #3->0
 "<kemej>"
-	"kemej" adv @dep #4->5
+	"kemej" pr @case #4->5
 "<totaltikpak>"
 	"taltikpak" n px1pl @obl #5->3
 "<uan>"
