@@ -1652,8 +1652,8 @@ mati:mati                                           V-SO-PRET ;
 mati:mati                                           V-SO-FUTR ;
 
 ! "nombrar"
-tokaytia:tokaytia                                   V-SO-PRES ;
-tokaytia:tokaytia                                   V-SO-IMPF ;
+tokaytia:tokayti%{y%}a                              V-SO-PRES ;
+tokaytia:tokayti%{y%}a                              V-SO-IMPF ;
 tokaytia:tokayt                                     V-SO-PROG ;
 tokaytia:tokayti                                    V-SO-PRET ;
 tokaytia:tokayti                                    V-SO-FUTR ;
@@ -1666,9 +1666,9 @@ tajtania:ta%{j%}tani                                V-SO-PRET ;
 tajtania:ta%{j%}tani                                V-SO-FUTR ;
 
 ! ""
-palehuia:palehuia                                   V-SO-PRES ;
-palehuia:palehuia                                   V-SO-IMPF ;
-palehuia:palehuia                                   V-SO-PROG ;
+palehuia:palehui%{y%}a                              V-SO-PRES ;
+palehuia:palehui%{y%}a                              V-SO-IMPF ;
+palehuia:palehui%{y%}a                              V-SO-PROG ;
 palehuia:palehui                                    V-SO-PRET ;
 palehuia:palehui                                    V-SO-FUTR ;
 
@@ -1823,9 +1823,23 @@ totonia:totonia                                     V-SO-FUTR ;
 ! "ocupar"
 tekitiltia:tekitilti%{y%}a                          V-SO-PRES ;
 tekitiltia:tekitilti%{y%}a                          V-SO-IMPF ;
-tekitiltia:tekitilti%{y%}a                          V-SO-PROG ;
-tekitiltia:tekitilti%{y%}a                          V-SO-PRET ;
-tekitiltia:tekitilti%{y%}a                          V-SO-FUTR ;
+tekitiltia:tekitilti%{y%}                           V-SO-PROG ;
+tekitiltia:tekitilti%{y%}                           V-SO-PRET ;
+tekitiltia:tekitilti%{y%}                           V-SO-FUTR ;
+
+! "iniciar"
+pehualtia:pehualti%{y%}a                            V-SO-PRES ;
+pehualtia:pehualti%{y%}a                            V-SO-IMPF ;
+pehualtia:pehualti%{y%}                             V-SO-PROG ;
+pehualtia:pehualti%{y%}                             V-SO-PRET ;
+pehualtia:pehualti%{y%}                             V-SO-FUTR ;
+
+! ""
+nextia:nexti%{y%}a                                  V-SO-PRES ;
+nextia:nexti%{y%}a                                  V-SO-IMPF ;
+nextia:nexti%{y%}                                   V-SO-PROG ;
+nextia:nexti%{y%}                                   V-SO-PRET ;
+nextia:nexti%{y%}                                   V-SO-FUTR ;
 
 
 LEXICON SI
@@ -1866,10 +1880,10 @@ talilia:talilia                                     V-SI-PRET ;
 talilia:talili                                      V-SI-FUTR ;
 
 ! "sembrar"
-talia:talia                                         V-SI-PRES ;
-talia:talia                                         V-SI-IMPF ;
-talia:talia                                         V-SI-PROG ;
-talia:talia                                         V-SI-PRET ;
+talia:tali%{y%}a                                    V-SI-PRES ;
+talia:tali%{y%}a                                    V-SI-IMPF ;
+talia:tali%{y%}a                                    V-SI-PROG ;
+talia:tali%{y%}a                                    V-SI-PRET ;
 talia:tali                                          V-SI-FUTR ;
 
 ! "tirar"
@@ -3782,6 +3796,11 @@ LEXICON Yohui
 !%<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yo%{w%}%    # ;
 %<s_pl3%>yohui%<v%>%<iv%>%<pres%>:yohui%>j         # ;
 
+%<s_sg1%>yohui%<v%>%<iv%>%<fut%>:ni%>ya%>s         # ;
+%<s_sg2%>yohui%<v%>%<iv%>%<fut%>:ti%>ya%>s         # ;
+%<s_sg3%>yohui%<v%>%<iv%>%<fut%>:ya%>s             # ;
+%<s_pl3%>yohui%<v%>%<iv%>%<fut%>:ya%>s%>kej        # ;
+
 LEXICON Huitsa
 
 %<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa      # ;
@@ -4087,7 +4106,7 @@ LEXICON Posesivos
 %<px2sg%>:mo%>                                     Poseído ;
 %<px3sg%>:i%>                                      Poseído ;
 %<px3sg%>:ni%>                                     Poseído ; !! ??
-%<px1pl%>:to%>                                     Poseído ;
+%<px1pl%>:to%{j%}%>                                Poseído ; ! tojomiuan
 %<px2pl%>:namo%>                                   Poseído ;
 %<px3pl%>:i%{N%}%>                                 Poseído ;
 %<px3nn%>:ta%>                                     Poseído ;
@@ -4322,6 +4341,8 @@ naluayo:naluayo                                     N-YO ; ! "raíz"
 chokilo:chokilo                                     N-YO ; ! "savia"
 tapajtiani:tapajtia%>ni                             N-NI ; ! "doctor"
 teposejekatanojnotsaloni:tepos%>ejeka%>ta%>nojnotsa%>lo%>ni  N-Ø ; ! ""
+tajtoleualoni:tajtoleualoni                         N-Ø ; ! "glosario"
+tatoponilis:tatoponilis                             N-Ø ; ! "acontecimiento"
 tsontekon:tsontekon                                 N-Ø ; ! "cabeza"
 tonal:tonal                                         N-Ø ; ! "día"
 !sitalin:sitali                                       N-Ø ; ! "estrella"
@@ -5026,6 +5047,7 @@ xapoj:xapoj                                         N-Ø ; ! "jabón"
 xolasoj:xolasoj                                     N-Ø ; ! "cedazo"
 
 hueyichikaujkameyot:hueyi%>chikaujkameyo            N-TL ; ! "radiación electromagnética"
+tapajtilnemachtil:tapajtilnemachtil                 N-Ø ; ! "investigación médica" ! FIXME: Comprobar lema
 
 mes:mes                                             N-SPA-LUGAR ; ! "mes"
 
@@ -5846,6 +5868,7 @@ neka:neka                                           ADV ; ! "ahí"
 ninipaka:ninipaka                                   ADV ; ! "en cada lado"
 
 miak:miak                                           ADV ; ! "mucho"
+senkaj:senkaj                                       ADV ; ! ""
 
 ayamo:ayamo                                         ADV ; ! ""
 
