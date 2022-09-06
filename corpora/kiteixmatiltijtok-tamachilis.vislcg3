@@ -1,0 +1,3497 @@
+# sent_id = kiteixmatiltijtok-tamachilis:1
+# text = ¿Keniuj Mochijchiuaj ne Sitalimej?
+# text[spa] = ¿Cómo se forman las estrellas?
+# labels = complete
+"<¿>"
+	"¿" sent @punct #1->3
+"<Keniuj>"
+	"keni" adv itg @advmod #2->3
+"<Mochijchiuaj>"
+	"chijchihua" v tv pres s_pl3 o_ref @root #3->0
+"<ne>"
+	"ne" det @det #4->5
+"<Sitalimej>"
+	"sitalin" n pl @nsubj #5->3
+"<?>"
+	"?" sent @punct #6->3
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:3
+# text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
+# text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
+# labels =  
+"<Se>"
+	"se" num
+"<youal>"
+	"yohual" n abs
+"<keman>"
+	"keman" adv
+"<takistok>"
+	"takistok" adj
+	"takistok" adj s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<amo>"
+	"amo" adv
+"<metstona>"
+	"metstona" v iv pres s_sg3
+"<,>"
+	"," cm @punct
+"<itech>"
+	"tech" n rel px3sg
+"<milaj>"
+	"milaj" n abs @nmod
+"<,>"
+	"," cm @punct
+"<uelis>"
+	"hueli" v iv fut s_sg3 @root
+"<se>"
+	"se" num @nsubj
+"<kinitas>"
+	"ita" v tv fut s_sg3 o_pl3
+"<miyakej>"
+	"miak" det pl @det
+"<sitalimej>"
+	"sitalin" n pl
+"<itech>"
+	"tech" n rel px3sg
+"<iluikak>"
+	"iluikak" n abs @nmod
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:4
+# text = Neje sitalimej no chijchiujtokej kemej ne tonal, sekin kachi uejueyin uan oksekin kachi tsikitsitsin sayoj ke nochin mochiuaj ika ijpotok teyin monotsa hidrógeno uan mixuak.
+# text[spa] = Estas estrellas son similares a nuestro sol, algunas más grandes y otras más chicas, pero todas nacen a partir de nubes de gas y polvo.
+# labels =  
+"<Neje>"
+	"neje" det @det #1->2
+"<sitalimej>"
+	"sitalin" n pl @nsubj #2->
+"<no>"
+	"no" adv @advmod #3->
+"<chijchiujtokej>"
+	"chijchihua" v iv prog pres s_pl3
+	"chijchiutok" adj s_pl3
+"<kemej>"
+	"kemej" adv 
+"<ne>"
+	"ne" det @det #6->7
+"<tonal>"
+	"tonal" n abs 
+"<,>"
+	"," cm @punct #8->
+"<sekin>"
+	"seki" prn
+"<kachi>"
+	"kachi" adv
+"<uejueyin>"
+	"huejueyin" adj
+	"huejueyin" adj s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<oksekin>"
+	"okse" det pl
+"<kachi>"
+	"kachi" adv
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+"<sayoj>"
+	"sayoj" adv
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<nochin>"
+	"nochi" det @det
+"<mochiuaj>"
+	"chihua" v tv pres s_pl3 o_ref
+	"chihua" v tv pret s_sg3 o_ref
+"<ika>"
+	"ka" n rel px3sg
+"<ijpotok>"
+	"ijpotok" n abs @nmod
+"<teyin>"
+	"tein" prn
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<hidrógeno>"
+	"hidrógeno" n m sg
+"<uan>"
+	"huan" cnjcoo @cc
+"<mixuak>"
+	"mixuak" n abs @conj
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:6
+# text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
+# text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
+# labels =  
+
+"<Nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<ijpotok>"
+	"ijpotok" n abs
+;	"ijpotok" n abs s_pl3 REMOVE:31
+;	"ijpotok" n abs s_sg3 REMOVE:31
+"<uan>"
+	"huan" cnjcoo @cc
+"<mixuak>"
+	"*mixuak"
+"<mololouaj>"
+	"*mololouaj"
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<teyin>"
+	"tein" prn
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<ololtik>"
+	"ololtik" adj
+	"ololtik" adj s_sg3
+"<moskaltiya>"
+	"*moskaltiya"
+"<,>"
+	"," cm @punct
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<tel>"
+	"tel" adv
+"<ueyi>"
+	"huei" adj
+	"huei" adj s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<ijkon>"
+	"ijkon" adv
+"<moteltaliya>"
+	"tali" v tv impf s_sg3 i_ref tel
+"<tatajko>"
+	"tajko" n px3nn
+	"tajko" n abs px3nn
+"<uan>"
+	"huan" cnjcoo @cc
+"<xota>"
+	"xota" v iv pres s_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:8
+# text = Achtopa momaneloua yejua ne ijpotok hidrógeno, ta amo yetik uan yej kachi onkak itech in Semanauak; ijkon mochiua se kuemit kanpa motekpanaj átomos teyin ijkon etixtiyouej uan, ika in, mochiua tit itech ne sitalin.
+# text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
+# labels =  
+
+"<Achtopa>"
+	"achtopa" adv
+"<momaneloua>"
+	"manelohua" v tv pres s_sg3 o_ref
+"<yejua>"
+	"yehua" prn pers sg3
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<ijpotok>"
+	"ijpotok" n abs
+;	"ijpotok" n abs s_pl3 REMOVE:29
+;	"ijpotok" n abs s_sg3 REMOVE:29
+"<hidrógeno>"
+	"hidrógeno" n m sg
+;	"hidrógeno" n m sg s_pl3 REMOVE:29
+;	"hidrógeno" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<ta>"
+	"ta" adv
+"<amo>"
+	"amo" adv
+"<yetik>"
+	"etik" adj
+	"etik" adj s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<yej>"
+	"yehua" prn pers sg3 short
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<Semanauak>"
+	"semanahuak" n abs
+;	"semanahuak" n abs s_pl3 REMOVE:31
+;	"semanahuak" n abs s_sg3 REMOVE:31
+; 
+"<ijkon>"
+	"ijkon" adv
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<se>"
+	"se" num
+"<kuemit>"
+	"kuemit" n abs
+;	"kuemit" n abs s_pl3 REMOVE:29
+;	"kuemit" n abs s_sg3 REMOVE:29
+"<kanpa>"
+	"kampa" adv rel
+"<motekpanaj>"
+	"tekpana" v tv pres s_pl3 o_ref
+	"tekpana" v tv pret s_sg3 o_ref
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:29
+;	"átomo" n m pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<ijkon>"
+	"ijkon" adv
+"<etixtiyouej>"
+	"*etixtiyouej"
+"<uan>"
+	"huan" cnjcoo @cc
+"<,>"
+	"," cm @punct
+"<ika>"
+	"ka" n rel px3sg
+"<in>"
+	"in" det @det
+"<,>"
+	"," cm @punct
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<tit>"
+	"tit" n abs
+;	"tit" x REMOVE:41
+;	"tit" n abs s_pl3 REMOVE:29
+;	"tit" n abs s_sg3 REMOVE:29
+"<itech>"
+	"tech" n rel px3sg
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<sitalin>"
+	"sitalin" n abs
+;	"sitalin" n abs s_pl3 REMOVE:29
+;	"sitalin" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:10
+# text = Ijkuak miki, ne sitalin toponi uan seki átomos teyin mochiuak tayijtik momoyaua itech ne mixkouat, uan kichiua maj mochiuakan oksekin sitalimej.
+# text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
+# labels =  
+
+"<Ijkuak>"
+	"ijkuak" cnjsub
+"<miki>"
+	"miki" v iv pres s_sg3
+"<,>"
+	"," cm @punct
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<sitalin>"
+	"sitalin" n abs
+;	"sitalin" n abs s_pl3 REMOVE:29
+;	"sitalin" n abs s_sg3 REMOVE:29
+"<toponi>"
+	"toponi" v iv pres s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<seki>"
+	"seki" det @det
+	"seki" prn
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:29
+;	"átomo" n m pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<mochiuak>"
+	"chihua" v tv pret s_sg3 o_ref
+"<tayijtik>"
+	"tayijtik" adv
+"<momoyaua>"
+	"moyahua" v tv pres s_sg3 o_ref
+"<itech>"
+	"tech" n rel px3sg
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<mixkouat>"
+	"mixkouat" n abs
+;	"mixkouat" n abs s_pl3 REMOVE:29
+;	"mixkouat" n abs s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<uan>"
+	"huan" cnjcoo @cc
+"<kichiua>"
+	"chihua" v tv pres s_sg3 o_sg3
+"<maj>"
+	"ma" aux
+"<mochiuakan>"
+	"chihua" v tv opt s_pl3 o_ref
+"<oksekin>"
+	"okse" det pl
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:29
+;	"sitalin" n pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:12
+# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# labels =  
+
+"<Ne>"
+	"ne" adv
+	"ne" det @det
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:31
+;	"átomo" n m pl s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<mochiuakej>"
+	"chihua" v tv pret s_pl3 o_ref
+"<itech>"
+	"tech" n rel px3sg
+"<oksekin>"
+	"okse" det pl
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:29
+;	"sitalin" n pl s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<ijkon>"
+	"ijkon" adv
+"<yolik>"
+	"yolik" adj
+	"yolik" adj s_sg3
+"<totaltikpak>"
+	"taltikpak" n px1pl
+	"taltikpak" n abs px1pl
+"<.>"
+	"." sent @punct
+
+"<Totaltikpak>"
+	"taltikpak" n px1pl
+	"taltikpak" n abs px1pl
+"<uan>"
+	"huan" cnjcoo @cc
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<,>"
+	"," cm @punct
+"<kemej>"
+	"kemej" adv
+"<tejuan>"
+	"tehuan" prn pers pl1 abs
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:14
+# text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
+# text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
+# labels =  
+
+"<Maj>"
+	"ma" aux
+"<amo>"
+	"amo" adv
+"<onkanij>"
+	"onka" v iv pp s_pl3
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:29
+;	"sitalin" n pl s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<tejua>"
+	"tehua" prn pers sg2
+"<uan>"
+	"huan" cnjcoo @cc
+"<nejua>"
+	"nehua" prn pers sg1
+"<amo>"
+	"amo" adv
+"<nikan>"
+	"nikan" adv
+"<tiyetoskiyaj>"
+	"*tiyetoskiyaj"
+"<timotajtanijtoskiyaj>"
+	"*timotajtanijtoskiyaj"
+"<¿>"
+	"¿" sent @punct
+"<keniuj>"
+	"keni" adv itg
+"<mochiujkej>"
+	"*mochiujkej"
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:29
+;	"sitalin" n pl s_sg3 REMOVE:29
+"<?>"
+	"?" sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:16
+# text = Ueyichikaujkameyot
+# text[spa] = Radiación electromagnética
+# labels =  
+"<Ueyichikaujkameyot>"
+	"*Ueyichikaujkameyot"
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:18
+# text = Onkak miyak tauil teyin toixtololouan amo kitaj.
+# text[spa] = Existe más luz de la que nuestros ojos ven.
+# labels =  
+"<Onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<miyak>"
+	"miak" det @det
+"<tauil>"
+	"tahuil" n abs
+;	"tahuil" n abs s_pl3 REMOVE:31
+;	"tahuil" n abs s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<toixtololouan>"
+	"ixtololo" n pl px1pl
+"<amo>"
+	"amo" adv
+"<kitaj>"
+	"ita" v tv pres s_pl3 o_sg3
+	"ita" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:19
+# text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
+# text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
+# labels =  
+
+"<Kemej>"
+	"kemej" adv
+"<,>"
+	"," cm @punct
+"<in>"
+	"in" det @det
+"<kouamej>"
+	"kohuat" n pl
+	"kohuat" n pl s_pl3
+	"kohuat" n pl s_sg3
+"<teyin>"
+	"tein" prn
+"<kuali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<kitaj>"
+	"ita" v tv pres s_pl3 o_sg3
+	"ita" v tv pret s_sg3 o_sg3
+"<tokauanyoj>"
+	"*tokauanyoj"
+"<uan>"
+	"huan" cnjcoo @cc
+"<nekmej>"
+	"nekmej" n abs
+	"nekti" n pl
+;	"nekmej" n abs s_pl3 REMOVE:29
+;	"nekti" n pl s_pl3 REMOVE:29
+;	"nekmej" n abs s_sg3 REMOVE:29
+;	"nekti" n pl s_sg3 REMOVE:29
+"<kuali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<kitaj>"
+	"ita" v tv pres s_pl3 o_sg3
+	"ita" v tv pret s_sg3 o_sg3
+"<nochin>"
+	"nochi" det @det
+"<tapalmej>"
+	"tapal" n pl
+;	"tapal" n pl s_pl3 REMOVE:29
+;	"tapal" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<kipia>"
+	"piya" v tv pres s_sg3 o_sg3
+"<se>"
+	"se" num
+"<xochit>"
+	"xochit" n abs
+;	"xochit" n abs s_pl3 REMOVE:29
+;	"xochit" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:21
+# text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
+# text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
+# labels =  
+
+"<In>"
+	"in" det @det
+"<tepos>"
+	"tepos" n abs
+;	"tepos" n abs s_pl3 REMOVE:31
+;	"tepos" n abs s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<horno>"
+	"horno" n m sg
+;	"horno" n m sg s_pl3 REMOVE:29
+;	"horno" n m sg s_sg3 REMOVE:29
+"<de>"
+	"de" pr
+"<microondas>"
+	"microondas" n m pl
+	"microondas" n m sg
+;	"microondas" n m pl s_pl3 REMOVE:29
+;	"microondas" n m sg s_pl3 REMOVE:29
+;	"microondas" n m pl s_sg3 REMOVE:29
+;	"microondas" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<teyin>"
+	"tein" prn
+"<ika>"
+	"ka" n rel px3sg
+"<se>"
+	"se" num
+"<tatotonia>"
+	"*tatotonia"
+"<,>"
+	"," cm @punct
+"<kitekitiltiya>"
+	"*kitekitiltiya"
+"<se>"
+	"se" num
+"<tauil>"
+	"tahuil" n abs
+;	"tahuil" n abs s_pl3 REMOVE:29
+;	"tahuil" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<microondas>"
+	"microondas" n m pl
+	"microondas" n m sg
+;	"microondas" n m pl s_pl3 REMOVE:29
+;	"microondas" n m sg s_pl3 REMOVE:29
+;	"microondas" n m pl s_sg3 REMOVE:29
+;	"microondas" n m sg s_sg3 REMOVE:29
+"<no>"
+	"no" adv
+	"no" det @det
+"<ijkon>"
+	"ijkon" adv
+"<in>"
+	"in" det @det
+"<celulares>"
+	"celular" adj mf pl
+	"celular" adj mf pl s_pl3
+	"celular" adj mf pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<teposejekatanojnotsalonimej>"
+	"teposejekatanojnotsaloni" n pl
+	"teposejekatanojnotsaloni" n pl s_pl3
+	"teposejekatanojnotsaloni" n pl s_sg3
+"<kitekitiltiyaj>"
+	"*kitekitiltiyaj"
+"<in>"
+	"in" det @det
+"<tauil>"
+	"tahuil" n abs
+	"tahuil" n abs s_pl3
+	"tahuil" n abs s_sg3
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:22
+# text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.
+# text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
+# labels =  
+
+"<Itech>"
+	"tech" n rel px3sg
+"<kaltapajtiloyanimej>"
+	"*kaltapajtiloyanimej"
+"<semi>"
+	"semi" adv
+"<motekitiltiya>"
+	"*motekitiltiya"
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<tauil>"
+	"tahuil" n abs
+	"tahuil" n abs s_pl3
+	"tahuil" n abs s_sg3
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<se>"
+	"se" num
+"<kita>"
+	"ita" v tv pres s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<kemej>"
+	"kemej" adv
+"<in>"
+	"in" det @det
+"<rayos>"
+	"rayo" n m pl
+;	"rayo" n m pl s_pl3 REMOVE:29
+;	"rayo" n m pl s_sg3 REMOVE:29
+"<X>"
+	"x" x
+"<teyin>"
+	"tein" prn
+"<ika>"
+	"ka" n rel px3sg
+"<kikixtiliyaj>"
+	"*kikixtiliyaj"
+"<ixtakopimej>"
+	"ixtakopin" n pl
+;	"ixtakopin" n pl s_pl3 REMOVE:29
+;	"ixtakopin" n pl s_sg3 REMOVE:29
+"<in>"
+	"in" det @det
+"<tojomiuan>"
+	"*tojomiuan"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:24
+# text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
+# text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
+# labels =  
+
+"<Nochin>"
+	"nochi" det @det
+"<tauilmej>"
+	"tahuil" n pl
+	"tahuil" n pl s_pl3
+	"tahuil" n pl s_sg3
+"<,>"
+	"," cm @punct
+"<teyin>"
+	"tein" prn
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<se>"
+	"se" num
+"<kita>"
+	"ita" v tv pres s_sg3 o_sg3
+"<kemej>"
+	"kemej" adv
+"<itapaluan>"
+	"tapal" n pl px3sg
+"<kosantsin>"
+	"kosantsin" n abs
+;	"kosantsin" n abs s_pl3 REMOVE:29
+;	"kosantsin" n abs s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<sekita>"
+	"ita" v tv pres s_ind o_sg3
+"<kemej>"
+	"kemej" adv
+"<rayos>"
+	"rayo" n m pl
+	"rayo" n m pl s_pl3
+	"rayo" n m pl s_sg3
+"<X>"
+	"x" x
+"<oso>"
+	"oso" cnjcoo @cc
+"<microondas>"
+	"microondas" n m pl
+	"microondas" n m sg
+	"microondas" n m pl s_pl3
+	"microondas" n m sg s_pl3
+	"microondas" n m pl s_sg3
+	"microondas" n m sg s_sg3
+"<,>"
+	"," cm @punct
+"<kintokaytiyaj>"
+	"*kintokaytiyaj"
+"<ueyichikaujkameyot>"
+	"*ueyichikaujkameyot"
+ “
+"<radiación>"
+	"radiación" n f sg
+	"radiación" n f sg s_pl3
+	"radiación" n f sg s_sg3
+"<electromagnética>"
+	"electromagnética" n f sg
+	"electromagnética" n f sg s_pl3
+	"electromagnética" n f sg s_sg3
+”
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:25
+# text = Ininchikaujkayo kintamanchiuaj.
+# text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
+# labels =  
+
+"<Ininchikaujkayo>"
+	"*Ininchikaujkayo"
+"<kintamanchiuaj>"
+	"*kintamanchiuaj"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:26
+# text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
+# text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
+# labels =  
+
+"<In>"
+	"in" det @det
+"<,>"
+	"," cm @punct
+"<rayos>"
+	"rayo" n m pl
+;	"rayo" n m pl s_pl3 REMOVE:31
+;	"rayo" n m pl s_sg3 REMOVE:31
+"<X>"
+	"x" x
+"<kipiyaj>"
+	"piya" v tv pres s_pl3 o_sg3
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<miyak>"
+	"miak" det @det
+"<chikaualis>"
+	"chikahualis" n abs
+;	"chikahualis" n abs s_pl3 REMOVE:29
+;	"chikahualis" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<moitaj>"
+	"ita" v tv pres s_pl3 o_ref
+	"ita" v tv pret s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<uan>"
+	"huan" cnjcoo @cc
+"<microondas>"
+	"microondas" n m pl
+	"microondas" n m sg
+;	"microondas" n m pl s_pl3 REMOVE:29
+;	"microondas" n m sg s_pl3 REMOVE:29
+;	"microondas" n m pl s_sg3 REMOVE:29
+;	"microondas" n m sg s_sg3 REMOVE:29
+"<kipiyaj>"
+	"piya" v tv pres s_pl3 o_sg3
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<tepitsin>"
+	"tepitsin" adv
+"<miyak>"
+	"miak" det @det
+"<chikaualis>"
+	"chikahualis" n abs
+;	"chikahualis" n abs s_pl3 REMOVE:29
+;	"chikahualis" n abs s_sg3 REMOVE:29
+"<kej>"
+	"*kej"
+"<rayos>"
+	"rayo" n m pl
+;	"rayo" n m pl s_pl3 REMOVE:29
+;	"rayo" n m pl s_sg3 REMOVE:29
+"<X>"
+	"x" x
+"<uan>"
+	"huan" cnjcoo @cc
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<microondas>"
+	"microondas" n m pl
+	"microondas" n m sg
+;	"microondas" n m pl s_pl3 REMOVE:29
+;	"microondas" n m sg s_pl3 REMOVE:29
+;	"microondas" n m pl s_sg3 REMOVE:29
+;	"microondas" n m sg s_sg3 REMOVE:29
+"<kipiyaj>"
+	"piya" v tv pres s_pl3 o_sg3
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<tsiktsin>"
+	"tsik" adj hon
+	"tsik" adj hon s_sg3
+"<chikaualis>"
+	"chikahualis" n abs
+;	"chikahualis" n abs s_pl3 REMOVE:31
+;	"chikahualis" n abs s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<mokui>"
+	"kui" v tv pres s_sg3 o_ref
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<teposejekatanojnotsaloni>"
+	"teposejekatanojnotsaloni" n abs
+;	"teposejekatanojnotsaloni" n abs s_pl3 REMOVE:29
+;	"teposejekatanojnotsaloni" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:28
+# text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
+# text[spa] = A partir de que se logró entender cómo funciona la radiación electromagnética, ha sido posible utilizarla para desarrollar la tecnología necesaria para inventar la televisión, el radio, los teléfonos celulares, las radiografías e incluso tratamientos para el cáncer.
+# labels =  
+
+"<Satepan>"
+	"satepan" adv
+"<ika>"
+	"ka" n rel px3sg
+"<tikmatkej>"
+	"*tikmatkej"
+"<katin>"
+	"katin" prn
+"<itatekiujtilis>"
+	"*itatekiujtilis"
+"<in>"
+	"in" det @det
+"<ueyichikuakameyot>"
+	"*ueyichikuakameyot"
+"<radiación>"
+	"radiación" n f sg
+;	"radiación" n f sg s_pl3 REMOVE:31
+;	"radiación" n f sg s_sg3 REMOVE:31
+"<electromagnética>"
+	"electromagnética" n f sg
+;	"electromagnética" n f sg s_pl3 REMOVE:31
+;	"electromagnética" n f sg s_sg3 REMOVE:31
+"<ika>"
+	"ka" n rel px3sg
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<peuak>"
+	"pehua" v iv pret s_sg3
+"<mochijchiuaj>"
+	"chijchihua" v tv pres s_pl3 o_ref
+	"chijchihua" v tv pret s_sg3 o_ref
+"<yankuik>"
+	"yankuik" adj
+	"yankuik" adj s_sg3
+"<teposmej>"
+	"tepos" n pl
+	"tepos" n pl s_pl3
+	"tepos" n pl s_sg3
+"<kemej>"
+	"kemej" adv
+"<televisión>"
+	"televisión" n f sg
+	"televisión" n f sg s_pl3
+	"televisión" n f sg s_sg3
+"<,>"
+	"," cm @punct
+"<radio>"
+	"radio" n m sg
+	"radio" n m sg s_pl3
+	"radio" n m sg s_sg3
+"<,>"
+	"," cm @punct
+"<teléfonos>"
+	"teléfono" n m pl
+	"teléfono" n m pl s_pl3
+	"teléfono" n m pl s_sg3
+"<celulares>"
+	"celular" adj mf pl
+	"celular" adj mf pl s_pl3
+	"celular" adj mf pl s_sg3
+"<,>"
+	"," cm @punct
+"<radiografías>"
+	"radiografía" n f pl
+	"radiografía" n f pl s_pl3
+	"radiografía" n f pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<motamatsintokatok>"
+	"*motamatsintokatok"
+"<kenuij>"
+	"keni" adv itg
+"<kuali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<tapaleuis>"
+	"palehuia" v tv fut s_sg3 o_nn
+"<maj>"
+	"ma" aux
+"<motokotso>"
+	"*motokotso"
+"<in>"
+	"in" det @det
+"<kokolis>"
+	"kokolis" n abs
+;	"kokolis" n abs s_pl3 REMOVE:29
+;	"kokolis" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<cáncer>"
+	"cáncer" n m sg
+;	"cáncer" n m sg s_pl3 REMOVE:29
+;	"cáncer" n m sg s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:30
+# text = Keniuj se Tayis Ueyistajat
+# text[spa] = Tomar la mar
+# labels =  
+
+"<Keniuj>"
+	"keni" adv itg
+"<se>"
+	"se" num
+"<Tayis>"
+	"tai" v iv fut s_sg3
+"<Ueyistajat>"
+	"*Ueyistajat"
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:32
+# text = ¿Keniuj uelis titayis in ueyistajat?
+# text[spa] = ¿Te puedes tomar el agua del mar?
+# labels =  
+"<¿>"
+	"¿" sent @punct
+"<Keniuj>"
+	"keni" adv itg
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<titayis>"
+	"tai" v iv fut s_sg2
+"<in>"
+	"in" det @det
+"<ueyistajat>"
+	"*ueyistajat"
+"<?>"
+	"?" sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:33
+# text = ¡Maj sekikixtili in istat!
+# text[spa] = ¡Sí, quitándole la sal!
+# labels =  ¡
+"<Maj>"
+	"ma" aux
+"<sekikixtili>"
+	"*sekikixtili"
+"<in>"
+	"in" det @det
+"<istat>"
+	"istat" n abs
+;	"istat" n abs s_pl3 REMOVE:29
+;	"istat" n abs s_sg3 REMOVE:29
+"<!>"
+	"!" sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:34
+# text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
+# text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
+# labels =  ¿
+"<Tikmatiya>"
+	"mati" v tv impf s_sg2 o_sg3
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<miyak>"
+	"miak" det @det
+"<tamatemolis>"
+	"*tamatemolis"
+"<uan>"
+	"huan" cnjcoo @cc
+"<mochiuaj>"
+	"chihua" v tv pres s_pl3 o_ref
+	"chihua" v tv pret s_sg3 o_ref
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:29
+;	"tepos" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<ika>"
+	"ka" n rel px3sg
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<sekikixtilis>"
+	"kixtilia" v tv fut s_ind o_sg3
+"<istat>"
+	"istat" n abs
+;	"istat" n abs s_pl3 REMOVE:29
+;	"istat" n abs s_sg3 REMOVE:29
+"<in>"
+	"in" det @det
+"<at>"
+	"at" n abs
+;	"at" n abs s_pl3 REMOVE:29
+;	"at" n abs s_sg3 REMOVE:29
+"<?>"
+	"?" sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:35
+# text = Yejuan nejin tekimej teyin motenijtouaj, achipaualis ika teposmej teyin amo tapitsochiuaj, kemej ne ichikaujka tonalmeyot.
+# text[spa] = Las propuestas más interesantes para lograrlo son aquellas que quitan la sal del agua utilizando energías renovables, como la energía del sol.
+# labels =  
+"<Yejuan>"
+	"yehuan" prn pers pl3 abs
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<tekimej>"
+	"tekit" n pl
+;	"tekit" n pl s_pl3 REMOVE:29
+;	"tekit" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<motenijtouaj>"
+	"*motenijtouaj"
+"<,>"
+	"," cm @punct
+"<achipaualis>"
+	"*achipaualis"
+"<ika>"
+	"ka" n rel px3sg
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:29
+;	"tepos" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<tapitsochiuaj>"
+	"*tapitsochiuaj"
+"<,>"
+	"," cm @punct
+"<kemej>"
+	"kemej" adv
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<ichikaujka>"
+	"*ichikaujka"
+"<tonalmeyot>"
+	"*tonalmeyot"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:37
+# text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
+# text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
+# labels =  
+
+"<Keman>"
+	"keman" adv
+"<se>"
+	"se" num
+"<kisentiliya>"
+	"*kisentiliya"
+"<itech>"
+	"tech" n rel px3sg
+"<uejueyi>"
+	"huehuei" adj
+	"huehuei" adj s_sg3
+"<kuetaxmej>"
+	"kuetax" n pl
+	"kuetax" n pl s_pl3
+	"kuetax" n pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<nejinkej>"
+	"*nejinkej"
+"<,>"
+	"," cm @punct
+"<maj>"
+	"ma" aux
+"<yetokan>"
+	"*yetokan"
+"<taijtik>"
+	"taijtik" adv
+	"tat" n cmp
+		"ijtik" n rel
+	"ijtik" n rel px3nn
+	"tat" n cmp s_pl3
+		"ijtik" n rel
+	"tat" n cmp s_sg3
+		"ijtik" n rel
+"<kanpa>"
+	"kampa" adv rel
+"<takauani>"
+	"kahuani" v tv pres s_sg3 o_nn
+	"kahua" v tv pp s_sg3 o_nn
+"<kemej>"
+	"kemej" adv
+"<se>"
+	"se" num
+"<invernadero>"
+	"invernadero" n m sg
+;	"invernadero" n m sg s_pl3 REMOVE:29
+;	"invernadero" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<mochipauas>"
+	"chipahua" v tv fut s_sg3 o_ref
+"<in>"
+	"in" det @det
+"<at>"
+	"at" n abs
+;	"at" n abs s_pl3 REMOVE:29
+;	"at" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:38
+# text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
+# text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
+# labels =  
+
+"<Nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<at>"
+	"at" n abs
+	"at" n abs s_sg3
+;	"at" n abs s_pl3 REMOVE:39
+"<mitoniya>"
+	"*mitoniya"
+"<,>"
+	"," cm @punct
+"<in>"
+	"in" det @det
+"<ijpotok>"
+	"ijpotok" n abs
+	"ijpotok" n abs s_sg3
+;	"ijpotok" n abs s_pl3 REMOVE:39
+"<mokaua>"
+	"kahua" n px2sg
+	"kahua" n abs px2sg
+	"mokahua" v iv pres s_sg3
+	"kahua" v tv pres s_sg3 o_ref
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<tatsakuil>"
+	"tatsakuil" n abs
+;	"tatsakuil" n abs s_pl3 REMOVE:31
+;	"tatsakuil" n abs s_sg3 REMOVE:31
+"<uan>"
+	"huan" cnjcoo @cc
+"<ompa>"
+	"ompa" adv
+"<tayijtik>"
+	"tayijtik" adv
+"<,>"
+	"," cm @punct
+"<tajuachuetsi>"
+	"*tajuachuetsi"
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<chipauakat>"
+	"chipahuakat" n abs
+;	"chipahuakat" n abs s_pl3 REMOVE:31
+;	"chipahuakat" n abs s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<mosentiliya>"
+	"*mosentiliya"
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<se>"
+	"se" num
+"<tayis>"
+	"tai" v iv fut s_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:40
+# text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
+# text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
+# labels =  
+
+"<Nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<tamatemolis>"
+	"*tamatemolis"
+"<mosentoka>"
+	"toka" v tv pres s_sg3 o_ref sen
+"<uan>"
+	"huan" cnjcoo @cc
+"<ijkon>"
+	"ijkon" adv
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<sekichiuas>"
+	"chihua" v tv fut s_ind o_sg3
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<kuali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<achipaualis>"
+	"*achipaualis"
+"<,>"
+	"," cm @punct
+"<uan>"
+	"huan" cnjcoo @cc
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<se>"
+	"se" num
+"<kiuikas>"
+	"huika" v tv fut s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<ika>"
+	"ka" n rel px3sg
+"<chipaujkayot>"
+	"*chipaujkayot"
+"<,>"
+	"," cm @punct
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<istajat>"
+	"*istajat"
+"<kanpa>"
+	"kampa" adv rel
+"<se>"
+	"se" num
+"<kichipauas>"
+	"chipahua" v tv fut s_sg3 o_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:41
+# text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
+# text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
+# labels =  
+
+"<Moneki>"
+	"neki" v tv pres s_sg3 o_ref
+"<maj>"
+	"ma" aux
+"<semochiya>"
+	"*semochiya"
+"<uan>"
+	"huan" cnjcoo @cc
+"<ijkon>"
+	"ijkon" adv
+"<satepan>"
+	"satepan" adv
+"<oksekin>"
+	"okse" det pl
+"<tonalmej>"
+	"tonal" n pl
+;	"tonal" n pl s_pl3 REMOVE:29
+;	"tonal" n pl s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<maj>"
+	"ma" aux
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<se>"
+	"se" num
+"<kitas>"
+	"ita" v tv fut s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<ijka>"
+	"ijka" v iv pres s_sg3
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:29
+;	"tepos" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<tapitsochiuaj>"
+	"*tapitsochiuaj"
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<nekuelmololmej>"
+	"*nekuelmololmej"
+"<teyin>"
+	"tein" prn
+"<kipiya>"
+	"piya" v tv pres s_sg3 o_sg3
+"<toatsin>"
+	"at" n hon px1pl
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:43
+# text = Próxima Centauri B
+# text[spa] = Próxima Centauri B
+# labels =  
+
+"<Próxima>"
+	"Próxima" np top
+;	"Próxima" np top s_pl3 REMOVE:31
+;	"Próxima" np top s_sg3 REMOVE:31
+"<Centauri>"
+	"Centauri" np top
+;	"Centauri" np top s_pl3 REMOVE:31
+;	"Centauri" np top s_sg3 REMOVE:31
+"<B>"
+	"*B"
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:45
+# text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
+# text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
+# labels =  
+"<Miyakej>"
+	"miak" det pl
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:31
+;	"sitalin" n pl s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<tikinitaj>"
+	"ita" v tv pres s_pl1 o_pl3
+	"ita" v tv pret s_sg2 o_pl3
+"<itech>"
+	"tech" n rel px3sg
+"<iluikak>"
+	"iluikak" n abs
+;	"iluikak" n abs s_pl3 REMOVE:29
+;	"iluikak" n abs s_sg3 REMOVE:29
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<kipiyaskej>"
+	"piya" v tv fut s_pl3 o_sg3
+"<oksekin>"
+	"okse" det pl
+"<kemej>"
+	"kemej" adv
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<no>"
+	"no" adv
+	"no" det @det
+"<kinyeualouaj>"
+	"yehualohua" v tv pres s_pl3 o_pl3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:46
+# text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
+# text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
+# labels =  
+
+"<Sekimej>"
+	"seki" prn pl
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<chijchiujtoskej>"
+	"chijchihua" v iv prog fut s_pl3
+"<kemej>"
+	"kemej" adv
+"<totaltikpak>"
+	"taltikpak" n px1pl
+	"taltikpak" n abs px1pl
+"<uan>"
+	"huan" cnjcoo @cc
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<onkas>"
+	"onka" v iv fut s_sg3
+"<nemilis>"
+	"nemilis" n abs
+;	"nemilis" n abs s_pl3 REMOVE:29
+;	"nemilis" n abs s_sg3 REMOVE:29
+"<!>"
+	"!" sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:47
+# text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
+# text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
+# labels =  
+"<Uelis>"
+	"hueli" v iv fut s_sg3
+"<moajsis>"
+	"ajsi" v tv fut s_sg3 o_ref
+"<nemilis>"
+	"nemilis" n abs
+;	"nemilis" n abs s_pl3 REMOVE:29
+;	"nemilis" n abs s_sg3 REMOVE:29
+"<itech>"
+	"tech" n rel px3sg
+"<oksekin>"
+	"okse" det pl
+"<taltikpakmej>"
+	"taltikpak" n pl
+;	"taltikpak" n pl s_pl3 REMOVE:29
+;	"taltikpak" n pl s_sg3 REMOVE:29
+"<semi>"
+	"semi" adv
+"<teyoltanemililtiya>"
+	"*teyoltanemililtiya"
+"<,>"
+	"," cm @punct
+"<yejua>"
+	"yehua" prn pers sg3
+"<ika>"
+	"ka" n rel px3sg
+"<miyakej>"
+	"miak" det pl
+"<tokniuan>"
+	"toknihuan" n abs
+	"knihuan" n px1pl
+	"knihuan" n abs px1pl
+;	"toknihuan" n abs s_pl3 REMOVE:29
+;	"toknihuan" n abs s_sg3 REMOVE:29
+"<tamatemouaj>"
+	"*tamatemouaj"
+"<keniuj>"
+	"keni" adv itg
+"<uan>"
+	"huan" cnjcoo @cc
+"<kani>"
+	"kani" adv itg
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<moajsiskej>"
+	"ajsi" v tv fut s_pl3 o_ref
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<oksekin>"
+	"okse" det pl
+"<taltikpakmej>"
+	"taltikpak" n pl
+;	"taltikpak" n pl s_pl3 REMOVE:29
+;	"taltikpak" n pl s_sg3 REMOVE:29
+"<itech>"
+	"tech" n rel px3sg
+"<neje>"
+	"nejen" ij
+	"nejen" prn
+	"neje" det @det
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:29
+;	"sitalin" n pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:49
+# text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
+# text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
+# labels =  
+
+"<Itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<metsti>"
+	"metsti" n abs
+;	"metsti" n abs s_pl3 REMOVE:31
+;	"metsti" n abs s_sg3 REMOVE:31
+"<agosto>"
+	"agosto" n m sg
+;	"agosto" n m sg s_pl3 REMOVE:31
+;	"agosto" n m sg s_sg3 REMOVE:31
+"<xiuit>"
+	"xihuit" n abs
+;	"xihuit" n abs s_pl3 REMOVE:31
+;	"xihuit" n abs s_sg3 REMOVE:31
+"<2016>"
+	"2016" num
+"<iluikataixpejpenanij>"
+	"*iluikataixpejpenanij"
+"<teyin>"
+	"tein" prn
+"<pouij>"
+	"pohui" v iv pres s_pl3
+	"pohui" v iv pret s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<nechikol>"
+	"nechikol" n abs
+;	"nechikol" n abs s_pl3 REMOVE:29
+;	"nechikol" n abs s_sg3 REMOVE:29
+"<Observatorio>"
+	"observatorio" n m sg
+;	"observatorio" n m sg s_pl3 REMOVE:29
+;	"observatorio" n m sg s_sg3 REMOVE:29
+"<Espacial>"
+	"espacial" adj mf sg
+	"espacial" adj mf sg s_sg3
+;	"espacial" adj mf sg s_pl3 REMOVE:39
+"<Austral>"
+	"*Austral"
+"<,>"
+	"," cm @punct
+"<kiteyixnextiltijkej>"
+	"*kiteyixnextiltijkej"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<semanauak>"
+	"semanahuak" n abs
+	"semanahuak" n abs s_sg3
+;	"semanahuak" n abs s_pl3 REMOVE:39
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<okse>"
+	"okse" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:31
+;	"taltikpak" n abs s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<ijkuitik>"
+	"*ijkuitik"
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<totalmanik>"
+	"talmanik" n px1pl
+	"talmanik" n abs px1pl
+"<,>"
+	"," cm @punct
+"<maski>"
+	"maski" cnjsub
+"<amo>"
+	"amo" adv
+"<yekinika>"
+	"yekinika" adv
+"<yejua>"
+	"yehua" prn pers sg3
+"<moajsi>"
+	"ajsi" v tv pres s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<tajtol>"
+	"tajtol" n abs
+;	"tajtol" n abs s_pl3 REMOVE:29
+;	"tajtol" n abs s_sg3 REMOVE:29
+"<moneki>"
+	"neki" v tv pres s_sg3 o_ref
+"<maj>"
+	"ma" aux
+"<sekimati>"
+	"mati" v tv pres s_ind o_sg3
+"<,>"
+	"," cm @punct
+"<ta>"
+	"ta" adv
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<okse>"
+	"okse" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<no>"
+	"no" adv
+	"no" det @det
+"<kiyeualoua>"
+	"yehualohua" v tv pres s_sg3 o_sg3
+"<okse>"
+	"okse" det @det
+"<tonal>"
+	"tonal" n abs
+;	"tonal" n abs s_pl3 REMOVE:29
+;	"tonal" n abs s_sg3 REMOVE:29
+: 
+"<Próxima>"
+	"Próxima" np top
+;	"Próxima" np top s_pl3 REMOVE:29
+;	"Próxima" np top s_sg3 REMOVE:29
+"<Centauri>"
+	"Centauri" np top
+;	"Centauri" np top s_pl3 REMOVE:29
+;	"Centauri" np top s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<kinetechojtok>"
+	"*kinetechojtok"
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tonal>"
+	"tonal" n abs
+;	"tonal" n abs s_pl3 REMOVE:29
+;	"tonal" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<nochipa>"
+	"nochipa" adv
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:50
+# text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
+# text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# labels =  
+
+"<Ika>"
+	"ka" n rel px3sg
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<tamatemolis>"
+	"*tamatemolis"
+"<tetaliya>"
+	"*tetaliya"
+"<itech>"
+	"tech" n rel px3sg
+"<se>"
+	"se" num
+"<tanojnotsalis>"
+	"*tanojnotsalis"
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<moixyejyekoua>"
+	"*moixyejyekoua"
+"<keniuj>"
+	"keni" adv itg
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<se>"
+	"se" num
+"<yas>"
+	"*yas"
+"<sitalkopa>"
+	"sitalkopa" adv
+"<.>"
+	"." sent @punct
+
+"<Miyakej>"
+	"miak" det pl
+"<tamatemolmej>"
+	"*tamatemolmej"
+"<poliuij>"
+	"polihui" v iv pres s_pl3
+	"polihui" v iv pret s_sg3
+"<ok>"
+	"ok" adv
+"<uan>"
+	"huan" cnjcoo @cc
+"<ayamo>"
+	"ayamo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<moijtos>"
+	"ijtohua" v tv fut s_sg3 o_ref
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<okse>"
+	"okse" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<moajsik>"
+	"ajsi" v tv pret s_sg3 o_ref
+"<kipiya>"
+	"piya" v tv pres s_sg3 o_sg3
+"<nemilis>"
+	"nemilis" n abs
+;	"nemilis" n abs s_pl3 REMOVE:29
+;	"nemilis" n abs s_sg3 REMOVE:29
+ (
+"<Próxima>"
+	"Próxima" np top
+;	"Próxima" np top s_pl3 REMOVE:29
+;	"Próxima" np top s_sg3 REMOVE:29
+"<Centauri>"
+	"Centauri" np top
+;	"Centauri" np top s_pl3 REMOVE:29
+;	"Centauri" np top s_sg3 REMOVE:29
+"<B>"
+	"*B"
+)
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:52
+# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
+# labels =  
+
+"<Ika>"
+	"ka" n rel px3sg
+"<oksekin>"
+	"okse" det pl
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+	"man" n abs px3nn
+	"taman" n abs s_pl3
+	"taman" n abs s_sg3
+"<tanemililmej>"
+	"*tanemililmej"
+"<,>"
+	"," cm @punct
+"<ta>"
+	"ta" adv
+"<maski>"
+	"maski" cnjsub
+"<ikauanyo>"
+	"*ikauanyo"
+"<yeskiya>"
+	"*yeskiya"
+"<kuali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<maj>"
+	"ma" aux
+"<onka>"
+	"onka" v iv pres s_sg3
+"<at>"
+	"at" n abs
+;	"at" n abs s_pl3 REMOVE:29
+;	"at" n abs s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<neje>"
+	"nejen" ij
+	"nejen" prn
+	"neje" det @det
+"<okse>"
+	"okse" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<nochipa>"
+	"nochipa" adv
+"<onkeptok>"
+	"*onkeptok"
+"<ixpan>"
+	"ixpan" n rel
+	"ix" n cmp
+		"pan" n rel
+;	"ix" n cmp s_pl3 REMOVE:29
+;		"pan" n rel
+;	"ix" n cmp s_sg3 REMOVE:29
+;		"pan" n rel
+"<neje>"
+	"nejen" ij
+	"nejen" prn
+	"neje" det @det
+"<okse>"
+	"okse" det @det
+"<tonal>"
+	"tonal" n abs
+;	"tonal" n abs s_pl3 REMOVE:29
+;	"tonal" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+
+"<Nejon>"
+	"nejon" prn
+"<kijtosneki>"
+	"ijtohua" v tv fut s_sg3 o_sg3
+		"neki" vaux
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<tajko>"
+	"tajko" n abs
+;	"tajko" n abs s_pl3 REMOVE:29
+;	"tajko" n abs s_sg3 REMOVE:29
+"<nochipa>"
+	"nochipa" adv
+"<tonatok>"
+	"tona" v iv prog pres s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<okse>"
+	"okse" det @det
+"<tajko>"
+	"tajko" n abs
+;	"tajko" n abs s_pl3 REMOVE:29
+;	"tajko" n abs s_sg3 REMOVE:29
+"<nochipa>"
+	"nochipa" adv
+"<tayouatok>"
+	"*tayouatok"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:54
+# text = In Nanotecnologías
+# text[spa] = Nanotecnología
+# labels =  
+
+"<In>"
+	"in" det @det
+"<Nanotecnologías>"
+	"nanotecnología" n f pl
+	"nanotecnología" n f pl s_pl3
+	"nanotecnología" n f pl s_sg3
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:56
+# text = In tamachilis teyin motokaytiya nanotecnologías, se nemachtil uan kinchijchiua teposmej tel senkaj tsikitsitsin teyin amo ueli motaj ta sayoj ueli motaj ika se tepos teyin motokaytiya microscopio.
+# text[spa] = La nanotecnología es el estudio y creación de dispositivos a una escala tan pequeña que no pueden percibirse a simple vista y sólo se pueden ver con ayuda de microscopios.
+# labels =  
+"<In>"
+	"in" det @det
+"<tamachilis>"
+	"tamachilis" n abs
+	"tamachilis" n abs s_pl3
+	"tamachilis" n abs s_sg3
+	"machilia" v tv fut s_sg3 o_nn
+"<teyin>"
+	"tein" prn
+"<motokaytiya>"
+	"*motokaytiya"
+"<nanotecnologías>"
+	"nanotecnología" n f pl
+;	"nanotecnología" n f pl s_pl3 REMOVE:31
+;	"nanotecnología" n f pl s_sg3 REMOVE:31
+"<,>"
+	"," cm @punct
+"<se>"
+	"se" num
+"<nemachtil>"
+	"nemachtil" n abs
+;	"nemachtil" n abs s_pl3 REMOVE:31
+;	"nemachtil" n abs s_sg3 REMOVE:31
+"<uan>"
+	"huan" cnjcoo @cc
+"<kinchijchiua>"
+	"chijchihua" v tv pres s_sg3 o_pl3
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:29
+;	"tepos" n pl s_sg3 REMOVE:29
+"<tel>"
+	"tel" adv
+"<senkaj>"
+	"*senkaj"
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<motaj>"
+	"ita" v tv pres s_pl3 o_ref
+	"ita" v tv pret s_sg3 o_ref
+"<ta>"
+	"ta" adv
+"<sayoj>"
+	"sayoj" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<motaj>"
+	"ita" v tv pres s_pl3 o_ref
+	"ita" v tv pret s_sg3 o_ref
+"<ika>"
+	"ka" n rel px3sg
+"<se>"
+	"se" num
+"<tepos>"
+	"tepos" n abs
+;	"tepos" n abs s_pl3 REMOVE:29
+;	"tepos" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<motokaytiya>"
+	"*motokaytiya"
+"<microscopio>"
+	"microscópio" n m sg
+;	"microscópio" n m sg s_pl3 REMOVE:29
+;	"microscópio" n m sg s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:57
+# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
+
+"<Nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<tamachiuj>"
+	"tamachiuj" n abs
+;	"tamachiuj" n abs s_pl3 REMOVE:31
+;	"tamachiuj" n abs s_sg3 REMOVE:31
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<nanométrica>"
+	"nanométrica" n f sg
+;	"nanométrica" n f sg s_pl3 REMOVE:29
+;	"nanométrica" n f sg s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<ijkon>"
+	"ijkon" adv
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<se>"
+	"se" num
+"<kiajsikamatis>"
+	"*kiajsikamatis"
+"<keniuj>"
+	"keni" adv itg
+"<chichiujtok>"
+	"chijchihua" v iv prog pres s_sg3
+"<,>"
+	"," cm @punct
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<se>"
+	"se" num
+"<kinemilis>"
+	"*kinemilis"
+"<se>"
+	"se" num
+"<askat>"
+	"askat" n abs
+;	"askat" n abs s_pl3 REMOVE:29
+;	"askat" n abs s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<nemi>"
+	"nemi" v iv pres s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<in>"
+	"in" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+;	"taltikpak" n abs s_pl3 REMOVE:29
+;	"taltikpak" n abs s_sg3 REMOVE:29
+"<se>"
+	"se" num
+"<kitsikitsintiltiya>"
+	"*kitsikitsintiltiya"
+"<uan>"
+	"huan" cnjcoo @cc
+"<ijkon>"
+	"ijkon" adv
+"<maj>"
+	"ma" aux
+"<aki>"
+	"aki" v iv pres s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<se>"
+	"se" num
+"<imakpal>"
+	"makpal" n px3sg
+	"makpal" n abs px3sg
+"<.>"
+	"." sent @punct
+
+"<Nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<askat>"
+	"askat" n abs
+	"askat" n abs s_sg3
+;	"askat" n abs s_pl3 REMOVE:39
+"<no>"
+	"no" adv
+	"no" det @det
+"<motokotsojtiyaj>"
+	"*motokotsojtiyaj"
+"<.>"
+	"." sent @punct
+
+"<Nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<askat>"
+	"askat" n abs
+	"askat" n abs s_sg3
+;	"askat" n abs s_pl3 REMOVE:39
+"<mokaua>"
+	"kahua" n px2sg
+	"kahua" n abs px2sg
+	"mokahua" v iv pres s_sg3
+	"kahua" v tv pres s_sg3 o_ref
+"<keme>"
+	"kemej" adv
+"<itamachiuj>"
+	"tamachiuj" n px3sg
+	"tamachiuj" n abs px3sg
+"<se>"
+	"se" num
+"<nanómetro>"
+	"nanómetro" n m sg
+	"nanómetro" n m sg s_sg3
+;	"nanómetro" n m sg s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+
+"<Amo>"
+	"amo" adv
+"<mota>"
+	"tat" n px2sg
+	"ita" v tv pres s_sg3 o_ref
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:58
+# text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
+# text[spa] = Los dispositivos que se utilizan en la nanotecnología son tan pequeños que se construyen con unas pocas moléculas y átomos.
+# labels =  
+
+"<In>"
+	"in" det @det
+"<teposkonemej>"
+	"*teposkonemej"
+"<teyin>"
+	"tein" prn
+"<mokuij>"
+	"kui" v tv pres s_pl3 o_ref
+	"kui" v tv pret s_sg3 o_ref
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<nanotecnologías>"
+	"nanotecnología" n f pl
+;	"nanotecnología" n f pl s_pl3 REMOVE:29
+;	"nanotecnología" n f pl s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<tel>"
+	"tel" adv
+"<senkaj>"
+	"*senkaj"
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<teyin>"
+	"tein" prn
+"<mochijchiuaj>"
+	"chijchihua" v tv pres s_pl3 o_ref
+	"chijchihua" v tv pret s_sg3 o_ref
+"<ika>"
+	"ka" n rel px3sg
+"<tsiktsin>"
+	"tsik" adj hon
+	"tsik" adj hon s_sg3
+"<moléculas>"
+	"molécula" n f pl
+	"molécula" n f pl s_pl3
+	"molécula" n f pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<átomos>"
+	"átomo" n m pl
+	"átomo" n m pl s_pl3
+	"átomo" n m pl s_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:60
+# text = In teposmej motekitiltiyaj itech in tapajtilnemachtilmej kampa mochijchiujtokej nano-robots, teyin uelij kinpaleuiyaj seki células oso kinpojpolouaj teyin mokokouaj, kemej in células cancerígenas.
+# text[spa] = Una de las aplicaciones más importantes de estos objetos es su posible uso en la medicina para la que se están desarrollando nano-robots que sean capaces de atacar a células específicas, como las cancerígenas.
+# labels =  
+
+"<In>"
+	"in" det @det
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:31
+;	"tepos" n pl s_sg3 REMOVE:31
+"<motekitiltiyaj>"
+	"*motekitiltiyaj"
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<tapajtilnemachtilmej>"
+	"*tapajtilnemachtilmej"
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<mochijchiujtokej>"
+	"chijchihua" v tv prog pres s_pl3 o_ref
+"<nano>"
+	"nano" n abs
+;	"nano" n abs s_pl3 REMOVE:29
+;	"nano" n abs s_sg3 REMOVE:29
+-
+"<robots>"
+	"robot" n m pl
+;	"robot" n m pl s_pl3 REMOVE:29
+;	"robot" n m pl s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<teyin>"
+	"tein" prn
+"<uelij>"
+	"hueli" v iv pres s_pl3
+	"hueli" v iv pret s_sg3
+"<kinpaleuiyaj>"
+	"*kinpaleuiyaj"
+"<seki>"
+	"seki" det @det
+	"seki" prn
+"<células>"
+	"célula" n f pl
+;	"célula" n f pl s_pl3 REMOVE:29
+;	"célula" n f pl s_sg3 REMOVE:29
+"<oso>"
+	"oso" cnjcoo @cc
+"<kinpojpolouaj>"
+	"*kinpojpolouaj"
+"<teyin>"
+	"tein" prn
+"<mokokouaj>"
+	"kokohua" v tv pres s_pl3 o_ref
+"<,>"
+	"," cm @punct
+"<kemej>"
+	"kemej" adv
+"<in>"
+	"in" det @det
+"<células>"
+	"célula" n f pl
+;	"célula" n f pl s_pl3 REMOVE:29
+;	"célula" n f pl s_sg3 REMOVE:29
+"<cancerígenas>"
+	"cancerígeno" adj f pl
+	"cancerígeno" adj f pl s_pl3
+	"cancerígeno" adj f pl s_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:62
+# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
+# text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# labels =  
+
+"<Ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<se>"
+	"se" num
+"<kinsentiliya>"
+	"*kinsentiliya"
+"<miyak>"
+	"miak" det @det
+"<moléculas>"
+	"molécula" n f pl
+;	"molécula" n f pl s_pl3 REMOVE:31
+;	"molécula" n f pl s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<kiskaltiyaj>"
+	"*kiskaltiyaj"
+"<se>"
+	"se" num
+"<nano>"
+	"nano" n abs
+;	"nano" n abs s_pl3 REMOVE:31
+;	"nano" n abs s_sg3 REMOVE:31
+-
+"<robot>"
+	"robot" n m sg
+;	"robot" n m sg s_pl3 REMOVE:31
+;	"robot" n m sg s_sg3 REMOVE:31
+"<,>"
+	"," cm @punct
+"<uan>"
+	"huan" cnjcoo @cc
+"<ika>"
+	"ka" n rel px3sg
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<teposmej>"
+	"tepos" n pl
+;	"tepos" n pl s_pl3 REMOVE:31
+;	"tepos" n pl s_sg3 REMOVE:31
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<se>"
+	"se" num
+"<kinixmatis>"
+	"ixmati" v tv fut s_sg3 o_pl3
+"<katin>"
+	"katin" prn
+"<células>"
+	"célula" n f pl
+;	"célula" n f pl s_pl3 REMOVE:29
+;	"célula" n f pl s_sg3 REMOVE:29
+"<mokokouaj>"
+	"kokohua" v tv pres s_pl3 o_ref
+"<,>"
+	"," cm @punct
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<tamatilismej>"
+	"*tamatilismej"
+"<moixyeyekouaj>"
+	"*moixyeyekouaj"
+"<itech>"
+	"tech" n rel px3sg
+"<kimichimej>"
+	"kimichin" n pl
+;	"kimichin" n pl s_pl3 REMOVE:29
+;	"kimichin" n pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+
+"<Nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<tamachilis>"
+	"tamachilis" n abs
+	"tamachilis" n abs s_pl3
+	"tamachilis" n abs s_sg3
+	"machilia" v tv fut s_sg3 o_nn
+"<kitapoua>"
+	"*kitapoua"
+"<se>"
+	"se" num
+"<yankuik>"
+	"yankuik" adj
+	"yankuik" adj s_sg3
+"<nemachtil>"
+	"nemachtil" n abs
+	"nemachtil" n abs s_pl3
+	"nemachtil" n abs s_sg3
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<moixnextiya>"
+	"*moixnextiya"
+"<keniuj>"
+	"keni" adv itg
+"<se>"
+	"se" num
+"<kinmiktis>"
+	"*kinmiktis"
+"<células>"
+	"célula" n f pl
+	"célula" n f pl s_pl3
+	"célula" n f pl s_sg3
+"<cancerígenas>"
+	"cancerígeno" adj f pl
+	"cancerígeno" adj f pl s_pl3
+	"cancerígeno" adj f pl s_sg3
+"<teyin>"
+	"tein" prn
+"<tekokolismakaj>"
+	"*tekokolismakaj"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:64
+# text = In ueyi tatoponilis
+# text[spa] = La Gran Explosión
+# labels =  
+
+"<In>"
+	"in" det @det
+"<ueyi>"
+	"huei" adj
+	"huei" adj s_sg3
+"<tatoponilis>"
+	"*tatoponilis"
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:66
+# text = Xiujmej tayikan moajsik ke ne mixkouamej teyin monotsaj galaxias techkaujteuaj uan ne teyin kachi uejka moajsij kachi ijsiujka mouekatiliya.
+# text[spa] = Durante el siglo pasado se descubrió que las galaxias en el universo se alejan de nosotros y que, mientras más lejos estén, se alejan más rápido.
+# labels =  
+"<Xiujmej>"
+	"*Xiujmej"
+"<tayikan>"
+	"tai" v iv opt s_pl3
+"<moajsik>"
+	"ajsi" v tv pret s_sg3 o_ref
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<mixkouamej>"
+	"mixkouat" n pl
+;	"mixkouat" n pl s_pl3 REMOVE:29
+;	"mixkouat" n pl s_sg3 REMOVE:29
+"<teyin>"
+	"tein" prn
+"<monotsaj>"
+	"notsa" v tv pres s_pl3 i_ref o_sg3
+"<galaxias>"
+	"galaxia" n f pl
+;	"galaxia" n f pl s_pl3 REMOVE:29
+;	"galaxia" n f pl s_sg3 REMOVE:29
+"<techkaujteuaj>"
+	"*techkaujteuaj"
+"<uan>"
+	"huan" cnjcoo @cc
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<teyin>"
+	"tein" prn
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<uejka>"
+	"huejka" adv
+"<moajsij>"
+	"ajsi" v tv pres s_pl3 o_ref
+	"ajsi" v tv pret s_sg3 o_ref
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<ijsiujka>"
+	"*ijsiujka"
+"<mouekatiliya>"
+	"*mouekatiliya"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:67
+# text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
+# text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
+# labels =  
+
+"<Ika>"
+	"ka" n rel px3sg
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<moijtoua>"
+	"ijtohua" v tv pres s_sg3 o_ref
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<achtopa>"
+	"achtopa" adv
+"<,>"
+	"," cm @punct
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<netechiujtoyaj>"
+	"*netechiujtoyaj"
+"<in>"
+	"in" det @det
+"<semanauak>"
+	"semanahuak" n abs
+;	"semanahuak" n abs s_pl3 REMOVE:29
+;	"semanahuak" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:69
+# text = Ta ijkuak tikitaj kachi teyin panok ya itech in Semauak, kachi netechiujtokej nochi teyin onkak itech, yej ika se kinemiliya ke achtopa nochi in Semanauak tel senka olochyetoya.
+# text[spa] = Entre más al pasado del universo observemos, veremos que más cerca están todas las cosas que en él existen; por eso suponemos que, en algún momento, todo dentro de él estuvo súper comprimido.
+# labels =  
+
+"<Ta>"
+	"ta" adv
+"<ijkuak>"
+	"ijkuak" cnjsub
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<teyin>"
+	"tein" prn
+"<panok>"
+	"*panok"
+"<ya>"
+	"ya" adv
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<Semauak>"
+	"*Semauak"
+"<,>"
+	"," cm @punct
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<netechiujtokej>"
+	"*netechiujtokej"
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<,>"
+	"," cm @punct
+"<yej>"
+	"yehua" prn pers sg3 short
+"<ika>"
+	"ka" n rel px3sg
+"<se>"
+	"se" num
+"<kinemiliya>"
+	"*kinemiliya"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<achtopa>"
+	"achtopa" adv
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<in>"
+	"in" det @det
+"<Semanauak>"
+	"semanahuak" n abs
+	"semanahuak" n abs s_sg3
+;	"semanahuak" n abs s_pl3 REMOVE:39
+"<tel>"
+	"tel" adv
+"<senka>"
+	"senka" adv
+"<olochyetoya>"
+	"*olochyetoya"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:70
+# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels =  
+
+"<Maj>"
+	"ma" aux
+"<sekinemili>"
+	"*sekinemili"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<tiktsikitsintiliya>"
+	"*tiktsikitsintiliya"
+"<se>"
+	"se" num
+"<tepet>"
+	"tepet" n abs
+;	"tepet" n abs s_pl3 REMOVE:31
+;	"tepet" n abs s_sg3 REMOVE:31
+"<kemej>"
+	"kemej" adv
+"<se>"
+	"se" num
+"<askat>"
+	"askat" n abs
+;	"askat" n abs s_pl3 REMOVE:31
+;	"askat" n abs s_sg3 REMOVE:31
+"<,>"
+	"," cm @punct
+"<uelis>"
+	"hueli" v iv fut s_sg3
+"<no>"
+	"no" adv
+	"no" det @det
+"<se>"
+	"se" num
+"<kinemilis>"
+	"*kinemilis"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<tayijtik>"
+	"tayijtik" adv
+"<tikalakiyaj>"
+	"*tikalakiyaj"
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tonal>"
+	"tonal" n abs
+;	"tonal" n abs s_pl3 REMOVE:29
+;	"tonal" n abs s_sg3 REMOVE:29
+"<,>"
+	"," cm @punct
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<mixti>"
+	"mixti" n abs
+;	"mixti" n abs s_pl3 REMOVE:29
+;	"mixti" n abs s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<mixkouamej>"
+	"mixkouat" n pl
+;	"mixkouat" n pl s_pl3 REMOVE:29
+;	"mixkouat" n pl s_sg3 REMOVE:29
+; 
+"<axkan>"
+	"axkan" adv
+"<maj>"
+	"ma" aux
+"<se>"
+	"se" num
+"<kikajkaua>"
+	"*kikajkaua"
+"<.>"
+	"." sent @punct
+
+"<Maj>"
+	"ma" aux
+"<se>"
+	"se" num
+"<kinemili>"
+	"*kinemili"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<toponi>"
+	"toponi" v iv pres s_sg3
+"<ijkuak>"
+	"ijkuak" cnjsub
+"<se>"
+	"se" num
+"<kikajkaua>"
+	"*kikajkaua"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:72
+# text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
+# text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
+# labels =  
+
+"<Ijkon>"
+	"ijkon" adv
+"<mochiuj>"
+	"*mochiuj"
+"<Tosemanauak>"
+	"semanahuak" n px1pl
+	"semanahuak" n abs px1pl
+; 
+"<no>"
+	"no" adv
+	"no" det @det
+"<ijkon>"
+	"ijkon" adv
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tonalmej>"
+	"tonal" n pl
+	"tonal" n pl s_pl3
+	"tonal" n pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<in>"
+	"in" det @det
+"<tayojkanyot>"
+	"*tayojkanyot"
+"<mochiujtiuetskej>"
+	"*mochiujtiuetskej"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:73
+# text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
+# text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
+# labels =  
+
+"<Nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+ “
+"<Ueyi>"
+	"huei" adj
+	"huei" adj s_sg3
+"<Tatoponilis>"
+	"*Tatoponilis"
+”
+"<,>"
+	"," cm @punct
+"<yejua>"
+	"yehua" prn pers sg3
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<ika>"
+	"ka" n rel px3sg
+"<se>"
+	"se" num
+"<kinextiya>"
+	"*kinextiya"
+"<itech>"
+	"tech" n rel px3sg
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tamatemolis>"
+	"*tamatemolis"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:74
+# text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
+# text[spa] = A este acontacimiento se le llama “La Gran Explosión”, que dio origen a la luz, la materia y todo lo que ahora observamos que existe.
+# labels =  
+
+"<Ika>"
+	"ka" n rel px3sg
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<tatoponilis>"
+	"*tatoponilis"
+"<kipeualtij>"
+	"*kipeualtij"
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<axkan>"
+	"axkan" adv
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<,>"
+	"," cm @punct
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tit>"
+	"tit" n abs
+;	"tit" x REMOVE:41
+;	"tit" n abs s_pl3 REMOVE:39
+;	"tit" n abs s_sg3 REMOVE:31
+"<uan>"
+	"huan" cnjcoo @cc
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<axkan>"
+	"axkan" adv
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:76
+# text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. Ika nejin sekinemiliya ke nochi taolochiujtoya.
+# text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
+# labels =  
+
+"<Se>"
+	"se" num
+"<tamachilis>"
+	"tamachilis" n abs
+	"tamachilis" n abs s_sg3
+	"machilia" v tv fut s_sg3 o_nn
+;	"tamachilis" n abs s_pl3 REMOVE:39
+"<teyin>"
+	"tein" prn
+"<kixnextiya>"
+	"*kixnextiya"
+"<nijin>"
+	"nijin" det @det
+	"nijin" prn
+"<tanemilil>"
+	"*tanemilil"
+"<yejua>"
+	"yehua" prn pers sg3
+"<neje>"
+	"nejen" ij
+	"nejen" prn
+	"neje" det @det
+"<ikauanyo>"
+	"*ikauanyo"
+"<yitikpa>"
+	"*yitikpa"
+"<in>"
+	"in" det @det
+"<Semanauak>"
+	"semanahuak" n abs
+	"semanahuak" n abs s_sg3
+;	"semanahuak" n abs s_pl3 REMOVE:39
+"<teyin>"
+	"tein" prn
+"<ijkuitik>"
+	"*ijkuitik"
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<yeski>"
+	"*yeski"
+"<maj>"
+	"ma" aux
+"<sekitas>"
+	"ita" v tv fut s_ind o_sg3
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<iluikak>"
+	"iluikak" n abs
+	"iluikak" n abs s_sg3
+;	"iluikak" n abs s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+
+"<Ika>"
+	"ka" n rel px3sg
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<sekinemiliya>"
+	"*sekinemiliya"
+"<ke>"
+	"ke" prn
+;	"ke" x REMOVE:41
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<taolochiujtoya>"
+	"*taolochiujtoya"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:78
+# text = Tajtoleualoni
+# text[spa] = Glosario
+# labels =  
+
+"<Tajtoleualoni>"
+	"*Tajtoleualoni"
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:84
+# text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
+# text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# labels =  
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:31
+;	"átomo" n m pl s_sg3 REMOVE:31
+: 
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<okuilimej>"
+	"okuilin" n pl
+;	"okuilin" n pl s_pl3 REMOVE:31
+;	"okuilin" n pl s_sg3 REMOVE:31
+"<,>"
+	"," cm @punct
+"<kuaujtakilomej>"
+	"*kuaujtakilomej"
+"<uan>"
+	"huan" cnjcoo @cc
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<tikitaj>"
+	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pret s_sg2 o_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<in>"
+	"in" det @det
+"<totalmanik>"
+	"talmanik" n px1pl
+	"talmanik" n abs px1pl
+"<chichiujtokej>"
+	"chijchihua" v iv prog pres s_pl3
+"<ijka>"
+	"ijka" v iv pres s_sg3
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:29
+;	"átomo" n m pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+
+"<Nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<tikita>"
+	"ita" v tv pres s_sg2 o_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<semanauak>"
+	"semanahuak" n abs
+;	"semanahuak" n abs s_pl3 REMOVE:29
+;	"semanahuak" n abs s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<tejuan>"
+	"tehuan" prn pers pl1 abs
+"<tichijchiujtokej>"
+	"chijchihua" v iv prog pres s_pl1
+	"chijchiutok" adj s_pl1
+"<ika>"
+	"ka" n rel px3sg
+"<átomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:29
+;	"átomo" n m pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:86
+# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# labels =  
+
+"<células>"
+	"célula" n f pl
+	"célula" n f pl s_pl3
+	"célula" n f pl s_sg3
+: 
+"<nochi>"
+	"nochi" det @det
+	"nochi" prn
+"<teyin>"
+	"tein" prn
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<tel>"
+	"tel" adv
+"<senkaj>"
+	"*senkaj"
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<kipiya>"
+	"piya" v tv pres s_sg3 o_sg3
+"<nemilis>"
+	"nemilis" n abs
+;	"nemilis" n abs s_pl3 REMOVE:29
+;	"nemilis" n abs s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+
+"<Totakayo>"
+	"*Totakayo"
+"<,>"
+	"," cm @punct
+"<okuiltakayot>"
+	"*okuiltakayot"
+"<uan>"
+	"huan" cnjcoo @cc
+"<nochin>"
+	"nochi" det @det
+"<in>"
+	"in" det @det
+"<kuaujmej>"
+	"*kuaujmej"
+"<chijchiujtokej>"
+	"chijchihua" v iv prog pres s_pl3
+	"chijchiutok" adj s_pl3
+"<ika>"
+	"ka" n rel px3sg
+"<miyak>"
+	"miak" det @det
+"<células>"
+	"célula" n f pl
+;	"célula" n f pl s_pl3 REMOVE:29
+;	"célula" n f pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:92
+# text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. Keman mosentiliyaj xota. Ijkon in sitalimej milinij.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# labels =  
+
+"<fusiones>"
+	"fusión" n f pl
+	"fusión" n f pl s_pl3
+	"fusión" n f pl s_sg3
+"<nucleares>"
+	"nuclear" adj mf pl
+	"nuclear" adj mf pl s_pl3
+	"nuclear" adj mf pl s_sg3
+: 
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<keman>"
+	"keman" adv
+"<mosentiliyaj>"
+	"*mosentiliyaj"
+"<ome>"
+	"ome" num
+"<atomos>"
+	"átomo" n m pl
+;	"átomo" n m pl s_pl3 REMOVE:29
+;	"átomo" n m pl s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<mochiua>"
+	"chihua" v tv pres s_sg3 o_ref
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<ueyi>"
+	"huei" adj
+	"huei" adj s_sg3
+"<.>"
+	"." sent @punct
+
+"<Keman>"
+	"keman" adv
+"<mosentiliyaj>"
+	"*mosentiliyaj"
+"<xota>"
+	"xota" v iv pres s_sg3
+"<.>"
+	"." sent @punct
+
+"<Ijkon>"
+	"ijkon" adv
+"<in>"
+	"in" det @det
+"<sitalimej>"
+	"sitalin" n pl
+	"sitalin" n pl s_pl3
+	"sitalin" n pl s_sg3
+"<milinij>"
+	"*milinij"
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:94
+# text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
+# text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# labels =  
+"<galaxia>"
+	"galaxia" n f sg
+	"galaxia" n f sg s_pl3
+	"galaxia" n f sg s_sg3
+: 
+"<uejueyi>"
+	"huehuei" adj
+	"huehuei" adj s_sg3
+"<mixti>"
+	"mixti" n abs
+;	"mixti" n abs s_pl3 REMOVE:31
+;	"mixti" n abs s_sg3 REMOVE:31
+"<uan>"
+	"huan" cnjcoo @cc
+"<sitalimej>"
+	"sitalin" n pl
+;	"sitalin" n pl s_pl3 REMOVE:31
+;	"sitalin" n pl s_sg3 REMOVE:31
+"<teyin>"
+	"tein" prn
+"<chijchiujtokej>"
+	"chijchihua" v iv prog pres s_pl3
+	"chijchiutok" adj s_pl3
+"<ijka>"
+	"ijka" v iv pres s_sg3
+"<ijpotok>"
+	"ijpotok" n abs
+;	"ijpotok" n abs s_pl3 REMOVE:29
+;	"ijpotok" n abs s_sg3 REMOVE:29
+"<uan>"
+	"huan" cnjcoo @cc
+"<mixuak>"
+	"*mixuak"
+"<,>"
+	"," cm @punct
+"<uan>"
+	"huan" cnjcoo @cc
+"<kipiya>"
+	"piya" v tv pres s_sg3 o_sg3
+"<okseki>"
+	"okse" det pl
+"<taltikpakmej>"
+	"taltikpak" n pl
+;	"taltikpak" n pl s_pl3 REMOVE:29
+;	"taltikpak" n pl s_sg3 REMOVE:29
+"<.>"
+	"." sent @punct
+
+"<In>"
+	"in" det @det
+"<sitalkouat>"
+	"sitalkohuat" n abs
+;	"sitalkohuat" n abs s_pl3 REMOVE:31
+;	"sitalkohuat" n abs s_sg3 REMOVE:31
+"<moixmati>"
+	"ixmati" v tv pres s_sg3 o_ref
+"<kemej>"
+	"kemej" adv
+"<togalaxia>"
+	"galaxia" n f sg px1pl
+"<uan>"
+	"huan" cnjcoo @cc
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<Vía>"
+	"vía" n f sg
+;	"vía" n f sg s_pl3 REMOVE:29
+;	"vía" n f sg s_sg3 REMOVE:29
+"<Láctea>"
+	"lácteo" adj f sg
+	"lácteo" adj f sg s_sg3
+;	"lácteo" adj f sg s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:102
+# text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
+# text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
+# labels =  
+
+"<microscopio>"
+	"microscópio" n m sg
+	"microscópio" n m sg s_sg3
+;	"microscópio" n m sg s_pl3 REMOVE:39
+: 
+"<tepos>"
+	"tepos" n abs
+	"tepos" n abs s_sg3
+;	"tepos" n abs s_pl3 REMOVE:39
+"<teyin>"
+	"tein" prn
+"<tepaleuiya>"
+	"*tepaleuiya"
+"<maj>"
+	"ma" aux
+"<ika>"
+	"ka" n rel px3sg
+"<sekita>"
+	"ita" v tv pres s_ind o_sg3
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<sekita>"
+	"ita" v tv pres s_ind o_sg3
+"<ika>"
+	"ka" n rel px3sg
+"<se>"
+	"se" num
+"<ixtololo>"
+	"ixtololo" n abs
+	"ixtololo" n abs s_sg3
+;	"ixtololo" n abs s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:104
+# text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
+# text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
+# labels =  
+
+"<moléculas>"
+	"molécula" n f pl
+	"molécula" n f pl s_pl3
+	"molécula" n f pl s_sg3
+: 
+"<ikuak>"
+	"ijkuak" cnjsub
+"<ome>"
+	"ome" num
+"<oso>"
+	"oso" cnjcoo @cc
+"<kachi>"
+	"kachi" adv
+	"kachi" det @det
+	"kachi" prn
+"<miyak>"
+	"miak" det @det
+"<átomos>"
+	"átomo" n m pl
+	"átomo" n m pl s_pl3
+	"átomo" n m pl s_sg3
+"<monetechouaj>"
+	"*monetechouaj"
+"<.>"
+	"." sent @punct
+
+"<In>"
+	"in" det @det
+"<kiskaltia>"
+	"*kiskaltia"
+"<se>"
+	"se" num
+"<molecula>"
+	"molécula" n f sg
+	"molécula" n f sg s_sg3
+;	"molécula" n f sg s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:114
+# text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
+# text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
+# labels =  
+
+"<Próxima>"
+	"Próxima" np top
+	"Próxima" np top s_sg3
+;	"Próxima" np top s_pl3 REMOVE:39
+"<centauri>"
+	"*centauri"
+"<B>"
+	"*B"
+: 
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<okse>"
+	"okse" det @det
+"<taltikpak>"
+	"taltikpak" n abs
+	"taltikpak" n abs s_sg3
+;	"taltikpak" n abs s_pl3 REMOVE:39
+"<teyin>"
+	"tein" prn
+"<moliniya>"
+	"*moliniya"
+"<inakastan>"
+	"nakastan" n rel px3sg
+"<Próxima>"
+	"Próxima" np top
+	"Próxima" np top s_sg3
+;	"Próxima" np top s_pl3 REMOVE:39
+"<Centauri>"
+	"Centauri" np top
+	"Centauri" np top s_sg3
+;	"Centauri" np top s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:116
+# text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
+# text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
+# labels =  
+
+"<Próxima>"
+	"Próxima" np top
+	"Próxima" np top s_sg3
+;	"Próxima" np top s_pl3 REMOVE:39
+"<Centauri>"
+	"Centauri" np top
+	"Centauri" np top s_sg3
+;	"Centauri" np top s_pl3 REMOVE:39
+: 
+"<sitalin>"
+	"sitalin" n abs
+	"sitalin" n abs s_sg3
+;	"sitalin" n abs s_pl3 REMOVE:39
+"<teyin>"
+	"tein" prn
+"<kinetechojtok>"
+	"*kinetechojtok"
+"<ne>"
+	"ne" adv
+	"ne" det @det
+"<tonal>"
+	"tonal" n abs
+	"tonal" n abs s_sg3
+;	"tonal" n abs s_pl3 REMOVE:39
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:118
+# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# labels =  
+
+"<radiografías>"
+	"radiografía" n f pl
+	"radiografía" n f pl s_sg3
+;	"radiografía" n f pl s_pl3 REMOVE:39
+: 
+"<Kitekitiltiyaj>"
+	"*Kitekitiltiyaj"
+"<tapajtiyanij>"
+	"*tapajtiyanij"
+"<teyin>"
+	"tein" prn
+"<ika>"
+	"ka" n rel px3sg
+"<kixtiliyaj>"
+	"*kixtiliyaj"
+"<ixtakopin>"
+	"ixtakopin" n abs
+	"ixtakopin" n abs s_pl3
+	"ixtakopin" n abs s_sg3
+"<tojomiuan>"
+	"*tojomiuan"
+"<.>"
+	"." sent @punct
+
+"<Mokui>"
+	"kui" v tv pres s_sg3 o_ref
+"<in>"
+	"in" det @det
+"<tit>"
+	"tit" n abs
+;	"tit" x REMOVE:41
+;	"tit" n abs s_pl3 REMOVE:29
+;	"tit" n abs s_sg3 REMOVE:29
+"<rayos>"
+	"rayo" n m pl
+;	"rayo" n m pl s_pl3 REMOVE:39
+;	"rayo" n m pl s_sg3 REMOVE:29
+"<X>"
+	"x" x
+"<.>"
+	"." sent @punct
+ 
+# sent_id = kiteixmatiltijtok-tamachilis:120
+# text = rayos X: nejin se tit teyin amo ueli sekita uan semi chikauak teyin panouaj itech tonakayo uan ajsi itech tojomiyouan.
+# text[spa] = rayos X: luz que no podemos ver pero que tiene tanta energía que puede traspasar la carne hasta llegar a los huesos.
+# labels =  
+
+"<rayos>"
+	"rayo" n m pl
+	"rayo" n m pl s_sg3
+;	"rayo" n m pl s_pl3 REMOVE:39
+"<X>"
+	"x" x
+: 
+"<nejin>"
+	"nejin" det @det
+	"nejin" prn
+"<se>"
+	"se" num
+"<tit>"
+	"tit" n abs
+	"tit" n abs s_pl3
+	"tit" n abs s_sg3
+;	"tit" x REMOVE:41
+"<teyin>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<ueli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<sekita>"
+	"ita" v tv pres s_ind o_sg3
+"<uan>"
+	"huan" cnjcoo @cc
+"<semi>"
+	"semi" adv
+"<chikauak>"
+	"chikahuak" adj
+	"chikahuak" adj s_sg3
+"<teyin>"
+	"tein" prn
+"<panouaj>"
+	"panohua" v iv pres s_pl3
+	"panohua" v iv pret s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<tonakayo>"
+	"nakayot" n px1pl
+"<uan>"
+	"huan" cnjcoo @cc
+"<ajsi>"
+	"ajsi" v iv pres s_sg3
+"<itech>"
+	"tech" n rel px3sg
+"<tojomiyouan>"
+	"*tojomiyouan"
+"<.>"
+	"." sent @punct
+ 
+

@@ -2343,11 +2343,11 @@ selia:selia                                         V-S-PRET ;
 selia:selia                                         V-S-FUTR ;
 
 ! "beber"
-tai:tai                                             V-S-PRES ;
-tai:tai                                             V-S-IMPF ;
-tai:tai                                             V-S-PROG ;
-tai:tai                                             V-S-PRET ;
-tai:tai                                             V-S-FUTR ;
+tai:ta%{y%}i                                        V-S-PRES ;
+tai:ta%{y%}i                                        V-S-IMPF ;
+tai:ta%{y%}i                                        V-S-PROG ;
+tai:ta%{y%}i                                        V-S-PRET ;
+tai:ta%{y%}i                                        V-S-FUTR ;
 
 ! "producir"
 taki:taki                                           V-S-PRES ;
@@ -3687,6 +3687,14 @@ yolsahuani:yolsahuani                                 V-S-PROG ; ! ""
 yolsahuani:yolsahuani                                 V-S-PRET ; ! ""
 yolsahuani:yolsahuani                                 V-S-FUTR ; ! ""
 
+! "hacer"
+chijchihua:chi%{j%}chihua                             V-S-PRES ;
+chijchihua:chi%{j%}chihua                             V-S-IMPF ;
+chijchihua:chi%{j%}chihu                              V-S-PROG ;
+chijchihua:chi%{j%}chihua                             V-S-PRET ;
+chijchihua:chi%{j%}chihua                             V-S-FUTR ;
+
+
 
 LEXICON Ø
 
@@ -4889,6 +4897,7 @@ papatankahuia:papatankahuia                         N-Ø ; ! "sobrevolar"
 panchijkoltik:panchijkoltik                         N-Ø ; ! "jorobado"
 paltel:paltel                                       N-Ø ; ! "talega"
 ijpotok:ijpotok                                     N-Ø ; ! "vapor"
+mixuak:mixuak                                       N-Ø ; ! "polvo"
 pachtik:pachtik                                     N-Ø ; ! "raído"
 olol:olol                                           N-Ø ; ! "bola"
 ojtoka:ojtoka                                       N-Ø ; ! "caminar"
@@ -4992,6 +5001,7 @@ instituto:instituto                                 N-SPA-PESO ; ! ""
 físico:físico                                       N-SPA-PESO ; ! ! ""
 refino:refino                                       N-SPA-PESO ; ! "aguardiente"
 teléfono:teléfono                                   N-SPA-PESO ; ! ""
+microscópio:microscópio                             N-SPA-PESO ; ! ""
 
 nombre:nombre                                       N-SPA-PESO ; ! ""
 átomo:átomo                                         N-SPA-PESO ; ! ""
@@ -5710,6 +5720,8 @@ nuclear:nuclear                                     ADJ-SPA-MEJOR ;
 celular:celular                                     ADJ-SPA-MEJOR ;
 mejor:mejor                                         ADJ-SPA-MEJOR ;
 nacional:nacional                                   ADJ-SPA-MEJOR ;
+intercultural:intercultural                         ADJ-SPA-MEJOR ;
+cultural:cultural                                   ADJ-SPA-MEJOR ;
 
 indígena:indígena                                   ADJ-SPA-LIBRE ;
 
