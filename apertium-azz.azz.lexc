@@ -946,6 +946,14 @@ ilhuia:ilhuia                                       V-SIO-PROG ;
 ilhuia:ilhui                                        V-SIO-PRET ;
 ilhuia:ilhui                                        V-SIO-FUTR ;
 
+! ""
+kixtilia:kixtili%{y%}a                              V-SIO-PRES ;
+kixtilia:kixtili%{y%}a                              V-SIO-IMPF ;
+kixtilia:kixtili%{y%}a                              V-SIO-PROG ;
+kixtilia:kixtili                                    V-SIO-PRET ;
+kixtilia:kixtili                                    V-SIO-FUTR ;
+
+
 LEXICON SO
 
 ! "tener"
@@ -1677,13 +1685,6 @@ machilia:machilia                                   V-SO-IMPF ;
 machilia:machilia                                   V-SO-PROG ;
 machilia:machili                                    V-SO-PRET ;
 machilia:machili                                    V-SO-FUTR ;
-
-! ""
-kixtilia:kixtilia                                   V-SO-PRES ;
-kixtilia:kixtilia                                   V-SO-IMPF ;
-kixtilia:kixtilia                                   V-SO-PROG ;
-kixtilia:kixtili                                    V-SO-PRET ;
-kixtilia:kixtili                                    V-SO-FUTR ;
 
 ! ""
 tekilia:tekilia                                     V-SO-PRES ;
@@ -3895,6 +3896,7 @@ ver%<x%>:ver                                       # ; ! a ver
 es%<x%>:es                                         # ; ! 
 
 hueli%<vaux%>:hueli                                # ; ! "poder"
+hueli%<vaux%>%<fut%>:huelis                        # ; ! "podrá"
 hueli%<vaux%>:huel                                 # ; ! "poder"
 
 
@@ -4324,6 +4326,7 @@ tonal:tonal                                         N-Ø ; ! "día"
 sitalin:sital                                       N-IN ; ! "estrella"
 kaxtoltonal:kaxtol%>tonal                           N-Ø ; ! "quince días"
 kokolis:kokolis                                     N-Ø ; ! "enfermedad" ! Use/Incorp
+tamatemolis:tamatemolis                             N-Ø ; ! "investigación"
 chikahualis:chikahualis                             N-Ø ; ! "fuerza"
 tsompil:tsompil                                     N-Ø ; ! "dolor de cabeza"
 huitsikitempil:huitsikitempil                       N-Ø ; ! ""
@@ -6115,4 +6118,6 @@ LEXICON Punctuación
 %¡%<sent%>:%¡ # ;
 %,%<cm%>:%, # ;
 %"%<quot%>:%" # ;
+%”%<quot%>:%” # ;
+%“%<quot%>:%“ # ;
 

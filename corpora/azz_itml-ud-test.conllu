@@ -59,7 +59,7 @@
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
 # text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
 # text[gloss] = La máquina que se llama horno de microondas, con lo cual se puede calentar cosas, ocupa una luz que no podemos ver, ésta se llama microondas también así los celulares y teléfonos ocupan la luz que no podemos ver.
-# labels =
+# labels = complete
 1	In	in	DET	_	_	2	det	_	_
 2	tepos	tepos	NOUN	_	Case=Abs	14	nsubj	_	_
 3	teyin	tein	PRON	_	_	4	nsubj	_	_
@@ -98,4 +98,90 @@
 36	ueli	hueli	AUX	_	_	37	aux	_	_
 37	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	33	acl:relcl	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:22
+# text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.
+# text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
+# labels =
+1	Itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+2	kaltapajtiloyanimej	kaltapajtiloyan	NOUN	_	Number=Plur	1	nmod	_	_
+3	semi	semi	ADV	_	_	4	advmod	_	_
+4	motekitiltiya	tekitiltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+5	nejin	nejin	DET	_	_	6	det	_	_
+6	tauil	tahuil	NOUN	_	Case=Abs	4	nsubj	_	_
+7	teyin	tein	PRON	_	_	11	obj	_	_
+8	amo	amo	ADV	_	_	11	advmod	_	_
+9	ueli	hueli	AUX	_	_	11	aux	_	_
+10	se	se	NUM	_	_	11	nsubj	_	_
+11	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	kemej	kemej	ADV	_	_	15	dep	_	_
+14	in	in	DET	_	_	15	det	_	_
+15	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	6	dep	_	_
+16	X	X	X	_	_	15	compound	_	_
+17	teyin	tein	PRON	_	_	18	nmod	_	_
+18	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+19	kikixtiliyaj	kixtilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	15	acl:relcl	_	_
+20	ixtakopimej	ixtakopin	NOUN	_	Number=Plur	19	obj	_	_
+21	in	in	DET	_	_	22	det	_	_
+22	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	19	iobj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:30
+# text = Keniuj se Tayis Ueyistajat
+# text[spa] = Tomar la mar
+# labels = complete
+1	Keniuj	keni	ADV	_	PronType=Int	3	advmod	_	_
+2	se	se	NUM	_	_	3	nusj	_	_
+3	Tayis	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	0	root	_	_
+4	Ueyistajat	ueyistajat	NOUN	_	Case=Abs	3	obj	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:32
+# text = ¿Keniuj uelis titayis in ueyistajat?
+# text[spa] = ¿Te puedes tomar el agua del mar?
+# labels = complete
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Keniuj	keni	ADV	_	PronType=Int	4	advmod	_	_
+3	uelis	hueli	AUX	_	Tense=Fut	4	aux	_	_
+4	titayis	tai	VERB	_	Number[subj]=Sing|Person[subj]=2|Subcat=Intr|Tense=Fut	0	root	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	ueyistajat	ueyistajat	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:34
+# text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
+# text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
+# labels = complete-tree check-arguments
+1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Tikmatiya	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
+3	ke	ke	SCONJ	_	_	4	mark	_	_
+4	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	2	ccomp	_	_
+5	miyak	miak	DET	_	_	6	det	_	_
+6	tamatemolis	tamatemolis	NOUN	_	Case=Abs	4	nsubj	_	_
+7	uan	huan	CCONJ	_	_	8	cc	_	_
+8	mochiuaj	chihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	conj	_	_
+9	teposmej	tepos	NOUN	_	Number=Plur	8	nsubj	_	_
+10	teyin	tein	PRON	_	_	11	nmod	_	_
+11	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
+12	uelis	hueli	AUX	_	Tense=Fut	13	aux	_	_
+13	sekikixtilis	kixtilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Person[iobj]=3|Person[obj]=3|Subcat=Tran|Tense=Fut	9	acl:relcl	_	_
+14	istat	istat	NOUN	_	Case=Abs	13	obj	_	_
+15	in	in	DET	_	_	16	det	_	_
+16	at	at	NOUN	_	Case=Abs	13	iobj	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:46
+# text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
+# text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
+# labels = complete-tree
+1	Sekimej	seki	PRON	_	Number=Plur	3	nsubj	_	_
+2	uelis	hueli	AUX	_	Tense=Fut	3	aux	_	_
+3	chijchiujtoskej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Fut	0	root	_	_
+4	kemej	kemej	ADV	_	_	5	dep	_	_
+5	totaltikpak	taltikpak	NOUN	_	Number[psor]=Plur|Person[psor]=1	3	obl	_	_
+6	uan	huan	CCONJ	_	_	8	cc	_	_
+7	ueli	hueli	AUX	_	_	8	aux	_	_
+8	onkas	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	3	conj	_	_
+9	nemilis	nemilis	NOUN	_	Case=Abs	8	nsubj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	3	punct	_	_
 

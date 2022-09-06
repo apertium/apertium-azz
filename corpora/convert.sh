@@ -1,4 +1,5 @@
 #!/bin/bash 
+TTOKS=1236
 echo -n "" >/tmp/azz.conllu
 echo -n "" >/tmp/azz-conv.log
 for i in *.dep; do 
@@ -12,7 +13,7 @@ targn=$(cat targets.txt | grep "^${d2}" | cut -f3)
 sents=$(cat /tmp/azz.conllu | grep '# sent_id' | wc -l)
 toks=$(cat /tmp/azz.conllu | grep '^[0-9]\+	' | wc -l)
 d=$(date)
-compl=$(echo "(${toks}/10000)*100" | calc -p)
+compl=$(echo "(${toks}/${TTOKS})*100" | calc -p | sed 's/^~//g' | sed 's/\.\([0-9][0-9]\)/& /g' | cut -f1 -d' ')
 win=""
 res=$(echo "${compl}>${targn}" | bc -l)
 if [[ $res -eq 1 ]]; then

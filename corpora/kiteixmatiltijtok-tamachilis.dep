@@ -520,7 +520,7 @@
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
 # text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
 # text[gloss] = La máquina que se llama horno de microondas, con lo cual se puede calentar cosas, ocupa una luz que no podemos ver, ésta se llama microondas también así los celulares y teléfonos ocupan la luz que no podemos ver.
-# labels =  
+# labels = complete
 "<In>"
 	"in" det @det #1->2
 "<tepos>"
@@ -603,59 +603,51 @@
 # text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
 # labels =  
 "<Itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #1->4
 "<kaltapajtiloyanimej>"
-	"*kaltapajtiloyanimej"
+	"kaltapajtiloyan" n pl @nmod #2->1
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #3->4
 "<motekitiltiya>"
-	"*motekitiltiya"
+	"tekitiltia" v tv pres s_sg3 o_ref @root #4->0
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #5->6
 "<tauil>"
-	"tahuil" n abs
-	"tahuil" n abs s_pl3
-	"tahuil" n abs s_sg3
+	"tahuil" n abs @nsubj #6->4
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #7->11
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #8->11
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #9->11
 "<se>"
-	"se" num
+	"se" num @nsubj #10->11
 "<kita>"
-	"ita" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 @acl:relcl #11->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->11
 "<kemej>"
-	"kemej" adv
+	"kemej" adv @dep #13->15
 "<in>"
-	"in" det @det
+	"in" det @det #14->15
 "<rayos>"
-	"rayo" n m pl
-;	"rayo" n m pl s_pl3 REMOVE:29
-;	"rayo" n m pl s_sg3 REMOVE:29
+	"rayo" n m pl @dep #15->6
 "<X>"
-	"x" x
+	"X" x @compound #16->15
 "<teyin>"
-	"tein" prn
+	"tein" prn @nmod #17->18
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #18->19
 "<kikixtiliyaj>"
-	"*kikixtiliyaj"
+	"kixtilia" v tv pres s_pl3 i_sg3 o_sg3 @acl:relcl #19->15
 "<ixtakopimej>"
-	"ixtakopin" n pl
-;	"ixtakopin" n pl s_pl3 REMOVE:29
-;	"ixtakopin" n pl s_sg3 REMOVE:29
+	"ixtakopin" n pl @obj #20->19
 "<in>"
-	"in" det @det
+	"in" det @det #21->22
 "<tojomiuan>"
-	"*tojomiuan"
+	"omit" n pl px1pl @iobj #22->19
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->4
 
 # sent_id = kiteixmatiltijtok-tamachilis:24
 # text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
@@ -720,7 +712,8 @@
 	"*kintokaytiyaj"
 "<ueyichikaujkameyot>"
 	"*ueyichikaujkameyot"
- “
+"<“>"
+	"“" quot
 "<radiación>"
 	"radiación" n f sg
 	"radiación" n f sg s_pl3
@@ -729,7 +722,8 @@
 	"electromagnética" n f sg
 	"electromagnética" n f sg s_pl3
 	"electromagnética" n f sg s_sg3
-”
+"<”>"
+	"”" quot
 "<.>"
 	"." sent @punct
 
@@ -958,99 +952,90 @@
 # sent_id = kiteixmatiltijtok-tamachilis:30
 # text = Keniuj se Tayis Ueyistajat
 # text[spa] = Tomar la mar
-# labels =  
+# labels = complete
 "<Keniuj>"
-	"keni" adv itg
+	"keni" adv itg @advmod #1->3
 "<se>"
-	"se" num
+	"se" num @nusj #2->3
 "<Tayis>"
-	"tai" v iv fut s_sg3
+	"tai" v iv fut s_sg3 @root #3->0
 "<Ueyistajat>"
-	"*Ueyistajat"
+	"ueyistajat" n abs @obj #4->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:32
 # text = ¿Keniuj uelis titayis in ueyistajat?
 # text[spa] = ¿Te puedes tomar el agua del mar?
-# labels =  
+# labels = complete
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #1->4
 "<Keniuj>"
-	"keni" adv itg
+	"keni" adv itg @advmod #2->4
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" aux fut @aux #3->4
 "<titayis>"
-	"tai" v iv fut s_sg2
+	"tai" v iv fut s_sg2 @root #4->0
 "<in>"
-	"in" det @det
+	"in" det @det #5->6
 "<ueyistajat>"
-	"*ueyistajat"
+	"ueyistajat" n abs @obj #6->4
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #7->4
 
 # sent_id = kiteixmatiltijtok-tamachilis:33
 # text = ¡Maj sekikixtili in istat!
 # text[spa] = ¡Sí, quitándole la sal!
-# labels =  ¡
+# labels = check-morph
+"<¡>"
+	"¡" sent @punct #1->3
 "<Maj>"
-	"ma" aux
+	"ma" aux @aux #2->3
 "<sekikixtili>"
-	"*sekikixtili"
+	"kixtilia" v tv pres s_ind o_sg3 @root #3->0
 "<in>"
-	"in" det @det
+	"in" det @det #4->5
 "<istat>"
-	"istat" n abs
-;	"istat" n abs s_pl3 REMOVE:29
-;	"istat" n abs s_sg3 REMOVE:29
+	"istat" n abs @obj #5->3
 "<!>"
-	"!" sent @punct
+	"!" sent @punct #6->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:34
 # text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
 # text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
-# labels =  
+# labels = complete-tree check-arguments
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #1->2
 "<Tikmatiya>"
-	"mati" v tv impf s_sg2 o_sg3
+	"mati" v tv impf s_sg2 o_sg3 @root #2->0
 "<ke>"
-	"ke" prn
-;	"ke" x REMOVE:41
+	"ke" cnjsub @mark #3->4
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @ccomp #4->2
 "<miyak>"
-	"miak" det @det
+	"miak" det @det #5->6
 "<tamatemolis>"
-	"*tamatemolis"
+	"tamatemolis" n abs @nsubj #6->4
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->8
 "<mochiuaj>"
-	"chihua" v tv pres s_pl3 o_ref
-	"chihua" v tv pret s_sg3 o_ref
+	"chihua" v tv pres s_pl3 o_ref @conj #8->4
 "<teposmej>"
-	"tepos" n pl
-;	"tepos" n pl s_pl3 REMOVE:29
-;	"tepos" n pl s_sg3 REMOVE:29
+	"tepos" n pl @nsubj #9->8
 "<teyin>"
-	"tein" prn
+	"tein" prn @nmod #10->11
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #11->13
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #12->13
 "<sekikixtilis>"
-	"kixtilia" v tv fut s_ind o_sg3
+	"kixtilia" v tv fut s_ind i_sg3 o_sg3 @acl:relcl #13->9
 "<istat>"
-	"istat" n abs
-;	"istat" n abs s_pl3 REMOVE:29
-;	"istat" n abs s_sg3 REMOVE:29
+	"istat" n abs @obj #14->13
 "<in>"
-	"in" det @det
+	"in" det @det #15->16
 "<at>"
-	"at" n abs
-;	"at" n abs s_pl3 REMOVE:29
-;	"at" n abs s_sg3 REMOVE:29
+	"at" n abs @iobj #16->13
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #17->2
 
 # sent_id = kiteixmatiltijtok-tamachilis:35
 # text = Yejuan nejin tekimej teyin motenijtouaj, achipaualis ika teposmej teyin amo tapitsochiuaj, kemej ne ichikaujka tonalmeyot.
@@ -1419,31 +1404,27 @@
 # sent_id = kiteixmatiltijtok-tamachilis:46
 # text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
 # text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
-# labels =  
+# labels = complete-tree 
 "<Sekimej>"
-	"seki" prn pl
+	"seki" prn pl @nsubj #1->3
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #2->3
 "<chijchiujtoskej>"
-	"chijchihua" v iv prog fut s_pl3
+	"chijchihua" v iv prog fut s_pl3 @root #3->0
 "<kemej>"
-	"kemej" adv
+	"kemej" adv @dep #4->5
 "<totaltikpak>"
-	"taltikpak" n px1pl
-	"taltikpak" n abs px1pl
+	"taltikpak" n px1pl @obl #5->3
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #6->8
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #7->8
 "<onkas>"
-	"onka" v iv fut s_sg3
+	"onka" v iv fut s_sg3 @conj #8->3
 "<nemilis>"
-	"nemilis" n abs
-;	"nemilis" n abs s_pl3 REMOVE:29
-;	"nemilis" n abs s_sg3 REMOVE:29
+	"nemilis" n abs @nsubj #9->8
 "<!>"
-	"!" sent @punct
+	"!" sent @punct #10->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:47
 # text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
