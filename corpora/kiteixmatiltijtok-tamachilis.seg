@@ -1,0 +1,1532 @@
+# sent_id = kiteixmatiltijtok-tamachilis:1
+# text = ¿Keniuj Mochijchiuaj ne Sitalimej?
+# text[spa] = ¿Cómo se forman las estrellas?
+# labels = complete
+^¿/¿$
+^Keniuj/Keniuj$
+^Mochijchiuaj/Mochijchiuaj$
+^ne/ne$
+^Sitalimej/Sitalimej$
+^?/?$
+
+# sent_id = kiteixmatiltijtok-tamachilis:3
+# text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
+# text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
+# labels =  
+^Se/Se$
+^youal/youal$
+^keman/keman$
+^takistok/takistok$
+^uan/uan$
+^amo/amo$
+^metstona/metstona$
+^,/,$
+^itech/itech$
+^milaj/milaj$
+^,/,$
+^uelis/uelis$
+^se/se$
+^kinitas/kinitas$
+^miyakej/miyakej$
+^sitalimej/sitalimej$
+^itech/itech$
+^iluikak/iluikak$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:4
+# text = Neje sitalimej no chijchiujtokej kemej ne tonal, sekin kachi uejueyin uan oksekin kachi tsikitsitsin sayoj ke nochin mochiuaj ika ijpotok teyin monotsa hidrógeno uan mixuak.
+# text[spa] = Estas estrellas son similares a nuestro sol, algunas más grandes y otras más chicas, pero todas nacen a partir de nubes de gas y polvo.
+# labels =  
+^Neje/Neje$
+^sitalimej/sitalimej$
+^no/no$
+^chijchiujtokej/chijchiujtokej$
+^kemej/kemej$
+^ne/ne$
+^tonal/tonal$
+^,/,$
+^sekin/sekin$
+^kachi/kachi$
+^uejueyin/uejueyin$
+^uan/uan$
+^oksekin/oksekin$
+^kachi/kachi$
+^tsikitsitsin/tsikitsitsin$
+^sayoj/sayoj$
+^ke/ke$
+^nochin/nochin$
+^mochiuaj/mochiuaj$
+^ika/ika$
+^ijpotok/ijpotok$
+^teyin/teyin$
+^monotsa/monotsa$
+^hidrógeno/hidrógeno$
+^uan/uan$
+^mixuak/mixuak$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:6
+# text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
+# text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
+# labels = tree-complete 
+^Nijin/Nijin$
+^ijpotok/ijpotok$
+^uan/uan$
+^mixuak/mixuak$
+^mololouaj/mololouaj$
+^,/,$
+^nejin/nejin$
+^teyin/teyin$
+^mochiua/mochiua$
+^ololtik/ololtik$
+^moskaltiya/moskaltiya$
+^,/,$
+^mochiua/mochiua$
+^tel/tel$
+^ueyi/ueyi$
+^uan/uan$
+^ijkon/ijkon$
+^moteltaliya/moteltaliya$
+^tatajko/tatajko$
+^uan/uan$
+^xota/xota$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:8
+# text = Achtopa momaneloua yejua ne ijpotok hidrógeno, ta amo yetik uan yej kachi onkak itech in Semanauak; ijkon mochiua se kuemit kanpa motekpanaj átomos teyin ijkon etixtiyouej uan, ika in, mochiua tit itech ne sitalin.
+# text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
+# labels =  
+^Achtopa/Achtopa$
+^momaneloua/momaneloua$
+^yejua/yejua$
+^ne/ne$
+^ijpotok/ijpotok$
+^hidrógeno/hidrógeno$
+^,/,$
+^ta/ta$
+^amo/amo$
+^yetik/yetik$
+^uan/uan$
+^yej/yej$
+^kachi/kachi$
+^onkak/onkak$
+^itech/itech$
+^in/in$
+^Semanauak/Semanauak$
+^ijkon/ijkon$
+^mochiua/mochiua$
+^se/se$
+^kuemit/kuemit$
+^kanpa/kanpa$
+^motekpanaj/motekpanaj$
+^átomos/átomos$
+^teyin/teyin$
+^ijkon/ijkon$
+^etixtiyouej/etixtiyouej$
+^uan/uan$
+^,/,$
+^ika/ika$
+^in/in$
+^,/,$
+^mochiua/mochiua$
+^tit/tit$
+^itech/itech$
+^ne/ne$
+^sitalin/sitalin$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:10
+# text = Ijkuak miki, ne sitalin toponi uan seki átomos teyin mochiuak tayijtik momoyaua itech ne mixkouat, uan kichiua maj mochiuakan oksekin sitalimej.
+# text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
+# labels =  
+^Ijkuak/Ijkuak$
+^miki/miki$
+^,/,$
+^ne/ne$
+^sitalin/sitalin$
+^toponi/toponi$
+^uan/uan$
+^seki/seki$
+^átomos/átomos$
+^teyin/teyin$
+^mochiuak/mochiuak$
+^tayijtik/tayijtik$
+^momoyaua/momoyaua$
+^itech/itech$
+^ne/ne$
+^mixkouat/mixkouat$
+^,/,$
+^uan/uan$
+^kichiua/kichiua$
+^maj/maj$
+^mochiuakan/mochiuakan$
+^oksekin/oksekin$
+^sitalimej/sitalimej$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:12
+# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# labels =  
+^Ne/Ne$
+^átomos/átomos$
+^teyin/teyin$
+^mochiuakej/mochiuakej$
+^itech/itech$
+^oksekin/oksekin$
+^sitalimej/sitalimej$
+^,/,$
+^ijkon/ijkon$
+^yolik/yolik$
+^totaltikpak/totaltikpak$
+^./.$
+^Totaltikpak/Totaltikpak$
+^uan/uan$
+^nochi/nochi$
+^teyin/teyin$
+^onkak/onkak$
+^itech/itech$
+^,/,$
+^kemej/kemej$
+^tejuan/tejuan$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:14
+# text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
+# text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
+# labels =  
+^Maj/Maj$
+^amo/amo$
+^onkanij/onkanij$
+^sitalimej/sitalimej$
+^,/,$
+^tejua/tejua$
+^uan/uan$
+^nejua/nejua$
+^amo/amo$
+^nikan/nikan$
+^tiyetoskiyaj/tiyetoskiyaj$
+^timotajtanijtoskiyaj/timotajtanijtoskiyaj$
+^¿/¿$
+^keniuj/keniuj$
+^mochiujkej/mochiujkej$
+^ne/ne$
+^sitalimej/sitalimej$
+^?/?$
+
+# sent_id = kiteixmatiltijtok-tamachilis:16
+# text = Ueyichikaujkameyot
+# text[spa] = Radiación electromagnética
+# labels = complete
+^Ueyichikaujkameyot/Ueyichikaujkameyot$
+
+# sent_id = kiteixmatiltijtok-tamachilis:18
+# text = Onkak miyak tauil teyin toixtololouan amo kitaj.
+# text[spa] = Existe más luz de la que nuestros ojos ven.
+# labels = complete
+^Onkak/Onkak$
+^miyak/miyak$
+^tauil/tauil$
+^teyin/teyin$
+^toixtololouan/toixtololouan$
+^amo/amo$
+^kitaj/kitaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:19
+# text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
+# text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
+# labels =  
+^Kemej/Kemej$
+^,/,$
+^in/in$
+^kouamej/kouamej$
+^teyin/teyin$
+^kuali/kuali$
+^kitaj/kitaj$
+^tokauanyoj/tokauanyoj$
+^uan/uan$
+^nekmej/nekmej$
+^kuali/kuali$
+^kitaj/kitaj$
+^nochin/nochin$
+^tapalmej/tapalmej$
+^teyin/teyin$
+^kipia/kipia$
+^se/se$
+^xochit/xochit$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:21
+# text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
+# text[spa] = Para poder calentar, los hornos de microondas utilizan este tipo de luz llamada también “microondas”.  Incluso los celulares y los radios utilizan esta luz invisbile.
+# text[gloss] = La máquina que se llama horno de microondas, con lo cual se puede calentar cosas, ocupa una luz que no podemos ver, ésta se llama microondas también así los celulares y teléfonos ocupan la luz que no podemos ver.
+# labels =  
+^In/In$
+^tepos/tepos$
+^teyin/teyin$
+^monotsa/monotsa$
+^horno/horno$
+^de/de$
+^microondas/microondas$
+^,/,$
+^teyin/teyin$
+^ika/ika$
+^se/se$
+^tatotonia/tatotonia$
+^,/,$
+^kitekitiltiya/kitekitiltiya$
+^se/se$
+^tauil/tauil$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^tikitaj/tikitaj$
+^,/,$
+^nejin/nejin$
+^monotsa/monotsa$
+^microondas/microondas$
+^no/no$
+^ijkon/ijkon$
+^in/in$
+^celulares/celulares$
+^uan/uan$
+^teposejekatanojnotsalonimej/teposejekatanojnotsalonimej$
+^kitekitiltiyaj/kitekitiltiyaj$
+^in/in$
+^tauil/tauil$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^tikitaj/tikitaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:22
+# text = Itech kaltapajtiloyanimej semi motekitiltiya nejin tauil teyin amo ueli se kita, kemej in rayos X teyin ika kikixtiliyaj ixtakopimej in tojomiuan.
+# text[spa] = En los hospitales es muy común utilizar otros tipos de luz que no es posible ver, como los rayos X, que se usan para obtener imágenes de los huesos.
+# labels =  
+^Itech/Itech$
+^kaltapajtiloyanimej/kaltapajtiloyanimej$
+^semi/semi$
+^motekitiltiya/motekitiltiya$
+^nejin/nejin$
+^tauil/tauil$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^se/se$
+^kita/kita$
+^,/,$
+^kemej/kemej$
+^in/in$
+^rayos/rayos$
+^X/X$
+^teyin/teyin$
+^ika/ika$
+^kikixtiliyaj/kikixtiliyaj$
+^ixtakopimej/ixtakopimej$
+^in/in$
+^tojomiuan/tojomiuan$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:24
+# text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
+# text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
+# labels =  
+^Nochin/Nochin$
+^tauilmej/tauilmej$
+^,/,$
+^teyin/teyin$
+^ueli/ueli$
+^se/se$
+^kita/kita$
+^kemej/kemej$
+^itapaluan/itapaluan$
+^kosantsin/kosantsin$
+^uan/uan$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^sekita/sekita$
+^kemej/kemej$
+^rayos/rayos$
+^X/X$
+^oso/oso$
+^microondas/microondas$
+^,/,$
+^kintokaytiyaj/kintokaytiyaj$
+^ueyichikaujkameyot/ueyichikaujkameyot$
+^radiación/radiación$
+^electromagnética/electromagnética$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:25
+# text = Ininchikaujkayo kintamanchiuaj.
+# text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
+# labels =  
+^Ininchikaujkayo/Ininchikaujkayo$
+^kintamanchiuaj/kintamanchiuaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:26
+# text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
+# text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
+# labels =  
+^In/In$
+^,/,$
+^rayos/rayos$
+^X/X$
+^kipiyaj/kipiyaj$
+^kachi/kachi$
+^miyak/miyak$
+^chikaualis/chikaualis$
+^teyin/teyin$
+^ueli/ueli$
+^moitaj/moitaj$
+^,/,$
+^uan/uan$
+^microondas/microondas$
+^kipiyaj/kipiyaj$
+^kachi/kachi$
+^tepitsin/tepitsin$
+^miyak/miyak$
+^chikaualis/chikaualis$
+^kej/kej$
+^rayos/rayos$
+^X/X$
+^uan/uan$
+^nejin/nejin$
+^microondas/microondas$
+^kipiyaj/kipiyaj$
+^kachi/kachi$
+^tsiktsin/tsiktsin$
+^chikaualis/chikaualis$
+^teyin/teyin$
+^mokui/mokui$
+^itech/itech$
+^in/in$
+^teposejekatanojnotsaloni/teposejekatanojnotsaloni$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:28
+# text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
+# text[spa] = A partir de que se logró entender cómo funciona la radiación electromagnética, ha sido posible utilizarla para desarrollar la tecnología necesaria para inventar la televisión, el radio, los teléfonos celulares, las radiografías e incluso tratamientos para el cáncer.
+# labels =  
+^Satepan/Satepan$
+^ika/ika$
+^tikmatkej/tikmatkej$
+^katin/katin$
+^itatekiujtilis/itatekiujtilis$
+^in/in$
+^ueyichikuakameyot/ueyichikuakameyot$
+^radiación/radiación$
+^electromagnética/electromagnética$
+^ika/ika$
+^nejin/nejin$
+^peuak/peuak$
+^mochijchiuaj/mochijchiuaj$
+^yankuik/yankuik$
+^teposmej/teposmej$
+^kemej/kemej$
+^televisión/televisión$
+^,/,$
+^radio/radio$
+^,/,$
+^teléfonos/teléfonos$
+^celulares/celulares$
+^,/,$
+^radiografías/radiografías$
+^uan/uan$
+^motamatsintokatok/motamatsintokatok$
+^kenuij/kenuij$
+^kuali/kuali$
+^tapaleuis/tapaleuis$
+^maj/maj$
+^motokotso/motokotso$
+^in/in$
+^kokolis/kokolis$
+^teyin/teyin$
+^monotsa/monotsa$
+^cáncer/cáncer$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:30
+# text = Keniuj se Tayis Ueyistajat
+# text[spa] = Tomar la mar
+# labels =  
+^Keniuj/Keniuj$
+^se/se$
+^Tayis/Tayis$
+^Ueyistajat/Ueyistajat$
+
+# sent_id = kiteixmatiltijtok-tamachilis:32
+# text = ¿Keniuj uelis titayis in ueyistajat?
+# text[spa] = ¿Te puedes tomar el agua del mar?
+# labels =  
+^¿/¿$
+^Keniuj/Keniuj$
+^uelis/uelis$
+^titayis/titayis$
+^in/in$
+^ueyistajat/ueyistajat$
+^?/?$
+
+# sent_id = kiteixmatiltijtok-tamachilis:33
+# text = ¡Maj sekikixtili in istat!
+# text[spa] = ¡Sí, quitándole la sal!
+# labels =  ¡
+^Maj/Maj$
+^sekikixtili/sekikixtili$
+^in/in$
+^istat/istat$
+^!/!$
+
+# sent_id = kiteixmatiltijtok-tamachilis:34
+# text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
+# text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
+# labels =  
+^¿/¿$
+^Tikmatiya/Tikmatiya$
+^ke/ke$
+^onkak/onkak$
+^miyak/miyak$
+^tamatemolis/tamatemolis$
+^uan/uan$
+^mochiuaj/mochiuaj$
+^teposmej/teposmej$
+^teyin/teyin$
+^ika/ika$
+^uelis/uelis$
+^sekikixtilis/sekikixtilis$
+^istat/istat$
+^in/in$
+^at/at$
+^?/?$
+
+# sent_id = kiteixmatiltijtok-tamachilis:35
+# text = Yejuan nejin tekimej teyin motenijtouaj, achipaualis ika teposmej teyin amo tapitsochiuaj, kemej ne ichikaujka tonalmeyot.
+# text[spa] = Las propuestas más interesantes para lograrlo son aquellas que quitan la sal del agua utilizando energías renovables, como la energía del sol.
+# labels =  
+^Yejuan/Yejuan$
+^nejin/nejin$
+^tekimej/tekimej$
+^teyin/teyin$
+^motenijtouaj/motenijtouaj$
+^,/,$
+^achipaualis/achipaualis$
+^ika/ika$
+^teposmej/teposmej$
+^teyin/teyin$
+^amo/amo$
+^tapitsochiuaj/tapitsochiuaj$
+^,/,$
+^kemej/kemej$
+^ne/ne$
+^ichikaujka/ichikaujka$
+^tonalmeyot/tonalmeyot$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:37
+# text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
+# text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
+# labels =  
+^Keman/Keman$
+^se/se$
+^kisentiliya/kisentiliya$
+^itech/itech$
+^uejueyi/uejueyi$
+^kuetaxmej/kuetaxmej$
+^uan/uan$
+^nejinkej/nejinkej$
+^,/,$
+^maj/maj$
+^yetokan/yetokan$
+^taijtik/taijtik$
+^kanpa/kanpa$
+^takauani/takauani$
+^kemej/kemej$
+^se/se$
+^invernadero/invernadero$
+^,/,$
+^uelis/uelis$
+^mochipauas/mochipauas$
+^in/in$
+^at/at$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:38
+# text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
+# text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
+# labels =  
+^Nejin/Nejin$
+^at/at$
+^mitoniya/mitoniya$
+^,/,$
+^in/in$
+^ijpotok/ijpotok$
+^mokaua/mokaua$
+^itech/itech$
+^in/in$
+^tatsakuil/tatsakuil$
+^uan/uan$
+^ompa/ompa$
+^tayijtik/tayijtik$
+^,/,$
+^tajuachuetsi/tajuachuetsi$
+^,/,$
+^nejin/nejin$
+^chipauakat/chipauakat$
+^teyin/teyin$
+^mosentiliya/mosentiliya$
+^uelis/uelis$
+^se/se$
+^tayis/tayis$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:40
+# text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
+# text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
+# labels =  
+^Nejin/Nejin$
+^tamatemolis/tamatemolis$
+^mosentoka/mosentoka$
+^uan/uan$
+^ijkon/ijkon$
+^uelis/uelis$
+^sekichiuas/sekichiuas$
+^kachi/kachi$
+^kuali/kuali$
+^nejin/nejin$
+^achipaualis/achipaualis$
+^,/,$
+^uan/uan$
+^uelis/uelis$
+^se/se$
+^kiuikas/kiuikas$
+^,/,$
+^ika/ika$
+^chipaujkayot/chipaujkayot$
+^,/,$
+^ne/ne$
+^istajat/istajat$
+^kanpa/kanpa$
+^se/se$
+^kichipauas/kichipauas$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:41
+# text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
+# text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
+# labels =  
+^Moneki/Moneki$
+^maj/maj$
+^semochiya/semochiya$
+^uan/uan$
+^ijkon/ijkon$
+^satepan/satepan$
+^oksekin/oksekin$
+^tonalmej/tonalmej$
+^,/,$
+^maj/maj$
+^ueli/ueli$
+^se/se$
+^kitas/kitas$
+^,/,$
+^ijka/ijka$
+^teposmej/teposmej$
+^teyin/teyin$
+^amo/amo$
+^tapitsochiuaj/tapitsochiuaj$
+^,/,$
+^nejin/nejin$
+^nekuelmololmej/nekuelmololmej$
+^teyin/teyin$
+^kipiya/kipiya$
+^toatsin/toatsin$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:43
+# text = Próxima Centauri B
+# text[spa] = Próxima Centauri B
+# labels =  
+^Próxima/Próxima$
+^Centauri/Centauri$
+^B/B$
+
+# sent_id = kiteixmatiltijtok-tamachilis:45
+# text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
+# text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
+# labels =  
+^Miyakej/Miyakej$
+^sitalimej/sitalimej$
+^teyin/teyin$
+^tikinitaj/tikinitaj$
+^itech/itech$
+^iluikak/iluikak$
+^uelis/uelis$
+^kipiyaskej/kipiyaskej$
+^oksekin/oksekin$
+^kemej/kemej$
+^taltikpak/taltikpak$
+^teyin/teyin$
+^no/no$
+^kinyeualouaj/kinyeualouaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:46
+# text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
+# text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.
+# labels =  
+^Sekimej/Sekimej$
+^uelis/uelis$
+^chijchiujtoskej/chijchiujtoskej$
+^kemej/kemej$
+^totaltikpak/totaltikpak$
+^uan/uan$
+^ueli/ueli$
+^onkas/onkas$
+^nemilis/nemilis$
+^!/!$
+
+# sent_id = kiteixmatiltijtok-tamachilis:47
+# text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
+# text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
+# labels =  
+^Uelis/Uelis$
+^moajsis/moajsis$
+^nemilis/nemilis$
+^itech/itech$
+^oksekin/oksekin$
+^taltikpakmej/taltikpakmej$
+^semi/semi$
+^teyoltanemililtiya/teyoltanemililtiya$
+^,/,$
+^yejua/yejua$
+^ika/ika$
+^miyakej/miyakej$
+^tokniuan/tokniuan$
+^tamatemouaj/tamatemouaj$
+^keniuj/keniuj$
+^uan/uan$
+^kani/kani$
+^uelis/uelis$
+^moajsiskej/moajsiskej$
+^ne/ne$
+^oksekin/oksekin$
+^taltikpakmej/taltikpakmej$
+^itech/itech$
+^neje/neje$
+^sitalimej/sitalimej$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:49
+# text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
+# text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
+# labels =  
+^Itech/Itech$
+^in/in$
+^metsti/metsti$
+^agosto/agosto$
+^xiuit/xiuit$
+^2016/2016$
+^iluikataixpejpenanij/iluikataixpejpenanij$
+^teyin/teyin$
+^pouij/pouij$
+^itech/itech$
+^in/in$
+^nechikol/nechikol$
+^Observatorio/Observatorio$
+^Espacial/Espacial$
+^Austral/Austral$
+^,/,$
+^kiteyixnextiltijkej/kiteyixnextiltijkej$
+^ke/ke$
+^itech/itech$
+^in/in$
+^semanauak/semanauak$
+^onkak/onkak$
+^okse/okse$
+^taltikpak/taltikpak$
+^teyin/teyin$
+^ijkuitik/ijkuitik$
+^nejin/nejin$
+^totalmanik/totalmanik$
+^,/,$
+^maski/maski$
+^amo/amo$
+^yekinika/yekinika$
+^yejua/yejua$
+^moajsi/moajsi$
+^,/,$
+^nejin/nejin$
+^tajtol/tajtol$
+^moneki/moneki$
+^maj/maj$
+^sekimati/sekimati$
+^,/,$
+^ta/ta$
+^ne/ne$
+^okse/okse$
+^taltikpak/taltikpak$
+^no/no$
+^kiyeualoua/kiyeualoua$
+^okse/okse$
+^tonal/tonal$
+^Próxima/Próxima$
+^Centauri/Centauri$
+^teyin/teyin$
+^kinetechojtok/kinetechojtok$
+^ne/ne$
+^tonal/tonal$
+^teyin/teyin$
+^nochipa/nochipa$
+^tikitaj/tikitaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:50
+# text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
+# text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# labels =  
+^Ika/Ika$
+^nijin/nijin$
+^tamatemolis/tamatemolis$
+^tetaliya/tetaliya$
+^itech/itech$
+^se/se$
+^tanojnotsalis/tanojnotsalis$
+^kampa/kampa$
+^moixyejyekoua/moixyejyekoua$
+^keniuj/keniuj$
+^uelis/uelis$
+^se/se$
+^yas/yas$
+^sitalkopa/sitalkopa$
+^./.$
+^Miyakej/Miyakej$
+^tamatemolmej/tamatemolmej$
+^poliuij/poliuij$
+^ok/ok$
+^uan/uan$
+^ayamo/ayamo$
+^ueli/ueli$
+^moijtos/moijtos$
+^ke/ke$
+^nejin/nejin$
+^okse/okse$
+^taltikpak/taltikpak$
+^teyin/teyin$
+^moajsik/moajsik$
+^kipiya/kipiya$
+^nemilis/nemilis$
+^Próxima/Próxima$
+^Centauri/Centauri$
+^B/B$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:52
+# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
+# labels =  
+^Ika/Ika$
+^oksekin/oksekin$
+^taman/taman$
+^tanemililmej/tanemililmej$
+^,/,$
+^ta/ta$
+^maski/maski$
+^ikauanyo/ikauanyo$
+^yeskiya/yeskiya$
+^kuali/kuali$
+^maj/maj$
+^onka/onka$
+^at/at$
+^,/,$
+^neje/neje$
+^okse/okse$
+^taltikpak/taltikpak$
+^nochipa/nochipa$
+^onkeptok/onkeptok$
+^ixpan/ixpan$
+^neje/neje$
+^okse/okse$
+^tonal/tonal$
+^./.$
+^Nejon/Nejon$
+^kijtosneki/kijtosneki$
+^ke/ke$
+^tajko/tajko$
+^nochipa/nochipa$
+^tonatok/tonatok$
+^uan/uan$
+^okse/okse$
+^tajko/tajko$
+^nochipa/nochipa$
+^tayouatok/tayouatok$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:54
+# text = In Nanotecnologías
+# text[spa] = Nanotecnología
+# labels =  
+^In/In$
+^Nanotecnologías/Nanotecnologías$
+
+# sent_id = kiteixmatiltijtok-tamachilis:56
+# text = In tamachilis teyin motokaytiya nanotecnologías, se nemachtil uan kinchijchiua teposmej tel senkaj tsikitsitsin teyin amo ueli motaj ta sayoj ueli motaj ika se tepos teyin motokaytiya microscopio.
+# text[spa] = La nanotecnología es el estudio y creación de dispositivos a una escala tan pequeña que no pueden percibirse a simple vista y sólo se pueden ver con ayuda de microscopios.
+# labels =  
+^In/In$
+^tamachilis/tamachilis$
+^teyin/teyin$
+^motokaytiya/motokaytiya$
+^nanotecnologías/nanotecnologías$
+^,/,$
+^se/se$
+^nemachtil/nemachtil$
+^uan/uan$
+^kinchijchiua/kinchijchiua$
+^teposmej/teposmej$
+^tel/tel$
+^senkaj/senkaj$
+^tsikitsitsin/tsikitsitsin$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^motaj/motaj$
+^ta/ta$
+^sayoj/sayoj$
+^ueli/ueli$
+^motaj/motaj$
+^ika/ika$
+^se/se$
+^tepos/tepos$
+^teyin/teyin$
+^motokaytiya/motokaytiya$
+^microscopio/microscopio$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:57
+# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
+^Nijin/Nijin$
+^tamachiuj/tamachiuj$
+^monotsa/monotsa$
+^nanométrica/nanométrica$
+^uan/uan$
+^ijkon/ijkon$
+^kachi/kachi$
+^se/se$
+^kiajsikamatis/kiajsikamatis$
+^keniuj/keniuj$
+^chichiujtok/chichiujtok$
+^,/,$
+^uelis/uelis$
+^se/se$
+^kinemilis/kinemilis$
+^se/se$
+^askat/askat$
+^teyin/teyin$
+^nemi/nemi$
+^itech/itech$
+^in/in$
+^taltikpak/taltikpak$
+^uan/uan$
+^in/in$
+^taltikpak/taltikpak$
+^se/se$
+^kitsikitsintiltiya/kitsikitsintiltiya$
+^uan/uan$
+^ijkon/ijkon$
+^maj/maj$
+^aki/aki$
+^itech/itech$
+^se/se$
+^imakpal/imakpal$
+^./.$
+^Nijin/Nijin$
+^askat/askat$
+^no/no$
+^motokotsojtiyaj/motokotsojtiyaj$
+^./.$
+^Nejin/Nejin$
+^askat/askat$
+^mokaua/mokaua$
+^keme/keme$
+^itamachiuj/itamachiuj$
+^se/se$
+^nanómetro/nanómetro$
+^./.$
+^Amo/Amo$
+^mota/mota$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:58
+# text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
+# text[spa] = Los dispositivos que se utilizan en la nanotecnología son tan pequeños que se construyen con unas pocas moléculas y átomos.
+# labels =  
+^In/In$
+^teposkonemej/teposkonemej$
+^teyin/teyin$
+^mokuij/mokuij$
+^itech/itech$
+^in/in$
+^nanotecnologías/nanotecnologías$
+^,/,$
+^tel/tel$
+^senkaj/senkaj$
+^tsikitsitsin/tsikitsitsin$
+^teyin/teyin$
+^mochijchiuaj/mochijchiuaj$
+^ika/ika$
+^tsiktsin/tsiktsin$
+^moléculas/moléculas$
+^uan/uan$
+^átomos/átomos$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:60
+# text = In teposmej motekitiltiyaj itech in tapajtilnemachtilmej kampa mochijchiujtokej nano-robots, teyin uelij kinpaleuiyaj seki células oso kinpojpolouaj teyin mokokouaj, kemej in células cancerígenas.
+# text[spa] = Una de las aplicaciones más importantes de estos objetos es su posible uso en la medicina para la que se están desarrollando nano-robots que sean capaces de atacar a células específicas, como las cancerígenas.
+# labels =  
+^In/In$
+^teposmej/teposmej$
+^motekitiltiyaj/motekitiltiyaj$
+^itech/itech$
+^in/in$
+^tapajtilnemachtilmej/tapajtilnemachtilmej$
+^kampa/kampa$
+^mochijchiujtokej/mochijchiujtokej$
+^nano/nano$
+^robots/robots$
+^,/,$
+^teyin/teyin$
+^uelij/uelij$
+^kinpaleuiyaj/kinpaleuiyaj$
+^seki/seki$
+^células/células$
+^oso/oso$
+^kinpojpolouaj/kinpojpolouaj$
+^teyin/teyin$
+^mokokouaj/mokokouaj$
+^,/,$
+^kemej/kemej$
+^in/in$
+^células/células$
+^cancerígenas/cancerígenas$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:62
+# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
+# text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# labels =  
+^Ueli/Ueli$
+^se/se$
+^kinsentiliya/kinsentiliya$
+^miyak/miyak$
+^moléculas/moléculas$
+^teyin/teyin$
+^kiskaltiyaj/kiskaltiyaj$
+^se/se$
+^nano/nano$
+^robot/robot$
+^,/,$
+^uan/uan$
+^ika/ika$
+^nijin/nijin$
+^teposmej/teposmej$
+^uelis/uelis$
+^se/se$
+^kinixmatis/kinixmatis$
+^katin/katin$
+^células/células$
+^mokokouaj/mokokouaj$
+^,/,$
+^nejin/nejin$
+^tamatilismej/tamatilismej$
+^moixyeyekouaj/moixyeyekouaj$
+^itech/itech$
+^kimichimej/kimichimej$
+^./.$
+^Nijin/Nijin$
+^tamachilis/tamachilis$
+^kitapoua/kitapoua$
+^se/se$
+^yankuik/yankuik$
+^nemachtil/nemachtil$
+^kampa/kampa$
+^moixnextiya/moixnextiya$
+^keniuj/keniuj$
+^se/se$
+^kinmiktis/kinmiktis$
+^células/células$
+^cancerígenas/cancerígenas$
+^teyin/teyin$
+^tekokolismakaj/tekokolismakaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:64
+# text = In ueyi tatoponilis
+# text[spa] = La Gran Explosión
+# labels =  
+^In/In$
+^ueyi/ueyi$
+^tatoponilis/tatoponilis$
+
+# sent_id = kiteixmatiltijtok-tamachilis:66
+# text = Xiujmej tayikan moajsik ke ne mixkouamej teyin monotsaj galaxias techkaujteuaj uan ne teyin kachi uejka moajsij kachi ijsiujka mouekatiliya.
+# text[spa] = Durante el siglo pasado se descubrió que las galaxias en el universo se alejan de nosotros y que, mientras más lejos estén, se alejan más rápido.
+# labels =  
+^Xiujmej/Xiujmej$
+^tayikan/tayikan$
+^moajsik/moajsik$
+^ke/ke$
+^ne/ne$
+^mixkouamej/mixkouamej$
+^teyin/teyin$
+^monotsaj/monotsaj$
+^galaxias/galaxias$
+^techkaujteuaj/techkaujteuaj$
+^uan/uan$
+^ne/ne$
+^teyin/teyin$
+^kachi/kachi$
+^uejka/uejka$
+^moajsij/moajsij$
+^kachi/kachi$
+^ijsiujka/ijsiujka$
+^mouekatiliya/mouekatiliya$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:67
+# text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
+# text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
+# labels =  
+^Ika/Ika$
+^nijin/nijin$
+^ueli/ueli$
+^moijtoua/moijtoua$
+^ke/ke$
+^achtopa/achtopa$
+^,/,$
+^kachi/kachi$
+^netechiujtoyaj/netechiujtoyaj$
+^in/in$
+^semanauak/semanauak$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:69
+# text = Ta ijkuak tikitaj kachi teyin panok ya itech in Semauak, kachi netechiujtokej nochi teyin onkak itech, yej ika se kinemiliya ke achtopa nochi in Semanauak tel senka olochyetoya.
+# text[spa] = Entre más al pasado del universo observemos, veremos que más cerca están todas las cosas que en él existen; por eso suponemos que, en algún momento, todo dentro de él estuvo súper comprimido.
+# labels =  
+^Ta/Ta$
+^ijkuak/ijkuak$
+^tikitaj/tikitaj$
+^kachi/kachi$
+^teyin/teyin$
+^panok/panok$
+^ya/ya$
+^itech/itech$
+^in/in$
+^Semauak/Semauak$
+^,/,$
+^kachi/kachi$
+^netechiujtokej/netechiujtokej$
+^nochi/nochi$
+^teyin/teyin$
+^onkak/onkak$
+^itech/itech$
+^,/,$
+^yej/yej$
+^ika/ika$
+^se/se$
+^kinemiliya/kinemiliya$
+^ke/ke$
+^achtopa/achtopa$
+^nochi/nochi$
+^in/in$
+^Semanauak/Semanauak$
+^tel/tel$
+^senka/senka$
+^olochyetoya/olochyetoya$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:70
+# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels =  
+^Maj/Maj$
+^sekinemili/sekinemili$
+^ke/ke$
+^tiktsikitsintiliya/tiktsikitsintiliya$
+^se/se$
+^tepet/tepet$
+^kemej/kemej$
+^se/se$
+^askat/askat$
+^,/,$
+^uelis/uelis$
+^no/no$
+^se/se$
+^kinemilis/kinemilis$
+^ke/ke$
+^tayijtik/tayijtik$
+^tikalakiyaj/tikalakiyaj$
+^ne/ne$
+^tonal/tonal$
+^,/,$
+^nochi/nochi$
+^ne/ne$
+^mixti/mixti$
+^uan/uan$
+^ne/ne$
+^mixkouamej/mixkouamej$
+^axkan/axkan$
+^maj/maj$
+^se/se$
+^kikajkaua/kikajkaua$
+^./.$
+^Maj/Maj$
+^se/se$
+^kinemili/kinemili$
+^ke/ke$
+^nochi/nochi$
+^toponi/toponi$
+^ijkuak/ijkuak$
+^se/se$
+^kikajkaua/kikajkaua$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:72
+# text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
+# text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
+# labels =  
+^Ijkon/Ijkon$
+^mochiuj/mochiuj$
+^Tosemanauak/Tosemanauak$
+^no/no$
+^ijkon/ijkon$
+^ne/ne$
+^tonalmej/tonalmej$
+^uan/uan$
+^nochi/nochi$
+^in/in$
+^tayojkanyot/tayojkanyot$
+^mochiujtiuetskej/mochiujtiuetskej$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:73
+# text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
+# text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
+# labels =  
+^Nijin/Nijin$
+^monotsa/monotsa$
+^Ueyi/Ueyi$
+^Tatoponilis/Tatoponilis$
+^,/,$
+^yejua/yejua$
+^nijin/nijin$
+^ika/ika$
+^se/se$
+^kinextiya/kinextiya$
+^itech/itech$
+^ne/ne$
+^tamatemolis/tamatemolis$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:74
+# text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
+# text[spa] = A este acontacimiento se le llama “La Gran Explosión”, que dio origen a la luz, la materia y todo lo que ahora observamos que existe.
+# labels =  
+^Ika/Ika$
+^nijin/nijin$
+^tatoponilis/tatoponilis$
+^kipeualtij/kipeualtij$
+^nochi/nochi$
+^teyin/teyin$
+^axkan/axkan$
+^onkak/onkak$
+^,/,$
+^ne/ne$
+^tit/tit$
+^uan/uan$
+^nochi/nochi$
+^teyin/teyin$
+^axkan/axkan$
+^tikitaj/tikitaj$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:76
+# text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. Ika nejin sekinemiliya ke nochi taolochiujtoya.
+# text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
+# labels =  
+^Se/Se$
+^tamachilis/tamachilis$
+^teyin/teyin$
+^kixnextiya/kixnextiya$
+^nijin/nijin$
+^tanemilil/tanemilil$
+^yejua/yejua$
+^neje/neje$
+^ikauanyo/ikauanyo$
+^yitikpa/yitikpa$
+^in/in$
+^Semanauak/Semanauak$
+^teyin/teyin$
+^ijkuitik/ijkuitik$
+^kampa/kampa$
+^yeski/yeski$
+^maj/maj$
+^sekitas/sekitas$
+^ne/ne$
+^iluikak/iluikak$
+^./.$
+^Ika/Ika$
+^nejin/nejin$
+^sekinemiliya/sekinemiliya$
+^ke/ke$
+^nochi/nochi$
+^taolochiujtoya/taolochiujtoya$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:78
+# text = Tajtoleualoni
+# text[spa] = Glosario
+# labels =  
+^Tajtoleualoni/Tajtoleualoni$
+
+# sent_id = kiteixmatiltijtok-tamachilis:84
+# text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
+# text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# labels =  
+^átomos/átomos$
+^nochi/nochi$
+^nejin/nejin$
+^okuilimej/okuilimej$
+^,/,$
+^kuaujtakilomej/kuaujtakilomej$
+^uan/uan$
+^nochi/nochi$
+^teyin/teyin$
+^tikitaj/tikitaj$
+^itech/itech$
+^in/in$
+^totalmanik/totalmanik$
+^chichiujtokej/chichiujtokej$
+^ijka/ijka$
+^átomos/átomos$
+^./.$
+^Nochi/Nochi$
+^teyin/teyin$
+^tikita/tikita$
+^itech/itech$
+^semanauak/semanauak$
+^uan/uan$
+^tejuan/tejuan$
+^tichijchiujtokej/tichijchiujtokej$
+^ika/ika$
+^átomos/átomos$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:86
+# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# labels =  
+^células/células$
+^nochi/nochi$
+^teyin/teyin$
+^onkak/onkak$
+^tel/tel$
+^senkaj/senkaj$
+^tsikitsitsin/tsikitsitsin$
+^uan/uan$
+^kipiya/kipiya$
+^nemilis/nemilis$
+^./.$
+^Totakayo/Totakayo$
+^,/,$
+^okuiltakayot/okuiltakayot$
+^uan/uan$
+^nochin/nochin$
+^in/in$
+^kuaujmej/kuaujmej$
+^chijchiujtokej/chijchiujtokej$
+^ika/ika$
+^miyak/miyak$
+^células/células$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:92
+# text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. Keman mosentiliyaj xota. Ijkon in sitalimej milinij.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# labels =  
+^fusiones/fusiones$
+^nucleares/nucleares$
+^mochiua/mochiua$
+^keman/keman$
+^mosentiliyaj/mosentiliyaj$
+^ome/ome$
+^atomos/atomos$
+^uan/uan$
+^mochiua/mochiua$
+^kachi/kachi$
+^ueyi/ueyi$
+^./.$
+^Keman/Keman$
+^mosentiliyaj/mosentiliyaj$
+^xota/xota$
+^./.$
+^Ijkon/Ijkon$
+^in/in$
+^sitalimej/sitalimej$
+^milinij/milinij$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:94
+# text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
+# text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# labels =  
+^galaxia/galaxia$
+^uejueyi/uejueyi$
+^mixti/mixti$
+^uan/uan$
+^sitalimej/sitalimej$
+^teyin/teyin$
+^chijchiujtokej/chijchiujtokej$
+^ijka/ijka$
+^ijpotok/ijpotok$
+^uan/uan$
+^mixuak/mixuak$
+^,/,$
+^uan/uan$
+^kipiya/kipiya$
+^okseki/okseki$
+^taltikpakmej/taltikpakmej$
+^./.$
+^In/In$
+^sitalkouat/sitalkouat$
+^moixmati/moixmati$
+^kemej/kemej$
+^togalaxia/togalaxia$
+^uan/uan$
+^monotsa/monotsa$
+^Vía/Vía$
+^Láctea/Láctea$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:102
+# text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
+# text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
+# labels =  
+^microscopio/microscopio$
+^tepos/tepos$
+^teyin/teyin$
+^tepaleuiya/tepaleuiya$
+^maj/maj$
+^ika/ika$
+^sekita/sekita$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^sekita/sekita$
+^ika/ika$
+^se/se$
+^ixtololo/ixtololo$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:104
+# text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
+# text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
+# labels =  
+^moléculas/moléculas$
+^ikuak/ikuak$
+^ome/ome$
+^oso/oso$
+^kachi/kachi$
+^miyak/miyak$
+^átomos/átomos$
+^monetechouaj/monetechouaj$
+^./.$
+^In/In$
+^kiskaltia/kiskaltia$
+^se/se$
+^molecula/molecula$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:114
+# text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
+# text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
+# labels =  
+^Próxima/Próxima$
+^centauri/centauri$
+^B/B$
+^:/:$
+^ne/ne$
+^okse/okse$
+^taltikpak/taltikpak$
+^teyin/teyin$
+^moliniya/moliniya$
+^inakastan/inakastan$
+^Próxima/Próxima$
+^Centauri/Centauri$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:116
+# text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
+# text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
+# labels =  
+^Próxima/Próxima$
+^Centauri/Centauri$
+^sitalin/sitalin$
+^teyin/teyin$
+^kinetechojtok/kinetechojtok$
+^ne/ne$
+^tonal/tonal$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:118
+# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# labels =  
+^radiografías/radiografías$
+^Kitekitiltiyaj/Kitekitiltiyaj$
+^tapajtiyanij/tapajtiyanij$
+^teyin/teyin$
+^ika/ika$
+^kixtiliyaj/kixtiliyaj$
+^ixtakopin/ixtakopin$
+^tojomiuan/tojomiuan$
+^./.$
+^Mokui/Mokui$
+^in/in$
+^tit/tit$
+^rayos/rayos$
+^X/X$
+^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:120
+# text = rayos X: nejin se tit teyin amo ueli sekita uan semi chikauak teyin panouaj itech tonakayo uan ajsi itech tojomiyouan.
+# text[spa] = rayos X: luz que no podemos ver pero que tiene tanta energía que puede traspasar la carne hasta llegar a los huesos.
+# labels =  
+^rayos/rayos$
+^X/X$
+^nejin/nejin$
+^se/se$
+^tit/tit$
+^teyin/teyin$
+^amo/amo$
+^ueli/ueli$
+^sekita/sekita$
+^uan/uan$
+^semi/semi$
+^chikauak/chikauak$
+^teyin/teyin$
+^panouaj/panouaj$
+^itech/itech$
+^tonakayo/tonakayo$
+^uan/uan$
+^ajsi/ajsi$
+^itech/itech$
+^tojomiyouan/tojomiyouan$
+^./.$
+
