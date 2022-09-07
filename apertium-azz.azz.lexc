@@ -4289,6 +4289,8 @@ pan:pan                                            N-LOC ; ! ""
 LEXICON Comunes 
 
 at:a                                                N-TL ; ! "agua"
+istajat:ista%{j%}%>a                                N-TL ; ! "agua salada"
+hueyistajat:huey%>ista%{j%}%>a                      N-TL ; ! "mar"
 ahuakat:ahuaka                                      N-TL ; ! "aguacate"
 ajkol:ajkol                                         N-Ø ; ! "hombro"
 tajkuilol:tajkuilol                                 N-Ø ; ! ""
@@ -6069,7 +6071,7 @@ sayoj:sayoj                                         ADV ; ! "sólo"
 
 ajko:ajko                                           ADV ; ! "arriba"
 
-ekintsin:ekintsin                                   ADV ; ! "ahora"
+ekintsin:%{y%}ekintsin                              ADV ; ! "ahora"
 ekintsin:kintsin                                    ADV ; ! "ahora"
 aman:aman                                           ADV ; ! "ahora"
 
