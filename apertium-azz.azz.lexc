@@ -563,6 +563,7 @@ LEXICON COP
 %<cop%>%<fut%>:%>to%>s                             V-AGR-FUTR ;
 %<cop%>%<prog%>%<cni%>:%>to%>s%>ki%{y%}a           V-AGR-PRES ;
 %<cop%>%<cni%>:%>skia                              V-AGR-PRES ;
+%<cop%>%<opt%>:%>tok                               V-AGR-OPT ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -795,6 +796,11 @@ LEXICON PRON-SEKI
 
 %<prn%>:                                           # ;
 %<prn%>%<pl%>:%>mej                                # ;
+
+LEXICON PRON-NEJIN
+
+%<prn%>:                                           # ;
+%<prn%>%<pl%>:%>kej                                # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1984,6 +1990,14 @@ tahuelita:tahuelita                                 V-SI-IMPF ;
 tahuelita:tahuelit                                  V-SI-PROG ;
 tahuelita:tahuelit                                  V-SI-PRET ;
 tahuelita:tahuelit                                  V-SI-FUTR ;
+
+! "caer de rocío"
+ajuachuetsi:ajuachuetsi                             V-SI-PRES ;
+ajuachuetsi:ajuachuetsi                             V-SI-IMPF ;
+ajuachuetsi:ajuachuetsi                             V-SI-PROG ;
+ajuachuetsi:ajuachuetsi                             V-SI-PRET ;
+ajuachuetsi:ajuachuetsi                             V-SI-FUTR ;
+
 
 LEXICON S
 
@@ -3881,6 +3895,7 @@ kemej%<adv%>%+etok%<cop%>%<cni%>:kemej%>eskia      # ;
 LEXICON Copula
 
 etok:%{y%}e                                        COP ; ! "estar"
+@P.PLUR.1@etok:@P.PLUR.1@%{y%}e                                        COP ; ! "estar"
 katka:katka                                        COP-KATKA ; ! ""
 
 LEXICON Miscellanea
@@ -4049,11 +4064,11 @@ seki:seki%{n%}                                     PRON-SEKI ; ! "algunos"
 
 kachi:kachi                                        PRON ; ! "mucho"
 
-nejon:nejo%{n%}                                    PRON ; 
-nejen:neje%{n%}                                    PRON ; 
-nijon:nijo%{n%}                                    PRON ; 
-nijin:niji%{n%}                                    PRON ; 
-nejin:neji%{n%}                                    PRON ; 
+nejon:nejo%{n%}                                    PRON-NEJIN ; 
+nejen:neje%{n%}                                    PRON-NEJIN ; 
+nijon:nijo%{n%}                                    PRON-NEJIN ; 
+nijin:niji%{n%}                                    PRON-NEJIN ; 
+nejin:neji%{n%}                                    PRON-NEJIN ; 
 
 teisa:tei%{j%}sa                                   PRON ; ! "algo"
 teisa:te%{j%}sa                                    PRON ; ! "algo"

@@ -36,7 +36,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
-# labels = tree-complete
+# labels = complete-tree
 1	Nijin	nijin	DET	_	_	2	det	_	_
 2	ijpotok	ijpotok	NOUN	_	Case=Abs	5	nsubj	_	_
 3	uan	huan	CCONJ	_	_	4	cc	_	_
@@ -216,6 +216,65 @@
 15	in	in	DET	_	_	16	det	_	_
 16	at	at	NOUN	_	Case=Abs	13	iobj	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:37
+# text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
+# text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
+# text[gloss] = Cuando uno lo coloca en grandes plásticos y éstos, que queden dentro de algo donde calienta como un invernadero, puede hacerse el agua.
+# labels = complete-tree check-dislocated
+1	Keman	keman	ADV	_	_	3	mark	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kisentiliya	sentilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	20	advcl	_	_
+4	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	uejueyi	huehuei	ADJ	_	_	6	amod	_	_
+6	kuetaxmej	kuetax	NOUN	_	Number=Plur	3	nmod	_	_
+7	uan	huan	CCONJ	_	_	12	cc	_	_
+8	nejinkej	nejin	PRON	_	Number=Plur	12	dislocated	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	maj	ma	AUX	_	_	12	aux	_	_
+11	yetokan	etok	AUX	_	Mood=Opt|Number[subj]=Plur|Person[subj]=3	12	cop	_	_
+12	taijtik	ijtik	NOUN	_	Animacy[psor]=Inan|NounType=Relat|Person[psor]=3	3	conj	_	_
+13	kanpa	kampa	ADV	_	PronType=Rel	14	advmod	_	_
+14	takauani	kahuani	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	12	acl:relcl	_	_
+15	kemej	kemej	ADP	_	_	17	case	_	_
+16	se	se	NUM	_	_	17	det	_	_
+17	invernadero	invernadero	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	uelis	hueli	AUX	_	Tense=Fut	20	aux	_	_
+20	mochipauas	chipahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Fut	0	root	_	_
+21	in	in	DET	_	_	22	det	_	_
+22	at	at	NOUN	_	Case=Abs	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:38
+# text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
+# text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
+# text[gloss] Esta agua se suda, el vapor se queda en la puerta y allá dentro, le cae de rocío, esta agua simple que se coloca puede beberse.
+# labels =
+1	Nejin	nejin	DET	_	_	2	det	_	_
+2	at	at	NOUN	_	Case=Abs	3	nsubj	_	_
+3	mitoniya	itonia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	ijpotok	ijpotok	NOUN	_	Case=Abs	7	nsubj	_	_
+7	mokaua	mokahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	_
+8	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+9	in	in	DET	_	_	10	det	_	_
+10	tatsakuil	tatsakuil	NOUN	_	Case=Abs	8	nmod	_	_
+11	uan	huan	CCONJ	_	_	15	cc	_	_
+12	ompa	ompa	ADV	_	_	15	advmod	_	_
+13	tayijtik	tayijtik	ADV	_	_	15	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	tajuachuetsi	ajuachuetsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	nejin	nejin	DET	_	_	18	det	_	_
+18	chipauakat	chipahuakat	NOUN	_	Case=Abs	23	dep	_	_
+19	teyin	tein	PRON	_	_	20	nsubj	_	_
+20	mosentiliya	sentilia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	18	acl:relcl	_	_
+21	uelis	hueli	AUX	_	Tense=Fut	23	aux	_	_
+22	se	se	NUM	_	_	23	nsubj	_	_
+23	tayis	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	3	parataxis	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:40
 # text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.

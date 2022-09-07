@@ -98,7 +98,6 @@
 	"sayoj" adv
 "<ke>"
 	"ke" prn
-;	"ke" x REMOVE:41
 "<nochin>"
 	"nochi" det @det
 "<mochiuaj>"
@@ -124,7 +123,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
-# labels = tree-complete 
+# labels = complete-tree 
 "<Nijin>"
 	"nijin" det @det #1->2
 "<ijpotok>"
@@ -1075,121 +1074,108 @@
 # sent_id = kiteixmatiltijtok-tamachilis:37
 # text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
 # text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
-# labels =  
+# text[gloss] = Cuando uno lo coloca en grandes plásticos y éstos, que queden dentro de algo donde calienta como un invernadero, puede hacerse el agua.
+# labels = complete-tree check-dislocated
 "<Keman>"
-	"keman" adv
+	"keman" adv @mark #1->3
 "<se>"
-	"se" num
+	"se" num @nsubj #2->3
 "<kisentiliya>"
-	"*kisentiliya"
+	"sentilia" v tv pres s_sg3 o_sg3 @advcl #3->20
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #4->3
 "<uejueyi>"
-	"huehuei" adj
-	"huehuei" adj s_sg3
+	"huehuei" adj @amod #5->6
 "<kuetaxmej>"
-	"kuetax" n pl
-	"kuetax" n pl s_pl3
-	"kuetax" n pl s_sg3
+	"kuetax" n pl @nmod #6->3
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->12
 "<nejinkej>"
-	"*nejinkej"
+	"nejin" prn pl @dislocated #8->12
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->3
 "<maj>"
-	"ma" aux
+	"ma" aux @aux #10->12
 "<yetokan>"
-	"*yetokan"
+	"etok" cop opt s_pl3 @cop #11->12
 "<taijtik>"
-	"taijtik" adv
-	"tat" n cmp
-		"ijtik" n rel
-	"ijtik" n rel px3nn
-	"tat" n cmp s_pl3
-		"ijtik" n rel
-	"tat" n cmp s_sg3
-		"ijtik" n rel
+	"ijtik" n rel px3nn @conj #12->3
 "<kanpa>"
-	"kampa" adv rel
+	"kampa" adv rel @advmod #13->14
 "<takauani>"
-	"kahuani" v tv pres s_sg3 o_nn
-	"kahua" v tv pp s_sg3 o_nn
+	"kahuani" v tv pres s_sg3 o_nn @acl:relcl #14->12
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case #15->17
 "<se>"
-	"se" num
+	"se" num @det #16->17
 "<invernadero>"
-	"invernadero" n m sg
-;	"invernadero" n m sg s_pl3 REMOVE:29
-;	"invernadero" n m sg s_sg3 REMOVE:29
+	"invernadero" n m sg @obl #17->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #18->17
 "<uelis>"
-	"hueli" vaux fut
+	"hueli" vaux fut @aux #19->20
 "<mochipauas>"
-	"chipahua" v tv fut s_sg3 o_ref
+	"chipahua" v tv fut s_sg3 o_ref @root #20->0
 "<in>"
-	"in" det @det
+	"in" det @det #21->22
 "<at>"
-	"at" n abs
-;	"at" n abs s_pl3 REMOVE:29
-;	"at" n abs s_sg3 REMOVE:29
+	"at" n abs @nsubj #22->20
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->20
 
 # sent_id = kiteixmatiltijtok-tamachilis:38
 # text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
 # text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
+# text[gloss] Esta agua se suda, el vapor se queda en la puerta y allá dentro, le cae de rocío, esta agua simple que se coloca puede beberse.
 # labels =  
 "<Nejin>"
-	"nejin" det @det
+	"nejin" det @det #1->2
 "<at>"
-	"at" n abs @nsubj
+	"at" n abs @nsubj #2->3
 "<mitoniya>"
-	"itonia" v tv pres s_sg3 o_ref @root
+	"itonia" v tv pres s_sg3 o_ref @root #3->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->3
 "<in>"
-	"in" det @det
+	"in" det @det #5->6
 "<ijpotok>"
-	"ijpotok" n abs @nsubj
+	"ijpotok" n abs @nsubj #6->7
 "<mokaua>"
-	"mokahua" v iv pres s_sg3
+	"mokahua" v iv pres s_sg3 @parataxis #7->3
 "<itech>"
-	"tech" n rel px3sg @obl
+	"tech" n rel px3sg @obl #8->7
 "<in>"
-	"in" det @det
+	"in" det @det #9->10
 "<tatsakuil>"
-	"tatsakuil" n abs @nmod
+	"tatsakuil" n abs @nmod #10->8
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #11->14
 "<ompa>"
-	"ompa" adv
+	"ompa" adv @advmod #12->14
 "<tayijtik>"
-	"tayijtik" adv
+	"tayijtik" adv @advmod #13->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #14->15
 "<tajuachuetsi>"
-	"*tajuachuetsi"
+	"ajuachuetsi" v tv pres s_sg3 i_nn @conj #15->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #16->14
 "<nejin>"
-	"nejin" det @det
+	"nejin" det @det #17->18
 "<chipauakat>"
-	"chipahuakat" n abs
+	"chipahuakat" n abs @dep #18->23
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #19->20
 "<mosentiliya>"
-	"sentilia" v tv pres s_sg3 o_ref
+	"sentilia" v tv pres s_sg3 o_ref @acl:relcl #20->18
 "<uelis>"
-	"hueli" vaux fut @aux
+	"hueli" vaux fut @aux #21->23
 "<se>"
-	"se" num @nsubj
+	"se" num @nsubj #22->23
 "<tayis>"
-	"tai" v iv fut s_sg3
+	"tai" v iv fut s_sg3 @parataxis #23->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #24->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:40
 # text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
