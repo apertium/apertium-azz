@@ -831,8 +831,8 @@
 ^)/)$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:52
-# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# sent_id = kiteixmatiltijtok-tamachilis:52.1
+# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. 
 # text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
 # labels =  
 ^Ika/Ika$
@@ -859,8 +859,13 @@
 ^okse/okse$
 ^tonal/tonal$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:52.2
+# text = Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
+# labels =  
 ^Nejon/Nejon$
-^kijtosneki/kijtosneki$
+^kijtosneki/kijtos>neki$
 ^ke/ke$
 ^tajko/tajko$
 ^nochipa/nochipa$

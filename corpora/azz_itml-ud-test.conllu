@@ -389,6 +389,26 @@
 21	)	)	_	_	_	18	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:52.2
+# text = Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
+# text[gloss] = Esto quiere decir que mitad siempre es de día y otra mitad es siempre de noche.
+# labels = complete-tree
+1	Nejon	nejon	PRON	_	_	2	nsubj	_	_
+2-3	kijtosneki	_	_	_	_	_	_	_	_
+2	kijtos	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	0	root	_	_
+3	neki	neki	AUX	_	_	1	aux	_	_
+4	ke	ke	SCONJ	_	_	7	mark	_	_
+5	tajko	tajko	NOUN	_	Case=Abs	7	nsubj	_	_
+6	nochipa	nochipa	ADV	_	_	7	advmod	_	_
+7	tonatok	tona	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	ccomp	_	_
+8	uan	huan	CCONJ	_	_	12	cc	_	_
+9	okse	okse	DET	_	_	10	det	_	_
+10	tajko	tajko	NOUN	_	Case=Abs	12	nsubj	_	_
+11	nochipa	nochipa	ADV	_	_	12	advmod	_	_
+12	tayouatok	tayohua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:54
 # text = In Nanotecnologías
 # text[spa] = Nanotecnología

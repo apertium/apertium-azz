@@ -562,7 +562,7 @@ LEXICON COP
 %<cop%>%<impf%>:%>to%>ya                           V-AGR-PRES ;
 %<cop%>%<fut%>:%>to%>s                             V-AGR-FUTR ;
 %<cop%>%<prog%>%<cni%>:%>to%>s%>ki%{y%}a           V-AGR-PRES ;
-%<cop%>%<cni%>:%>skia                              V-AGR-PRES ;
+%<cop%>%<cni%>:%>ski%{y%}a                         V-AGR-PRES ;
 %<cop%>%<opt%>:%>tok                               V-AGR-OPT ;
 
 
@@ -1009,6 +1009,14 @@ chijchihua:chi%{j%}chihua                           V-SO-IMPF ;
 chijchihua:chi%{j%}chihu                            V-SO-PROG ;
 chijchihua:chi%{j%}chihua                           V-SO-PRET ;
 chijchihua:chi%{j%}chihua                           V-SO-FUTR ;
+
+! ""
+ixyejyekohua:ixyejyekohua                           V-SO-PRES ;
+ixyejyekohua:ixyejyekohua                           V-SO-IMPF ;
+ixyejyekohua:ixyejyeko                              V-SO-PROG ;
+ixyejyekohua:ixyejyekohua                           V-SO-PRET ;
+ixyejyekohua:ixyejyeko                              V-SO-FUTR ;
+
 
 ! "seguir"
 seguirohua:seguirohua                               V-SO-PRES ;
@@ -3826,6 +3834,14 @@ metstona:metstona                                  V-Ø-PROG   ;
 metstona:metstona                                  V-Ø-PRET   ; 
 metstona:metstona                                  V-Ø-FUTR   ; 
 
+! "anochecer"
+tayohua:tayohua                                    V-Ø-PRES   ; 
+tayohua:tayohua                                    V-Ø-IMPF   ;
+tayohua:tayohua                                    V-Ø-PROG   ;
+tayohua:tayohua                                    V-Ø-PRET   ; 
+tayohua:tayohua                                    V-Ø-FUTR   ; 
+
+
 ! ""
 tayemani:tayemani                                  V-Ø-PRES   ; 
 tayemani:tayemani                                  V-Ø-IMPF   ;
@@ -3889,8 +3905,8 @@ de%<pr%>%+el%<det%>%<def%>:de%>l                   # ;
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;  
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
 
-kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eskia        # ;
-kemej%<adv%>%+etok%<cop%>%<cni%>:kemej%>eskia      # ;
+kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eski%{y%}a   # ;
+kemej%<adv%>%+etok%<cop%>%<cni%>:kemej%>eski%{y%}a # ;
 
 LEXICON Copula
 

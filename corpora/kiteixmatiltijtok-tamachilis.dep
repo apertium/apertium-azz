@@ -1564,14 +1564,14 @@
 "<itech>"
 	"tech" n rel px3sg @obl
 "<se>"
-	"se" num
+	"se" num @det
 "<tanojnotsalis>"
 	"*tanojnotsalis" n abs
 "<kampa>"
 	"kampa" adv rel
 	"kampa" n rel
 "<moixyejyekoua>"
-	"*moixyejyekoua"
+	"ixyejyekohua" v tv pres s_sg3 o_ref 
 "<keniuj>"
 	"keni" adv itg
 "<uelis>"
@@ -1635,8 +1635,8 @@
 "<.>"
 	"." sent @punct #22->3
 
-# sent_id = kiteixmatiltijtok-tamachilis:52
-# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# sent_id = kiteixmatiltijtok-tamachilis:52.1
+# text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. 
 # text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
 # labels =  
 "<Ika>"
@@ -1650,7 +1650,7 @@
 	"taman" n abs s_pl3
 	"taman" n abs s_sg3
 "<tanemililmej>"
-	"*tanemililmej"
+	"*tanemililmej" n pl
 "<,>"
 	"," cm @punct
 "<ta>"
@@ -1660,19 +1660,15 @@
 "<ikauanyo>"
 	"*ikauanyo"
 "<yeskiya>"
-	"*yeskiya"
+	"etok" cop cni s_sg3
 "<kuali>"
 	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
 "<maj>"
 	"ma" aux
 "<onka>"
 	"onka" v iv pres s_sg3
 "<at>"
 	"at" n abs
-;	"at" n abs s_pl3 REMOVE:29
-;	"at" n abs s_sg3 REMOVE:29
 "<,>"
 	"," cm @punct
 "<neje>"
@@ -1683,8 +1679,6 @@
 	"okse" det @det
 "<taltikpak>"
 	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:29
-;	"taltikpak" n abs s_sg3 REMOVE:29
 "<nochipa>"
 	"nochipa" adv
 "<onkeptok>"
@@ -1709,36 +1703,37 @@
 ;	"tonal" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
+
+# sent_id = kiteixmatiltijtok-tamachilis:52.2
+# text = Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.
+# text[spa] = Por lo pronto, sabemos que su temperatura podría ser adecuada para contener agua líquida, pero de que podría estar mostrando siempre la misma cara a su estrella, por lo que en una mitad de su superficie es siempre de día mientras que la otra mitad vive en una noche perpetua.
+# text[gloss] = Esto quiere decir que mitad siempre es de día y otra mitad es siempre de noche.
+# labels = complete-tree
 "<Nejon>"
-	"nejon" prn
+	"nejon" prn @nsubj #1->2
 "<kijtosneki>"
-	"ijtohua" v tv fut s_sg3 o_sg3
-		"neki" vaux
+	"ijtohua" v tv fut s_sg3 o_sg3 @root #2->0
+		"neki" vaux @aux #3->1
 "<ke>"
-	"ke" prn
-;	"ke" x REMOVE:41
+	"ke" cnjsub @mark #4->7
 "<tajko>"
-	"tajko" n abs
-;	"tajko" n abs s_pl3 REMOVE:29
-;	"tajko" n abs s_sg3 REMOVE:29
+	"tajko" n abs @nsubj #5->7
 "<nochipa>"
-	"nochipa" adv
+	"nochipa" adv @advmod #6->7
 "<tonatok>"
-	"tona" v iv prog pres s_sg3
+	"tona" v iv prog pres s_sg3 @ccomp #7->2
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #8->12
 "<okse>"
-	"okse" det @det
+	"okse" det @det #9->10
 "<tajko>"
-	"tajko" n abs
-;	"tajko" n abs s_pl3 REMOVE:29
-;	"tajko" n abs s_sg3 REMOVE:29
+	"tajko" n abs @nsubj #10->12
 "<nochipa>"
-	"nochipa" adv
+	"nochipa" adv @advmod #11->12
 "<tayouatok>"
-	"*tayouatok"
+	"tayohua" v iv prog pres s_sg3 @conj #12->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->2
 
 # sent_id = kiteixmatiltijtok-tamachilis:54
 # text = In Nanotecnologías
