@@ -1624,6 +1624,13 @@ nelohua:nelo                                        V-SO-PRET ;
 nelohua:nelo                                        V-SO-FUTR ;
 
 ! ""
+matemohua:matemohua                                 V-SO-PRES ;
+matemohua:matemohua                                 V-SO-IMPF ;
+matemohua:matemohua                                 V-SO-PROG ;
+matemohua:matemo                                    V-SO-PRET ;
+matemohua:matemo                                    V-SO-FUTR ;
+
+! ""
 manelohua:manelohua                                 V-SO-PRES ;
 manelohua:manelohua                                 V-SO-IMPF ;
 manelohua:manelohua                                 V-SO-PROG ;
@@ -1736,9 +1743,9 @@ chijchihuilia:chi%{j%}chihuili                      V-SO-PRET ;
 chijchihuilia:chi%{j%}chihuili                      V-SO-FUTR ;
 
 ! ""
-sentilia:sentilia                                   V-SO-PRES ;
-sentilia:sentilia                                   V-SO-IMPF ;
-sentilia:sentilia                                   V-SO-PROG ;
+sentilia:sentili%{y%}a                              V-SO-PRES ;
+sentilia:sentili%{y%}a                              V-SO-IMPF ;
+sentilia:sentili%{y%}a                              V-SO-PROG ;
 sentilia:sentili                                    V-SO-PRET ;
 sentilia:sentili                                    V-SO-FUTR ;
 
@@ -1834,12 +1841,34 @@ pehualtia:pehualti%{y%}                             V-SO-PROG ;
 pehualtia:pehualti%{y%}                             V-SO-PRET ;
 pehualtia:pehualti%{y%}                             V-SO-FUTR ;
 
+! "esperar"
+chia:chi%{y%}a                                      V-SO-PRES ;
+chia:chi%{y%}a                                      V-SO-IMPF ;
+chia:chi%{y%}                                       V-SO-PROG ;
+chia:chi%{y%}                                       V-SO-PRET ;
+chia:chi%{y%}                                       V-SO-FUTR ;
+
+! "hacer sudar"
+itonia:itoni%{y%}a                                  V-SO-PRES ;
+itonia:itoni%{y%}a                                  V-SO-IMPF ;
+itonia:itoni%{y%}                                   V-SO-PROG ;
+itonia:itoni%{y%}                                   V-SO-PRET ;
+itonia:itoni%{y%}                                   V-SO-FUTR ;
+
 ! ""
 nextia:nexti%{y%}a                                  V-SO-PRES ;
 nextia:nexti%{y%}a                                  V-SO-IMPF ;
 nextia:nexti%{y%}                                   V-SO-PROG ;
 nextia:nexti%{y%}                                   V-SO-PRET ;
 nextia:nexti%{y%}                                   V-SO-FUTR ;
+
+
+! ""
+yoltanemililtia:yol%>tanemililti%{y%}a              V-SO-PRES ;
+yoltanemililtia:yol%>tanemililti%{y%}a              V-SO-IMPF ;
+yoltanemililtia:yol%>tanemililti%{y%}               V-SO-PROG ;
+yoltanemililtia:yol%>tanemililti%{y%}               V-SO-PRET ;
+yoltanemililtia:yol%>tanemililti%{y%}               V-SO-FUTR ;
 
 
 LEXICON SI
@@ -4343,6 +4372,7 @@ tapajtiani:tapajtia%>ni                             N-NI ; ! "doctor"
 teposejekatanojnotsaloni:tepos%>ejeka%>ta%>nojnotsa%>lo%>ni  N-Ø ; ! ""
 tajtoleualoni:tajtoleualoni                         N-Ø ; ! "glosario"
 tatoponilis:tatoponilis                             N-Ø ; ! "acontecimiento"
+achipahualis:achipahualis                           N-Ø ; ! ""
 tsontekon:tsontekon                                 N-Ø ; ! "cabeza"
 tonal:tonal                                         N-Ø ; ! "día"
 !sitalin:sitali                                       N-Ø ; ! "estrella"
@@ -4436,6 +4466,8 @@ tiotak:tiotak                                       N-Ø ; ! "tarde"
 tekosej:tekosej                                     N-Ø ; ! ""
 tajsol:tajsol                                       N-Ø ; ! "basura"
 tahuil:tahuil                                       N-Ø ; ! "luz"
+
+chipaujkayot:chipaujkayo                            N-TL ; ! ""
 
 ajuiakkayot:ajuiakkayo                              N-TL ; ! ""
 chichilkokot:chichil%>koko                          N-TL ; ! ""
@@ -5760,6 +5792,7 @@ huejkapan:hue%{j%}huejkapan                         ADJ ; ! "alto"
 huejkapantik:huejkapantik                           ADJ ; ! "alto"
 
 elihuis:elihuis                                     ADJ ; ! "salvaje"
+ijkuitik:ijkuitik                                   ADJ ; ! "igual"
 
 chijchiutok:chijchiu%{j%}tok                        ADJ ; ! "arreglado"
 chichijkoltik:chi%{j%}chijkoltik                    ADJ ; ! "torcido"
@@ -5773,6 +5806,7 @@ tamanal:tamanal                                     ADJ ; ! "hervido"
 
 fuerte:fuerte                                       ADJ-SPA-MEJOR ;
 espacial:espacial                                   ADJ-SPA-MEJOR ;
+austral:austral                                     ADJ-SPA-MEJOR ;
 nuclear:nuclear                                     ADJ-SPA-MEJOR ;
 celular:celular                                     ADJ-SPA-MEJOR ;
 mejor:mejor                                         ADJ-SPA-MEJOR ;
@@ -5780,6 +5814,7 @@ nacional:nacional                                   ADJ-SPA-MEJOR ;
 intercultural:intercultural                         ADJ-SPA-MEJOR ;
 cultural:cultural                                   ADJ-SPA-MEJOR ;
 
+libre:libre                                         ADJ-SPA-LIBRE ;
 indígena:indígena                                   ADJ-SPA-LIBRE ;
 
 malo:mal                                            ADJ-SPA-MALO ;

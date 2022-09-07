@@ -170,6 +170,65 @@
 16	at	at	NOUN	_	Case=Abs	13	iobj	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	2	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:40
+# text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
+# text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
+# labels = complete-tree
+1	Nejin	nejin	DET	_	_	2	det	_	_
+2	tamatemolis	tamatemolis	NOUN	_	Case=Abs	3	nsubj	_	_
+3	mosentoka	toka	VERB	_	Incorporated=Sen|Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	uan	huan	CCONJ	_	_	7	cc	_	_
+5	ijkon	ijkon	ADV	_	_	7	advmod	_	_
+6	uelis	hueli	AUX	_	Tense=Fut	7	aux	_	_
+7	sekichiuas	chihua	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Fut	3	conj	_	_
+8	kachi	kachi	ADV	_	_	9	advmod	_	_
+9	kuali	kuali	ADJ	_	_	7	dep	_	_
+10	nejin	nejin	DET	_	_	11	det	_	_
+11	achipaualis	achipahualis	NOUN	_	Case=Abs	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	uan	huan	CCONJ	_	_	16	cc	_	_
+14	uelis	hueli	AUX	_	Tense=Fut	16	aux	_	_
+15	se	se	NUM	_	_	16	nsubj	_	_
+16	kiuikas	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	dep	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
+19	chipaujkayot	chipaujkayot	NOUN	_	Case=Abs	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	ne	ne	DET	_	_	22	det	_	_
+22	istajat	istajat	NOUN	_	Case=Abs	16	dep	_	_
+23	kanpa	kampa	ADV	_	PronType=Rel	25	advmod	_	_
+24	se	se	NUM	_	_	25	nsubj	_	_
+25	kichipauas	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	22	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:43
+# text = Próxima Centauri B
+# text[spa] = Próxima Centauri B
+# labels = complete
+1	Próxima	Próxima	NOUN	_	_	0	root	_	_
+2	Centauri	Centauri	NOUN	_	_	1	flat	_	_
+3	B	B	X	_	_	1	flat	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:45
+# text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
+# text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
+# labels = complete check-adverb
+1	Miyakej	miak	DET	_	Number=Plur	2	det	_	_
+2	sitalimej	sitalin	NOUN	_	Number=Plur	8	nsubj	_	_
+3	teyin	tein	PRON	_	_	4	obj	_	_
+4	tikinitaj	ita	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	acl:relcl	_	_
+5	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	iluikak	iluikak	NOUN	_	Case=Abs	5	nmod	_	_
+7	uelis	hueli	AUX	_	Tense=Fut	8	aux	_	_
+8	kipiyaskej	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	0	root	_	_
+9	oksekin	okse	PRON	_	Number=Plur	8	obj	_	_
+10	kemej	kemej	ADP	_	_	11	case	_	_
+11	taltikpak	taltikpak	NOUN	_	Case=Abs	9	nmod	_	_
+12	teyin	tein	PRON	_	_	14	nsubj	_	_
+13	no	no	ADV	_	_	14	advmod	_	_
+14	kinyeualouaj	yehualohua	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:46
 # text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
 # text[spa] = Algunos de éstos podrían ser similares a nuestra Tierra e, incluso, albergar vida.

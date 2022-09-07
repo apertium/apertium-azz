@@ -43,7 +43,7 @@
 "<,>"
 	"," cm @punct
 "<uelis>"
-	"hueli" v iv fut s_sg3 @root
+	"hueli" vaux fut @root
 "<se>"
 	"se" num @nsubj
 "<kinitas>"
@@ -1138,7 +1138,7 @@
 "<,>"
 	"," cm @punct
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut
 "<mochipauas>"
 	"chipahua" v tv fut s_sg3 o_ref
 "<in>"
@@ -1156,34 +1156,24 @@
 # labels =  
 "<Nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<at>"
-	"at" n abs
-	"at" n abs s_sg3
-;	"at" n abs s_pl3 REMOVE:39
+	"at" n abs @nsubj
 "<mitoniya>"
-	"*mitoniya"
+	"itonia" v tv pres s_sg3 o_ref @root
 "<,>"
 	"," cm @punct
 "<in>"
 	"in" det @det
 "<ijpotok>"
-	"ijpotok" n abs
-	"ijpotok" n abs s_sg3
-;	"ijpotok" n abs s_pl3 REMOVE:39
+	"ijpotok" n abs @nsubj
 "<mokaua>"
-	"kahua" n px2sg
-	"kahua" n abs px2sg
 	"mokahua" v iv pres s_sg3
-	"kahua" v tv pres s_sg3 o_ref
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl
 "<in>"
 	"in" det @det
 "<tatsakuil>"
-	"tatsakuil" n abs
-;	"tatsakuil" n abs s_pl3 REMOVE:31
-;	"tatsakuil" n abs s_sg3 REMOVE:31
+	"tatsakuil" n abs @nmod
 "<uan>"
 	"huan" cnjcoo @cc
 "<ompa>"
@@ -1198,19 +1188,16 @@
 	"," cm @punct
 "<nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<chipauakat>"
 	"chipahuakat" n abs
-;	"chipahuakat" n abs s_pl3 REMOVE:31
-;	"chipahuakat" n abs s_sg3 REMOVE:31
 "<teyin>"
 	"tein" prn
 "<mosentiliya>"
-	"*mosentiliya"
+	"sentilia" v tv pres s_sg3 o_ref
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<tayis>"
 	"tai" v iv fut s_sg3
 "<.>"
@@ -1219,77 +1206,70 @@
 # sent_id = kiteixmatiltijtok-tamachilis:40
 # text = Nejin tamatemolis mosentoka uan ijkon uelis sekichiuas kachi kuali nejin achipaualis, uan uelis se kiuikas, ika chipaujkayot, ne istajat kanpa se kichipauas.
 # text[spa] = Las investigaciones continúan para lograr hacer más eficiente este proceso. También es necesario encontrar formas para transportar el agua sin contaminar el planeta, desde el mar hasta los lugares donde se necesita.
-# labels =  
+# labels = complete-tree
 "<Nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #1->2
 "<tamatemolis>"
-	"*tamatemolis"
+	"tamatemolis" n abs @nsubj #2->3
 "<mosentoka>"
-	"toka" v tv pres s_sg3 o_ref sen
+	"toka" v tv pres s_sg3 o_ref sen @root #3->0
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #4->7
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #5->7
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #6->7
 "<sekichiuas>"
-	"chihua" v tv fut s_ind o_sg3
+	"chihua" v tv fut s_ind o_sg3 @conj #7->3
 "<kachi>"
-	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
+	"kachi" adv @advmod #8->9
 "<kuali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adj @dep #9->7
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #10->11
 "<achipaualis>"
-	"*achipaualis"
+	"achipahualis" n abs @obj #11->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->7
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #13->16
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #14->16
 "<se>"
-	"se" num
+	"se" num @nsubj #15->16
 "<kiuikas>"
-	"huika" v tv fut s_sg3 o_sg3
+	"huika" v tv fut s_sg3 o_sg3 @dep #16->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #17->16
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #18->16
 "<chipaujkayot>"
-	"*chipaujkayot"
+	"chipaujkayot" n abs @nmod #19->18
 "<,>"
-	"," cm @punct
+	"," cm @punct #20->18
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #21->22
 "<istajat>"
-	"*istajat"
+	"istajat" n abs @dep #22->16
 "<kanpa>"
-	"kampa" adv rel
+	"kampa" adv rel @advmod #23->25
 "<se>"
-	"se" num
+	"se" num @nsubj #24->25
 "<kichipauas>"
-	"chipahua" v tv fut s_sg3 o_sg3
+	"chipahua" v tv fut s_sg3 o_sg3 @acl:relcl #25->22
 "<.>"
-	"." sent @punct
+	"." sent @punct #26->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:41
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
 # labels =  
 "<Moneki>"
-	"neki" v tv pres s_sg3 o_ref
+	"neki" v tv pres s_sg3 o_ref @root
 "<maj>"
 	"ma" aux
 "<semochiya>"
-	"*semochiya"
+	"chia" v tv pres s_ind o_ref
 "<uan>"
 	"huan" cnjcoo @cc
 "<ijkon>"
@@ -1300,15 +1280,12 @@
 	"okse" det pl
 "<tonalmej>"
 	"tonal" n pl
-;	"tonal" n pl s_pl3 REMOVE:29
-;	"tonal" n pl s_sg3 REMOVE:29
 "<,>"
 	"," cm @punct
 "<maj>"
 	"ma" aux
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux
 "<se>"
 	"se" num
 "<kitas>"
@@ -1319,8 +1296,6 @@
 	"ijka" v iv pres s_sg3
 "<teposmej>"
 	"tepos" n pl
-;	"tepos" n pl s_pl3 REMOVE:29
-;	"tepos" n pl s_sg3 REMOVE:29
 "<teyin>"
 	"tein" prn
 "<amo>"
@@ -1333,7 +1308,7 @@
 	"nejin" det @det
 	"nejin" prn
 "<nekuelmololmej>"
-	"*nekuelmololmej"
+	"*nekuelmololmej" n pl
 "<teyin>"
 	"tein" prn
 "<kipiya>"
@@ -1346,60 +1321,48 @@
 # sent_id = kiteixmatiltijtok-tamachilis:43
 # text = Próxima Centauri B
 # text[spa] = Próxima Centauri B
-# labels =  
+# labels = complete
 "<Próxima>"
-	"Próxima" np top
-;	"Próxima" np top s_pl3 REMOVE:31
-;	"Próxima" np top s_sg3 REMOVE:31
+	"Próxima" np top @root #1->0
 "<Centauri>"
-	"Centauri" np top
-;	"Centauri" np top s_pl3 REMOVE:31
-;	"Centauri" np top s_sg3 REMOVE:31
+	"Centauri" np top @flat #2->1
 "<B>"
-	"B" x
+	"B" x @flat #3->1
 
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
 # text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
-# labels =  
+# labels = complete check-adverb
 "<Miyakej>"
-	"miak" det pl
+	"miak" det pl @det #1->2
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:31
-;	"sitalin" n pl s_sg3 REMOVE:31
+	"sitalin" n pl @nsubj #2->8
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #3->4
 "<tikinitaj>"
-	"ita" v tv pres s_pl1 o_pl3
-	"ita" v tv pret s_sg2 o_pl3
+	"ita" v tv pres s_pl1 o_pl3 @acl:relcl #4->2
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #5->4
 "<iluikak>"
-	"iluikak" n abs
-;	"iluikak" n abs s_pl3 REMOVE:29
-;	"iluikak" n abs s_sg3 REMOVE:29
+	"iluikak" n abs @nmod #6->5
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #7->8
 "<kipiyaskej>"
-	"piya" v tv fut s_pl3 o_sg3
+	"piya" v tv fut s_pl3 o_sg3 @root #8->0
 "<oksekin>"
-	"okse" det pl
+	"okse" prn pl @obj #9->8
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case #10->11
 "<taltikpak>"
-	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:29
-;	"taltikpak" n abs s_sg3 REMOVE:29
+	"taltikpak" n abs @nmod #11->9
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #12->14
 "<no>"
-	"no" adv
-	"no" det @det
+	"no" adv @advmod #13->14
 "<kinyeualouaj>"
-	"yehualohua" v tv pres s_pl3 o_pl3
+	"yehualohua" v tv pres s_pl3 o_pl3 @acl:relcl #14->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->8
 
 # sent_id = kiteixmatiltijtok-tamachilis:46
 # text = Sekimej uelis chijchiujtoskej kemej totaltikpak uan ueli onkas nemilis!
@@ -1429,74 +1392,60 @@
 # sent_id = kiteixmatiltijtok-tamachilis:47
 # text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
 # text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
+# text[gloss] = Vida puede encontrarse en otras planetas muy _, _ muchas personas buscan como y dónde se puede encontrar estos otros planetas en esas estrellas.
 # labels =  
 "<Uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" aux fut @aux #1->2
 "<moajsis>"
-	"ajsi" v tv fut s_sg3 o_ref
+	"ajsi" v tv fut s_sg3 o_ref @root #2->0
 "<nemilis>"
-	"nemilis" n abs
-;	"nemilis" n abs s_pl3 REMOVE:29
-;	"nemilis" n abs s_sg3 REMOVE:29
+	"nemilis" n abs @nsubj #3->
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #4->
 "<oksekin>"
-	"okse" det pl
+	"okse" det pl @det #5->
 "<taltikpakmej>"
-	"taltikpak" n pl
-;	"taltikpak" n pl s_pl3 REMOVE:29
-;	"taltikpak" n pl s_sg3 REMOVE:29
+	"taltikpak" n pl @nmod #6->
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #7->
 "<teyoltanemililtiya>"
-	"*teyoltanemililtiya"
+	"yoltanemililtia" v tv pres s_sg3 o_aa
 "<,>"
 	"," cm @punct
 "<yejua>"
 	"yehua" prn pers sg3
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg 
 "<miyakej>"
-	"miak" det pl
+	"miak" det pl @det #12->
 "<tokniuan>"
-	"toknihuan" n abs
-	"knihuan" n px1pl
-	"knihuan" n abs px1pl
-;	"toknihuan" n abs s_pl3 REMOVE:29
-;	"toknihuan" n abs s_sg3 REMOVE:29
+	"toknihuan" n abs @dep #13->
 "<tamatemouaj>"
-	"*tamatemouaj"
+	"matemohua" v tv pres s_pl3 o_nn 
 "<keniuj>"
 	"keni" adv itg
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #16->17
 "<kani>"
-	"kani" adv itg
+	"kani" adv itg @conj #17->15
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut @aux #18->19
 "<moajsiskej>"
 	"ajsi" v tv fut s_pl3 o_ref
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #20->22
 "<oksekin>"
-	"okse" det pl
+	"okse" det pl @det #21->22
 "<taltikpakmej>"
-	"taltikpak" n pl
-;	"taltikpak" n pl s_pl3 REMOVE:29
-;	"taltikpak" n pl s_sg3 REMOVE:29
+	"taltikpak" n pl @nsubj #22->19
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #23->19
 "<neje>"
-	"nejen" ij
-	"nejen" prn
-	"neje" det @det
+	"neje" det @det #24->25
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:29
-;	"sitalin" n pl s_sg3 REMOVE:29
+	"sitalin" n pl @nmod #25->23
 "<.>"
-	"." sent @punct
+	"." sent @punct #26->
 
 # sent_id = kiteixmatiltijtok-tamachilis:49
 # text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
@@ -1508,16 +1457,10 @@
 	"in" det @det
 "<metsti>"
 	"metsti" n abs
-;	"metsti" n abs s_pl3 REMOVE:31
-;	"metsti" n abs s_sg3 REMOVE:31
 "<agosto>"
 	"agosto" n m sg
-;	"agosto" n m sg s_pl3 REMOVE:31
-;	"agosto" n m sg s_sg3 REMOVE:31
 "<xiuit>"
 	"xihuit" n abs
-;	"xihuit" n abs s_pl3 REMOVE:31
-;	"xihuit" n abs s_sg3 REMOVE:31
 "<2016>"
 	"2016" num
 "<iluikataixpejpenanij>"
@@ -1537,29 +1480,22 @@
 ;	"nechikol" n abs s_sg3 REMOVE:29
 "<Observatorio>"
 	"observatorio" n m sg
-;	"observatorio" n m sg s_pl3 REMOVE:29
-;	"observatorio" n m sg s_sg3 REMOVE:29
 "<Espacial>"
-	"espacial" adj mf sg
-	"espacial" adj mf sg s_sg3
-;	"espacial" adj mf sg s_pl3 REMOVE:39
+	"espacial" adj mf sg @amod
 "<Austral>"
-	"*Austral"
+	"austral" adj mf sg @amod
 "<,>"
 	"," cm @punct
 "<kiteyixnextiltijkej>"
 	"*kiteyixnextiltijkej"
 "<ke>"
 	"ke" prn
-;	"ke" x REMOVE:41
 "<itech>"
 	"tech" n rel px3sg
 "<in>"
 	"in" det @det
 "<semanauak>"
 	"semanahuak" n abs
-	"semanahuak" n abs s_sg3
-;	"semanahuak" n abs s_pl3 REMOVE:39
 "<onkak>"
 	"onkak" adv
 	"onka" v iv pret s_sg3
@@ -1567,18 +1503,14 @@
 	"okse" det @det
 "<taltikpak>"
 	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:31
-;	"taltikpak" n abs s_sg3 REMOVE:31
 "<teyin>"
 	"tein" prn
 "<ijkuitik>"
 	"*ijkuitik"
 "<nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<totalmanik>"
 	"talmanik" n px1pl
-	"talmanik" n abs px1pl
 "<,>"
 	"," cm @punct
 "<maski>"
@@ -1617,8 +1549,6 @@
 	"okse" det @det
 "<taltikpak>"
 	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:29
-;	"taltikpak" n abs s_sg3 REMOVE:29
 "<no>"
 	"no" adv
 	"no" det @det
@@ -1630,15 +1560,12 @@
 	"tonal" n abs
 ;	"tonal" n abs s_pl3 REMOVE:29
 ;	"tonal" n abs s_sg3 REMOVE:29
-: 
+"<:>"
+	":" sent 
 "<Próxima>"
 	"Próxima" np top
-;	"Próxima" np top s_pl3 REMOVE:29
-;	"Próxima" np top s_sg3 REMOVE:29
 "<Centauri>"
-	"Centauri" np top
-;	"Centauri" np top s_pl3 REMOVE:29
-;	"Centauri" np top s_sg3 REMOVE:29
+	"Centauri" np top @flat
 "<teyin>"
 	"tein" prn
 "<kinetechojtok>"
@@ -1648,15 +1575,12 @@
 	"ne" det @det
 "<tonal>"
 	"tonal" n abs
-;	"tonal" n abs s_pl3 REMOVE:29
-;	"tonal" n abs s_sg3 REMOVE:29
 "<teyin>"
 	"tein" prn
 "<nochipa>"
 	"nochipa" adv
 "<tikitaj>"
 	"ita" v tv pres s_pl1 o_sg3
-	"ita" v tv pret s_sg2 o_sg3
 "<.>"
 	"." sent @punct
 
@@ -1668,17 +1592,16 @@
 	"ka" n rel px3sg
 "<nijin>"
 	"nijin" det @det
-	"nijin" prn
 "<tamatemolis>"
-	"*tamatemolis"
+	"tamatemolis" n abs
 "<tetaliya>"
 	"*tetaliya"
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl
 "<se>"
 	"se" num
 "<tanojnotsalis>"
-	"*tanojnotsalis"
+	"*tanojnotsalis" n abs
 "<kampa>"
 	"kampa" adv rel
 	"kampa" n rel
@@ -1687,13 +1610,13 @@
 "<keniuj>"
 	"keni" adv itg
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<yas>"
-	"*yas"
+	"yohui" v iv fut s_sg3
 "<sitalkopa>"
-	"sitalkopa" adv
+	"sitalkopa" adv @advmod
 "<.>"
 	"." sent @punct
 
@@ -1736,15 +1659,15 @@
 "<nemilis>"
 	"nemilis" n abs
 "<(>"
-	"(" lpar
+	"(" lpar @punct
 "<Próxima>"
 	"Próxima" np top
 "<Centauri>"
-	"Centauri" np top
+	"Centauri" np top @flat
 "<B>"
-	"B" x
+	"B" x @flat
 "<)>"
-	")" rpar
+	")" rpar @punct
 "<.>"
 	"." sent @punct
 
@@ -1961,7 +1884,7 @@
 "<,>"
 	"," cm @punct
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut
 "<se>"
 	"se" num
 "<kinemilis>"
@@ -2213,7 +2136,7 @@
 ;	"tepos" n pl s_pl3 REMOVE:31
 ;	"tepos" n pl s_sg3 REMOVE:31
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut
 "<se>"
 	"se" num
 "<kinixmatis>"
@@ -2490,7 +2413,7 @@
 "<,>"
 	"," cm @punct
 "<uelis>"
-	"hueli" v iv fut s_sg3
+	"hueli" vaux fut
 "<no>"
 	"no" adv
 	"no" det @det
