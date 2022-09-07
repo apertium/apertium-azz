@@ -42,7 +42,7 @@
 "<,>"
 	"," cm @punct #11->9
 "<uelis>"
-	"hueli" vaux fut @root #12->14
+	"hueli" vaux fut @aux #12->14
 "<se>"
 	"se" num @nsubj #13->14
 "<kinitas>"
@@ -1127,7 +1127,7 @@
 # text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
 # text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
 # text[gloss] Esta agua se suda, el vapor se queda en la puerta y allá dentro, le cae de rocío, esta agua simple que se coloca puede beberse.
-# labels =  
+# labels = complete-tree 
 "<Nejin>"
 	"nejin" det @det #1->2
 "<at>"
@@ -1288,7 +1288,7 @@
 "<kipiya>"
 	"piya" v tv pres s_sg3 o_sg3
 "<toatsin>"
-	"at" n hon px1pl
+	"at" n hon px1pl @obj
 "<.>"
 	"." sent @punct
 
@@ -1426,9 +1426,9 @@
 # text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
 # labels =  
 "<Itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #1->17
 "<in>"
-	"in" det @det
+	"in" det @det #2->
 "<metsti>"
 	"metsti" n abs
 "<agosto>"
@@ -1438,28 +1438,25 @@
 "<2016>"
 	"2016" num
 "<iluikataixpejpenanij>"
-	"*iluikataixpejpenanij"
+	"iluikataixpejpenani" n pl
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #8->
 "<pouij>"
-	"pohui" v iv pres s_pl3
-	"pohui" v iv pret s_sg3
+	"pohui" v iv pres s_pl3 @acl:relcl #9->
 "<itech>"
 	"tech" n rel px3sg
 "<in>"
-	"in" det @det
+	"in" det @det #11->12
 "<nechikol>"
-	"nechikol" n abs
-;	"nechikol" n abs s_pl3 REMOVE:29
-;	"nechikol" n abs s_sg3 REMOVE:29
+	"nechikol" n abs @obl #12->
 "<Observatorio>"
-	"observatorio" n m sg
+	"observatorio" n m sg @appos #13->12
 "<Espacial>"
-	"espacial" adj mf sg @amod
+	"espacial" adj mf sg @amod #14->13
 "<Austral>"
-	"austral" adj mf sg @amod
+	"austral" adj mf sg @amod #15->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #16->
 "<kiteyixnextiltijkej>"
 	"*kiteyixnextiltijkej"
 "<ke>"
@@ -1480,7 +1477,7 @@
 "<teyin>"
 	"tein" prn
 "<ijkuitik>"
-	"*ijkuitik"
+	"ijkuitik" adj s_sg3
 "<nejin>"
 	"nejin" det @det
 "<totalmanik>"
@@ -1488,28 +1485,25 @@
 "<,>"
 	"," cm @punct
 "<maski>"
-	"maski" cnjsub
+	"maski" cnjsub @mark
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<yekinika>"
-	"yekinika" adv
+	"yekinika" adv @advcl
 "<yejua>"
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @nsubj
 "<moajsi>"
-	"ajsi" v tv pres s_sg3 o_ref
+	"ajsi" v tv pres s_sg3 o_ref @acl:relcl
 "<,>"
 	"," cm @punct
 "<nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<tajtol>"
 	"tajtol" n abs
-;	"tajtol" n abs s_pl3 REMOVE:29
-;	"tajtol" n abs s_sg3 REMOVE:29
 "<moneki>"
 	"neki" v tv pres s_sg3 o_ref
 "<maj>"
-	"ma" aux
+	"ma" aux @aux
 "<sekimati>"
 	"mati" v tv pres s_ind o_sg3
 "<,>"
@@ -1532,12 +1526,10 @@
 	"okse" det @det
 "<tonal>"
 	"tonal" n abs
-;	"tonal" n abs s_pl3 REMOVE:29
-;	"tonal" n abs s_sg3 REMOVE:29
 "<:>"
-	":" sent 
+	":" sent @punct
 "<Próxima>"
-	"Próxima" np top
+	"Próxima" np top @parataxis
 "<Centauri>"
 	"Centauri" np top @flat
 "<teyin>"
@@ -1545,16 +1537,15 @@
 "<kinetechojtok>"
 	"*kinetechojtok"
 "<ne>"
-	"ne" adv
 	"ne" det @det
 "<tonal>"
 	"tonal" n abs
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj
 "<nochipa>"
-	"nochipa" adv
+	"nochipa" adv @advmod
 "<tikitaj>"
-	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pres s_pl1 o_sg3 @acl:relcl
 "<.>"
 	"." sent @punct
 
@@ -1597,53 +1588,52 @@
 # sent_id = kiteixmatiltijtok-tamachilis:50.2
 # text = Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# text[gloss] = Muchas investigaciones acaban aún y no se puede decir que este otro planeta que se encontró tiene vida (Próxima Centauri B)
 # labels =  
 "<Miyakej>"
-	"miak" det pl
+	"miak" det pl @det #1->2
 "<tamatemolmej>"
-	"*tamatemolmej"
+	"tamatemol" n pl @nsubj #2->3
 "<poliuij>"
-	"polihui" v iv pres s_pl3
-	"polihui" v iv pret s_sg3
+	"polihui" v iv pres s_pl3 @root #3->0
 "<ok>"
-	"ok" adv
+	"ok" adv @advmod #4->3
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #5->8
 "<ayamo>"
-	"ayamo" adv
+	"ayamo" adv @advmod #6->8
 "<ueli>"
-	"hueli" vaux
+	"hueli" vaux @aux #7->8
 "<moijtos>"
-	"ijtohua" v tv fut s_sg3 o_ref
+	"ijtohua" v tv fut s_sg3 o_ref @conj #8->3
 "<ke>"
-	"ke" prn
+	"ke" cnjsub @mark #9->15
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #10->12
 "<okse>"
-	"okse" det @det
+	"okse" det @det #11->12
 "<taltikpak>"
-	"taltikpak" n abs
+	"taltikpak" n abs @nsubj #12->15
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #13->14
 "<moajsik>"
-	"ajsi" v tv pret s_sg3 o_ref
+	"ajsi" v tv pret s_sg3 o_ref @acl:relcl #14->12
 "<kipiya>"
-	"piya" v tv pres s_sg3 o_sg3
+	"piya" v tv pres s_sg3 o_sg3 @ccomp #15->8
 "<nemilis>"
-	"nemilis" n abs
+	"nemilis" n abs @obj #16->15
 "<(>"
-	"(" lpar @punct
+	"(" lpar @punct #17->18
 "<Próxima>"
-	"Próxima" np top
+	"Próxima" np top @parataxis #18->8
 "<Centauri>"
-	"Centauri" np top @flat
+	"Centauri" np top @flat #19->18
 "<B>"
-	"B" x @flat
+	"B" x @flat #20->18
 "<)>"
-	")" rpar @punct
+	")" rpar @punct #21->18
 "<.>"
-	"." sent @punct
+	"." sent @punct #22->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:52
 # text = Ika oksekin taman tanemililmej, ta maski ikauanyo yeskiya kuali maj onka at, neje okse taltikpak nochipa onkeptok ixpan neje okse tonal. Nejon kijtosneki ke tajko nochipa tonatok uan okse tajko nochipa tayouatok.

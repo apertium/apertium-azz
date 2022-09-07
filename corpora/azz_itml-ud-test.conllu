@@ -24,7 +24,7 @@
 9	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 10	milaj	milaj	NOUN	_	Case=Abs	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	uelis	hueli	AUX	_	Tense=Fut	14	root	_	_
+12	uelis	hueli	AUX	_	Tense=Fut	14	aux	_	_
 13	se	se	NUM	_	_	14	nsubj	_	_
 14	kinitas	ita	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	0	root	_	_
 15	miyakej	miak	DET	_	Number=Plur	16	det	_	_
@@ -195,6 +195,17 @@
 6	ueyistajat	ueyistajat	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:33
+# text = ¡Maj sekikixtili in istat!
+# text[spa] = ¡Sí, quitándole la sal!
+# labels = check-morph
+1	¡	¡	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Maj	ma	AUX	_	_	3	aux	_	_
+3	sekikixtili	kixtilia	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	in	in	DET	_	_	5	det	_	_
+5	istat	istat	NOUN	_	Case=Abs	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:34
 # text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
 # text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
@@ -250,7 +261,7 @@
 # text = Nejin at mitoniya, in ijpotok mokaua itech in tatsakuil uan ompa tayijtik, tajuachuetsi, nejin chipauakat teyin mosentiliya uelis se tayis.
 # text[spa] = El agua se vapora cuando el sol la calienta; después, el vapor se condensa al contacto con el plástico de las paredes y el techo del invernadero. Finalmente, dentro de la caseta, se genera una especie de lluvia; el agua de esta lluvia es apropiada para uso humano.
 # text[gloss] Esta agua se suda, el vapor se queda en la puerta y allá dentro, le cae de rocío, esta agua simple que se coloca puede beberse.
-# labels =
+# labels = complete-tree
 1	Nejin	nejin	DET	_	_	2	det	_	_
 2	at	at	NOUN	_	Case=Abs	3	nsubj	_	_
 3	mitoniya	itonia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -349,6 +360,34 @@
 8	onkas	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	3	conj	_	_
 9	nemilis	nemilis	NOUN	_	Case=Abs	8	nsubj	_	SpaceAfter=No
 10	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:50.2
+# text = Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
+# text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# text[gloss] = Muchas investigaciones acaban aún y no se puede decir que este otro planeta que se encontró tiene vida (Próxima Centauri B)
+# labels =
+1	Miyakej	miak	DET	_	Number=Plur	2	det	_	_
+2	tamatemolmej	tamatemol	NOUN	_	Number=Plur	3	nsubj	_	_
+3	poliuij	polihui	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	ok	ok	ADV	_	_	3	advmod	_	_
+5	uan	huan	CCONJ	_	_	8	cc	_	_
+6	ayamo	ayamo	ADV	_	_	8	advmod	_	_
+7	ueli	hueli	AUX	_	_	8	aux	_	_
+8	moijtos	ijtohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Fut	3	conj	_	_
+9	ke	ke	SCONJ	_	_	15	mark	_	_
+10	nejin	nejin	DET	_	_	12	det	_	_
+11	okse	okse	DET	_	_	12	det	_	_
+12	taltikpak	taltikpak	NOUN	_	Case=Abs	15	nsubj	_	_
+13	teyin	tein	PRON	_	_	14	nsubj	_	_
+14	moajsik	ajsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	acl:relcl	_	_
+15	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	ccomp	_	_
+16	nemilis	nemilis	NOUN	_	Case=Abs	15	obj	_	_
+17	(	(	_	_	_	18	punct	_	SpaceAfter=No
+18	Próxima	Próxima	NOUN	_	_	8	parataxis	_	_
+19	Centauri	Centauri	NOUN	_	_	18	flat	_	_
+20	B	B	X	_	_	18	flat	_	SpaceAfter=No
+21	)	)	_	_	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:54
 # text = In Nanotecnologías

@@ -474,7 +474,8 @@
 # sent_id = kiteixmatiltijtok-tamachilis:33
 # text = ¡Maj sekikixtili in istat!
 # text[spa] = ¡Sí, quitándole la sal!
-# labels =  ¡
+# labels =  
+^¡/¡$
 ^Maj/Maj$
 ^sekikixtili/sekikixtili$
 ^in/in$
@@ -783,8 +784,8 @@
 ^tikitaj/tikitaj$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:50
-# text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
+# sent_id = kiteixmatiltijtok-tamachilis:50.1
+# text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
 # labels =  
 ^Ika/Ika$
@@ -802,6 +803,11 @@
 ^yas/yas$
 ^sitalkopa/sitalkopa$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:50.2
+# text = Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
+# text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# labels =  
 ^Miyakej/Miyakej$
 ^tamatemolmej/tamatemolmej$
 ^poliuij/poliuij$
@@ -818,9 +824,11 @@
 ^moajsik/moajsik$
 ^kipiya/kipiya$
 ^nemilis/nemilis$
+^(/($
 ^Próxima/Próxima$
 ^Centauri/Centauri$
 ^B/B$
+^)/)$
 ^./.$
 
 # sent_id = kiteixmatiltijtok-tamachilis:52
