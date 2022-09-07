@@ -366,6 +366,7 @@ LEXICON V-SIO-PROG
 
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 %<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
@@ -397,6 +398,7 @@ LEXICON V-SO-PROG
 
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 %<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
@@ -428,6 +430,7 @@ LEXICON V-SI-PROG
 
 %<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
 %<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 %<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
@@ -459,6 +462,7 @@ LEXICON V-S-PROG
 
 %<v%>%<iv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<iv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<iv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
 %<v%>%<iv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 %<v%>%<iv%>:%{j%}%>t                               V-AUX-II ;
 
@@ -489,6 +493,7 @@ LEXICON V-Ø-PROG
 
 %<v%>%<iv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
 %<v%>%<iv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<iv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
 %<v%>%<iv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
 %<v%>%<iv%>:%{j%}%>t                               V-AUX-II ;
 
@@ -556,6 +561,7 @@ LEXICON COP
 %<cop%>:%{j%}%>to%>k                               V-AGR-PRET ;
 %<cop%>%<impf%>:%>to%>ya                           V-AGR-PRES ;
 %<cop%>%<fut%>:%>to%>s                             V-AGR-FUTR ;
+%<cop%>%<prog%>%<cni%>:%>to%>s%>ki%{y%}a           V-AGR-PRES ;
 %<cop%>%<cni%>:%>skia                              V-AGR-PRES ;
 
 
@@ -1468,6 +1474,14 @@ ijtohua:ijtohua                                     V-SO-IMPF ;
 ijtohua:ijtohua                                     V-SO-PROG ;
 ijtohua:ijto                                        V-SO-PRET ;
 ijtohua:ijto                                        V-SO-FUTR ;
+
+! "ofrecer"
+tenijtohua:tenijtohua                               V-SO-PRES ;
+tenijtohua:tenijtohua                               V-SO-IMPF ;
+tenijtohua:tenijtohua                               V-SO-PROG ;
+tenijtohua:tenijto                                  V-SO-PRET ;
+tenijtohua:tenijto                                  V-SO-FUTR ;
+
 
 ! ""
 yehualohua:yehualohua                               V-SO-PRES ;
@@ -3855,6 +3869,8 @@ LEXICON Contracciones
 in%<det%>%+%<px3sg%>:n%>i%>                        Sustantivos ;
 in%<det%>%+%<px3pl%>:n%>in%>                       Sustantivos ;
 
+de%<pr%>%+el%<det%>%<def%>:de%>l                   # ;
+
 ! FIXME: Comprobar
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;  
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ; 
@@ -5523,6 +5539,8 @@ chipahuakat:chipahuak%>a                            N-TL ; ! "agua simple"
 
 chanka:chanka                                       N-Ø ; ! "padres"
 
+chikaujka:chikaujka                                 N-Ø ; ! "fuerza"
+
 ix:ix                                               N-Ø ; ! "cara"
 kes:kes                                             N-Ø ; ! "pie"
 nakas:nakas                                         N-Ø ; ! "oreja" ! Use/Incorp
@@ -5544,6 +5562,7 @@ Nicolás:Nicolás                                     NP-ANT-M ;
 Damián:Damián                                       NP-ANT-M ; 
 Ernesto:Ernesto                                     NP-ANT-M ; 
 Ernesto:Erneesto                                    NP-ANT-M ;  ! Use/Typo
+Ernesto:Ermesto                                     NP-ANT-M ;  ! Use/Typo
 Ernesto:Ernsto                                      NP-ANT-M ;  ! Use/Typo
 Francisco:Francisco                                 NP-ANT-M ;
 Gabriel:Gabriel                                     NP-ANT-M ; 

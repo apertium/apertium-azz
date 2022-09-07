@@ -9,6 +9,30 @@
 5	Sitalimej	sitalin	NOUN	_	Number=Plur	3	nsubj	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:3
+# text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
+# text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
+# labels = complete-tree check-mark
+1	Se	se	NUM	_	_	2	det	_	_
+2	youal	yohual	NOUN	_	Case=Abs	14	obl	_	_
+3	keman	keman	ADV	_	_	4	mark	_	_
+4	takistok	takistok	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	_
+5	uan	huan	CCONJ	_	_	7	cc	_	_
+6	amo	amo	ADV	_	_	7	advmod	_	_
+7	metstona	metstona	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+10	milaj	milaj	NOUN	_	Case=Abs	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	uelis	hueli	AUX	_	Tense=Fut	14	root	_	_
+13	se	se	NUM	_	_	14	nsubj	_	_
+14	kinitas	ita	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	0	root	_	_
+15	miyakej	miak	DET	_	Number=Plur	16	det	_	_
+16	sitalimej	sitalin	NOUN	_	Number=Plur	14	obj	_	_
+17	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+18	iluikak	iluikak	NOUN	_	Case=Abs	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
@@ -35,6 +59,29 @@
 20	uan	huan	CCONJ	_	_	21	cc	_	_
 21	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	conj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:14
+# text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
+# text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
+# labels = complete-tree
+1	Maj	ma	AUX	_	_	3	mark	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	onkanij	onka	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Past	10	advcl	_	_
+4	sitalimej	sitalin	NOUN	_	Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	tejua	tehua	PRON	_	Number=Sing|Person=2|PronType=Pers	10	nsubj	_	_
+7	uan	huan	CCONJ	_	_	8	cc	_	_
+8	nejua	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	conj	_	_
+9	amo	amo	ADV	_	_	10	advmod	_	_
+10	nikan	nikan	ADV	_	_	0	root	_	_
+11	tiyetoskiyaj	etok	AUX	_	Aspect=Prog|Mood=Cond|Number[subj]=Plur|Person[subj]=1	10	cop	_	_
+12	timotajtanijtoskiyaj	tajtania	VERB	_	Aspect=Prog|Mood=Cond|Number[subj]=Plur|Person[subj]=1|Reflexive[obj]=Yes|Subcat=Tran	10	advcl	_	_
+13	¿	¿	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	keniuj	keni	ADV	_	PronType=Int	15	advmod	_	_
+15	mochiujkej	chia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	dep	_	_
+16	ne	ne	DET	_	_	17	det	_	_
+17	sitalimej	sitalin	NOUN	_	Number=Plur	15	nsubj	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	15	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:16
 # text = Ueyichikaujkameyot

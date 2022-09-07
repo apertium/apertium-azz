@@ -18,46 +18,45 @@
 # sent_id = kiteixmatiltijtok-tamachilis:3
 # text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
 # text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
-# labels =  
+# labels = complete-tree check-mark
 "<Se>"
-	"se" num
+	"se" num @det #1->2
 "<youal>"
-	"yohual" n abs
+	"yohual" n abs @obl #2->14
 "<keman>"
-	"keman" adv
+	"keman" adv @mark #3->4
 "<takistok>"
-	"takistok" adj
-	"takistok" adj s_sg3
+	"takistok" adj s_sg3 @advcl #4->2
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #5->7
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #6->7
 "<metstona>"
-	"metstona" v iv pres s_sg3
+	"metstona" v iv pres s_sg3 @conj #7->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->4
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #9->14
 "<milaj>"
-	"milaj" n abs @nmod
+	"milaj" n abs @nmod #10->9
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->9
 "<uelis>"
-	"hueli" vaux fut @root
+	"hueli" vaux fut @root #12->14
 "<se>"
-	"se" num @nsubj
+	"se" num @nsubj #13->14
 "<kinitas>"
-	"ita" v tv fut s_sg3 o_pl3
+	"ita" v tv fut s_sg3 o_pl3 @root #14->0
 "<miyakej>"
-	"miak" det pl @det
+	"miak" det pl @det #15->16
 "<sitalimej>"
-	"sitalin" n pl
+	"sitalin" n pl @obj #16->14
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #17->14
 "<iluikak>"
-	"iluikak" n abs @nmod
+	"iluikak" n abs @nmod #18->17
 "<.>"
-	"." sent @punct
+	"." sent @punct #19->14
 
 # sent_id = kiteixmatiltijtok-tamachilis:4
 # text = Neje sitalimej no chijchiujtokej kemej ne tonal, sekin kachi uejueyin uan oksekin kachi tsikitsitsin sayoj ke nochin mochiuaj ika ijpotok teyin monotsa hidrógeno uan mixuak.
@@ -402,48 +401,43 @@
 # sent_id = kiteixmatiltijtok-tamachilis:14
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
 # text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
-# labels =  
+# labels = complete-tree
 "<Maj>"
-	"ma" aux
+	"ma" aux @mark #1->3
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #2->3
 "<onkanij>"
-	"onka" v iv pp s_pl3
+	"onka" v iv pp s_pl3 @advcl #3->10
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:29
-;	"sitalin" n pl s_sg3 REMOVE:29
+	"sitalin" n pl @nsubj #4->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->3
 "<tejua>"
-	"tehua" prn pers sg2
+	"tehua" prn pers sg2 @nsubj #6->10
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->8
 "<nejua>"
-	"nehua" prn pers sg1
+	"nehua" prn pers sg1 @conj #8->6
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #9->10
 "<nikan>"
-	"nikan" adv
+	"nikan" adv @root #10->0
 "<tiyetoskiyaj>"
-	"*tiyetoskiyaj"
+	"etok" cop prog cni s_pl1 @cop #11->10
 "<timotajtanijtoskiyaj>"
-	"*timotajtanijtoskiyaj"
+	"tajtania" v tv prog cni s_pl1 o_ref @advcl #12->10
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #13->15
 "<keniuj>"
-	"keni" adv itg
+	"keni" adv itg @advmod #14->15
 "<mochiujkej>"
-	"*mochiujkej"
+	"chia" v tv pret s_pl3 o_ref @dep #15->12
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #16->17
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:29
-;	"sitalin" n pl s_sg3 REMOVE:29
+	"sitalin" n pl @nsubj #17->15
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #18->15
 
 # sent_id = kiteixmatiltijtok-tamachilis:16
 # text = Ueyichikaujkameyot
@@ -1045,27 +1039,22 @@
 	"yehuan" prn pers pl3 abs
 "<nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<tekimej>"
-	"tekit" n pl
-;	"tekit" n pl s_pl3 REMOVE:29
-;	"tekit" n pl s_sg3 REMOVE:29
+	"tekit" n pl @nsubj
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj
 "<motenijtouaj>"
-	"*motenijtouaj"
+	"tenijtohua" v tv pres s_pl3 o_ref @acl:relcl
 "<,>"
 	"," cm @punct
 "<achipaualis>"
-	"*achipaualis"
+	"achipaualis" n abs
 "<ika>"
 	"ka" n rel px3sg
 "<teposmej>"
-	"tepos" n pl
-;	"tepos" n pl s_pl3 REMOVE:29
-;	"tepos" n pl s_sg3 REMOVE:29
+	"tepos" n pl @nmod
 "<teyin>"
-	"tein" prn
+	"tein" prn 
 "<amo>"
 	"amo" adv
 "<tapitsochiuaj>"
@@ -1073,14 +1062,13 @@
 "<,>"
 	"," cm @punct
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case
 "<ne>"
-	"ne" adv
 	"ne" det @det
 "<ichikaujka>"
-	"*ichikaujka"
+	"chikaujka" n px3sg @obl
 "<tonalmeyot>"
-	"*tonalmeyot"
+	"tonalmeyot" n abs @nmod
 "<.>"
 	"." sent @punct
 
