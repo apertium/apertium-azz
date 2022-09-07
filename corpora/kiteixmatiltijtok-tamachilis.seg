@@ -918,8 +918,8 @@
 ^microscopio/microscopio$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:57
-# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
+# sent_id = kiteixmatiltijtok-tamachilis:57.1
+# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  
 # text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
 # labels =  
 ^Nijin/Nijin$
@@ -957,11 +957,21 @@
 ^se/se$
 ^imakpal/imakpal$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.2
+# text = Nijin askat no motokotsojtiyaj. 
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
 ^Nijin/Nijin$
 ^askat/askat$
 ^no/no$
 ^motokotsojtiyaj/motokotsojtiyaj$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.3
+# text = Nejin askat mokaua keme itamachiuj se nanómetro. 
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
 ^Nejin/Nejin$
 ^askat/askat$
 ^mokaua/mokaua$
@@ -970,6 +980,11 @@
 ^se/se$
 ^nanómetro/nanómetro$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.4
+# text = Amo mota.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
 ^Amo/Amo$
 ^mota/mota$
 ^./.$
@@ -1010,8 +1025,7 @@
 ^tapajtilnemachtilmej/tapajtilnemachtilmej$
 ^kampa/kampa$
 ^mochijchiujtokej/mochijchiujtokej$
-^nano/nano$
-^robots/robots$
+^nano-robots/nano-robots$
 ^,/,$
 ^teyin/teyin$
 ^uelij/uelij$
@@ -1041,8 +1055,7 @@
 ^teyin/teyin$
 ^kiskaltiyaj/kiskaltiyaj$
 ^se/se$
-^nano/nano$
-^robot/robot$
+^nano-robot/nano-robot$
 ^,/,$
 ^uan/uan$
 ^ika/ika$

@@ -1755,9 +1755,9 @@
 "<teyin>"
 	"tein" prn @nsubj
 "<motokaytiya>"
-	"tokaytia" v tv pres s_sg3 o_ref
+	"tokaytia" v tv pres s_sg3 o_ref @acl:relcl
 "<nanotecnologías>"
-	"nanotecnología" n f pl 
+	"nanotecnología" n f pl @dep
 "<,>"
 	"," cm @punct
 "<se>"
@@ -1769,7 +1769,7 @@
 "<kinchijchiua>"
 	"chijchihua" v tv pres s_sg3 o_pl3
 "<teposmej>"
-	"tepos" n pl
+	"tepos" n pl @obj
 "<tel>"
 	"tel" adv @advmod
 "<senkaj>"
@@ -1807,140 +1807,128 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = kiteixmatiltijtok-tamachilis:57
-# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  Nijin askat no motokotsojtiyaj. Nejin askat mokaua keme itamachiuj se nanómetro. Amo mota.
+# sent_id = kiteixmatiltijtok-tamachilis:57.1
+# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.  
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# text[gloss] = A esta escala se llama nanométrica y así mejor uno entenderlo como _, puede uno imaginar una hormiga que anda en un mundo y este mundo uno lo reduce y así que cabe en su palma.
+# labels =  
+"<Nijin>"
+	"nijin" det @det #1->2
+"<tamachiuj>"
+	"tamachiuj" n abs @nsubj #2->3
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @root #3->0
+"<nanométrica>"
+	"nanométrica" n f sg @obj #4->3
+"<uan>"
+	"huan" cnjcoo @cc #5->9
+"<ijkon>"
+	"ijkon" adv @advmod #6->9
+"<kachi>"
+	"kachi" adv @advmod #7->9
+"<se>"
+	"se" num @nsubj #8->9
+"<kiajsikamatis>"
+	"ajsikamati" v tv fut s_sg3 o_sg3 @conj #9->3
+"<keniuj>"
+	"keni" adv itg @advmod #10->11
+"<chichiujtok>"
+	"chijchihua" v iv prog pres s_sg3 @advcl #11->9
+"<,>"
+	"," cm @punct #12->11
+"<uelis>"
+	"hueli" vaux fut @aux #13->15
+"<se>"
+	"se" num @nsubj #14->15
+"<kinemilis>"
+	"nemilia" v tv fut s_sg3 o_sg3 @parataxis #15->3
+"<se>"
+	"se" num @det #16->17
+"<askat>"
+	"askat" n abs @obj #17->15
+"<teyin>"
+	"tein" prn @nsubj #18->19
+"<nemi>"
+	"nemi" v iv pres s_sg3 @acl:relcl #19->17
+"<itech>"
+	"tech" n rel px3sg @obl #20->19
+"<in>"
+	"in" det @det #21->22
+"<taltikpak>"
+	"taltikpak" n abs @nmod #22->20
+"<uan>"
+	"huan" cnjcoo @cc #23->28
+"<in>"
+	"in" det @det #24->25
+"<taltikpak>"
+	"taltikpak" n abs @obj #25->27
+"<se>"
+	"se" num @nsubj #26->27
+"<kitsikitsintiltiya>"
+	"tsikitsintiltia" v tv pres s_sg3 o_sg3 @conj #27->19
+"<uan>"
+	"huan" cnjcoo @cc #28->31
+"<ijkon>"
+	"ijkon" adv @advmod #29->31
+"<maj>"
+	"ma" aux @aux #30->31
+"<aki>"
+	"aki" v iv pres s_sg3 @conj #31->19
+"<itech>"
+	"tech" n rel px3sg @obl #32->31
+"<se>"
+	"se" num @det #33->34
+"<imakpal>"
+	"makpal" n px3sg @nmod #34->32
+"<.>"
+	"." sent @punct #35->3
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.2
+# text = Nijin askat no motokotsojtiyaj. 
 # text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
 # labels =  
 "<Nijin>"
 	"nijin" det @det
-	"nijin" prn
-"<tamachiuj>"
-	"tamachiuj" n abs
-;	"tamachiuj" n abs s_pl3 REMOVE:31
-;	"tamachiuj" n abs s_sg3 REMOVE:31
-"<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
-"<nanométrica>"
-	"nanométrica" n f sg
-;	"nanométrica" n f sg s_pl3 REMOVE:29
-;	"nanométrica" n f sg s_sg3 REMOVE:29
-"<uan>"
-	"huan" cnjcoo @cc
-"<ijkon>"
-	"ijkon" adv
-"<kachi>"
-	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
-"<se>"
-	"se" num
-"<kiajsikamatis>"
-	"*kiajsikamatis"
-"<keniuj>"
-	"keni" adv itg
-"<chichiujtok>"
-	"chijchihua" v iv prog pres s_sg3
-"<,>"
-	"," cm @punct
-"<uelis>"
-	"hueli" vaux fut
-"<se>"
-	"se" num
-"<kinemilis>"
-	"*kinemilis"
-"<se>"
-	"se" num
 "<askat>"
 	"askat" n abs
-;	"askat" n abs s_pl3 REMOVE:29
-;	"askat" n abs s_sg3 REMOVE:29
-"<teyin>"
-	"tein" prn
-"<nemi>"
-	"nemi" v iv pres s_sg3
-"<itech>"
-	"tech" n rel px3sg
-"<in>"
-	"in" det @det
-"<taltikpak>"
-	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:29
-;	"taltikpak" n abs s_sg3 REMOVE:29
-"<uan>"
-	"huan" cnjcoo @cc
-"<in>"
-	"in" det @det
-"<taltikpak>"
-	"taltikpak" n abs
-;	"taltikpak" n abs s_pl3 REMOVE:29
-;	"taltikpak" n abs s_sg3 REMOVE:29
-"<se>"
-	"se" num
-"<kitsikitsintiltiya>"
-	"*kitsikitsintiltiya"
-"<uan>"
-	"huan" cnjcoo @cc
-"<ijkon>"
-	"ijkon" adv
-"<maj>"
-	"ma" aux
-"<aki>"
-	"aki" v iv pres s_sg3
-"<itech>"
-	"tech" n rel px3sg
-"<se>"
-	"se" num
-"<imakpal>"
-	"makpal" n px3sg
-	"makpal" n abs px3sg
-"<.>"
-	"." sent @punct
-"<Nijin>"
-	"nijin" det @det
-	"nijin" prn
-"<askat>"
-	"askat" n abs
-	"askat" n abs s_sg3
-;	"askat" n abs s_pl3 REMOVE:39
 "<no>"
 	"no" adv
-	"no" det @det
 "<motokotsojtiyaj>"
 	"*motokotsojtiyaj"
 "<.>"
 	"." sent @punct
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.3
+# text = Nejin askat mokaua keme itamachiuj se nanómetro. 
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
 "<Nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #1->2
 "<askat>"
-	"askat" n abs
-	"askat" n abs s_sg3
-;	"askat" n abs s_pl3 REMOVE:39
+	"askat" n abs @nsubj #2->3
 "<mokaua>"
-	"kahua" n px2sg
-	"kahua" n abs px2sg
-	"mokahua" v iv pres s_sg3
-	"kahua" v tv pres s_sg3 o_ref
+	"kahua" v tv pres s_sg3 o_ref @root #3->0
 "<keme>"
-	"kemej" adv
+	"kemej" pr @case #4->5
 "<itamachiuj>"
-	"tamachiuj" n px3sg
-	"tamachiuj" n abs px3sg
+	"tamachiuj" n px3sg @obl #5->3
 "<se>"
-	"se" num
+	"se" num @det #6->7
 "<nanómetro>"
-	"nanómetro" n m sg
-	"nanómetro" n m sg s_sg3
-;	"nanómetro" n m sg s_pl3 REMOVE:39
+	"nanómetro" n m sg @nmod #7->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->3
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.4
+# text = Amo mota.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =  
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod #1->2
 "<mota>"
-	"tat" n px2sg
-	"ita" v tv pres s_sg3 o_ref
+	"ita" v tv pres s_sg3 o_ref @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
 
 # sent_id = kiteixmatiltijtok-tamachilis:58
 # text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
@@ -2049,126 +2037,103 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = kiteixmatiltijtok-tamachilis:62
-# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
+# sent_id = kiteixmatiltijtok-tamachilis:62.1
+# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. 
 # text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# text[gloss] = Puede uno reunir muchas moléculas que crian un nano-robot, y con esta máquina puede uno conocer cuales células se enferman, éstos _ _ en los ratones.
 # labels =  
 "<Ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #1->3
 "<se>"
-	"se" num
+	"se" num @nsubj #2->3
 "<kinsentiliya>"
-	"*kinsentiliya"
+	"sentilia" v tv pres s_sg3 o_pl3 @root #3->0
 "<miyak>"
-	"miak" det @det
+	"miak" det @det #4->5
 "<moléculas>"
-	"molécula" n f pl
-;	"molécula" n f pl s_pl3 REMOVE:31
-;	"molécula" n f pl s_sg3 REMOVE:31
+	"molécula" n f pl @obj #5->3
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #6->7
 "<kiskaltiyaj>"
-	"*kiskaltiyaj"
+	"iskaltia" v tv pres s_pl3 o_sg3 @acl:relcl #7->5
 "<se>"
-	"se" num
-"<nano>"
-	"nano" n abs
-;	"nano" n abs s_pl3 REMOVE:31
-;	"nano" n abs s_sg3 REMOVE:31
--
-"<robot>"
-	"robot" n m sg
-;	"robot" n m sg s_pl3 REMOVE:31
-;	"robot" n m sg s_sg3 REMOVE:31
+	"se" num @det #8->9
+"<nano-robot>"
+	"nano-robot" n m sg @obj #9->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #11->17
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #12->17
 "<nijin>"
-	"nijin" det @det
-	"nijin" prn
+	"nijin" det @det #13->14
 "<teposmej>"
-	"tepos" n pl
-;	"tepos" n pl s_pl3 REMOVE:31
-;	"tepos" n pl s_sg3 REMOVE:31
+	"tepos" n pl @nmod #14->12
 "<uelis>"
-	"hueli" vaux fut
+	"hueli" vaux fut @aux #15->17
 "<se>"
-	"se" num
+	"se" num @nsubj #16->17
 "<kinixmatis>"
-	"ixmati" v tv fut s_sg3 o_pl3
+	"ixmati" v tv fut s_sg3 o_pl3 @conj #17->3
 "<katin>"
-	"katin" prn
+	"katin" det itg @det #18->19
 "<células>"
-	"célula" n f pl
-;	"célula" n f pl s_pl3 REMOVE:29
-;	"célula" n f pl s_sg3 REMOVE:29
+	"célula" n f pl @nsubj #19->20
 "<mokokouaj>"
-	"kokohua" v tv pres s_pl3 o_ref
+	"kokohua" v tv pres s_pl3 o_ref @advcl #20->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #21->20
 "<nejin>"
-	"nejin" det @det
-	"nejin" prn
+	"nejin" det @det #22->23
 "<tamatilismej>"
-	"*tamatilismej"
+	"tamatilis" n pl
 "<moixyeyekouaj>"
 	"*moixyeyekouaj"
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl
 "<kimichimej>"
-	"kimichin" n pl
-;	"kimichin" n pl s_pl3 REMOVE:29
-;	"kimichin" n pl s_sg3 REMOVE:29
+	"kimichin" n pl @nmod
 "<.>"
 	"." sent @punct
+
+# sent_id = kiteixmatiltijtok-tamachilis:62.2
+# text = Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
+# text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# text[gloss] = Esta manera abre un nuevo estudio donde _ como uno mata células cancerígenas que a la gente dan enfermedad.
+# labels =  
 "<Nijin>"
-	"nijin" det @det
-	"nijin" prn
+	"nijin" det @det #1->2
 "<tamachilis>"
-	"tamachilis" n abs
-	"tamachilis" n abs s_pl3
-	"tamachilis" n abs s_sg3
-	"machilia" v tv fut s_sg3 o_nn
+	"tamachilis" n abs @nsubj #2->3
 "<kitapoua>"
-	"*kitapoua"
+	"tapohua" v tv pres s_sg3 o_sg3 @root #3->0
 "<se>"
-	"se" num
+	"se" num @det #4->6
 "<yankuik>"
-	"yankuik" adj
-	"yankuik" adj s_sg3
+	"yankuik" adj @amod #5->6
 "<nemachtil>"
-	"nemachtil" n abs
-	"nemachtil" n abs s_pl3
-	"nemachtil" n abs s_sg3
+	"nemachtil" n abs @obj #6->3
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #7->8
 "<moixnextiya>"
-	"*moixnextiya"
+	"*moixnextiya" v tv pres s_sg3 o_ref @acl:relcl #8->6
 "<keniuj>"
-	"keni" adv itg
+	"keni" adv itg @advmod #9->11
 "<se>"
-	"se" num
+	"se" num @nsubj #10->11
 "<kinmiktis>"
-	"*kinmiktis"
+	"miktia" v tv fut s_sg3 o_pl3
 "<células>"
-	"célula" n f pl
-	"célula" n f pl s_pl3
-	"célula" n f pl s_sg3
+	"célula" n f pl @obj #12->11
 "<cancerígenas>"
-	"cancerígeno" adj f pl
-	"cancerígeno" adj f pl s_pl3
-	"cancerígeno" adj f pl s_sg3
+	"cancerígeno" adj f pl @amod #13->12
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #14->15
 "<tekokolismakaj>"
-	"*tekokolismakaj"
+	"kokolismaka" v tv pres s_pl3 o_aa @acl:relcl #15->12
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:64
 # text = In ueyi tatoponilis

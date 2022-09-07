@@ -416,6 +416,68 @@
 1	In	in	DET	_	_	2	det	_	_
 2	Nanotecnologías	nanotecnología	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:57.1
+# text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# text[gloss] = A esta escala se llama nanométrica y así mejor uno entenderlo como _, puede uno imaginar una hormiga que anda en un mundo y este mundo uno lo reduce y así que cabe en su palma.
+# labels =
+1	Nijin	nijin	DET	_	_	2	det	_	_
+2	tamachiuj	tamachiuj	NOUN	_	Case=Abs	3	nsubj	_	_
+3	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	nanométrica	nanométrica	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	uan	huan	CCONJ	_	_	9	cc	_	_
+6	ijkon	ijkon	ADV	_	_	9	advmod	_	_
+7	kachi	kachi	ADV	_	_	9	advmod	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kiajsikamatis	ajsikamati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	conj	_	_
+10	keniuj	keni	ADV	_	PronType=Int	11	advmod	_	_
+11	chichiujtok	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	9	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	uelis	hueli	AUX	_	Tense=Fut	15	aux	_	_
+14	se	se	NUM	_	_	15	nsubj	_	_
+15	kinemilis	nemilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	parataxis	_	_
+16	se	se	NUM	_	_	17	det	_	_
+17	askat	askat	NOUN	_	Case=Abs	15	obj	_	_
+18	teyin	tein	PRON	_	_	19	nsubj	_	_
+19	nemi	nemi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	17	acl:relcl	_	_
+20	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+21	in	in	DET	_	_	22	det	_	_
+22	taltikpak	taltikpak	NOUN	_	Case=Abs	20	nmod	_	_
+23	uan	huan	CCONJ	_	_	28	cc	_	_
+24	in	in	DET	_	_	25	det	_	_
+25	taltikpak	taltikpak	NOUN	_	Case=Abs	27	obj	_	_
+26	se	se	NUM	_	_	27	nsubj	_	_
+27	kitsikitsintiltiya	tsikitsintiltia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	19	conj	_	_
+28	uan	huan	CCONJ	_	_	31	cc	_	_
+29	ijkon	ijkon	ADV	_	_	31	advmod	_	_
+30	maj	ma	AUX	_	_	31	aux	_	_
+31	aki	aki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	19	conj	_	_
+32	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	31	obl	_	_
+33	se	se	NUM	_	_	34	det	_	_
+34	imakpal	makpal	NOUN	_	Number[psor]=Sing|Person[psor]=3	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.3
+# text = Nejin askat mokaua keme itamachiuj se nanómetro.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =
+1	Nejin	nejin	DET	_	_	2	det	_	_
+2	askat	askat	NOUN	_	Case=Abs	3	nsubj	_	_
+3	mokaua	kahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	keme	kemej	ADP	_	_	5	case	_	_
+5	itamachiuj	tamachiuj	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+6	se	se	NUM	_	_	7	det	_	_
+7	nanómetro	nanómetro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.4
+# text = Amo mota.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	mota	ita	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:58
 # text = In teposkonemej teyin mokuij itech in nanotecnologías, tel senkaj tsikitsitsin teyin mochijchiuaj ika tsiktsin moléculas uan átomos.
 # text[spa] = Los dispositivos que se utilizan en la nanotecnología son tan pequeños que se construyen con unas pocas moléculas y átomos.
