@@ -551,6 +551,28 @@
 2	ueyi	huei	ADJ	_	_	3	amod	_	_
 3	tatoponilis	tatoponilis	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:72
+# text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
+# text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
+# text[gloss] = Así se hizo nuestro mundo; _ así estos soles y todo el _ _
+# labels =
+1	Ijkon	ijkon	ADV	_	_	2	advmod	_	_
+2	mochiuj	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	0	root	_	_
+3	Tosemanauak	semanahuak	NOUN	_	Number[psor]=Plur|Person[psor]=1	2	nsubj	_	SpaceAfter=No
+4	;	;	PUNCT	_	_	13	punct	_	_
+5	no	no	ADV	_	_	13	advmod	_	_
+6	ijkon	ijkon	ADV	_	_	13	advmod	_	_
+7	ne	ne	DET	_	_	8	det	_	_
+8	tonalmej	tonal	NOUN	_	Number=Plur	13	nsubj	_	_
+9	uan	huan	CCONJ	_	_	12	cc	_	_
+10	nochi	nochi	DET	_	_	12	det	_	_
+11	in	in	DET	_	_	12	det	_	_
+12	tayojkanyot	*tayojkanyot	NOUN	_	Case=Abs	8	conj	_	_
+13-14	mochiujtiuetskej	_	_	_	_	_	_	_	SpaceAfter=No
+13	mochiujti	chihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran	2	parataxis	_	_
+14	uetskej	huetsi	AUX	_	_	13	aux	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:74
 # text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
 # text[spa] = A este acontacimiento se le llama “La Gran Explosión”, que dio origen a la luz, la materia y todo lo que ahora observamos que existe.
@@ -638,6 +660,16 @@
 2	mosentiliyaj	sentilia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 3	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	advcl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:92.3
+# text = Ijkon in sitalimej milinij.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# labels = complete
+1	Ijkon	ijkon	ADV	_	_	4	advmod	_	_
+2	in	in	DET	_	_	3	det	_	_
+3	sitalimej	sitalin	NOUN	_	Number=Plur	4	nsubj	_	_
+4	milinij	milini	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:102
 # text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.

@@ -1643,10 +1643,6 @@
 	"ixpan" n rel
 	"ix" n cmp
 		"pan" n rel
-;	"ix" n cmp s_pl3 REMOVE:29
-;		"pan" n rel
-;	"ix" n cmp s_sg3 REMOVE:29
-;		"pan" n rel
 "<neje>"
 	"nejen" ij
 	"nejen" prn
@@ -1655,8 +1651,6 @@
 	"okse" det @det
 "<tonal>"
 	"tonal" n abs
-;	"tonal" n abs s_pl3 REMOVE:29
-;	"tonal" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
 
@@ -2373,36 +2367,37 @@
 # sent_id = kiteixmatiltijtok-tamachilis:72
 # text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
 # text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
+# text[gloss] = Así se hizo nuestro mundo; _ así estos soles y todo el _ _ 
 # labels =  
 "<Ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #1->2
 "<mochiuj>"
-	"chihua" v tv pret s_sg3 o_ref
+	"chihua" v tv pret s_sg3 o_ref @root #2->0
 "<Tosemanauak>"
-	"semanahuak" n px1pl
+	"semanahuak" n px1pl @nsubj #3->2
 "<;>"
-	";" sent 
+	";" sent @punct #4->2
 "<no>"
-	"no" adv
+	"no" adv @advmod #5->13
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #6->13
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #7->8
 "<tonalmej>"
-	"tonal" n pl
+	"tonal" n pl @nsubj #8->13
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #9->12
 "<nochi>"
-	"nochi" prn
+	"nochi" det @det #10->12
 "<in>"
-	"in" det @det
+	"in" det @det #11->12
 "<tayojkanyot>"
-	"*tayojkanyot" n abs
+	"*tayojkanyot" n abs @conj #12->8
 "<mochiujtiuetskej>"
-	"*mochiujtiuetskej"
+	"chihua" v tv s_pl3 o_ref @parataxis #13->2
+		"huetsi" vaux @aux #14->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->2
 
 # sent_id = kiteixmatiltijtok-tamachilis:73
 # text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
@@ -2750,19 +2745,17 @@
 # sent_id = kiteixmatiltijtok-tamachilis:92.3
 # text = Ijkon in sitalimej milinij.
 # text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
-# labels =  
+# labels = complete
 "<Ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #1->4
 "<in>"
-	"in" det @det
+	"in" det @det #2->3
 "<sitalimej>"
-	"sitalin" n pl
-	"sitalin" n pl s_pl3
-	"sitalin" n pl s_sg3
+	"sitalin" n pl @nsubj #3->4
 "<milinij>"
-	"*milinij"
+	"milini" v iv pres s_pl3 @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
 
 # sent_id = kiteixmatiltijtok-tamachilis:94
 # text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.

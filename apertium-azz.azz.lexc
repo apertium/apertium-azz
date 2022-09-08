@@ -523,13 +523,18 @@ LEXICON V-AUX-II
 %+ajsi%<vaux%>:%>ajsi                              V-AGR-PRES ;
 %+ehua%<vaux%>:%>ehua                              V-AGR-PRES ;
 %+kisa%<vaux%>:i%>kisa                             V-AGR-PRES ;
-%+huetsi%<vaux%>:i%>huetsi                         V-AGR-PRES ;
+%+huetsi%<vaux%>:i%>huets                          V-AGR-HUETSI ;
 %+nemi%<vaux%>:i%>nemi                             V-AGR-PRES ;
    
 LEXICON V-DIR
 
 %<ven%>:%>ki                                       V-AGR-PRES ;
 %<and%>:%>ti                                       V-AGR-PRES ;
+
+LEXICON V-AGR-HUETSI
+
+@D.PLUR@:@D.PLUR@i                                 # ; 
+@R.PLUR.1@:@R.PLUR.1@%>kej                         # ; 
 
 LEXICON V-AGR-PRET
 
@@ -3895,6 +3900,14 @@ yolpolihui:yolpolihui                                 V-S-PROG ; ! "desesperarse
 yolpolihui:yolpolihui                                 V-S-PRET ; ! "desesperarse"
 yolpolihui:yolpolihui                                 V-S-FUTR ; ! "desesperarse"
 
+! "prender"
+milini:milini                                         V-S-PRES ; ! ""
+milini:milini                                         V-S-IMPF ; ! ""
+milini:milini                                         V-S-PROG ; ! ""
+milini:milini                                         V-S-PRET ; ! ""
+milini:milini                                         V-S-FUTR ; ! ""
+
+
 yolsahuani:yolsahuani                                 V-S-PRES ; ! ""
 yolsahuani:yolsahuani                                 V-S-IMPF ; ! ""
 yolsahuani:yolsahuani                                 V-S-PROG ; ! ""
@@ -4590,6 +4603,7 @@ tatekiujtilis:tatekiujtilis                         N-Ø ; ! ""
 tamachilis:tamachilis                               N-Ø ; ! ""
 talnamikilis:talnamikilis                           N-Ø ; ! "conocimiento"
 tatsintokalis:tatsintokalis                         N-Ø ; ! "pregunta"
+amatajkuilochiualis:amatajkuilochiualis             N-Ø ; ! ""
 kali:kal                                            N-LI ; ! "casa"
 corral:corral                                       N-Ø ; ! "corral"
 tomin:tomin                                         N-Ø ; ! "dinero"
@@ -5244,7 +5258,9 @@ xantoj:xantoj                                       N-Ø ; ! "santo"
 xapoj:xapoj                                         N-Ø ; ! "jabón"
 xolasoj:xolasoj                                     N-Ø ; ! "cedazo"
 
-hueyichikaujkameyot:hueyi%>chikaujkameyo            N-TL ; ! "radiación electromagnética"
+hueyichikaujkameyot:hueyi%>chikau%{j%}kameyo        N-TL ; ! "radiación electromagnética"
+hueyichikaujkameyot:hueyi%>chikua%{j%}kameyo        N-TL ; ! "radiación electromagnética"
+tonalmeyot:tonal%>meyo                              N-TL ; ! "energía solar"
 tapajtilnemachtil:tapajtilnemachtil                 N-Ø ; ! "investigación médica" ! FIXME: Comprobar lema
 
 mes:mes                                             N-SPA-LUGAR ; ! "mes"
