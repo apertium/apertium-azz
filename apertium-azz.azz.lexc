@@ -605,6 +605,16 @@ LEXICON N-Ø
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
+LEXICON N-OYAN
+
+%<n%>%<abs%>:                                      # ;
+%<n%>:                                             N-POSS ;
+%<n%>%<hon%>:%>tsin                                # ;
+%<n%>%<pl%>:i%>mej                                 # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<cmp%>%+:                                    CMPND ;
+
+
 LEXICON N-ITL
 
 %<n%>%<abs%>:%>it                                  # ;
@@ -5666,7 +5676,9 @@ tani:tani                                           N-Ø ; ! "abajo"
 nexwitil:nexwitil                                   N-Ø ; ! "empacho"
 ajuiaya:ajuiaya                                     N-Ø ; ! "fragrancia"
 kosantsin:kosantsin                                 N-Ø ; ! "arcoiris"
-kalnemachtiloyan:kalnemachtiloyan                   N-Ø ; ! "escuela"
+kalnemachtiloyan:kalnemachtiloyan                   N-OYAN ; ! "escuela"
+kaltapajtiloyan:kaltapajtiloyan                     N-OYAN ; ! "hospital"
+kaltapajtilnemachtil:kaltapajtilnemachtil           N-Ø ; ! ""
 chipahuakat:chipahuak%>a                            N-TL ; ! "agua simple"
 
 chanka:chanka                                       N-Ø ; ! "padres"
