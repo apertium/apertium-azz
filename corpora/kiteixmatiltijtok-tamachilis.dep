@@ -1645,12 +1645,8 @@
 	"okse" det pl
 "<taman>"
 	"taman" n abs
-	"man" n px3nn
-	"man" n abs px3nn
-	"taman" n abs s_pl3
-	"taman" n abs s_sg3
 "<tanemililmej>"
-	"*tanemililmej" n pl
+	"tanemilil" n pl
 "<,>"
 	"," cm @punct
 "<ta>"
