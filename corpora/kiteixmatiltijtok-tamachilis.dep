@@ -647,89 +647,72 @@
 # text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
 # labels =  
 "<Nochin>"
-	"nochi" det @det
+	"nochi" det @det #1->2
 "<tauilmej>"
-	"tahuil" n pl
-	"tahuil" n pl s_pl3
-	"tahuil" n pl s_sg3
+	"tahuil" n pl @nsubj #2->22
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->2
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #4->7
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #5->7
 "<se>"
-	"se" num
+	"se" num @nsubj #6->7
 "<kita>"
-	"ita" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 @acl:relcl #7->2
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case #8->9
 "<itapaluan>"
-	"tapal" n pl px3sg
+	"tapal" n pl px3sg @obl #9->7
 "<kosantsin>"
-	"kosantsin" n abs
-;	"kosantsin" n abs s_pl3 REMOVE:29
-;	"kosantsin" n abs s_sg3 REMOVE:29
+	"kosantsin" n abs @nmod #10->9
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #11->15
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #12->15
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #13->15
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #14->15
 "<sekita>"
-	"ita" v tv pres s_ind o_sg3
+	"ita" v tv pres s_ind o_sg3 @conj #15->7
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case #16->17
 "<rayos>"
-	"rayo" n m pl
-	"rayo" n m pl s_pl3
-	"rayo" n m pl s_sg3
+	"rayo" n m pl @obl #17->15
 "<X>"
-	"x" x
+	"X" x @flat #18->17
 "<oso>"
-	"oso" cnjcoo @cc
+	"oso" cnjcoo @cc #19->20
 "<microondas>"
-	"microondas" n m pl
-	"microondas" n m sg
-	"microondas" n m pl s_pl3
-	"microondas" n m sg s_pl3
-	"microondas" n m pl s_sg3
-	"microondas" n m sg s_sg3
+	"microonda" n f pl @conj #20->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #21->22
 "<kintokaytiyaj>"
-	"*kintokaytiyaj"
+	"tokaytia" v tv pres s_pl3 o_pl3 @root #22->0
 "<ueyichikaujkameyot>"
-	"*ueyichikaujkameyot"
+	"ueyichikaujkameyot" n abs @obj #23->22
 "<“>"
-	"“" quot
+	"“" quot @punct #24->25
 "<radiación>"
-	"radiación" n f sg
-	"radiación" n f sg s_pl3
-	"radiación" n f sg s_sg3
+	"radiación" n f sg @appos #25->23
 "<electromagnética>"
-	"electromagnética" n f sg
-	"electromagnética" n f sg s_pl3
-	"electromagnética" n f sg s_sg3
+	"electromagnética" n f sg @amod #26->25
 "<”>"
-	"”" quot
+	"”" quot @punct #27->25
 "<.>"
-	"." sent @punct
+	"." sent @punct #28->22
 
 # sent_id = kiteixmatiltijtok-tamachilis:25
 # text = Ininchikaujkayo kintamanchiuaj.
 # text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
 # labels =  
 "<Ininchikaujkayo>"
-	"*Ininchikaujkayo"
+	"ininchikaujkayot" n abs @nsubj #1->2
 "<kintamanchiuaj>"
-	"*kintamanchiuaj"
+	"tamanchihua" v tv pret s_sg3 o_pl3 @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
 
 # sent_id = kiteixmatiltijtok-tamachilis:26
 # text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
@@ -847,23 +830,19 @@
 "<ika>"
 	"ka" n rel px3sg
 "<tikmatkej>"
-	"*tikmatkej"
+	"mati" v tv pret s_pl1 o_sg3
 "<katin>"
 	"katin" prn
 "<itatekiujtilis>"
-	"*itatekiujtilis"
+	"tatekiujtilis" n px3sg
 "<in>"
 	"in" det @det
 "<ueyichikuakameyot>"
-	"*ueyichikuakameyot"
+	"ueyichikuakameyot" n abs
 "<radiación>"
-	"radiación" n f sg
-;	"radiación" n f sg s_pl3 REMOVE:31
-;	"radiación" n f sg s_sg3 REMOVE:31
+	"radiación" n f sg @appos
 "<electromagnética>"
-	"electromagnética" n f sg
-;	"electromagnética" n f sg s_pl3 REMOVE:31
-;	"electromagnética" n f sg s_sg3 REMOVE:31
+	"electromagnética" adj f sg @amod
 "<ika>"
 	"ka" n rel px3sg
 "<nejin>"
@@ -875,40 +854,27 @@
 	"chijchihua" v tv pres s_pl3 o_ref
 	"chijchihua" v tv pret s_sg3 o_ref
 "<yankuik>"
-	"yankuik" adj
-	"yankuik" adj s_sg3
+	"yankuik" adj @amod
 "<teposmej>"
 	"tepos" n pl
-	"tepos" n pl s_pl3
-	"tepos" n pl s_sg3
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case
 "<televisión>"
-	"televisión" n f sg
-	"televisión" n f sg s_pl3
-	"televisión" n f sg s_sg3
+	"televisión" n f sg @obl
 "<,>"
 	"," cm @punct
 "<radio>"
-	"radio" n m sg
-	"radio" n m sg s_pl3
-	"radio" n m sg s_sg3
+	"radio" n m sg @conj
 "<,>"
 	"," cm @punct
 "<teléfonos>"
-	"teléfono" n m pl
-	"teléfono" n m pl s_pl3
-	"teléfono" n m pl s_sg3
+	"teléfono" n m pl @conj
 "<celulares>"
-	"celular" adj mf pl
-	"celular" adj mf pl s_pl3
-	"celular" adj mf pl s_sg3
+	"celular" adj mf pl @amod
 "<,>"
 	"," cm @punct
 "<radiografías>"
-	"radiografía" n f pl
-	"radiografía" n f pl s_pl3
-	"radiografía" n f pl s_sg3
+	"radiografía" n f pl @conj
 "<uan>"
 	"huan" cnjcoo @cc
 "<motamatsintokatok>"
@@ -916,29 +882,23 @@
 "<kenuij>"
 	"keni" adv itg
 "<kuali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adv @advmod
 "<tapaleuis>"
 	"palehuia" v tv fut s_sg3 o_nn
 "<maj>"
-	"ma" aux
+	"ma" aux @mark
 "<motokotso>"
-	"*motokotso"
+	"tokotsohua" v tv pret s_sg3 o_ref @ccomp
 "<in>"
 	"in" det @det
 "<kokolis>"
-	"kokolis" n abs
-;	"kokolis" n abs s_pl3 REMOVE:29
-;	"kokolis" n abs s_sg3 REMOVE:29
+	"kokolis" n abs @nsubj
 "<teyin>"
-	"tein" prn
+	"tein" prn @iobj
 "<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @acl:relcl
 "<cáncer>"
-	"cáncer" n m sg
-;	"cáncer" n m sg s_pl3 REMOVE:29
-;	"cáncer" n m sg s_sg3 REMOVE:29
+	"cáncer" n m sg @obj
 "<.>"
 	"." sent @punct
 
@@ -2971,7 +2931,7 @@
 "<B>"
 	"B" x @flat #3->1
 "<:>"
-	":" sent @punct  #4->1
+	":" sent @punct #4->1
 "<ne>"
 	"ne" det @det #5->7
 "<okse>"

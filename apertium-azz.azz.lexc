@@ -1014,6 +1014,13 @@ chihua:chihua                                       V-SO-PRET ;
 chihua:chihua                                       V-SO-FUTR ;
 
 ! "hacer"
+tamanchihua:taman%>chihua                           V-SO-PRES ;
+tamanchihua:taman%>chihua                           V-SO-IMPF ;
+tamanchihua:taman%>chihu                            V-SO-PROG ;
+tamanchihua:taman%>chihua                           V-SO-PRET ;
+tamanchihua:taman%>chihua                           V-SO-FUTR ;
+
+! "hacer"
 chijchihua:chi%{j%}chihua                           V-SO-PRES ;
 chijchihua:chi%{j%}chihua                           V-SO-IMPF ;
 chijchihua:chi%{j%}chihu                            V-SO-PROG ;
@@ -1719,6 +1726,14 @@ ahuilohua:ahuilohua                                 V-SO-PROG ;
 ahuilohua:ahuilo                                    V-SO-PRET ;
 ahuilohua:ahuilo                                    V-SO-FUTR ;
 
+! "hacer más pequeño"
+tokotsohua:tokotsohua                               V-SO-PRES ;
+tokotsohua:tokotsohua                               V-SO-IMPF ;
+tokotsohua:tokotsohua                               V-SO-PROG ;
+tokotsohua:tokotso                                  V-SO-PRET ;
+tokotsohua:tokotso                                  V-SO-FUTR ;
+
+
 ! ""
 kuechohua:kuechohua                                 V-SO-PRES ;
 kuechohua:kuechohua                                 V-SO-IMPF ;
@@ -1730,7 +1745,8 @@ kuechohua:kuecho                                    V-SO-FUTR ;
 mati:mati                                           V-SO-PRES ;
 mati:mati                                           V-SO-IMPF ;
 mati:mat                                            V-SO-PROG ;
-mati:mati                                           V-SO-PRET ;
+mati:mati                                           V-SO-PRET ; ! nikmatik
+mati:mat                                            V-SO-PRET ; ! tikmatkej
 mati:mati                                           V-SO-FUTR ;
 
 ! "nombrar"
@@ -4570,6 +4586,7 @@ chapolistit:chapolist                               N-ITL ; ! ""
 taltikpak:taltikpak                                 N-Ø ; ! "planeta"
 iluikak:iluikak                                     N-Ø ; ! "cielo"
 nemilis:nemilis                                     N-Ø ; ! "vida"
+tatekiujtilis:tatekiujtilis                         N-Ø ; ! ""
 tamachilis:tamachilis                               N-Ø ; ! ""
 talnamikilis:talnamikilis                           N-Ø ; ! "conocimiento"
 tatsintokalis:tatsintokalis                         N-Ø ; ! "pregunta"
@@ -5680,6 +5697,7 @@ kalnemachtiloyan:kalnemachtiloyan                   N-OYAN ; ! "escuela"
 kaltapajtiloyan:kaltapajtiloyan                     N-OYAN ; ! "hospital"
 kaltapajtilnemachtil:kaltapajtilnemachtil           N-Ø ; ! ""
 chipahuakat:chipahuak%>a                            N-TL ; ! "agua simple"
+ininchikaujkayot:ininchikaujkayo                    N-TL ; ! "energía"
 
 chanka:chanka                                       N-Ø ; ! "padres"
 

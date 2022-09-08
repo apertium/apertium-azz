@@ -174,6 +174,47 @@
 22	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	19	iobj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:24
+# text = Nochin tauilmej, teyin ueli se kita kemej itapaluan kosantsin uan teyin amo ueli sekita kemej rayos X oso microondas, kintokaytiyaj ueyichikaujkameyot “radiación electromagnética”.
+# text[spa] = La luz, tanto la visible como los colores del arcoíris y la invisible como los rayos X o las microondas, se llama “radiación electromagnética”.
+# labels =
+1	Nochin	nochi	DET	_	_	2	det	_	_
+2	tauilmej	tahuil	NOUN	_	Number=Plur	22	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	teyin	tein	PRON	_	_	7	obj	_	_
+5	ueli	hueli	AUX	_	_	7	aux	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	acl:relcl	_	_
+8	kemej	kemej	ADP	_	_	9	case	_	_
+9	itapaluan	tapal	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+10	kosantsin	kosantsin	NOUN	_	Case=Abs	9	nmod	_	_
+11	uan	huan	CCONJ	_	_	15	cc	_	_
+12	teyin	tein	PRON	_	_	15	obj	_	_
+13	amo	amo	ADV	_	_	15	advmod	_	_
+14	ueli	hueli	AUX	_	_	15	aux	_	_
+15	sekita	ita	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	7	conj	_	_
+16	kemej	kemej	ADP	_	_	17	case	_	_
+17	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+18	X	X	X	_	_	17	flat	_	_
+19	oso	oso	CCONJ	_	_	20	cc	_	_
+20	microondas	microonda	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	2	punct	_	_
+22	kintokaytiyaj	tokaytia	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+23	ueyichikaujkameyot	ueyichikaujkameyot	NOUN	_	Case=Abs	22	obj	_	_
+24	“	“	_	_	_	25	punct	_	SpaceAfter=No
+25	radiación	radiación	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	_
+26	electromagnética	electromagnética	NOUN	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	”	”	_	_	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:25
+# text = Ininchikaujkayo kintamanchiuaj.
+# text[spa] = Lo que distingue a una de otra es la cantidad de energía que tiene.
+# labels =
+1	Ininchikaujkayo	ininchikaujkayot	NOUN	_	Case=Abs	2	nsubj	_	_
+2	kintamanchiuaj	tamanchihua	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:30
 # text = Keniuj se Tayis Ueyistajat
 # text[spa] = Tomar la mar
@@ -626,7 +667,7 @@
 1	Próxima	Próxima	NOUN	_	_	0	root	_	_
 2	centauri	Centauri	NOUN	_	_	1	flat	_	_
 3	B	B	X	_	_	1	flat	_	SpaceAfter=No
-4	:	:	_	_	_	1	punct	_	_
+4	:	:	PUNCT	_	_	7	punct	_	_
 5	ne	ne	DET	_	_	7	det	_	_
 6	okse	okse	DET	_	_	7	det	_	_
 7	taltikpak	taltikpak	NOUN	_	Case=Abs	1	parataxis	_	_
@@ -654,6 +695,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:118.1
 # text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan.
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# text[gloss] = radiografía: Usan los médicos éste con lo cual sacan imagen de nuestros huesos.
 # labels = complete check-relative
 1	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	3	punct	_	_
