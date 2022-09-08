@@ -1359,11 +1359,12 @@
 ^átomos/átomos$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:86
-# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# sent_id = kiteixmatiltijtok-tamachilis:86.1
+# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. 
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
 # labels =  
 ^células/células$
+^:/:$
 ^nochi/nochi$
 ^teyin/teyin$
 ^onkak/onkak$
@@ -1374,6 +1375,11 @@
 ^kipiya/kipiya$
 ^nemilis/nemilis$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:86.2
+# text = Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# labels =  
 ^Totakayo/Totakayo$
 ^,/,$
 ^okuiltakayot/okuiltakayot$

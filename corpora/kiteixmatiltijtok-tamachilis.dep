@@ -2676,15 +2676,16 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = kiteixmatiltijtok-tamachilis:86
-# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# sent_id = kiteixmatiltijtok-tamachilis:86.1
+# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. 
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
 # labels =  
 "<células>"
 	"célula" n f pl
 	"célula" n f pl s_pl3
 	"célula" n f pl s_sg3
-: 
+"<:>"
+	":" sent 
 "<nochi>"
 	"nochi" det @det
 	"nochi" prn
@@ -2710,33 +2711,35 @@
 ;	"nemilis" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
+
+# sent_id = kiteixmatiltijtok-tamachilis:86.2
+# text = Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
+# text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# labels = complete
 "<Totakayo>"
-	"*Totakayo"
+	"takayot" n px1pl @nsubj #1->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<okuiltakayot>"
-	"*okuiltakayot"
+	"okuiltakayot" n abs @conj #3->1
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #4->7
 "<nochin>"
-	"nochi" det @det
+	"nochi" det @det #5->7
 "<in>"
-	"in" det @det
+	"in" det @det #6->7
 "<kuaujmej>"
-	"*kuaujmej"
+	"kuahuitl" n pl @conj #7->1
 "<chijchiujtokej>"
-	"chijchihua" v iv prog pres s_pl3
-	"chijchiutok" adj s_pl3
+	"chijchihua" v iv prog pres s_pl3 @root #8->0
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #9->8
 "<miyak>"
-	"miak" det @det
+	"miak" det @det #10->11
 "<células>"
-	"célula" n f pl
-;	"célula" n f pl s_pl3 REMOVE:29
-;	"célula" n f pl s_sg3 REMOVE:29
+	"célula" n f pl @nmod #11->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->8
 
 # sent_id = kiteixmatiltijtok-tamachilis:92.1
 # text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. 

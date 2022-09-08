@@ -656,7 +656,7 @@ LEXICON N-HUITL
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:u%>tsin                               # ;
 %<n%>%<hon%>:ui%>tsin                              # ;
-%<n%>%<pl%>:u%>mej                                 # ;
+%<n%>%<pl%>:u%{j%}%>mej                            # ;
 %<n%>%<pl%>:hui%>mej                               # ;
 %<n%>%<hon%>%<pl%>:u%>tsi%>tsin                    # ;
 %<n%>%<cmp%>%+:u                                   CMPND ;
@@ -4357,6 +4357,7 @@ kuoutaj:kuoutaj                                     N-Ø ; ! "bosque"
 tepetaj:tepetaj                                     N-Ø ; ! "cerros"
 hueikoutaj:huei%>koutaj                             N-Ø ; ! "monte grande"
 tikohuit:ti%>ko                                     N-HUITL ; ! "palo"
+kuahuitl:kua                                        N-HUITL ; ! "planta"
 kohuit:ko                                           N-HUITL ; ! "árbol, leña"
 xopilkohuit:xopil%>ko                               N-HUITL ; ! ""
 kalkohuit:kal%>ko                                   N-HUITL ; ! "madera de casa"
@@ -4716,7 +4717,7 @@ jtikyot:jtikyo                                      N-TL ; ! ""
 kakauyot:kakauyo                                    N-TL ; ! ""
 
 tekit:teki                                          N-TL ; ! "trabajo"
-tasojkamatilis:tasohjamatilis                       N-Ø ; ! "agradecimiento"
+tasojkamatilis:taso%{j%}kamatilis                   N-Ø ; ! "agradecimiento"
 tapalehuijkej:tapalehuijkej                         N-Ø ; ! "ayudante"
 pakilis:pakilis                                     N-Ø ; ! ""
 
@@ -5634,6 +5635,14 @@ mata:mata                                           N-SPA-MESA ; ! "mata"
 ahuil:ahuil                                         N-Ø ; ! "juguete"
 yolan:yolan                                         N-Ø ; ! "centro"
 selo:selo                                           N-Ø ; ! ""
+
+omiyot:omiyo                                        N-TL ; ! "esquéletro"
+takayot:takayo                                      N-TL ; ! "cuerpo"
+okuiltakayot:okuil%>takayo                          N-TL ; ! "cuerpo de animal"
+tamatilis:tamatilis                                 N-Ø ; ! ""
+tanemilil:tanemilil                                 N-Ø ; ! ""
+takuilol:takuilol                                   N-Ø ; ! ""
+mexikanojtajkuilol:mexikano%{j%}%>tajkuilol         N-Ø ; ! ""
 
 !FIXME: Comprobar
 
