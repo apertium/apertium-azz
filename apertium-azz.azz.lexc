@@ -1034,8 +1034,8 @@ ita:%{i%}ta                                         V-SO-FUTR ;
 ita%<v%>%<tv%>:%{i%}ts                              V-DIR ;
 
 ! "imaginar"
-nemilia:nemilia                                     V-SO-PRES ;
-nemilia:nemilia                                     V-SO-IMPF ;
+nemilia:nemili%{y%}a                                V-SO-PRES ;
+nemilia:nemili%{y%}a                                V-SO-IMPF ;
 nemilia:nemili                                      V-SO-PROG ;
 nemilia:nemili                                      V-SO-PRET ;
 nemilia:nemili                                      V-SO-FUTR ;
@@ -1680,6 +1680,13 @@ nelohua:nelohua                                     V-SO-IMPF ;
 nelohua:nelohua                                     V-SO-PROG ;
 nelohua:nelo                                        V-SO-PRET ;
 nelohua:nelo                                        V-SO-FUTR ;
+
+! "acercarse a"
+netechohua:netechohua                               V-SO-PRES ;
+netechohua:netechohua                               V-SO-IMPF ;
+netechohua:netecho                                  V-SO-PROG ;
+netechohua:netecho                                  V-SO-PRET ;
+netechohua:netecho                                  V-SO-FUTR ;
 
 ! ""
 matemohua:matemohua                                 V-SO-PRES ;
@@ -3295,6 +3302,12 @@ ohuijkantia:ohuijkantia                               V-S-PROG ; ! ""
 ohuijkantia:ohuijkantia                               V-S-PRET ; ! ""
 ohuijkantia:ohuijkantia                               V-S-FUTR ; ! ""
 
+molinia:molini%{y%}a                                  V-S-PRES ; ! "girarse"
+molinia:molini%{y%}a                                  V-S-IMPF ; ! "girarse"
+molinia:molini                                        V-S-PROG ; ! "girarse"
+molinia:molini                                        V-S-PRET ; ! "girarse"
+molinia:molini                                        V-S-FUTR ; ! "girarse"
+
 olini:olini                                           V-S-PRES ; ! "dolerse"
 olini:olini                                           V-S-IMPF ; ! "dolerse"
 olini:olini                                           V-S-PROG ; ! "dolerse"
@@ -4494,7 +4507,7 @@ masehualtapalol:masehual%>tapalol                   N-Ø ; ! "comida de campesin
 xiuyo:xiuyo                                         N-YO ; ! ""
 naluayo:naluayo                                     N-YO ; ! "raíz"
 chokilo:chokilo                                     N-YO ; ! "savia"
-tapajtiani:tapajtia%>ni                             N-NI ; ! "doctor"
+tapajtiani:tapajti%{y%}a%>ni                        N-NI ; ! "doctor"
 teposejekatanojnotsaloni:tepos%>ejeka%>ta%>nojnotsa%>lo%>ni  N-Ø ; ! ""
 iluikataixpejpenani:iluikataixpejpenani             N-NI ; ! "astrónomo"
 tajtoleualoni:tajtoleualoni                         N-Ø ; ! "glosario"

@@ -2887,43 +2887,37 @@
 # text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
 # labels =  
 "<microscopio>"
-	"microscópio" n m sg
-	"microscópio" n m sg s_sg3
-;	"microscópio" n m sg s_pl3 REMOVE:39
-: 
+	"microscópio" n m sg @root #1->0
+"<:>"
+	":" sent @punct #2->1
 "<tepos>"
-	"tepos" n abs
-	"tepos" n abs s_sg3
-;	"tepos" n abs s_pl3 REMOVE:39
+	"tepos" n abs @parataxis #3->1
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #4->5
 "<tepaleuiya>"
-	"*tepaleuiya"
+	"palehuia" v tv pres s_sg3 o_aa @acl:relcl #5->3
 "<maj>"
-	"ma" aux
+	"ma" aux @dep #6->8
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #7->8
 "<sekita>"
-	"ita" v tv pres s_ind o_sg3
+	"ita" v tv pres s_ind o_sg3 @dep #8->5
 "<teyin>"
-	"tein" prn
+	"tein" prn @obj #9->8
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #10->12
 "<ueli>"
-	"hueli" vaux
-	"hueli" v iv pres s_sg3
+	"hueli" vaux @aux #11->12
 "<sekita>"
-	"ita" v tv pres s_ind o_sg3
+	"ita" v tv pres s_ind o_sg3 @acl:relcl #12->9
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #13->12
 "<se>"
-	"se" num
+	"se" num @det #14->15
 "<ixtololo>"
-	"ixtololo" n abs
-	"ixtololo" n abs s_sg3
-;	"ixtololo" n abs s_pl3 REMOVE:39
+	"ixtololo" n abs @nmod #15->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->1
 
 # sent_id = kiteixmatiltijtok-tamachilis:104
 # text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
@@ -2931,9 +2925,8 @@
 # labels =  
 "<moléculas>"
 	"molécula" n f pl
-	"molécula" n f pl s_pl3
-	"molécula" n f pl s_sg3
-: 
+"<:>"
+	":" sent 
 "<ikuak>"
 	"ijkuak" cnjsub
 "<ome>"
@@ -2970,117 +2963,97 @@
 # sent_id = kiteixmatiltijtok-tamachilis:114
 # text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
 # text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
-# labels =  
+# labels = complete
 "<Próxima>"
-	"Próxima" np top
-	"Próxima" np top s_sg3
-;	"Próxima" np top s_pl3 REMOVE:39
+	"Próxima" np top @root #1->0
 "<centauri>"
-	"*centauri"
+	"Centauri" np top @flat #2->1
 "<B>"
-	"*B"
+	"B" x @flat #3->1
 "<:>"
-	":" sent @punct 
+	":" sent @punct  #4->1
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #5->7
 "<okse>"
-	"okse" det @det
+	"okse" det @det #6->7
 "<taltikpak>"
-	"taltikpak" n abs
-	"taltikpak" n abs s_sg3
-;	"taltikpak" n abs s_pl3 REMOVE:39
+	"taltikpak" n abs @parataxis #7->1
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #8->9
 "<moliniya>"
-	"*moliniya"
+	"molinia" v iv pres s_sg3 @acl:relcl #9->7
 "<inakastan>"
-	"nakastan" n rel px3sg
+	"nakastan" n rel px3sg @obl #10->9
 "<Próxima>"
-	"Próxima" np top
-	"Próxima" np top s_sg3
-;	"Próxima" np top s_pl3 REMOVE:39
+	"Próxima" np top @nmod #11->10
 "<Centauri>"
-	"Centauri" np top
-	"Centauri" np top s_sg3
-;	"Centauri" np top s_pl3 REMOVE:39
+	"Centauri" np top @flat #12->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->1
 
 # sent_id = kiteixmatiltijtok-tamachilis:116
 # text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
 # text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
-# labels =  
+# labels = complete
 "<Próxima>"
-	"Próxima" np top
-	"Próxima" np top s_sg3
-;	"Próxima" np top s_pl3 REMOVE:39
+	"Próxima" np top @root #1->0
 "<Centauri>"
-	"Centauri" np top
-	"Centauri" np top s_sg3
-;	"Centauri" np top s_pl3 REMOVE:39
-: 
+	"Centauri" np top @flat #2->1
+"<:>"
+	":" sent @punct #3->1
 "<sitalin>"
-	"sitalin" n abs
-	"sitalin" n abs s_sg3
-;	"sitalin" n abs s_pl3 REMOVE:39
+	"sitalin" n abs @parataxis #4->1
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #5->6
 "<kinetechojtok>"
-	"*kinetechojtok"
+	"netechohua" v tv prog pres s_sg3 o_sg3 @acl:relcl #6->4
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #7->8
 "<tonal>"
-	"tonal" n abs
-	"tonal" n abs s_sg3
-;	"tonal" n abs s_pl3 REMOVE:39
+	"tonal" n abs @obj #8->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->1
 
-# sent_id = kiteixmatiltijtok-tamachilis:118
-# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
+# sent_id = kiteixmatiltijtok-tamachilis:118.1
+# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. 
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# text[gloss] = radiografía: Usan los médicos éste con lo cual sacan imagen de nuestros huesos.
+# labels = complete check-relative 
+"<radiografías>"
+	"radiografía" n f pl @root #1->0
+"<:>"
+	":" sent @punct #2->1
+"<Kitekitiltiyaj>"
+	"tekitiltia" v tv pres s_pl3 o_sg3 @parataxis #3->1
+"<tapajtiyanij>"
+	"tapajtiani" n pl @nsubj #4->3
+"<teyin>"
+	"tein" prn @obj #5->3
+"<ika>"
+	"ka" n rel px3sg @obl #6->7
+"<kixtiliyaj>"
+	"kixtilia" v tv pres s_pl3 i_sg3 o_sg3 @acl:relcl #7->5
+"<ixtakopin>"
+	"ixtakopin" n abs @obj #8->7
+"<tojomiuan>"
+	"omit" n pl px1pl @iobj #9->7
+"<.>"
+	"." sent @punct #10->1
+
+# sent_id = kiteixmatiltijtok-tamachilis:118.2
+# text = Mokui in tit rayos X.
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
 # labels =  
-"<radiografías>"
-	"radiografía" n f pl
-	"radiografía" n f pl s_sg3
-;	"radiografía" n f pl s_pl3 REMOVE:39
-: 
-"<Kitekitiltiyaj>"
-	"*Kitekitiltiyaj"
-"<tapajtiyanij>"
-	"*tapajtiyanij"
-"<teyin>"
-	"tein" prn
-"<ika>"
-	"ka" n rel px3sg
-"<kixtiliyaj>"
-	"*kixtiliyaj"
-"<ixtakopin>"
-	"ixtakopin" n abs
-	"ixtakopin" n abs s_pl3
-	"ixtakopin" n abs s_sg3
-"<tojomiuan>"
-	"*tojomiuan"
-"<.>"
-	"." sent @punct
-
 "<Mokui>"
 	"kui" v tv pres s_sg3 o_ref
 "<in>"
 	"in" det @det
 "<tit>"
 	"tit" n abs
-;	"tit" x REMOVE:41
-;	"tit" n abs s_pl3 REMOVE:29
-;	"tit" n abs s_sg3 REMOVE:29
 "<rayos>"
 	"rayo" n m pl
-;	"rayo" n m pl s_pl3 REMOVE:39
-;	"rayo" n m pl s_sg3 REMOVE:29
 "<X>"
-	"x" x
+	"X" x
 "<.>"
 	"." sent @punct
 

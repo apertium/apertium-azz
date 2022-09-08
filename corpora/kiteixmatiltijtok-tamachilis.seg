@@ -1331,6 +1331,7 @@
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
 # labels =  
 ^átomos/átomos$
+^:/:$
 ^nochi/nochi$
 ^nejin/nejin$
 ^okuilimej/okuilimej$
@@ -1435,6 +1436,7 @@
 # text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
 # labels =  
 ^galaxia/galaxia$
+^:/:$
 ^uejueyi/uejueyi$
 ^mixti/mixti$
 ^uan/uan$
@@ -1467,6 +1469,7 @@
 # text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
 # labels =  
 ^microscopio/microscopio$
+^:/:$
 ^tepos/tepos$
 ^teyin/teyin$
 ^tepaleuiya/tepaleuiya$
@@ -1487,6 +1490,7 @@
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
 # labels =  
 ^moléculas/moléculas$
+^:/:$
 ^ikuak/ikuak$
 ^ome/ome$
 ^oso/oso$
@@ -1525,6 +1529,7 @@
 # labels =  
 ^Próxima/Próxima$
 ^Centauri/Centauri$
+^:/:$
 ^sitalin/sitalin$
 ^teyin/teyin$
 ^kinetechojtok/kinetechojtok$
@@ -1532,11 +1537,12 @@
 ^tonal/tonal$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:118
-# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. Mokui in tit rayos X.
+# sent_id = kiteixmatiltijtok-tamachilis:118.1
+# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan. 
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
 # labels =  
 ^radiografías/radiografías$
+^:/:$
 ^Kitekitiltiyaj/Kitekitiltiyaj$
 ^tapajtiyanij/tapajtiyanij$
 ^teyin/teyin$
@@ -1545,6 +1551,11 @@
 ^ixtakopin/ixtakopin$
 ^tojomiuan/tojomiuan$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:118.2
+# text = Mokui in tit rayos X.
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# labels =  
 ^Mokui/Mokui$
 ^in/in$
 ^tit/tit$
@@ -1558,6 +1569,7 @@
 # labels =  
 ^rayos/rayos$
 ^X/X$
+^:/:$
 ^nejin/nejin$
 ^se/se$
 ^tit/tit$

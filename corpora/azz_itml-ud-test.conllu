@@ -598,3 +598,71 @@
 3	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	advcl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:102
+# text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
+# text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
+# labels =
+1	microscopio	microscópio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	tepos	tepos	NOUN	_	Case=Abs	1	parataxis	_	_
+4	teyin	tein	PRON	_	_	5	nsubj	_	_
+5	tepaleuiya	palehuia	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	_
+6	maj	ma	AUX	_	_	8	dep	_	_
+7	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+8	sekita	ita	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	5	dep	_	_
+9	teyin	tein	PRON	_	_	8	obj	_	_
+10	amo	amo	ADV	_	_	12	advmod	_	_
+11	ueli	hueli	AUX	_	_	12	aux	_	_
+12	sekita	ita	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	9	acl:relcl	_	_
+13	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+14	se	se	NUM	_	_	15	det	_	_
+15	ixtololo	ixtololo	NOUN	_	Case=Abs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:114
+# text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
+# text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
+# labels = complete
+1	Próxima	Próxima	NOUN	_	_	0	root	_	_
+2	centauri	Centauri	NOUN	_	_	1	flat	_	_
+3	B	B	X	_	_	1	flat	_	SpaceAfter=No
+4	:	:	_	_	_	1	punct	_	_
+5	ne	ne	DET	_	_	7	det	_	_
+6	okse	okse	DET	_	_	7	det	_	_
+7	taltikpak	taltikpak	NOUN	_	Case=Abs	1	parataxis	_	_
+8	teyin	tein	PRON	_	_	9	nsubj	_	_
+9	moliniya	molinia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	acl:relcl	_	_
+10	inakastan	nakastan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+11	Próxima	Próxima	NOUN	_	_	10	nmod	_	_
+12	Centauri	Centauri	NOUN	_	_	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:116
+# text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
+# text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
+# labels = complete
+1	Próxima	Próxima	NOUN	_	_	0	root	_	_
+2	Centauri	Centauri	NOUN	_	_	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	sitalin	sitalin	NOUN	_	Case=Abs	1	parataxis	_	_
+5	teyin	tein	PRON	_	_	6	nsubj	_	_
+6	kinetechojtok	netechohua	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	acl:relcl	_	_
+7	ne	ne	DET	_	_	8	det	_	_
+8	tonal	tonal	NOUN	_	Case=Abs	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:118.1
+# text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan.
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# labels = complete check-relative
+1	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Kitekitiltiyaj	tekitiltia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+4	tapajtiyanij	tapajtiani	NOUN	_	Number=Plur	3	nsubj	_	_
+5	teyin	tein	PRON	_	_	3	obj	_	_
+6	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+7	kixtiliyaj	kixtilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	acl:relcl	_	_
+8	ixtakopin	ixtakopin	NOUN	_	Case=Abs	7	obj	_	_
+9	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	7	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
