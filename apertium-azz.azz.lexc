@@ -2003,6 +2003,14 @@ kokolismaka:kokolis%>maka                           V-SO-PROG ;
 kokolismaka:kokolis%>maka                           V-SO-PRET ;
 kokolismaka:kokolis%>maka                           V-SO-FUTR ;
 
+! ""
+kixtilia:kixtili%{y%}a                              V-SO-PRES ;
+kixtilia:kixtili%{y%}a                              V-SO-IMPF ;
+kixtilia:kixtili%{y%}a                              V-SO-PROG ;
+kixtilia:kixtili                                    V-SO-PRET ;
+kixtilia:kixtili                                    V-SO-FUTR ;
+
+
 
 LEXICON SI
 

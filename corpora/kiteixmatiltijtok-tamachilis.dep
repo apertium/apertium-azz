@@ -184,12 +184,8 @@
 	"ne" det @det
 "<ijpotok>"
 	"ijpotok" n abs
-;	"ijpotok" n abs s_pl3 REMOVE:29
-;	"ijpotok" n abs s_sg3 REMOVE:29
 "<hidrógeno>"
-	"hidrógeno" n m sg
-;	"hidrógeno" n m sg s_pl3 REMOVE:29
-;	"hidrógeno" n m sg s_sg3 REMOVE:29
+	"hidrógeno" n m sg @appos
 "<,>"
 	"," cm @punct
 "<ta>"
@@ -216,9 +212,8 @@
 	"in" det @det
 "<Semanauak>"
 	"semanahuak" n abs
-;	"semanahuak" n abs s_pl3 REMOVE:31
-;	"semanahuak" n abs s_sg3 REMOVE:31
-; 
+"<;>"
+	";" sent 
 "<ijkon>"
 	"ijkon" adv
 "<mochiua>"

@@ -1,0 +1,3090 @@
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a40
+# text = Axkan ne nikneki xnechtapowi in se kowit,
+# text[orig] = A:xka:n ne: nikneki xne:chtapowi i:n se: kowit,
+# text[spa] = Ahora quiero que me cuentes de este otro árbol,
+# labels = a40 fragment
+"<Axkan>"
+	"axkan" adv
+"<ne>"
+	"ne" adv
+	"ne" det
+"<nikneki>"
+	"neki" v tv pres s_sg1 o_sg3 @root
+"<xnechtapowi>"
+	"tapohui" v tv pres imp s_sg2 o_sg1
+"<in>"
+	"in" det
+"<se>"
+	"se" num @det
+"<kowit>"
+	"kohuit" n abs
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a41
+# text = kitokaytiah chichiwalayokowit, xa tikixmattos,
+# text[orig] = kito:ka:ytiah chi:chiwala:yo:kowit, xa: tiki:xmattos,
+# text[spa] = le llaman chi:chiwala:yo:kowit, quizá lo conozcas,
+# labels = a41 fragment
+"<kitokaytiah>"
+	"tokaytia" v tv pres s_pl3 o_sg3
+"<chichiwalayokowit>"
+	"*chichiwalayokowit"
+"<,>"
+	"," cm
+"<xa>"
+	"xa" adv
+"<tikixmattos>"
+	"ixmati" v tv prog fut s_sg2 o_sg3
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a42
+# text = 'nechtapowi ne keniwki n' ixiwyo, xochiowa,
+# text[orig] = 'ne:chtapowi ne: ke:niwki n' ixiwyo, xo:chiowa,
+# text[spa] = cuéntame este, como son las hojas, (cómo) florea,
+# labels = a42 fragment
+"<'nechtapowi>"
+	"tapohui" v tv pres s_sg3 o_sg1
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keniwki>"
+	"keniuki" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ixiwyo>"
+	"xiuyo" n px3sg
+	"xiuyo" n abs px3sg
+	"xiuyo" n pl px3sg
+"<,>"
+	"," cm
+"<xochiowa>"
+	"xochiohua" v iv pres s_sg3
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a43
+# text = wei n' kowit wan kani n' taki.
+# text[orig] = we:i n' kowit wa:n ka:ni n' ta:ki.
+# text[spa] = es grande el árbol y en donde se da.
+# labels = a43 fragment
+"<wei>"
+	"huei" adj s_sg3
+"<n'>"
+	"in" det
+"<kowit>"
+	"kohuit" n abs
+"<wan>"
+	"huan" cnjcoo
+"<kani>"
+	"kani" adv itg
+"<n'>"
+	"in" det
+"<taki>"
+	"taki" v iv pres s_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a55
+# text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?
+# text[orig] = I:n iteyotsi:n, ¿se: kikwa *o** teihsá: se: kichi:wilia?
+# text[spa] = ¿Los frutos se pueden comer uno o tienen algún uso?
+# labels = a55 fragment
+"<In>"
+	"in" det
+"<iteyotsin>"
+	"teyo" n hon px3sg
+"<,>"
+	"," cm
+"<¿>"
+	"¿" sent
+"<se>"
+	"se" num
+"<kikwa>"
+	"kua" v tv pres s_sg3 o_sg3
+"<o>"
+	"o" cnjcoo
+"<teihsa>"
+	"teisa" prn
+"<se>"
+	"se" num
+"<kichiwilia>"
+	"chihuilia" v tv pres s_sg3 o_sg3
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a61
+# text = Nen ki..., tein ika tapepechowayah itech iteyo kikixtiliayah.
+# text[orig] = Ne:n ki..., tein ika tapepechowa:yah itech iteyo kiki:xtilia:yah.
+# text[spa] = Lo que usaban como pegamento lo sacaban de la semilla.
+# labels = a61 sentence
+"<Nen>"
+	"nen" prn
+"<ki...>"
+	"ki" x
+"<,>"
+	"," cm
+"<tein>"
+	"tein" prn
+"<ika>"
+	"ka" n rel px3sg
+"<tapepechowayah>"
+	"pepechohua" v tv impf s_pl3 o_nn
+"<itech>"
+	"tech" n rel px3sg
+"<iteyo>"
+	"teyo" n px3sg
+	"teyo" n abs px3sg
+"<kikixtiliayah>"
+	"kixtilia" v tv impf s_pl3 i_sg3 o_pl3
+	"kixtilia" v tv impf s_pl3 i_sg3 o_sg3
+	"kixtilia" v tv impf s_pl3 o_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a63
+# text = Kampa kitsontekih oso kipostekih.
+# text[orig] = Ka:mpa kitsontekih oso kipostekih.
+# text[spa] = Donde lo rebanan o lo parten.
+# labels = a63 sentence
+"<Kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<kitsontekih>"
+	"*kitsontekih"
+"<oso>"
+	"oso" cnjcoo
+"<kipostekih>"
+	"posteki" v tv pres s_pl3 o_sg3
+	"posteki" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a67
+# text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
+# text[orig] = ¿I:n kowit wehwei, ne:n, moskaltia oso tsikitsitsi:n?
+# text[spa] = ¿Este árbol crece alto o son pequeños?
+# labels = a67 sentence
+"<¿>"
+	"¿" sent
+"<In>"
+	"in" det
+"<kowit>"
+	"kohuit" n abs
+	"kohuit" n abs s_pl3
+	"kohuit" n abs s_sg3
+"<wehwei>"
+	"huehuei" adj
+	"huehuei" adj s_sg3
+"<,>"
+	"," cm
+"<nen>"
+	"nen" prn
+"<,>"
+	"," cm
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<oso>"
+	"oso" cnjcoo
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a70
+# text = Aja.
+# text[orig] = *Ajá**.
+# text[spa] = Aha.
+# labels = a70 sentence
+"<Aja>"
+	"aja" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a71
+# text = ¿Wan ixochiotsin kwali se kaketsa?
+# text[orig] = ¿Wa:n ixo:chiotsi:n kwali se: ka:ketsa?
+# text[spa] = ¿Y las flores se puede poner en florero?
+# labels = a71 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<kwali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<se>"
+	"se" num
+"<kaketsa>"
+	"*kaketsa"
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a74
+# text = Pos pane yehwa sah, neh, neh amo, nejon,
+# text[orig] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
+# text[spa] = Pues parece que es todo, yo, yo no..., este,
+# labels = a74 fragment
+"<Pos>"
+	"pos" adv
+"<pane>"
+	"pane" adv
+"<yehwa>"
+	"yehua" prn pers sg3
+"<sah>"
+	"saj" adv
+"<,>"
+	"," cm
+"<neh>"
+	"nehua" prn pers sg1 short
+"<,>"
+	"," cm
+"<neh>"
+	"nehua" prn pers sg1 short
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a75
+# text = neh no nikitani ix..., in kowit pero amo n..., amo,
+# text[orig] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
+# text[spa] = yo también he visto este árbol pero no..., no,
+# labels = a75 fragment
+"<neh>"
+	"nehua" prn pers sg1 short
+"<no>"
+	"no" adv
+	"no" det
+"<nikitani>"
+	"ita" v tv pp s_sg1 o_sg3
+"<ix>"
+	"ix" n abs
+;	"ix" n abs s_pl3 REMOVE:29
+;	"ix" n abs s_sg3 REMOVE:29
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<in>"
+	"in" det
+"<kowit>"
+	"kohuit" n abs
+;	"kohuit" n abs s_pl3 REMOVE:29
+;	"kohuit" n abs s_sg3 REMOVE:29
+"<pero>"
+	"pero" cnjcoo
+"<amo>"
+	"amo" adv
+"<n>"
+	"in" det
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a76
+# text = amo nikmatia ox ika tapepechowah.
+# text[orig] = a:mo nikmatia ox ika tapepechowah.
+# text[spa] = no sabía si lo usan como pegamento.
+# labels = a76 fragment
+"<amo>"
+	"amo" adv
+"<nikmatia>"
+	"mati" v tv impf s_sg1 o_sg3
+"<ox>"
+	"ox" cnjsub
+"<ika>"
+	"ka" n rel px3sg
+"<tapepechowah>"
+	"pepechohua" v tv pres s_pl3 o_nn
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a77
+# text = Ne...,
+# text[orig] = Ne:...,
+# text[spa] = Este...,
+# labels = a77 fragment
+"<Ne>"
+	"ne" adv
+	"ne" det
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a80
+# text = Tikihtowa que in, nen,
+# text[orig] = Tikihtowa *que** i:n, ne:n,
+# text[spa] = Dices que ésta, este,
+# labels = a80 fragment
+"<Tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<que>"
+	"que" cnjsub
+"<in>"
+	"in" det
+"<,>"
+	"," cm
+"<nen>"
+	"nen" prn
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a81
+# text = kow..., kowit ichokilo,
+# text[orig] = kow..., kowit icho:kilo,
+# text[spa] = savia de (este) árbol,
+# labels = a81 fragment
+"<kow>"
+	"kohua" v tv pret s_sg3 o_sg3
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<kowit>"
+	"kohuit" n abs
+;	"kohuit" n abs s_pl3 REMOVE:29
+;	"kohuit" n abs s_sg3 REMOVE:29
+"<ichokilo>"
+	"chokilo" n px3sg
+	"chokilo" n abs px3sg
+	"chokilo" n pl px3sg
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a82
+# text = kwali ika kipepechowah keman kichiwah globos.
+# text[orig] = kwali ika kipepechowah ke:man kichi:wah *globos**.
+# text[spa] = con ella pueden pegar el papel (de china) con que hacen los globos.
+# labels = a82 fragment
+"<kwali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<ika>"
+	"ka" n rel px3sg
+"<kipepechowah>"
+	"pepechohua" v tv pres s_pl3 o_sg3
+"<keman>"
+	"keman" adv
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<globos>"
+	"globo" n m pl
+;	"globo" n m pl s_pl3 REMOVE:29
+;	"globo" n m pl s_sg3 REMOVE:29
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a84
+# text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
+# text[orig] = Ne:, xte:chtapowi ke:ní:w n' kichihchi:wah ne:n tikihtowa *globo**.
+# text[spa] = Este, cuéntanos como hacen los globos.
+# labels = a84 sentence
+"<Ne>"
+	"ne" adv
+	"ne" det
+"<,>"
+	"," cm
+"<xtechtapowi>"
+	"tapohui" v tv pres imp s_sg2 o_pl1
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kichihchiwah>"
+	"chijchihua" v tv pres s_pl3 o_sg3
+	"chijchihua" v tv pret s_sg3 o_sg3
+"<nen>"
+	"nen" prn
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<globo>"
+	"globo" n m sg
+;	"globo" n m sg s_pl3 REMOVE:29
+;	"globo" n m sg s_sg3 REMOVE:29
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90
+# text = Mm. In, globo tikihtowa yehwa yon tein nen....
+# text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
+# text[spa] = Mm, Éste globo que dices, es el que...,
+# labels = a90 fragment
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+"<In>"
+	"in" det
+"<,>"
+	"," cm
+"<globo>"
+	"globo" n m sg
+;	"globo" n m sg s_pl3 REMOVE:31
+;	"globo" n m sg s_sg3 REMOVE:31
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tein>"
+	"tein" prn
+"<nen>"
+	"nen" prn
+"<...>"
+	"..." sent
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a93
+# text = Ika yon amat kichihchiwah, yon kiliah papel de china.
+# text[orig] = Ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
+# text[spa] = Con ese papel lo hacen, ese que le llaman papel de china.
+# labels = a93 sentence
+"<Ika>"
+	"ka" n rel px3sg
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<amat>"
+	"amat" n abs
+;	"amat" n abs s_pl3 REMOVE:31
+;	"amat" n abs s_sg3 REMOVE:31
+"<kichihchiwah>"
+	"chijchihua" v tv pres s_pl3 o_sg3
+	"chijchihua" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kiliah>"
+	"ilia" v tv pres s_pl3 o_sg3
+	"ilia" v tv pret s_sg3 o_sg3
+"<papel>"
+	"papel" n m sg
+;	"papel" n m sg s_pl3 REMOVE:29
+;	"papel" n m sg s_sg3 REMOVE:29
+"<de>"
+	"de" pr
+"<china>"
+	"*china"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a95
+# text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
+# text[orig] = *Bueno**, pos neh a:mo niki..., ke:man nikitak mah ika kipepecho:ka:n, neh nochipa nikita kipepechowah ika ne: tein kikowah ya ne: ka:mpa tanamakah.
+# text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
+# labels = a95 sentence
+"<Bueno>"
+	"buenoj" ij
+	"bueno" ij
+"<,>"
+	"," cm
+"<pos>"
+	"pos" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<amo>"
+	"amo" adv
+"<niki...>"
+	"niki" x
+"<,>"
+	"," cm
+"<keman>"
+	"keman" adv
+"<nikitak>"
+	"ita" v tv pret s_sg1 o_sg3
+"<mah>"
+	"ma" aux
+"<ika>"
+	"ka" n rel px3sg
+"<kipepechokan>"
+	"pepechohua" v tv opt s_pl3 o_sg3
+"<,>"
+	"," cm
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nochipa>"
+	"nochipa" adv
+"<nikita>"
+	"ita" v tv pres s_sg1 o_sg3
+"<kipepechowah>"
+	"pepechohua" v tv pres s_pl3 o_sg3
+"<ika>"
+	"ka" n rel px3sg
+"<ne>"
+	"ne" adv
+	"ne" det
+"<tein>"
+	"tein" prn
+"<kikowah>"
+	"kohua" v tv pres s_pl3 o_sg3
+"<ya>"
+	"ya" adv
+"<ne>"
+	"ne" adv
+	"ne" det
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<tanamakah>"
+	"*tanamakah"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a96
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a96 sentence
+"<Kemah>"
+	"kemaj" ij @root #1->0
+"<.>"
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98
+# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
+# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
+# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
+# labels = a98 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<keniw>"
+	"keni" adv itg
+"<nen>"
+	"nen" prn
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<we...>"
+	"we" x
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wehkapan>"
+	"huejkapan" adj
+	"huejkapan" adj s_sg3
+"<?>"
+	"?" sent
+"<¿>"
+	"¿" sent
+"<Keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kichi>"
+	"*kichi"
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<keniw>"
+	"keni" adv itg
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a101
+# text = ¿Wan keniw pankisa, sayoh porque kipipitsah ika sombrero oso...?
+# text[orig] = ¿Wa:n ke:ní:w panki:sa, sayoh *porque** kipi:pi:tsah ika *sombrero** oso ...?
+# text[spa] = ¿Y cómo es que se eleva, es porque lo soplan con el sombrero o?
+# labels = a101 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<keniw>"
+	"keni" adv itg
+"<pankisa>"
+	"pankisa" v iv pres s_sg3
+	"kisa" v iv pres s_sg3 pan
+"<,>"
+	"," cm
+"<sayoh>"
+	"sayoj" adv
+"<porque>"
+	"porque" cnjsub
+"<kipipitsah>"
+	"*kipipitsah"
+"<ika>"
+	"ka" n rel px3sg
+"<sombrero>"
+	"sombrero" n m sg
+;	"sombrero" n m sg s_pl3 REMOVE:29
+;	"sombrero" n m sg s_sg3 REMOVE:29
+"<oso>"
+	"oso" cnjcoo
+"<...>"
+	"..." sent
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a103
+# text = ¿Wan keniw xota, toni k..., nen kitaliliah para xota?
+# text[orig] = ¿Wa:n ke:ní:w xo:ta, toni k..., ne:n kita:liliah para xo:ta?
+# text[spa] = ¿Y cómo prende, qué le ponen para que pueda prender?
+# labels = a103 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<keniw>"
+	"keni" adv itg
+"<xota>"
+	"xota" v iv pres s_sg3
+"<,>"
+	"," cm
+"<toni>"
+	"toni" prn
+"<k...>"
+	"k" x
+"<,>"
+	"," cm
+"<nen>"
+	"nen" prn
+"<kitaliliah>"
+	"talilia" v tv pres s_pl3 i_sg3
+	"talilia" v tv pret s_sg3 i_sg3
+"<para>"
+	"para" cnjsub
+	"para" pr
+"<xota>"
+	"xota" v iv pres s_sg3
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a108
+# text = A, wa...
+# text[orig] = A:, wa:...
+# text[spa] = A:, ...,
+# labels = a108 fragment
+"<A>"
+	"a" ij
+"<,>"
+	"," cm
+"<wa...>"
+	"wa" x
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a110
+# text = ¿Wan wei nen tilmah tikihtowa kiololchiwah?
+# text[orig] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
+# text[spa] = ¿Y es grande la tela que lo hacen en bola?
+# labels = a110 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<wei>"
+	"huei" adj
+	"huei" adj s_sg3
+"<nen>"
+	"nen" prn
+"<tilmah>"
+	"tilmaj" n abs
+;	"tilmaj" n abs s_pl3 REMOVE:31
+;	"tilmaj" n abs s_sg3 REMOVE:31
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<kiololchiwah>"
+	"*kiololchiwah"
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a113
+# text = ¿Wan ekintsin maski yon alaxtik, no kwaltia?
+# text[orig] = ¿Wa:n ekintsi:n ma:ski yo:n alaxtik, no: kwaltia?
+# text[spa] = ¿Y ahora aunque sea de esa lisa, también sirve?
+# labels = a113 sentence
+"<¿>"
+	"¿" sent
+"<Wan>"
+	"huan" cnjcoo
+"<ekintsin>"
+	"ekintsin" adv
+	"ekin" adv hon
+"<maski>"
+	"maski" cnjsub
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<alaxtik>"
+	"alaxtik" adj
+	"alaxtik" adj s_sg3
+"<,>"
+	"," cm
+"<no>"
+	"no" adv
+	"no" det
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<?>"
+	"?" sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a118
+# text = Pos, 'nechili motokay sayoh wan
+# text[orig] = Pos, 'ne:chili moto:ka:y sayoh wa:n
+# text[spa] = Pues solamente dime tu nombre y
+# labels = a118 fragment
+"<Pos>"
+	"pos" adv
+"<,>"
+	"," cm
+"<'nechili>"
+	"ilia" v tv pres imp s_sg2 i_sg1
+"<motokay>"
+	"tokay" n px2sg
+	"tokay" n abs px2sg
+"<sayoh>"
+	"sayoj" adv
+"<wan>"
+	"huan" cnjcoo
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a119
+# text = kani n' tiwalewa.
+# text[orig] = ka:ni n' tiwa:le:wa.
+# text[spa] = de donde vienes.
+# labels = a119 fragment
+"<kani>"
+	"kani" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<tiwalewa>"
+	"huala" v iv pres s_sg2
+	"ehua" v iv pres s_sg2 hual
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a121
+# text = Tasohkamatik.
+# text[orig] = Tasohka:matik.
+# text[spa] = Gracias.
+# labels = a121 sentence
+"<Tasohkamatik>"
+	"tasojkamatik" ij @root #1->0
+"<.>"
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a44
+# text = Pos onkak kan..., kanika eski yon mochiwa wan,
+# text[orig] = Pos onkak ka:n..., ka:nika eski yo:n mochi:wa wa:n,
+# text[spa] = Pues hay..., en cualquier parte se da y,
+# labels = a44 fragment
+"<Pos>"
+	"pos" adv
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<kan>"
+	"kan" adv
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<kanika>"
+	"kanika" adv
+"<eski>"
+	"eski" adj
+	"eski" adj s_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref
+"<wan>"
+	"huan" cnjcoo
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a45
+# text = wan no n' ikowyo mahya achi istak n' ikes:pan,
+# text[orig] = wa:n no: n' ikowyo mahyá: achi ista:k n' ikes:pan,
+# text[spa] = y también el tronco es un blanquecino en la superficie,
+# labels = a45 fragment
+"<wan>"
+	"huan" cnjcoo
+"<no>"
+	"no" adv
+	"no" det
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ikowyo>"
+	"kouyo" n px3sg
+	"kouyo" n abs px3sg
+"<mahya>"
+	"mahya" adv
+"<achi>"
+	"achi" adv
+"<istak>"
+	"istak" adj
+	"istak" adj s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ikes>"
+	"kes" n px3sg
+	"kes" n abs px3sg
+"<:>"
+	":" sent
+"<pan>"
+	"pan" n rel
+	"pa" n abs
+	"pa" n abs s_pl3
+	"pa" n abs s_sg3
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a46
+# text = wan ixiwyo, nejon, no tepitsin maahalaxtik.
+# text[orig] = wa:n ixiwyo, nejó:n, no: tepitsi:n ma:ahalaxtik.
+# text[spa] = y las hojas, este, son un poco lisas.
+# labels = a46 fragment
+"<wan>"
+	"huan" cnjcoo
+"<ixiwyo>"
+	"xiuyo" n px3sg
+	"xiuyo" n abs px3sg
+	"xiuyo" n pl px3sg
+"<,>"
+	"," cm
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+"<no>"
+	"no" adv
+	"no" det
+"<tepitsin>"
+	"tepitsin" adv
+"<maahalaxtik>"
+	"maajalaxtik" adj
+	"maajalaxtik" adj s_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a47
+# text = Wan cuando pewa no posoni a, pos de yon posoni a n' ixochiotsin xiini a no,
+# text[orig] = Wa:n *cuando** pe:wa no: poso:ni a, pos de yo:n poso:ni a n' ixo:chiotsi:n xi:i:ni a no:,
+# text[spa] = Y cuando empieza a florear, una vez que florea, se caen,
+# labels = a47 fragment
+"<Wan>"
+	"huan" cnjcoo
+"<cuando>"
+	"cuando" cnjsub
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<no>"
+	"no" adv
+	"no" det
+"<posoni>"
+	"posoni" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<,>"
+	"," cm
+"<pos>"
+	"pos" adv
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<posoni>"
+	"posoni" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<xiini>"
+	"xiini" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<no>"
+	"no" adv
+	"no" det
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a48
+# text = ihistak n' ixochio.
+# text[orig] = ihista:k n' ixo:chio.
+# text[spa] = las flores son blancas.
+# labels = a48 fragment
+"<ihistak>"
+	"ijistak" adj
+	"ijistak" adj s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ixochio>"
+	"xochiot" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a49
+# text = Mahya ihkwin metsweweyak xochitsini.
+# text[orig] = Mahyá: ihkwí:n metswe:weyak xo:chitsi:ni.
+# text[spa] = parece que el peciolo de las flores son así.
+# labels = a49 sentence
+"<Mahya>"
+	"mahya" adv
+"<ihkwin>"
+	"ijkuin" adv
+"<metsweweyak>"
+	"*metsweweyak"
+"<xochitsini>"
+	"*xochitsini"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a50
+# text = Wan xiini kwaltsin wan kemah mochiwa ya nen tein yehwa ya n' taki a.
+# text[orig] = Wa:n xi:i:ni kwaltsi:n wa:n ke:mah mochi:wa ya ne:n tein yehwa ya n' ta:ki a.
+# text[spa] = Y se caen y luego ya salen los frutos.
+# labels = a50 sentence
+"<Wan>"
+	"huan" cnjcoo
+"<xiini>"
+	"xiini" v iv pres s_sg3
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<wan>"
+	"huan" cnjcoo
+"<kemah>"
+	"kemaj" ij
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref
+"<ya>"
+	"ya" adv
+"<nen>"
+	"nen" prn
+"<tein>"
+	"tein" prn
+"<yehwa>"
+	"yehua" prn pers sg3
+"<ya>"
+	"ya" adv
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<taki>"
+	"taki" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a51
+# text = Achto xohxoxoktik, cuando pewa no chikawaya no pewa kohkostia ya wan cuando mas chikawak a yekkohkostik a hasta xiini a despues.
+# text[orig] = Achto xohxoxoktik, *cuando** pe:wa no: chika:waya no: pe:wa kohkostia ya wa:n *cuando más** chika:wak a ye:kkohkostik a *hasta** xi:i:ni a *después**.
+# text[spa] = primero son verdes y cuando empiezan a madurarse tornan a ser amarillas y cuando ya se arrecian totalmente son amarillos y ya se caen al suelo.
+# labels = a51 sentence
+"<Achto>"
+	"achto" adv
+"<xohxoxoktik>"
+	"xojxoxoktik" adj
+	"xojxoxoktik" adj s_sg3
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<no>"
+	"no" adv
+	"no" det
+"<chikawaya>"
+	"chikahuaya" v iv pres s_sg3
+"<no>"
+	"no" adv
+	"no" det
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<kohkostia>"
+	"kojkostia" v iv pres s_sg3
+"<ya>"
+	"ya" adv
+"<wan>"
+	"huan" cnjcoo
+"<cuando>"
+	"cuando" cnjsub
+"<mas>"
+	"más" adv
+"<chikawak>"
+	"chikahuak" adj
+	"chikahuak" adj s_sg3
+"<a>"
+	"a" ij
+"<yekkohkostik>"
+	"kojkostia" v iv pret s_sg3 yek
+	"kojkostik" adj yek
+"<a>"
+	"a" ij
+"<hasta>"
+	"hasta" pr
+"<xiini>"
+	"xiini" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<despues>"
+	"después" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a52
+# text = Kemah, wan de pewa xiini a pos yon kampa wetsiti ompa mahya tahtapani a,
+# text[orig] = Ke:mah, wa:n de pe:wa xi:i:ni a pos yo:n ka:mpa wetsiti ompa mahyá: tahtapa:ni a,
+# text[spa] = Sí, y cuando ya se caen del árbol, donde caen ahí se abren los frutos,
+# labels = a52 fragment
+"<Kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<wan>"
+	"huan" cnjcoo
+"<de>"
+	"de" pr
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<xiini>"
+	"xiini" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<pos>"
+	"pos" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<wetsiti>"
+	"huetsi" v iv and s_sg3
+"<ompa>"
+	"ompa" adv
+"<mahya>"
+	"mahya" adv
+"<tahtapani>"
+	"tajtapani" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a53
+# text = de chikawaya ya.
+# text[orig] = de chika:waya ya.
+# text[spa] = una vez que se maduran.
+# labels = a53 fragment
+"<de>"
+	"de" pr
+"<chikawaya>"
+	"chikahuaya" v iv pres s_sg3
+"<ya>"
+	"ya" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a54
+# text = Iwki neh n..., iwki neh nikixmattok.
+# text[orig] = Iwki neh n..., iwki neh niki:xmattok.
+# text[spa] = Así yo..., así yo lo conozco.
+# labels = a54 sentence
+"<Iwki>"
+	"iuki" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<n>"
+	"in" det
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<iwki>"
+	"iuki" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a56
+# text = Amo, yehwa yon iteyo amo n'mati, yon amo se kikwa, pero n' tein yehwa yon, cuando, cuando de kemeh yon tein welaman ne, chikawtok,
+# text[orig] = A:mo, yehwa yo:n iteyo a:mo n'mati, yo:n a:mo se: kikwa, pero n' tein yehwa yo:n, *cuando, cuando de** ke:meh yo:n tein wela:man ne:, chika:wtok,
+# text[spa] = No, sobre esas semillas no sé, esos no se comen, pero si, esos, cuando, cuando justo cuando están bien maduros,
+# labels = a56 fragment
+"<Amo>"
+	"amo" adv
+"<,>"
+	"," cm
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<iteyo>"
+	"teyo" n px3sg
+	"teyo" n abs px3sg
+"<amo>"
+	"amo" adv
+"<n'mati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<,>"
+	"," cm
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<amo>"
+	"amo" adv
+"<se>"
+	"se" num
+"<kikwa>"
+	"kua" v tv pres s_sg3 o_sg3
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<tein>"
+	"tein" prn
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<de>"
+	"de" pr
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tein>"
+	"tein" prn
+"<welaman>"
+	"*welaman"
+"<ne>"
+	"ne" adv
+	"ne" det
+"<,>"
+	"," cm
+"<chikawtok>"
+	"*chikawtok"
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a57
+# text = pos se, komo se kiteki cuando xiini a pos no de pan..., panotok a tak de nejon amo kisas ok n' ichokilo, pero cuando kwaltsin de yon oksik apenas kisa n' ichokilo.
+# text[orig] = pos se:, komo se: kiteki *cuando** xi:i:ni a pos no: de pan..., pano:tok a tak de nejó:n a:mo ki:sas ok n' icho:kilo, *pero cuando** kwaltsi:n de yo:n oksik *apenas** ki:sa n' icho:kilo.
+# text[spa] = pues uno, si uno los corta..., cuando se caen, pues de que se caen, pues ya están muy recios ya no le sale la savia pero cuando alcanzan el punto exacto de maduración, le sale la savia.
+# labels = a57 fragment
+"<pos>"
+	"pos" adv
+"<se>"
+	"se" num
+"<,>"
+	"," cm
+"<komo>"
+	"komo" adv
+"<se>"
+	"se" num
+"<kiteki>"
+	"teki" v tv pres s_sg3 o_sg3
+"<cuando>"
+	"cuando" cnjsub
+"<xiini>"
+	"xiini" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<pos>"
+	"pos" adv
+"<no>"
+	"no" adv
+	"no" det
+"<de>"
+	"de" pr
+"<pan>"
+	"pan" n rel
+	"pa" n abs
+;	"pa" n abs s_pl3 REMOVE:29
+;	"pa" n abs s_sg3 REMOVE:29
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<panotok>"
+	"panohua" v iv prog pres s_sg3
+"<a>"
+	"a" ij
+"<tak>"
+	"tak" adv
+"<de>"
+	"de" pr
+"<nejon>"
+	"nejon" prn
+"<amo>"
+	"amo" adv
+"<kisas>"
+	"kisa" v iv fut s_sg3
+"<ok>"
+	"ok" adv
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ichokilo>"
+	"chokilo" n px3sg
+	"chokilo" n abs px3sg
+	"chokilo" n pl px3sg
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<cuando>"
+	"cuando" cnjsub
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<oksik>"
+	"oksi" v iv pret s_sg3
+"<apenas>"
+	"apenas" adv
+"<kisa>"
+	"kisa" v iv pres s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ichokilo>"
+	"chokilo" n px3sg
+	"chokilo" n abs px3sg
+	"chokilo" n pl px3sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a58
+# text = Yehwa yon kitekih seki ika tapepechowah.
+# text[orig] = Yehwa yo:n kitekih seki ika tapepechowah.
+# text[spa] = Esos los cortan para usar como pegamento.
+# labels = a58 sentence
+"<Yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kitekih>"
+	"teki" v tv pres s_pl3 o_sg3
+	"teki" v tv pret s_sg3 o_sg3
+"<seki>"
+	"seki" det
+	"seki" prn
+"<ika>"
+	"ka" n rel px3sg
+"<tapepechowah>"
+	"pepechohua" v tv pres s_pl3 o_nn
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a59
+# text = Kemeh yon ipa kichiwah globos, ne keman yehwa ika kipepechowayah, pero aman amo yehwa ok n' kikwih, aman kikwih nochi tein ne
+# text[orig] = Ke:meh yo:n i:pa kichi:wah *globos**, ne: ke:man yehwa ika kipepechowa:yah, pero a:man a:mo yehwa ok n' kikwih, a:man kikwih nochi tein ne:
+# text[spa] = Como cuando hacen los globos, en aquéllos tiempos lo usaban como pegamento, pero ahora ya no lo usan, ahora lo usan todo lo que
+# labels = a59 fragment
+"<Kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg
+	"pa" n px3sg
+	"pa" n abs px3sg
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<globos>"
+	"globo" n m pl
+;	"globo" n m pl s_pl3 REMOVE:29
+;	"globo" n m pl s_sg3 REMOVE:29
+"<,>"
+	"," cm
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keman>"
+	"keman" adv
+"<yehwa>"
+	"yehua" prn pers sg3
+"<ika>"
+	"ka" n rel px3sg
+"<kipepechowayah>"
+	"pepechohua" v tv impf s_pl3 o_sg3
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<aman>"
+	"aman" adv
+"<amo>"
+	"amo" adv
+"<yehwa>"
+	"yehua" prn pers sg3
+"<ok>"
+	"ok" adv
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<aman>"
+	"aman" adv
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<tein>"
+	"tein" prn
+"<ne>"
+	"ne" adv
+	"ne" det
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a60
+# text = monamaka kemeh ne nejon, kampa tana..., tanamakaloyan ya. Amo yehwa ok kikwih n' aman, am..., ne keman kikwiah yehwa, pero aman amo ok.
+# text[orig] = monamaka ke:meh ne: nejó:n, ka:mpa tana..., tanamakalo:ya:n ya. A:mo yehwa ok kikwih n' a:man, a:m..., ne: ke:man kikwiah yehwa, pero a:man a:mo ok.
+# text[spa] = venden como allá, este, en las tiendas. Ahora ya no lo usan, en aquéllos tiempos lo usaban pero ahora ya no.
+# labels = a60 fragment
+"<monamaka>"
+	"namaka" v tv pres s_sg3 i_ref o_sg3
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<ne>"
+	"ne" adv
+	"ne" det
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<tana>"
+	"*tana"
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<tanamakaloyan>"
+	"*tanamakaloyan"
+"<ya>"
+	"ya" adv
+"<.>"
+	"." sent
+
+"<Amo>"
+	"amo" adv
+"<yehwa>"
+	"yehua" prn pers sg3
+"<ok>"
+	"ok" adv
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<aman>"
+	"aman" adv
+"<,>"
+	"," cm
+"<am...>"
+	"am" x
+"<,>"
+	"," cm
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keman>"
+	"keman" adv
+"<kikwiah>"
+	"kui" v tv impf s_pl3 o_sg3
+"<yehwa>"
+	"yehua" prn pers sg3
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<aman>"
+	"aman" adv
+"<amo>"
+	"amo" adv
+"<ok>"
+	"ok" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a62
+# text = Amo, mismo yehwa de n..., de yon nejon kampa kitekih wan kisa ya n' ichokilotsin.
+# text[orig] = A:mo, *mismo** yehwa de n..., de yo:n nejó:n ka:mpa kitekih wa:n ki:sa ya n' icho:kilotsi:n.
+# text[spa] = No, es el mismo, de eso, donde lo cortan y sale la savia.
+# labels = a62 sentence
+"<Amo>"
+	"amo" adv
+"<,>"
+	"," cm
+"<mismo>"
+	"mismo" adj m sg
+	"mismo" adj m sg s_sg3
+;	"mismo" adj m sg s_pl3 REMOVE:39
+"<yehwa>"
+	"yehua" prn pers sg3
+"<de>"
+	"de" pr
+"<n>"
+	"in" det
+"<...>"
+	"..." sent
+"<,>"
+	"," cm
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<nejon>"
+	"nejon" prn
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<kitekih>"
+	"teki" v tv pres s_pl3 o_sg3
+	"teki" v tv pret s_sg3 o_sg3
+"<wan>"
+	"huan" cnjcoo
+"<kisa>"
+	"kisa" v iv pres s_sg3
+"<ya>"
+	"ya" adv
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ichokilotsin>"
+	"chokilo" n hon px3sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a64
+# text = Wan k.... Mm, kemah. Amo kampa kisa ya wan ompa ki..., kwali kitekih wan kisa n' ichokilo.
+# text[orig] = Wa:n k.... Mm, ke:mah. A:mo ka:mpa ki:sa ya wa:n ompa ki..., kwali kitekih wa:n ki:sa n' icho:kilo.
+# text[spa] = Y..., Mm, si. No, donde sale y ahí..., lo pueden cortar y ya sale la savia.
+# labels = a64 sentence
+"<Wan>"
+	"huan" cnjcoo
+"<k...>"
+	"k" x
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<,>"
+	"," cm
+"<kemah>"
+	"kemaj" ij
+"<.>"
+	"." sent
+
+"<Amo>"
+	"amo" adv
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<kisa>"
+	"kisa" v iv pres s_sg3
+"<ya>"
+	"ya" adv
+"<wan>"
+	"huan" cnjcoo
+"<ompa>"
+	"ompa" adv
+"<ki...>"
+	"ki" x
+"<,>"
+	"," cm
+"<kwali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<kitekih>"
+	"teki" v tv pres s_pl3 o_sg3
+	"teki" v tv pret s_sg3 o_sg3
+"<wan>"
+	"huan" cnjcoo
+"<kisa>"
+	"kisa" v iv pres s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ichokilo>"
+	"chokilo" n px3sg
+	"chokilo" n abs px3sg
+	"chokilo" n pl px3sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a65
+# text = Mm. Yehwa yon kohkostik a.
+# text[orig] = Mm. Yehwa yo:n kohkostik a.
+# text[spa] = Mm. Son esos, los amarillos.
+# labels = a65 sentence
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+"<Yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kohkostik>"
+	"kojkostik" adj
+	"kojkostia" v iv pret s_sg3
+	"kojkostik" adj s_sg3
+"<a>"
+	"a" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a66
+# text = Kisa n' ichokilo istak kwaltsin.
+# text[orig] = Ki:sa n' icho:kilo ista:k kwaltsi:n.
+# text[spa] = Sale la savia, es blanca.
+# labels = a66 sentence
+"<Kisa>"
+	"kisa" v iv pres s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ichokilo>"
+	"chokilo" n px3sg
+	"chokilo" n abs px3sg
+	"chokilo" n pl px3sg
+"<istak>"
+	"istak" adj
+	"istak" adj s_sg3
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a68
+# text = Seki wehwei moskaltia wan seki tsikitsitsin. Pero komo wehkawa ihkatok pos mochiwa wei,
+# text[orig] = Seki wehwei moskaltia wa:n seki tsikitsitsi:n. Pero komo wehka:wa ihkatok pos mochi:wa we:i,
+# text[spa] = Unos crecen altos y unos pequeños. Pero si el árbol permanece mucho tiempo, crece alto,
+# labels = a68 fragment
+"<Seki>"
+	"seki" det
+	"seki" prn
+"<wehwei>"
+	"huehuei" adj
+	"huehuei" adj s_sg3
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<wan>"
+	"huan" cnjcoo
+"<seki>"
+	"seki" det
+	"seki" prn
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<.>"
+	"." sent
+
+"<Pero>"
+	"pero" cnjcoo
+"<komo>"
+	"komo" adv
+"<wehkawa>"
+	"huejkahua" v iv pres s_sg3
+"<ihkatok>"
+	"ijka" v iv prog pres s_sg3
+"<pos>"
+	"pos" adv
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref
+"<wei>"
+	"huei" adj
+	"huei" adj s_sg3
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a69
+# text = komo amo kiteximah.
+# text[orig] = komo a:mo kite:xi:mah.
+# text[spa] = si acaso no lo tumban.
+# labels = a69 fragment
+"<komo>"
+	"komo" adv
+"<amo>"
+	"amo" adv
+"<kiteximah>"
+	"*kiteximah"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a72
+# text = Amo weli, ta in yeh tsikitsitsin.
+# text[orig] = A:mo weli, ta: i:n yeh tsikitsitsi:n.
+# text[spa] = No es posible, pues estas son pequeñas.
+# labels = a72 sentence
+"<Amo>"
+	"amo" adv
+"<weli>"
+	"hueli" vaux
+	"hueli" v iv pres s_sg3
+"<,>"
+	"," cm
+"<ta>"
+	"ta" adv
+"<in>"
+	"in" det
+"<yeh>"
+	"yehua" prn pers sg3 short
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a73
+# text = Kan wel se kaketsa. Pero ahwiak kwaltsin no n' ixochio. Mm.
+# text[orig] = Ka:n wel se: ka:ketsa. Pero ahwia:k kwaltsi:n no: n' ixo:chio. Mm.
+# text[spa] = No se puede poner en floreros. Pero las flores tiene un olor agradable. Mm.
+# labels = a73 sentence
+"<Kan>"
+	"kan" adv
+"<wel>"
+	"hueli" vaux
+"<se>"
+	"se" num
+"<kaketsa>"
+	"*kaketsa"
+"<.>"
+	"." sent
+
+"<Pero>"
+	"pero" cnjcoo
+"<ahwiak>"
+	"ajuiak" n abs
+	"ajuiyak" adj
+	"ajuiak" n abs s_sg3
+	"ajuiyak" adj s_sg3
+;	"ajuiak" n abs s_pl3 REMOVE:39
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<no>"
+	"no" adv
+	"no" det
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<ixochio>"
+	"xochiot" n px3sg
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a78
+# text = Amo, ta kwaltia ika tapepechowah.
+# text[orig] = A:mo, ta: kwaltia ika tapepechowah.
+# text[spa] = No, pues sirve como pegamento.
+# labels = a78 sentence
+"<Amo>"
+	"amo" adv
+"<,>"
+	"," cm
+"<ta>"
+	"ta" adv
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<ika>"
+	"ka" n rel px3sg
+"<tapepechowah>"
+	"pepechohua" v tv pres s_pl3 o_nn
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a79
+# text = Mm. Kwaltia pero neli ipa solamente para yon globo sah kichiwah. Mm.
+# text[orig] = Mm. Kwaltia pero neli i:pa *solamente para** yo:n *globo** sah kichi:wah. Mm.
+# text[spa] = Mm. Sirve pero es cierto, solamente para pegar el papel para un globo. Mm.
+# labels = a79 sentence
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+"<Kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<pero>"
+	"pero" cnjcoo
+"<neli>"
+	"neli" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg
+	"pa" n px3sg
+	"pa" n abs px3sg
+"<solamente>"
+	"solamente" adv
+"<para>"
+	"para" cnjsub
+	"para" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<globo>"
+	"globo" n m sg
+;	"globo" n m sg s_pl3 REMOVE:29
+;	"globo" n m sg s_sg3 REMOVE:29
+"<sah>"
+	"saj" adv
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a83
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a83 sentence
+"<Kemah>"
+	"kemaj" ij @root #1->0
+"<.>"
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a85
+# text = Pos neh amo nikmati, amo keman n'chiwani yon globo, pero nikitani ipa kemeh kichihchiwah, kipehpepechowah de yon amat monamaka ompa ne, kampa t..., ne,
+# text[orig] = Pos neh a:mo nikmati, a:mo ke:man n'chi:wani yo:n *globo**, pero nikitani i:pa ke:meh kichihchi:wah, kipehpepechowah de yo:n a:mat monamaka ompa ne:, ka:mpa t..., ne:,
+# text[spa] = Pues yo no sé, nunca he hecho ese globo, pero he visto como lo hacen, pegan ese papel que se vende allá
+# labels = a85 fragment
+"<Pos>"
+	"pos" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<amo>"
+	"amo" adv
+"<nikmati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<keman>"
+	"keman" adv
+"<n'chiwani>"
+	"chihua" v tv pp s_sg1 o_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<globo>"
+	"globo" n m sg
+;	"globo" n m sg s_pl3 REMOVE:29
+;	"globo" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<nikitani>"
+	"ita" v tv pp s_sg1 o_sg3
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg
+	"pa" n px3sg
+	"pa" n abs px3sg
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<kichihchiwah>"
+	"chijchihua" v tv pres s_pl3 o_sg3
+	"chijchihua" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<kipehpepechowah>"
+	"*kipehpepechowah"
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<amat>"
+	"amat" n abs
+;	"amat" n abs s_pl3 REMOVE:29
+;	"amat" n abs s_sg3 REMOVE:29
+"<monamaka>"
+	"namaka" v tv pres s_sg3 i_ref o_sg3
+"<ompa>"
+	"ompa" adv
+"<ne>"
+	"ne" adv
+	"ne" det
+"<,>"
+	"," cm
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<t...>"
+	"t" x
+"<,>"
+	"," cm
+"<ne>"
+	"ne" adv
+	"ne" det
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a86
+# text = tanamakaloyan.
+# text[orig] = tanamakalo:ya:n.
+# text[spa] = en la tienda.
+# labels = a86 fragment
+"<tanamakaloyan>"
+	"*tanamakaloyan"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a87
+# text = Wan ompa ne n' kikowah, nejon, onkak, onkak de miak colores. Wan yehwa yon nikiita neh kichihchiwah, pero amo keman n'chihchiwa neh, pero nikiitani keniw n' kichiwah, pos kipehpechowah ika.
+# text[orig] = Wa:n ompa ne: n' kikowah, nejó:n, onkak, onkak de miak *colores**. Wa:n yehwa yo:n niki:ita neh kichihchi:wah, pero a:mo ke:man n'chihchi:wa neh, pero niki:itani ke:ní:w n' kichi:wah, pos kipehpechowah ika.
+# text[spa] = Y ahí lo compran, este, hay, hay bastantes colores. Y ese es lo que he visto que lo hacen, pero yo nunca lo he hecho pero he visto como lo elaboran pues con ello lo pegan.
+# labels = a87 sentence
+"<Wan>"
+	"huan" cnjcoo
+"<ompa>"
+	"ompa" adv
+"<ne>"
+	"ne" adv
+	"ne" det
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kikowah>"
+	"kohua" v tv pres s_pl3 o_sg3
+"<,>"
+	"," cm
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<,>"
+	"," cm
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<de>"
+	"de" pr
+"<miak>"
+	"miak" adj
+	"miak" adv
+	"miak" det
+	"miak" adj s_sg3
+"<colores>"
+	"color" n m pl
+	"color" n m pl s_sg3
+;	"color" n m pl s_pl3 REMOVE:39
+"<.>"
+	"." sent
+
+"<Wan>"
+	"huan" cnjcoo
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<nikiita>"
+	"ita" v tv pres s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<kichihchiwah>"
+	"chijchihua" v tv pres s_pl3 o_sg3
+	"chijchihua" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<amo>"
+	"amo" adv
+"<keman>"
+	"keman" adv
+"<n'chihchiwa>"
+	"chijchihua" v tv pres s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<nikiitani>"
+	"ita" v tv pp s_sg1 o_sg3
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<pos>"
+	"pos" adv
+"<kipehpechowah>"
+	"*kipehpechowah"
+"<ika>"
+	"ka" n rel px3sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a88
+# text = Wan kichiwah wei, seki kiliah kichiwah, seki de, nikiitaseki kichiwah kiliah de, de estrella.
+# text[orig] = Wa:n kichi:wah we:i, seki kiliah kichi:wah, seki de, niki:itaseki kichi:wah kiliah de, de *estrella**.
+# text[spa] = Lo hacen grande, algunos le llaman, unos de, he visto que unos lo hacen, le llaman, de estrella.
+# labels = a88 sentence
+"<Wan>"
+	"huan" cnjcoo
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<wei>"
+	"huei" adj
+	"huei" adj s_sg3
+"<,>"
+	"," cm
+"<seki>"
+	"seki" det
+	"seki" prn
+"<kiliah>"
+	"ilia" v tv pres s_pl3 o_sg3
+	"ilia" v tv pret s_sg3 o_sg3
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm
+"<seki>"
+	"seki" det
+	"seki" prn
+"<de>"
+	"de" pr
+"<,>"
+	"," cm
+"<nikiitaseki>"
+	"*nikiitaseki"
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<kiliah>"
+	"ilia" v tv pres s_pl3 o_sg3
+	"ilia" v tv pret s_sg3 o_sg3
+"<de>"
+	"de" pr
+"<,>"
+	"," cm
+"<de>"
+	"de" pr
+"<estrella>"
+	"estrella" n f sg
+;	"estrella" n f sg s_pl3 REMOVE:29
+;	"estrella" n f sg s_sg3 REMOVE:29
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a89
+# text = Kemah, wan seki de, amo nikelnamiki seki de keniw, pero pos amo keman n'chihchiwa neh globo, pero mas pos nikitani keniw n' kichiwah.
+# text[orig] = Ke:mah, wa:n seki de, a:mo nikelna:miki seki de ke:ní:w, pero pos a:mo ke:man n'chihchi:wa neh *globo**, *pero más** pos nikitani ke:ní:w n' kichi:wah.
+# text[spa] = Sí, y unos de, no recuerdo unos de qué (forma), pero pues yo nunca he hecho un globo, pero sí he visto de cómo lo hacen.
+# labels = a89 sentence
+"<Kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<wan>"
+	"huan" cnjcoo
+"<seki>"
+	"seki" det
+	"seki" prn
+"<de>"
+	"de" pr
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<nikelnamiki>"
+	"elnamiki" v tv pres s_sg1 o_sg3
+"<seki>"
+	"seki" det
+	"seki" prn
+"<de>"
+	"de" pr
+"<keniw>"
+	"keni" adv itg
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<pos>"
+	"pos" adv
+"<amo>"
+	"amo" adv
+"<keman>"
+	"keman" adv
+"<n'chihchiwa>"
+	"chijchihua" v tv pres s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<globo>"
+	"globo" n m sg
+;	"globo" n m sg s_pl3 REMOVE:29
+;	"globo" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<mas>"
+	"más" adv
+"<pos>"
+	"pos" adv
+"<nikitani>"
+	"ita" v tv pp s_sg1 o_sg3
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91
+# text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
+# text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
+# text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
+# labels = a91 sentence
+"<Tein>"
+	"tein" prn
+"<,>"
+	"," cm
+"<kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<pankisa>"
+	"pankisa" v iv pres s_sg3
+	"kisa" v iv pres s_sg3 pan
+"<ahko>"
+	"ajko" adv
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wehka>"
+	"huejka" adv
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a92
+# text = Tein amo tata pos yowi wan tein, tein tata pos iwki a, amo mas yowi ok, ompa, ompa tami a.
+# text[orig] = Tein a:mo tata pos yowi wa:n tein, tein tata pos iwki a, a:mo *más** yowi ok, ompa, ompa tami a.
+# text[spa] = El que no se quema pues se va y el que se quema pues así se acaba, ya no va a ningún lado, ahí, ahí se acaba.
+# labels = a92 sentence
+"<Tein>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<tata>"
+	"tata" adv
+	"tat" n px3nn
+	"ita" v tv pres s_sg3 o_nn
+"<pos>"
+	"pos" adv
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wan>"
+	"huan" cnjcoo
+"<tein>"
+	"tein" prn
+"<,>"
+	"," cm
+"<tein>"
+	"tein" prn
+"<tata>"
+	"tata" adv
+	"tat" n px3nn
+	"ita" v tv pres s_sg3 o_nn
+"<pos>"
+	"pos" adv
+"<iwki>"
+	"iuki" adv
+"<a>"
+	"a" ij
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<mas>"
+	"más" adv
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<ok>"
+	"ok" adv
+"<,>"
+	"," cm
+"<ompa>"
+	"ompa" adv
+"<,>"
+	"," cm
+"<ompa>"
+	"ompa" adv
+"<tami>"
+	"mit" n px3nn
+	"tami" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a94
+# text = Kemah. Aja, yehwa. Mm.
+# text[orig] = Ke:mah. Ajá, yehwa. Mm.
+# text[spa] = Sí. Aha, esas. Mm.
+# labels = a94 sentence
+"<Kemah>"
+	"kemaj" ij
+"<.>"
+	"." sent
+
+"<Aja>"
+	"aja" ij
+"<,>"
+	"," cm
+"<yehwa>"
+	"yehua" prn pers sg3
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a97
+# text = N..., kemah, amo ta kwaltia, yehwa yon kikwiah ne keman, pero pos neli aman amo kikwih yehwa ok.
+# text[orig] = N..., ke:mah, a:mo ta: kwaltia, yehwa yo:n kikwiah ne: ke:man, pero pos neli a:man a:mo kikwih yehwa ok.
+# text[spa] = Sí, no, pues sirve, eso es lo que ocupaban en aquellós tiempos, pero es cierto que en estos tiempos ya no lo usan.
+# labels = a97 sentence
+"<N...>"
+	"n" x
+"<,>"
+	"," cm
+"<kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<ta>"
+	"ta" adv
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<,>"
+	"," cm
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kikwiah>"
+	"kui" v tv impf s_pl3 o_sg3
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keman>"
+	"keman" adv
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<pos>"
+	"pos" adv
+"<neli>"
+	"neli" adv
+"<aman>"
+	"aman" adv
+"<amo>"
+	"amo" adv
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<yehwa>"
+	"yehua" prn pers sg3
+"<ok>"
+	"ok" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a99
+# text = Pos cuando, cuando yon pankisa ya, cuando, cuando pankisati a ata kipipitsa, komo amo kipipitsah ika sombrero,
+# text[orig] = Pos *cuando, cuando** yo:n panki:sa ya, *cuando, cuando** panki:sati a ata kipi:pi:tsa, komo a:mo kipi:pi:tsah ika *sombrero**,
+# text[spa] = Pues cuando ya se eleva, cuando, cuando todavía se va a elevar lo soplan, o lo soplan con un sombrero,
+# labels = a99 fragment
+"<Pos>"
+	"pos" adv
+"<cuando>"
+	"cuando" cnjsub
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<pankisa>"
+	"pankisa" v iv pres s_sg3
+	"kisa" v iv pres s_sg3 pan
+"<ya>"
+	"ya" adv
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<,>"
+	"," cm
+"<cuando>"
+	"cuando" cnjsub
+"<pankisati>"
+	"pankisa" v iv and s_sg3
+	"kisa" v iv and s_sg3 pan
+"<a>"
+	"a" ij
+"<ata>"
+	"ata" adv
+"<kipipitsa>"
+	"*kipipitsa"
+"<,>"
+	"," cm
+"<komo>"
+	"komo" adv
+"<amo>"
+	"amo" adv
+"<kipipitsah>"
+	"*kipipitsah"
+"<ika>"
+	"ka" n rel px3sg
+"<sombrero>"
+	"sombrero" n m sg
+;	"sombrero" n m sg s_pl3 REMOVE:29
+;	"sombrero" n m sg s_sg3 REMOVE:29
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a100
+# text = wan kemah pewa pankisa ya posoni a wan kemah yowi, yowi ehekaixko ya, yowi, yowi wehka, ta pos tein kwali yowi, yowi wehka, amo nejon, amo se kita ok despues.
+# text[orig] = wa:n ke:mah pe:wa pa:nki:sa ya poso:ni a wa:n ke:mah yowi, yowi ehekai:xko ya, yowi, yowi wehka, ta: pos tein kwali yowi, yowi wehka, a:mo nejó:n, a:mo se: kita ok *después**.
+# text[spa] = y luego ya empieza a elevarse, se infla y luego ya se va, se va en el aire, se va, se va lejos, pues el que se eleva, se va lejos, no, este, ya no se vuelve a mirar después.
+# labels = a100 fragment
+"<wan>"
+	"huan" cnjcoo
+"<kemah>"
+	"kemaj" ij
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<pankisa>"
+	"pankisa" v iv pres s_sg3
+	"kisa" v iv pres s_sg3 pan
+"<ya>"
+	"ya" adv
+"<posoni>"
+	"posoni" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<wan>"
+	"huan" cnjcoo
+"<kemah>"
+	"kemaj" ij
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<ehekaixko>"
+	"ejekat" n cmp
+		"ixko" n rel
+;	"ejekat" n cmp s_pl3 REMOVE:29
+;		"ixko" n rel
+;	"ejekat" n cmp s_sg3 REMOVE:29
+;		"ixko" n rel
+"<ya>"
+	"ya" adv
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wehka>"
+	"huejka" adv
+"<,>"
+	"," cm
+"<ta>"
+	"ta" adv
+"<pos>"
+	"pos" adv
+"<tein>"
+	"tein" prn
+"<kwali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wehka>"
+	"huejka" adv
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<se>"
+	"se" num
+"<kita>"
+	"ita" v tv pres s_sg3 o_sg3
+"<ok>"
+	"ok" adv
+"<despues>"
+	"después" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a102
+# text = Pos kemah, wan de yon kixotaltiah yon taihtik wan de kixotaltiah pos pewa yowi a, yowi a, iwki pankisa ya.
+# text[orig] = Pos ke:mah, wa:n de yo:n kixo:taltiah yo:n taihtik wa:n de kixo:taltiah pos pe:wa yowi a, yowi a, iwki panki:sa ya.
+# text[spa] = Pues sí, y una vez que lo prenden (esto es la mecha que se le pone en el candelero o candileja) pues ya empieza a elevarse, ya se va, así se va elevando.
+# labels = a102 sentence
+"<Pos>"
+	"pos" adv
+"<kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<wan>"
+	"huan" cnjcoo
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kixotaltiah>"
+	"xotaltia" v tv pres s_pl3 o_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<taihtik>"
+	"taijtik" adv
+	"tat" n cmp
+		"ijtik" n rel
+	"ijtik" n rel px3nn
+	"tat" n cmp s_sg3
+		"ijtik" n rel
+;	"tat" n cmp s_pl3 REMOVE:39
+;		"ijtik" n rel
+"<wan>"
+	"huan" cnjcoo
+"<de>"
+	"de" pr
+"<kixotaltiah>"
+	"xotaltia" v tv pres s_pl3 o_sg3
+"<pos>"
+	"pos" adv
+"<pewa>"
+	"pehua" v iv pres s_sg3
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<a>"
+	"a" ij
+"<,>"
+	"," cm
+"<iwki>"
+	"iuki" adv
+"<pankisa>"
+	"pankisa" v iv pres s_sg3
+	"kisa" v iv pres s_sg3 pan
+"<ya>"
+	"ya" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a104
+# text = Kikwih yon gas.
+# text[orig] = Kikwih yo:n *gas**.
+# text[spa] = Usan el gas.
+# labels = a104 sentence
+"<Kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<gas>"
+	"gas" n m sg
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a105
+# text = Yehwa ne keman ipa ki..., kikwiah wan yehwa yon se tilmah kitaliliah s..., kichiwah se weibola ihkwin wan no iw..., ne taihtik kitaliliah mah se
+# text[orig] = Yehwa ne: ke:man i:pa ki..., kikwiah wa:n yehwa yo:n se: tilmah kita:liliah s..., kichi:wah se: *we:ibola** ihkwí:n wa:n no: iw..., ne: taihtik kita:liliah mah se:
+# text[spa] = Eso es lo que siempre lo usaban en aquéllos tiempos y le ponen una tela, hacen una bola grande (con la tela), así y también allá adentro le ponen (como) un
+# labels = a105 fragment
+"<Yehwa>"
+	"yehua" prn pers sg3
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keman>"
+	"keman" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg
+	"pa" n px3sg
+	"pa" n abs px3sg
+"<ki...>"
+	"ki" x
+"<,>"
+	"," cm
+"<kikwiah>"
+	"kui" v tv impf s_pl3 o_sg3
+"<wan>"
+	"huan" cnjcoo
+"<yehwa>"
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<se>"
+	"se" num
+"<tilmah>"
+	"tilmaj" n abs
+;	"tilmaj" n abs s_pl3 REMOVE:29
+;	"tilmaj" n abs s_sg3 REMOVE:29
+"<kitaliliah>"
+	"talilia" v tv pres s_pl3 i_sg3
+	"talilia" v tv pret s_sg3 i_sg3
+"<s...>"
+	"s" x
+"<,>"
+	"," cm
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<se>"
+	"se" num
+"<weibola>"
+	"*weibola"
+"<ihkwin>"
+	"ijkuin" adv
+"<wan>"
+	"huan" cnjcoo
+"<no>"
+	"no" adv
+	"no" det
+"<iw...>"
+	"iw" x
+"<,>"
+	"," cm
+"<ne>"
+	"ne" adv
+	"ne" det
+"<taihtik>"
+	"taijtik" adv
+	"tat" n cmp
+		"ijtik" n rel
+	"ijtik" n rel px3nn
+	"tat" n cmp s_sg3
+		"ijtik" n rel
+;	"tat" n cmp s_pl3 REMOVE:39
+;		"ijtik" n rel
+"<kitaliliah>"
+	"talilia" v tv pres s_pl3 i_sg3
+	"talilia" v tv pret s_sg3 i_sg3
+"<mah>"
+	"ma" aux
+"<se>"
+	"se" num
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a106
+# text = alambre ihkwini, mah tenkoyoktik ihkwini wan ompa ya n' kitaliliah wan kemah kixotaltiah ya.
+# text[orig] = *alambre** ihkwi:ni, mah te:nkoyoktik ihkwi:ni wa:n ompa ya n' kita:liliah wa:n ke:mah kixo:taltiah ya.
+# text[spa] = alambre, así, que tenga una perforación (boca)así y ahí le ponen y luego ya lo prenden.
+# labels = a106 fragment
+"<alambre>"
+	"alambre" n m sg
+;	"alambre" n m sg s_pl3 REMOVE:29
+;	"alambre" n m sg s_sg3 REMOVE:29
+"<ihkwini>"
+	"*ihkwini"
+"<,>"
+	"," cm
+"<mah>"
+	"ma" aux
+"<tenkoyoktik>"
+	"*tenkoyoktik"
+"<ihkwini>"
+	"*ihkwini"
+"<wan>"
+	"huan" cnjcoo
+"<ompa>"
+	"ompa" adv
+"<ya>"
+	"ya" adv
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<kitaliliah>"
+	"talilia" v tv pres s_pl3 i_sg3
+	"talilia" v tv pret s_sg3 i_sg3
+"<wan>"
+	"huan" cnjcoo
+"<kemah>"
+	"kemaj" ij
+"<kixotaltiah>"
+	"xotaltia" v tv pres s_pl3 o_sg3
+"<ya>"
+	"ya" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a107
+# text = Wan yowi hasta ahko.
+# text[orig] = Wa:n yowi *hasta** ahko.
+# text[spa] = Y ya se va, elevándose hasta muy arriba.
+# labels = a107 sentence
+"<Wan>"
+	"huan" cnjcoo
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<hasta>"
+	"hasta" pr
+"<ahko>"
+	"ajko" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a109
+# text = Kemah, yowi ehekaixko, yowi wehka neli seki.
+# text[orig] = Ke:mah, yowi ehekai:xko, yowi wehka neli seki.
+# text[spa] = Sí, se va en el aíre, unos se van lejos.
+# labels = a109 sentence
+"<Kemah>"
+	"kemaj" ij
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<ehekaixko>"
+	"ejekat" n cmp
+		"ixko" n rel
+;	"ejekat" n cmp s_pl3 REMOVE:29
+;		"ixko" n rel
+;	"ejekat" n cmp s_sg3 REMOVE:29
+;		"ixko" n rel
+"<,>"
+	"," cm
+"<yowi>"
+	"yohui" v iv pres s_sg3
+"<wehka>"
+	"huejka" adv
+"<neli>"
+	"neli" adv
+"<seki>"
+	"seki" det
+	"seki" prn
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a111
+# text = Amo semi tanto wei, ihkwin siempre ihkwin, de bolita ihkwin.
+# text[orig] = A:mo semi *tanto** we:i, ihkwí:n *siempre** ihkwí:n, *de bolita** ihkwí:n.
+# text[spa] = No es tan grande, así, así de este tamaño la bola (de tela).
+# labels = a111 sentence
+"<Amo>"
+	"amo" adv
+"<semi>"
+	"semi" adv
+"<tanto>"
+	"tanto" adv
+"<wei>"
+	"huei" adj
+	"huei" adj s_sg3
+"<,>"
+	"," cm
+"<ihkwin>"
+	"ijkuin" adv
+"<siempre>"
+	"siempre" adv
+"<ihkwin>"
+	"ijkuin" adv
+"<,>"
+	"," cm
+"<de>"
+	"de" pr
+"<bolita>"
+	"bolita" n f sg
+	"bolita" n f sg s_sg3
+;	"bolita" n f sg s_pl3 REMOVE:39
+"<ihkwin>"
+	"ijkuin" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112
+# text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
+# text[orig] = Mm. Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. Mm.
+# text[spa] = Mm, así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. Mm.
+# labels = a112 sentence
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+"<Ihkwin>"
+	"ijkuin" adv
+"<kichiwah>"
+	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pret s_sg3 o_sg3
+"<ololtsini>"
+	"*ololtsini"
+"<,>"
+	"," cm
+"<pos>"
+	"pos" adv
+"<ke...>"
+	"ke" x
+"<,>"
+	"," cm
+"<wan>"
+	"huan" cnjcoo
+"<kikwiah>"
+	"kui" v tv impf s_pl3 o_sg3
+"<seki>"
+	"seki" det
+	"seki" prn
+"<ne>"
+	"ne" adv
+	"ne" det
+"<keman>"
+	"keman" adv
+"<pos>"
+	"pos" adv
+ '
+"<kwiah>"
+	"kui" v tv impf s_pl3 o_sg3
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<onkaya>"
+	"onka" v iv impf s_sg3
+"<tilmah>"
+	"tilmaj" n abs
+;	"tilmaj" n abs s_pl3 REMOVE:29
+;	"tilmaj" n abs s_sg3 REMOVE:29
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<okseki>"
+	"okse" det pl
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<aman>"
+	"aman" adv
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<alaxtik>"
+	"alaxtik" adj
+	"alaxtik" adj s_sg3
+"<a>"
+	"a" ij
+"<.>"
+	"." sent
+
+"<Mm>"
+	"mm" ij
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114
+# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota. Ta mas kikwih kemeh yon manta.
+# text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
+# text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
+# labels = a114 sentence
+"<Amo>"
+	"amo" adv
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<porque>"
+	"porque" cnjsub
+"<yeh>"
+	"yehua" prn pers sg3 short
+"<mahya>"
+	"mahya" adv
+"<motsotsolowa>"
+	"*motsotsolowa"
+"<sah>"
+	"saj" adv
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<wel>"
+	"hueli" vaux
+"<xota>"
+	"xota" v iv pres s_sg3
+"<.>"
+	"." sent
+
+"<Ta>"
+	"ta" adv
+"<mas>"
+	"más" adv
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<manta>"
+	"manta" n f sg
+;	"manta" n f sg s_pl3 REMOVE:29
+;	"manta" n f sg s_sg3 REMOVE:29
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a115
+# text = Oso yon nejon tusor, yon kemah kwaltia o popelina, pero de ihkon de yon seki n' alaxtik n' tilmah pos tsotsoltia sah wan amo, amo wel nejon, ihxika mahya.
+# text[orig] = Oso yo:n nejó:n *tusor**, yo:n kemah kwaltia *o popelina, pero de** ihkó:n de yo:n seki n' alaxtik n' tilmah pos tsotsoltia sah wa:n a:mo, a:mo wel nejó:n, ihxi:ka mahyá:.
+# text[spa] = O el tusor o la papelina, esas sí sirven pero de otro tipo, de las lisas pues solamente se arrugan y no este, pareciera que escurre.
+# labels = a115 sentence
+"<Oso>"
+	"oso" cnjcoo
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<nejon>"
+	"nejon" prn
+"<tusor>"
+	"*tusor"
+"<,>"
+	"," cm
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kemah>"
+	"kemaj" ij
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<o>"
+	"oj" ij
+	"o" cnjcoo
+"<popelina>"
+	"*popelina"
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<de>"
+	"de" pr
+"<ihkon>"
+	"ijkon" adv
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<seki>"
+	"seki" det
+	"seki" prn
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<alaxtik>"
+	"alaxtik" adj
+	"alaxtik" adj s_sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<tilmah>"
+	"tilmaj" n abs
+	"tilmaj" n abs s_pl3
+	"tilmaj" n abs s_sg3
+"<pos>"
+	"pos" adv
+"<tsotsoltia>"
+	"*tsotsoltia"
+"<sah>"
+	"saj" adv
+"<wan>"
+	"huan" cnjcoo
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm
+"<amo>"
+	"amo" adv
+"<wel>"
+	"hueli" vaux
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm
+"<ihxika>"
+	"ijxika" n abs
+	"ijxika" n abs s_sg3
+;	"ijxika" n abs s_pl3 REMOVE:39
+"<mahya>"
+	"mahya" adv
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a116
+# text = Neh iwki yon n'mattok ipa, pero yehwa n'mattok tein kwaltia solamente manta,
+# text[orig] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**,
+# text[spa] = Yo sé de esa manera, pues eso sé que sirve solamente la manta,
+# labels = a116 fragment
+"<Neh>"
+	"nehua" prn pers sg1 short
+"<iwki>"
+	"iuki" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<n'mattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg
+	"pa" n px3sg
+	"pa" n abs px3sg
+"<,>"
+	"," cm
+"<pero>"
+	"pero" cnjcoo
+"<yehwa>"
+	"yehua" prn pers sg3
+"<n'mattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<tein>"
+	"tein" prn
+"<kwaltia>"
+	"kualtia" v iv pres s_sg3
+"<solamente>"
+	"solamente" adv
+"<manta>"
+	"manta" n f sg
+;	"manta" n f sg s_pl3 REMOVE:29
+;	"manta" n f sg s_sg3 REMOVE:29
+"<,>"
+	"," cm
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a117
+# text = oso yehwa n' tein popelinatilmah.
+# text[orig] = oso yehwa n' tein *popeli:natilmah**.
+# text[spa] = o la tela de popelina.
+# labels = a117 fragment
+"<oso>"
+	"oso" cnjcoo
+"<yehwa>"
+	"yehua" prn pers sg3
+"<n'>"
+	"in" det
+;	"nik" x REMOVE:41
+"<tein>"
+	"tein" prn
+"<popelinatilmah>"
+	"*popelinatilmah"
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a120
+# text = Neh nimonotsa, aja, niMaria Salazar Osollo, niwitsa de San Miguel.
+# text[orig] = Neh nimono:tsa, ajá, niMaría Salazar Osollo, niwi:tsa de San Miguel.
+# text[spa] = Me llamo María Salazar Osollo, vengo de San Miguel.
+# labels = a120 sentence
+"<Neh>"
+	"nehua" prn pers sg1 short
+"<nimonotsa>"
+	"notsa" v tv pres s_sg1 i_ref o_sg3
+"<,>"
+	"," cm
+"<aja>"
+	"aja" ij
+"<,>"
+	"," cm
+"<niMaria>"
+	"María" np ant f s_sg1
+"<Salazar>"
+	"Salazar" np cog
+;	"Salazar" np cog s_pl3 REMOVE:29
+;	"Salazar" np cog s_sg3 REMOVE:29
+"<Osollo>"
+	"Osollo" np cog
+;	"Osollo" np cog s_pl3 REMOVE:29
+;	"Osollo" np cog s_sg3 REMOVE:29
+"<,>"
+	"," cm
+"<niwitsa>"
+	"huitsa" v iv pres s_sg1
+"<de>"
+	"de" pr
+"<San>"
+	"San" np top SELECT:35
+;	"san" n abs SELECT:35
+;	"San" np top s_pl3 REMOVE:29
+;	"san" n abs s_pl3 REMOVE:29
+;	"San" np top s_sg3 REMOVE:29
+;	"san" n abs s_sg3 REMOVE:29
+"<Miguel>"
+	"Miguel" np ant m
+;	"Miguel" np ant m s_pl3 REMOVE:29
+;	"Miguel" np ant m s_sg3 REMOVE:29
+"<.>"
+	"." sent
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a122
+# text = Amo teihsa.
+# text[orig] = A:mo teihsá:.
+# text[spa] = No es nada.
+# labels = a122 sentence
+"<Amo>"
+	"amo" adv
+"<teihsa>"
+	"teisa" prn
+"<.>"
+	"." sent
+
