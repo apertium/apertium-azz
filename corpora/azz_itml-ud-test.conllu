@@ -533,9 +533,51 @@
 16	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	13	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:76.2
+# text = Ika nejin sekinemiliya ke nochi taolochiujtoya.
+# text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
+# text[gloss] = Con eso se piensa que todo iba haciéndose _.
+# labels = complete-tree
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+2	nejin	nejin	PRON	_	_	1	nmod	_	_
+3	sekinemiliya	nemilia	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	ke	ke	SCONJ	_	_	6	mark	_	_
+5	nochi	nochi	PRON	_	_	6	nsubj	_	_
+6	taolochiujtoya	taolochihua	VERB	_	Aspect=Imp|Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:78
 # text = Tajtoleualoni
 # text[spa] = Glosario
 # labels =
 1	Tajtoleualoni	tajtoleualoni	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:92.1
+# text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# text[gloss] = fusiones nucleares: se hace cuando se juntan dos átomos y se hacen más grandes.
+# labels = complete-tree
+1	fusiones	fusión	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	nucleares	nuclear	ADJ	_	Gender=Fem,Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+5	keman	keman	ADV	_	_	6	mark	_	_
+6	mosentiliyaj	sentilia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	advcl	_	_
+7	ome	ome	NUM	_	_	8	nummod	_	_
+8	atomos	átomo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	uan	huan	CCONJ	_	_	10	cc	_	_
+10	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	6	conj	_	_
+11	kachi	kachi	ADV	_	_	12	advmod	_	_
+12	ueyi	huei	ADJ	_	_	10	dep	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:92.2
+# text = Keman mosentiliyaj xota.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# text[gloss] = Cuando se juntan para encenderse.
+# labels =
+1	Keman	keman	ADV	_	_	2	advmod	_	_
+2	mosentiliyaj	sentilia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	advcl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 

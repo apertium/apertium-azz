@@ -563,7 +563,7 @@ LEXICON COP
 %<cop%>%<fut%>:%>to%>s                             V-AGR-FUTR ;
 %<cop%>%<prog%>%<cni%>:%>to%>s%>ki%{y%}a           V-AGR-PRES ;
 %<cop%>%<cni%>:%>ski%{y%}a                         V-AGR-PRES ;
-%<cop%>%<opt%>:%>tok                               V-AGR-OPT ;
+%<cop%>%<opt%>:%>tok%>an                           # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1442,6 +1442,13 @@ huatsa:huatsa                                       V-SO-PRET ;
 huatsa:huatsa                                       V-SO-FUTR ;
 
 ! "quedar"
+kajkahua:ka%{j%}kahua                               V-SO-PRES ;
+kajkahua:ka%{j%}kahua                               V-SO-IMPF ;
+kajkahua:ka%{j%}kahua                               V-SO-PROG ;
+kajkahua:ka%{j%}kahua                               V-SO-PRET ;
+kajkahua:ka%{j%}kahua                               V-SO-FUTR ;
+
+! "quedar"
 kahua:kahua                                         V-SO-PRES ;
 kahua:kahua                                         V-SO-IMPF ;
 kahua:kahua                                         V-SO-PROG ;
@@ -1905,6 +1912,13 @@ itonia:itoni%{y%}a                                  V-SO-IMPF ;
 itonia:itoni%{y%}                                   V-SO-PROG ;
 itonia:itoni%{y%}                                   V-SO-PRET ;
 itonia:itoni%{y%}                                   V-SO-FUTR ;
+
+! ""
+ixnextia:ixnexti%{y%}a                              V-SO-PRES ;
+ixnextia:ixnexti%{y%}a                              V-SO-IMPF ;
+ixnextia:ixnexti%{y%}                               V-SO-PROG ;
+ixnextia:ixnexti%{y%}                               V-SO-PRET ;
+ixnextia:ixnexti%{y%}                               V-SO-FUTR ;
 
 ! ""
 nextia:nexti%{y%}a                                  V-SO-PRES ;
@@ -2423,7 +2437,7 @@ pankisa:pankisa                                     V-S-FUTR ;
 panohua:panoa                                       V-S-PRES ;
 panohua:panoa                                       V-S-IMPF ;
 panohua:pano                                        V-S-PROG ;
-panohua:panoa                                       V-S-PRET ;
+panohua:pano                                        V-S-PRET ;
 panohua:pano                                        V-S-FUTR ;
 
 ! "trasladar"
@@ -3969,6 +3983,10 @@ katka:katka                                        COP-KATKA ; ! ""
 
 LEXICON Miscellanea
 
+! Letras
+B%<x%>:B                                           # ;
+X%<x%>:X                                           # ;
+
 ! FIXME: False starts?
 i%<x%>:i                                           FALSE ; 
 nikil%<x%>:ni%>ki%>l                               FALSE ; 
@@ -4294,10 +4312,13 @@ hueyistajat:huey%>ista%{j%}%>a                      N-TL ; ! "mar"
 ahuakat:ahuaka                                      N-TL ; ! "aguacate"
 ajkol:ajkol                                         N-Ø ; ! "hombro"
 tajkuilol:tajkuilol                                 N-Ø ; ! ""
+masehualtajkuilol:masehual%>tajkuilol               N-Ø ; ! ""
+masehualtajkuilol:maseul%>tajkuilol                 N-Ø ; ! "" ! Use/Typo
 tit:ti                                              N-TL ; ! "fuego"
 tio:tio                                             N-Ø; ! "tío"
 topits:topits                                       N-Ø ; ! "ganglio"
 kounex:kounex                                       N-Ø ; ! "ceniza"
+amaix:amaix                                         N-Ø ; ! ""
 tiopan:tiopan                                       N-Ø ; ! "iglesia"
 temaskal:temaskal                                   N-Ø ; ! "temascal"
 chechelot:chechelo                                  N-TL ; ! "ardilla"

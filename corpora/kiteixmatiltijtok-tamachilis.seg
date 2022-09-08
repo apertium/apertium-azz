@@ -1282,8 +1282,8 @@
 ^tikitaj/tikitaj$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:76
-# text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. Ika nejin sekinemiliya ke nochi taolochiujtoya.
+# sent_id = kiteixmatiltijtok-tamachilis:76.1
+# text = Se tamachilis teyin kixnextiya nijin tanemilil yejua neje ikauanyo yitikpa in Semanauak teyin ijkuitik kampa yeski maj sekitas ne iluikak. 
 # text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
 # labels =  
 ^Se/Se$
@@ -1307,6 +1307,11 @@
 ^ne/ne$
 ^iluikak/iluikak$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:76.2
+# text = Ika nejin sekinemiliya ke nochi taolochiujtoya.
+# text[spa] = La Gran Explosión es el modelo del origen del Universo que tenemos en la ciencia. Una de las observaciones que apoya esta idea es que la temperatura que medimos en las profundidades del universo y la luz más vieja que podemos observar son la misma hacia donde miremos en el cielo, lo que nos hace pensar que todo estuvo alguna vez junto.
+# labels =  
 ^Ika/Ika$
 ^nejin/nejin$
 ^sekinemiliya/sekinemiliya$
@@ -1382,12 +1387,13 @@
 ^células/células$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:92
-# text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. Keman mosentiliyaj xota. Ijkon in sitalimej milinij.
+# sent_id = kiteixmatiltijtok-tamachilis:92.1
+# text = fusiones nucleares: mochiua keman mosentiliyaj ome atomos uan mochiua kachi ueyi. 
 # text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
 # labels =  
 ^fusiones/fusiones$
 ^nucleares/nucleares$
+^:/:$
 ^mochiua/mochiua$
 ^keman/keman$
 ^mosentiliyaj/mosentiliyaj$
@@ -1398,10 +1404,20 @@
 ^kachi/kachi$
 ^ueyi/ueyi$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:92.2
+# text = Keman mosentiliyaj xota. 
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# labels =  
 ^Keman/Keman$
 ^mosentiliyaj/mosentiliyaj$
 ^xota/xota$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:92.3
+# text = Ijkon in sitalimej milinij.
+# text[spa] = fusiones nucleares: cuando dos átomos se juntan para formar otro. En este proceso se produce luz, y es así como las estrellas brillan.
+# labels =  
 ^Ijkon/Ijkon$
 ^in/in$
 ^sitalimej/sitalimej$
