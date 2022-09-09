@@ -286,7 +286,7 @@
 # text[spa] = no sabía si lo usan como pegamento.
 # labels = a76 fragment
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<nikmatia>"
 	"mati" v tv impf s_sg1 o_sg3
 "<ox>"
@@ -451,12 +451,12 @@
 "<kichihchiwah>"
 	"chijchihua" v tv pres s_pl3 o_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<kiliah>"
-	"ilia" v tv pres s_pl3 o_sg3
+	"ilia" v tv pres s_pl3 i_sg3 o_sg3
 "<papel>"
 	"papel" n m sg @obj
 "<de>"
@@ -464,7 +464,7 @@
 "<china>"
 	"china" n f sg @nmod
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a95
 # text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
@@ -472,60 +472,57 @@
 # text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
 # labels = a95 sentence
 "<Bueno>"
-	"bueno" ij
+	"bueno" ij @discourse #1->9
 "<,>"
-	"," cm
+	"," cm @punct #2->9
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #3->9
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #4->9
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #5->9
 "<niki...>"
-	"niki" x @reparandum
+	"niki" x @reparandum #6->9
 "<,>"
-	"," cm
+	"," cm @punct #7->9
 "<keman>"
-	"keman" adv
+	"keman" adv @advmod #8->9
 "<nikitak>"
-	"ita" v tv pret s_sg1 o_sg3
+	"ita" v tv pret s_sg1 o_sg3 @root #9->0
 "<mah>"
-	"ma" aux
+	"ma" aux @aux #10->12
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #11->12
 "<kipepechokan>"
-	"pepechohua" v tv opt s_pl3 o_sg3
+	"pepechohua" v tv opt s_pl3 o_sg3 @dep #12->9
 "<,>"
-	"," cm
+	"," cm @punct #13->12
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #14->16
 "<nochipa>"
-	"nochipa" adv
+	"nochipa" adv @advmod #15->16
 "<nikita>"
-	"ita" v tv pres s_sg1 o_sg3
+	"ita" v tv pres s_sg1 o_sg3 @parataxis #16->9
 "<kipepechowah>"
-	"pepechohua" v tv pres s_pl3 o_sg3
+	"pepechohua" v tv pres s_pl3 o_sg3 @dep #17->16
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #18->17
 "<ne>"
-	"ne" adv
-	"ne" det
+	"ne" det @det #19->20
 "<tein>"
-	"tein" prn
+	"tein" prn @dep #20->18
 "<kikowah>"
-	"kohua" v tv pres s_pl3 o_sg3
+	"kohua" v tv pres s_pl3 o_sg3 @acl:relcl #21->20
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod #22->21
 "<ne>"
-	"ne" adv
-	"ne" det
+	"ne" adv @advmod #23->21
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #24->25
 "<tanamakah>"
-	"*tanamakah"
+	"namaka" v tv pres s_pl3 o_nn @acl:relcl #25->23
 "<.>"
-	"." sent
+	"." sent @punct #26->9
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a96
 # text = Kemah.

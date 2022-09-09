@@ -822,6 +822,38 @@
 9	globo	globo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a95
+# text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
+# text[orig] = *Bueno**, pos neh a:mo niki..., ke:man nikitak mah ika kipepecho:ka:n, neh nochipa nikita kipepechowah ika ne: tein kikowah ya ne: ka:mpa tanamakah.
+# text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
+# labels = a95 sentence
+1	Bueno	bueno	INTJ	_	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pos	pos	ADV	_	_	9	advmod	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	9	nsubj	_	_
+5	amo	amo	ADV	_	_	9	advmod	_	_
+6	niki...	niki	X	_	_	9	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	keman	keman	ADV	_	_	9	advmod	_	_
+9	nikitak	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
+10	mah	ma	AUX	_	_	12	aux	_	_
+11	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	kipepechokan	pepechohua	VERB	_	Mood=Opt|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	9	dep	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	16	nsubj	_	_
+15	nochipa	nochipa	ADV	_	_	16	advmod	_	_
+16	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	9	parataxis	_	_
+17	kipepechowah	pepechohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	16	dep	_	_
+18	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	obl	_	_
+19	ne	ne	DET	_	_	20	det	_	_
+20	tein	tein	PRON	_	_	18	dep	_	_
+21	kikowah	kohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	20	acl:relcl	_	_
+22	ya	ya	ADV	_	_	21	advmod	_	_
+23	ne	ne	ADV	_	_	21	advmod	_	_
+24	kampa	kampa	ADV	_	PronType=Rel	25	advmod	_	_
+25	tanamakah	namaka	VERB	_	Animacy[obj]=Inan|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	23	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a96
 # text = Kemah.
 # text[orig] = Ke:mah.
