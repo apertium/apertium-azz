@@ -1040,6 +1040,14 @@ ixyejyekohua:ixyejyekohua                           V-SO-PRET ;
 ixyejyekohua:ixyejyeko                              V-SO-FUTR ;
 
 
+! ""
+tsotsolohua:tsotsolohua                             V-SO-PRES ;
+tsotsolohua:tsotsolohua                             V-SO-IMPF ;
+tsotsolohua:tsotsolo                                V-SO-PROG ;
+tsotsolohua:tsotsolohua                             V-SO-PRET ;
+tsotsolohua:tsotsolo                                V-SO-FUTR ;
+
+
 ! "seguir"
 seguirohua:seguirohua                               V-SO-PRES ;
 seguirohua:seguirohua                               V-SO-IMPF ;
@@ -2016,6 +2024,34 @@ kixtilia:kixtili%{y%}a                              V-SO-IMPF ;
 kixtilia:kixtili%{y%}a                              V-SO-PROG ;
 kixtilia:kixtili                                    V-SO-PRET ;
 kixtilia:kixtili                                    V-SO-FUTR ;
+
+! ""
+pitsa:pitsa                                         V-SO-PRES ;
+pitsa:pitsa                                         V-SO-IMPF ;
+pitsa:pitsa                                         V-SO-PROG ;
+pitsa:pitsa                                         V-SO-PRET ;
+pitsa:pitsa                                         V-SO-FUTR ;
+
+! ""
+pipitsa:pipitsa                                     V-SO-PRES ;
+pipitsa:pipitsa                                     V-SO-IMPF ;
+pipitsa:pipitsa                                     V-SO-PROG ;
+pipitsa:pipitsa                                     V-SO-PRET ;
+pipitsa:pipitsa                                     V-SO-FUTR ;
+
+! ""
+ololchihua:ololchihua                                    V-SO-PRES ;
+ololchihua:ololchihua                                    V-SO-IMPF ;
+ololchihua:ololchi                                       V-SO-PROG ;
+ololchihua:ololchi                                       V-SO-PRET ;
+ololchihua:ololchi                                       V-SO-FUTR ;
+
+! ""
+aketsa:aketsa                                       V-SO-PRES ;
+aketsa:aketsa                                       V-SO-IMPF ;
+aketsa:aketsa                                       V-SO-PROG ;
+aketsa:aketsa                                       V-SO-PRET ;
+aketsa:aketsa                                       V-SO-FUTR ;
 
 
 
@@ -4056,6 +4092,7 @@ X%<x%>:X                                           # ;
 
 ! FIXME: False starts?
 i%<x%>:i                                           FALSE ; 
+ix%<x%>:ix                                         FALSE ; 
 nikil%<x%>:ni%>ki%>l                               FALSE ; 
 nimo%<x%>:ni%>mo                                   FALSE ; 
 tikim%<x%>:ti%>kim                                 FALSE ; 
@@ -5905,6 +5942,7 @@ ojololtik:o%{j%}ololtik                             ADJ ; ! "redondo"
 selontsin:selontsin                                 ADJ-TSIN ; ! "tiernitos"
 
 mahuejuei:mahuejuei                                 ADJ ; ! "con hojas grandes"
+metsuehueyak:metsuehueyak                           ADJ ; ! ""
 
 ololtik:ololtik                                     ADJ ; ! "esférico"
 
@@ -6340,6 +6378,7 @@ LEXICON Interyecciones
 kemaj:kemaj                                         INTERJ ; ! "sí"
 kanaj:kanaj                                         INTERJ ; ! "no"
 este:este                                           INTERJ ; ! ""
+nen:nen                                             INTERJ ; ! ""
 ej:ej                                               INTERJ ; ! ""
 eeee:eeee                                           INTERJ ; ! ""
 eee:eee                                             INTERJ ; ! ""

@@ -751,11 +751,49 @@
 4	kipostekih	posteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a67
+# text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
+# text[orig] = ¿I:n kowit wehwei, ne:n, moskaltia oso tsikitsitsi:n?
+# text[spa] = ¿Este árbol crece alto o son pequeños?
+# labels = a67 sentence complete
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	In	in	DET	_	_	4	det	_	_
+3	kowit	kohuit	NOUN	_	Case=Abs	4	nsubj	_	_
+4	wehwei	huehuei	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	nen	nen	INTJ	_	_	4	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	parataxis	_	_
+9	oso	oso	CCONJ	_	_	10	cc	_	_
+10	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	8	conj	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a70
+# text = Aja.
+# text[orig] = *Ajá**.
+# text[spa] = Aha.
+# labels = a70 sentence complete
+1	Aja	aja	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a71
+# text = ¿Wan ixochiotsin kwali se kaketsa?
+# text[orig] = ¿Wa:n ixo:chiotsi:n kwali se: ka:ketsa?
+# text[spa] = ¿Y las flores se puede poner en florero?
+# labels = a71 sentence complete
+1	¿	¿	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Wan	huan	CCONJ	_	_	6	cc	_	_
+3	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	6	obj	_	_
+4	kwali	kuali	ADV	_	_	6	advmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kaketsa	aketsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a84
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
 # text[orig] = Ne:, xte:chtapowi ke:ní:w n' kichihchi:wah ne:n tikihtowa *globo**.
 # text[spa] = Este, cuéntanos como hacen los globos.
-# labels = a84 sentence
+# labels = a84 sentence complete
 1	Ne	ne	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	xtechtapowi	tapohui	VERB	_	Mood=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -771,9 +809,28 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# labels = a96 sentence
+# labels = a96 sentence complete
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a103
+# text = ¿Wan keniw xota, toni k..., nen kitaliliah para xota?
+# text[orig] = ¿Wa:n ke:ní:w xo:ta, toni k..., ne:n kita:liliah para xo:ta?
+# text[spa] = ¿Y cómo prende, qué le ponen para que pueda prender?
+# labels = a103 sentence complete
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Wan	huan	CCONJ	_	_	4	cc	_	_
+3	keniw	keni	ADV	_	PronType=Int	4	advmod	_	_
+4	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	toni	toni	PRON	_	_	7	obj	_	_
+7	k...	k	X	_	_	10	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	nen	nen	PRON	_	_	10	obj	_	_
+10	kitaliliah	talilia	VERB	_	Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	parataxis	_	_
+11	para	para	SCONJ	_	_	12	mark	_	_
+12	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	10	advcl	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a121
 # text = Tasohkamatik.
@@ -782,6 +839,45 @@
 # labels = a121 sentence
 1	Tasohkamatik	tasojkamatik	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a66
+# text = Kisa n' ichokilo istak kwaltsin.
+# text[orig] = Ki:sa n' icho:kilo ista:k kwaltsi:n.
+# text[spa] = Sale la savia, es blanca.
+# labels = a66 sentence complete
+1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	n'	in	DET	_	_	3	det	_	_
+3	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+4	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	_
+5	kwaltsin	kuali	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a72
+# text = Amo weli, ta in yeh tsikitsitsin.
+# text[orig] = A:mo weli, ta: i:n yeh tsikitsitsi:n.
+# text[spa] = No es posible, pues estas son pequeñas.
+# labels = a72 sentence complete
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	weli	hueli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	ta	ta	ADV	_	_	7	advmod	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	7	nsubj	_	_
+7	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a78
+# text = Amo, ta kwaltia ika tapepechowah.
+# text[orig] = A:mo, ta: kwaltia ika tapepechowah.
+# text[spa] = No, pues sirve como pegamento.
+# labels = a78 sentence
+1	Amo	amo	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ta	ta	ADV	_	_	4	advmod	_	_
+4	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+5	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	tapepechowah	pepechohua	VERB	_	Animacy[obj]=Inan|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a83
 # text = Kemah.
@@ -866,4 +962,13 @@
 12	San	San	NOUN	_	_	10	obl	_	_
 13	Miguel	Miguel	NOUN	_	Gender=Masc	12	flat	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a122
+# text = Amo teihsa.
+# text[orig] = A:mo teihsá:.
+# text[spa] = No es nada.
+# labels = a122 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
