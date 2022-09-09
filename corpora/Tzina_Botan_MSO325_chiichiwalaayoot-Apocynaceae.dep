@@ -91,29 +91,29 @@
 # text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?
 # text[orig] = I:n iteyotsi:n, ¿se: kikwa *o** teihsá: se: kichi:wilia?
 # text[spa] = ¿Los frutos se pueden comer uno o tienen algún uso?
-# labels = a55 fragment
+# labels = a55 sentence
 "<In>"
-	"in" det
+	"in" det @det #1->2
 "<iteyotsin>"
-	"teyo" n hon px3sg
+	"teyo" n hon px3sg @dislocated #2->6
 "<,>"
-	"," cm
+	"," cm @punct #3->2
 "<¿>"
-	"¿" sent
+	"¿" sent @punct #4->6
 "<se>"
-	"se" num
+	"se" num @nsubj #5->6
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @root #6->0
 "<o>"
-	"o" cnjcoo
+	"o" cnjcoo @cc #7->10
 "<teihsa>"
-	"teisa" prn
+	"teisa" prn @obj #8->10
 "<se>"
-	"se" num
+	"se" num @nsubj #9->10
 "<kichiwilia>"
-	"chihuilia" v tv pres s_sg3 o_sg3
+	"chihuilia" v tv pres s_sg3 o_sg3 @conj #10->6
 "<?>"
-	"?" sent
+	"?" sent @punct #11->6
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a61
 # text = Nen ki..., tein ika tapepechowayah itech iteyo kikixtiliayah.
