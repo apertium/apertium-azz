@@ -123,9 +123,9 @@
 "<Nen>"
 	"nen" prn
 "<ki...>"
-	"ki" x
+	"ki" x @reparandum
 "<,>"
-	"," cm
+	"," cm @punct
 "<tein>"
 	"tein" prn
 "<ika>"
@@ -136,9 +136,7 @@
 	"tech" n rel px3sg
 "<iteyo>"
 	"teyo" n px3sg
-	"teyo" n abs px3sg
 "<kikixtiliayah>"
-	"kixtilia" v tv impf s_pl3 i_sg3 o_pl3
 	"kixtilia" v tv impf s_pl3 i_sg3 o_sg3
 	"kixtilia" v tv impf s_pl3 o_sg3
 "<.>"
@@ -148,19 +146,17 @@
 # text = Kampa kitsontekih oso kipostekih.
 # text[orig] = Ka:mpa kitsontekih oso kipostekih.
 # text[spa] = Donde lo rebanan o lo parten.
-# labels = a63 sentence
+# labels = a63 sentence complete
 "<Kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #1->2
 "<kitsontekih>"
-	"*kitsontekih"
+	"tsonteki" v tv pres s_pl3 o_sg3 @root #2->0
 "<oso>"
-	"oso" cnjcoo
+	"oso" cnjcoo @cc #3->4
 "<kipostekih>"
-	"posteki" v tv pres s_pl3 o_sg3
-	"posteki" v tv pret s_sg3 o_sg3
+	"posteki" v tv pres s_pl3 o_sg3 @conj #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a67
 # text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
@@ -2145,40 +2141,44 @@
 "<.>"
 	"." sent
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91
-# text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:1
+# text = Tein, kemah, yon pankisa ahko, yowi wehka.
 # text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
 # text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
 # labels = a91 sentence
 "<Tein>"
-	"tein" prn
+	"tein" prn @root #1->0
 "<,>"
-	"," cm
+	"," cm @punct #2->1
 "<kemah>"
-	"kemaj" ij
+	"kemaj" ij @parataxis #3->1
 "<,>"
-	"," cm
+	"," cm @punct #4->3
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @dislocated #5->10
+		"in" det @mark #6->7
 "<pankisa>"
-	"pankisa" v iv pres s_sg3
-	"kisa" v iv pres s_sg3 pan
+	"pankisa" v iv pres s_sg3 @acl:relcl #7->5
 "<ahko>"
-	"ajko" adv
+	"ajko" adv @advmod #8->7
 "<,>"
-	"," cm
+	"," cm @punct #9->10
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @parataxis #10->1
 "<wehka>"
-	"huejka" adv
+	"huejka" adv @advmod #11->10
 "<.>"
-	"." sent
+	"." sent @punct #12->1
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:2
+# text = Mm.
+# text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
+# text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
+# labels = a91 sentence
 "<Mm>"
-	"mm" ij
+	"mm" ij @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a92
 # text = Tein amo tata pos yowi wan tein, tein tata pos iwki a, amo mas yowi ok, ompa, ompa tami a.
@@ -2632,8 +2632,6 @@
 # labels = a106 fragment
 "<alambre>"
 	"alambre" n m sg
-;	"alambre" n m sg s_pl3 REMOVE:29
-;	"alambre" n m sg s_sg3 REMOVE:29
 "<ihkwini>"
 	"*ihkwini"
 "<,>"
@@ -2652,7 +2650,6 @@
 	"ya" adv
 "<n'>"
 	"in" det
-;	"nik" x REMOVE:41
 "<kitaliliah>"
 	"talilia" v tv pres s_pl3 i_sg3
 	"talilia" v tv pret s_sg3 i_sg3
@@ -2673,15 +2670,15 @@
 # text[spa] = Y ya se va, elevándose hasta muy arriba.
 # labels = a107 sentence
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #1->2
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @root #2->0
 "<hasta>"
-	"hasta" pr
+	"hasta" pr @case #3->4
 "<ahko>"
-	"ajko" adv
+	"ajko" adv @obl #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a109
 # text = Kemah, yowi ehekaixko, yowi wehka neli seki.
@@ -2689,31 +2686,26 @@
 # text[spa] = Sí, se va en el aíre, unos se van lejos.
 # labels = a109 sentence
 "<Kemah>"
-	"kemaj" ij
+	"kemaj" ij @root #1->0
 "<,>"
-	"," cm
+	"," cm @punct #2->3
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @parataxis #3->1
 "<ehekaixko>"
-	"ejekat" n cmp
-		"ixko" n rel
-;	"ejekat" n cmp s_pl3 REMOVE:29
-;		"ixko" n rel
-;	"ejekat" n cmp s_sg3 REMOVE:29
-;		"ixko" n rel
+	"ejekat" n cmp @obl #4->3
+		"ixko" n rel @compound #5->4
 "<,>"
-	"," cm
+	"," cm @punct #6->7
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @parataxis #7->1
 "<wehka>"
-	"huejka" adv
+	"huejka" adv @advmod #8->7
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod #9->7
 "<seki>"
-	"seki" det
-	"seki" prn
+	"seki" prn @nsubj #10->7
 "<.>"
-	"." sent
+	"." sent @punct #11->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a111
 # text = Amo semi tanto wei, ihkwin siempre ihkwin, de bolita ihkwin.
@@ -2721,34 +2713,31 @@
 # text[spa] = No es tan grande, así, así de este tamaño la bola (de tela).
 # labels = a111 sentence
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod
 "<tanto>"
-	"tanto" adv
+	"tanto" adv @advmod
 "<wei>"
-	"huei" adj
-	"huei" adj s_sg3
+	"huei" adj s_sg3 @root
 "<,>"
-	"," cm
+	"," cm @punct
 "<ihkwin>"
-	"ijkuin" adv
+	"ijkuin" adv @parataxis
 "<siempre>"
-	"siempre" adv
+	"siempre" adv @advmod
 "<ihkwin>"
-	"ijkuin" adv
+	"ijkuin" adv @advmod
 "<,>"
 	"," cm
 "<de>"
-	"de" pr
+	"de" pr @case
 "<bolita>"
-	"bolita" n f sg
-	"bolita" n f sg s_sg3
-;	"bolita" n f sg s_pl3 REMOVE:39
+	"bolita" n f sg @parataxis
 "<ihkwin>"
-	"ijkuin" adv
+	"ijkuin" adv @advmod
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112
 # text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
@@ -3035,46 +3024,35 @@
 # text = Neh nimonotsa, aja, niMaria Salazar Osollo, niwitsa de San Miguel.
 # text[orig] = Neh nimono:tsa, ajá, niMaría Salazar Osollo, niwi:tsa de San Miguel.
 # text[spa] = Me llamo María Salazar Osollo, vengo de San Miguel.
-# labels = a120 sentence
+# labels = a120 sentence complete
 "<Neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #1->2
 "<nimonotsa>"
-	"notsa" v tv pres s_sg1 i_ref o_sg3
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @root #2->0
 "<,>"
-	"," cm
+	"," cm @punct #3->2
 "<aja>"
-	"aja" ij
+	"aja" ij @discourse #4->2
 "<,>"
-	"," cm
+	"," cm @punct #5->2
 "<niMaria>"
-	"María" np ant f s_sg1
+	"María" np ant f s_sg1 @parataxis #6->2
 "<Salazar>"
-	"Salazar" np cog
-;	"Salazar" np cog s_pl3 REMOVE:29
-;	"Salazar" np cog s_sg3 REMOVE:29
+	"Salazar" np cog @flat #7->6
 "<Osollo>"
-	"Osollo" np cog
-;	"Osollo" np cog s_pl3 REMOVE:29
-;	"Osollo" np cog s_sg3 REMOVE:29
+	"Osollo" np cog @flat #8->6
 "<,>"
-	"," cm
+	"," cm @punct #9->10
 "<niwitsa>"
-	"huitsa" v iv pres s_sg1
+	"huitsa" v iv pres s_sg1 @parataxis #10->2
 "<de>"
-	"de" pr
+	"de" pr @case #11->12
 "<San>"
-	"San" np top SELECT:35
-;	"san" n abs SELECT:35
-;	"San" np top s_pl3 REMOVE:29
-;	"san" n abs s_pl3 REMOVE:29
-;	"San" np top s_sg3 REMOVE:29
-;	"san" n abs s_sg3 REMOVE:29
+	"San" np top @obl #12->10
 "<Miguel>"
-	"Miguel" np ant m
-;	"Miguel" np ant m s_pl3 REMOVE:29
-;	"Miguel" np ant m s_sg3 REMOVE:29
+	"Miguel" np ant m @flat #13->12
 "<.>"
-	"." sent
+	"." sent @punct #14->2
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a122
 # text = Amo teihsa.

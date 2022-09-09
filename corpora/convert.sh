@@ -3,7 +3,13 @@ TTOKS=1236
 echo -n "" >/tmp/azz.conllu
 echo -n "" >/tmp/azz-conv.log
 for i in *.dep; do 
-	echo "== @@@ $i @@@ ===================================================================="
+	flen=$(echo ${i} | wc -c)
+	neq=$(expr 101 - ${flen})
+	pad=""
+	for j in $(seq 1 ${neq}); do
+		pad="${pad}="
+	done
+	echo "== @@@ $i @@@ ${pad}" 
 	python3 ../scripts/conllise.py ../apertium-azz.azz.udx $i $(echo $i | sed 's/dep/seg/g') 2>>/tmp/azz-conv.log >> /tmp/azz.conllu
 	tail -1 /tmp/azz-conv.log
 done 

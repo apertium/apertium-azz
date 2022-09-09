@@ -740,12 +740,23 @@
 9	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	7	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a63
+# text = Kampa kitsontekih oso kipostekih.
+# text[orig] = Ka:mpa kitsontekih oso kipostekih.
+# text[spa] = Donde lo rebanan o lo parten.
+# labels = a63 sentence complete
+1	Kampa	kampa	ADV	_	PronType=Rel	2	advmod	_	_
+2	kitsontekih	tsonteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	oso	oso	CCONJ	_	_	4	cc	_	_
+4	kipostekih	posteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a96
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
 # labels = a96 sentence
-1	Kemah	kemaj	INTERJ	_	_	0	root	_	SpaceAfter=No
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a121
@@ -753,7 +764,7 @@
 # text[orig] = Tasohka:matik.
 # text[spa] = Gracias.
 # labels = a121 sentence
-1	Tasohkamatik	tasojkamatik	INTERJ	_	_	0	root	_	SpaceAfter=No
+1	Tasohkamatik	tasojkamatik	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a83
@@ -761,6 +772,82 @@
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
 # labels = a83 sentence
-1	Kemah	kemaj	INTERJ	_	_	0	root	_	SpaceAfter=No
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:1
+# text = Tein, kemah, yon pankisa ahko, yowi wehka.
+# text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
+# text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
+# labels = a91 sentence
+1	Tein	tein	PRON	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	kemah	kemaj	INTJ	_	_	1	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	yon	_	_	_	_	_	_	_	_
+5	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	10	dislocated	_	_
+6	n	in	DET	_	_	7	mark	_	_
+7	pankisa	pankisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	acl:relcl	_	_
+8	ahko	ajko	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+11	wehka	huejka	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:2
+# text = Mm.
+# text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
+# text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
+# labels = a91 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a107
+# text = Wan yowi hasta ahko.
+# text[orig] = Wa:n yowi *hasta** ahko.
+# text[spa] = Y ya se va, elevándose hasta muy arriba.
+# labels = a107 sentence
+1	Wan	huan	CCONJ	_	_	2	cc	_	_
+2	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	hasta	hasta	ADP	_	_	4	case	_	_
+4	ahko	ajko	ADV	_	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a109
+# text = Kemah, yowi ehekaixko, yowi wehka neli seki.
+# text[orig] = Ke:mah, yowi ehekai:xko, yowi wehka neli seki.
+# text[spa] = Sí, se va en el aíre, unos se van lejos.
+# labels = a109 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+4-5	ehekaixko	_	_	_	_	_	_	_	SpaceAfter=No
+4	eheka	ejekat	NOUN	_	_	3	obl	_	_
+5	ixko	ixko	NOUN	_	NounType=Relat	4	compound	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+8	wehka	huejka	ADV	_	_	7	advmod	_	_
+9	neli	neli	ADV	_	_	7	advmod	_	_
+10	seki	seki	PRON	_	_	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a120
+# text = Neh nimonotsa, aja, niMaria Salazar Osollo, niwitsa de San Miguel.
+# text[orig] = Neh nimono:tsa, ajá, niMaría Salazar Osollo, niwi:tsa de San Miguel.
+# text[spa] = Me llamo María Salazar Osollo, vengo de San Miguel.
+# labels = a120 sentence complete
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	aja	aja	INTJ	_	_	2	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	niMaria	María	NOUN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	parataxis	_	_
+7	Salazar	Salazar	NOUN	_	_	6	flat	_	_
+8	Osollo	Osollo	NOUN	_	_	6	flat	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	San	San	NOUN	_	_	10	obl	_	_
+13	Miguel	Miguel	NOUN	_	Gender=Masc	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
 

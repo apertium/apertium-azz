@@ -260,7 +260,7 @@
 ^globo/globo$
 ^tikihtowa/tikihtowa$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^nen/nen$
 ^.../...$
@@ -272,11 +272,11 @@
 # text[spa] = Con ese papel lo hacen, ese que le llaman papel de china.
 # labels = a93 sentence
 ^Ika/Ika$
-^yon/yon$
+^yon/yo>n$
 ^amat/amat$
 ^kichihchiwah/kichihchiwah$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kiliah/kiliah$
 ^papel/papel$
 ^de/de$
@@ -419,7 +419,7 @@
 ^Wan/Wan$
 ^ekintsin/ekintsin$
 ^maski/maski$
-^yon/yon$
+^yon/yo>n$
 ^alaxtik/alaxtik$
 ^,/,$
 ^no/no$
@@ -468,7 +468,7 @@
 ^,/,$
 ^kanika/kanika$
 ^eski/eski$
-^yon/yon$
+^yon/yo>n$
 ^mochiwa/mochiwa$
 ^wan/wan$
 ^,/,$
@@ -520,7 +520,7 @@
 ^,/,$
 ^pos/pos$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^posoni/posoni$
 ^a/a$
 ^n'/n'$
@@ -614,7 +614,7 @@
 ^xiini/xiini$
 ^a/a$
 ^pos/pos$
-^yon/yon$
+^yon/yo>n$
 ^kampa/kampa$
 ^wetsiti/wetsiti$
 ^ompa/ompa$
@@ -656,12 +656,12 @@
 ^Amo/Amo$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^iteyo/iteyo$
 ^amo/amo$
 ^n'mati/n'mati$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^amo/amo$
 ^se/se$
 ^kikwa/kikwa$
@@ -670,14 +670,14 @@
 ^n'/n'$
 ^tein/tein$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^cuando/cuando$
 ^,/,$
 ^cuando/cuando$
 ^de/de$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^welaman/welaman$
 ^ne/ne$
@@ -720,7 +720,7 @@
 ^cuando/cuando$
 ^kwaltsin/kwaltsin$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^oksik/oksik$
 ^apenas/apenas$
 ^kisa/kisa$
@@ -734,7 +734,7 @@
 # text[spa] = Esos los cortan para usar como pegamento.
 # labels = a58 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^kitekih/kitekih$
 ^seki/seki$
 ^ika/ika$
@@ -747,7 +747,7 @@
 # text[spa] = Como cuando hacen los globos, en aquéllos tiempos lo usaban como pegamento, pero ahora ya no lo usan, ahora lo usan todo lo que
 # labels = a59 fragment
 ^Kemeh/Kemeh$
-^yon/yon$
+^yon/yo>n$
 ^ipa/ipa$
 ^kichiwah/kichiwah$
 ^globos/globos$
@@ -824,7 +824,7 @@
 ^.../...$
 ^,/,$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^nejon/nejon$
 ^kampa/kampa$
 ^kitekih/kitekih$
@@ -874,7 +874,7 @@
 ^./.$
 
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^kohkostik/kohkostik$
 ^a/a$
 ^./.$
@@ -986,7 +986,7 @@
 ^ipa/ipa$
 ^solamente/solamente$
 ^para/para$
-^yon/yon$
+^yon/yo>n$
 ^globo/globo$
 ^sah/sah$
 ^kichiwah/kichiwah$
@@ -1016,7 +1016,7 @@
 ^amo/amo$
 ^keman/keman$
 ^n'chiwani/n'chiwani$
-^yon/yon$
+^yon/yo>n$
 ^globo/globo$
 ^,/,$
 ^pero/pero$
@@ -1027,7 +1027,7 @@
 ^,/,$
 ^kipehpepechowah/kipehpepechowah$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^amat/amat$
 ^monamaka/monamaka$
 ^ompa/ompa$
@@ -1070,7 +1070,7 @@
 
 ^Wan/Wan$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^nikiita/nikiita$
 ^neh/neh$
 ^kichihchiwah/kichihchiwah$
@@ -1151,7 +1151,7 @@
 ^kichiwah/kichiwah$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:1
 # text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
 # text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
 # text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
@@ -1160,7 +1160,7 @@
 ^,/,$
 ^kemah/kemah$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^pankisa/pankisa$
 ^ahko/ahko$
 ^,/,$
@@ -1168,6 +1168,11 @@
 ^wehka/wehka$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:2
+# text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
+# text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
+# text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
+# labels = a91 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -1232,7 +1237,7 @@
 ^kwaltia/kwaltia$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^kikwiah/kikwiah$
 ^ne/ne$
 ^keman/keman$
@@ -1256,7 +1261,7 @@
 ^cuando/cuando$
 ^,/,$
 ^cuando/cuando$
-^yon/yon$
+^yon/yo>n$
 ^pankisa/pankisa$
 ^ya/ya$
 ^,/,$
@@ -1292,7 +1297,7 @@
 ^yowi/yowi$
 ^,/,$
 ^yowi/yowi$
-^ehekaixko/ehekaixko$
+^ehekaixko/eheka>ixko$
 ^ya/ya$
 ^,/,$
 ^yowi/yowi$
@@ -1329,9 +1334,9 @@
 ^,/,$
 ^wan/wan$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^kixotaltiah/kixotaltiah$
-^yon/yon$
+^yon/yo>n$
 ^taihtik/taihtik$
 ^wan/wan$
 ^de/de$
@@ -1355,7 +1360,7 @@
 # text[spa] = Usan el gas.
 # labels = a104 sentence
 ^Kikwih/Kikwih$
-^yon/yon$
+^yon/yo>n$
 ^gas/gas$
 ^./.$
 
@@ -1373,7 +1378,7 @@
 ^kikwiah/kikwiah$
 ^wan/wan$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^tilmah/tilmah$
 ^kitaliliah/kitaliliah$
@@ -1434,7 +1439,7 @@
 ^Kemah/Kemah$
 ^,/,$
 ^yowi/yowi$
-^ehekaixko/ehekaixko$
+^ehekaixko/eheka>ixko$
 ^,/,$
 ^yowi/yowi$
 ^wehka/wehka$
@@ -1488,14 +1493,14 @@
 ^onkaya/onkaya$
 ^tilmah/tilmah$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^okseki/okseki$
 ^,/,$
 ^pero/pero$
 ^aman/aman$
 ^onkak/onkak$
 ^nochi/nochi$
-^yon/yon$
+^yon/yo>n$
 ^alaxtik/alaxtik$
 ^a/a$
 ^./.$
@@ -1525,7 +1530,7 @@
 ^mas/mas$
 ^kikwih/kikwih$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^manta/manta$
 ^./.$
 
@@ -1535,11 +1540,11 @@
 # text[spa] = O el tusor o la papelina, esas sí sirven pero de otro tipo, de las lisas pues solamente se arrugan y no este, pareciera que escurre.
 # labels = a115 sentence
 ^Oso/Oso$
-^yon/yon$
+^yon/yo>n$
 ^nejon/nejon$
 ^tusor/tusor$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kemah/kemah$
 ^kwaltia/kwaltia$
 ^o/o$
@@ -1549,7 +1554,7 @@
 ^de/de$
 ^ihkon/ihkon$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^seki/seki$
 ^n'/n'$
 ^alaxtik/alaxtik$
@@ -1576,7 +1581,7 @@
 # labels = a116 fragment
 ^Neh/Neh$
 ^iwki/iwki$
-^yon/yon$
+^yon/yo>n$
 ^n'mattok/n'mattok$
 ^ipa/ipa$
 ^,/,$

@@ -1989,6 +1989,13 @@ tapohua:tapohua                                     V-SO-PRET ;
 tapohua:tapohua                                     V-SO-FUTR ;
      
 ! "entender"
+tsonteki:tsonteki                                   V-SO-PRES ;
+tsonteki:tsonteki                                   V-SO-IMPF ;
+tsonteki:tsonteki                                   V-SO-PROG ;
+tsonteki:tsonteki                                   V-SO-PRET ;
+tsonteki:tsonteki                                   V-SO-FUTR ;
+
+! "entender"
 ajsikamati:ajsikamati                               V-SO-PRES ;
 ajsikamati:ajsikamati                               V-SO-IMPF ;
 ajsikamati:ajsikamati                               V-SO-PROG ;
