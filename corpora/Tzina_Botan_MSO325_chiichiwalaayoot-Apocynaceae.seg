@@ -1508,8 +1508,8 @@
 ^Mm/Mm$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114
-# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota. Ta mas kikwih kemeh yon manta.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:1
+# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota. 
 # text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
 # text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
 # labels = a114 sentence
@@ -1526,6 +1526,11 @@
 ^xota/xota$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:2
+# text = Ta mas kikwih kemeh yon manta.
+# text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
+# text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
+# labels = a114 sentence
 ^Ta/Ta$
 ^mas/mas$
 ^kikwih/kikwih$

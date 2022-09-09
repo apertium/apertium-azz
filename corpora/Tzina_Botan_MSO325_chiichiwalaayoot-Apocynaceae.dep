@@ -2767,36 +2767,41 @@
 "<.>"
 	"." sent
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114
-# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota. Ta mas kikwih kemeh yon manta.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:1
+# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota.
 # text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
 # text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
 # labels = a114 sentence
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod #1->2
 "<kwaltia>"
-	"kualtia" v iv pres s_sg3
+	"kualtia" v iv pres s_sg3 @root #2->0
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark #3->6
 "<yeh>"
-	"yehua" prn pers sg3 short
+	"yehua" prn pers sg3 short @nsubj #4->6
 "<mahya>"
-	"mahya" adv
+	"mahya" adv @advmod #5->6
 "<motsotsolowa>"
-	"tsotsolohua" v tv pres s_sg3 o_ref
+	"tsotsolohua" v tv pres s_sg3 o_ref @advcl #6->2
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #7->6
 "<,>"
-	"," cm
+	"," cm @punct #8->6
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #9->11
 "<wel>"
-	"hueli" vaux
+	"hueli" vaux @vaux #10->11
 "<xota>"
-	"xota" v iv pres s_sg3
+	"xota" v iv pres s_sg3 @parataxis #11->2
 "<.>"
-	"." sent
+	"." sent @punct #12->2
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:2
+# text = Ta mas kikwih kemeh yon manta.
+# text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
+# text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
+# labels = a114 sentence
 "<Ta>"
 	"ta" adv
 "<mas>"
@@ -2812,8 +2817,6 @@
 		"in" det
 "<manta>"
 	"manta" n f sg
-;	"manta" n f sg s_pl3 REMOVE:29
-;	"manta" n f sg s_sg3 REMOVE:29
 "<.>"
 	"." sent
 
