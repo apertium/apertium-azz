@@ -291,7 +291,7 @@
 ^Kemah/Kemah$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:1
 # text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
 # text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
 # text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
@@ -307,6 +307,12 @@
 ^yowi/yowi$
 ^wehkapan/wehkapan$
 ^?/?$
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:2
+# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
+# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
+# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
+# labels = a98 sentence
 ^¿/¿$
 ^Keniw/Keniw$
 ^n'/n'$
@@ -399,12 +405,6 @@
 ^motokay/motokay$
 ^sayoh/sayoh$
 ^wan/wan$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a119
-# text = kani n' tiwalewa.
-# text[orig] = ka:ni n' tiwa:le:wa.
-# text[spa] = de donde vienes.
-# labels = a119 fragment
 ^kani/kani$
 ^n'/n'$
 ^tiwalewa/tiwalewa$

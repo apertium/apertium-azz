@@ -119,28 +119,27 @@
 # text = Nen ki..., tein ika tapepechowayah itech iteyo kikixtiliayah.
 # text[orig] = Ne:n ki..., tein ika tapepechowa:yah itech iteyo kiki:xtilia:yah.
 # text[spa] = Lo que usaban como pegamento lo sacaban de la semilla.
-# labels = a61 sentence
+# labels = a61 sentence complete-tree
 "<Nen>"
-	"nen" prn
+	"nen" prn @reparandum #1->4
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @dep #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->1
 "<tein>"
-	"tein" prn
+	"tein" prn @obj #4->9
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #5->6
 "<tapepechowayah>"
-	"pepechohua" v tv impf s_pl3 o_nn
+	"pepechohua" v tv impf s_pl3 o_nn @acl:relcl #6->4
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #7->9
 "<iteyo>"
-	"teyo" n px3sg
+	"teyo" n px3sg @nmod #8->7
 "<kikixtiliayah>"
-	"kixtilia" v tv impf s_pl3 i_sg3 o_sg3
-	"kixtilia" v tv impf s_pl3 o_sg3
+	"kixtilia" v tv impf s_pl3 i_sg3 o_sg3 @root #9->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->6
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a63
 # text = Kampa kitsontekih oso kipostekih.
@@ -374,9 +373,9 @@
 # text[spa] = Mm, Éste globo que dices, es el que...,
 # labels = a90 fragment
 "<Mm>"
-	"mm" ij
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:2
 # text = In, globo tikihtowa yehwa yon tein nen.... ika yon amat kichihchiwah, yon kiliah papel de china.
@@ -433,7 +432,7 @@
 # text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
 # text[orig] = *Bueno**, pos neh a:mo niki..., ke:man nikitak mah ika kipepecho:ka:n, neh nochipa nikita kipepechowah ika ne: tein kikowah ya ne: ka:mpa tanamakah.
 # text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
-# labels = a95 sentence
+# labels = a95 sentence complete
 "<Bueno>"
 	"bueno" ij @discourse #1->9
 "<,>"
@@ -497,50 +496,57 @@
 "<.>"
 	"." sent @punct #2->1
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98
-# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
-# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
-# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:1
+# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? 
+# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? 
+# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? 
 # labels = a98 sentence
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #1->5
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #2->5
 "<keniw>"
-	"keni" adv itg @advmod
+	"keni" adv itg @advmod #3->5
 "<nen>"
-	"nen" ij @discourse
+	"nen" ij @discourse #4->5
 "<tikihtowa>"
-	"ijtohua" v tv pres s_sg2 o_sg3
+	"ijtohua" v tv pres s_sg2 o_sg3 @root #5->0
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @reparandum #6->9
 "<we...>"
-	"we" x @reparandum
+	"we" x @dep #7->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @ccomp #9->5
 "<wehkapan>"
-	"huejkapan" adj
-	"huejkapan" adj s_sg3
+	"huejkapan" adv @advmod #10->9
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #11->5
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:2
+# text = ¿Keniw n' kichi..., keniw yowi?
+# text[orig] = ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
+# text[spa] = ¿Cómo lo hacen, cómo es que se eleva?
+# labels = a98 sentence complete
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #1->2
 "<Keniw>"
-	"keni" adv itg @reparandum
+	"keni" adv itg @root #2->0
 "<n'>"
-	"in" det
-"<kichi...>"
-	"kichi" x
+	"in" det @mark #3->4
+"<kichi>"
+	"chihua" v tv pres s_pl3 o_sg3 @csubj #4->2
+"<...>"
+	"..." sent @punct #5->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->8
 "<keniw>"
-	"keni" adv itg
+	"keni" adv itg @advmod #7->8
 "<yowi>"
-	"yohui" v iv pres s_sg3
+	"yohui" v iv pres s_sg3 @parataxis #8->2
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #9->2
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a101
 # text = ¿Wan keniw pankisa, sayoh porque kipipitsah ika sombrero oso...?
@@ -664,38 +670,32 @@
 	"?" sent @punct
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a118
-# text = Pos, 'nechili motokay sayoh wan
-# text[orig] = Pos, 'ne:chili moto:ka:y sayoh wa:n
-# text[spa] = Pues solamente dime tu nombre y
-# labels = a118 fragment
+# text = Pos, 'nechili motokay sayoh wan kani n' tiwalewa.
+# text[orig] = Pos, 'ne:chili moto:ka:y sayoh wa:n ka:ni n' tiwa:le:wa.
+# text[spa] = Pues solamente dime tu nombre y de donde vienes.
+# text[a118] = Pos, 'ne:chili moto:ka:y sayoh wa:n
+# text[a119] = ka:ni n' tiwa:le:wa.
+# labels = a118 a119
 "<Pos>"
-	"pos" ij @discourse
+	"pos" ij @discourse #1->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<'nechili>"
-	"ilia" v tv pres imp s_sg2 i_sg1 o_sg3 @root
+	"ilia" v tv pres imp s_sg2 i_sg1 o_sg3 @root #3->0
 "<motokay>"
-	"tokay" n px2sg @obj
+	"tokay" n px2sg @obj #4->3
 "<sayoh>"
-	"sayoj" adv @advmod
+	"sayoj" adv @advmod #5->3
 "<wan>"
-	"huan" cnjcoo @cc
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a119
-# text = kani n' tiwalewa.
-# text[orig] = ka:ni n' tiwa:le:wa.
-# text[spa] = de donde vienes.
-# labels = a119 fragment
+	"huan" cnjcoo @cc #6->7
 "<kani>"
-	"kani" adv itg
+	"kani" adv itg @conj #7->3
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @mark #8->9
 "<tiwalewa>"
-	"huala" v iv pres s_sg2
-	"ehua" v iv pres s_sg2 hual
+	"huala" v iv pres s_sg2 @csubj #9->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->3
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a121
 # text = Tasohkamatik.
