@@ -29,7 +29,7 @@
 "<kitokaytiah>"
 	"tokaytia" v tv pres s_pl3 o_sg3
 "<chichiwalayokowit>"
-	"*chichiwalayokowit"
+	"chichihualayokohuit" n a abs
 "<,>"
 	"," cm
 "<xa>"
@@ -299,64 +299,56 @@
 	"." sent
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a77
-# text = Ne...,
-# text[orig] = Ne:...,
-# text[spa] = Este...,
-# labels = a77 fragment
-"<Ne>"
-	"ne" adv
-	"ne" det
-"<...>"
-	"..." sent
-"<,>"
-	"," cm
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a80
-# text = Tikihtowa que in, nen, kow..., kowit ichokilo, kwali ika kipepechowah keman kichiwah globos.
-# text[orig] = Tikihtowa *que** i:n, ne:n, kow..., kowit icho:kilo, kwali ika kipepechowah ke:man kichi:wah *globos**.
-# text[spa] = Dices que ésta, este, savia de (este) árbol, con ella pueden pegar el papel (de china) con que hacen los globos.
+# text = Ne..., tikihtowa que in, nen, kow..., kowit ichokilo, kwali ika kipepechowah keman kichiwah globos.
+# text[orig] = Ne:..., tikihtowa *que** i:n, ne:n, kow..., kowit icho:kilo, kwali ika kipepechowah ke:man kichi:wah *globos**.
+# text[spa] = Este... dices que ésta, este, savia de (este) árbol, con ella pueden pegar el papel (de china) con que hacen los globos.
+# text[a77] = Ne:...,
 # text[a80] = Tikihtowa *que** i:n, ne:n,
 # text[a81] = kow..., kowit icho:kilo,
 # text[a82] = kwali ika kipepechowah ke:man kichi:wah *globos**.
-# labels = a80 a81 a82 
-"<Tikihtowa>"
-	"ijtohua" v tv pres s_sg2 o_sg3 @root #1->0
+# labels = a77 a80 a81 a82 
+"<Ne>"
+	"ne" ij @discourse #1->4
+"<...>"
+	"..." sent @punct #2->1
+"<,>"
+	"," cm @punct #3->1
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3 @root #4->0
 "<que>"
-	"que" cnjsub @mark #2->
+	"que" cnjsub @mark #5->17
 "<in>"
-	"in" det @appos #3->2
+	"in" det @appos #6->5
 "<,>"
-	"," cm @punct #4->5
+	"," cm @punct #7->5
 "<nen>"
-	"nen" ij @discourse #5->
+	"nen" ij @discourse #8->17
 "<,>"
-	"," cm @punct #6->5
+	"," cm @punct #9->5
 "<kow...>"
-	"kow" x @reparandum #7->10
-"<,>"
-	"," cm @punct #8->10
-"<kowit>"
-	"kohuit" n abs @nmod #9->10
-"<ichokilo>"
-	"chokilo" n px3sg @dep #10->
+	"kow" x @reparandum #10->12
 "<,>"
 	"," cm @punct #11->10
+"<kowit>"
+	"kohuit" n abs @nmod #12->13
+"<ichokilo>"
+	"chokilo" n px3sg @dislocated #13->17
+"<,>"
+	"," cm @punct #14->10
 "<kwali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adv @advmod #15->17
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #16->17
 "<kipepechowah>"
-	"pepechohua" v tv pres s_pl3 o_sg3
+	"pepechohua" v tv pres s_pl3 o_sg3 @dep #17->4
 "<keman>"
-	"keman" adv
+	"keman" cnjsub @mark #18->19
 "<kichiwah>"
-	"chihua" v tv pres s_pl3 o_sg3
+	"chihua" v tv pres s_pl3 o_sg3 @advcl #19->17
 "<globos>"
-	"globo" n m pl @obj #17->16
+	"globo" n m pl @obj #20->19
 "<.>"
-	"." sent @punct #18->1
+	"." sent @punct #21->4
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a84
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
@@ -384,7 +376,8 @@
 "<.>"
 	"." sent @punct #10->3
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:1
 # text = Mm. In, globo tikihtowa yehwa yon tein nen....
 # text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
 # text[spa] = Mm, Éste globo que dices, es el que...,
@@ -394,14 +387,19 @@
 "<.>"
 	"." sent
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:2
+# text = In, globo tikihtowa yehwa yon tein nen.... ika yon amat kichihchiwah, yon kiliah papel de china.
+# text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
+# text[spa] = Mm, Éste globo que dices, es el que...,
+# text[a90] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
+# text[a93] = ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
+# labels = a90 a93
 "<In>"
-	"in" det
+	"in" det @det
 "<,>"
-	"," cm
+	"," cm @punct
 "<globo>"
-	"globo" n m sg
-;	"globo" n m sg s_pl3 REMOVE:31
-;	"globo" n m sg s_sg3 REMOVE:31
+	"globo" n m sg @nsubj
 "<tikihtowa>"
 	"ijtohua" v tv pres s_sg2 o_sg3
 "<yehwa>"
@@ -415,15 +413,7 @@
 	"nen" prn
 "<...>"
 	"..." sent
-"<.>"
-	"." sent
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a93
-# text = Ika yon amat kichihchiwah, yon kiliah papel de china.
-# text[orig] = Ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
-# text[spa] = Con ese papel lo hacen, ese que le llaman papel de china.
-# labels = a93 sentence
-"<Ika>"
+"<ika>"
 	"ka" n rel px3sg @obl
 "<yon>"
 	"yehua" prn pers sg3 short
@@ -522,9 +512,9 @@
 # text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
 # labels = a98 sentence
 "<¿>"
-	"¿" sent
+	"¿" sent @punct
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<keniw>"
 	"keni" adv itg
 "<nen>"
@@ -543,18 +533,17 @@
 	"huejkapan" adj
 	"huejkapan" adj s_sg3
 "<?>"
-	"?" sent
+	"?" sent @punct
 "<¿>"
-	"¿" sent
+	"¿" sent @punct
 "<Keniw>"
-	"keni" adv itg
+	"keni" adv itg @reparandum
 "<n'>"
 	"in" det
-;	"nik" x REMOVE:41
 "<kichi...>"
 	"kichi" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<keniw>"
 	"keni" adv itg
 "<yowi>"
@@ -627,38 +616,34 @@
 	"?" sent @punct #13->4
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a108
-# text = A, wa...
-# text[orig] = A:, wa:...
-# text[spa] = A:, ...,
-# labels = a108 fragment
+# text = A, wa... ¿Wan wei nen tilmah tikihtowa kiololchiwah?
+# text[orig] = A:, wa:... ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
+# text[spa] = A:, ..., ¿Y es grande la tela que lo hacen en bola?
+# text[a108] = A:, wa:...
+# text[a110] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
+# labels = a108 a110
 "<A>"
-	"a" ij
+	"a" ij @discourse #1->6
 "<,>"
-	"," cm
+	"," cm @punct #2->1
 "<wa...>"
-	"wa" x
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a110
-# text = ¿Wan wei nen tilmah tikihtowa kiololchiwah?
-# text[orig] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
-# text[spa] = ¿Y es grande la tela que lo hacen en bola?
-# labels = a110 sentence
+	"wa" x @reparandum #3->5
 "<¿>"
-	"¿" sent @punct
+	"¿" sent @punct #4->6
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #5->6
 "<wei>"
-	"huei" adj s_sg3 @root
+	"huei" adj s_sg3 @root #6->0
 "<nen>"
-	"nen" det @det
+	"nen" det @det #7->8
 "<tilmah>"
-	"tilmaj" n abs @nsubj
+	"tilmaj" n abs @nsubj #8->6
 "<tikihtowa>"
-	"ijtohua" v tv pres s_sg2 o_sg3
+	"ijtohua" v tv pres s_sg2 o_sg3 @acl:relcl #9->8
 "<kiololchiwah>"
-	"ololchihua" v tv pres s_pl3 o_sg3
+	"ololchihua" v tv pres s_pl3 o_sg3 @dep #10->9
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #11->6
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a113
 # text = ¿Wan ekintsin maski yon alaxtik, no kwaltia?

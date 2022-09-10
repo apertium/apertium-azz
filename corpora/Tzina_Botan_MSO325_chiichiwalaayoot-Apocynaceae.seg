@@ -189,24 +189,17 @@
 # text = Ne...,
 # text[orig] = Ne:...,
 # text[spa] = Este...,
-# labels = a77 fragment
+# labels = a77 a80 a81 a82
 ^Ne/Ne$
 ^.../...$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a80
-# text = Tikihtowa que in, nen,
-# text[orig] = Tikihtowa *que** i:n, ne:n,
-# text[spa] = Dices que ésta, este,
-# labels = a80 a81 a82
-^Tikihtowa/Tikihtowa$
+^tikihtowa/tikihtowa$
 ^que/que$
 ^in/in$
 ^,/,$
 ^nen/nen$
 ^,/,$
-^kow/kow$
-^.../...$
+^kow.../kow...$
 ^,/,$
 ^kowit/kowit$
 ^ichokilo/ichokilo$
@@ -376,19 +369,13 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a108
-# text = A, wa...
-# text[orig] = A:, wa:...
-# text[spa] = A:, ...,
-# labels = a108 fragment
-^A/A$
-^,/,$
-^wa.../wa...$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a110
 # text = ¿Wan wei nen tilmah tikihtowa kiololchiwah?
 # text[orig] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
 # text[spa] = ¿Y es grande la tela que lo hacen en bola?
-# labels = a110 sentence
+# labels = a108 a110 sentence
+^A/A$
+^,/,$
+^wa.../wa...$
 ^¿/¿$
 ^Wan/Wan$
 ^wei/wei$

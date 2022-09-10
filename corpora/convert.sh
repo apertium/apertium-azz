@@ -1,5 +1,5 @@
 #!/bin/bash 
-TTOKS=1236
+TTOKS=10000
 echo -n "" >/tmp/azz.conllu
 echo -n "" >/tmp/azz-conv.log
 for i in *.dep; do 

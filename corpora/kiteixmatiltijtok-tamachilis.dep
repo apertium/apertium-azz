@@ -174,9 +174,9 @@
 # text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
 # labels =  
 "<Achtopa>"
-	"achtopa" adv
+	"achtopa" adv @advmod
 "<momaneloua>"
-	"manelohua" v tv pres s_sg3 o_ref
+	"manelohua" v tv pres s_sg3 o_ref @root
 "<yejua>"
 	"yehua" prn pers sg3
 "<ne>"
@@ -189,50 +189,41 @@
 "<,>"
 	"," cm @punct
 "<ta>"
-	"ta" adv
+	"ta" adv @advmod
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<yetik>"
-	"etik" adj
 	"etik" adj s_sg3
 "<uan>"
 	"huan" cnjcoo @cc
 "<yej>"
 	"yehua" prn pers sg3 short
 "<kachi>"
-	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
+	"kachi" adv @advmod
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @conj
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl
 "<in>"
 	"in" det @det
 "<Semanauak>"
-	"semanahuak" n abs
+	"semanahuak" n abs @nmod
 "<;>"
-	";" sent 
+	";" sent @punct
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<mochiua>"
 	"chihua" v tv pres s_sg3 o_ref
 "<se>"
 	"se" num
 "<kuemit>"
 	"kuemit" n abs
-;	"kuemit" n abs s_pl3 REMOVE:29
-;	"kuemit" n abs s_sg3 REMOVE:29
 "<kanpa>"
 	"kampa" adv rel
 "<motekpanaj>"
 	"tekpana" v tv pres s_pl3 o_ref
-	"tekpana" v tv pret s_sg3 o_ref
 "<átomos>"
-	"átomo" n m pl
-;	"átomo" n m pl s_pl3 REMOVE:29
-;	"átomo" n m pl s_sg3 REMOVE:29
+	"átomo" n m pl @nsubj
 "<teyin>"
 	"tein" prn
 "<ijkon>"
