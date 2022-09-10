@@ -312,50 +312,35 @@
 	"," cm
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a80
-# text = Tikihtowa que in, nen,
-# text[orig] = Tikihtowa *que** i:n, ne:n,
-# text[spa] = Dices que ésta, este,
-# labels = a80 fragment
+# text = Tikihtowa que in, nen, kow..., kowit ichokilo, kwali ika kipepechowah keman kichiwah globos.
+# text[orig] = Tikihtowa *que** i:n, ne:n, kow..., kowit icho:kilo, kwali ika kipepechowah ke:man kichi:wah *globos**.
+# text[spa] = Dices que ésta, este, savia de (este) árbol, con ella pueden pegar el papel (de china) con que hacen los globos.
+# text[a80] = Tikihtowa *que** i:n, ne:n,
+# text[a81] = kow..., kowit icho:kilo,
+# text[a82] = kwali ika kipepechowah ke:man kichi:wah *globos**.
+# labels = a80 a81 a82 
 "<Tikihtowa>"
-	"ijtohua" v tv pres s_sg2 o_sg3
+	"ijtohua" v tv pres s_sg2 o_sg3 @root #1->0
 "<que>"
-	"que" cnjsub
+	"que" cnjsub @mark #2->
 "<in>"
-	"in" det
+	"in" det @appos #3->2
 "<,>"
-	"," cm
+	"," cm @punct #4->5
 "<nen>"
-	"nen" prn
+	"nen" ij @discourse #5->
 "<,>"
-	"," cm
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a81
-# text = kow..., kowit ichokilo,
-# text[orig] = kow..., kowit icho:kilo,
-# text[spa] = savia de (este) árbol,
-# labels = a81 fragment
-"<kow>"
-	"kohua" v tv pret s_sg3 o_sg3
-"<...>"
-	"..." sent
+	"," cm @punct #6->5
+"<kow...>"
+	"kow" x @reparandum #7->10
 "<,>"
-	"," cm
+	"," cm @punct #8->10
 "<kowit>"
-	"kohuit" n abs
-;	"kohuit" n abs s_pl3 REMOVE:29
-;	"kohuit" n abs s_sg3 REMOVE:29
+	"kohuit" n abs @nmod #9->10
 "<ichokilo>"
-	"chokilo" n px3sg
-	"chokilo" n abs px3sg
-	"chokilo" n pl px3sg
+	"chokilo" n px3sg @dep #10->
 "<,>"
-	"," cm
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a82
-# text = kwali ika kipepechowah keman kichiwah globos.
-# text[orig] = kwali ika kipepechowah ke:man kichi:wah *globos**.
-# text[spa] = con ella pueden pegar el papel (de china) con que hacen los globos.
-# labels = a82 fragment
+	"," cm @punct #11->10
 "<kwali>"
 	"kuali" adj
 	"kuali" adv
@@ -368,13 +353,10 @@
 	"keman" adv
 "<kichiwah>"
 	"chihua" v tv pres s_pl3 o_sg3
-	"chihua" v tv pret s_sg3 o_sg3
 "<globos>"
-	"globo" n m pl
-;	"globo" n m pl s_pl3 REMOVE:29
-;	"globo" n m pl s_sg3 REMOVE:29
+	"globo" n m pl @obj #17->16
 "<.>"
-	"." sent
+	"." sent @punct #18->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a84
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.

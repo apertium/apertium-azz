@@ -198,31 +198,19 @@
 # text = Tikihtowa que in, nen,
 # text[orig] = Tikihtowa *que** i:n, ne:n,
 # text[spa] = Dices que ésta, este,
-# labels = a80 fragment
+# labels = a80 a81 a82
 ^Tikihtowa/Tikihtowa$
 ^que/que$
 ^in/in$
 ^,/,$
 ^nen/nen$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a81
-# text = kow..., kowit ichokilo,
-# text[orig] = kow..., kowit icho:kilo,
-# text[spa] = savia de (este) árbol,
-# labels = a81 fragment
 ^kow/kow$
 ^.../...$
 ^,/,$
 ^kowit/kowit$
 ^ichokilo/ichokilo$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a82
-# text = kwali ika kipepechowah keman kichiwah globos.
-# text[orig] = kwali ika kipepechowah ke:man kichi:wah *globos**.
-# text[spa] = con ella pueden pegar el papel (de china) con que hacen los globos.
-# labels = a82 fragment
 ^kwali/kwali$
 ^ika/ika$
 ^kipepechowah/kipepechowah$
