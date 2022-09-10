@@ -47,39 +47,31 @@
 # text[spa] = Comentabas que hay un blanco, un morado y otro es el <i>kowtahtomakilit<i>.
 # labels = a20 sentence
 "<Tikihtowaya>"
-	"ijtohua" v tv impf s_sg2 o_sg3
+	"ijtohua" v tv impf s_sg2 o_sg3 @root #1->0
 "<que>"
-	"que" cnjsub
+	"que" cnjsub @mark #2->3
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @ccomp #3->1
 "<se>"
-	"se" num
+	"se" num @nsubj #4->3
 "<istak>"
-	"istak" adj
-	"istak" adj s_sg3
+	"istak" adj s_sg3 @acl:relcl #5->4
 "<,>"
-	"," cm
+	"," cm @punct #6->7
 "<se>"
-	"se" num
+	"se" num @conj #7->4
 "<morado>"
-	"morado" adj m sg
-	"morado" adj m sg s_sg3
-;	"morado" adj m sg s_pl3 REMOVE:39
+	"morado" adj m sg s_sg3 @acl:relcl #8->7
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #9->10
 "<se>"
-	"se" num
+	"se" num @conj #10->4
 "<kowtah>"
-	"koutaj" n abs
-	"koutaj" n abs s_pl3
-	"koutaj" n abs s_sg3
+	"koutaj" n abs s_sg3 @acl:relcl #11->10
 "<tomakilit>"
-	"tomakilit" n abs
-	"tomakilit" n abs s_sg3
-;	"tomakilit" n abs s_pl3 REMOVE:39
+	"tomakilit" n abs @appos #12->10
 "<.>"
-	"." sent
+	"." sent @punct #13->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a21
 # text = Niknekiskia xinechtapowi in istak tomakilit,
@@ -181,45 +173,35 @@
 # text[spa] = Decias que el morado, el tallo es poco más grueso y las hojas son un poco más anchas.
 # labels = a59 sentence
 "<Tikihtowaya>"
-	"ijtohua" v tv impf s_sg2 o_sg3
+	"ijtohua" v tv impf s_sg2 o_sg3 @root #1->0
 "<que>"
-	"que" cnjsub
+	"que" cnjsub @mark #2->6
 "<in>"
-	"in" det
+	"in" det @det #3->4
 "<morado>"
-	"morado" adj m sg
-	"morado" adj m sg s_pl3
-	"morado" adj m sg s_sg3
+	"morado" adj m sg @nsubj #4->6
 "<okachi>"
-	"kachi" adv
+	"kachi" adv @advmod #5->6
 "<kowyohtohtomawak>"
-	"*kowyohtohtomawak"
+	"kouyojtojtomahuak" adj s_sg3 @ccomp #6->1
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #7->12
 "<okachi>"
-	"kachi" adv
+	"kachi" adv @advmod #8->12
 "<nenken>"
-	"nenken" adv
-"<pahpata>"
-	"pajpata" n abs
-	"pajpata" n abs s_pl3
-	"pajpata" n abs s_sg3
-"<...>"
-	"..." sent
+	"nenken" adv @advmod #9->12
+"<pahpata...>"
+	"pajpata" x @reparandum #10->12
 "<,>"
-	"," cm
+	"," cm @punct #11->12
 "<papatawak>"
-	"papatahuak" adj
-	"patahuak" adj pan
-	"papatahuak" adj s_sg3
+	"papatahuak" adj s_sg3 @conj #12->1
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #13->14
 "<ixiwyo>"
-	"xiuyo" n px3sg
-	"xiuyo" n pl px3sg
+	"xiuyo" n pl px3sg @nsubj #14->12
 "<.>"
-	"." sent
+	"." sent @punct #15->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a66
 # text = Pos semi kwali que tikinixmati. Neh amo nikini..., neh nis...,
