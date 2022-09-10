@@ -1,0 +1,1131 @@
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a19
+# text = Ekin nikakik namohnotstoyah ne, in tomakil..., in tomakilit onkak eyi taman.
+# text[orig] = Ekin nikakik namohno:tstoyah ne:, i:n tomakil..., i:n tomakilit onkak e:yi taman.
+# text[spa] = Hace un ratito ustedes estaban platicando, este, del <i>tomakilit<i> hay tres tipos.
+# labels = a19 sentence
+^Ekin/Ekin$
+^nikakik/nikakik$
+^namohnotstoyah/namohnotstoyah$
+^ne/ne$
+^,/,$
+^in/in$
+^tomakil/tomakil$
+^.../...$
+^,/,$
+^in/in$
+^tomakilit/tomakilit$
+^onkak/onkak$
+^eyi/eyi$
+^taman/taman$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
+# text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
+# text[orig] = Tikihtowa:ya *que** onkak se: ista:k, se: *morado** wa:n se: kowtah tomakilit.
+# text[spa] = Comentabas que hay un blanco, un morado y otro es el <i>kowtahtomakilit<i>.
+# labels = a20 sentence
+^Tikihtowaya/Tikihtowaya$
+^que/que$
+^onkak/onkak$
+^se/se$
+^istak/istak$
+^,/,$
+^se/se$
+^morado/morado$
+^wan/wan$
+^se/se$
+^kowtah/kowtah$
+^tomakilit/tomakilit$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a21
+# text = Niknekiskia xinechtapowi in istak tomakilit,
+# text[orig] = Niknekiskia xine:chtapowi i:n ista:k tomakilit,
+# text[spa] = Quisiera que me contaras sobre el <i>ista:ktomakilit<i>,
+# labels = a21 fragment
+^Niknekiskia/Niknekiskia$
+^xinechtapowi/xinechtapowi$
+^in/in$
+^istak/istak$
+^tomakilit/tomakilit$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a22
+# text = keniwki n' ixochio, keniwki n' iteyo, keniwki n' ixiwyo, keniwki n' ikowyo.
+# text[orig] = ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
+# text[spa] = cómo es la flor, como es el fruto, como son las hojas, cómo es el tallo.
+# labels = a22 fragment
+^keniwki/keniwki$
+^n'/n'$
+^ixochio/ixochio$
+^,/,$
+^keniwki/keniwki$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^keniwki/keniwki$
+^n'/n'$
+^ixiwyo/ixiwyo$
+^,/,$
+^keniwki/keniwki$
+^n'/n'$
+^ikowyo/ikowyo$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a23
+# text = Wan ox se kikwa wan kani mochiwa.
+# text[orig] = Wa:n ox se: kikwa wa:n ka:ni mochi:wa.
+# text[spa] = Y si es comestible y dónde crece.
+# labels = a23 sentence
+^Wan/Wan$
+^ox/ox$
+^se/se$
+^kikwa/kikwa$
+^wan/wan$
+^kani/kani$
+^mochiwa/mochiwa$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a47
+# text = Tiki...
+# text[orig] = Tiki...
+# text[spa] = Lo ...,
+# labels = a47 fragment
+^Tiki.../Tiki...$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a59
+# text = Tikihtowaya que in morado okachi kowyohtohtomawak wan okachi nenken pahpata..., papatawak n' ixiwyo.
+# text[orig] = Tikihtowa:ya *que** i:n *morado** okachi kowyohtohtoma:wak wa:n okachi ne:nke:n pahpata:..., pa:pata:wak n' ixiwyo.
+# text[spa] = Decias que el morado, el tallo es poco más grueso y las hojas son un poco más anchas.
+# labels = a59 sentence
+^Tikihtowaya/Tikihtowaya$
+^que/que$
+^in/in$
+^morado/morado$
+^okachi/okachi$
+^kowyohtohtomawak/kowyohtohtomawak$
+^wan/wan$
+^okachi/okachi$
+^nenken/nenken$
+^pahpata/pahpata$
+^.../...$
+^,/,$
+^papatawak/papatawak$
+^n'/n'$
+^ixiwyo/ixiwyo$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a66
+# text = Pos semi kwali que tikinixmati. Neh amo nikini..., neh nis...,
+# text[orig] = Pos semi kwali *que** tikini:xmati. Neh a:mo nikini..., neh nis...,
+# text[spa] = Pues es muy bueno que los conoces. Yo no los co..., yo ...,
+# labels = a66 fragment
+^Pos/Pos$
+^semi/semi$
+^kwali/kwali$
+^que/que$
+^tikinixmati/tikinixmati$
+^./.$
+^Neh/Neh$
+^amo/amo$
+^nikini/nikini$
+^.../...$
+^,/,$
+^neh/neh$
+^nis/nis$
+^.../...$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a67
+# text = nikixmattok n' tomakilit,
+# text[orig] = niki:xmattok n' tomakilit,
+# text[spa] = conozco al <i>tomakilit<i>,
+# labels = a67 fragment
+^nikixmattok/nikixmattok$
+^n'/n'$
+^tomakilit/tomakilit$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a69
+# text = wan
+# text[orig] = wa:n
+# text[spa] = y
+# labels = a69 fragment
+^wan/wan$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a71
+# text = nikitani seki ne mahya okachi mapisiltik wan neli seki okachi matohtomawak
+# text[orig] = nikitani seki ne: mahyá: okachi ma:pisi:ltik wa:n neli seki okachi ma:tohtoma:wak
+# text[spa] = he visto unos, las hojas son un poco más pequeñas y ciertamente, otros, los tallos son un poco más gruesos.
+# labels = a71 fragment
+^nikitani/nikitani$
+^seki/seki$
+^ne/ne$
+^mahya/mahya$
+^okachi/okachi$
+^mapisiltik/mapisiltik$
+^wan/wan$
+^neli/neli$
+^seki/seki$
+^okachi/okachi$
+^matohtomawak/matohtomawak$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a72
+# text = pero amo pos, amo nikmatia ox tataman.
+# text[orig] = pero a:mo pos, a:mo nikmatia ox ta:taman.
+# text[spa] = pero no sabía si son diferentes.
+# labels = a72 fragment
+^pero/pero$
+^amo/amo$
+^pos/pos$
+^,/,$
+^amo/amo$
+^nikmatia/nikmatia$
+^ox/ox$
+^tataman/tataman$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a74
+# text = N yon tein tikihtowa ne kowtah tomakilit amo keman nakin nikakiliaya.
+# text[orig] = N yó:n tein tikihtowa ne: kowtah tomakilit a:mo ke:man na:kin nikakilia:ya.
+# text[spa] = Ese, el que dices que es el <i>kowtahtomakilit<i> no lo había escuchado de alguna otra persona.
+# labels = a74 sentence
+^N/N$
+^yon/yon$
+^tein/tein$
+^tikihtowa/tikihtowa$
+^ne/ne$
+^kowtah/kowtah$
+^tomakilit/tomakilit$
+^amo/amo$
+^keman/keman$
+^nakin/nakin$
+^nikakiliaya/nikakiliaya$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a77
+# text = ¿Wan miakeh kikwah?
+# text[orig] = ¿Wa:n miakeh kikwah?
+# text[spa] = ¿Y muchas personas lo comen?
+# labels = a77 sentence
+^¿/¿$
+^Wan/Wan$
+^miakeh/miakeh$
+^kikwah/kikwah$
+^?/?$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a82
+# text = Pos semi kwali a tinechyolmelaw, porque neli amo nikmatia neh.
+# text[orig] = Pos semi kwali a tine:chyo:lmela:w, *porque** neli a:mo nikmatia neh.
+# text[spa] = Pues qué bueno que me hayas informado porque ciertamente no lo sabía.
+# labels = a82 sentence
+^Pos/Pos$
+^semi/semi$
+^kwali/kwali$
+^a/a$
+^tinechyolmelaw/tinechyolmelaw$
+^,/,$
+^porque/porque$
+^neli/neli$
+^amo/amo$
+^nikmatia/nikmatia$
+^neh/neh$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84
+# text = Tel miak tasohkamatik. Nikneki xnechili motokay.
+# text[orig] = Tel miak tasohka:matik. Nikneki xne:chili moto:ka:y.
+# text[spa] = Muchas gracias, quiero que me digas tu nombre.
+# labels = a84 sentence
+^Tel/Tel$
+^miak/miak$
+^tasohkamatik/tasohkamatik$
+^./.$
+^Nikneki/Nikneki$
+^xnechili/xnechili$
+^motokay/motokay$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a24
+# text = Pos in istak tomakilit tikixmatih,
+# text[orig] = Pos i:n ista:k tomakilit tiki:xmatih,
+# text[spa] = Pues al que conocemos como <i>ista:ktomakilit<i>,
+# labels = a24 fragment
+^Pos/Pos$
+^in/in$
+^istak/istak$
+^tomakilit/tomakilit$
+^tikixmatih/tikixmatih$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a25
+# text = porque xoxoktik nochi n' iixko wan imaikan xoxoktik.
+# text[orig] = *porque** xoxoktik nochi n' ii:xko wa:n ima:i:ka:n xoxoktik.
+# text[spa] = porque el haz y el envés de la hoja es verde.
+# labels = a25 fragment
+^porque/porque$
+^xoxoktik/xoxoktik$
+^nochi/nochi$
+^n'/n'$
+^iixko/iixko$
+^wan/wan$
+^imaikan/imaikan$
+^xoxoktik/xoxoktik$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a26
+# text = Wan, nejon, i..., i..., ixochio,
+# text[orig] = Wa:n, nejó:n, i..., i..., ixo:chio,
+# text[spa] = Y, este, la flor
+# labels = a26 fragment
+^Wan/Wan$
+^,/,$
+^nejon/nejon$
+^,/,$
+^i.../i...$
+^,/,$
+^i.../i...$
+^,/,$
+^ixochio/ixochio$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a27
+# text = istak no wan tsiki..., tsikitsitsin, kan semi wehwei mochiwa n' ixochio.
+# text[orig] = ista:k no: wa:n tsiki..., tsikitsitsi:n, ka:n semi wehwei mochi:wa n' ixo:chio.
+# text[spa] = también es blanca y son pequeñas, las flores no son muy grandes.
+# labels = a27 fragment
+^istak/istak$
+^no/no$
+^wan/wan$
+^tsiki/tsiki$
+^.../...$
+^,/,$
+^tsikitsitsin/tsikitsitsin$
+^,/,$
+^kan/kan$
+^semi/semi$
+^wehwei/wehwei$
+^mochiwa/mochiwa$
+^n'/n'$
+^ixochio/ixochio$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a28
+# text = Wan mochiwa ika racimito n' ixochiotsin,
+# text[orig] = Wa:n mochi:wa ika *racimito** n' ixo:chiotsi:n,
+# text[spa] = Y las flores salen racimitos,
+# labels = a28 fragment
+^Wan/Wan$
+^mochiwa/mochiwa$
+^ika/ika$
+^racimito/racimito$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a29
+# text = wan, nejon, iteyo cuando xoxo..., cuando selik xoxoktik.
+# text[orig] = wa:n, nejó:n, iteyo *cuando** xoxo..., *cuando** selik xoxoktik.
+# text[spa] = y, este, cuando los frutos son ver..., cuando están tiernos son verdes.
+# labels = a29 fragment
+^wan/wan$
+^,/,$
+^nejon/nejon$
+^,/,$
+^iteyo/iteyo$
+^cuando/cuando$
+^xoxo/xoxo$
+^.../...$
+^,/,$
+^cuando/cuando$
+^selik/selik$
+^xoxoktik/xoxoktik$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a30
+# text = Wan cuando chikawak ya, de kwali para se kitekilis a komo se kitokasneki,
+# text[orig] = Wa:n *cuando** chika:wak ya, de kwali para se: kitekili:s a komo se: kito:kasneki,
+# text[spa] = Y cuando ya están recios, cuando ya se puede cosechar, bueno pues si uno quiere sembrarlo,
+# labels = a30 fragment
+^Wan/Wan$
+^cuando/cuando$
+^chikawak/chikawak$
+^ya/ya$
+^,/,$
+^de/de$
+^kwali/kwali$
+^para/para$
+^se/se$
+^kitekilis/kitekilis$
+^a/a$
+^komo/komo$
+^se/se$
+^kitokasneki/kitokasneki$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a31
+# text = e.., morado ya nen iteyotsin.
+# text[orig] = e:.., *morado** ya ne:n iteyotsi:n.
+# text[spa] = el fruto ya es morado.
+# labels = a31 fragment
+^e/e$
+^../..$
+^,/,$
+^morado/morado$
+^ya/ya$
+^nen/nen$
+^iteyotsin/iteyotsin$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32
+# text = Kemah. Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
+# text[orig] = Ke:mah. Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
+# text[spa] = Sí. Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
+# labels = a32 sentence
+^Kemah/Kemah$
+^./.$
+^Wan/Wan$
+^semi/semi$
+^kanawak/kanawak$
+^n'/n'$
+^iewayo/iewayo$
+^,/,$
+^se/se$
+^kimapitsinia/kimapitsinia$
+^yek/yek$
+^pisiltik/pisiltik$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a33
+# text = Wan in, in yehwa n' tein xoxoktik, yon tein tikihtowa istak, istak..., e..., tomakilit.
+# text[orig] = Wa:n i:n, i:n yehwa n' tein xoxoktik, yo:n tein tikihtowa ista:k, ista:k..., e:..., tomakilit.
+# text[spa] = Y este es el verde, el que tú dices que es el <i>ista:ktomakilit<i>, el <i>ista:ktomakilit<i>.
+# labels = a33 sentence
+^Wan/Wan$
+^in/in$
+^,/,$
+^in/in$
+^yehwa/yehwa$
+^n'/n'$
+^tein/tein$
+^xoxoktik/xoxoktik$
+^,/,$
+^yon/yon$
+^tein/tein$
+^tikihtowa/tikihtowa$
+^istak/istak$
+^,/,$
+^istak/istak$
+^.../...$
+^,/,$
+^e.../e...$
+^,/,$
+^tomakilit/tomakilit$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a34
+# text = Wan morado tomakilit yeh,
+# text[orig] = Wa:n *morado** tomakilit yeh,
+# text[spa] = Y el <i>mora:dohtomakilit<i> es
+# labels = a34 fragment
+^Wan/Wan$
+^morado/morado$
+^tomakilit/tomakilit$
+^yeh/yeh$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a35
+# text = yon se kixmati porque telmetswehwei wan,
+# text[orig] = yo:n se: ki:xmati *porque** telmetswehwei wa:n,
+# text[spa] = ese se reconoce luego porque tiene los tallos muy grandes y,
+# labels = a35 fragment
+^yon/yon$
+^se/se$
+^kixmati/kixmati$
+^porque/porque$
+^telmetswehwei/telmetswehwei$
+^wan/wan$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a36
+# text = wan i..., iixko xoxoktik nen tomakilit.
+# text[orig] = wa:n i..., ii:xko xoxoktik ne:n tomakilit.
+# text[spa] = y el haz de las hojas son verdes.
+# labels = a36 fragment
+^wan/wan$
+^i.../i...$
+^,/,$
+^iixko/iixko$
+^xoxoktik/xoxoktik$
+^nen/nen$
+^tomakilit/tomakilit$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a37
+# text = Wan imatampa, imatampa ya ompa moradito.
+# text[orig] = Wa:n ima:tampa, ima:tampa ya ompa *moradito**.
+# text[spa] = Y el envés, el envés de la hoja es morado.
+# labels = a37 sentence
+^Wan/Wan$
+^imatampa/imatampa$
+^,/,$
+^imatampa/imatampa$
+^ya/ya$
+^ompa/ompa$
+^moradito/moradito$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a38
+# text = Yehwa yon tikiliah que morado n' tomakilit.
+# text[orig] = Yehwa yo:n tikiliah *que morado** n' tomakilit.
+# text[spa] = Es ese al que le llamamos <i>mora:dohtomakilit<i>.
+# labels = a38 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^tikiliah/tikiliah$
+^que/que$
+^morado/morado$
+^n'/n'$
+^tomakilit/tomakilit$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a39
+# text = Wan ixochio no iwki sah nen ihistak.
+# text[orig] = Wa:n ixo:chio no: iwki sah ne:n ihista:k.
+# text[spa] = Y la flor también es blanca.
+# labels = a39 sentence
+^Wan/Wan$
+^ixochio/ixochio$
+^no/no$
+^iwki/iwki$
+^sah/sah$
+^nen/nen$
+^ihistak/ihistak$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a40
+# text = Pero tepitsin sah mopata, de moradito xochitsin yeh.
+# text[orig] = Pero tepitsi:n sah mopata, de *moradito** xo:chitsí:n yeh.
+# text[spa] = Pero la diferencia solo es un poco, la flor es un poco morada.
+# labels = a40 sentence
+^Pero/Pero$
+^tepitsin/tepitsin$
+^sah/sah$
+^mopata/mopata$
+^,/,$
+^de/de$
+^moradito/moradito$
+^xochitsin/xochitsin$
+^yeh/yeh$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a41
+# text = Tepitsin moradito, tepitsin, amo semi san ke..., tepitsin sah.
+# text[orig] = Tepitsi:n *moradito**, tepitsi:n, a:mo semi san ke:..., tepitsi:n sah.
+# text[spa] = Torna a ser un poco morada, un poco, no es tanto, sólo es un poco.
+# labels = a41 sentence
+^Tepitsin/Tepitsin$
+^moradito/moradito$
+^,/,$
+^tepitsin/tepitsin$
+^,/,$
+^amo/amo$
+^semi/semi$
+^san/san$
+^ke.../ke...$
+^,/,$
+^tepitsin/tepitsin$
+^sah/sah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a42
+# text = Wan no igual n' iteyo, no iwki kemeh, kemeh xoxoktik, iwki kemeh istak tomakilit tikilwiah,
+# text[orig] = Wa:n no: *igual** n' iteyo, no: iwki ke:meh, ke:meh xoxoktik, iwki ke:meh ista:k tomakilit tikilwiah,
+# text[spa] = Y también los frutos, también son como el de <i>xoxoktomakilit<i>, así son también al del <i>ista:ktomakilit<i>,
+# labels = a42 fragment
+^Wan/Wan$
+^no/no$
+^igual/igual$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^no/no$
+^iwki/iwki$
+^kemeh/kemeh$
+^,/,$
+^kemeh/kemeh$
+^xoxoktik/xoxoktik$
+^,/,$
+^iwki/iwki$
+^kemeh/kemeh$
+^istak/istak$
+^tomakilit/tomakilit$
+^tikilwiah/tikilwiah$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a43
+# text = no iwki n' i..., iteyo, de selik no xoxoktik wan de chikawaya morado mochiwa wan
+# text[orig] = no: iwki n' i..., iteyo, de selik no: xoxoktik wa:n de chika:waya *morado** mochi:wa wa:n
+# text[spa] = cuando el fruto está tierno también son verdes y cuando de arecian tornan a ser morados y
+# labels = a43 fragment
+^no/no$
+^iwki/iwki$
+^n'/n'$
+^i.../i...$
+^,/,$
+^iteyo/iteyo$
+^,/,$
+^de/de$
+^selik/selik$
+^no/no$
+^xoxoktik/xoxoktik$
+^wan/wan$
+^de/de$
+^chikawaya/chikawaya$
+^morado/morado$
+^mochiwa/mochiwa$
+^wan/wan$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a44
+# text = yeh kachi wehwei n' iteyo, nen kapolin.
+# text[orig] = yeh kachi wehwei n' iteyo, ne:n kapolin.
+# text[spa] = ese, los capulines son más grandes.
+# labels = a44 fragment
+^yeh/yeh$
+^kachi/kachi$
+^wehwei/wehwei$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^nen/nen$
+^kapolin/kapolin$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45
+# text = Tepitsin wehweitsitsin. Yehwa ika mopata que morado.
+# text[orig] = Tepitsi:n wehweitsitsi:n. Yehwa ika mopata *que morado**.
+# text[spa] = Son un poco más grandes. Esa es la diferencia, es morada.
+# labels = a45 sentence
+^Tepitsin/Tepitsin$
+^wehweitsitsin/wehweitsitsin$
+^./.$
+^Yehwa/Yehwa$
+^ika/ika$
+^mopata/mopata$
+^que/que$
+^morado/morado$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a46
+# text = Kemah wan in xoxok..., in tikiliah, este, weikowtahtomakilit,
+# text[orig] = Ke:mah wa:n i:n xoxok..., i:n tikiliah, *este**, we:ikowtahtomakilit,
+# text[spa] = Sí y el verde, éste le llamamos, este, <i>we:ikowtahtomakilit<i>,
+# labels = a46 fragment
+^Kemah/Kemah$
+^wan/wan$
+^in/in$
+^xoxok/xoxok$
+^.../...$
+^,/,$
+^in/in$
+^tikiliah/tikiliah$
+^,/,$
+^este/este$
+^,/,$
+^weikowtahtomakilit/weikowtahtomakilit$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a48
+# text = yeh xoxoktik nochi. Nochipa xoxoktik kemeh iixko, kemeh imaikan
+# text[orig] = yeh xoxoktik nochi. Nochipa xoxoktik ke:meh ii:xko, ke:meh ima:i:ka:n
+# text[spa] = ese, todo es verde. Siempre es verde como en el haz tanto el envés.
+# labels = a48 fragment
+^yeh/yeh$
+^xoxoktik/xoxoktik$
+^nochi/nochi$
+^./.$
+^Nochipa/Nochipa$
+^xoxoktik/xoxoktik$
+^kemeh/kemeh$
+^iixko/iixko$
+^,/,$
+^kemeh/kemeh$
+^imaikan/imaikan$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a49
+# text = wan tepitsin kowyohpihpitsawak, amo tomawak n' ikowyo.
+# text[orig] = wa:n tepitsi:n kowyohpihpitsa:wak, a:mo toma:wak n' ikowyo.
+# text[spa] = Y el tallo es un poco delgado, los tallos no son gruesos.
+# labels = a49 fragment
+^wan/wan$
+^tepitsin/tepitsin$
+^kowyohpihpitsawak/kowyohpihpitsawak$
+^,/,$
+^amo/amo$
+^tomawak/tomawak$
+^n'/n'$
+^ikowyo/ikowyo$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a50
+# text = Wan no iwki nen tomakilit, sayoh ti..., tepitsin medio maweweyak tepitsin wan de t...,
+# text[orig] = Wa:n no: iwki ne:n tomakilit, sayoh ti..., tepitsi:n *medio** mawe:weyak tepitsi:n wa:n de t...,
+# text[spa] = Y también son así el <i>tomakilit<i> sólo que las hojas son un poco alargadas y de ...,
+# labels = a50 fragment
+^Wan/Wan$
+^no/no$
+^iwki/iwki$
+^nen/nen$
+^tomakilit/tomakilit$
+^,/,$
+^sayoh/sayoh$
+^ti.../ti...$
+^,/,$
+^tepitsin/tepitsin$
+^medio/medio$
+^maweweyak/maweweyak$
+^tepitsin/tepitsin$
+^wan/wan$
+^de/de$
+^t.../t...$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a51
+# text = yekapanweweyak tikihtokan yon, yon weikowtah tomakilit, pero yeh xoxoktik.
+# text[orig] = ye:kapanwewe:yak tikihto:ka:n yo:n, yo:n we:ikowtah tomakilit, pero yeh xoxoktik.
+# text[spa] = son puntiagudas, digamos ese, ese, el <i>we:ikowtahtomakilit<i>, pero ese es verde.
+# labels = a51 fragment
+^yekapanweweyak/yekapanweweyak$
+^tikihtokan/tikihtokan$
+^yon/yon$
+^,/,$
+^yon/yon$
+^weikowtah/weikowtah$
+^tomakilit/tomakilit$
+^,/,$
+^pero/pero$
+^yeh/yeh$
+^xoxoktik/xoxoktik$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a52
+# text = Pero no iwki welik kemeh, kemeh tomakilit in seki,
+# text[orig] = Pero no: iwki we:lik ke:meh, ke:meh tomakilit i:n seki,
+# text[spa] = Pero también es sabroso como, como el otro tipo de <i>tomakilit<i>,
+# labels = a52 fragment
+^Pero/Pero$
+^no/no$
+^iwki/iwki$
+^welik/welik$
+^kemeh/kemeh$
+^,/,$
+^kemeh/kemeh$
+^tomakilit/tomakilit$
+^in/in$
+^seki/seki$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a53
+# text = tepitsin kipata sah nen, nen
+# text[orig] = tepitsi:n kipata sah ne:n, ne:n
+# text[spa] = solo cambia un poco este, este,
+# labels = a53 fragment
+^tepitsin/tepitsin$
+^kipata/kipata$
+^sah/sah$
+^nen/nen$
+^,/,$
+^nen/nen$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a54
+# text = iahwiakka kemeh,
+# text[orig] = iahwia:kka ke:meh,
+# text[spa] = el sabor como el,
+# labels = a54 fragment
+^iahwiakka/iahwiakka$
+^kemeh/kemeh$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a55
+# text = mahya tikihtokan, xomeahwiak, pero, pero welik no n' tomakilit, welik no.
+# text[orig] = mahyá: tikihto:ka:n, xo:me:ahwia:k, pero, pero we:lik no: n' tomakilit, we:lik no:.
+# text[spa] = digamos que tiene el aroma del sauco pero, pero también es sabroso el <i>tomakilit<i>, también es sabroso.
+# labels = a55 fragment
+^mahya/mahya$
+^tikihtokan/tikihtokan$
+^,/,$
+^xomeahwiak/xomeahwiak$
+^,/,$
+^pero/pero$
+^,/,$
+^pero/pero$
+^welik/welik$
+^no/no$
+^n'/n'$
+^tomakilit/tomakilit$
+^,/,$
+^welik/welik$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a56
+# text = Yeh no welik.
+# text[orig] = Yeh no: we:lik.
+# text[spa] = Ese también es sabroso.
+# labels = a56 sentence
+^Yeh/Yeh$
+^no/no$
+^welik/welik$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57
+# text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
+# text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah. Ke:mah.
+# text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más. Sí.
+# labels = a57 sentence
+^Pero/Pero$
+^kemeh/kemeh$
+^nikan/nikan$
+^tehwan/tehwan$
+^pos/pos$
+^onkak/onkak$
+^n'/n'$
+^tein/tein$
+^seki/seki$
+^,/,$
+^pos/pos$
+^amo/amo$
+^t'chiwah/t'chiwah$
+^cuenta/cuenta$
+^de/de$
+^kowtah/kowtah$
+^./.$
+^Tehwan/Tehwan$
+^tikwah/tikwah$
+^de/de$
+^in/in$
+^seki/seki$
+^moraditos/moraditos$
+^,/,$
+^mas/mas$
+^tikweliliah/tikweliliah$
+^./.$
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58
+# text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
+# text[orig] = Tepitsi:n tohtoma:wak. Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. Yehwa yo:n *morado**.
+# text[spa] = Son un poco más gruesas. Las hojas son anchas, las hojas son más anchas, son un poco más redondas. Así es el morado.
+# labels = a58 sentence
+^Tepitsin/Tepitsin$
+^tohtomawak/tohtomawak$
+^./.$
+^Mapatawak/Mapatawak$
+^n'/n'$
+^imay/imay$
+^,/,$
+^mapapatawak/mapapatawak$
+^mas/mas$
+^achi/achi$
+^yewaltik/yewaltik$
+^achi/achi$
+^n'/n'$
+^imay/imay$
+^,/,$
+^imawan/imawan$
+^./.$
+^Yehwa/Yehwa$
+^yon/yon$
+^morado/morado$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a60
+# text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.
+# text[orig] = Ke:mah, wa:n i:n xoxoktik tepitsi:n ma:tsikitsitsi:n, achi ma:pihpisi:ltik tikihto:ka:n.
+# text[spa] = Sí, y el verde, las hojas son más pequeñas, digamos que las hojas son más pequeñas.
+# labels = a60 sentence
+^Kemah/Kemah$
+^,/,$
+^wan/wan$
+^in/in$
+^xoxoktik/xoxoktik$
+^tepitsin/tepitsin$
+^matsikitsitsin/matsikitsitsin$
+^,/,$
+^achi/achi$
+^mapihpisiltik/mapihpisiltik$
+^tikihtokan/tikihtokan$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a61
+# text = Kemah, pero
+# text[orig] = Ke:mah, pero
+# text[spa] = Sí, pero
+# labels = a61 fragment
+^Kemah/Kemah$
+^,/,$
+^pero/pero$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a62
+# text = e.., mas telwelik, nen, kemeh ome taman yon tein tatoktah mochiwa,
+# text[orig] = e:.., *más** telwe:lik, ne:n, ke:meh o:me taman yo:n tein tato:ktah mochi:wa,
+# text[spa] = es más sabroso, este, como son dos tipos de los que crecen en los terrenos de cultivo,
+# labels = a62 fragment
+^e/e$
+^../..$
+^,/,$
+^mas/mas$
+^telwelik/telwelik$
+^,/,$
+^nen/nen$
+^,/,$
+^kemeh/kemeh$
+^ome/ome$
+^taman/taman$
+^yon/yon$
+^tein/tein$
+^tatoktah/tatoktah$
+^mochiwa/mochiwa$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a63
+# text = nochi iwki welik n' tomakilit, kemeh xoxoktik, kemeh morado, nochi igual welik.
+# text[orig] = nochi iwki we:lik n' tomakilit, ke:meh xoxoktik, ke:meh *morado**, nochi *igual** we:lik.
+# text[spa] = Todos son sabroso, tanto <i>xoxoktomakilit<i> y el <i>mora:dohtomakilit<i>, todos son sabrosos.
+# labels = a63 fragment
+^nochi/nochi$
+^iwki/iwki$
+^welik/welik$
+^n'/n'$
+^tomakilit/tomakilit$
+^,/,$
+^kemeh/kemeh$
+^xoxoktik/xoxoktik$
+^,/,$
+^kemeh/kemeh$
+^morado/morado$
+^,/,$
+^nochi/nochi$
+^igual/igual$
+^welik/welik$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a64
+# text = Tepitsin kipata de welik de weikowtah tomakilit, yon kemah tepitsin kipata.
+# text[orig] = Tepitsi:n kipata de we:lik de we:ikowtah tomakilit, yo:n ke:mah tepitsi:n kipata.
+# text[spa] = El que sabe un poco diferente es el <i>we:ikowtahtomakilit<i>, ese sí, el sabor es diferente.
+# labels = a64 sentence
+^Tepitsin/Tepitsin$
+^kipata/kipata$
+^de/de$
+^welik/welik$
+^de/de$
+^weikowtah/weikowtah$
+^tomakilit/tomakilit$
+^,/,$
+^yon/yon$
+^kemah/kemah$
+^tepitsin/tepitsin$
+^kipata/kipata$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a65
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a65 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a68
+# text = De nikan, de nikawin mochiwa,
+# text[orig] = De nika:n, de nika:wí:n mochi:wa,
+# text[spa] = El de aquí, el que crece por aquí,
+# labels = a68 fragment
+^De/De$
+^nikan/nikan$
+^,/,$
+^de/de$
+^nikawin/nikawin$
+^mochiwa/mochiwa$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a70
+# text = kampa tatokah.
+# text[orig] = ka:mpa tato:kah.
+# text[spa] = en los terrenos de cultivo.
+# labels = a70 fragment
+^kampa/kampa$
+^tatokah/tatokah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73
+# text = Aja. Nikahkwin amo kixmatih porque amo onkak.
+# text[orig] = Ajá. Nikahkwí:n a:mo ki:xmatih *porque** a:mo onkak.
+# text[spa] = Aha. Aquí no lo conocen porque no lo hay.
+# labels = a73 sentence
+^Aja/Aja$
+^./.$
+^Nikahkwin/Nikahkwin$
+^amo/amo$
+^kixmatih/kixmatih$
+^porque/porque$
+^amo/amo$
+^onkak/onkak$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a75
+# text = N' tehwan tikmattokeh porque newin kowtah ay tinemih, tikixmatih kowtah tomakilit.
+# text[orig] = N' tehwa:n tikmattokeh *porque** ne:wí:n kowtah ay tinemih, tiki:xmatih kowtah tomakilit.
+# text[spa] = Nosotros lo sabemos porque como andamos allá en el monte, conocemos al <i>kowtahtomakilit<i>.
+# labels = a75 sentence
+^N'/N'$
+^tehwan/tehwan$
+^tikmattokeh/tikmattokeh$
+^porque/porque$
+^newin/newin$
+^kowtah/kowtah$
+^ay/ay$
+^tinemih/tinemih$
+^,/,$
+^tikixmatih/tikixmatih$
+^kowtah/kowtah$
+^tomakilit/tomakilit$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a76
+# text = Ompa moch..., ompa mochiwa, mochiwa sah, amo, amo kitokah yon, mochiwa sah.
+# text[orig] = Ompa moch..., ompa mochi:wa, mochi:wa sah, a:mo, a:mo kito:kah yo:n, mochi:wa sah.
+# text[spa] = Ahí crece, ahí crece, crece por sí sola, no, ese no lo siembran, crece por sí sola.
+# labels = a76 sentence
+^Ompa/Ompa$
+^moch/moch$
+^.../...$
+^,/,$
+^ompa/ompa$
+^mochiwa/mochiwa$
+^,/,$
+^mochiwa/mochiwa$
+^sah/sah$
+^,/,$
+^amo/amo$
+^,/,$
+^amo/amo$
+^kitokah/kitokah$
+^yon/yon$
+^,/,$
+^mochiwa/mochiwa$
+^sah/sah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
+# text = No s..., no se kikwa, se kikwa no.
+# text[orig] = No: s..., no: se: kikwa, se: kikwa no:.
+# text[spa] = También, también es comestible, también es comestible.
+# labels = a78 sentence
+^No/No$
+^s.../s...$
+^,/,$
+^no/no$
+^se/se$
+^kikwa/kikwa$
+^,/,$
+^se/se$
+^kikwa/kikwa$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a79
+# text = No welik kemeh in se, tepitsin kipata sabor, porque de, mahya tikihtokan cimarron,
+# text[orig] = No: we:lik ke:meh i:n se:, tepitsi:n kipata *sabor, porque de**, mahyá: tikihto:ka:n *cimarrón**,
+# text[spa] = También es sabroso como este otro, cambia un poco de sabor porque digamos que es cimarrón,
+# labels = a79 fragment
+^No/No$
+^welik/welik$
+^kemeh/kemeh$
+^in/in$
+^se/se$
+^,/,$
+^tepitsin/tepitsin$
+^kipata/kipata$
+^sabor/sabor$
+^,/,$
+^porque/porque$
+^de/de$
+^,/,$
+^mahya/mahya$
+^tikihtokan/tikihtokan$
+^cimarron/cimarron$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a80
+# text = cimarron tomakilit pero yek..., tikwah n' tehwan. Kemah.
+# text[orig] = *cimarrón** tomakilit** pero ye:k..., tikwah n' tehwa:n. Ke:mah.
+# text[spa] = este <i>tomakilit<i> es cimarrón pero nosotros nos lo comemos. Sí.
+# labels = a80 fragment
+^cimarron/cimarron$
+^tomakilit/tomakilit$
+^pero/pero$
+^yek/yek$
+^.../...$
+^,/,$
+^tikwah/tikwah$
+^n'/n'$
+^tehwan/tehwan$
+^./.$
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a81
+# text = Welik, amo teh..., amo tepahwih nion tei.
+# text[orig] = We:lik, a:mo teh..., a:mo te:pahwih nió:n tei.
+# text[spa] = Es sabroso, no, no es tóxico, no causa nada.
+# labels = a81 sentence
+^Welik/Welik$
+^,/,$
+^amo/amo$
+^teh/teh$
+^.../...$
+^,/,$
+^amo/amo$
+^tepahwih/tepahwih$
+^nion/nion$
+^tei/tei$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a83
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a83 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a85
+# text = Neh notokay Ernesto Vazquez Chanico,
+# text[orig] = Neh noto:ka:y Ernesto Vázquez Chanico,
+# text[spa] = Mi nombre es Ernesto Vázquez Chanico,
+# labels = a85 fragment
+^Neh/Neh$
+^notokay/notokay$
+^Ernesto/Ernesto$
+^Vazquez/Vazquez$
+^Chanico/Chanico$
+^,/,$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a86
+# text = de Tzinacapan, San Miguel Tzinacapan.
+# text[orig] = de Tzinacapan, San Miguel Tzinacapan.
+# text[spa] = de Tzinacapan, San Miguel Tzinacapan.
+# labels = a86 fragment
+^de/de$
+^Tzinacapan/Tzinacapan$
+^,/,$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^./.$
+

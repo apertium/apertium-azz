@@ -740,6 +740,31 @@
 9	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	7	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
+# text = No s..., no se kikwa, se kikwa no.
+# text[orig] = No: s..., no: se: kikwa, se: kikwa no:.
+# text[spa] = También, también es comestible, también es comestible.
+# labels = a78 sentence
+1	No	no	ADV	_	_	4	reparandum	_	_
+2	s...	s	X	_	_	5	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	no	no	ADV	_	_	6	advmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	parataxis	_	_
+10	no	no	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a83
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a83 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a55
 # text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?
 # text[orig] = I:n iteyotsi:n, ¿se: kikwa *o** teihsá: se: kichi:wilia?
