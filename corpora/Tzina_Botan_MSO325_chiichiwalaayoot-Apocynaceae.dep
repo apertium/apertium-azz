@@ -551,10 +551,8 @@
 "<n'>"
 	"in" det
 ;	"nik" x REMOVE:41
-"<kichi>"
-	"*kichi"
-"<...>"
-	"..." sent
+"<kichi...>"
+	"kichi" x
 "<,>"
 	"," cm
 "<keniw>"
@@ -1150,7 +1148,7 @@
 "<,>"
 	"," cm
 "<chikawtok>"
-	"*chikawtok"
+	"chikahuaya" v iv prog pres s_sg3
 "<,>"
 	"," cm
 
@@ -1359,10 +1357,8 @@
 "<kampa>"
 	"kampa" adv rel
 	"kampa" n rel
-"<tana>"
-	"*tana"
-"<...>"
-	"..." sent
+"<tana...>"
+	"tana" x
 "<,>"
 	"," cm
 "<tanamakaloyan>"

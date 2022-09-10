@@ -1642,11 +1642,18 @@ majmaxalohua:ma%{j%}maxalo                          V-SO-PRET ;
 majmaxalohua:ma%{j%}maxalo                          V-SO-FUTR ;
 
 ! ""
-pepechohua:pepechohua                               V-SO-PRES ;
-pepechohua:pepechohua                               V-SO-IMPF ;
-pepechohua:pepechohua                               V-SO-PROG ;
-pepechohua:pepecho                                  V-SO-PRET ;
-pepechohua:pepecho                                  V-SO-FUTR ;
+pejpepechohua:pejpepechohua                         V-SO-PRES ;
+pejpepechohua:pejpepechohua                         V-SO-IMPF ;
+pejpepechohua:pejpepechohua                         V-SO-PROG ;
+pejpepechohua:pejpepecho                            V-SO-PRET ;
+pejpepechohua:pejpepecho                            V-SO-FUTR ;
+
+! ""
+pepechohua:pe%{j%}pechohua                          V-SO-PRES ;
+pepechohua:pe%{j%}pechohua                          V-SO-IMPF ;
+pepechohua:pe%{j%}pechohua                          V-SO-PROG ;
+pepechohua:pe%{j%}pecho                             V-SO-PRET ;
+pepechohua:pe%{j%}pecho                             V-SO-FUTR ;
 
 ! ""
 pampilohua:pampilohua                               V-SO-PRES ;
@@ -2040,11 +2047,19 @@ pipitsa:pipitsa                                     V-SO-PRET ;
 pipitsa:pipitsa                                     V-SO-FUTR ;
 
 ! ""
-ololchihua:ololchihua                                    V-SO-PRES ;
-ololchihua:ololchihua                                    V-SO-IMPF ;
-ololchihua:ololchi                                       V-SO-PROG ;
-ololchihua:ololchi                                       V-SO-PRET ;
-ololchihua:ololchi                                       V-SO-FUTR ;
+ololchihua:ololchihua                               V-SO-PRES ;
+ololchihua:ololchihua                               V-SO-IMPF ;
+ololchihua:ololchi                                  V-SO-PROG ;
+ololchihua:ololchi                                  V-SO-PRET ;
+ololchihua:ololchi                                  V-SO-FUTR ;
+
+! ""
+texima:texima                                       V-SO-PRES ;
+texima:texima                                       V-SO-IMPF ;
+texima:texima                                       V-SO-PROG ;
+texima:texima                                       V-SO-PRET ;
+texima:texima                                       V-SO-FUTR ;
+
 
 ! ""
 aketsa:aketsa                                       V-SO-PRES ;
@@ -3951,6 +3966,22 @@ yolpolihui:yolpolihui                                 V-S-PROG ; ! "desesperarse
 yolpolihui:yolpolihui                                 V-S-PRET ; ! "desesperarse"
 yolpolihui:yolpolihui                                 V-S-FUTR ; ! "desesperarse"
 
+! ""
+tsojtsotsoltia:tso%{j%}tsotsoltia                     V-S-PRES ; ! ""
+tsojtsotsoltia:tso%{j%}tsotsoltia                     V-S-IMPF ; ! ""
+tsojtsotsoltia:tso%{j%}tsotsoltia                     V-S-PROG ; ! ""
+tsojtsotsoltia:tso%{j%}tsotsolti                      V-S-PRET ; ! ""
+tsojtsotsoltia:tso%{j%}tsotsoltia                     V-S-FUTR ; ! ""
+
+
+! ""
+tsotsoltia:tsotsoltia                                 V-S-PRES ; ! ""
+tsotsoltia:tsotsoltia                                 V-S-IMPF ; ! ""
+tsotsoltia:tsotsoltia                                 V-S-PROG ; ! ""
+tsotsoltia:tsotsoltia                                 V-S-PRET ; ! ""
+tsotsoltia:tsotsoltia                                 V-S-FUTR ; ! ""
+
+
 ! "prender"
 milini:milini                                         V-S-PRES ; ! ""
 milini:milini                                         V-S-IMPF ; ! ""
@@ -3958,7 +3989,15 @@ milini:milini                                         V-S-PROG ; ! ""
 milini:milini                                         V-S-PRET ; ! ""
 milini:milini                                         V-S-FUTR ; ! ""
 
+! ""
+chikahuaya:chikahuaya                                 V-S-PRES ; ! ""
+chikahuaya:chikahuaya                                 V-S-IMPF ; ! ""
+chikahuaya:chikahu                                    V-S-PROG ; ! ""
+chikahuaya:chikahuaya                                 V-S-PRET ; ! ""
+chikahuaya:chikahuaya                                 V-S-FUTR ; ! ""
 
+
+! ""
 yolsahuani:yolsahuani                                 V-S-PRES ; ! ""
 yolsahuani:yolsahuani                                 V-S-IMPF ; ! ""
 yolsahuani:yolsahuani                                 V-S-PROG ; ! ""
@@ -4097,7 +4136,9 @@ nikil%<x%>:ni%>ki%>l                               FALSE ;
 nimo%<x%>:ni%>mo                                   FALSE ; 
 tikim%<x%>:ti%>kim                                 FALSE ; 
 chi%<x%>:chi                                       FALSE ; 
+tana%<x%>:tana                                     FALSE ; 
 tinech%<x%>:ti%>nech                               FALSE ; 
+kichi%<x%>:ki%>chi                                 FALSE ; 
 te%<x%>:te                                         FALSE ;
 ch%<x%>:ch                                         FALSE ;
 c%<x%>:c                                           FALSE ;
@@ -4786,7 +4827,8 @@ tajkhuilolxochit:tajkhuilol%>xochi                  N-TL ; ! ""
 piokuitakohuit:pio%>kuita%>ko                       N-HUITL ; ! ""
 ayakachkohuit:ayakach%>ko                           N-HUITL ; ! ""
 huajkalkohuit:huajkal%>ko                           N-HUITL ; ! ""
-hueikohuit:huei%>ko                                 N-HUITL ; ! ""
+chichihualayokowit:chichihualayo%>ko                N-HUITL ; ! ""
+hueikohuit:huei%>ko                                 N-HUITL ; ! "" 
 huejhueikohuit:huejhuei%>ko                         N-HUITL ; ! ""
 huitsikikohuit:huitsiki%>ko                         N-HUITL ; ! ""
 iyakohuit:iya%>ko                                   N-HUITL ; ! ""
@@ -5762,6 +5804,7 @@ nexwitil:nexwitil                                   N-Ø ; ! "empacho"
 ajuiaya:ajuiaya                                     N-Ø ; ! "fragrancia"
 kosantsin:kosantsin                                 N-Ø ; ! "arcoiris"
 kalnemachtiloyan:kalnemachtiloyan                   N-OYAN ; ! "escuela"
+tanamakaloyan:tanamakaloyan                         N-OYAN ; ! "tienda"
 kaltapajtiloyan:kaltapajtiloyan                     N-OYAN ; ! "hospital"
 kaltapajtilnemachtil:kaltapajtilnemachtil           N-Ø ; ! ""
 chipahuakat:chipahuak%>a                            N-TL ; ! "agua simple"
@@ -5943,6 +5986,7 @@ selontsin:selontsin                                 ADJ-TSIN ; ! "tiernitos"
 
 mahuejuei:mahuejuei                                 ADJ ; ! "con hojas grandes"
 metsuehueyak:metsuehueyak                           ADJ ; ! ""
+tenkoyoktik:tenkoyoktik                             ADJ ; ! ""
 
 ololtik:ololtik                                     ADJ ; ! "esférico"
 
