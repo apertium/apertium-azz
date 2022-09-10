@@ -573,6 +573,10 @@ LEXICON COP
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON NO-POSS
+
+@D.POSS@:@D.POSS@                                  # ;
+
 LEXICON N-REL
 
 @R.POSS.1@%<n%>%<rel%>:@R.POSS.1@                  # ;
@@ -585,7 +589,7 @@ LEXICON N-LOC
 
 LEXICON N-TL 
 
-%<n%>%<abs%>:%>t                                   # ;
+%<n%>%<abs%>:%>t                                   NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
@@ -594,7 +598,7 @@ LEXICON N-TL
 
 LEXICON N-TLI
 
-%<n%>%<abs%>:%>ti                                  # ;
+%<n%>%<abs%>:%>ti                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
@@ -603,7 +607,7 @@ LEXICON N-TLI
 
 LEXICON N-Ø
 
-%<n%>%<abs%>:%>                                    # ;
+%<n%>%<abs%>:%>                                    NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
@@ -612,7 +616,7 @@ LEXICON N-Ø
 
 LEXICON N-OYAN
 
-%<n%>%<abs%>:                                      # ;
+%<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
@@ -622,7 +626,7 @@ LEXICON N-OYAN
 
 LEXICON N-ITL
 
-%<n%>%<abs%>:%>it                                  # ;
+%<n%>%<abs%>:%>it                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
@@ -631,7 +635,7 @@ LEXICON N-ITL
 
 LEXICON N-LI
 
-%<n%>%<abs%>:%>i                                   # ;
+%<n%>%<abs%>:%>i                                   NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
@@ -640,7 +644,7 @@ LEXICON N-LI
 
 LEXICON N-IN
 
-%<n%>%<abs%>:%>in                                  # ;
+%<n%>%<abs%>:%>in                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
@@ -649,7 +653,7 @@ LEXICON N-IN
 
 LEXICON N-YO
 
-%<n%>%<abs%>:                                      # ;
+%<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
@@ -658,7 +662,7 @@ LEXICON N-YO
 
 LEXICON N-NI
 
-%<n%>%<abs%>:                                      # ;
+%<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
@@ -667,7 +671,7 @@ LEXICON N-NI
 
 LEXICON N-HUITL
 
-%<n%>%<abs%>:%>huit                                # ;
+%<n%>%<abs%>:%>huit                                NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:u%>tsin                               # ;
 %<n%>%<hon%>:ui%>tsin                              # ;
@@ -678,7 +682,7 @@ LEXICON N-HUITL
 
 LEXICON N-HUAN
 
-%<n%>%<abs%>:n                                     # ;
+%<n%>%<abs%>:n                                     NO-POSS ;
 %<n%>:                                             N-POSS ;
 %<n%>%<hon%>:n%>tsin                               # ;
 %<n%>%<pl%>:%>j                                    # ;

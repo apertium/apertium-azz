@@ -1224,3 +1224,15 @@
 2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a56
+# text = ¿Wan itakka kan welik?
+# text[orig] = ¿Wa:n ita:kka ka:n we:lik?
+# text[spa] = ¿Y los frutos no son comestibles?
+# labels = a56 sentence complete
+1	¿	¿	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Wan	huan	CCONJ	_	_	5	cc	_	_
+3	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+4	kan	kan	ADV	_	_	5	advmod	_	_
+5	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
