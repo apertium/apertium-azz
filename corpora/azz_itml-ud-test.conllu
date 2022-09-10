@@ -1161,6 +1161,22 @@
 10	seki	seki	PRON	_	_	7	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a112 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:3
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm,
+# labels = a112 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:1
 # text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota.
 # text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.

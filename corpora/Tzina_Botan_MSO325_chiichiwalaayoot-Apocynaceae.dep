@@ -654,7 +654,7 @@
 "<ekintsin>"
 	"ekintsin" adv @advmod
 "<maski>"
-	"maski" cnjsub
+	"maski" cnjsub @mark
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -665,7 +665,7 @@
 "<no>"
 	"no" adv @advmod
 "<kwaltia>"
-	"kualtia" v iv pres s_sg3
+	"kualtia" v iv pres s_sg3 @root
 "<?>"
 	"?" sent @punct
 
@@ -2157,9 +2157,9 @@
 	"." sent @punct
 
 "<Mm>"
-	"mm" ij
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a97
 # text = N..., kemah, amo ta kwaltia, yehwa yon kikwiah ne keman, pero pos neli aman amo kikwih yehwa ok.
@@ -2626,35 +2626,39 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112
-# text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
-# text[orig] = Mm. Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. Mm.
-# text[spa] = Mm, así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. Mm.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:1
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm.
 # labels = a112 sentence
 "<Mm>"
-	"mm" ij
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:2
+# text =  Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. 
+# text[orig] =  Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. 
+# text[spa] = así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. 
+# labels = a112 sentence
 "<Ihkwin>"
-	"ijkuin" adv
+	"ijkuin" adv @advmod #1->2
 "<kichiwah>"
-	"chihua" v tv pres s_pl3 o_sg3
-	"chihua" v tv pret s_sg3 o_sg3
+	"chihua" v tv pres s_pl3 o_sg3 @root #2->0
 "<ololtsini>"
 	"*ololtsini"
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->2
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #5->9
 "<ke...>"
-	"ke" x
+	"ke" x @reparandum #6->9
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->9
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #8->9
 "<kikwiah>"
-	"kui" v tv impf s_pl3 o_sg3
+	"kui" v tv impf s_pl3 o_sg3 @conj #9->2
 "<seki>"
 	"seki" det
 	"seki" prn
@@ -2665,8 +2669,7 @@
 	"keman" adv
 "<pos>"
 	"pos" adv
- '
-"<kwiah>"
+"<'kwiah>"
 	"kui" v tv impf s_pl3 o_sg3
 "<nochi>"
 	"nochi" det
@@ -2675,8 +2678,6 @@
 	"onka" v iv impf s_sg3
 "<tilmah>"
 	"tilmaj" n abs
-;	"tilmaj" n abs s_pl3 REMOVE:29
-;	"tilmaj" n abs s_sg3 REMOVE:29
 "<de>"
 	"de" pr
 "<yon>"
@@ -2707,10 +2708,15 @@
 "<.>"
 	"." sent @punct
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:3
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm, 
+# labels = a112 sentence
 "<Mm>"
-	"mm" ij
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:1
 # text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota.
@@ -2846,10 +2852,12 @@
 	"." sent @punct
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a116
-# text = Neh iwki yon n'mattok ipa, pero yehwa n'mattok tein kwaltia solamente manta,
-# text[orig] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**,
-# text[spa] = Yo sé de esa manera, pues eso sé que sirve solamente la manta,
-# labels = a116 fragment
+# text = Neh iwki yon n'mattok ipa, pero yehwa n'mattok tein kwaltia solamente manta, oso yehwa n' tein popelinatilmah.
+# text[orig] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**, oso yehwa n' tein *popeli:natilmah**.
+# text[spa] = Yo sé de esa manera, pues eso sé que sirve solamente la manta, o la tela de popelina.
+# text[a116] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**,
+# text[a117] = oso yehwa n' tein *popeli:natilmah**.
+# labels = a116 a117
 "<Neh>"
 	"nehua" prn pers sg1 short
 "<iwki>"
@@ -2869,9 +2877,9 @@
 "<pero>"
 	"pero" cnjcoo @cc
 "<yehwa>"
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @obj
 "<n'mattok>"
-	"mati" v tv prog pres s_sg1 o_sg3
+	"mati" v tv prog pres s_sg1 o_sg3 @conj
 "<tein>"
 	"tein" prn
 "<kwaltia>"
@@ -2882,23 +2890,16 @@
 	"manta" n f sg
 "<,>"
 	"," cm @punct
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a117
-# text = oso yehwa n' tein popelinatilmah.
-# text[orig] = oso yehwa n' tein *popeli:natilmah**.
-# text[spa] = o la tela de popelina.
-# labels = a117 fragment
 "<oso>"
 	"oso" cnjcoo @cc
 "<yehwa>"
 	"yehua" prn pers sg3
 "<n'>"
 	"in" det
-;	"nik" x REMOVE:41
 "<tein>"
 	"tein" prn
 "<popelinatilmah>"
-	"*popelinatilmah"
+	"popelinatilmaj" n abs
 "<.>"
 	"." sent @punct
 
