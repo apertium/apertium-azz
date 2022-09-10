@@ -1224,6 +1224,55 @@
 2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a42
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a42 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a46
+# text = Amo.
+# text[orig] = A:mo.
+# text[spa] = No.
+# labels = a46 sentence
+1	Amo	amo	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a63
+# text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.
+# text[orig] = Neh nimono:tsa niMaría Salazar Osollo, niwi:tsa de San Miguel.
+# text[spa] = Yo me llamo María Salazar Osollo, vengo de San Miguel.
+# labels = a63 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	niMaria	María	NOUN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	obj	_	_
+4	Salazar	Salazar	NOUN	_	_	3	flat	_	_
+5	Osollo	Osollo	NOUN	_	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	San	San	NOUN	_	_	7	obl	_	_
+10	Miguel	Miguel	NOUN	_	Gender=Masc	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a51
+# text = ¿komo se kitoka kaltsintan no mochiwa?
+# text[orig] = ¿komo se: kito:ka kaltsi:ntan no: mochi:wa?
+# text[spa] = ¿Y si acaso se siembra cerca de la casa, crecerá?
+# labels = a51 sentence
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	komo	komo	ADV	_	_	4	advmod	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5-6	kaltsintan	_	_	_	_	_	_	_	_
+5	kal	kali	NOUN	_	_	4	obl	_	_
+6	tsintan	tsintan	NOUN	_	NounType=Relat	5	compound	_	_
+7	no	no	ADV	_	_	8	advmod	_	_
+8	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	parataxis	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a56
 # text = ¿Wan itakka kan welik?
 # text[orig] = ¿Wa:n ita:kka ka:n we:lik?

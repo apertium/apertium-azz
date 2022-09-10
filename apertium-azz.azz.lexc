@@ -565,7 +565,8 @@ LEXICON COP-KATKA
 LEXICON COP
 %<cop%>:%{j%}%>to%>k                               V-AGR-PRET ;
 %<cop%>%<impf%>:%>to%>ya                           V-AGR-PRES ;
-%<cop%>%<fut%>:%>to%>s                             V-AGR-FUTR ;
+%<cop%>%<fut%>:%>ski                               V-AGR-PRES ; 
+%<cop%>%<prog%>%<fut%>:%>to%>s                     V-AGR-FUTR ;
 %<cop%>%<prog%>%<cni%>:%>to%>s%>ki%{y%}a           V-AGR-PRES ;
 %<cop%>%<cni%>:%>ski%{y%}a                         V-AGR-PRES ;
 %<cop%>%<opt%>:%>tok%>an                           # ;
