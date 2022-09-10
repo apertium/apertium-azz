@@ -138,7 +138,7 @@
 # text = Pos pane yehwa sah, neh, neh amo, nejon,
 # text[orig] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
 # text[spa] = Pues parece que es todo, yo, yo no..., este,
-# labels = a74 fragment
+# labels = a74 a75 a76
 ^Pos/Pos$
 ^pane/pane$
 ^yehwa/yehwa$
@@ -151,17 +151,10 @@
 ^,/,$
 ^nejon/nejon$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a75
-# text = neh no nikitani ix..., in kowit pero amo n..., amo,
-# text[orig] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
-# text[spa] = yo también he visto este árbol pero no..., no,
-# labels = a75 fragment
 ^neh/neh$
 ^no/no$
 ^nikitani/nikitani$
-^ix/ix$
-^.../...$
+^ix.../ix...$
 ^,/,$
 ^in/in$
 ^kowit/kowit$
@@ -172,12 +165,6 @@
 ^,/,$
 ^amo/amo$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a76
-# text = amo nikmatia ox ika tapepechowah.
-# text[orig] = a:mo nikmatia ox ika tapepechowah.
-# text[spa] = no sabía si lo usan como pegamento.
-# labels = a76 fragment
 ^amo/amo$
 ^nikmatia/nikmatia$
 ^ox/ox$

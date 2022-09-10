@@ -806,6 +806,47 @@
 6	kaketsa	aketsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	6	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a74
+# text = Pos pane yehwa sah, neh, neh amo, nejon, neh no nikitani ix..., in kowit pero amo n..., amo, amo nikmatia ox ika tapepechowah.
+# text[orig] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n, neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo, a:mo nikmatia ox ika tapepechowah.
+# text[spa] = Pues parece que es todo, yo, yo no..., este, yo también he visto este árbol pero no..., no, no sabía si lo usan como pegamento.
+# text[a74] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
+# text[a75] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
+# text[a76] = a:mo nikmatia ox ika tapepechowah.
+# labels = a74 a75 a76
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	pane	pane	ADV	_	_	3	advmod	_	_
+3	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+4	sah	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	15	punct	_	_
+6	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	13	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	13	reparandum	_	_
+9	amo	amo	INTJ	_	_	8	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	nejon	nejon	INTJ	_	_	15	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	15	nsubj	_	_
+14	no	no	ADV	_	_	15	advmod	_	_
+15	nikitani	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Past	3	parataxis	_	_
+16	ix...	ix	X	_	_	18	reparandum	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	in	in	DET	_	_	19	det	_	_
+19	kowit	kohuit	NOUN	_	Case=Abs	15	obj	_	_
+20	pero	pero	CCONJ	_	_	28	cc	_	_
+21	amo	amo	ADV	_	_	22	advmod	_	_
+22	n	in	DET	_	_	28	reparandum	_	SpaceAfter=No
+23	...	...	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	amo	amo	ADV	_	_	27	reparandum	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	amo	amo	ADV	_	_	28	advmod	_	_
+28	nikmatia	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	15	conj	_	_
+29	ox	ox	SCONJ	_	_	31	mark	_	_
+30	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	31	obl	_	_
+31	tapepechowah	pepechohua	VERB	_	Animacy[obj]=Inan|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	28	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a77
 # text = Ne..., tikihtowa que in, nen, kow..., kowit ichokilo, kwali ika kipepechowah keman kichiwah globos.
 # text[orig] = Ne:..., tikihtowa *que** i:n, ne:n, kow..., kowit icho:kilo, kwali ika kipepechowah ke:man kichi:wah *globos**.
@@ -1012,6 +1053,18 @@
 # labels = a91 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a104
+# text = Kikwih yon gas.
+# text[orig] = Kikwih yo:n *gas**.
+# text[spa] = Usan el gas.
+# labels = a104 sentence
+1	Kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2-3	yon	_	_	_	_	_	_	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	1	obj	_	_
+3	n	in	DET	_	_	4	acl:relcl	_	_
+4	gas	gas	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a107
 # text = Wan yowi hasta ahko.
