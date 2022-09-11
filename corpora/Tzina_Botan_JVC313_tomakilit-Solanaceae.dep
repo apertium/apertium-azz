@@ -2077,7 +2077,7 @@
 "<de>"
 	"de" pr @case #7->8
 "<Tzinacapan>"
-	"Tzinacapan" np top @obl #8->2
+	"Tzinacapan" np top @obl #8->3
 "<,>"
 	"," cm @punct #9->10
 "<San>"

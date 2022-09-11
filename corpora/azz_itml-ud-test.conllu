@@ -363,8 +363,8 @@
 # text = Próxima Centauri B
 # text[spa] = Próxima Centauri B
 # labels = complete
-1	Próxima	Próxima	NOUN	_	_	0	root	_	_
-2	Centauri	Centauri	NOUN	_	_	1	flat	_	_
+1	Próxima	Próxima	PROPN	_	_	0	root	_	_
+2	Centauri	Centauri	PROPN	_	_	1	flat	_	_
 3	B	B	X	_	_	1	flat	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:45
@@ -424,8 +424,8 @@
 15	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	ccomp	_	_
 16	nemilis	nemilis	NOUN	_	Case=Abs	15	obj	_	_
 17	(	(	_	_	_	18	punct	_	SpaceAfter=No
-18	Próxima	Próxima	NOUN	_	_	8	parataxis	_	_
-19	Centauri	Centauri	NOUN	_	_	18	flat	_	_
+18	Próxima	Próxima	PROPN	_	_	8	parataxis	_	_
+19	Centauri	Centauri	PROPN	_	_	18	flat	_	_
 20	B	B	X	_	_	18	flat	_	SpaceAfter=No
 21	)	)	_	_	_	18	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
@@ -696,8 +696,8 @@
 # text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
 # text[spa] = Próxima Centauri B: planeta que gira alrededor de Próxima Centauri.
 # labels = complete
-1	Próxima	Próxima	NOUN	_	_	0	root	_	_
-2	centauri	Centauri	NOUN	_	_	1	flat	_	_
+1	Próxima	Próxima	PROPN	_	_	0	root	_	_
+2	centauri	Centauri	PROPN	_	_	1	flat	_	_
 3	B	B	X	_	_	1	flat	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	7	punct	_	_
 5	ne	ne	DET	_	_	7	det	_	_
@@ -706,16 +706,16 @@
 8	teyin	tein	PRON	_	_	9	nsubj	_	_
 9	moliniya	molinia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	acl:relcl	_	_
 10	inakastan	nakastan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
-11	Próxima	Próxima	NOUN	_	_	10	nmod	_	_
-12	Centauri	Centauri	NOUN	_	_	11	flat	_	SpaceAfter=No
+11	Próxima	Próxima	PROPN	_	_	10	nmod	_	_
+12	Centauri	Centauri	PROPN	_	_	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:116
 # text = Próxima Centauri: sitalin teyin kinetechojtok ne tonal.
 # text[spa] = Próxima Centauri: estrella más cercana a nuestro sol.
 # labels = complete
-1	Próxima	Próxima	NOUN	_	_	0	root	_	_
-2	Centauri	Centauri	NOUN	_	_	1	flat	_	SpaceAfter=No
+1	Próxima	Próxima	PROPN	_	_	0	root	_	_
+2	Centauri	Centauri	PROPN	_	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	4	punct	_	_
 4	sitalin	sitalin	NOUN	_	Case=Abs	1	parataxis	_	_
 5	teyin	tein	PRON	_	_	6	nsubj	_	_
@@ -874,16 +874,16 @@
 # labels = a85 a86 fragment
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	dislocated	_	_
 2	notokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
-3	Ernesto	Ernesto	NOUN	_	Gender=Masc	0	root	_	_
-4	Vazquez	Vázquez	NOUN	_	_	3	flat	_	_
-5	Chanico	Chanico	NOUN	_	_	3	flat	_	SpaceAfter=No
+3	Ernesto	Ernesto	PROPN	_	Gender=Masc	0	root	_	_
+4	Vazquez	Vázquez	PROPN	_	_	3	flat	_	_
+5	Chanico	Chanico	PROPN	_	_	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	Tzinacapan	Tzinacapan	NOUN	_	_	2	obl	_	SpaceAfter=No
+8	Tzinacapan	Tzinacapan	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	San	San	NOUN	_	_	8	appos	_	_
-11	Miguel	Miguel	NOUN	_	Gender=Masc	10	flat	_	_
-12	Tzinacapan	Tzinacapan	NOUN	_	_	10	flat	_	SpaceAfter=No
+10	San	San	PROPN	_	_	8	appos	_	_
+11	Miguel	Miguel	PROPN	_	Gender=Masc	10	flat	_	_
+12	Tzinacapan	Tzinacapan	PROPN	_	_	10	flat	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a55
@@ -1351,14 +1351,14 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	aja	aja	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	niMaria	María	NOUN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	parataxis	_	_
-7	Salazar	Salazar	NOUN	_	_	6	flat	_	_
-8	Osollo	Osollo	NOUN	_	_	6	flat	_	SpaceAfter=No
+6	niMaria	María	PROPN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	parataxis	_	_
+7	Salazar	Salazar	PROPN	_	_	6	flat	_	_
+8	Osollo	Osollo	PROPN	_	_	6	flat	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	San	San	NOUN	_	_	10	obl	_	_
-13	Miguel	Miguel	NOUN	_	Gender=Masc	12	flat	_	SpaceAfter=No
+12	San	San	PROPN	_	_	10	obl	_	_
+13	Miguel	Miguel	PROPN	_	Gender=Masc	12	flat	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a122
@@ -1393,14 +1393,14 @@
 # labels = a63 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
-3	niMaria	María	NOUN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	obj	_	_
-4	Salazar	Salazar	NOUN	_	_	3	flat	_	_
-5	Osollo	Osollo	NOUN	_	_	3	flat	_	SpaceAfter=No
+3	niMaria	María	PROPN	_	Gender=Fem|Number[subj]=Sing|Person[subj]=1	2	obj	_	_
+4	Salazar	Salazar	PROPN	_	_	3	flat	_	_
+5	Osollo	Osollo	PROPN	_	_	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	San	San	NOUN	_	_	7	obl	_	_
-10	Miguel	Miguel	NOUN	_	Gender=Masc	9	flat	_	SpaceAfter=No
+9	San	San	PROPN	_	_	7	obl	_	_
+10	Miguel	Miguel	PROPN	_	Gender=Masc	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a51
