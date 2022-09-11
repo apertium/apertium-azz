@@ -5364,6 +5364,8 @@ tonalmeyot:tonal%>meyo                              N-TL ; ! "energía solar"
 tapajtilnemachtil:tapajtilnemachtil                 N-Ø ; ! "investigación médica" ! FIXME: Comprobar lema
 
 mes:mes                                             N-SPA-LUGAR ; ! "mes"
+azúcar:azúcar                                       N-SPA-LUGAR ; ! ""
+azúcar:azúcar                                       N-Ø ; ! ""
 
 
 peso:peso%{j%}                                      N-Ø ; ! "peso"
