@@ -376,13 +376,19 @@
 ^iteyotsin/iteyotsin$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:1
 # text = Kemah. Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
 # text[orig] = Ke:mah. Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
 # text[spa] = Sí. Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
 # labels = a32 sentence
 ^Kemah/Kemah$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:2
+# text = Kemah. Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
+# text[orig] = Ke:mah. Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
+# text[spa] = Sí. Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
+# labels = a32 sentence
 ^Wan/Wan$
 ^semi/semi$
 ^kanawak/kanawak$
@@ -602,7 +608,7 @@
 ^kapolin/kapolin$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:1
 # text = Tepitsin wehweitsitsin. Yehwa ika mopata que morado.
 # text[orig] = Tepitsi:n wehweitsitsi:n. Yehwa ika mopata *que morado**.
 # text[spa] = Son un poco más grandes. Esa es la diferencia, es morada.
@@ -610,6 +616,12 @@
 ^Tepitsin/Tepitsin$
 ^wehweitsitsin/wehweitsitsin$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:2
+# text = Tepitsin wehweitsitsin. Yehwa ika mopata que morado.
+# text[orig] = Tepitsi:n wehweitsitsi:n. Yehwa ika mopata *que morado**.
+# text[spa] = Son un poco más grandes. Esa es la diferencia, es morada.
+# labels = a45 sentence
 ^Yehwa/Yehwa$
 ^ika/ika$
 ^mopata/mopata$

@@ -659,45 +659,47 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32
-# text = Kemah. Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
-# text[orig] = Ke:mah. Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
-# text[spa] = Sí. Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:1
+# text = Kemah. 
+# text[orig] = Ke:mah. 
+# text[spa] = Sí. 
 # labels = a32 sentence
 "<Kemah>"
-	"kemaj" ij
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:2
+# text = Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
+# text[orig] = Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
+# text[spa] = Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
+# labels = a32 sentence
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #1->3
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #2->3
 "<kanawak>"
-	"kanahuak" adj
-	"kanahuak" adj s_sg3
+	"kanahuak" adj s_sg3 @root #3->0
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #4->5
 "<iewayo>"
-	"ehuayo" n px3sg
+	"ehuayo" n px3sg @nsubj #5->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->8
 "<se>"
-	"se" num
+	"se" num @nsubj #7->8
 "<kimapitsinia>"
-	"*kimapitsinia"
+	"mapitsinia" v tv pres s_sg3 o_sg3 @parataxis #8->3
 "<yek>"
-	"yek" adv
+	"yek" adv @advmod #9->10
 "<pisiltik>"
-	"pisiltik" adj
-	"pisiltik" adj s_sg3
+	"pisiltik" adj s_sg3 @parataxis #10->3
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #11->12
 "<iteyo>"
-	"teyo" n px3sg
+	"teyo" n px3sg @nsubj #12->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->3
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a33
 # text = Wan in, in yehwa n' tein xoxoktik, yon tein tikihtowa istak, istak..., e..., tomakilit.
@@ -880,21 +882,21 @@
 # text[spa] = Y la flor también es blanca.
 # labels = a39 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->7
 "<ixochio>"
-	"xochiot" n px3sg 
+	"xochiot" n px3sg @dislocated #2->7
 "<no>"
-	"no" adv
+	"no" adv @advmod #3->7
 "<iwki>"
-	"iuki" adv
+	"iuki" adv @advmod #4->7
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #5->7
 "<nen>"
-	"nen" prn
+	"nen" prn @nsubj #6->7
 "<ihistak>"
-	"ijistak" adj s_sg3
+	"ijistak" adj s_sg3 @root #7->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->7
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a40
 # text = Pero tepitsin sah mopata, de moradito xochitsin yeh.
@@ -902,25 +904,25 @@
 # text[spa] = Pero la diferencia solo es un poco, la flor es un poco morada.
 # labels = a40 sentence
 "<Pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #1->4
 "<tepitsin>"
-	"tepitsin" adv @advmod
+	"tepitsin" adv @advmod #2->4
 "<sah>"
-	"saj" adv @advmod
+	"saj" adv @advmod #3->4
 "<mopata>"
-	"ita" v tv pres s_sg3 o_ref pan @root
+	"ita" v tv pres s_sg3 o_ref pan @root #4->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->7
 "<de>"
-	"de" pr @case
+	"de" pr @case #6->7
 "<moradito>"
-	"morado" adj dim m sg @nmod
+	"morado" adj dim m sg @parataxis #7->4
 "<xochitsin>"
-	"xochit" n hon @parataxis
+	"xochit" n hon @nsubj #8->7
 "<yeh>"
-	"yehua" prn pers sg3 short @nsubj
+	"yehua" prn pers sg3 short @cop #9->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->4
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a41
 # text = Tepitsin moradito, tepitsin, amo semi san ke..., tepitsin sah.
@@ -928,35 +930,31 @@
 # text[spa] = Torna a ser un poco morada, un poco, no es tanto, sólo es un poco.
 # labels = a41 sentence
 "<Tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #1->2
 "<moradito>"
-	"morado" adj dim m sg
-	"morado" adj dim m sg s_sg3
-;	"morado" adj dim m sg s_pl3 REMOVE:39
+	"morado" adj dim m sg s_sg3 @root #2->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->2
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @parataxis #4->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->8
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #6->8
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #7->8
 "<san>"
-	"san" n abs
-	"san" n abs s_sg3
-;	"san" n abs s_pl3 REMOVE:39
+	"san" adv @parataxis #8->2
 "<ke...>"
-	"ke" x
+	"ke" x @reparandum #9->11
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->11
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #11->12
 "<sah>"
-	"saj" adv
+	"saj" adv @parataxis #12->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->2
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a42
 # text = Wan no igual n' iteyo, no iwki kemeh, kemeh xoxoktik, iwki kemeh istak tomakilit tikilwiah,
@@ -1090,29 +1088,33 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45
-# text = Tepitsin wehweitsitsin. Yehwa ika mopata que morado.
-# text[orig] = Tepitsi:n wehweitsitsi:n. Yehwa ika mopata *que morado**.
-# text[spa] = Son un poco más grandes. Esa es la diferencia, es morada.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:1
+# text = Tepitsin wehweitsitsin. 
+# text[orig] = Tepitsi:n wehweitsitsi:n. 
+# text[spa] = Son un poco más grandes. 
 # labels = a45 sentence
 "<Tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #1->2
 "<wehweitsitsin>"
-	"*wehweitsitsin"
+	"huejhuei" adj hon pl s_sg3 @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:2
+# text = Yehwa ika mopata que morado.
+# text[orig] = Yehwa ika mopata *que morado**.
+# text[spa] = Esa es la diferencia, es morada.
+# labels = a45 sentence
 "<Yehwa>"
 	"yehua" prn pers sg3
 "<ika>"
 	"ka" n rel px3sg
 "<mopata>"
-	"ita" v tv pres s_sg3 o_ref pan
+	"pata" v tv pres s_sg3 o_ref @root
 "<que>"
-	"que" cnjsub
+	"que" cnjsub @mark
 "<morado>"
-	"morado" adj m sg
-	"morado" adj m sg s_sg3
-;	"morado" adj m sg s_pl3 REMOVE:39
+	"morado" adj m sg s_sg3 @advcl
 "<.>"
 	"." sent @punct
 

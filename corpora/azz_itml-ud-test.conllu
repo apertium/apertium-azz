@@ -873,6 +873,91 @@
 3	motokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:1
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a32 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:2
+# text = Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
+# text[orig] = Wa:n semi kana:wak n' ie:wayo, se: kima:pitsi:nia ye:k pisi:ltik n' iteyo.
+# text[spa] = Y la cascarita es muy delgada, uno lo machaca con las manos y las semillas son muy pequeñas.
+# labels = a32 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	kanawak	kanahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	n'	in	DET	_	_	5	det	_	_
+5	iewayo	ehuayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	kimapitsinia	mapitsinia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+9	yek	yek	ADV	_	Incorporated=Yek	10	advmod	_	_
+10	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	parataxis	_	_
+11	n'	in	DET	_	_	12	det	_	_
+12	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a39
+# text = Wan ixochio no iwki sah nen ihistak.
+# text[orig] = Wa:n ixo:chio no: iwki sah ne:n ihista:k.
+# text[spa] = Y la flor también es blanca.
+# labels = a39 sentence
+1	Wan	huan	CCONJ	_	_	7	cc	_	_
+2	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	dislocated	_	_
+3	no	no	ADV	_	_	7	advmod	_	_
+4	iwki	iuki	ADV	_	_	7	advmod	_	_
+5	sah	saj	ADV	_	_	7	advmod	_	_
+6	nen	nen	PRON	_	_	7	nsubj	_	_
+7	ihistak	ijistak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a40
+# text = Pero tepitsin sah mopata, de moradito xochitsin yeh.
+# text[orig] = Pero tepitsi:n sah mopata, de *moradito** xo:chitsí:n yeh.
+# text[spa] = Pero la diferencia solo es un poco, la flor es un poco morada.
+# labels = a40 sentence
+1	Pero	pero	CCONJ	_	_	4	cc	_	_
+2	tepitsin	tepitsin	ADV	_	_	4	advmod	_	_
+3	sah	saj	ADV	_	_	4	advmod	_	_
+4	mopata	ita	VERB	_	Incorporated=Pan|Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	moradito	morado	ADJ	_	Deriv=Dim|Gender=Masc|Number=Sing	4	parataxis	_	_
+8	xochitsin	xochit	NOUN	_	Polite=Form	7	nsubj	_	_
+9	yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	7	cop	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a41
+# text = Tepitsin moradito, tepitsin, amo semi san ke..., tepitsin sah.
+# text[orig] = Tepitsi:n *moradito**, tepitsi:n, a:mo semi san ke:..., tepitsi:n sah.
+# text[spa] = Torna a ser un poco morada, un poco, no es tanto, sólo es un poco.
+# labels = a41 sentence
+1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
+2	moradito	morado	ADJ	_	Deriv=Dim|Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	tepitsin	tepitsin	ADV	_	_	2	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	amo	amo	ADV	_	_	8	advmod	_	_
+7	semi	semi	ADV	_	_	8	advmod	_	_
+8	san	san	ADV	_	_	2	parataxis	_	_
+9	ke...	ke	X	_	_	11	reparandum	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	tepitsin	tepitsin	ADV	_	_	12	advmod	_	_
+12	sah	saj	ADV	_	_	2	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:1
+# text = Tepitsin wehweitsitsin.
+# text[orig] = Tepitsi:n wehweitsitsi:n.
+# text[spa] = Son un poco más grandes.
+# labels = a45 sentence
+1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
+2	wehweitsitsin	huejhuei	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a56
 # text = Yeh no welik.
 # text[orig] = Yeh no: we:lik.

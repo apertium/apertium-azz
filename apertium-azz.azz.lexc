@@ -858,6 +858,11 @@ LEXICON ADJ-REDUP
 %<adj%>%<redup%>%<hon%>:%>tsin                     V-AGR-PRET ; 
 %<adj%>%<redup%>%<hon%>%<pl%>:%>tsi%>tsin          V-AGR-PRET ; 
 
+LEXICON ADJ-HUEI
+%<adj%>:%>i                                        V-AGR-PRET ; 
+%<adj%>%<hon%>:i%>tsin                             V-AGR-PRET ; 
+%<adj%>%<hon%>%<pl%>:i%>tsi%>tsin                  V-AGR-PRET ; 
+
 LEXICON ADJ-KUALI
 %<adj%>:%>i                                        V-AGR-PRET ; 
 %<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
@@ -2094,6 +2099,21 @@ aketsa:aketsa                                       V-SO-IMPF ;
 aketsa:aketsa                                       V-SO-PROG ;
 aketsa:aketsa                                       V-SO-PRET ;
 aketsa:aketsa                                       V-SO-FUTR ;
+
+! "machacar"
+pitsinia:pitsinia                                   V-SO-PRES ;
+pitsinia:pitsinia                                   V-SO-IMPF ;
+pitsinia:pitsinia                                   V-SO-PROG ;
+pitsinia:pitsinia                                   V-SO-PRET ;
+pitsinia:pitsinia                                   V-SO-FUTR ;
+
+! "machacar con las manos"
+mapitsinia:ma%>pitsinia                             V-SO-PRES ;
+mapitsinia:ma%>pitsinia                             V-SO-IMPF ;
+mapitsinia:ma%>pitsinia                             V-SO-PROG ;
+mapitsinia:ma%>pitsinia                             V-SO-PRET ;
+mapitsinia:ma%>pitsinia                             V-SO-FUTR ;
+
 
 
 
@@ -4921,7 +4941,6 @@ esti:es                                             N-TLI ; ! "sangre"
 poyek:poyek                                         N-Ø ; ! "salado"
 nesi:nesi                                           N-Ø ; ! "aparecer"
 kahua:kahua                                         N-Ø ; ! "dejar"
-san:san                                             N-Ø ; ! "solamente"
 tokait:tokai                                        N-TL ; ! "nombre"
 tentok:tentok                                       N-Ø ; ! "regado"
 taixkal:taixkal                                     N-Ø ; ! "asado"
@@ -5070,7 +5089,6 @@ tanemililis:tanemililis                             N-Ø ; ! "pensamiento"
 takual:takual                                       N-Ø ; ! "comida"
 tachijchiu:tachijchiu                               N-Ø ; ! "preparado"
 pojpolokotik:pojpolokotik                           N-Ø ; ! "raquítico"
-pitsinia:pitsinia                                   N-Ø ; ! "estrellar"
 oksentaman:oksentaman                               N-Ø ; ! "diferente"
 nekti:nek                                           N-TLI ; ! "miel"
 mayan:mayan                                         N-Ø ; ! "hambruna"
@@ -6007,7 +6025,7 @@ huejhuelik:hue%{j%}huelik                           ADJ-REDUP ; ! "bueno"
 kuali:kual                                          ADJ-KUALI ; ! "bonito"
 kuakuali:kua%{j%}kual                               ADJ-KUALI ; ! "bonito"
 huei:hue                                            ADJ-KUALI ; ! "grande"
-huehuei:hue%{j%}hue                                 ADJ-KUALI ; ! "grande"
+huejhuei:hue%{j%}hue                                ADJ-HUEI; ! "grande"
 huejueyin:hue%{j%}ueyin                             ADJ ; ! "grande"
 miak:miak                                           ADJ ; ! "mucho"
 tsiki:tsiki                                         ADJ ; ! "pequeño"
@@ -6249,7 +6267,7 @@ nikakuin:nika%{j%}kuin                              ADV ; ! "por aquí"
 
 ya:ya                                               ADV ; ! ""
 
-sa:sa                                               ADV ; ! ""
+san:sa%{n%}                                         ADV ; ! "sólo"
 saj:saj                                             ADV ; ! "sólo"
 ipa:ipa                                             ADV ; ! "sólo"
 
