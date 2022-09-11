@@ -1832,44 +1832,31 @@
 # text[spa] = Nosotros lo sabemos porque como andamos allá en el monte, conocemos al <i>kowtahtomakilit<i>.
 # labels = a75 sentence
 "<N'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #1->2
 "<tehwan>"
-	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa
+	"tehuan" prn pers pl1 abs @nsubj #2->3
 "<tikmattokeh>"
-	"mati" v tv prog pres s_pl1 o_sg3
+	"mati" v tv prog pres s_pl1 o_sg3 @root #3->0
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark #4->10
 "<newin>"
-	"nehuin" adv
-	"nejin" det
-	"nejin" prn
+	"nehuin" adv @advmod #5->8
 "<kowtah>"
-	"koutaj" n abs
-;	"koutaj" n abs s_pl3 REMOVE:29
-;	"koutaj" n abs s_sg3 REMOVE:29
+	"koutaj" n abs @obl #6->8
 "<ay>"
-	"ay" ij
+	"ay" adv @advmod #7->8
 "<tinemih>"
-	"nemi" v iv pres s_pl1
-	"nemi" v iv pret s_sg2
+	"nemi" v iv pres s_pl1 @advcl #8->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->10
 "<tikixmatih>"
-	"ixmati" v tv pres s_pl1 o_sg3
-	"ixmati" v tv pret s_sg2 o_sg3
+	"ixmati" v tv pres s_pl1 o_sg3 @parataxis #10->3
 "<kowtah>"
-	"koutaj" n abs
-;	"koutaj" n abs s_pl3 REMOVE:29
-;	"koutaj" n abs s_sg3 REMOVE:29
+	"koutaj" n abs @obj #11->10
 "<tomakilit>"
-	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3 REMOVE:29
-;	"tomakilit" n abs s_sg3 REMOVE:29
+	"tomakilit" n abs @compound #12->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->3
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a76
 # text = Ompa moch..., ompa mochiwa, mochiwa sah, amo, amo kitokah yon, mochiwa sah.
@@ -2084,21 +2071,21 @@
 "<Vazquez>"
 	"Vázquez" np cog @flat #4->3
 "<Chanico>"
-	"Chanico" np cog @flat #6->3
+	"Chanico" np cog @flat #5->3
 "<,>"
-	"," cm @punct #7->3
+	"," cm @punct #6->3
 "<de>"
-	"de" pr @case #8->9
+	"de" pr @case #7->8
 "<Tzinacapan>"
-	"Tzinacapan" np top @obl #9->2
+	"Tzinacapan" np top @obl #8->2
 "<,>"
-	"," cm @punct #10->11
+	"," cm @punct #9->10
 "<San>"
-	"San" np top @appos #11->9
+	"San" np top @appos #10->8
 "<Miguel>"
-	"Miguel" np ant m @flat #12->11
+	"Miguel" np ant m @flat #11->10
 "<Tzinacapan>"
-	"Tzinacapan" np top @flat #13->11
+	"Tzinacapan" np top @flat #12->10
 "<.>"
-	"." sent @punct #14->3
+	"." sent @punct #13->3
 

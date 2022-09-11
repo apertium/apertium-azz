@@ -821,6 +821,25 @@
 3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a75
+# text = N' tehwan tikmattokeh porque newin kowtah ay tinemih, tikixmatih kowtah tomakilit.
+# text[orig] = N' tehwa:n tikmattokeh *porque** ne:wí:n kowtah ay tinemih, tiki:xmatih kowtah tomakilit.
+# text[spa] = Nosotros lo sabemos porque como andamos allá en el monte, conocemos al <i>kowtahtomakilit<i>.
+# labels = a75 sentence
+1	N'	in	DET	_	_	2	det	_	_
+2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
+3	tikmattokeh	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	porque	porque	SCONJ	_	_	10	mark	_	_
+5	newin	nehuin	ADV	_	_	8	advmod	_	_
+6	kowtah	koutaj	NOUN	_	Case=Abs	8	obl	_	_
+7	ay	ay	ADV	_	_	8	advmod	_	_
+8	tinemih	nemi	VERB	_	Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	3	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	tikixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+11	kowtah	koutaj	NOUN	_	Case=Abs	10	obj	_	_
+12	tomakilit	tomakilit	NOUN	_	Case=Abs	11	compound	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
 # text = No s..., no se kikwa, se kikwa no.
 # text[orig] = No: s..., no: se: kikwa, se: kikwa no:.
@@ -845,6 +864,27 @@
 # labels = a83 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a85
+# text = Neh notokay Ernesto Vazquez Chanico, de Tzinacapan, San Miguel Tzinacapan.
+# text[orig] = Neh noto:ka:y Ernesto Vázquez Chanico, de Tzinapacan, San Miguel Tzinacapan.
+# text[spa] = Mi nombre es Ernesto Vázquez Chanico, de Tzinapacan, San Miguel Tzinacapan.
+# text[a85] = Neh noto:ka:y Ernesto Vázquez Chanico,
+# text[a86] = de Tzinacapan, San Miguel Tzinacapan.
+# labels = a85 a86 fragment
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	dislocated	_	_
+2	notokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+3	Ernesto	Ernesto	NOUN	_	Gender=Masc	0	root	_	_
+4	Vazquez	Vázquez	NOUN	_	_	3	flat	_	_
+5	Chanico	Chanico	NOUN	_	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Tzinacapan	Tzinacapan	NOUN	_	_	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	San	San	NOUN	_	_	8	appos	_	_
+11	Miguel	Miguel	NOUN	_	Gender=Masc	10	flat	_	_
+12	Tzinacapan	Tzinacapan	NOUN	_	_	10	flat	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a55
 # text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?

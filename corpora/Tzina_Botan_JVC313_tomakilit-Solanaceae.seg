@@ -1113,19 +1113,13 @@
 # text = Neh notokay Ernesto Vazquez Chanico,
 # text[orig] = Neh noto:ka:y Ernesto Vázquez Chanico,
 # text[spa] = Mi nombre es Ernesto Vázquez Chanico,
-# labels = a85 fragment
+# labels = a85 a86 fragment
 ^Neh/Neh$
 ^notokay/notokay$
 ^Ernesto/Ernesto$
 ^Vazquez/Vazquez$
 ^Chanico/Chanico$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a86
-# text = de Tzinacapan, San Miguel Tzinacapan.
-# text[orig] = de Tzinacapan, San Miguel Tzinacapan.
-# text[spa] = de Tzinacapan, San Miguel Tzinacapan.
-# labels = a86 fragment
 ^de/de$
 ^Tzinacapan/Tzinacapan$
 ^,/,$
