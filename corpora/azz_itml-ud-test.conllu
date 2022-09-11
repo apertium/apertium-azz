@@ -835,6 +835,24 @@
 4	kikwah	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a82
+# text = Pos semi kwali a tinechyolmelaw, porque neli amo nikmatia neh.
+# text[orig] = Pos semi kwali a tine:chyo:lmela:w, *porque** neli a:mo nikmatia neh.
+# text[spa] = Pues qué bueno que me hayas informado porque ciertamente no lo sabía.
+# labels = a82 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	a	a	INTJ	_	_	5	dep	_	_
+5	tinechyolmelaw	yolmela	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pret	3	csubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	porque	porque	SCONJ	_	_	10	mark	_	_
+8	neli	neli	ADV	_	_	10	advmod	_	_
+9	amo	amo	ADV	_	_	10	advmod	_	_
+10	nikmatia	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	3	advcl	_	_
+11	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:1
 # text = Tel miak tasohkamatik.
 # text[orig] = Tel miak tasohka:matik.

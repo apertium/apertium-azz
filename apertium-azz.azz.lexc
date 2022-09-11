@@ -2081,6 +2081,14 @@ texima:texima                                       V-SO-FUTR ;
 
 
 ! ""
+yolmela:yolmela                                     V-SO-PRES ;
+yolmela:yolmela                                     V-SO-IMPF ;
+yolmela:yolmela                                     V-SO-PROG ;
+yolmela:yolmela                                     V-SO-PRET ;
+yolmela:yolmela                                     V-SO-FUTR ;
+
+
+! ""
 aketsa:aketsa                                       V-SO-PRES ;
 aketsa:aketsa                                       V-SO-IMPF ;
 aketsa:aketsa                                       V-SO-PROG ;

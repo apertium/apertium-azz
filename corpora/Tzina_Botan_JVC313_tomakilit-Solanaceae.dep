@@ -368,31 +368,29 @@
 # text[spa] = Pues qué bueno que me hayas informado porque ciertamente no lo sabía.
 # labels = a82 sentence
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->3
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #2->3
 "<kwali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adj s_sg3 @root #3->0
 "<a>"
-	"a" ij
+	"a" ij @dep #4->5
 "<tinechyolmelaw>"
-	"*tinechyolmelaw"
+	"yolmela" v tv pret s_sg2 o_sg1 @csubj #5->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->10
 "<porque>"
-	"porque" cnjsub @mark
+	"porque" cnjsub @mark #7->10
 "<neli>"
-	"neli" adv @advmod
+	"neli" adv @advmod #8->10
 "<amo>"
-	"amo" adv @advmod
+	"amo" adv @advmod #9->10
 "<nikmatia>"
-	"mati" v tv impf s_sg1 o_sg3 @advcl
+	"mati" v tv impf s_sg1 o_sg3 @advcl #10->3
 "<neh>"
-	"nehua" prn pers sg1 short @nsubj
+	"nehua" prn pers sg1 short @nsubj #11->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->3
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:1
 # text = Tel miak tasohkamatik. 
