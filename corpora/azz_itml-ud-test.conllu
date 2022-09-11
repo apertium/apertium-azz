@@ -811,6 +811,16 @@
 3	motokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a56
+# text = Yeh no welik.
+# text[orig] = Yeh no: we:lik.
+# text[spa] = Ese también es sabroso.
+# labels = a56 sentence
+1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
+2	no	no	ADV	_	_	3	advmod	_	_
+3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
 # text = No s..., no se kikwa, se kikwa no.
 # text[orig] = No: s..., no: se: kikwa, se: kikwa no:.

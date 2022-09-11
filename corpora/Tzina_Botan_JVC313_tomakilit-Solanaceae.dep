@@ -13,15 +13,15 @@
 	"ne" adv
 	"ne" det
 "<,>"
-	"," cm
+	"," cm @punct
 "<in>"
 	"in" det
 "<tomakil>"
 	"*tomakil"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<in>"
 	"in" det
 "<tomakilit>"
@@ -39,7 +39,7 @@
 	"taman" n abs s_sg3
 ;	"taman" n abs s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
@@ -92,7 +92,7 @@
 	"tomakilit" n abs s_pl3
 	"tomakilit" n abs s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a22
 # text = keniwki n' ixochio, keniwki n' iteyo, keniwki n' ixiwyo, keniwki n' ikowyo.
@@ -107,7 +107,7 @@
 "<ixochio>"
 	"xochiot" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<keniwki>"
 	"keniuki" adv itg
 "<n'>"
@@ -116,7 +116,7 @@
 "<iteyo>"
 	"teyo" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<keniwki>"
 	"keniuki" adv itg
 "<n'>"
@@ -126,7 +126,7 @@
 	"xiuyo" n px3sg
 	"xiuyo" n pl px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<keniwki>"
 	"keniuki" adv itg
 "<n'>"
@@ -135,7 +135,7 @@
 "<ikowyo>"
 	"kouyo" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a23
 # text = Wan ox se kikwa wan kani mochiwa.
@@ -157,7 +157,7 @@
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a47
 # text = Tiki...
@@ -221,7 +221,7 @@
 "<tikinixmati>"
 	"ixmati" v tv pres s_sg2 o_pl3
 "<.>"
-	"." sent
+	"." sent @punct
 "<Neh>"
 	"nehua" prn pers sg1 short
 "<amo>"
@@ -229,17 +229,17 @@
 "<nikini>"
 	"*nikini"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<neh>"
 	"nehua" prn pers sg1 short
 "<nis>"
 	"*nis"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a67
 # text = nikixmattok n' tomakilit,
@@ -256,7 +256,7 @@
 ;	"tomakilit" n abs s_pl3 REMOVE:29
 ;	"tomakilit" n abs s_sg3 REMOVE:29
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a69
 # text = wan
@@ -310,7 +310,7 @@
 "<pos>"
 	"pos" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<nikmatia>"
@@ -323,7 +323,7 @@
 ;	"tataman" n abs s_pl3 REMOVE:29
 ;	"tataman" n abs s_sg3 REMOVE:29
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a74
 # text = N yon tein tikihtowa ne kowtah tomakilit amo keman nakin nikakiliaya.
@@ -359,7 +359,7 @@
 "<nikakiliaya>"
 	"kakilia" v tv impf s_sg1 o_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a77
 # text = ¿Wan miakeh kikwah?
@@ -395,7 +395,7 @@
 "<tinechyolmelaw>"
 	"*tinechyolmelaw"
 "<,>"
-	"," cm
+	"," cm @punct
 "<porque>"
 	"porque" cnjsub @mark
 "<neli>"
@@ -457,7 +457,7 @@
 	"ixmati" v tv pres s_pl1 o_sg3
 	"ixmati" v tv pret s_sg2 o_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a25
 # text = porque xoxoktik nochi n' iixko wan imaikan xoxoktik.
@@ -486,7 +486,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a26
 # text = Wan, nejon, i..., i..., ixochio,
@@ -496,23 +496,23 @@
 "<Wan>"
 	"huan" cnjcoo
 "<,>"
-	"," cm
+	"," cm @punct
 "<nejon>"
 	"nejon" prn
 "<,>"
-	"," cm
+	"," cm @punct
 "<i...>"
 	"i" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<i...>"
 	"i" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<ixochio>"
 	"xochiot" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a27
 # text = istak no wan tsiki..., tsikitsitsin, kan semi wehwei mochiwa n' ixochio.
@@ -531,14 +531,14 @@
 	"tsiki" adj
 	"tsiki" adj s_sg3
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<tsikitsitsin>"
 	"tsiki" adj hon pl
 	"tsiki" adj hon pl s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<kan>"
 	"kan" adv
 "<semi>"
@@ -554,7 +554,7 @@
 "<ixochio>"
 	"xochiot" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a28
 # text = Wan mochiwa ika racimito n' ixochiotsin,
@@ -562,22 +562,19 @@
 # text[spa] = Y las flores salen racimitos,
 # labels = a28 fragment
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl
 "<racimito>"
-	"racimito" n m sg
-;	"racimito" n m sg s_pl3 REMOVE:29
-;	"racimito" n m sg s_sg3 REMOVE:29
+	"racimito" n m sg @nmod
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det
 "<ixochiotsin>"
-	"xochiot" n hon px3sg
+	"xochiot" n hon px3sg @nsubj
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a29
 # text = wan, nejon, iteyo cuando xoxo..., cuando selik xoxoktik.
@@ -587,11 +584,11 @@
 "<wan>"
 	"huan" cnjcoo
 "<,>"
-	"," cm
+	"," cm @punct
 "<nejon>"
 	"nejon" prn
 "<,>"
-	"," cm
+	"," cm @punct
 "<iteyo>"
 	"teyo" n px3sg
 "<cuando>"
@@ -599,9 +596,9 @@
 "<xoxo>"
 	"*xoxo"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<cuando>"
 	"cuando" cnjsub
 "<selik>"
@@ -611,7 +608,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a30
 # text = Wan cuando chikawak ya, de kwali para se kitekilis a komo se kitokasneki,
@@ -628,7 +625,7 @@
 "<ya>"
 	"ya" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<de>"
 	"de" pr
 "<kwali>"
@@ -652,7 +649,7 @@
 	"toka" v tv fut s_sg3 o_sg3
 		"neki" vaux
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a31
 # text = e.., morado ya nen iteyotsin.
@@ -662,9 +659,9 @@
 "<e>"
 	"e" x
 "<..>"
-	".." sent
+	".." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<morado>"
 	"morado" adj m sg
 	"morado" adj m sg s_sg3
@@ -677,7 +674,7 @@
 "<iteyotsin>"
 	"teyo" n hon px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32
 # text = Kemah. Wan semi kanawak n' iewayo, se kimapitsinia yek pisiltik n' iteyo.
@@ -687,7 +684,7 @@
 "<Kemah>"
 	"kemaj" ij
 "<.>"
-	"." sent
+	"." sent @punct
 "<Wan>"
 	"huan" cnjcoo
 "<semi>"
@@ -701,7 +698,7 @@
 "<iewayo>"
 	"ehuayo" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<se>"
 	"se" num
 "<kimapitsinia>"
@@ -717,7 +714,7 @@
 "<iteyo>"
 	"teyo" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a33
 # text = Wan in, in yehwa n' tein xoxoktik, yon tein tikihtowa istak, istak..., e..., tomakilit.
@@ -729,7 +726,7 @@
 "<in>"
 	"in" det
 "<,>"
-	"," cm
+	"," cm @punct
 "<in>"
 	"in" det
 "<yehwa>"
@@ -743,7 +740,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -755,24 +752,24 @@
 	"istak" adj
 	"istak" adj s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<istak>"
 	"istak" adj
 	"istak" adj s_sg3
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<e...>"
 	"e" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<tomakilit>"
 	"tomakilit" n abs
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a34
 # text = Wan morado tomakilit yeh,
@@ -792,7 +789,7 @@
 "<yeh>"
 	"yehua" prn pers sg3 short
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a35
 # text = yon se kixmati porque telmetswehwei wan,
@@ -813,7 +810,7 @@
 "<wan>"
 	"huan" cnjcoo
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a36
 # text = wan i..., iixko xoxoktik nen tomakilit.
@@ -825,7 +822,7 @@
 "<i...>"
 	"i" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<iixko>"
 	"ixko" n rel px3sg
 "<xoxoktik>"
@@ -839,7 +836,7 @@
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a37
 # text = Wan imatampa, imatampa ya ompa moradito.
@@ -847,25 +844,23 @@
 # text[spa] = Y el envés, el envés de la hoja es morado.
 # labels = a37 sentence
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<imatampa>"
 	"mait" n cmp px3sg
-		"tampa" n rel
+		"tampa" n rel @compound
 "<,>"
-	"," cm
+	"," cm @punct
 "<imatampa>"
 	"mait" n cmp px3sg
-		"tampa" n rel
+		"tampa" n rel @compound
 "<ya>"
 	"ya" adv
 "<ompa>"
 	"ompa" adv
 "<moradito>"
 	"morado" adj dim m sg
-	"morado" adj dim m sg s_sg3
-;	"morado" adj dim m sg s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a38
 # text = Yehwa yon tikiliah que morado n' tomakilit.
@@ -894,7 +889,7 @@
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a39
 # text = Wan ixochio no iwki sah nen ihistak.
@@ -902,24 +897,21 @@
 # text[spa] = Y la flor también es blanca.
 # labels = a39 sentence
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<ixochio>"
-	"xochiot" n px3sg
+	"xochiot" n px3sg 
 "<no>"
 	"no" adv
-	"no" det
 "<iwki>"
 	"iuki" adv
 "<sah>"
 	"saj" adv
 "<nen>"
-	"nen" ij
 	"nen" prn
 "<ihistak>"
-	"ijistak" adj
 	"ijistak" adj s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a40
 # text = Pero tepitsin sah mopata, de moradito xochitsin yeh.
@@ -927,30 +919,25 @@
 # text[spa] = Pero la diferencia solo es un poco, la flor es un poco morada.
 # labels = a40 sentence
 "<Pero>"
-	"pero" cnjcoo
+	"pero" cnjcoo @cc
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod
 "<mopata>"
-	"pata" v tv pres s_sg3 o_ref
-	"ita" v tv pres s_sg3 o_ref pan
+	"ita" v tv pres s_sg3 o_ref pan @root
 "<,>"
-	"," cm
+	"," cm @punct
 "<de>"
-	"de" pr
+	"de" pr @case
 "<moradito>"
-	"morado" adj dim m sg
-	"morado" adj dim m sg s_sg3
-;	"morado" adj dim m sg s_pl3 REMOVE:39
+	"morado" adj dim m sg @nmod
 "<xochitsin>"
-	"xochit" n hon
-	"xochit" n hon s_sg3
-;	"xochit" n hon s_pl3 REMOVE:39
+	"xochit" n hon @parataxis
 "<yeh>"
-	"yehua" prn pers sg3 short
+	"yehua" prn pers sg3 short @nsubj
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a41
 # text = Tepitsin moradito, tepitsin, amo semi san ke..., tepitsin sah.
@@ -964,11 +951,11 @@
 	"morado" adj dim m sg s_sg3
 ;	"morado" adj dim m sg s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<tepitsin>"
 	"tepitsin" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<semi>"
@@ -980,13 +967,13 @@
 "<ke...>"
 	"ke" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<tepitsin>"
 	"tepitsin" adv
 "<sah>"
 	"saj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a42
 # text = Wan no igual n' iteyo, no iwki kemeh, kemeh xoxoktik, iwki kemeh istak tomakilit tikilwiah,
@@ -1006,7 +993,7 @@
 "<iteyo>"
 	"teyo" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<no>"
 	"no" adv
 	"no" det
@@ -1016,7 +1003,7 @@
 	"kemej" adv
 	"kemej" pr
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1024,7 +1011,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<iwki>"
 	"iuki" adv
 "<kemeh>"
@@ -1040,7 +1027,7 @@
 "<tikilwiah>"
 	"ilhuia" v tv pres s_pl1 i_sg3 o_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a43
 # text = no iwki n' i..., iteyo, de selik no xoxoktik wan de chikawaya morado mochiwa wan
@@ -1058,11 +1045,11 @@
 "<i...>"
 	"i" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<iteyo>"
 	"teyo" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<de>"
 	"de" pr
 "<selik>"
@@ -1109,7 +1096,7 @@
 "<iteyo>"
 	"teyo" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<nen>"
 	"nen" ij
 	"nen" prn
@@ -1118,7 +1105,7 @@
 	"kapolin" n abs s_sg3
 ;	"kapolin" n abs s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45
 # text = Tepitsin wehweitsitsin. Yehwa ika mopata que morado.
@@ -1130,13 +1117,12 @@
 "<wehweitsitsin>"
 	"*wehweitsitsin"
 "<.>"
-	"." sent
+	"." sent @punct
 "<Yehwa>"
 	"yehua" prn pers sg3
 "<ika>"
 	"ka" n rel px3sg
 "<mopata>"
-	"pata" v tv pres s_sg3 o_ref
 	"ita" v tv pres s_sg3 o_ref pan
 "<que>"
 	"que" cnjsub
@@ -1145,7 +1131,7 @@
 	"morado" adj m sg s_sg3
 ;	"morado" adj m sg s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a46
 # text = Kemah wan in xoxok..., in tikiliah, este, weikowtahtomakilit,
@@ -1161,24 +1147,24 @@
 "<xoxok>"
 	"*xoxok"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<in>"
 	"in" det
 "<tikiliah>"
 	"ilia" v tv pres s_pl1 o_sg3
 	"ilia" v tv pret s_sg2 o_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<este>"
 	"este" ij
 "<,>"
-	"," cm
+	"," cm @punct
 "<weikowtahtomakilit>"
 	"*weikowtahtomakilit"
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a48
 # text = yeh xoxoktik nochi. Nochipa xoxoktik kemeh iixko, kemeh imaikan
@@ -1194,7 +1180,7 @@
 	"nochi" det
 	"nochi" prn
 "<.>"
-	"." sent
+	"." sent @punct
 "<Nochipa>"
 	"nochipa" adv
 "<xoxoktik>"
@@ -1206,7 +1192,7 @@
 "<iixko>"
 	"ixko" n rel px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1226,7 +1212,7 @@
 "<kowyohpihpitsawak>"
 	"*kowyohpihpitsawak"
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<tomawak>"
@@ -1238,7 +1224,7 @@
 "<ikowyo>"
 	"kouyo" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a50
 # text = Wan no iwki nen tomakilit, sayoh ti..., tepitsin medio maweweyak tepitsin wan de t...,
@@ -1260,13 +1246,13 @@
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<sayoh>"
 	"sayoj" adv
 "<ti...>"
 	"ti" x
 "<,>"
-	"," cm
+	"," cm @punct
 "<tepitsin>"
 	"tepitsin" adv
 "<medio>"
@@ -1283,7 +1269,7 @@
 "<t...>"
 	"t" x
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a51
 # text = yekapanweweyak tikihtokan yon, yon weikowtah tomakilit, pero yeh xoxoktik.
@@ -1298,7 +1284,7 @@
 	"yehua" prn pers sg3 short
 		"in" det
 "<,>"
-	"," cm
+	"," cm @punct
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -1311,7 +1297,7 @@
 ;	"tomakilit" n abs s_pl3 REMOVE:29
 ;	"tomakilit" n abs s_sg3 REMOVE:29
 "<,>"
-	"," cm
+	"," cm @punct
 "<pero>"
 	"pero" cnjcoo
 "<yeh>"
@@ -1320,7 +1306,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a52
 # text = Pero no iwki welik kemeh, kemeh tomakilit in seki,
@@ -1342,7 +1328,7 @@
 	"kemej" adv
 	"kemej" pr
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1356,7 +1342,7 @@
 	"seki" det
 	"seki" prn
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a53
 # text = tepitsin kipata sah nen, nen
@@ -1374,7 +1360,7 @@
 	"nen" ij
 	"nen" prn
 "<,>"
-	"," cm
+	"," cm @punct
 "<nen>"
 	"nen" ij
 	"nen" prn
@@ -1390,7 +1376,7 @@
 	"kemej" adv
 	"kemej" pr
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a55
 # text = mahya tikihtokan, xomeahwiak, pero, pero welik no n' tomakilit, welik no.
@@ -1402,15 +1388,15 @@
 "<tikihtokan>"
 	"ijtohua" v tv opt s_pl1 o_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<xomeahwiak>"
 	"*xomeahwiak"
 "<,>"
-	"," cm
+	"," cm @punct
 "<pero>"
 	"pero" cnjcoo
 "<,>"
-	"," cm
+	"," cm @punct
 "<pero>"
 	"pero" cnjcoo
 "<welik>"
@@ -1428,7 +1414,7 @@
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<welik>"
 	"huelik" adj
 	"huelik" adj s_sg3
@@ -1437,7 +1423,7 @@
 	"no" adv
 	"no" det
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a56
 # text = Yeh no welik.
@@ -1445,16 +1431,13 @@
 # text[spa] = Ese también es sabroso.
 # labels = a56 sentence
 "<Yeh>"
-	"yehua" prn pers sg3 short
+	"yehua" prn pers sg3 short @nsubj #1->3
 "<no>"
-	"no" adv
-	"no" det
+	"no" adv @advmod #2->3
 "<welik>"
-	"huelik" adj
-	"huelik" adj s_sg3
-	"hueli" v iv pret s_sg3
+	"huelik" adj s_sg3 @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57
 # text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
@@ -1470,8 +1453,6 @@
 	"nikan" adv
 "<tehwan>"
 	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa
 "<pos>"
 	"pos" adv
 "<onkak>"
@@ -1486,7 +1467,7 @@
 	"seki" det
 	"seki" prn
 "<,>"
-	"," cm
+	"," cm @punct
 "<pos>"
 	"pos" adv
 "<amo>"
@@ -1505,7 +1486,7 @@
 ;	"koutaj" n abs s_pl3 REMOVE:29
 ;	"koutaj" n abs s_sg3 REMOVE:29
 "<.>"
-	"." sent
+	"." sent @punct
 "<Tehwan>"
 	"tehuan" prn pers pl1 abs
 	"tehuan" prn pers pl1 short
@@ -1525,17 +1506,17 @@
 	"morado" adj dim m pl s_sg3
 ;	"morado" adj dim m pl s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<mas>"
 	"más" adv
 "<tikweliliah>"
 	"huelilia" v tv pres s_pl1 o_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 "<Kemah>"
 	"kemaj" ij
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58
 # text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
@@ -1548,7 +1529,7 @@
 	"tohtomahuak" adj
 	"tohtomahuak" adj s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 "<Mapatawak>"
 	"mapatahuak" adj
 	"mapatahuak" adj s_sg3
@@ -1558,7 +1539,7 @@
 "<imay>"
 	"may" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<mapapatawak>"
 	"mapapatahuak" adj
 	"mapapatahuak" adj s_sg3
@@ -1577,11 +1558,11 @@
 "<imay>"
 	"may" n px3sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<imawan>"
 	"mait" n pl px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 "<Yehwa>"
 	"yehua" prn pers sg3
 "<yon>"
@@ -1592,7 +1573,7 @@
 	"morado" adj m sg s_sg3
 ;	"morado" adj m sg s_pl3 REMOVE:39
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a60
 # text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.
@@ -1602,7 +1583,7 @@
 "<Kemah>"
 	"kemaj" ij
 "<,>"
-	"," cm
+	"," cm @punct
 "<wan>"
 	"huan" cnjcoo
 "<in>"
@@ -1615,7 +1596,7 @@
 "<matsikitsitsin>"
 	"*matsikitsitsin"
 "<,>"
-	"," cm
+	"," cm @punct
 "<achi>"
 	"achi" adv
 "<mapihpisiltik>"
@@ -1623,7 +1604,7 @@
 "<tikihtokan>"
 	"ijtohua" v tv opt s_pl1 o_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a61
 # text = Kemah, pero
@@ -1633,7 +1614,7 @@
 "<Kemah>"
 	"kemaj" ij
 "<,>"
-	"," cm
+	"," cm @punct
 "<pero>"
 	"pero" cnjcoo
 
@@ -1645,21 +1626,21 @@
 "<e>"
 	"e" x
 "<..>"
-	".." sent
+	".." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<mas>"
 	"más" adv
 "<telwelik>"
 	"hueli" v iv pret s_sg3 tel
 	"huelik" adj tel
 "<,>"
-	"," cm
+	"," cm @punct
 "<nen>"
 	"nen" ij
 	"nen" prn
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1680,7 +1661,7 @@
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a63
 # text = nochi iwki welik n' tomakilit, kemeh xoxoktik, kemeh morado, nochi igual welik.
@@ -1704,7 +1685,7 @@
 	"tomakilit" n abs s_sg3
 ;	"tomakilit" n abs s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1712,7 +1693,7 @@
 	"xoxoktik" adj
 	"xoxoktik" adj s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
@@ -1721,7 +1702,7 @@
 	"morado" adj m sg s_sg3
 ;	"morado" adj m sg s_pl3 REMOVE:39
 "<,>"
-	"," cm
+	"," cm @punct
 "<nochi>"
 	"nochi" det
 	"nochi" prn
@@ -1732,7 +1713,7 @@
 	"huelik" adj s_sg3
 	"hueli" v iv pret s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a64
 # text = Tepitsin kipata de welik de weikowtah tomakilit, yon kemah tepitsin kipata.
@@ -1761,7 +1742,7 @@
 ;	"tomakilit" n abs s_pl3 REMOVE:31
 ;	"tomakilit" n abs s_sg3 REMOVE:31
 "<,>"
-	"," cm
+	"," cm @punct
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -1773,7 +1754,7 @@
 	"pata" v tv pres s_sg3 o_sg3
 	"ita" v tv pres s_sg3 o_sg3 pan
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a65
 # text = Kemah.
@@ -1783,7 +1764,7 @@
 "<Kemah>"
 	"kemaj" ij
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a68
 # text = De nikan, de nikawin mochiwa,
@@ -1795,7 +1776,7 @@
 "<nikan>"
 	"nikan" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<de>"
 	"de" pr
 "<nikawin>"
@@ -1803,7 +1784,7 @@
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a70
 # text = kampa tatokah.
@@ -1817,7 +1798,7 @@
 	"toka" v tv pres s_pl3 o_nn
 	"toka" v tv pret s_sg3 o_nn
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73
 # text = Aja. Nikahkwin amo kixmatih porque amo onkak.
@@ -1827,7 +1808,7 @@
 "<Aja>"
 	"aja" ij
 "<.>"
-	"." sent
+	"." sent @punct
 "<Nikahkwin>"
 	"nikakuin" adv
 "<amo>"
@@ -1843,7 +1824,7 @@
 	"onkak" adv
 	"onka" v iv pret s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a75
 # text = N' tehwan tikmattokeh porque newin kowtah ay tinemih, tikixmatih kowtah tomakilit.
@@ -1875,7 +1856,7 @@
 	"nemi" v iv pres s_pl1
 	"nemi" v iv pret s_sg2
 "<,>"
-	"," cm
+	"," cm @punct
 "<tikixmatih>"
 	"ixmati" v tv pres s_pl1 o_sg3
 	"ixmati" v tv pret s_sg2 o_sg3
@@ -1888,7 +1869,7 @@
 ;	"tomakilit" n abs s_pl3 REMOVE:29
 ;	"tomakilit" n abs s_sg3 REMOVE:29
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a76
 # text = Ompa moch..., ompa mochiwa, mochiwa sah, amo, amo kitokah yon, mochiwa sah.
@@ -1900,25 +1881,25 @@
 "<moch>"
 	"*moch"
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<ompa>"
 	"ompa" adv
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<,>"
-	"," cm
+	"," cm @punct
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<sah>"
 	"saj" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<kitokah>"
@@ -1928,13 +1909,13 @@
 	"yehua" prn pers sg3 short
 		"in" det
 "<,>"
-	"," cm
+	"," cm @punct
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<sah>"
 	"saj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
 # text = No s..., no se kikwa, se kikwa no.
@@ -1984,7 +1965,7 @@
 "<se>"
 	"se" num
 "<,>"
-	"," cm
+	"," cm @punct
 "<tepitsin>"
 	"tepitsin" adv
 "<kipata>"
@@ -1995,13 +1976,13 @@
 ;	"sabor" n m sg s_pl3 REMOVE:29
 ;	"sabor" n m sg s_sg3 REMOVE:29
 "<,>"
-	"," cm
+	"," cm @punct
 "<porque>"
 	"porque" cnjsub
 "<de>"
 	"de" pr
 "<,>"
-	"," cm
+	"," cm @punct
 "<mahya>"
 	"mahya" adv
 "<tikihtokan>"
@@ -2011,7 +1992,7 @@
 ;	"cimarrón" n f sg s_pl3 REMOVE:29
 ;	"cimarrón" n f sg s_sg3 REMOVE:29
 "<,>"
-	"," cm
+	"," cm @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a80
 # text = cimarron tomakilit pero yek..., tikwah n' tehwan. Kemah.
@@ -2031,9 +2012,9 @@
 "<yek>"
 	"yek" adv
 "<...>"
-	"..." sent
+	"..." sent @punct
 "<,>"
-	"," cm
+	"," cm @punct
 "<tikwah>"
 	"kua" v tv pres s_pl1 o_sg3
 	"kua" v tv pret s_sg2 o_sg3
@@ -2045,11 +2026,11 @@
 	"tehuan" prn pers pl1 short
 	"huan" n rel px3aa
 "<.>"
-	"." sent
+	"." sent @punct
 "<Kemah>"
 	"kemaj" ij
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a81
 # text = Welik, amo teh..., amo tepahwih nion tei.
@@ -2059,7 +2040,7 @@
 "<Welik>"
 	"huelik" adj s_sg3
 "<,>"
-	"," cm
+	"," cm @punct
 "<amo>"
 	"amo" adv
 "<teh...>"
@@ -2075,7 +2056,7 @@
 "<tei>"
 	"tei" prn
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a83
 # text = Kemah.
@@ -2088,55 +2069,36 @@
 	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a85
-# text = Neh notokay Ernesto Vazquez Chanico,
-# text[orig] = Neh noto:ka:y Ernesto Vázquez Chanico,
-# text[spa] = Mi nombre es Ernesto Vázquez Chanico,
-# labels = a85 fragment
+# text = Neh notokay Ernesto Vazquez Chanico, de Tzinacapan, San Miguel Tzinacapan.
+# text[orig] = Neh noto:ka:y Ernesto Vázquez Chanico, de Tzinapacan, San Miguel Tzinacapan. 
+# text[spa] = Mi nombre es Ernesto Vázquez Chanico, de Tzinapacan, San Miguel Tzinacapan.
+# text[a85] = Neh noto:ka:y Ernesto Vázquez Chanico,
+# text[a86] = de Tzinacapan, San Miguel Tzinacapan.
+# labels = a85 a86 fragment
 "<Neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @dislocated #1->3
 "<notokay>"
-	"tokay" n px1sg
+	"tokay" n px1sg @nsubj #2->3
 "<Ernesto>"
-	"Ernesto" np ant m
-	"Ernesto" np ant m s_sg3
-;	"Ernesto" np ant m s_pl3 REMOVE:39
+	"Ernesto" np ant m @root #3->0
 "<Vazquez>"
-	"Vázquez" np cog
-;	"Vázquez" np cog s_pl3 REMOVE:33
-;	"Vázquez" np cog s_sg3 REMOVE:33
+	"Vázquez" np cog @flat #4->3
 "<Chanico>"
-	"*Chanico"
+	"Chanico" np cog @flat #6->3
 "<,>"
-	"," cm
-
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a86
-# text = de Tzinacapan, San Miguel Tzinacapan.
-# text[orig] = de Tzinacapan, San Miguel Tzinacapan.
-# text[spa] = de Tzinacapan, San Miguel Tzinacapan.
-# labels = a86 fragment
+	"," cm @punct #7->3
 "<de>"
-	"de" pr
+	"de" pr @case #8->9
 "<Tzinacapan>"
-	"Tzinacapan" np top
-	"Tzinacapan" np top s_sg3
-;	"Tzinacapan" np top s_pl3 REMOVE:39
+	"Tzinacapan" np top @obl #9->2
 "<,>"
-	"," cm
+	"," cm @punct #10->11
 "<San>"
-	"San" np top SELECT:35
-	"San" np top s_sg3 SELECT:35
-;	"san" n abs SELECT:35
-;	"San" np top s_pl3 SELECT:35 REMOVE:39
-;	"san" n abs s_pl3 SELECT:35
-;	"san" n abs s_sg3 SELECT:35
+	"San" np top @appos #11->9
 "<Miguel>"
-	"Miguel" np ant m
-	"Miguel" np ant m s_sg3
-;	"Miguel" np ant m s_pl3 REMOVE:39
+	"Miguel" np ant m @flat #12->11
 "<Tzinacapan>"
-	"Tzinacapan" np top
-	"Tzinacapan" np top s_sg3
-;	"Tzinacapan" np top s_pl3 REMOVE:39
+	"Tzinacapan" np top @flat #13->11
 "<.>"
-	"." sent
+	"." sent @punct #14->3
 
