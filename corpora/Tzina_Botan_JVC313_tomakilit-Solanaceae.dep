@@ -367,17 +367,15 @@
 # text[spa] = ¿Y muchas personas lo comen?
 # labels = a77 sentence
 "<¿>"
-	"¿" sent
+	"¿" sent @punct #1->4
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #2->4
 "<miakeh>"
-	"miak" det pl
-	"miak" adj s_pl3
+	"miak" prn pl @nsubj #3->4
 "<kikwah>"
-	"kua" v tv pres s_pl3 o_sg3
-	"kua" v tv pret s_sg3 o_sg3
+	"kua" v tv pres s_pl3 o_sg3 @root #4->0
 "<?>"
-	"?" sent
+	"?" sent @punct #5->4
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a82
 # text = Pos semi kwali a tinechyolmelaw, porque neli amo nikmatia neh.
@@ -399,42 +397,45 @@
 "<,>"
 	"," cm
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<nikmatia>"
-	"mati" v tv impf s_sg1 o_sg3
+	"mati" v tv impf s_sg1 o_sg3 @advcl
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<.>"
-	"." sent
+	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84
-# text = Tel miak tasohkamatik. Nikneki xnechili motokay.
-# text[orig] = Tel miak tasohka:matik. Nikneki xne:chili moto:ka:y.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:1
+# text = Tel miak tasohkamatik. 
+# text[orig] = Tel miak tasohka:matik. 
 # text[spa] = Muchas gracias, quiero que me digas tu nombre.
 # labels = a84 sentence
 "<Tel>"
-	"tel" adv
+	"tel" adv @advmod #1->2
 "<miak>"
-	"miak" adj
-	"miak" adv
-	"miak" det
-	"miak" adj s_sg3
+	"miak" adj @amod #2->3
 "<tasohkamatik>"
-	"tasojkamatik" ij
+	"tasojkamatik" ij @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:2
+# text = Nikneki xnechili motokay.
+# text[orig] = Nikneki xne:chili moto:ka:y.
+# text[spa] = Muchas gracias, quiero que me digas tu nombre.
+# labels = a84 sentence
 "<Nikneki>"
-	"neki" v tv pres s_sg1 o_sg3
+	"neki" v tv pres s_sg1 o_sg3 @root #1->0
 "<xnechili>"
-	"*xnechili"
+	"ilia" v tv pres imp s_sg2 i_sg1 o_sg3 @dep #2->1
 "<motokay>"
-	"tokay" n px2sg
+	"tokay" n px2sg @obj #3->2
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a24
 # text = Pos in istak tomakilit tikixmatih,

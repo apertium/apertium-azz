@@ -231,7 +231,7 @@
 ^neh/neh$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:1
 # text = Tel miak tasohkamatik. Nikneki xnechili motokay.
 # text[orig] = Tel miak tasohka:matik. Nikneki xne:chili moto:ka:y.
 # text[spa] = Muchas gracias, quiero que me digas tu nombre.
@@ -240,6 +240,12 @@
 ^miak/miak$
 ^tasohkamatik/tasohkamatik$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a84:2
+# text = Tel miak tasohkamatik. Nikneki xnechili motokay.
+# text[orig] = Tel miak tasohka:matik. Nikneki xne:chili moto:ka:y.
+# text[spa] = Muchas gracias, quiero que me digas tu nombre.
+# labels = a84 sentence
 ^Nikneki/Nikneki$
 ^xnechili/xnechili$
 ^motokay/motokay$
