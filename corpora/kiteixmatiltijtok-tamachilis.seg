@@ -1330,7 +1330,7 @@
 # labels =  
 ^Tajtoleualoni/Tajtoleualoni$
 
-# sent_id = kiteixmatiltijtok-tamachilis:84
+# sent_id = kiteixmatiltijtok-tamachilis:84:1
 # text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
 # labels =  
@@ -1352,6 +1352,11 @@
 ^ijka/ijka$
 ^átomos/átomos$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:84:2
+# text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
+# text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# labels =  
 ^Nochi/Nochi$
 ^teyin/teyin$
 ^tikita/tikita$
@@ -1435,7 +1440,7 @@
 ^milinij/milinij$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:94
+# sent_id = kiteixmatiltijtok-tamachilis:94:1
 # text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
 # text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
 # labels =  
@@ -1457,6 +1462,11 @@
 ^okseki/okseki$
 ^taltikpakmej/taltikpakmej$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:94:2
+# text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
+# text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# labels =  
 ^In/In$
 ^sitalkouat/sitalkouat$
 ^moixmati/moixmati$
@@ -1489,7 +1499,7 @@
 ^ixtololo/ixtololo$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:104
+# sent_id = kiteixmatiltijtok-tamachilis:104:1
 # text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
 # labels =  
@@ -1503,6 +1513,11 @@
 ^átomos/átomos$
 ^monetechouaj/monetechouaj$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:104:2
+# text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj. In kiskaltia se molecula.
+# text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
+# labels =  
 ^In/In$
 ^kiskaltia/kiskaltia$
 ^se/se$

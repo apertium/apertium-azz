@@ -671,10 +671,25 @@
 4	milinij	milini	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:94:2
+# text = In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.
+# text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# labels = complete
+1	In	in	DET	_	_	2	det	_	_
+2	sitalkouat	sitalkohuat	NOUN	_	Case=Abs	3	nsubj	_	_
+3	moixmati	ixmati	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	kemej	kemej	ADP	_	_	5	case	_	_
+5	togalaxia	galaxia	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	obl	_	_
+6	uan	huan	CCONJ	_	_	7	cc	_	_
+7	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	3	conj	_	_
+8	Vía	vía	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	Láctea	lácteo	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:102
 # text = microscopio: tepos teyin tepaleuiya maj ika sekita teyin amo ueli sekita ika se ixtololo.
 # text[spa] = microscopio: dispositivo que nos ayuda a ver las cosas muy pequeñas que nuestros ojos no alcanzan  a observar.
-# labels =
+# labels = complete
 1	microscopio	microscópio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	tepos	tepos	NOUN	_	Case=Abs	1	parataxis	_	_
@@ -691,6 +706,31 @@
 14	se	se	NUM	_	_	15	det	_	_
 15	ixtololo	ixtololo	NOUN	_	Case=Abs	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:104:1
+# text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj.
+# text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
+# labels = complete check-coord
+1	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	9	punct	_	_
+3	ikuak	ijkuak	SCONJ	_	_	9	mark	_	_
+4	ome	ome	NUM	_	_	8	num	_	_
+5	oso	oso	CCONJ	_	_	7	cc	_	_
+6	kachi	kachi	ADV	_	_	7	advmod	_	_
+7	miyak	miak	DET	_	_	4	conj	_	_
+8	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	monetechouaj	netechohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:104:2
+# text = In kiskaltia se molecula.
+# text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
+# labels = complete check-subord
+1	In	in	DET	_	_	2	mark	_	_
+2	kiskaltia	iskaltia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	se	se	NUM	_	_	4	det	_	_
+4	molecula	molécula	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:114
 # text = Próxima centauri B: ne okse taltikpak teyin moliniya inakastan Próxima Centauri.
@@ -739,6 +779,44 @@
 8	ixtakopin	ixtakopin	NOUN	_	Case=Abs	7	obj	_	_
 9	tojomiuan	omit	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	7	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:118.2
+# text = Mokui in tit rayos X.
+# text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
+# labels = complete
+1	Mokui	kui	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	in	in	DET	_	_	3	det	_	_
+3	tit	tit	NOUN	_	Case=Abs	1	nsubj	_	_
+4	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	3	appos	_	_
+5	X	X	X	_	_	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:120
+# text = rayos X: nejin se tit teyin amo ueli sekita uan semi chikauak teyin panouaj itech tonakayo uan ajsi itech tojomiyouan.
+# text[spa] = rayos X: luz que no podemos ver pero que tiene tanta energía que puede traspasar la carne hasta llegar a los huesos.
+# labels = complete
+1	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	X	X	X	_	_	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	6	punct	_	_
+4	nejin	nejin	PRON	_	_	6	nsubj	_	_
+5	se	se	NUM	_	_	6	det	_	_
+6	tit	tit	NOUN	_	Case=Abs	1	parataxis	_	_
+7	teyin	tein	PRON	_	_	10	obj	_	_
+8	amo	amo	ADV	_	_	10	advmod	_	_
+9	ueli	hueli	AUX	_	_	10	aux	_	_
+10	sekita	ita	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	6	acl:relcl	_	_
+11	uan	huan	CCONJ	_	_	13	cc	_	_
+12	semi	semi	ADV	_	_	13	advmod	_	_
+13	chikauak	chikahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	6	conj	_	_
+14	teyin	tein	PRON	_	_	15	nsubj	_	_
+15	panouaj	panohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	13	acl:relcl	_	_
+16	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	15	obl	_	_
+17	tonakayo	nakayot	NOUN	_	Number[psor]=Plur|Person[psor]=1	16	nmod	_	_
+18	uan	huan	CCONJ	_	_	19	cc	_	_
+19	ajsi	ajsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	15	conj	_	_
+20	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+21	tojomiyouan	omiyot	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
