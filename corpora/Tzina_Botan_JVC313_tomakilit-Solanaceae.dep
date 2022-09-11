@@ -1423,10 +1423,10 @@
 "<.>"
 	"." sent @punct #4->3
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57
-# text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
-# text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah. Ke:mah.
-# text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más. Sí.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:1
+# text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. 
+# text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. 
+# text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. 
 # labels = a57 sentence
 "<Pero>"
 	"pero" cnjcoo
@@ -1440,15 +1440,12 @@
 "<pos>"
 	"pos" adv
 "<onkak>"
-	"onkak" adv
 	"onka" v iv pret s_sg3
 "<n'>"
 	"in" det
-;	"nik" x REMOVE:41
 "<tein>"
 	"tein" prn
 "<seki>"
-	"seki" det
 	"seki" prn
 "<,>"
 	"," cm @punct
@@ -1458,92 +1455,102 @@
 	"amo" adv
 "<t'chiwah>"
 	"chihua" v tv pres s_pl1 o_sg3
-	"chihua" v tv pret s_sg2 o_sg3
 "<cuenta>"
 	"cuenta" n f sg
-;	"cuenta" n f sg s_pl3 REMOVE:29
-;	"cuenta" n f sg s_sg3 REMOVE:29
 "<de>"
 	"de" pr
 "<kowtah>"
 	"koutaj" n abs
-;	"koutaj" n abs s_pl3 REMOVE:29
-;	"koutaj" n abs s_sg3 REMOVE:29
-"<.>"
-	"." sent @punct
-"<Tehwan>"
-	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa
-"<tikwah>"
-	"kua" v tv pres s_pl1 o_sg3
-	"kua" v tv pret s_sg2 o_sg3
-"<de>"
-	"de" pr
-"<in>"
-	"in" det
-"<seki>"
-	"seki" det
-	"seki" prn
-"<moraditos>"
-	"morado" adj dim m pl
-	"morado" adj dim m pl s_sg3
-;	"morado" adj dim m pl s_pl3 REMOVE:39
-"<,>"
-	"," cm @punct
-"<mas>"
-	"más" adv
-"<tikweliliah>"
-	"huelilia" v tv pres s_pl1 o_sg3
-"<.>"
-	"." sent @punct
-"<Kemah>"
-	"kemaj" ij
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58
-# text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
-# text[orig] = Tepitsi:n tohtoma:wak. Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. Yehwa yo:n *morado**.
-# text[spa] = Son un poco más gruesas. Las hojas son anchas, las hojas son más anchas, son un poco más redondas. Así es el morado.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:2
+# text = Tehwan tikwah de in seki moraditos, mas tikweliliah.
+# text[orig] = Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah.
+# text[spa] = Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más.
+# labels = a57 sentence
+"<Tehwan>"
+	"tehuan" prn pers pl1 abs @nsubj #1->2
+"<tikwah>"
+	"kua" v tv pres s_pl1 o_sg3 @root #2->0
+"<de>"
+	"de" pr @case #3->6
+"<in>"
+	"in" det @det #4->6
+"<seki>"
+	"seki" det @det #5->6
+"<moraditos>"
+	"morado" adj dim m pl @obj #6->2
+"<,>"
+	"," cm @punct #7->9
+"<mas>"
+	"más" adv @advmod #8->9
+"<tikweliliah>"
+	"huelilia" v tv pres s_pl1 o_sg3 @parataxis #9->2
+"<.>"
+	"." sent @punct #10->2
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:3
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a57 sentence
+"<Kemah>"
+	"kemaj" ij @root #2->0
+"<.>"
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:1
+# text = Tepitsin tohtomawak. 
+# text[orig] = Tepitsi:n tohtoma:wak. 
+# text[spa] = Son un poco más gruesas. 
 # labels = a58 sentence
 "<Tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #1->2
 "<tohtomawak>"
-	"tohtomahuak" adj s_sg3
+	"tohtomahuak" adj s_sg3 @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:2
+# text = Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. 
+# text[orig] = Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. 
+# text[spa] = Las hojas son anchas, las hojas son más anchas, son un poco más redondas. 
+# labels = a58 sentence
 "<Mapatawak>"
-	"mapatahuak" adj s_sg3
+	"mapatahuak" adj s_sg3 @root #1->0
 "<n'>"
-	"in" det
+	"in" det @det #2->3
 "<imay>"
-	"may" n px3sg
+	"may" n px3sg @nsubj #3->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->5
 "<mapapatawak>"
-	"mapajpatahuak" adj redup
-	"mapajpatahuak" adj redup s_sg3
+	"mapajpatahuak" adj redup @parataxis #5->1
 "<mas>"
-	"más" adv
+	"más" adv @advmod #6->8
 "<achi>"
-	"achi" adv
+	"achi" adv @advmod #7->8
 "<yewaltik>"
-	"yehualtik" adj
-	"yehualtik" adj s_sg3
+	"yehualtik" adj @parataxis #8->1
 "<achi>"
-	"achi" adv
+	"achi" adv @advmod #9->8
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #10->11
 "<imay>"
-	"may" n px3sg
+	"may" n px3sg @nsubj #11->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->13
 "<imawan>"
-	"mait" n pl px3sg
+	"mait" n pl px3sg @appos #13->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->1
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:3
+# text = Yehwa yon morado.
+# text[orig] = Yehwa yo:n *morado**.
+# text[spa] = Así es el morado.
+# labels = a58 sentence
 "<Yehwa>"
 	"yehua" prn pers sg3
 "<yon>"
@@ -1552,7 +1559,6 @@
 "<morado>"
 	"morado" adj m sg
 	"morado" adj m sg s_sg3
-;	"morado" adj m sg s_pl3 REMOVE:39
 "<.>"
 	"." sent @punct
 
@@ -1734,9 +1740,9 @@
 # text[spa] = Sí.
 # labels = a65 sentence
 "<Kemah>"
-	"kemaj" ij
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a68
 # text = De nikan, de nikawin mochiwa,
@@ -1840,45 +1846,42 @@
 # text[spa] = Ahí crece, ahí crece, crece por sí sola, no, ese no lo siembran, crece por sí sola.
 # labels = a76 sentence
 "<Ompa>"
-	"ompa" adv
-"<moch>"
-	"*moch"
-"<...>"
-	"..." sent @punct
+	"ompa" adv @reparandum #1->4
+"<moch...>"
+	"moch" x @reparandum #2->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->5
 "<ompa>"
-	"ompa" adv
+	"ompa" adv @advmod #4->5
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root #5->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->7
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @parataxis #7->5
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #8->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->13
 "<amo>"
-	"amo" adv
+	"amo" adv @discourse #10->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->13
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #12->13
 "<kitokah>"
-	"toka" v tv pres s_pl3 o_sg3
-	"toka" v tv pret s_sg3 o_sg3
+	"toka" v tv pres s_pl3 o_sg3 @parataxis #13->5
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @dep #14->13
+		"in" det @mark #15->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #16->17
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @acl:relcl #17->14
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #18->17
 "<.>"
-	"." sent @punct
+	"." sent @punct #19->5
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
 # text = No s..., no se kikwa, se kikwa no.

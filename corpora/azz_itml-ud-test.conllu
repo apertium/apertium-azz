@@ -968,6 +968,59 @@
 3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:2
+# text = Tehwan tikwah de in seki moraditos, mas tikweliliah.
+# text[orig] = Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah.
+# text[spa] = Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más.
+# labels = a57 sentence
+1	Tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	2	nsubj	_	_
+2	tikwah	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	in	in	DET	_	_	6	det	_	_
+5	seki	seki	DET	_	_	6	det	_	_
+6	moraditos	morado	ADJ	_	Deriv=Dim|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	mas	más	ADV	_	_	9	advmod	_	_
+9	tikweliliah	huelilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:3
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a57 sentence
+2	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:1
+# text = Tepitsin tohtomawak.
+# text[orig] = Tepitsi:n tohtoma:wak.
+# text[spa] = Son un poco más gruesas.
+# labels = a58 sentence
+1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
+2	tohtomawak	tohtomahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:2
+# text = Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan.
+# text[orig] = Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n.
+# text[spa] = Las hojas son anchas, las hojas son más anchas, son un poco más redondas.
+# labels = a58 sentence
+1	Mapatawak	mapatahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	n'	in	DET	_	_	3	det	_	_
+3	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	mapapatawak	mapajpatahuak	ADJ	_	Reduplicated=Yes	1	parataxis	_	_
+6	mas	más	ADV	_	_	8	advmod	_	_
+7	achi	achi	ADV	_	_	8	advmod	_	_
+8	yewaltik	yehualtik	ADJ	_	_	1	parataxis	_	_
+9	achi	achi	ADV	_	_	8	advmod	_	_
+10	n'	in	DET	_	_	11	det	_	_
+11	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	imawan	mait	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	11	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a60
 # text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.
 # text[orig] = Ke:mah, wa:n i:n xoxoktik tepitsi:n ma:tsikitsitsi:n, achi ma:pihpisi:ltik tikihto:ka:n.
@@ -1006,6 +1059,14 @@
 12	tepitsin	tepitsin	ADV	_	_	13	advmod	_	_
 13	kipata	pata	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	csubj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a65
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a65 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73:1
 # text = Aja.
@@ -1046,6 +1107,32 @@
 11	kowtah	koutaj	NOUN	_	Case=Abs	10	obj	_	_
 12	tomakilit	tomakilit	NOUN	_	Case=Abs	11	compound	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a76
+# text = Ompa moch..., ompa mochiwa, mochiwa sah, amo, amo kitokah yon, mochiwa sah.
+# text[orig] = Ompa moch..., ompa mochi:wa, mochi:wa sah, a:mo, a:mo kito:kah yo:n, mochi:wa sah.
+# text[spa] = Ahí crece, ahí crece, crece por sí sola, no, ese no lo siembran, crece por sí sola.
+# labels = a76 sentence
+1	Ompa	ompa	ADV	_	_	4	reparandum	_	_
+2	moch...	moch	X	_	_	5	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ompa	ompa	ADV	_	_	5	advmod	_	_
+5	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	5	parataxis	_	_
+8	sah	saj	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	amo	amo	ADV	_	_	13	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	amo	amo	ADV	_	_	13	advmod	_	_
+13	kitokah	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	parataxis	_	_
+14-15	yon	_	_	_	_	_	_	_	SpaceAfter=No
+14	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	13	dep	_	_
+15	n	in	DET	_	_	17	mark	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	14	acl:relcl	_	_
+18	sah	saj	ADV	_	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a78
 # text = No s..., no se kikwa, se kikwa no.

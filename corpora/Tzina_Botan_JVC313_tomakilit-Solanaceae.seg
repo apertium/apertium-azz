@@ -791,7 +791,7 @@
 ^welik/welik$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:1
 # text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
 # text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah. Ke:mah.
 # text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más. Sí.
@@ -813,6 +813,12 @@
 ^de/de$
 ^kowtah/kowtah$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:2
+# text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
+# text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah. Ke:mah.
+# text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más. Sí.
+# labels = a57 sentence
 ^Tehwan/Tehwan$
 ^tikwah/tikwah$
 ^de/de$
@@ -823,10 +829,16 @@
 ^mas/mas$
 ^tikweliliah/tikweliliah$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a57:3
+# text = Pero kemeh nikan tehwan pos onkak n' tein seki, pos amo t'chiwah cuenta de kowtah. Tehwan tikwah de in seki moraditos, mas tikweliliah. Kemah.
+# text[orig] = Pero ke:meh nika:n tehwa:n pos onkak n' tein seki, pos a:mo t'chi:wah *cuenta** de kowtah. Tehwa:n tikwah de i:n seki *moraditos**, más tikwe:liliah. Ke:mah.
+# text[spa] = Pero como aquí pues hay del otro pues no lo hacemos caso el <i>kowtahtomakilit<i>. Nosotros comemos el <i>mora:dohtomakilit<i>, nos gusta más. Sí.
+# labels = a57 sentence
 ^Kemah/Kemah$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:1
 # text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
 # text[orig] = Tepitsi:n tohtoma:wak. Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. Yehwa yo:n *morado**.
 # text[spa] = Son un poco más gruesas. Las hojas son anchas, las hojas son más anchas, son un poco más redondas. Así es el morado.
@@ -834,6 +846,12 @@
 ^Tepitsin/Tepitsin$
 ^tohtomawak/tohtomawak$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:2
+# text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
+# text[orig] = Tepitsi:n tohtoma:wak. Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. Yehwa yo:n *morado**.
+# text[spa] = Son un poco más gruesas. Las hojas son anchas, las hojas son más anchas, son un poco más redondas. Así es el morado.
+# labels = a58 sentence
 ^Mapatawak/Mapatawak$
 ^n'/n'$
 ^imay/imay$
@@ -848,6 +866,12 @@
 ^,/,$
 ^imawan/imawan$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:3
+# text = Tepitsin tohtomawak. Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan. Yehwa yon morado.
+# text[orig] = Tepitsi:n tohtoma:wak. Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n. Yehwa yo:n *morado**.
+# text[spa] = Son un poco más gruesas. Las hojas son anchas, las hojas son más anchas, son un poco más redondas. Así es el morado.
+# labels = a58 sentence
 ^Yehwa/Yehwa$
 ^yon/yo>n$
 ^morado/morado$
@@ -1019,8 +1043,7 @@
 # text[spa] = Ahí crece, ahí crece, crece por sí sola, no, ese no lo siembran, crece por sí sola.
 # labels = a76 sentence
 ^Ompa/Ompa$
-^moch/moch$
-^.../...$
+^moch.../moch...$
 ^,/,$
 ^ompa/ompa$
 ^mochiwa/mochiwa$
