@@ -49,12 +49,6 @@
 ^istak/istak$
 ^tomakilit/tomakilit$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a22
-# text = keniwki n' ixochio, keniwki n' iteyo, keniwki n' ixiwyo, keniwki n' ikowyo.
-# text[orig] = ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
-# text[spa] = cómo es la flor, como es el fruto, como son las hojas, cómo es el tallo.
-# labels = a22 fragment
 ^keniwki/keniwki$
 ^n'/n'$
 ^ixochio/ixochio$
@@ -190,7 +184,7 @@
 # text[spa] = Ese, el que dices que es el <i>kowtahtomakilit<i> no lo había escuchado de alguna otra persona.
 # labels = a74 sentence
 ^N/N$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tikihtowa/tikihtowa$
 ^ne/ne$
@@ -198,7 +192,7 @@
 ^tomakilit/tomakilit$
 ^amo/amo$
 ^keman/keman$
-^nakin/nakin$
+^nakin/n>akin$
 ^nikakiliaya/nikakiliaya$
 ^./.$
 
@@ -417,7 +411,7 @@
 ^tein/tein$
 ^xoxoktik/xoxoktik$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tikihtowa/tikihtowa$
 ^istak/istak$
@@ -446,7 +440,7 @@
 # text[orig] = yo:n se: ki:xmati *porque** telmetswehwei wa:n,
 # text[spa] = ese se reconoce luego porque tiene los tallos muy grandes y,
 # labels = a35 fragment
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kixmati/kixmati$
 ^porque/porque$
@@ -488,7 +482,7 @@
 # text[spa] = Es ese al que le llamamos <i>mora:dohtomakilit<i>.
 # labels = a38 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^tikiliah/tikiliah$
 ^que/que$
 ^morado/morado$
@@ -704,9 +698,9 @@
 # labels = a51 fragment
 ^yekapanweweyak/yekapanweweyak$
 ^tikihtokan/tikihtokan$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^weikowtah/weikowtah$
 ^tomakilit/tomakilit$
 ^,/,$
@@ -843,7 +837,7 @@
 ^imawan/imawan$
 ^./.$
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^morado/morado$
 ^./.$
 
@@ -890,7 +884,7 @@
 ^kemeh/kemeh$
 ^ome/ome$
 ^taman/taman$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tatoktah/tatoktah$
 ^mochiwa/mochiwa$
@@ -931,7 +925,7 @@
 ^weikowtah/weikowtah$
 ^tomakilit/tomakilit$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kemah/kemah$
 ^tepitsin/tepitsin$
 ^kipata/kipata$
@@ -967,13 +961,19 @@
 ^tatokah/tatokah$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73:1
 # text = Aja. Nikahkwin amo kixmatih porque amo onkak.
 # text[orig] = Ajá. Nikahkwí:n a:mo ki:xmatih *porque** a:mo onkak.
 # text[spa] = Aha. Aquí no lo conocen porque no lo hay.
 # labels = a73 sentence
 ^Aja/Aja$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73:2
+# text = Aja. Nikahkwin amo kixmatih porque amo onkak.
+# text[orig] = Ajá. Nikahkwí:n a:mo ki:xmatih *porque** a:mo onkak.
+# text[spa] = Aha. Aquí no lo conocen porque no lo hay.
+# labels = a73 sentence
 ^Nikahkwin/Nikahkwin$
 ^amo/amo$
 ^kixmatih/kixmatih$
@@ -1020,7 +1020,7 @@
 ^,/,$
 ^amo/amo$
 ^kitokah/kitokah$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^mochiwa/mochiwa$
 ^sah/sah$

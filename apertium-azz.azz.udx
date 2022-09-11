@@ -26,6 +26,7 @@
 1	_	_	tv	_	_	_	Subcat=Tran	_
 1	_	_	iv	_	_	_	Subcat=Intr	_
 #
+1	_	_	redup	_	_	_	Reduplicated=Yes	_
 1	_	_	imp	_	_	_	Mood=Imp	_
 1	_	_	cni	_	_	_	Mood=Cond	_
 1	_	_	impf	_	_	_	Aspect=Imp	_

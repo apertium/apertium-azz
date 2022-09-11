@@ -74,68 +74,56 @@
 	"." sent @punct #13->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a21
-# text = Niknekiskia xinechtapowi in istak tomakilit,
-# text[orig] = Niknekiskia xine:chtapowi i:n ista:k tomakilit,
-# text[spa] = Quisiera que me contaras sobre el <i>ista:ktomakilit<i>,
-# labels = a21 fragment
+# text = Niknekiskia xinechtapowi in istak tomakilit, keniwki n' ixochio, keniwki n' iteyo, keniwki n' ixiwyo, keniwki n' ikowyo.
+# text[orig] = Niknekiskia xine:chtapowi i:n ista:k tomakilit, ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
+# text[spa] = Quisiera que me contaras sobre el <i>ista:ktomakilit<i>, cómo es la flor, como es el fruto, como son las hojas, cómo es el tallo.
+# text[a21] = Niknekiskia xine:chtapowi i:n ista:k tomakilit,
+# text[a22] = ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
+# labels = a21 a22 fragment
 "<Niknekiskia>"
-	"neki" v tv cni s_sg1 o_sg3
+	"neki" v tv cni s_sg1 o_sg3 @root #1->0
 "<xinechtapowi>"
-	"tapohui" v tv pres imp s_sg2 o_sg1
+	"tapohui" v tv pres imp s_sg2 i_sg1 o_sg3 @dep #2->1
 "<in>"
-	"in" det
+	"in" det @det #3->5
 "<istak>"
-	"istak" adj
-	"istak" adj s_sg3
+	"istak" adj @amod #4->5
 "<tomakilit>"
-	"tomakilit" n abs
-	"tomakilit" n abs s_pl3
-	"tomakilit" n abs s_sg3
+	"tomakilit" n abs @obj #5->2
 "<,>"
-	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a22
-# text = keniwki n' ixochio, keniwki n' iteyo, keniwki n' ixiwyo, keniwki n' ikowyo.
-# text[orig] = ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
-# text[spa] = cómo es la flor, como es el fruto, como son las hojas, cómo es el tallo.
-# labels = a22 fragment
+	"," cm @punct #6->7
 "<keniwki>"
-	"keniuki" adv itg
+	"keniuki" adv itg @conj #7->1
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #8->9
 "<ixochio>"
-	"xochiot" n px3sg
+	"xochiot" n px3sg @nsubj #9->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->11
 "<keniwki>"
-	"keniuki" adv itg
+	"keniuki" adv itg @conj #11->1
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #12->13
 "<iteyo>"
-	"teyo" n px3sg
+	"teyo" n px3sg @nsubj #13->11
 "<,>"
-	"," cm @punct
+	"," cm @punct #14->15
 "<keniwki>"
-	"keniuki" adv itg
+	"keniuki" adv itg @conj #15->1
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #16->17
 "<ixiwyo>"
-	"xiuyo" n px3sg
-	"xiuyo" n pl px3sg
+	"xiuyo" n px3sg @nsubj #17->15
 "<,>"
-	"," cm @punct
+	"," cm @punct #18->19
 "<keniwki>"
-	"keniuki" adv itg
+	"keniuki" adv itg @conj #19->1
 "<n'>"
-	"in" det
-;	"nik" x REMOVE:41
+	"in" det @det #20->21
 "<ikowyo>"
-	"kouyo" n px3sg
+	"kouyo" n px3sg @nsubj #21->19
 "<.>"
-	"." sent @punct
+	"." sent @punct #22->1
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a23
 # text = Wan ox se kikwa wan kani mochiwa.
@@ -143,21 +131,21 @@
 # text[spa] = Y si es comestible y dónde crece.
 # labels = a23 sentence
 "<Wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #1->4
 "<ox>"
-	"ox" cnjsub
+	"ox" cnjsub @dep #2->4
 "<se>"
-	"se" num
+	"se" num @nsubj #3->4
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @root #4->0
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #5->7
 "<kani>"
-	"kani" adv itg
+	"kani" adv itg @advmod #6->7
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @conj #7->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->4
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a47
 # text = Tiki...
@@ -344,18 +332,15 @@
 	"ne" det
 "<kowtah>"
 	"koutaj" n abs
-;	"koutaj" n abs s_pl3 REMOVE:29
-;	"koutaj" n abs s_sg3 REMOVE:29
 "<tomakilit>"
 	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3 REMOVE:29
-;	"tomakilit" n abs s_sg3 REMOVE:29
 "<amo>"
 	"amo" adv
 "<keman>"
 	"keman" adv
 "<nakin>"
-	"*nakin"
+	"in" det
+		"akin" prn
 "<nikakiliaya>"
 	"kakilia" v tv impf s_sg1 o_sg3
 "<.>"
@@ -1353,7 +1338,6 @@
 	"tepitsin" adv
 "<kipata>"
 	"pata" v tv pres s_sg3 o_sg3
-	"ita" v tv pres s_sg3 o_sg3 pan
 "<sah>"
 	"saj" adv
 "<nen>"
@@ -1526,23 +1510,20 @@
 "<Tepitsin>"
 	"tepitsin" adv
 "<tohtomawak>"
-	"tohtomahuak" adj
 	"tohtomahuak" adj s_sg3
 "<.>"
 	"." sent @punct
 "<Mapatawak>"
-	"mapatahuak" adj
 	"mapatahuak" adj s_sg3
 "<n'>"
 	"in" det
-;	"nik" x REMOVE:41
 "<imay>"
 	"may" n px3sg
 "<,>"
 	"," cm @punct
 "<mapapatawak>"
-	"mapapatahuak" adj
-	"mapapatahuak" adj s_sg3
+	"mapajpatahuak" adj redup
+	"mapajpatahuak" adj redup s_sg3
 "<mas>"
 	"más" adv
 "<achi>"
@@ -1581,30 +1562,29 @@
 # text[spa] = Sí, y el verde, las hojas son más pequeñas, digamos que las hojas son más pequeñas.
 # labels = a60 sentence
 "<Kemah>"
-	"kemaj" ij
+	"kemaj" ij @root #1->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #3->7
 "<in>"
-	"in" det
+	"in" det @det #4->5
 "<xoxoktik>"
-	"xoxoktik" adj
-	"xoxoktik" adj s_sg3
+	"xoxoktik" adj @nsubj #5->7
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #6->7
 "<matsikitsitsin>"
-	"*matsikitsitsin"
+	"matsiki" adj hon pl @conj #7->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->11
 "<achi>"
-	"achi" adv
+	"achi" adv @advmod #9->10
 "<mapihpisiltik>"
-	"*mapihpisiltik"
+	"mapijpisiltik" adj redup @ccomp #10->11
 "<tikihtokan>"
-	"ijtohua" v tv opt s_pl1 o_sg3
+	"ijtohua" v tv opt s_pl1 o_sg3 @parataxis #11->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->7
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a61
 # text = Kemah, pero
@@ -1721,40 +1701,32 @@
 # text[spa] = El que sabe un poco diferente es el <i>we:ikowtahtomakilit<i>, ese sí, el sabor es diferente.
 # labels = a64 sentence
 "<Tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #1->2
 "<kipata>"
-	"pata" v tv pres s_sg3 o_sg3
-	"ita" v tv pres s_sg3 o_sg3 pan
+	"pata" v tv pres s_sg3 o_sg3 @root #2->0
 "<de>"
-	"de" pr
+	"de" pr @case #3->4
 "<welik>"
-	"huelik" adj
-	"huelik" adj s_sg3
-	"hueli" v iv pret s_sg3
+	"huelik" adj @obl #4->2
 "<de>"
-	"de" pr
+	"de" pr @case #5->6
 "<weikowtah>"
-	"hueikoutaj" n abs
-;	"hueikoutaj" n abs s_pl3 REMOVE:31
-;	"hueikoutaj" n abs s_sg3 REMOVE:31
+	"hueikoutaj" n abs @obl #6->2
 "<tomakilit>"
-	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3 REMOVE:31
-;	"tomakilit" n abs s_sg3 REMOVE:31
+	"tomakilit" n abs @compound #7->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @parataxis #9->2
+		"in" det @mark #10->13
 "<kemah>"
-	"kemaj" ij
+	"kemaj" ij @discourse #11->13
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #12->13
 "<kipata>"
-	"pata" v tv pres s_sg3 o_sg3
-	"ita" v tv pres s_sg3 o_sg3 pan
+	"pata" v tv pres s_sg3 o_sg3 @csubj #13->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->2
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a65
 # text = Kemah.
@@ -1800,31 +1772,35 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73
-# text = Aja. Nikahkwin amo kixmatih porque amo onkak.
-# text[orig] = Ajá. Nikahkwí:n a:mo ki:xmatih *porque** a:mo onkak.
-# text[spa] = Aha. Aquí no lo conocen porque no lo hay.
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73:1
+# text = Aja. 
+# text[orig] = Ajá. 
+# text[spa] = Aha. 
 # labels = a73 sentence
 "<Aja>"
-	"aja" ij
+	"aja" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a73:2
+# text = Nikahkwin amo kixmatih porque amo onkak.
+# text[orig] = Nikahkwí:n a:mo ki:xmatih *porque** a:mo onkak.
+# text[spa] = Aquí no lo conocen porque no lo hay.
+# labels = a73 sentence
 "<Nikahkwin>"
-	"nikakuin" adv
+	"nikakuin" adv @advmod #1->3
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #2->3
 "<kixmatih>"
-	"ixmati" v tv pres s_pl3 o_sg3
-	"ixmati" v tv pret s_sg3 o_sg3
+	"ixmati" v tv pres s_pl3 o_sg3 @root #3->0
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark #4->6
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #5->6
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @advcl #6->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->3
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a75
 # text = N' tehwan tikmattokeh porque newin kowtah ay tinemih, tikixmatih kowtah tomakilit.

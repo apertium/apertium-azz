@@ -851,6 +851,13 @@ LEXICON ADJ
 %<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
 %<adj%>%<hon%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
 
+LEXICON ADJ-REDUP
+
+%<adj%>%<redup%>:                                  V-AGR-PRET ; 
+%<adj%>%<redup%>%<pl%>:%>mej                       V-AGR-PRET ; 
+%<adj%>%<redup%>%<hon%>:%>tsin                     V-AGR-PRET ; 
+%<adj%>%<redup%>%<hon%>%<pl%>:%>tsi%>tsin          V-AGR-PRET ; 
+
 LEXICON ADJ-KUALI
 %<adj%>:%>i                                        V-AGR-PRET ; 
 %<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
@@ -984,6 +991,13 @@ kixtilia:kixtili%{y%}a                              V-SIO-IMPF ;
 kixtilia:kixtili%{y%}a                              V-SIO-PROG ;
 kixtilia:kixtili                                    V-SIO-PRET ;
 kixtilia:kixtili                                    V-SIO-FUTR ;
+
+! ""
+pohui:pohui                                         V-SIO-PRES ;
+pohui:pohui                                         V-SIO-IMPF ;
+pohui:pohui                                         V-SIO-PROG ;
+pohui:pohui                                         V-SIO-PRET ;
+pohui:pohui                                         V-SIO-FUTR ;
 
 
 LEXICON SO
@@ -1258,7 +1272,7 @@ altia:alti                                          V-SO-PROG ;
 altia:alti                                          V-SO-PRET ;
 altia:alti                                          V-SO-FUTR ;
 
-! ""
+! "cambiar"
 pata:pata                                           V-SO-PRES ;
 pata:pata                                           V-SO-IMPF ;
 pata:pata                                           V-SO-PROG ;
@@ -4122,6 +4136,8 @@ yehua%<prn%>%<pers%>%<sg3%>%<short%>%+in%<det%>:yo%>n # ;
 kemej%<adv%>%+etok%<cop%>%<cni%>:kem%>eski%{y%}a   # ;
 kemej%<adv%>%+etok%<cop%>%<cni%>:kemej%>eski%{y%}a # ;
 
+in%<det%>%+akin%<prn%>:n%>akin                     # ;
+
 LEXICON Copula
 
 etok:%{y%}e                                        COP ; ! "estar"
@@ -5979,7 +5995,7 @@ Ecatlan:Ecatlan                                     NP-TOP ;
 LEXICON Adjetivos 
 
 huelik:huelik                                       ADJ ; ! "bueno"
-huehuelik:hue%{j%}huelik                            ADJ ; ! "bueno"
+huejhuelik:hue%{j%}huelik                           ADJ-REDUP ; ! "bueno"
 kuali:kual                                          ADJ-KUALI ; ! "bonito"
 kuakuali:kua%{j%}kual                               ADJ-KUALI ; ! "bonito"
 huei:hue                                            ADJ-KUALI ; ! "grande"
@@ -5990,22 +6006,25 @@ tsiki:tsiki                                         ADJ ; ! "pequeño"
 tsikili:tsikili                                     ADJ ; ! "pequeño"
 pisiltik:pisiltik                                   ADJ ; ! "chiquito"
 selik:selik                                         ADJ ; ! "tierno"
-seselik:se%{j%}selik                                ADJ ; ! "tierno"
-ojololtik:o%{j%}ololtik                             ADJ ; ! "redondo"
+sejselik:se%{j%}selik                               ADJ-REDUP ; ! "tierno"
 selontsin:selontsin                                 ADJ-TSIN ; ! "tiernitos"
+
+matsiki:matsiki                                     ADJ ; ! ""
+mapijpisiltik:mapi%{j%}pisiltik                     ADJ-REDUP ; ! ""
 
 mahuejuei:mahuejuei                                 ADJ ; ! "con hojas grandes"
 metsuehueyak:metsuehueyak                           ADJ ; ! ""
 tenkoyoktik:tenkoyoktik                             ADJ ; ! ""
 
 ololtik:ololtik                                     ADJ ; ! "esférico"
+ojololtik:o%{j%}ololtik                             ADJ-REDUP ; ! "redondo"
 
 yankuik:yankuik                                     ADJ ; ! "nuevo"
 
 ajuiyak:ajuiyak                                     ADJ ; ! "fragrante"
 yolik:yolik                                         ADJ ; ! "difícil"
 ohuij:ohuij                                         ADJ ; ! "difícil"
-yolpakij:yol%>pa%{j%}ki%{j%}                        ADJ ; ! ""
+yolpakij:yol%>pa%{j%}ki%{j%}                        ADJ ; ! "feliz de corazón"
 pakij:pa%{j%}ki%{j%}                                ADJ ; ! "feliz"
 
 tsik:tsik                                           ADJ ; ! "un poco de"
@@ -6015,22 +6034,22 @@ mapisiltik:mapisiltik                               ADJ ; ! "pequeño"
 nohnel:nohnel                                       ADJ ; ! "pequeño"
 
 istak:istak                                         ADJ ; ! "blanco"
-ijistak:i%{j%}istak                                 ADJ ; ! "blanco"
+ijistak:i%{j%}istak                                 ADJ-REDUP ; ! "blanco"
 nextik:nextik                                       ADJ ; ! "gris"
 chijchiltik:chichiltik                              ADJ ; ! "rojo"
-chijchichiltik:chi%{j%}chichiltik                   ADJ ; ! "rojo"
+chijchichiltik:chi%{j%}chichiltik                   ADJ-REDUP ; ! "rojo"
 kostik:kostik                                       ADJ ; ! "amarillo"
-kojkostik:ko%{j%}kostik                             ADJ ; ! "amarillo"
-nejnextik:ne%{j%}nextik                             ADJ ; ! "gris"
+kojkostik:ko%{j%}kostik                             ADJ-REDUP ; ! "amarillo"
+nejnextik:ne%{j%}nextik                             ADJ-REDUP ; ! "gris"
 tiltik:tiltik                                       ADJ ; ! "negro"
-tijtiltik:ti%{j%}tiltik                             ADJ ; ! "negro"
+tijtiltik:ti%{j%}tiltik                             ADJ-REDUP ; ! "negro"
 selistok:selistok                                   ADJ ; ! "verde"
 xoxoktik:xoxoktik                                   ADJ ; ! "verde"
-xojxoxoktik:xo%{j%}xoxoktik                         ADJ ; ! "verde"
+xojxoxoktik:xo%{j%}xoxoktik                         ADJ-REDUP ; ! "verde"
 xoxohuik:xoxohuik                                   ADJ ; ! "verde"
 chichik:chichik                                     ADJ ; ! "amargo"
 
-pijpitsaktik:pi%{j%}pitsaktik                       ADJ ; ! "delgado"
+pijpitsaktik:pi%{j%}pitsaktik                       ADJ-REDUP ; ! "delgado"
 alaktik:alaktik                                     ADJ ; ! "resbaloso"
 
 chikahuak:chikahuak                                 ADJ ; ! "fuerte"
@@ -6043,56 +6062,55 @@ kanahuak:kanahuak                                   ADJ ; ! "delgado"
 kajkanahuak:ka%{j%}kanahuak                         ADJ ; ! "delgado"
 
 patahuak:patahuak                                   ADJ ; ! "ancho"
+pajpatahuak:pa%{j%}patahuak                         ADJ-REDUP ; ! "ancho"
 mapatahuak:mapatahuak                               ADJ ; ! "ancho"
-papatahuak:papatahuak                               ADJ ; ! "ancho"
-mapapatahuak:mapapatahuak                           ADJ ; ! "ancho"
+mapajpatahuak:mapa%{j%}patahuak                     ADJ-REDUP ; ! "ancho"
 
 kanak:kanak                                         ADJ ; ! "delgado"
 xokok:xokok                                         ADJ ; ! "ácido"
 
 totonik:totonik                                     ADJ ; ! "caliente"
-tototonik:to%{j%}totonik                            ADJ ; ! "caliente"
-sesek:sesek                                         ADJ ; ! "frío"
-sesek:sejsek                                        ADJ ; ! "frío"
+tojtotonik:to%{j%}totonik                           ADJ-REDUP ; ! "caliente"
+sesek:se%{j%}sek                                    ADJ ; ! "frío"
 
 takistok:takistok                                   ADJ ; ! "despejado"
 
 alaxtik:alaxtik                                     ADJ ; ! "liso"
-ajalaxtik:a%{j%}alaxtik                             ADJ ; ! "liso"
+ajalaxtik:a%{j%}alaxtik                             ADJ-REDUP ; ! "liso"
 maajalaxtik:maajalaxtik                             ADJ ; ! "liso"
 xaxakachtik:xaxakachtik                             ADJ ; ! "reposo"
 
 eski:eski                                           ADJ ; ! "cierto"
 hueyak:hueyak                                       ADJ ; ! "largo"
-huehueyak:hue%{j%}hueyak                            ADJ ; ! "largo"
-mahuehueyak:mahue%{j%}hueyak                        ADJ ; ! "alargado"
+huejhueyak:hue%{j%}hueyak                           ADJ-REDUP ; ! "largo"
+mahuejhueyak:mahue%{j%}hueyak                       ADJ-REDUP ; ! "alargado"
 
 etik:%{y%}etik                                      ADJ ; ! "pesado"
 iukitik:iukitik                                     ADJ ; ! "parecido"
 huakkatik:huakkatik                                 ADJ ; ! "liviano"
 
 pitsahuak:pitsahuak                                 ADJ ; ! "angosto, delgado"
-pipitsahuak:pi%{j%}pitsahuak                        ADJ ; ! "angosto, delgado"
+pijpitsahuak:pi%{j%}pitsahuak                       ADJ-REDUP ; ! "angosto, delgado"
 
 moloxtik:moloxtik                                   ADJ ; ! "agradable"
-momoloxtik:mo%{j%}moloxtik                          ADJ ; ! "agradable"
+mojmoloxtik:mo%{j%}moloxtik                         ADJ-REDUP ; ! "agradable"
 
 yehualtik:yehualtik                                 ADJ ; ! "redondo"
-yeyehualtik:ye%{j%}yehualtik                        ADJ ; ! "redondo"
-yohyohualtik:yohyohualtik                           ADJ ; ! "redondo"
-mayehyehualtik:mayehyehualtik                       ADJ ; ! "redondo"
-mayohyohualtik:mayohyohualtik                       ADJ ; ! "redondo"
+yejyehualtik:ye%{j%}yehualtik                       ADJ-REDUP ; ! "redondo"
+yojyohualtik:yo%{j%}yohualtik                       ADJ-REDUP ; ! "redondo"
+mayejyehualtik:maye%{j%}yehualtik                   ADJ-REDUP ; ! "redondo"
+mayojyohualtik:mayo%{j%}yohualtik                   ADJ-REDUP ; ! "redondo"
 
 melahuak:melahuak                                   ADJ ; ! "derecho"
-memelahuak:me%{j%}melahuak                          ADJ ; ! "derecho"
+memelahuak:me%{j%}melahuak                          ADJ-REDUP ; ! "derecho"
 chipahuak:chipahuak                                 ADJ ; ! "limpio"
 tilahuak:tilahuak                                   ADJ ; ! "grueso"
 tomahuak:tomahuak                                   ADJ ; ! "grueso"
-tohtomahuak:tohtomahuak                             ADJ ; ! "grueso"
+tojtomahuak:tjhtomahuak                             ADJ-REDUP ; ! "grueso"
 tamachiu:tamachiu                                   ADJ ; ! "diferente"
 
 huejkapan:huejkapan                                 ADJ ; ! "alto"
-huejkapan:hue%{j%}huejkapan                         ADJ ; ! "alto"
+huejhuejkapan:hue%{j%}huejkapan                     ADJ-REDUP ; ! "alto"
 huejkapantik:huejkapantik                           ADJ ; ! "alto"
 
 elihuis:elihuis                                     ADJ ; ! "salvaje"
@@ -6104,7 +6122,7 @@ chichijkoltik:chi%{j%}chijkoltik                    ADJ ; ! "torcido"
 fiero:fiero%{j%}                                    ADJ ; ! "feo"
 
 patachtik:patachtik                                 ADJ ; ! "plano"
-papatachtik:pa%{j%}patachtik                        ADJ ; ! "aplastado"
+pajpatachtik:pa%{j%}patachtik                       ADJ-REDUP ; ! "aplastado"
 
 tamanal:tamanal                                     ADJ ; ! "hervido"
 
