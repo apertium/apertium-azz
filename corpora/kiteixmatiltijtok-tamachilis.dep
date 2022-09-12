@@ -2243,90 +2243,79 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = kiteixmatiltijtok-tamachilis:70
-# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
+# sent_id = kiteixmatiltijtok-tamachilis:70:1
+# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. 
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels = complete
+"<Maj>"
+	"ma" aux @aux #1->2
+"<sekinemili>"
+	"nemilia" v tv pres s_ind o_sg3 @root #2->0
+"<ke>"
+	"ke" cnjsub @mark #3->4
+"<tiktsikitsintiliya>" 
+	"tsikitsintilia" v tv pres s_pl1 o_sg3 @ccomp #4->2
+"<se>"
+	"se" num @det #5->6
+"<tepet>"
+	"tepet" n abs @obj #6->4
+"<kemej>"
+	"kemej" pr @case #7->9
+"<se>"
+	"se" num @det #8->9
+"<askat>"
+	"askat" n abs @obl #9->4
+"<,>"
+	"," cm @punct #10->14
+"<uelis>"
+	"hueli" vaux fut @aux #11->14
+"<no>"
+	"no" adv @advmod #12->14
+"<se>"
+	"se" num @nsubj #13->14
+"<kinemilis>"
+	"nemilia" v tv fut s_sg3 o_sg3 @parataxis #14->2
+"<ke>"
+	"ke" cnjsub @mark #15->17
+"<tayijtik>"
+	"tayijtik" adv @advmod #16->17
+"<tikalakiyaj>"
+	"kalakia" v tv pres s_pl1 o_sg3 @ccomp #17->14
+"<ne>"
+	"ne" det @det #18->19
+"<tonal>"
+	"tonal" n abs @obj #19->17
+"<,>"
+	"," cm @punct #20->23
+"<nochi>"
+	"nochi" det @det #21->23
+"<ne>"
+	"ne" det @det #22->23
+"<mixti>"
+	"mixti" n abs @conj #23->19
+"<uan>"
+	"huan" cnjcoo @cc #24->26
+"<ne>"
+	"ne" det @det #25->26
+"<mixkouamej>"
+	"mixkouat" n pl @conj #26->19
+"<;>"
+	";" sent @punct #27->31
+"<axkan>"
+	"axkan" adv @advmod #28->31
+"<maj>"
+	"ma" aux @aux #29->31
+"<se>"
+	"se" num @nsubj #30->31
+"<kikajkaua>"
+	"kajkahua" v tv pres s_sg3 o_sg3 @parataxis #31->2
+"<.>"
+	"." sent @punct #32->2
+
+# sent_id = kiteixmatiltijtok-tamachilis:70:2
+# text = Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
 # text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
 # labels =  
-"<Maj>"
-	"ma" aux
-"<sekinemili>"
-	"*sekinemili"
-"<ke>"
-	"ke" prn
-;	"ke" x REMOVE:41
-"<tiktsikitsintiliya>"
-	"*tiktsikitsintiliya"
-"<se>"
-	"se" num
-"<tepet>"
-	"tepet" n abs
-;	"tepet" n abs s_pl3 REMOVE:31
-;	"tepet" n abs s_sg3 REMOVE:31
-"<kemej>"
-	"kemej" adv
-"<se>"
-	"se" num
-"<askat>"
-	"askat" n abs
-;	"askat" n abs s_pl3 REMOVE:31
-;	"askat" n abs s_sg3 REMOVE:31
-"<,>"
-	"," cm @punct
-"<uelis>"
-	"hueli" vaux fut
-"<no>"
-	"no" adv
-	"no" det @det
-"<se>"
-	"se" num
-"<kinemilis>"
-	"*kinemilis"
-"<ke>"
-	"ke" prn
-;	"ke" x REMOVE:41
-"<tayijtik>"
-	"tayijtik" adv
-"<tikalakiyaj>"
-	"*tikalakiyaj"
-"<ne>"
-	"ne" adv
-	"ne" det @det
-"<tonal>"
-	"tonal" n abs
-;	"tonal" n abs s_pl3 REMOVE:29
-;	"tonal" n abs s_sg3 REMOVE:29
-"<,>"
-	"," cm @punct
-"<nochi>"
-	"nochi" det @det
-	"nochi" prn
-"<ne>"
-	"ne" adv
-	"ne" det @det
-"<mixti>"
-	"mixti" n abs
-;	"mixti" n abs s_pl3 REMOVE:29
-;	"mixti" n abs s_sg3 REMOVE:29
-"<uan>"
-	"huan" cnjcoo @cc
-"<ne>"
-	"ne" adv
-	"ne" det @det
-"<mixkouamej>"
-	"mixkouat" n pl
-;	"mixkouat" n pl s_pl3 REMOVE:29
-;	"mixkouat" n pl s_sg3 REMOVE:29
-; 
-"<axkan>"
-	"axkan" adv
-"<maj>"
-	"ma" aux
-"<se>"
-	"se" num
-"<kikajkaua>"
-	"*kikajkaua"
-"<.>"
-	"." sent @punct
 "<Maj>"
 	"ma" aux
 "<se>"
@@ -2471,9 +2460,9 @@
 "<tamachilis>"
 	"tamachilis" n abs
 "<teyin>"
-	"tein" prn
+	"tein" prn 
 "<kixnextiya>"
-	"ixnextia" v tv pres s_sg3 o_sg3
+	"ixnextia" v tv pres s_sg3 o_sg3 @acl:relcl
 "<nijin>"
 	"nijin" det @det
 "<tanemilil>"
@@ -2538,7 +2527,7 @@
 	"tajtoleualoni" n abs @root #1->0
 
 # sent_id = kiteixmatiltijtok-tamachilis:84:1
-# text = átomos: nochi nejin okuilimej,kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
+# text = átomos: nochi nejin okuilimej, kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos. Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
 # labels =  
 "<átomos>"
@@ -2553,12 +2542,11 @@
 	"nejin" prn
 "<okuilimej>"
 	"okuilin" n pl
-;	"okuilin" n pl s_pl3 REMOVE:31
 ;	"okuilin" n pl s_sg3 REMOVE:31
 "<,>"
 	"," cm @punct
 "<kuaujtakilomej>"
-	"*kuaujtakilomej"
+	"kuaujtakilo" n pl
 "<uan>"
 	"huan" cnjcoo @cc
 "<nochi>"
@@ -2568,22 +2556,18 @@
 	"tein" prn
 "<tikitaj>"
 	"ita" v tv pres s_pl1 o_sg3
-	"ita" v tv pret s_sg2 o_sg3
 "<itech>"
 	"tech" n rel px3sg
 "<in>"
 	"in" det @det
 "<totalmanik>"
 	"talmanik" n px1pl
-	"talmanik" n abs px1pl
 "<chichiujtokej>"
 	"chijchihua" v iv prog pres s_pl3
 "<ijka>"
 	"ijka" v iv pres s_sg3
 "<átomos>"
 	"átomo" n m pl
-;	"átomo" n m pl s_pl3 REMOVE:29
-;	"átomo" n m pl s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
 

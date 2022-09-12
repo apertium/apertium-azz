@@ -1180,7 +1180,7 @@
 ^olochyetoya/olochyetoya$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:70
+# sent_id = kiteixmatiltijtok-tamachilis:70:1
 # text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
 # text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
 # labels =  
@@ -1210,11 +1210,17 @@
 ^uan/uan$
 ^ne/ne$
 ^mixkouamej/mixkouamej$
+^;/;$
 ^axkan/axkan$
 ^maj/maj$
 ^se/se$
 ^kikajkaua/kikajkaua$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:70:2
+# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua. Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels =  
 ^Maj/Maj$
 ^se/se$
 ^kinemili/kinemili$

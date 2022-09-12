@@ -551,6 +551,43 @@
 2	ueyi	huei	ADJ	_	_	3	amod	_	_
 3	tatoponilis	tatoponilis	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:70:1
+# text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua.
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels = complete
+1	Maj	ma	AUX	_	_	2	aux	_	_
+2	sekinemili	nemilia	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ke	ke	SCONJ	_	_	4	mark	_	_
+4	tiktsikitsintiliya	tsikitsintilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	ccomp	_	_
+5	se	se	NUM	_	_	6	det	_	_
+6	tepet	tepet	NOUN	_	Case=Abs	4	obj	_	_
+7	kemej	kemej	ADP	_	_	9	case	_	_
+8	se	se	NUM	_	_	9	det	_	_
+9	askat	askat	NOUN	_	Case=Abs	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	uelis	hueli	AUX	_	Tense=Fut	14	aux	_	_
+12	no	no	ADV	_	_	14	advmod	_	_
+13	se	se	NUM	_	_	14	nsubj	_	_
+14	kinemilis	nemilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	2	parataxis	_	_
+15	ke	ke	SCONJ	_	_	17	mark	_	_
+16	tayijtik	tayijtik	ADV	_	_	17	advmod	_	_
+17	tikalakiyaj	kalakia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	14	ccomp	_	_
+18	ne	ne	DET	_	_	19	det	_	_
+19	tonal	tonal	NOUN	_	Case=Abs	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	nochi	nochi	DET	_	_	23	det	_	_
+22	ne	ne	DET	_	_	23	det	_	_
+23	mixti	mixti	NOUN	_	Case=Abs	19	conj	_	_
+24	uan	huan	CCONJ	_	_	26	cc	_	_
+25	ne	ne	DET	_	_	26	det	_	_
+26	mixkouamej	mixkouat	NOUN	_	Number=Plur	19	conj	_	SpaceAfter=No
+27	;	;	PUNCT	_	_	31	punct	_	_
+28	axkan	axkan	ADV	_	_	31	advmod	_	_
+29	maj	ma	AUX	_	_	31	aux	_	_
+30	se	se	NUM	_	_	31	nsubj	_	_
+31	kikajkaua	kajkahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:72
 # text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
 # text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.

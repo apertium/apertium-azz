@@ -1432,6 +1432,14 @@ ehua:ehua                                           V-SO-PRET ;
 ehua:ehua                                           V-SO-FUTR ;
 
 ! ""
+tsikitsintilia:tsikitsintili%{y%}a                  V-SO-PRES ;
+tsikitsintilia:tsikitsintili%{y%}a                  V-SO-IMPF ;
+tsikitsintilia:tsikitsintili                        V-SO-PROG ;
+tsikitsintilia:tsikitsintili                        V-SO-PRET ;
+tsikitsintilia:tsikitsintili                        V-SO-FUTR ;
+
+
+! ""
 tsikitsintiltia:tsikitsintilti%{y%}a                V-SO-PRES ;
 tsikitsintiltia:tsikitsintilti%{y%}a                V-SO-IMPF ;
 tsikitsintiltia:tsikitsintilti                      V-SO-PROG ;
@@ -2099,6 +2107,14 @@ aketsa:aketsa                                       V-SO-IMPF ;
 aketsa:aketsa                                       V-SO-PROG ;
 aketsa:aketsa                                       V-SO-PRET ;
 aketsa:aketsa                                       V-SO-FUTR ;
+
+! "meter"
+kalakia:kalaki%{y%}a                                V-SO-PRES ;
+kalakia:kalaki%{y%}a                                V-SO-IMPF ;
+kalakia:kalaki                                      V-SO-PROG ;
+kalakia:kalaki                                      V-SO-PRET ;
+kalakia:kalaki                                      V-SO-FUTR ;
+
 
 ! "machacar"
 pitsinia:pitsinia                                   V-SO-PRES ;
@@ -4045,6 +4061,14 @@ chikahuaya:chikahuaya                                 V-S-FUTR ; ! ""
 
 
 ! ""
+kalaki:kalaki                                         V-S-PRES ; ! ""
+kalaki:kalaki                                         V-S-IMPF ; ! ""
+kalaki:kalaki                                         V-S-PROG ; ! ""
+kalaki:kalaki                                         V-S-PRET ; ! ""
+kalaki:kalaki                                         V-S-FUTR ; ! ""
+
+
+! ""
 yolsahuani:yolsahuani                                 V-S-PRES ; ! ""
 yolsahuani:yolsahuani                                 V-S-IMPF ; ! ""
 yolsahuani:yolsahuani                                 V-S-PROG ; ! ""
@@ -4945,7 +4969,6 @@ tokait:tokai                                        N-TL ; ! "nombre"
 tentok:tentok                                       N-Ø ; ! "regado"
 taixkal:taixkal                                     N-Ø ; ! "asado"
 kualkan:kualkan                                     N-Ø ; ! "temprano"
-kalaki:kalaki                                       N-Ø ; ! "entrar"
 eskisa:eskisa                                       N-Ø ; ! "sangrar"
 tempalan:tempalan                                   N-Ø ; ! "aftas"
 totomoch:totomoch                                   N-Ø ; ! "totomochtle"
@@ -5145,7 +5168,6 @@ koutatsikeu:koutatsikeu                             N-Ø ; ! "astilla"
 kohuitsok:kohuitsok                                 N-Ø ; ! "coa"
 kopach:kopach                                       N-Ø ; ! "heno"
 kaxaltik:kaxaltik                                   N-Ø ; ! "flojo"
-kalakia:kalakia                                     N-Ø ; ! "mete"
 ixkich:ixkich                                       N-Ø ; ! "mucho"
 istayoj:istayoj                                     N-Ø ; ! "salado"
 estsompil:estsompil                                 N-Ø ; ! "disentería"
@@ -5217,9 +5239,6 @@ koyok:koyok                                         N-Ø ; ! "agujero"
 koutatsijtsikeu:koutatsijtsikeu                     N-Ø ; ! "astilla"
 koutamomox:koutamomox                               N-Ø ; ! "aserrín"
 kiouteyomej:kiouteyomej                             N-Ø ; ! "rayos"
-kepa:kepa                                           N-Ø ; ! "voltear"
-kalakilia:kalakilia                                 N-Ø ; ! "meterle"
-ixpankisa:ixpankisa                                 N-Ø ; ! "cicatrizar"
 epat:epa                                            N-TL ; ! "zorillo"
 cholohua:cholohua                                   N-Ø ; ! "huir"
 atatstik:atatstik                                   N-Ø ; ! "aguado"
