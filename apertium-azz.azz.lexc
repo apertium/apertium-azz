@@ -2488,6 +2488,14 @@ matami:matami                                       V-S-PROG ;
 matami:matami                                       V-S-PRET ;
 matami:matami                                       V-S-FUTR ;
 
+! "nacer"
+yoli:yoli                                           V-S-PRES ;
+yoli:yoli                                           V-S-IMPF ;
+yoli:yoli                                           V-S-PROG ;
+yoli:yoli                                           V-S-PRET ;
+yoli:yoli                                           V-S-FUTR ;
+
+
 ! "morir"
 miki:miki                                           V-S-PRES ;
 miki:miki                                           V-S-IMPF ;

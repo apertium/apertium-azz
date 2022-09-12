@@ -65,60 +65,57 @@
 "<Neje>"
 	"neje" det @det #1->2
 "<sitalimej>"
-	"sitalin" n pl @nsubj #2->
+	"sitalin" n pl @nsubj #2->4
 "<no>"
-	"no" adv @advmod #3->
+	"no" adv @advmod #3->4
 "<chijchiujtokej>"
-	"chijchihua" v iv prog pres s_pl3
-	"chijchiutok" adj s_pl3
+	"chijchihua" v iv prog pres s_pl3 @root #4->0
 "<kemej>"
-	"kemej" adv 
+	"kemej" pr @case #5->7
 "<ne>"
 	"ne" det @det #6->7
 "<tonal>"
-	"tonal" n abs 
+	"tonal" n abs @obl #7->4
 "<,>"
-	"," cm @punct #8->
+	"," cm @punct #8->11
 "<sekin>"
-	"seki" prn
+	"seki" prn @nsubj #9->11
 "<kachi>"
-	"kachi" adv
+	"kachi" adv @advmod #10->11
 "<uejueyin>"
-	"huejueyin" adj
-	"huejueyin" adj s_sg3
+	"huejueyin" adj s_sg3 @parataxis #11->4
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #12->15
 "<oksekin>"
-	"okse" det pl
+	"okse" prn pl @nsubj #13->15
 "<kachi>"
-	"kachi" adv
+	"kachi" adv @advmod #14->15
 "<tsikitsitsin>"
-	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3 @conj #15->11
 "<sayoj>"
-	"sayoj" adv
+	"sayoj" adv @mark #16->19
 "<ke>"
-	"ke" prn
+	"ke" prn @fixed #17->16
 "<nochin>"
-	"nochi" det @det
+	"nochi" prn @nsubj #18->19
 "<mochiuaj>"
-	"chihua" v tv pres s_pl3 o_ref
-	"chihua" v tv pret s_sg3 o_ref
+	"chihua" v tv pres s_pl3 o_ref @advcl #19->4
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #20->19
 "<ijpotok>"
-	"ijpotok" n abs @nmod
+	"ijpotok" n abs @nmod #21->20
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #22->23
 "<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @acl:relcl #23->21
 "<hidrógeno>"
-	"hidrógeno" n m sg
+	"hidrógeno" n m sg @obj #24->23
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #25->26
 "<mixuak>"
-	"mixuak" n abs @conj
+	"mixuak" n abs @conj #26->24
 "<.>"
-	"." sent @punct
+	"." sent @punct #27->4
 
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
@@ -264,124 +261,107 @@
 # text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
 # labels =  
 "<Ijkuak>"
-	"ijkuak" cnjsub
+	"ijkuak" cnjsub @mark #1->2
 "<miki>"
-	"miki" v iv pres s_sg3
+	"miki" v iv pres s_sg3 @advcl #2->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->2
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #4->5
 "<sitalin>"
-	"sitalin" n abs
-;	"sitalin" n abs s_pl3 REMOVE:29
-;	"sitalin" n abs s_sg3 REMOVE:29
+	"sitalin" n abs @nsubj #5->6
 "<toponi>"
-	"toponi" v iv pres s_sg3
+	"toponi" v iv pres s_sg3 @root #6->0
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->13
 "<seki>"
-	"seki" det @det
-	"seki" prn
+	"seki" det @det #8->9
 "<átomos>"
-	"átomo" n m pl
-;	"átomo" n m pl s_pl3 REMOVE:29
-;	"átomo" n m pl s_sg3 REMOVE:29
+	"átomo" n m pl @nsubj #9->13
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #10->11
 "<mochiuak>"
-	"chihua" v tv pret s_sg3 o_ref
+	"chihua" v tv pret s_sg3 o_ref @acl:relcl #11->9
 "<tayijtik>"
-	"tayijtik" adv
+	"tayijtik" adv @advmod #12->13
 "<momoyaua>"
-	"moyahua" v tv pres s_sg3 o_ref
+	"moyahua" v tv pres s_sg3 o_ref @conj #13->6
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #14->13
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #15->16
 "<mixkouat>"
-	"mixkouat" n abs
-;	"mixkouat" n abs s_pl3 REMOVE:29
-;	"mixkouat" n abs s_sg3 REMOVE:29
+	"mixkouat" n abs @nmod #16->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #17->19
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #18->19
 "<kichiua>"
-	"chihua" v tv pres s_sg3 o_sg3
+	"chihua" v tv pres s_sg3 o_sg3 @conj #19->6
 "<maj>"
-	"ma" aux
+	"ma" aux @aux #20->21
 "<mochiuakan>"
-	"chihua" v tv opt s_pl3 o_ref
+	"chihua" v tv opt s_pl3 o_ref @ccomp #21->19
 "<oksekin>"
-	"okse" det pl
+	"okse" det pl @det #22->23
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:29
-;	"sitalin" n pl s_sg3 REMOVE:29
+	"sitalin" n pl @nsubj #23->21
 "<.>"
-	"." sent @punct
+	"." sent @punct #24->6
 
-# sent_id = kiteixmatiltijtok-tamachilis:12
-# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# sent_id = kiteixmatiltijtok-tamachilis:12:1
+# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. 
 # text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
 # labels =  
 "<Ne>"
-	"ne" adv
 	"ne" det @det
 "<átomos>"
 	"átomo" n m pl
-;	"átomo" n m pl s_pl3 REMOVE:31
-;	"átomo" n m pl s_sg3 REMOVE:31
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj
 "<mochiuakej>"
-	"chihua" v tv pret s_pl3 o_ref
+	"chihua" v tv pret s_pl3 o_ref @acl:relcl
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl
 "<oksekin>"
-	"okse" det pl
+	"okse" det pl @det
 "<sitalimej>"
-	"sitalin" n pl
-;	"sitalin" n pl s_pl3 REMOVE:29
-;	"sitalin" n pl s_sg3 REMOVE:29
+	"sitalin" n pl @nmod
 "<,>"
 	"," cm @punct
 "<ijkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<yolik>"
-	"yolik" adj
-	"yolik" adj s_sg3
+	"yoli" v iv pret s_sg3 @root
 "<totaltikpak>"
-	"taltikpak" n px1pl
-	"taltikpak" n abs px1pl
+	"taltikpak" n px1pl @nsubj
 "<.>"
 	"." sent @punct
 
+# sent_id = kiteixmatiltijtok-tamachilis:12:2
+# text = Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# labels =  
 "<Totaltikpak>"
-	"taltikpak" n px1pl
-	"taltikpak" n abs px1pl
+	"taltikpak" n px1pl @dep #1->
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #2->
 "<nochi>"
-	"nochi" det @det
-	"nochi" prn
+	"nochi" prn @conj #3->
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #4->
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @acl:relcl #5->
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #6->
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->
 "<kemej>"
-	"kemej" adv
+	"kemej" pr @case #8->
 "<tejuan>"
-	"tehuan" prn pers pl1 abs
+	"tehuan" prn pers pl1 abs @obl #9->
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->
 
 # sent_id = kiteixmatiltijtok-tamachilis:14
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?

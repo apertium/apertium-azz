@@ -33,6 +33,38 @@
 18	iluikak	iluikak	NOUN	_	Case=Abs	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	14	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:4
+# text = Neje sitalimej no chijchiujtokej kemej ne tonal, sekin kachi uejueyin uan oksekin kachi tsikitsitsin sayoj ke nochin mochiuaj ika ijpotok teyin monotsa hidrógeno uan mixuak.
+# text[spa] = Estas estrellas son similares a nuestro sol, algunas más grandes y otras más chicas, pero todas nacen a partir de nubes de gas y polvo.
+# labels =
+1	Neje	neje	DET	_	_	2	det	_	_
+2	sitalimej	sitalin	NOUN	_	Number=Plur	4	nsubj	_	_
+3	no	no	ADV	_	_	4	advmod	_	_
+4	chijchiujtokej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+5	kemej	kemej	ADP	_	_	7	case	_	_
+6	ne	ne	DET	_	_	7	det	_	_
+7	tonal	tonal	NOUN	_	Case=Abs	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	sekin	seki	PRON	_	_	11	nsubj	_	_
+10	kachi	kachi	ADV	_	_	11	advmod	_	_
+11	uejueyin	huejueyin	ADJ	_	Number[subj]=Sing|Person[subj]=3	4	parataxis	_	_
+12	uan	huan	CCONJ	_	_	15	cc	_	_
+13	oksekin	okse	PRON	_	Number=Plur	15	nsubj	_	_
+14	kachi	kachi	ADV	_	_	15	advmod	_	_
+15	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	11	conj	_	_
+16	sayoj	sayoj	ADV	_	_	19	mark	_	_
+17	ke	ke	PRON	_	_	16	fixed	_	_
+18	nochin	nochi	PRON	_	_	19	nsubj	_	_
+19	mochiuaj	chihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	advcl	_	_
+20	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+21	ijpotok	ijpotok	NOUN	_	Case=Abs	20	nmod	_	_
+22	teyin	tein	PRON	_	_	23	nsubj	_	_
+23	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	21	acl:relcl	_	_
+24	hidrógeno	hidrógeno	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+25	uan	huan	CCONJ	_	_	26	cc	_	_
+26	mixuak	mixuak	NOUN	_	Case=Abs	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:6
 # text = Nijin ijpotok uan mixuak mololouaj, nejin teyin mochiua ololtik moskaltiya, mochiua tel ueyi uan ijkon moteltaliya tatajko uan xota.
 # text[spa] = Esos ingredientes van formando grumos que van creciendo más y más hasta que su tamaño es tanto y la presión del material en el centro es tan grande que sus partículas se calientan muchísimo y se producen las llamadas fusiones nucleares.
@@ -59,6 +91,35 @@
 20	uan	huan	CCONJ	_	_	21	cc	_	_
 21	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	conj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:10
+# text = Ijkuak miki, ne sitalin toponi uan seki átomos teyin mochiuak tayijtik momoyaua itech ne mixkouat, uan kichiua maj mochiuakan oksekin sitalimej.
+# text[spa] = Al morir, las estrellas explotan y parte de los átomos alojados en su interior se dispersan por la galaxia, contribuyendo así a que se formen otras estrellas.
+# labels =
+1	Ijkuak	ijkuak	SCONJ	_	_	2	mark	_	_
+2	miki	miki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ne	ne	DET	_	_	5	det	_	_
+5	sitalin	sitalin	NOUN	_	Case=Abs	6	nsubj	_	_
+6	toponi	toponi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+7	uan	huan	CCONJ	_	_	13	cc	_	_
+8	seki	seki	DET	_	_	9	det	_	_
+9	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+10	teyin	tein	PRON	_	_	11	nsubj	_	_
+11	mochiuak	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	9	acl:relcl	_	_
+12	tayijtik	tayijtik	ADV	_	_	13	advmod	_	_
+13	momoyaua	moyahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	6	conj	_	_
+14	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
+15	ne	ne	DET	_	_	16	det	_	_
+16	mixkouat	mixkouat	NOUN	_	Case=Abs	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	uan	huan	CCONJ	_	_	19	cc	_	_
+19	kichiua	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	conj	_	_
+20	maj	ma	AUX	_	_	21	aux	_	_
+21	mochiuakan	chihua	VERB	_	Mood=Opt|Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran	19	ccomp	_	_
+22	oksekin	okse	DET	_	Number=Plur	23	det	_	_
+23	sitalimej	sitalin	NOUN	_	Number=Plur	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:14
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
