@@ -60,4 +60,7 @@ n:0 <=> .#. n a _ %>: m ;
 "No M before vowel"
 %{N%}:n <= _ %>: [ Cns - [ m | p ] | Vow ] ;
 
+"H removal"
+h:0 <=> k :0* %>: _ u [ e | i ] ; 
 
+!@ ni>k{i}>huelita

@@ -276,6 +276,49 @@
 2	kintamanchiuaj	tamanchihua	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:28
+# text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
+# text[spa] = A partir de que se logró entender cómo funciona la radiación electromagnética, ha sido posible utilizarla para desarrollar la tecnología necesaria para inventar la televisión, el radio, los teléfonos celulares, las radiografías e incluso tratamientos para el cáncer.
+# text[gloss] = Después con eso que entendemos en que _ de la radiación electromagnética, con esto empezó que desarrollaron nuevos tecnologías como televisión
+# labels =
+1	Satepan	satepan	ADV	_	_	3	advmod	_	_
+2	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	tikmatkej	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
+4	katin	katin	DET	_	_	5	det	_	_
+5	itatekiujtilis	tatekiujtilis	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+6	in	in	DET	_	_	7	det	_	_
+7	ueyichikuakameyot	ueyichikuakameyot	NOUN	_	Case=Abs	5	nmod	_	_
+8	radiación	radiación	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+9	electromagnética	electromagnética	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+11	nejin	nejin	PRON	_	_	10	nmod	_	_
+12	peuak	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	_
+13	mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	12	dep	_	_
+14	yankuik	yankuik	ADJ	_	_	15	amod	_	_
+15	teposmej	tepos	NOUN	_	Number=Plur	13	nsubj	_	_
+16	kemej	kemej	ADP	_	_	17	case	_	_
+17	televisión	televisión	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	radio	radio	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	teléfonos	teléfono	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+22	celulares	celular	ADJ	_	Gender=Fem,Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+25	uan	huan	CCONJ	_	_	26	cc	_	_
+26	motamatsintokatok	*motamatsintokatok	X	_	_	17	dep	_	_
+27	kenuij	keni	ADV	_	PronType=Int	29	dep	_	_
+28	kuali	kuali	ADV	_	_	29	advmod	_	_
+29	tapaleuis	palehuia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	26	dep	_	_
+30	maj	ma	AUX	_	_	31	mark	_	_
+31	motokotso	tokotsohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	29	ccomp	_	_
+32	in	in	DET	_	_	33	det	_	_
+33	kokolis	kokolis	NOUN	_	Case=Abs	31	nsubj	_	_
+34	teyin	tein	PRON	_	_	35	iobj	_	_
+35	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	33	acl:relcl	_	_
+36	cáncer	cáncer	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:30
 # text = Keniuj se Tayis Ueyistajat
 # text[spa] = Tomar la mar
