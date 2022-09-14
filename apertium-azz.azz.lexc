@@ -1004,6 +1004,13 @@ pohui:pohui                                         V-SIO-PROG ;
 pohui:pohui                                         V-SIO-PRET ;
 pohui:pohui                                         V-SIO-FUTR ;
 
+! ""
+ixnextiltia:ixnextilti%{y%}a                              V-SIO-PRES ;
+ixnextiltia:ixnextilti%{y%}a                              V-SIO-IMPF ;
+ixnextiltia:ixnextilti%{y%}                               V-SIO-PROG ;
+ixnextiltia:ixnextilti%{y%}                               V-SIO-PRET ;
+ixnextiltia:ixnextilti%{y%}                               V-SIO-FUTR ;
+
 
 LEXICON SO
 
@@ -4331,6 +4338,7 @@ cuando:cuando                                      CS ; ! "cuando"
 cuando:cuan                                        CS ; ! "cuando" ! False start
 que:que                                            CS ; ! "que"
 mientras:mientras                                  CS ; ! "mientras"
+ke:ke                                              CS ; ! "que"
 
 ijhuak:ijhuak                                      CS ; ! "cuando"
 
@@ -5379,7 +5387,6 @@ chiltekaxit:chiltekaxi                              N-TL ; ! "molcajete"
 chiloj:chiloj                                       N-Ø ; ! "enchilado"
 chilmol:chilmol                                     N-Ø ; ! "mole"
 chikauka:chikauka                                   N-Ø ; ! "fuerza"
-chia:chia                                           N-Ø ; ! "esperar"
 chakantik:chakantik                                 N-Ø ; ! "correoso"
 chachantik:chachantik                               N-Ø ; ! "peludo"
 axikal:axikal                                       N-Ø ; ! "jícara"

@@ -314,29 +314,29 @@
 # text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
 # labels =  
 "<Ne>"
-	"ne" det @det
+	"ne" det @det #1->
 "<átomos>"
-	"átomo" n m pl
+	"átomo" n m pl @dep #2->
 "<teyin>"
-	"tein" prn @nsubj
+	"tein" prn @nsubj #3->
 "<mochiuakej>"
-	"chihua" v tv pret s_pl3 o_ref @acl:relcl
+	"chihua" v tv pret s_pl3 o_ref @acl:relcl #4->
 "<itech>"
-	"tech" n rel px3sg @obl
+	"tech" n rel px3sg @obl #5->
 "<oksekin>"
-	"okse" det pl @det
+	"okse" det pl @det #6->
 "<sitalimej>"
-	"sitalin" n pl @nmod
+	"sitalin" n pl @nmod #7->
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->
 "<ijkon>"
-	"ijkon" adv @advmod
+	"ijkon" adv @advmod #9->
 "<yolik>"
-	"yoli" v iv pret s_sg3 @root
+	"yoli" v iv pret s_sg3 @root #10->
 "<totaltikpak>"
-	"taltikpak" n px1pl @nsubj
+	"taltikpak" n px1pl @nsubj #11->
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->
 
 # sent_id = kiteixmatiltijtok-tamachilis:12:2
 # text = Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
@@ -683,6 +683,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:26
 # text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
 # text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
+# text[gloss] = Este, rayos X tienen más mucho energía que se puede ver, y microondas tienen un poco más energía que rayos X y estas microondas tienen más pequeña energía que se usa en los radioteléfonos.
 # labels =  
 "<In>"
 	"in" det @det
@@ -690,88 +691,58 @@
 	"," cm @punct
 "<rayos>"
 	"rayo" n m pl
-;	"rayo" n m pl s_pl3 REMOVE:31
-;	"rayo" n m pl s_sg3 REMOVE:31
 "<X>"
-	"x" x
+	"X" x
 "<kipiyaj>"
 	"piya" v tv pres s_pl3 o_sg3
 "<kachi>"
 	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
 "<miyak>"
 	"miak" det @det
 "<chikaualis>"
 	"chikahualis" n abs
-;	"chikahualis" n abs s_pl3 REMOVE:29
-;	"chikahualis" n abs s_sg3 REMOVE:29
 "<teyin>"
 	"tein" prn
 "<ueli>"
 	"hueli" vaux
-	"hueli" v iv pres s_sg3
 "<moitaj>"
-	"ita" v tv pres s_pl3 o_ref
 	"ita" v tv pret s_sg3 o_ref
 "<,>"
 	"," cm @punct
 "<uan>"
 	"huan" cnjcoo @cc
 "<microondas>"
-	"microondas" n m pl
-	"microondas" n m sg
-;	"microondas" n m pl s_pl3 REMOVE:29
-;	"microondas" n m sg s_pl3 REMOVE:29
-;	"microondas" n m pl s_sg3 REMOVE:29
-;	"microondas" n m sg s_sg3 REMOVE:29
+	"microonda" n f pl
 "<kipiyaj>"
 	"piya" v tv pres s_pl3 o_sg3
 "<kachi>"
 	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
 "<tepitsin>"
 	"tepitsin" adv
 "<miyak>"
 	"miak" det @det
 "<chikaualis>"
 	"chikahualis" n abs
-;	"chikahualis" n abs s_pl3 REMOVE:29
-;	"chikahualis" n abs s_sg3 REMOVE:29
 "<kej>"
-	"*kej"
+	"kej" prn
 "<rayos>"
 	"rayo" n m pl
-;	"rayo" n m pl s_pl3 REMOVE:29
-;	"rayo" n m pl s_sg3 REMOVE:29
 "<X>"
-	"x" x
+	"X" x
 "<uan>"
 	"huan" cnjcoo @cc
 "<nejin>"
 	"nejin" det @det
-	"nejin" prn
 "<microondas>"
-	"microondas" n m pl
-	"microondas" n m sg
-;	"microondas" n m pl s_pl3 REMOVE:29
-;	"microondas" n m sg s_pl3 REMOVE:29
-;	"microondas" n m pl s_sg3 REMOVE:29
-;	"microondas" n m sg s_sg3 REMOVE:29
+	"microonda" n f pl
 "<kipiyaj>"
 	"piya" v tv pres s_pl3 o_sg3
 "<kachi>"
 	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
 "<tsiktsin>"
 	"tsik" adj hon
-	"tsik" adj hon s_sg3
 "<chikaualis>"
 	"chikahualis" n abs
-;	"chikahualis" n abs s_pl3 REMOVE:31
-;	"chikahualis" n abs s_sg3 REMOVE:31
 "<teyin>"
 	"tein" prn
 "<mokui>"
@@ -782,8 +753,6 @@
 	"in" det @det
 "<teposejekatanojnotsaloni>"
 	"teposejekatanojnotsaloni" n abs
-;	"teposejekatanojnotsaloni" n abs s_pl3 REMOVE:29
-;	"teposejekatanojnotsaloni" n abs s_sg3 REMOVE:29
 "<.>"
 	"." sent @punct
 
@@ -1163,6 +1132,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:41
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
+# text[gloss] = Se quiere que uno se espera y así luego unos días, que puede uno ver,  ___,  que tiene nuestra agua.
 # labels =  
 "<Moneki>"
 	"neki" v tv pres s_sg3 o_ref @root
@@ -1183,13 +1153,13 @@
 "<,>"
 	"," cm @punct
 "<maj>"
-	"ma" aux
+	"ma" aux @aux
 "<ueli>"
 	"hueli" vaux @aux
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<kitas>"
-	"ita" v tv fut s_sg3 o_sg3
+	"ita" v tv fut s_sg3 o_sg3 
 "<,>"
 	"," cm @punct
 "<ijka>"
@@ -1354,27 +1324,27 @@
 "<Itech>"
 	"tech" n rel px3sg @obl #1->17
 "<in>"
-	"in" det @det #2->
+	"in" det @det #2->3
 "<metsti>"
-	"metsti" n abs
+	"metsti" n abs @obl #3->17
 "<agosto>"
-	"agosto" n m sg
+	"agosto" n m sg @appos #4->3
 "<xiuit>"
-	"xihuit" n abs
+	"xihuit" n abs @appos #5->4
 "<2016>"
-	"2016" num
+	"2016" num @appos #6->5
 "<iluikataixpejpenanij>"
-	"iluikataixpejpenani" n pl
+	"iluikataixpejpenani" n pl @nsubj #7->17
 "<teyin>"
-	"tein" prn @nsubj #8->
+	"tein" prn @nsubj #8->9
 "<pouij>"
-	"pohui" v iv pres s_pl3 @acl:relcl #9->
+	"pohui" v iv pres s_pl3 @acl:relcl #9->7
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #10->9
 "<in>"
 	"in" det @det #11->12
 "<nechikol>"
-	"nechikol" n abs @obl #12->
+	"nechikol" n abs @nmod #12->10
 "<Observatorio>"
 	"observatorio" n m sg @appos #13->12
 "<Espacial>"
@@ -1382,98 +1352,95 @@
 "<Austral>"
 	"austral" adj mf sg @amod #15->13
 "<,>"
-	"," cm @punct #16->
+	"," cm @punct #16->17
 "<kiteyixnextiltijkej>"
-	"*kiteyixnextiltijkej"
+	"*kiteyixnextiltijkej" v tv pret s_pl1 o_sg3 @root #17->0
 "<ke>"
-	"ke" prn
+	"ke" cnjsub @mark #18->22
 "<itech>"
-	"tech" n rel px3sg
+	"tech" n rel px3sg @obl #19->22
 "<in>"
-	"in" det @det
+	"in" det @det #20->21
 "<semanauak>"
-	"semanahuak" n abs
+	"semanahuak" n abs @nmod #21->19
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @ccomp #22->17
 "<okse>"
-	"okse" det @det
+	"okse" det @det #23->24
 "<taltikpak>"
-	"taltikpak" n abs
+	"taltikpak" n abs @nsubj #24->22
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #25->26
 "<ijkuitik>"
-	"ijkuitik" adj s_sg3
+	"ijkuitik" adj s_sg3 @dep #26->24
 "<nejin>"
-	"nejin" det @det
+	"nejin" det @det #27->28
 "<totalmanik>"
-	"talmanik" n px1pl
+	"talmanik" n px1pl @dep #28->26
 "<,>"
-	"," cm @punct
+	"," cm @punct #29->34
 "<maski>"
-	"maski" cnjsub @mark
+	"maski" cnjsub @mark #30->34
 "<amo>"
-	"amo" adv @advmod
+	"amo" adv @advmod #31->34
 "<yekinika>"
-	"yekinika" adv @advcl
+	"yekinika" adv @advmod #32->34
 "<yejua>"
-	"yehua" prn pers sg3 @nsubj
+	"yehua" prn pers sg3 @nsubj #33->34
 "<moajsi>"
-	"ajsi" v tv pres s_sg3 o_ref @acl:relcl
+	"ajsi" v tv pres s_sg3 o_ref @advcl #34->38
 "<,>"
-	"," cm @punct
+	"," cm @punct #35->38
 "<nejin>"
-	"nejin" det @det
+	"nejin" det @det #36->37
 "<tajtol>"
-	"tajtol" n abs
+	"tajtol" n abs @nsubj #37->38
 "<moneki>"
-	"neki" v tv pres s_sg3 o_ref
+	"neki" v tv pres s_sg3 o_ref @dep #38->17
 "<maj>"
-	"ma" aux @aux
+	"ma" aux @aux #39->40
 "<sekimati>"
-	"mati" v tv pres s_ind o_sg3
+	"mati" v tv pres s_ind o_sg3 @dep #40->38
 "<,>"
-	"," cm @punct
+	"," cm @punct #41->47
 "<ta>"
-	"ta" adv
+	"ta" adv @dep #42->47
 "<ne>"
-	"ne" adv
-	"ne" det @det
+	"ne" det @det #43->45
 "<okse>"
-	"okse" det @det
+	"okse" det @det #44->45
 "<taltikpak>"
-	"taltikpak" n abs
+	"taltikpak" n abs @nsubj #45->47
 "<no>"
-	"no" adv
-	"no" det @det
+	"no" adv @advmod #46->47
 "<kiyeualoua>"
-	"yehualohua" v tv pres s_sg3 o_sg3
+	"yehualohua" v tv pres s_sg3 o_sg3 @dep #47->40
 "<okse>"
-	"okse" det @det
+	"okse" det @det #48->49
 "<tonal>"
-	"tonal" n abs
+	"tonal" n abs @obj #49->47
 "<:>"
-	":" sent @punct
+	":" sent @punct #50->51
 "<Próxima>"
-	"Próxima" np top @parataxis
+	"Próxima" np top @parataxis #51->49
 "<Centauri>"
-	"Centauri" np top @flat
+	"Centauri" np top @flat #52->51
 "<teyin>"
-	"tein" prn
+	"tein" prn @dep #53->54
 "<kinetechojtok>"
-	"*kinetechojtok"
+	"netechohua" v tv prog pres s_sg3 o_sg3 @dep #54->51
 "<ne>"
-	"ne" det @det
+	"ne" det @det #55->56
 "<tonal>"
-	"tonal" n abs
+	"tonal" n abs @obj #56->54
 "<teyin>"
-	"tein" prn @obj
+	"tein" prn @obj #57->59
 "<nochipa>"
-	"nochipa" adv @advmod
+	"nochipa" adv @advmod #58->59
 "<tikitaj>"
-	"ita" v tv pres s_pl1 o_sg3 @acl:relcl
+	"ita" v tv pres s_pl1 o_sg3 @acl:relcl #59->56
 "<.>"
-	"." sent @punct
+	"." sent @punct #60->17
 
 # sent_id = kiteixmatiltijtok-tamachilis:50.1
 # text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.  
@@ -1499,9 +1466,9 @@
 "<moixyejyekoua>"
 	"ixyejyekohua" v tv pres s_sg3 o_ref 
 "<keniuj>"
-	"keni" adv itg
+	"keni" adv itg @advmod
 "<uelis>"
-	"hueli" vaux fut
+	"hueli" vaux fut @aux
 "<se>"
 	"se" num @nsubj
 "<yas>"

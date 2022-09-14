@@ -463,6 +463,71 @@
 9	nemilis	nemilis	NOUN	_	Case=Abs	8	nsubj	_	SpaceAfter=No
 10	!	!	PUNCT	_	_	3	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:49
+# text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
+# text[spa] = En agosto de 2016, astrónomos del Observatorio Espacial Austral anunciaron la existencia de un planeta con algunas características similares a las de la Tierra.  Aunque este planeta no es el primero que se descubre con este tipo de características, la noticia es relevante porque se encuentra girando alrededor de la estrella más cercana a nuestro sol: Próxima Centauri.
+# labels =
+1	Itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	obl	_	_
+2	in	in	DET	_	_	3	det	_	_
+3	metsti	metsti	NOUN	_	Case=Abs	17	obl	_	_
+4	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+5	xiuit	xihuit	NOUN	_	Case=Abs	4	appos	_	_
+6	2016	2016	NUM	_	_	5	appos	_	_
+7	iluikataixpejpenanij	iluikataixpejpenani	NOUN	_	Number=Plur	17	nsubj	_	_
+8	teyin	tein	PRON	_	_	9	nsubj	_	_
+9	pouij	pohui	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	7	acl:relcl	_	_
+10	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+11	in	in	DET	_	_	12	det	_	_
+12	nechikol	nechikol	NOUN	_	Case=Abs	10	nmod	_	_
+13	Observatorio	observatorio	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+14	Espacial	espacial	ADJ	_	Gender=Fem,Masc|Number=Sing	13	amod	_	_
+15	Austral	austral	ADJ	_	Gender=Fem,Masc|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	7	punct	_	_
+17	kiteyixnextiltijkej	*kiteyixnextiltijkej	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
+18	ke	ke	SCONJ	_	_	22	mark	_	_
+19	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
+20	in	in	DET	_	_	21	det	_	_
+21	semanauak	semanahuak	NOUN	_	Case=Abs	19	nmod	_	_
+22	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	17	ccomp	_	_
+23	okse	okse	DET	_	_	24	det	_	_
+24	taltikpak	taltikpak	NOUN	_	Case=Abs	22	nsubj	_	_
+25	teyin	tein	PRON	_	_	26	nsubj	_	_
+26	ijkuitik	ijkuitik	ADJ	_	Number[subj]=Sing|Person[subj]=3	24	dep	_	_
+27	nejin	nejin	DET	_	_	28	det	_	_
+28	totalmanik	talmanik	NOUN	_	Number[psor]=Plur|Person[psor]=1	26	dep	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	34	punct	_	_
+30	maski	maski	SCONJ	_	_	34	mark	_	_
+31	amo	amo	ADV	_	_	34	advmod	_	_
+32	yekinika	yekinika	ADV	_	_	34	advmod	_	_
+33	yejua	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	34	nsubj	_	_
+34	moajsi	ajsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	38	advcl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	nejin	nejin	DET	_	_	37	det	_	_
+37	tajtol	tajtol	NOUN	_	Case=Abs	38	nsubj	_	_
+38	moneki	neki	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	17	dep	_	_
+39	maj	ma	AUX	_	_	40	aux	_	_
+40	sekimati	mati	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	38	dep	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	47	punct	_	_
+42	ta	ta	ADV	_	_	47	dep	_	_
+43	ne	ne	DET	_	_	45	det	_	_
+44	okse	okse	DET	_	_	45	det	_	_
+45	taltikpak	taltikpak	NOUN	_	Case=Abs	47	nsubj	_	_
+46	no	no	ADV	_	_	47	advmod	_	_
+47	kiyeualoua	yehualohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	40	dep	_	_
+48	okse	okse	DET	_	_	49	det	_	_
+49	tonal	tonal	NOUN	_	Case=Abs	47	obj	_	SpaceAfter=No
+50	:	:	PUNCT	_	_	51	punct	_	_
+51	Próxima	Próxima	PROPN	_	_	49	parataxis	_	_
+52	Centauri	Centauri	PROPN	_	_	51	flat	_	_
+53	teyin	tein	PRON	_	_	54	dep	_	_
+54	kinetechojtok	netechohua	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	51	dep	_	_
+55	ne	ne	DET	_	_	56	det	_	_
+56	tonal	tonal	NOUN	_	Case=Abs	54	obj	_	_
+57	teyin	tein	PRON	_	_	59	obj	_	_
+58	nochipa	nochipa	ADV	_	_	59	advmod	_	_
+59	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	56	acl:relcl	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	17	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:50.2
 # text = Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
