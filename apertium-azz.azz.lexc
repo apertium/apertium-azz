@@ -1042,6 +1042,13 @@ tokilia:tokili                                        V-SIO-PROG ; ! "acercarle"
 tokilia:tokili                                        V-SIO-PRET ; ! "acercarle"
 tokilia:tokili                                        V-SIO-FUTR ; ! "acercarle"
 
+ilpilia:%{i%}lpilia                                   V-SIO-PRES ; ! ""
+ilpilia:%{i%}lpilia                                   V-SIO-IMPF ; ! ""
+ilpilia:%{i%}lpili                                    V-SIO-PROG ; ! ""
+ilpilia:%{i%}lpili                                    V-SIO-PRET ; ! ""
+ilpilia:%{i%}lpili                                    V-SIO-FUTR ; ! ""
+
+
 
 LEXICON SO
 
@@ -4363,6 +4370,14 @@ huehuejti:huehuejti                                   V-S-PROG ; ! "envejecer"
 huehuejti:huehuejti                                   V-S-PRET ; ! "envejecer"
 huehuejti:huehuejti                                   V-S-FUTR ; ! "envejecer"
 
+tiotaki:tiotaki                                       V-S-PRES ; ! ""
+tiotaki:tiotaki                                       V-S-IMPF ; ! ""
+tiotaki:tiotaki                                       V-S-PROG ; ! ""
+tiotaki:tiotaki                                       V-S-PRET ; ! ""
+tiotaki:tiotaki                                       V-S-FUTR ; ! ""
+
+
+
 yoli:yoli                                             V-S-PRES ; ! "nacer"
 yoli:yoli                                             V-S-IMPF ; ! "nacer"
 yoli:yoli                                             V-S-PROG ; ! "nacer"
@@ -4447,6 +4462,8 @@ LEXICON Huitsa
 %<s_sg2%>huitsa%<v%>%<iv%>%<pres%>:ti%>huitsa      # ;
 %<s_sg3%>huitsa%<v%>%<iv%>%<pres%>:huitsa          # ;
 %<s_pl1%>huitsa%<v%>%<iv%>%<pres%>:huits%>ej       # ;
+
+!%<s_sg3%>huitsa%<v%>%<iv%>%<pret%>:huits           # ;
 
 LEXICON Huala
 
@@ -4783,6 +4800,7 @@ ka:ka                                              N-REL ; ! "con"
 tech:tech                                          N-REL ; ! ""
 panko:panko                                        N-REL ; ! ""
 talpan:talpan                                      N-REL ; ! ""
+ixpampa:%{i%}xpampa                                N-REL ; ! ""
 
 LEXICON Locativos 
 
@@ -5727,6 +5745,7 @@ electromagnética:electromagnética                   N-SPA-MESA ; ! ""
 nanométrica:nanométrica                             N-SPA-MESA ; ! ""
 vía:vía                                             N-SPA-MESA ; ! ""
 física:física                                       N-SPA-MESA ; ! ""
+estuca:estuca                                       N-SPA-MESA ; ! ""
 molécula:molécula                                   N-SPA-MESA ; ! ""
 célula:célula                                       N-SPA-MESA ; ! ""
 semana:semana                                       N-SPA-MESA ; ! ""
@@ -5939,10 +5958,14 @@ cueva:cueva                                         N-SPA-MESA ; ! ""
 cooperativa:cooperativa                             N-SPA-MESA ; ! ""
 curva:curva                                         N-SPA-MESA ; ! ""
 uva:uva                                             N-SPA-MESA ; ! ""
+alfarda:alfarda                                     N-SPA-MESA ; ! ""
 papaya:papaya                                       N-SPA-MESA ; ! ""
 raya:raya                                           N-SPA-MESA ; ! ""
 chirimoya:chirimoya                                 N-SPA-MESA ; ! ""
 plaza:plaza                                         N-SPA-MESA ; ! ""
+greca:greca                                         N-SPA-MESA ; ! ""
+estructura:estructura                               N-SPA-MESA ; ! ""
+subestructura:subestructura                         N-SPA-MESA ; ! ""
 taza:taza                                           N-SPA-MESA ; ! ""
 cerveza:cerveza                                     N-SPA-MESA ; ! ""
 matanza:matanza                                     N-SPA-MESA ; ! ""
@@ -5985,6 +6008,7 @@ mundo:mundo                                         N-SPA-PESO ; ! ""
 acuerdo:acuerdo                                     N-SPA-PESO ; ! ""
 recreo:recreo                                       N-SPA-PESO ; ! ""
 pliego:pliego                                       N-SPA-PESO ; ! ""
+nicho:nicho                                         N-SPA-PESO ; ! ""
 amigo:amigo                                         N-SPA-PESO ; ! ""
 pecho:pecho                                         N-SPA-PESO ; ! ""
 derecho:derecho                                     N-SPA-PESO ; ! ""
@@ -6079,6 +6103,7 @@ macizo:macizo                                       N-SPA-PESO ; ! ""
 trozo:trozo                                         N-SPA-PESO ; ! ""
 pop:pop                                             N-SPA-LUGAR ; ! ""
 lugar:lugar                                         N-SPA-LUGAR ; ! ""
+talud:talud                                         N-SPA-LUGAR ; ! ""
 mar:mar                                             N-SPA-LUGAR ; ! ""
 ser:ser                                             N-SPA-LUGAR ; ! ""
 sabor:sabor                                         N-SPA-LUGAR ; ! ""
@@ -6153,6 +6178,8 @@ Gabriel:Gabriel                                     NP-ANT-M ;
 Juan:Juan                                           NP-ANT-M ; 
 Hermelindo:Hermelindo                               NP-ANT-M ;
 Andrés:Andrés                                       NP-ANT-M ;
+
+Quetzalcoatl:Quetzalcoatl                           NP-ANT-M ; 
 
 Celina:Celina                                       NP-ANT-F ; 
 María:María                                         NP-ANT-F ; 
@@ -6479,6 +6506,7 @@ teki:teki                                           ADV ; ! ""
 kuali:kuali                                         ADV ; ! "bien"
 
 axkan:axkan                                         ADV ; ! "hoy"
+axkan:axan                                          ADV ; ! "hoy" ! Use/Typo
 
 nikampa:nikampa                                     ADV ; ! "acá"
 nikampakopa:nikampakopa                             ADV ; ! "para acá"
