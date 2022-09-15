@@ -6565,7 +6565,7 @@ ipa:ipa                                             ADV ; ! "sólo"
 kemej:kemej                                         ADV ; ! "como" ! FIXME: Comprobar categoría
 kemej:keme                                          ADV ; ! "como" ! FIXME: Comprobar categoría
 kemij:kemij                                         ADV ; ! "como" ! FIXME: Comprobar categoría
-kenin                                               ADV ; ! "como"
+kenin:kenin                                         ADV ; ! "como"
 
 no:no                                               ADV ; ! "también"
 
