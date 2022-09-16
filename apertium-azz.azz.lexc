@@ -4546,6 +4546,7 @@ X%<x%>:X                                           # ;
 ! FIXME: False starts?
 i%<x%>:i                                           FALSE ; 
 ix%<x%>:ix                                         FALSE ; 
+oj%<x%>:oj                                         FALSE ; 
 nikil%<x%>:ni%>ki%>l                               FALSE ; 
 nikma%<x%>:ni%>k%>ma                               FALSE ; 
 tika%<x%>:ti%>k%>a                                 FALSE ; 

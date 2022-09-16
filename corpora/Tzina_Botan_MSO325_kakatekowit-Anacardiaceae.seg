@@ -232,8 +232,7 @@
 ^Kemah/Kemah$
 ^nikixmattok/nikixmattok$
 ^mahya/mahya$
-^oh/oh$
-^.../...$
+^oh.../oh...$
 ^,/,$
 ^ohololtsitsini/ohololtsitsini$
 ^n'/n'$
@@ -250,12 +249,6 @@
 ^mahya/mahya$
 ^yekchichiltik/yekchichiltik$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a40
-# text = cuando kitekih.
-# text[orig] = *cuando** kitekih.
-# text[spa] = cuando lo aserran.
-# labels = a40 fragment
 ^cuando/cuando$
 ^kitekih/kitekih$
 ^./.$
