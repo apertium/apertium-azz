@@ -1496,7 +1496,7 @@
 # text[spa] = Sí.
 # labels = a57 sentence
 "<Kemah>"
-	"kemaj" ij @root #2->0
+	"kemaj" ij @root #1->0
 "<.>"
 	"." sent @punct #2->1
 

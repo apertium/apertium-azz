@@ -4678,7 +4678,7 @@ ijhuak:ijhuak                                      CS ; ! "cuando"
 ! como + no
 ! por + in 
 
-komojkon:komojkon                                  CS ; ! "si"
+komojkon:komojkon                                  CS ; ! "si" ! como + así?
 mojkon:mojkon                                      CS ; ! "si"
 komamo:komamo                                      CS ; ! "si"
 porin:porin                                        CS ; ! "porque"
@@ -4771,6 +4771,7 @@ lo:lo                                              DET ; ! ""
 kanachi:kanachi                                    DET ; ! "cuántos"
 
 katin:katin                                        DET ; ! "cuál, qué"
+katin:katini                                      DET ; ! "cuál, qué"
 
 LEXICON Números 
 
@@ -5391,22 +5392,14 @@ aokuilimej:aokuilimej                               N-Ø ; ! "sabañones"
 tamolontil:tamolontil                               N-Ø ; ! "hervido"
 neton:neton                                         N-Ø ; ! "sudor"
 mostaj:mostaj                                       N-Ø ; ! "diario"
-kuikuiltik:kuikuiltik                               N-Ø ; ! "moteado"
 ayat:aya                                            N-TL ; ! "cobija"
-apaltik:apaltik                                     N-Ø ; ! "mojado"
-xonotik:xonotik                                     N-Ø ; ! "bofa(madera)"
 tsonti:tson                                         N-TLI ; ! "cabello"
-toktok:toktok                                       N-Ø ; ! "enterrado"
-titikatok:titikatok                                 N-Ø ; ! "inflamado"
 tat:ta                                              N-TL ; ! "padre"
 tapits:tapits                                       N-Ø ; ! "flauta"
 takuatsin:takuats                                   N-IN ; ! "zarigüeya"
 takuaktik:takuaktik                                 N-Ø ; ! "duro"
 sakat:saka                                          N-TL ; ! "zacate"
 poxahuak:poxahuak                                   N-Ø ; ! "bofa"
-popoch:popoch                                       N-Ø ; ! "emparrillado"
-pitsotik:pitsotik                                   N-Ø ; ! "sucio"
-palaktik:palaktik                                   N-Ø ; ! "podrido"
 mosta:mosta                                         N-Ø ; ! "mañana"
 mani:mani                                           N-Ø ; ! "hervir"
 ikniu:ikniu                                         N-Ø ; ! "hermano"
@@ -6426,6 +6419,14 @@ tsik:tsik                                           ADJ ; ! "un poco de"
 mapisiltik:mapisiltik                               ADJ ; ! "pequeño"
 malakachtik:malakachtik                             ADJ ; ! "circular"
 
+kuikuiltik:kuikuiltik                               ADJ ; ! "moteado"
+toktok:toktok                                       ADJ ; ! "enterrado"
+titikatok:titikatok                                 ADJ ; ! "inflamado"
+apaltik:apaltik                                     ADJ ; ! "mojado"
+xonotik:xonotik                                     ADJ ; ! "bofa(madera)"
+popoch:popoch                                       ADJ ; ! "emparrillado"
+pitsotik:pitsotik                                   ADJ ; ! "sucio"
+palaktik:palaktik                                   ADJ ; ! "podrido"
 
 nojnel:nojnel                                       ADJ ; ! "pequeño"
 
@@ -6731,6 +6732,7 @@ majya:majya                                         ADV ; ! "como"  ! FIXME: Com
 nion:nion                                           ADV ; ! "ni"  ! FIXME: Comprobar categoría
 
 nehuin:nehuin                                       ADV ; ! "por ahí"
+nehuin:nehuini                                      ADV ; ! "por ahí"
 ampohuin:ampohuin                                   ADV ; ! "por ahí"
 
 tak:tak                                             ADV ; ! "quizás, a lo mejor"

@@ -1273,8 +1273,8 @@
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
 # labels = a57 sentence
-2	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	2	punct	_	_
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:1
 # text = Tepitsin tohtomawak.
@@ -1948,6 +1948,23 @@
 2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a30
+# text = Kichiwa sakera se, se kaxtol xiwit, wehkawa yetok.
+# text[orig] = Kichi:wa sake:ra se:, se: kaxto:l xiwit, wehka:wa yetok.
+# text[spa] = Por lo menos puede durar unos quince años, tarda mucho tiempo.
+# labels = a30 sentence
+1	Kichiwa	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2	sakera	sakera	ADV	_	_	1	advmod	_	_
+3	se	se	NUM	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	se	se	NUM	_	_	7	nummod	_	_
+6	kaxtol	kaxtol	NUM	_	_	7	nummod	_	_
+7	xiwit	xihuit	NOUN	_	Case=Abs	1	dep	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	wehkawa	huejkahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+10	yetok	etok	AUX	_	Number[subj]=Sing|Person[subj]=3	9	dep	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a37
 # text = Kemah nikixmattok mahya oh..., ohololtsitsini n' ixochiotsin.
 # text[orig] = Ke:mah niki:xmattok mahyá: oh..., ohololtsitsi:ni n' ixo:chiotsi:n.
@@ -1973,7 +1990,7 @@
 1	Itapalo	tapalo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 3	mahya	mahya	ADV	_	_	4	advmod	_	_
-4	yekchichiltik	chijchiltik	_	_	_	2	dep	_	SpaceAfter=No
+4	yekchichiltik	chijchiltik	ADJ	_	Incorporated=Yek	2	dep	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	cuando	cuando	SCONJ	_	_	7	mark	_	_
 7	kitekih	teki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	SpaceAfter=No
@@ -2012,6 +2029,28 @@
 10	Miguel	Miguel	PROPN	_	Gender=Masc	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a32
+# text = ¿Wan ixiwyo keniwki?
+# text[orig] = ¿Wa:n ixiwyo ke:niwki?
+# text[spa] = ¿Y cómo son las hojas?
+# labels = a32 sentence
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Wan	huan	CCONJ	_	_	4	cc	_	_
+3	ixiwyo	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+4	keniwki	keniuki	ADV	_	PronType=Int	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a36
+# text = Xa tikixmati n' ixochio.
+# text[orig] = Xa: tiki:xmati n' ixo:chio.
+# text[spa] = Acaso conoces la flor (del kakatekowit)
+# labels = a36 sentence
+1	Xa	xa	ADV	_	_	2	advmod	_	_
+2	tikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a47
 # text = ¿Wan kani, nen, mochiwa?
 # text[orig] = ¿Wa:n ka:ni, ne:n, mochi:wa?
@@ -2041,6 +2080,33 @@
 7	no	no	ADV	_	_	8	advmod	_	_
 8	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	parataxis	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a53
+# text = Bueno, pos este, komohkon, in, ¿ipa se taman sah oso miak taman onkak?
+# text[orig] = *Bueno**, pos *este**, komohkó:n, i:n, ¿i:pa se: taman sah oso miak taman onkak?
+# text[spa] = Buenos, pues si acaso, de éste, ¿Hay un solo tipo de kakate o hay varios tipos?
+# text[a53] = *Bueno**, pos *este**, komohkó:n,
+# text[a54] = i:n, ¿i:pa se: taman sah oso miak taman onkak?
+# labels = a53 a54 fragment
+1	Bueno	bueno	INTJ	_	_	18	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pos	pos	ADV	_	_	18	advmod	_	_
+4	este	este	INTJ	_	_	18	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	komohkon	komojkon	ADV	_	_	18	dep	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	in	in	INTJ	_	_	18	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	¿	¿	PUNCT	_	_	18	punct	_	SpaceAfter=No
+11	ipa	ipa	ADV	_	_	18	dep	_	_
+12	se	se	NUM	_	_	13	nummod	_	_
+13	taman	taman	NOUN	_	Case=Abs	18	nsubj	_	_
+14	sah	saj	ADV	_	_	13	advmod	_	_
+15	oso	oso	CCONJ	_	_	17	cc	_	_
+16	miak	miak	ADJ	_	_	17	amod	_	_
+17	taman	taman	NOUN	_	Case=Abs	13	conj	_	_
+18	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	SpaceAfter=No
+19	?	?	PUNCT	_	_	18	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a56
 # text = ¿Wan itakka kan welik?

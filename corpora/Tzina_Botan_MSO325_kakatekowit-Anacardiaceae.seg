@@ -631,7 +631,7 @@
 # text = Bueno, pos este, komohkon,
 # text[orig] = *Bueno**, pos *este**, komohkó:n,
 # text[spa] = Buenos, pues si acaso,
-# labels = a53 fragment
+# labels = a53 a54 fragment
 ^Bueno/Bueno$
 ^,/,$
 ^pos/pos$
@@ -639,12 +639,6 @@
 ^,/,$
 ^komohkon/komohkon$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a54
-# text = in, ¿ipa se taman sah oso miak taman onkak?
-# text[orig] = i:n, ¿i:pa se: taman sah oso miak taman onkak?
-# text[spa] = de éste, ¿Hay un solo tipo de kakate o hay varios tipos?
-# labels = a54 fragment
 ^in/in$
 ^,/,$
 ^¿/¿$
