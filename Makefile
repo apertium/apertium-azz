@@ -1,4 +1,6 @@
 all:
+	cg-comp apertium-azz.azz.rlx azz.rlx.bin
+#
 	hfst-lexc --Werror apertium-azz.azz.lexc -o azz.lexc.hfst
 	hfst-twolc apertium-azz.azz.twol -o azz.twol.hfst
 	hfst-twolc apertium-azz.azz.mor.twol -o azz.mor.twol.hfst
@@ -7,6 +9,7 @@ all:
 #
 	hfst-compose-intersect -1 azz.gen.seg.hfst -2 azz.mor.twol.hfst | hfst-compose-intersect -1 - -2 azz.spellrelax.hfst  | hfst-invert | hfst-remove-epsilons -o azz.mor.hfst
 	hfst-fst2fst -O azz.mor.hfst -o azz.automorf.hfst
+	hfst-fst2txt azz.mor.hfst -o azz.mor.att
 #
 	hfst-compose-intersect -1 azz.gen.seg.hfst -2 azz.mor.twol.hfst -o azz.gen.hfst
 	hfst-fst2fst -O azz.gen.hfst -o azz.autogen.hfst
@@ -14,5 +17,4 @@ all:
 	hfst-compose -F -1 azz.mor.hfst -2 azz.gen.seg.hfst | hfst-realign | hfst-minimise | hfst-remove-epsilons -o azz.seg.hfst 
 	hfst-fst2fst -O azz.seg.hfst -o azz.autoseg.hfst
 #
-	cg-comp apertium-azz.azz.rlx azz.rlx.bin
 	apertium-gen-modes modes.xml
