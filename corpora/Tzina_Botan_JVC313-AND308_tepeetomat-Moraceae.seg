@@ -238,7 +238,7 @@
 ^mohmoloxtik/mohmoloxtik$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a74
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a74:1
 # text = Wan nijon no, no, no welik. Seki, seki tikwah.
 # text[orig] = Wa:n nijó:n no:, no:, no: welik. Seki, seki tikwah.
 # text[spa] = Y los frutos también, también, también son sabrosos. Algunos, algunos de nosotros comemos los frutos.
@@ -252,6 +252,12 @@
 ^no/no$
 ^welik/welik$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a74:2
+# text = Wan nijon no, no, no welik. Seki, seki tikwah.
+# text[orig] = Wa:n nijó:n no:, no:, no: welik. Seki, seki tikwah.
+# text[spa] = Y los frutos también, también, también son sabrosos. Algunos, algunos de nosotros comemos los frutos.
+# labels = a74 sentence
 ^Seki/Seki$
 ^,/,$
 ^seki/seki$

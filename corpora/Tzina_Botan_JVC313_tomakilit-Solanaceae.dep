@@ -1551,16 +1551,15 @@
 # text[orig] = Yehwa yo:n *morado**.
 # text[spa] = Así es el morado.
 # labels = a58 sentence
-"<Yehwa>"
-	"yehua" prn pers sg3
+"<Yehwa>" 
+	"yehua" prn pers sg3 @dislocated #1->4
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @cop #2->4
+		"in" det @det #3->4
 "<morado>"
-	"morado" adj m sg
-	"morado" adj m sg s_sg3
+	"morado" adj m sg s_sg3 @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a60
 # text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.

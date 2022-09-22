@@ -1032,6 +1032,46 @@
 1	Xohxoxoktik	xojxoxoktik	ADJ	_	Number[subj]=Plur|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a73
+# text = Pom..., pamtoh..., pampohpototik, mohmoloxtik.
+# text[orig] = Pom..., pamtoh..., [pam]pohpototik, mohmoloxtik.
+# text[spa] = Pom..., por encima..., tienen como pelitos finos, tienen pelitos suavecitos.
+# labels = a73 sentence
+1	Pom...	pom	X	_	_	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pamtoh...	pamtoj	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	pampohpototik	pojpototik	ADJ	_	Incorporated=Pan|Number[subj]=Plur|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Plur|Person[subj]=3|Reduplicated=Yes	5	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a74:1
+# text = Wan nijon no, no, no welik.
+# text[orig] = Wa:n nijó:n no:, no:, no: welik.
+# text[spa] = Y los frutos también, también, también son sabrosos.
+# labels = a74 sentence
+1	Wan	huan	CCONJ	_	_	8	cc	_	_
+2	nijon	nijon	PRON	_	_	8	nsubj	_	_
+3	no	no	ADV	_	_	7	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	no	no	_	_	_	7	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	no	no	ADV	_	_	8	advmod	_	_
+8	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a74:2
+# text = Seki, seki tikwah.
+# text[orig] = Seki, seki tikwah.
+# text[spa] = Algunos, algunos de nosotros comemos los frutos.
+# labels = a74 sentence
+1	Seki	seki	PRON	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	seki	seki	PRON	_	_	4	nsubj	_	_
+4	tikwah	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a83
 # text = Pos nijon nehwa nikita okwilowa.
 # text[orig] = Pos nijó:n nehwa nikita okwilowa.
@@ -1044,6 +1084,48 @@
 5	okwilowa	okuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a84
+# text = Ki..., kisah nikan okwilimeh wan nijon despues niman posteki.
+# text[orig] = Ki..., ki:sah nika:n okwilimeh wa:n nijó:n <i>después</i> niman posteki.
+# text[spa] = Sa..., nacen ahí los gusanos y después de apolillarse luego se quiebra.
+# labels = a84 sentence
+1	Ki...	ki	X	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kisah	kisa	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	nikan	nikan	ADV	_	_	3	advmod	_	_
+5	okwilimeh	okuilin	NOUN	_	Number=Plur	3	nsubj	_	_
+6	wan	huan	CCONJ	_	_	10	cc	_	_
+7	nijon	nijon	PRON	_	_	10	dep	_	_
+8	despues	después	ADV	_	_	10	advmod	_	_
+9	niman	niman	ADV	_	_	10	advmod	_	_
+10	posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a110
+# text = Istak wan se, kampa tekwi ihkon amo kineki kisas, hasta se imako ihkon mokawa sasaltik.
+# text[orig] = Ista:k wa:n se:, ka:mpa te:kwi ihkó:n a:mo kineki ki:sas, <i>hasta</i> se: ima:ko ihkó:n moka:wa sasaltik.
+# text[spa] = La savia es blanca y cuando uno se mancha ya no sale, al tocar los frutos queda pegada la savia en las manos y se siente así como pegajosa.
+# text[gloss] = Es blanca y uno, cuando se mancha uno así no quiere salir, hasta uno
+# labels = a110 sentence
+1	Istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	wan	huan	CCONJ	_	_	9	cc	_	_
+3	se	se	NUM	_	_	6	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	kampa	kampa	SCONJ	_	_	6	mark	_	_
+6	tekwi	kui	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	advcl	_	_
+7	ihkon	ijkon	ADV	_	_	9	advmod	_	_
+8	amo	amo	ADV	_	_	9	advmod	_	_
+9	kineki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	conj	_	_
+10	kisas	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	9	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	hasta	hasta	SCONJ	_	_	16	mark	_	_
+13	se	se	NUM	_	_	16	det	_	_
+14	imako	mako	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	nmod	_	_
+15	ihkon	ijkon	ADV	_	_	16	advmod	_	_
+16	mokawa	mokahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	10	advcl	_	_
+17	sasaltik	sasaltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	16	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a118
 # text = No wehweia seki.
 # text[orig] = No: wehweia seki.
@@ -1054,6 +1136,23 @@
 3	seki	seki	PRON	_	_	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a126
+# text = Tepetsintan onkak por eso kiliah tep..., tepetomat.
+# text[orig] = Tepe:tsi:ntan onkak <i>por eso</i> kiliah tep..., tepe:tomat.
+# text[spa] = Al pie de los cerros por eso le llaman tepe:..., tepe:tomat.
+# labels = a126 sentence
+1-2	Tepetsintan	_	_	_	_	_	_	_	_
+1	Tepetsintan	tepet	NOUN	_	_	2	nmod	_	_
+2		tsintan	NOUN	_	NounType=Relat	3	obl	_	_
+3	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	eso	eso	PRON	_	_	6	obl	_	_
+6	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+7	tep...	tep	X	_	_	9	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	tepetomat	tepetomat	NOUN	_	Case=Abs	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a117
 # text = Wehweia.
 # text[orig] = Wehweia.
@@ -1061,6 +1160,29 @@
 # labels = a117 sentence
 1	Wehweia	huehueia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a155
+# text = Wan neli mo..., motekpana imahmatsintan, kemeh kahfen mero taki, kemeh kahfen.
+# text[orig] = Wa:n neli mo..., motekpa:na imahma:tsi:ntan, ke:meh kahfe:n <i>mero</i> ta:ki, ke:meh kahfe:n.
+# text[spa] = Y es cierto que..., que los frutos se ensartan en la ramas delgadas como el café, los frutos se dan muy parecido al café.
+# labels = a155 sentence
+1	Wan	huan	CCONJ	_	_	5	cc	_	_
+2	neli	neli	ADV	_	_	5	advmod	_	_
+3	mo...	mo	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	motekpana	tekpana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+6-7	imahmatsintan	_	_	_	_	_	_	_	SpaceAfter=No
+6	imahmatsintan	majma	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
+7		tsintan	NOUN	_	NounType=Relat	5	obl	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	kemeh	kemej	ADP	_	_	10	case	_	_
+10	kahfen	kafen	NOUN	_	Case=Abs	12	obl	_	_
+11	mero	mero	ADJ	_	Gender=Masc|Number=Sing	12	dep	_	_
+12	taki	taki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	kemeh	kemej	ADP	_	_	15	case	_	_
+15	kahfen	kafen	NOUN	_	Case=Abs	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a180
 # text = N' okwilimeh.
@@ -1420,6 +1542,18 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	imawan	mait	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	11	appos	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:3
+# text = Yehwa yon morado.
+# text[orig] = Yehwa yo:n *morado**.
+# text[spa] = Así es el morado.
+# labels = a58 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	4	dislocated	_	_
+2-3	yon	_	_	_	_	_	_	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	4	cop	_	_
+3	n	in	DET	_	_	4	det	_	_
+4	morado	morado	ADJ	_	Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a60
 # text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.
