@@ -2352,6 +2352,14 @@ xiinia:xiinia                                         V-SO-PROG ; ! ""
 xiinia:xiinia                                         V-SO-PRET ; ! ""
 xiinia:xiinia                                         V-SO-FUTR ; ! ""
 
+masehua:masehua                                       V-SO-PRES ; ! ""
+masehua:masehua                                       V-SO-IMPF ; ! ""
+masehua:masehua                                       V-SO-PROG ; ! ""
+masehua:masehua                                       V-SO-PRET ; ! ""
+masehua:masehua                                       V-SO-FUTR ; ! ""
+
+
+
 cuidarohua:cuidarohua                                 V-SO-PRES ; ! ""
 cuidarohua:cuidarohua                                 V-SO-IMPF ; ! ""
 cuidarohua:cuidaro                                    V-SO-PROG ; ! ""
@@ -4545,6 +4553,21 @@ X%<x%>:X                                           # ;
 
 ! FIXME: False starts?
 i%<x%>:i                                           FALSE ; 
+cjik%<x%>:cjik                                     FALSE ; ! ""
+kite%<x%>:kite                                     FALSE ; ! ""
+kou%<x%>:kou                                       FALSE ; ! ""
+kua%<x%>:kua                                       FALSE ; ! ""
+ma%<x%>:ma                                         FALSE ; ! ""
+motsi%<x%>:motsi                                   FALSE ; ! ""
+no%<x%>:no                                         FALSE ; ! ""
+ok%<x%>:ok                                         FALSE ; ! ""
+pamtoj%<x%>:pamtoj                                 FALSE ; ! ""
+pom%<x%>:pom                                       FALSE ; ! ""
+tei%<x%>:tei                                       FALSE ; ! ""
+tep%<x%>:tep                                       FALSE ; ! ""
+yek%<x%>:yek                                       FALSE ; ! ""
+tei%<x%>:tei                                       FALSE ; 
+kou%<x%>:kou                                       FALSE ; 
 ix%<x%>:ix                                         FALSE ; 
 oj%<x%>:oj                                         FALSE ; 
 nikil%<x%>:ni%>ki%>l                               FALSE ; 
@@ -5521,10 +5544,7 @@ tojmit:tojmi                                        N-TL ; ! "lana"
 tojmioj:tojmioj                                     N-Ø ; ! "pubescente"
 tochtik:tochtik                                     N-Ø ; ! "jorobado"
 tiankes:tiankes                                     N-Ø ; ! "mercado"
-tetsiltik:tetsiltik                                 N-Ø ; ! "torcido"
 tetsahuit:tetsahui                                  N-TL ; ! "desgracia"
-tetsahuak:tetsahuak                                 N-Ø ; ! "espeso"
-tekualantij:tekualantij                             N-Ø ; ! "enfadoso"
 tekolkaxit:tekolkaxi                                N-TL ; ! "incensario"
 tayohuak:tayohuak                                   N-Ø ; ! "anoche"
 taxtahuil:taxtahuil                                 N-Ø ; ! "sueldo"
@@ -6419,6 +6439,13 @@ tsik:tsik                                           ADJ ; ! "un poco de"
 mapisiltik:mapisiltik                               ADJ ; ! "pequeño"
 malakachtik:malakachtik                             ADJ ; ! "circular"
 
+melaktik:melaktik                                   ADJ ; ! "derecho"
+mejmelaktik:me%{j%}melaktik                         ADJ-REDUP ; ! "derecho"
+tetsiltik:tetsiltik                                 ADJ ; ! "torcido"
+tejtetsiltik:te%{j%}tetsiltik                       ADJ-REDUP ; ! "torcido"
+tetsahuak:tetsahuak                                 ADJ ; ! "espeso"
+tekualantij:tekualantij                             ADJ ; ! "enfadoso"
+
 kuikuiltik:kuikuiltik                               ADJ ; ! "moteado"
 toktok:toktok                                       ADJ ; ! "enterrado"
 titikatok:titikatok                                 ADJ ; ! "inflamado"
@@ -6522,6 +6549,11 @@ patachtik:patachtik                                 ADJ ; ! "plano"
 pajpatachtik:pa%{j%}patachtik                       ADJ-REDUP ; ! "aplastado"
 
 tamanal:tamanal                                     ADJ ; ! "hervido"
+
+ilpitok:ilpitok                                     ADJ ; ! "amarrado"
+ijilpitok:i%{j%}ilpitok                             ADJ-REDUP ; ! "amarrado"
+          
+cecerquita:cecerquita                               ADJ-REDUP ; ! ""
 
 fuerte:fuerte                                       ADJ-SPA-MEJOR ;
 espacial:espacial                                   ADJ-SPA-MEJOR ;
@@ -6633,6 +6665,7 @@ ijkokon:i%{j%}kokon                                 ADV ; ! "así"
 ijkon:jkon                                          ADV ; ! "así"
 ijkoni:i%{j%}koni                                   ADV ; ! "así"
 ijkuin:i%{j%}kuin                                   ADV ; ! "así"
+ijkuin:%{j%}kuin                                    ADV ; ! "así"
 ijkuini:i%{j%}kuini                                 ADV ; ! "así"
 ijkuikuin:i%{j%}kuikuin                             ADV ; ! "así"
 

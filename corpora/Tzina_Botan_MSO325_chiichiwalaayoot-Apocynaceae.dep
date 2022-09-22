@@ -379,8 +379,8 @@
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:2
 # text = In, globo tikihtowa yehwa yon tein nen.... ika yon amat kichihchiwah, yon kiliah papel de china.
-# text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
-# text[spa] = Mm, Éste globo que dices, es el que...,
+# text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n .... Ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
+# text[spa] = Mm, Éste globo que dices, es el que..., con ese papel lo hacen, ese que le llaman papel de china.
 # text[a90] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
 # text[a93] = ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
 # labels = a90 a93
