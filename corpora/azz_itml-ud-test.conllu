@@ -1024,6 +1024,122 @@
 21	tojomiyouan	omiyot	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a68
+# text = Xohxoxoktik.
+# text[orig] = Xohxoxoktik.
+# text[spa] = Son verdes.
+# labels = a68 sentence
+1	Xohxoxoktik	xojxoxoktik	ADJ	_	Number[subj]=Plur|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a83
+# text = Pos nijon nehwa nikita okwilowa.
+# text[orig] = Pos nijó:n nehwa nikita okwilowa.
+# text[spa] = Pues yo veo que la madera se apolilla.
+# labels = a83 sentence
+1	Pos	pos	ADV	_	_	4	advmod	_	_
+2	nijon	nijon	INTJ	_	_	4	discourse	_	_
+3	nehwa	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
+4	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+5	okwilowa	okuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a118
+# text = No wehweia seki.
+# text[orig] = No: wehweia seki.
+# text[spa] = Algunas también crecen grandes.
+# labels = a118 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	wehweia	huehueia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	seki	seki	PRON	_	_	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a117
+# text = Wehweia.
+# text[orig] = Wehweia.
+# text[spa] = Si son grandes.
+# labels = a117 sentence
+1	Wehweia	huehueia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a180
+# text = N' okwilimeh.
+# text[orig] = N' okwilimeh.
+# text[spa] = Los animales.
+# labels = a180 sentence
+1	N'	in	DET	_	_	2	det	_	_
+2	okwilimeh	okuilin	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a186
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a186 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a192
+# text = Kan nochi se kimati.
+# text[orig] = Ka:n nochi se: kimati.
+# text[spa] = No lo  sabemos todo.
+# labels = a192 sentence
+1	Kan	kan	ADV	_	_	4	advmod	_	_
+2	nochi	nochi	PRON	_	_	4	obj	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kimati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a196
+# text = Amo kixmatih.
+# text[orig] = A:mo ki:xmatih.
+# text[spa] = No lo conoce.
+# labels = a196 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	kixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a204
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a204 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a206
+# text = Yemanik.
+# text[orig] = Yema:nik.
+# text[spa] = Son muy suaves.
+# labels = a206 sentence
+1	Yemanik	yemanik	ADJ	_	Number[subj]=Plur|Person[subj]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a207
+# text = Iayo.
+# text[orig] = Ia:yo.
+# text[spa] = El jugo.
+# labels = a207 sentence
+1	Iayo	ayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a214
+# text = Sasaltik neli.
+# text[orig] = Sasaltik neli.
+# text[spa] = Es cierto que es muy pegajosa.
+# labels = a214 sentence
+1	Sasaltik	sasaltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	neli	neli	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a225
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a225 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
 # text[orig] = Tikihtowa:ya *que** onkak se: ista:k, se: *morado** wa:n se: kowtah tomakilit.
