@@ -582,11 +582,13 @@ LEXICON N-REL
 
 @R.POSS.1@%<n%>%<rel%>:@R.POSS.1@                  # ;
 %<n%>%<rel%>%<hon%>:%>tsin                         # ;
+%<n%>%<rel%>%<hon%>%<pl%>:%>tsitsin                # ;
 
 LEXICON N-LOC
 
 %<n%>%<rel%>:                                      # ;
 %<n%>%<rel%>%<hon%>:%>tsin                         # ;
+%<n%>%<rel%>%<hon%>%<pl%>:%>tsitsin                # ;
 
 LEXICON N-TL 
 

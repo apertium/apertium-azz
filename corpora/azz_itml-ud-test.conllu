@@ -1101,6 +1101,18 @@
 10	posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a97
+# text = Kemasa siquiera nawi se 'kixtia.
+# text[orig] = Ke:masá: <i>siquiera</i> na:wi se: 'ki:xtia.
+# text[spa] = Algunas veces se pueden partir en cuatro partes un trozo.
+# labels = a97 sentence
+1	Kemasa	kemasa	ADV	_	_	5	advmod	_	_
+2	siquiera	siquiera	ADV	_	_	5	advmod	_	_
+3	nawi	nahui	NUM	_	_	5	obl	_	_
+4	se	se	NUM	_	_	5	obj	_	_
+5	'kixtia	kixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a110
 # text = Istak wan se, kampa tekwi ihkon amo kineki kisas, hasta se imako ihkon mokawa sasaltik.
 # text[orig] = Ista:k wa:n se:, ka:mpa te:kwi ihkó:n a:mo kineki ki:sas, <i>hasta</i> se: ima:ko ihkó:n moka:wa sasaltik.
@@ -1152,6 +1164,42 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	tepetomat	tepetomat	NOUN	_	Case=Abs	6	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a129
+# text = Wan tomat no se taman, ahalaxtik wan ne achi mohmoloxtik.
+# text[orig] = Wa:n tomat no: se: taman, ahalaxtik wa:n ne: achi mohmoloxtik.
+# text[spa] = Los jitomates son lisos por encima y los frutos del tepe:tomat tienen así como pelitos por encima.
+# text[gloss] = Y los jitomates también un tipo, son lisos y también un poco agradables.
+# labels = a129 sentence
+1	Wan	huan	CCONJ	_	_	5	cc	_	_
+2	tomat	tomat	NOUN	_	Case=Abs	5	nsubj	_	_
+3	no	no	ADV	_	_	5	advmod	_	_
+4	se	se	NUM	_	_	5	det	_	_
+5	taman	taman	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ahalaxtik	ajalaxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	5	parataxis	_	_
+8	wan	huan	CCONJ	_	_	11	cc	_	_
+9	ne	ne	ADV	_	_	11	advmod	_	_
+10	achi	achi	ADV	_	_	11	advmod	_	_
+11	mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a141
+# text = Ompa ixwa, miakkan kan se, se kita mehmelaktsitsin.
+# text[orig] = Ompa ixwa, mia:kka:n ka:n se:, se: kita mehmelaktsitsí:n.
+# text[spa] = Ahí nacen las plantas y se ven como crecen los árboles muy rectos.
+# labels = a141 sentence
+1	Ompa	ompa	ADV	_	_	2	advmod	_	_
+2	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	miakkan	miakkan	ADV	_	_	9	advmod	_	_
+5	kan	kan	ADV	_	_	9	advmod	_	_
+6	se	se	NUM	_	_	8	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+10	mehmelaktsitsin	*mehmelaktsitsin	X	_	_	9	dep	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a117
 # text = Wehweia.

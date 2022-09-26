@@ -985,13 +985,10 @@
 "<Wan>"
 	"huan" cnjcoo @cc
 "<seki>"
-	"seki" det
 	"seki" prn
 "<kwaltsin>"
-	"kuali" adj hon
 	"kuali" adj hon s_sg3
 "<nen>"
-	"nen" ij @discourse
 	"nen" prn
 "<,>"
 	"," cm @punct
@@ -1004,7 +1001,6 @@
 	"de" pr
 "<n'>"
 	"in" det @det
-;	"nik" x
 "<melawak>"
 	"melahuak" adj
 	"melahuak" adj s_sg3
@@ -1024,17 +1020,17 @@
 # text[spa] = Algunas veces se pueden partir en cuatro partes un trozo.
 # labels = a97 sentence
 "<Kemasa>"
-	"kemasa" adv
+	"kemasa" adv @advmod #1->5
 "<siquiera>"
-	"siquiera" adv
+	"siquiera" adv @advmod #2->5
 "<nawi>"
-	"nahui" num
+	"nahui" num @obl #3->5
 "<se>"
-	"se" num
+	"se" num @obj #4->5
 "<'kixtia>"
-	"kixtia" v tv pres s_sg3 o_sg3
+	"kixtia" v tv pres s_sg3 o_sg3 @root #5->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->5
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a98
 # text = Siquiera nawi wan
@@ -1729,42 +1725,32 @@
 # text = Wan tomat no se taman, ahalaxtik wan ne achi mohmoloxtik.
 # text[orig] = Wa:n tomat no: se: taman, ahalaxtik wa:n ne: achi mohmoloxtik.
 # text[spa] = Los jitomates son lisos por encima y los frutos del tepe:tomat tienen así como pelitos por encima.
+# text[gloss] = Y los jitomates también un tipo, son lisos y también un poco agradables.
 # labels = a129 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->5
 "<tomat>"
-	"tomat" n abs
-	"tomat" n abs s_sg3
-;	"tomat" n abs s_pl3
+	"tomat" n abs @nsubj #2->5
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #3->5
 "<se>"
-	"se" num
+	"se" num @det #4->5
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-	"taman" n abs s_sg3
-;	"taman" n abs s_pl3
+	"taman" n abs @root #5->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->7
 "<ahalaxtik>"
-	"ajalaxtik" adj redup
-	"ajalaxtik" adj redup s_sg3
+	"ajalaxtik" adj redup s_sg3 @parataxis #7->5
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #8->11
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @advmod #9->11
 "<achi>"
-	"achi" adv
+	"achi" adv @advmod #10->11
 "<mohmoloxtik>"
-	"mojmoloxtik" adj redup
-	"mojmoloxtik" adj redup s_sg3
+	"mojmoloxtik" adj redup s_sg3 @conj #11->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->5
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a130
 # text = Mohmoloxtik n' i..., n' ipanko nikan.
@@ -1772,18 +1758,15 @@
 # text[spa] = Tiene así como pelitos finos aquí por en..., encima.
 # labels = a130 sentence
 "<Mohmoloxtik>"
-	"mojmoloxtik" adj redup
 	"mojmoloxtik" adj redup s_sg3
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @reparandum
 "<i...>"
-	"i" x @reparandum
+	"i" x @flat
 "<,>"
 	"," cm @punct
 "<n'>"
 	"in" det @det
-;	"nik" x
 "<ipanko>"
 	"panko" n rel px3sg @nmod
 "<nikan>"
@@ -1842,7 +1825,6 @@
 	"*pohpochiktik"
 "<n'>"
 	"in" det @det
-;	"nik" x
 "<iteyo>"
 	"teyo" n px3sg
 "<de>"
@@ -1858,7 +1840,6 @@
 	"kixtilia" v tv pres s_sg3 o_sg3
 "<n'>"
 	"in" det @det
-;	"nik" x
 "<ipanewayotsin>"
 	"panehuayot" n hon px3sg
 "<,>"
@@ -2109,27 +2090,27 @@
 # text[spa] = Ahí nacen las plantas y se ven como crecen los árboles muy rectos.
 # labels = a141 sentence
 "<Ompa>"
-	"ompa" adv
+	"ompa" adv @advmod #1->2
 "<ixwa>"
-	"ixhua" v iv pres s_sg3
+	"ixhua" v iv pres s_sg3 @root #2->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->9
 "<miakkan>"
-	"miakkan" adv
+	"miakkan" adv @advmod #4->9
 "<kan>"
-	"kan" adv
+	"kan" adv @advmod #5->9
 "<se>"
-	"se" num
+	"se" num @reparandum #6->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->9
 "<se>"
-	"se" num
+	"se" num @nsubj #8->9
 "<kita>"
-	"ita" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 @parataxis #9->2
 "<mehmelaktsitsin>"
-	"*mehmelaktsitsin"
+	"*mehmelaktsitsin" x @dep #10->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->9
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a142
 # text = Ne xa,
