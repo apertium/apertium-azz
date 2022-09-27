@@ -1201,6 +1201,145 @@
 10	mehmelaktsitsin	*mehmelaktsitsin	X	_	_	9	dep	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a187
+# text = Achi teiktik n' imay, nen, de kitilanah posteki.
+# text[orig] = Achi teiktik n' ima:y, ne:n, de kitila:nah posteki.
+# text[spa] = Son un poco suaves las ramas y al jalarlo pues se quiebran.
+# labels = a187 sentence
+1	Achi	achi	ADV	_	_	2	advmod	_	_
+2	teiktik	teiktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	nen	nen	INTJ	_	_	10	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	de	de	ADP	_	_	9	mark	_	_
+9	kitilanah	tilana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	10	advcl	_	_
+10	posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a188
+# text = Posteki wan seki panwetsi wan seki ompa mokawa ya.
+# text[orig] = Posteki wa:n seki pa:nwetsi wa:n seki ompa moka:wa ya.
+# text[spa] = Se quiebran, unas caen al suelo y otras se quedan arriba.
+# labels = a188 sentence
+1	Posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	wan	huan	CCONJ	_	_	4	cc	_	_
+3	seki	seki	PRON	_	_	4	nsubj	_	_
+4	panwetsi	huetsi	VERB	_	Incorporated=Pan|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	conj	_	_
+5	wan	huan	CCONJ	_	_	8	cc	_	_
+6	seki	seki	PRON	_	_	8	nsubj	_	_
+7	ompa	ompa	ADV	_	_	8	advmod	_	_
+8	mokawa	kahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	conj	_	_
+9	ya	ya	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a201
+# text = Pos ne keman neh nikitaya, nen, notatahwan kwalkwiah ika se kontsin.
+# text[orig] = Pos ne: ke:man neh nikitaya, ne:n, nota:tahwa:n kwa:lkwiah ika se: ko:ntsí:n.
+# text[spa] = Pues yo veía que mis padres traían los frutos en una ollita pequeña.
+# labels = a201 sentence
+1	Pos	pos	ADV	_	_	5	advmod	_	_
+2	ne	ne	ADV	_	_	5	advmod	_	_
+3	keman	keman	ADV	_	_	5	advmod	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+5	nikitaya	ita	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	nen	nen	INTJ	_	_	5	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	notatahwan	tataj	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=1	10	nsubj	_	_
+10	kwalkwiah	kui	VERB	_	Aspect=Imp|Movement=Ven|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	5	parataxis	_	_
+11	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+12	se	se	NUM	_	_	13	det	_	_
+13	kontsin	komit	NOUN	_	Polite=Form	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a202
+# text = Ika se kontsin ihkon kiliah meliohkomit.
+# text[orig] = Ika se: ko:ntsí:n ihkó:n kiliah me:liohko:mit.
+# text[spa] = Traían con una ollita mediana que le llamaban me:liohko:mit.
+# text[gloss] = Con una ollita que así le llamaban me:liohko:mit.
+# labels = a202 sentence
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+2	se	se	NUM	_	_	3	det	_	_
+3	kontsin	komit	NOUN	_	Polite=Form	1	nmod	_	_
+4	ihkon	ijkon	ADV	_	_	5	advmod	_	_
+5	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	_
+6	meliohkomit	meliojkomit	NOUN	_	Case=Abs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a208
+# text = Entos kikwitih se, ika se kontsin, kemasa patiki mokawa ta, itech n', itech n' kontsin ompa n' iayo.
+# text[orig] = Entó:s kikwitih se:, ika se: ko:ntsí:n, ke:masá: pa:tiki moka:wa ta, itech n', itech n' ko:ntsí:n ompa n' ia:yo.
+# text[spa] = Entonces traían los frutos con una ollita, a veces se rompían pero el jugo se quedaba dentro de la olla.
+# labels = a208 sentence
+1	Entos	entos	ADV	_	_	2	advmod	_	_
+2	kikwitih	kui	VERB	_	Movement=And|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+3	se	se	NUM	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+6	se	se	NUM	_	_	7	det	_	_
+7	kontsin	komit	NOUN	_	Polite=Form	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	kemasa	kemasa	ADV	_	_	10	advmod	_	_
+10	patiki	pati	VERB	_	Movement=Ven|Number[subj]=Sing|Person[subj]=3|Subcat=Intr	2	parataxis	_	_
+11	mokawa	kahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	10	advcl	_	_
+12	ta	ta	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	reparandum	_	_
+15	n'	in	DET	_	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	parataxis	_	_
+18	n'	in	DET	_	_	19	det	_	_
+19	kontsin	komit	NOUN	_	Polite=Form	17	nmod	_	_
+20	ompa	ompa	ADV	_	_	17	advmod	_	_
+21	n'	in	DET	_	_	22	det	_	_
+22	iayo	ayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	17	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a209
+# text = Nijon iayo no kwali se tai.
+# text[orig] = Nijó:n ia:yo no: kwali se: tai.
+# text[spa] = El jugo también se puede tomar.
+# labels = a209 sentence
+1	Nijon	nijon	DET	_	_	2	det	_	_
+2	iayo	ayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+3	no	no	ADV	_	_	4	advmod	_	_
+4	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a224
+# text = A, bueno.
+# text[orig] = A:, <i>bueno</i>.
+# text[spa] = A bueno.
+# labels = a224 sentence
+1	A	a	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	bueno	bueno	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a228
+# text = Pos kwali tinechilis mo..., motokay, keniw timonotsa wan kani n' tiwalew.
+# text[orig] = Pos kwali tine:chili:s mo..., moto:ka:y, ke:ní:w timono:tsa wa:n ka:ni n' tiwa:le:w.
+# text[spa] = Pues puedes decirme tu..., tu nombre, cómo te llamas y de donde vienes.
+# labels = a228 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	kwali	kuali	ADV	_	_	3	advmod	_	_
+3	tinechilis	ilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=1|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
+4	mo...	mo	X	_	_	6	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	motokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=2	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	keniw	keni	ADV	_	PronType=Int	9	advmod	_	_
+9	timonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+10	wan	huan	CCONJ	_	_	13	cc	_	_
+11	kani	kani	ADV	_	PronType=Int	9	conj	_	_
+12	n'	in	DET	_	_	13	mark	_	_
+13	tiwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=2|Subcat=Intr|Tense=Pres	11	csubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a117
 # text = Wehweia.
 # text[orig] = Wehweia.

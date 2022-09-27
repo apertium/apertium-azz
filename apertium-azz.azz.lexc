@@ -583,6 +583,8 @@ LEXICON N-REL
 @R.POSS.1@%<n%>%<rel%>:@R.POSS.1@                  # ;
 %<n%>%<rel%>%<hon%>:%>tsin                         # ;
 %<n%>%<rel%>%<hon%>%<pl%>:%>tsitsin                # ;
+%<n%>%<rel%>%<hon%>%<loc%>:%>tsin%>ko              # ;
+%<n%>%<rel%>%<hon%>%<pl%>%<loc%>:%>tsitsin%>ko     # ;
 
 LEXICON N-LOC
 
@@ -4867,6 +4869,8 @@ huan:huan                                          N-REL ; ! "con"
 ka:ka                                              N-REL ; ! "con"
 tech:tech                                          N-REL ; ! ""
 panko:panko                                        N-REL ; ! ""
+pan:pan                                            N-REL ; ! ""
+ixpan:ixpan                                        N-REL ; ! ""
 talpan:talpan                                      N-REL ; ! ""
 ixpampa:%{i%}xpampa                                N-REL ; ! ""
 
@@ -6424,6 +6428,8 @@ tsik:tsik                                           ADJ ; ! "un poco de"
 
 mapisiltik:mapisiltik                               ADJ ; ! "pequeño"
 malakachtik:malakachtik                             ADJ ; ! "circular"
+
+teiktik:teiktik                                     ADJ ; ! ""
 
 chokiloj:chokiloj                                   ADJ ; ! ""
 melaktik:melaktik                                   ADJ ; ! "derecho"
