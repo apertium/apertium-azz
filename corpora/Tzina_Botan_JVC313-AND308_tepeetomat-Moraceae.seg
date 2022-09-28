@@ -2043,7 +2043,7 @@
 ^iteyo/iteyo$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a107
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a107:1
 # text = Tsopek no. Chokiloh no semi.
 # text[orig] = Tsope:k no:. Cho:kiloh no: semi.
 # text[spa] = Los frutos son dulces también. También contienen mucha savia.
@@ -2051,6 +2051,12 @@
 ^Tsopek/Tsopek$
 ^no/no$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a107:2
+# text = Tsopek no. Chokiloh no semi.
+# text[orig] = Tsope:k no:. Cho:kiloh no: semi.
+# text[spa] = Los frutos son dulces también. También contienen mucha savia.
+# labels = a107 sentence
 ^Chokiloh/Chokiloh$
 ^no/no$
 ^semi/semi$
@@ -2845,7 +2851,7 @@
 ^yon/yon$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a222
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a222:1
 # text = No iwki nikixmattok yon kowtet, neli ne, kan teh mas semi serbirowa. Soh se kikwa sah komo se kineki, komo amo pos ompa moawilowa ne kowtah, kikwah okwilimeh sah.
 # text[orig] = No: iwki niki:xmattok yo:n kowtet, neli ne:, ka:n teh <i>más</i> semi <i>serbirowa</i>. Soh se: kikwa sah komo se: kineki, komo a:mo pos ompa moa:wilowa ne: kowtah, kikwah okwilimeh sah.
 # text[spa] = También conozco igual ése fruto, es cierto que no se usa para otra cosa más. Sólo se comen los frutos si uno quiere, si no pues ahí se echan a perder en el campo y los animales aprovechan para alimentarse.
@@ -2865,6 +2871,12 @@
 ^semi/semi$
 ^serbirowa/serbirowa$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a222:2
+# text = No iwki nikixmattok yon kowtet, neli ne, kan teh mas semi serbirowa. Soh se kikwa sah komo se kineki, komo amo pos ompa moawilowa ne kowtah, kikwah okwilimeh sah.
+# text[orig] = No: iwki niki:xmattok yo:n kowtet, neli ne:, ka:n teh <i>más</i> semi <i>serbirowa</i>. Soh se: kikwa sah komo se: kineki, komo a:mo pos ompa moa:wilowa ne: kowtah, kikwah okwilimeh sah.
+# text[spa] = También conozco igual ése fruto, es cierto que no se usa para otra cosa más. Sólo se comen los frutos si uno quiere, si no pues ahí se echan a perder en el campo y los animales aprovechan para alimentarse.
+# labels = a222 sentence
 ^Soh/Soh$
 ^se/se$
 ^kikwa/kikwa$

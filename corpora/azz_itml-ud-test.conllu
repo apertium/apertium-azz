@@ -1340,6 +1340,66 @@
 13	tiwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=2|Subcat=Intr|Tense=Pres	11	csubj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a55
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a55 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a72
+# text = Mohmoloxtik.
+# text[orig] = Mohmoloxtik.
+# text[spa] = Son suavecitos.
+# labels = a72 sentence
+1	Mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a76
+# text = Welik.
+# text[orig] = We:lik.
+# text[spa] = Son buenos.
+# labels = a76 sentence
+1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a92
+# text = Melaktik.
+# text[orig] = Melaktik.
+# text[spa] = Son rectos.
+# labels = a92 sentence
+1	Melaktik	melaktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a101
+# text = N' iteyo.
+# text[orig] = N' iteyo.
+# text[spa] = Los frutos.
+# labels = a101 sentence
+1	N'	in	DET	_	_	2	det	_	_
+2	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a107:1
+# text = Tsopek no.
+# text[orig] = Tsope:k no:.
+# text[spa] = Los frutos son dulces también.
+# labels = a107 sentence
+1	Tsopek	tsopek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	no	no	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a107:2
+# text = Chokiloh no semi.
+# text[orig] = Cho:kiloh no: semi.
+# text[spa] = También contienen mucha savia.
+# labels = a107 sentence
+1	Chokiloh	chokiloj	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	no	no	ADV	_	_	1	advmod	_	_
+3	semi	semi	ADV	_	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a117
 # text = Wehweia.
 # text[orig] = Wehweia.
@@ -1369,6 +1429,28 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	kemeh	kemej	ADP	_	_	15	case	_	_
 15	kahfen	kafen	NOUN	_	Case=Abs	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a159
+# text = De oksi a pos kipampixowah n' okwilimeh wan kiekkwah n' chiktehmeh, papameh no kiekkwah.
+# text[orig] = De oksi a pos kipampi:xowah n' okwilimeh wa:n kie:kkwah n' chiktehmeh, papa:meh no: kie:kkwah.
+# text[spa] = De que ya están maduros suben los animales para cortarlos y los frutos caen al suelo, de éstos frutos se alimentan mucho los pájaros como los papá reales.
+# labels = a159 sentence
+1	De	de	ADP	_	_	2	mark	_	_
+2	oksi	oksi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
+3	a	a	INTJ	_	_	5	discourse	_	_
+4	pos	pos	ADV	_	_	5	advmod	_	_
+5	kipampixowah	pixohua	VERB	_	Incorporated=Pan|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+6	n'	in	DET	_	_	7	det	_	_
+7	okwilimeh	okuilin	NOUN	_	Number=Plur	5	nsubj	_	_
+8	wan	huan	CCONJ	_	_	9	cc	_	_
+9	kiekkwah	kua	VERB	_	Incorporated=Yek|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	_
+10	n'	in	DET	_	_	11	det	_	_
+11	chiktehmeh	chiktej	NOUN	_	Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	papameh	papa	NOUN	_	Number=Plur	15	nsubj	_	_
+14	no	no	ADV	_	_	15	advmod	_	_
+15	kiekkwah	kua	VERB	_	Incorporated=Yek|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a180
@@ -1440,6 +1522,32 @@
 1	Sasaltik	sasaltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	neli	neli	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a222:2
+# text = Soh se kikwa sah komo se kineki, komo amo pos ompa moawilowa ne kowtah, kikwah okwilimeh sah.
+# text[orig] = Soh se: kikwa sah komo se: kineki, komo a:mo pos ompa moa:wilowa ne: kowtah, kikwah okwilimeh sah.
+# text[spa] = Sólo se comen los frutos si uno quiere, si no pues ahí se echan a perder en el campo y los animales aprovechan para alimentarse.
+# labels = a222 sentence
+1	Soh	soj	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	sah	saj	ADV	_	_	3	advmod	_	_
+5	komo	komo	ADV	_	_	7	mark	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kineki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	komo	komo	ADV	_	_	13	mark	_	_
+10	amo	amo	ADV	_	_	13	advmod	_	_
+11	pos	pos	ADV	_	_	13	advmod	_	_
+12	ompa	ompa	ADV	_	_	13	advmod	_	_
+13	moawilowa	ahuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	advcl	_	_
+14	ne	ne	DET	_	_	15	det	_	_
+15	kowtah	koutaj	NOUN	_	Case=Abs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	kikwah	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	13	parataxis	_	_
+18	okwilimeh	okuilin	NOUN	_	Number=Plur	17	nsubj	_	_
+19	sah	saj	ADV	_	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a225
 # text = Kemah.

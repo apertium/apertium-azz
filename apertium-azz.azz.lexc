@@ -2364,6 +2364,15 @@ masehua:masehua                                       V-SO-FUTR ; ! ""
 
 
 
+pixohua:pixohua                                       V-SO-PRES ; ! ""
+pixohua:pixohua                                       V-SO-IMPF ; ! ""
+pixohua:pixo                                          V-SO-PROG ; ! ""
+pixohua:pixo                                          V-SO-PRET ; ! ""
+pixohua:pixo                                          V-SO-FUTR ; ! ""
+
+
+
+
 cuidarohua:cuidarohua                                 V-SO-PRES ; ! ""
 cuidarohua:cuidarohua                                 V-SO-IMPF ; ! ""
 cuidarohua:cuidaro                                    V-SO-PROG ; ! ""
