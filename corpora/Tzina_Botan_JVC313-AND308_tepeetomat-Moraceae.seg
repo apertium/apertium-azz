@@ -2627,7 +2627,7 @@
 ^ata/ata$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171:1
 # text = Kemah, yehwa yon nikimxattok compadrito yon tepetomat, mochiwa ne kowtahpa. Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
 # text[orig] = Ke:mah, yehwa yo:n niki:mxattok <i>compadrito</i> yo:n tepe:tomat, mochi:wa ne: kowtahpa. Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
 # text[spa] = Así es, así conozco el tepe:tomat compadrito, se da allá en el bosque. Por aquí no se da, pero por allá en el bosque grande abunda mucho.
@@ -2645,6 +2645,12 @@
 ^ne/ne$
 ^kowtahpa/kowtahpa$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171:2
+# text = Kemah, yehwa yon nikimxattok compadrito yon tepetomat, mochiwa ne kowtahpa. Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
+# text[orig] = Ke:mah, yehwa yo:n niki:mxattok <i>compadrito</i> yo:n tepe:tomat, mochi:wa ne: kowtahpa. Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
+# text[spa] = Así es, así conozco el tepe:tomat compadrito, se da allá en el bosque. Por aquí no se da, pero por allá en el bosque grande abunda mucho.
+# labels = a171 sentence
 ^Nikahkwin/Nikahkwin$
 ^amo/amo$
 ^mochiwa/mochiwa$
@@ -2947,12 +2953,6 @@
 ^niErnesto/niErnesto$
 ^Vazquez/Vazquez$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a229
-# text = de San Miguel Tzinacapan niwalew.
-# text[orig] = de San Miguel Tzinacapan niwa:le:w.
-# text[spa] = vengo de San Miguel Tzinacapan.
-# labels = a229 fragment
 ^de/de$
 ^San/San$
 ^Miguel/Miguel$

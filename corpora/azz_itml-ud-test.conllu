@@ -1564,6 +1564,23 @@
 15	kiekkwah	kua	VERB	_	Incorporated=Yek|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171:2
+# text = Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
+# text[orig] = Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
+# text[spa] = Por aquí no se da, pero por allá en el bosque grande abunda mucho.
+# labels = a171 sentence
+1	Nikahkwin	nikakuin	ADV	_	_	3	advmod	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	pero	pero	CCONJ	_	_	8	cc	_	_
+6	nehkwin	nejkuin	ADV	_	_	8	advmod	_	_
+7	kowtahpa	koutajpa	ADV	_	_	8	advmod	_	_
+8	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	conj	_	_
+9	semi	semi	ADV	_	_	8	advmod	_	_
+10	ata	ata	ADV	_	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:1
 # text = Mochiwa.
 # text[orig] = Mochi:wa.
@@ -1683,6 +1700,41 @@
 # labels = a225 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a227
+# text = A, pos neh nimonotsa, compadrito, niErnesto Vazquez, de San Miguel Tzinacapan niwalew.
+# text[orig] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez, de San Miguel Tzinacapan niwa:le:w.
+# text[spa] = A pues yo me llamo Ernesto Vázquez compadrito, vengo de San Miguel Tzinacapan.
+# text[a227] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez,
+# text[a229] = de San Miguel Tzinacapan niwa:le:w.
+# labels = a227 a229 fragment
+1	A	a	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pos	pos	ADV	_	_	5	advmod	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+5	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	niErnesto	Ernesto	PROPN	_	Gender=Masc|Number[subj]=Sing|Person[subj]=1	5	parataxis	_	_
+10	Vazquez	Vázquez	PROPN	_	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	San	San	PROPN	_	_	16	obl	_	_
+14	Miguel	Miguel	PROPN	_	Gender=Masc	13	flat	_	_
+15	Tzinacapan	Tzinacapan	PROPN	_	_	13	flat	_	_
+16	niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	5	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:1
+# text = A bueno compadrito.
+# text[orig] = A: <i>bueno compadrito</i>.
+# text[spa] = A bueno compadrito.
+# labels = a231 sentence
+1	A	a	INTJ	_	_	2	discourse	_	_
+2	bueno	bueno	INTJ	_	_	0	root	_	_
+3	compadrito	compadrito	_	_	_	2	vocative	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:2
 # text = Tasohkamatik compadrito.

@@ -4842,10 +4842,10 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171
-# text = Kemah, yehwa yon nikimxattok compadrito yon tepetomat, mochiwa ne kowtahpa. Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
-# text[orig] = Ke:mah, yehwa yo:n niki:mxattok <i>compadrito</i> yo:n tepe:tomat, mochi:wa ne: kowtahpa. Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
-# text[spa] = Así es, así conozco el tepe:tomat compadrito, se da allá en el bosque. Por aquí no se da, pero por allá en el bosque grande abunda mucho.
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171:1
+# text = Kemah, yehwa yon nikimxattok compadrito yon tepetomat, mochiwa ne kowtahpa. 
+# text[orig] = Ke:mah, yehwa yo:n niki:mxattok <i>compadrito</i> yo:n tepe:tomat, mochi:wa ne: kowtahpa. 
+# text[spa] = Así es, así conozco el tepe:tomat compadrito, se da allá en el bosque. 
 # labels = a171 sentence
 "<Kemah>"
 	"kemaj" ij @discourse
@@ -4881,28 +4881,34 @@
 	"koutajpa" adv
 "<.>"
 	"." sent @punct
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a171:2
+# text = Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
+# text[orig] = Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
+# text[spa] = Por aquí no se da, pero por allá en el bosque grande abunda mucho.
+# labels = a171 sentence
 "<Nikahkwin>"
-	"nikakuin" adv
+	"nikakuin" adv @advmod #1->3
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #2->3
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root #3->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->8
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #5->8
 "<nehkwin>"
-	"nejkuin" adv
+	"nejkuin" adv @advmod #6->8
 "<kowtahpa>"
-	"koutajpa" adv
+	"koutajpa" adv @advmod #7->8
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @conj #8->3
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #9->8
 "<ata>"
-	"ata" adv
+	"ata" adv @advmod #10->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:1
 # text = Mochiwa.
@@ -5363,65 +5369,46 @@
 	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a227
-# text = A, pos neh nimonotsa, compadrito, niErnesto Vazquez,
-# text[orig] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez,
-# text[spa] = A pues yo me llamo Ernesto Vázquez compadrito,
-# labels = a227 fragment
+# text = A, pos neh nimonotsa, compadrito, niErnesto Vazquez, de San Miguel Tzinacapan niwalew.
+# text[orig] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez, de San Miguel Tzinacapan niwa:le:w.
+# text[spa] = A pues yo me llamo Ernesto Vázquez compadrito, vengo de San Miguel Tzinacapan.
+# text[a227] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez,
+# text[a229] = de San Miguel Tzinacapan niwa:le:w.
+# labels = a227 a229 fragment
 "<A>"
-	"a" ij @discourse
+	"a" ij @discourse #1->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->5
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #3->5
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #4->5
 "<nimonotsa>"
-	"notsa" v tv pres s_sg1 i_ref o_sg3
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @root #5->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->7
 "<compadrito>"
-	"compadrito" n m sg
-;	"compadrito" n m sg s_pl3
-;	"compadrito" n m sg s_sg3
+	"compadrito" n m sg @vocative #7->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<niErnesto>"
-	"Ernesto" np ant m s_sg1
+	"Ernesto" np ant m s_sg1 @parataxis #9->5
 "<Vazquez>"
-	"Vázquez" np cog @flat
-;	"Vázquez" np cog s_pl3
-;	"Vázquez" np cog s_sg3
+	"Vázquez" np cog @flat #10->9
 "<,>"
-	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a229
-# text = de San Miguel Tzinacapan niwalew.
-# text[orig] = de San Miguel Tzinacapan niwa:le:w.
-# text[spa] = vengo de San Miguel Tzinacapan.
-# labels = a229 fragment
+	"," cm @punct #11->13
 "<de>"
-	"de" pr
+	"de" pr @case #12->13
 "<San>"
-	"San" np top
-;	"san" adv
-;	"San" np top s_pl3
-;	"San" np top s_sg3
+	"San" np top @obl #13->16
 "<Miguel>"
-	"Miguel" np ant m @flat
-	"Miguel" np top
-;	"Miguel" np ant m s_pl3
-;	"Miguel" np top s_pl3
-;	"Miguel" np ant m s_sg3
-;	"Miguel" np top s_sg3
+	"Miguel" np ant m @flat #14->13
 "<Tzinacapan>"
-	"Tzinacapan" np top
-;	"Tzinacapan" np top s_pl3
-;	"Tzinacapan" np top s_sg3
+	"Tzinacapan" np top @flat #15->13
 "<niwalew>"
-	"hualeu" v iv pres s_sg1
-	"hualeu" v iv pret s_sg1
+	"hualeu" v iv pres s_sg1 @parataxis #16->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->5
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:1
 # text = A bueno compadrito.
@@ -5429,13 +5416,13 @@
 # text[spa] = A bueno compadrito. 
 # labels = a231 sentence
 "<A>"
-	"a" ij @discourse
+	"a" ij @discourse #1->2
 "<bueno>"
-	"bueno" ij @discourse
+	"bueno" ij @root #2->0
 "<compadrito>"
-	"compadrito" n m sg @vocative
+	"compadrito" n m sg @vocative  #3->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->2
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:2
 # text = Tasohkamatik compadrito.
