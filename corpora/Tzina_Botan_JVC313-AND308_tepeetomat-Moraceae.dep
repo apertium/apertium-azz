@@ -2933,26 +2933,19 @@
 	"yohui" v iv pres s_pl3
 "<kowtah>"
 	"koutaj" n abs
-;	"koutaj" n abs s_pl3
-;	"koutaj" n abs s_sg3
 "<ompakawin>"
 	"ompakahuin" adv
 "<amo>"
 	"amo" adv
 "<kixmatih>"
-	"ixmati" v tv pres s_pl3 o_sg3
 	"ixmati" v tv pret s_sg3 o_sg3
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<kowtet>"
 	"koutet" n abs
-;	"koutet" n abs s_pl3
-;	"koutet" n abs s_sg3
 "<compadrito>"
 	"compadrito" n m sg
-;	"compadrito" n m sg s_pl3
-;	"compadrito" n m sg s_sg3
 "<,>"
 	"," cm @punct
 "<yon>"
@@ -3460,17 +3453,13 @@
 "<sah>"
 	"saj" adv
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<nikmati>"
 	"mati" v tv pres s_sg1 o_sg3
 "<compadrito>"
-	"compadrito" n m sg
-;	"compadrito" n m sg s_pl3
-;	"compadrito" n m sg s_sg3
+	"compadrito" n m sg @vocative
 "<.>"
 	"." sent @punct
 
@@ -3509,75 +3498,46 @@
 	"." sent @punct #14->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a230
-# text = Pos neh nimonotsa Anastacio Nicolas Damian, de
-# text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián, de
-# text[spa] = Pues yo me llamo Anastacio Nicolás Damián de,
-# labels = a230 fragment
+# text = Pos neh nimonotsa Anastacio Nicolas Damian, de de xolal nikan San Miguel Tzinacapan no niwalew.
+# text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián, de de xola:l nika:n San Miguel Tzinacapan no: niwa:le:w.
+# text[spa] = Pues yo me llamo Anastacio Nicolás Damián de, también vengo de San Miguel Tzinacapan.
+# text[a230] = Pos neh nimono:tsa Anastacio Nicolás Damián, de
+# text[a232] = de xola:l nika:n San Miguel Tzinacapan no: niwa:le:w.
+# labels = a230 a232 fragment
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->3
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #2->3
 "<nimonotsa>"
-	"notsa" v tv pres s_sg1 i_ref o_sg3
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @root #3->0
 "<Anastacio>"
-	"Anastacio" np ant m
-;	"Anastacio" np ant m s_pl3
-;	"Anastacio" np ant m s_sg3
+	"Anastacio" np ant m @obj #4->3
 "<Nicolas>"
-	"Nicolás" np ant m
-	"in" det
-		"cola" n f pl px3sg
-	"cola" n f pl px3sg
-	"cola" n f pl s_sg1
-	"Nicolás" np ant m s_sg3
-;	"Nicolás" np ant m s_pl3
+	"Nicolás" np ant m @flat #5->4
 "<Damian>"
-	"Damián" np ant m
-;	"Damián" np ant m s_pl3
-;	"Damián" np ant m s_sg3
+	"Damián" np cog @flat #6->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->16
 "<de>"
-	"de" pr
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a232
-# text = de xolal nikan San Miguel Tzinacapan no niwalew.
-# text[orig] = de xola:l nika:n San Miguel Tzinacapan no: niwa:le:w.
-# text[spa] = también vengo de San Miguel Tzinacapan.
-# labels = a232 fragment
+	"de" pr @reparandum #8->9
 "<de>"
-	"de" pr
+	"de" pr @case #9->10
 "<xolal>"
-	"xolal" n abs
-;	"xolal" n abs s_pl3
-;	"xolal" n abs s_sg3
+	"xolal" n abs @obl #10->16
 "<nikan>"
-	"nikan" adv
+	"nikan" adv @advmod #11->10
 "<San>"
-	"San" np top
-;	"san" adv
-;	"San" np top s_pl3
-;	"San" np top s_sg3
+	"San" np top @appos #12->10
 "<Miguel>"
-	"Miguel" np ant m @flat
-	"Miguel" np top
-;	"Miguel" np ant m s_pl3
-;	"Miguel" np top s_pl3
-;	"Miguel" np ant m s_sg3
-;	"Miguel" np top s_sg3
+	"Miguel" np ant m @flat #13->12
 "<Tzinacapan>"
-	"Tzinacapan" np top
-;	"Tzinacapan" np top s_pl3
-;	"Tzinacapan" np top s_sg3
+	"Tzinacapan" np top @flat #14->12
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #15->16
 "<niwalew>"
-	"hualeu" v iv pres s_sg1
-	"hualeu" v iv pret s_sg1
+	"hualeu" v iv pres s_sg1 @parataxis #16->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a50
 # text = Pos t..., 'technohnotsa compadrito, t'nekih timitstahtaniskeh,
