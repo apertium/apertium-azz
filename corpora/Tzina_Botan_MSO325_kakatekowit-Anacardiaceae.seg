@@ -202,13 +202,19 @@
 ^ata/ata$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:1
 # text = Mm. Kemah wan mahya nejon kipia rayitas n' ipanko nen kowit wan ixiwyo mapisiltik.
 # text[orig] = Mm. Ke:mah wa:n mahyá: nejó:n kipia *rayitas** n' ipanko ne:n kowit wa:n ixiwyo ma:pisi:ltik.
 # text[spa] = Si, y es cierto, la corteza es rayada y las hojas son pequeñas.
 # labels = a35 sentence
 ^Mm/Mm$
 ^./.$
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:2
+# text = Mm. Kemah wan mahya nejon kipia rayitas n' ipanko nen kowit wan ixiwyo mapisiltik.
+# text[orig] = Mm. Ke:mah wa:n mahyá: nejó:n kipia *rayitas** n' ipanko ne:n kowit wa:n ixiwyo ma:pisi:ltik.
+# text[spa] = Si, y es cierto, la corteza es rayada y las hojas son pequeñas.
+# labels = a35 sentence
 ^Kemah/Kemah$
 ^wan/wan$
 ^mahya/mahya$

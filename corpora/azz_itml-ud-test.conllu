@@ -1024,6 +1024,52 @@
 21	tojomiyouan	omiyot	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
+# text = ¿A, tikneki tikmatis compadrito?
+# text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?
+# text[spa] = ¿Aa, quiere saber compadrito?
+# labels = a56 sentence
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	A	a	INTJ	_	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tikneki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
+5	tikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	4	xcomp	_	_
+6	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	4	vocative	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:2
+# text = Pos neh no nikmattok, kemeh nikan analpa ninemia.
+# text[orig] = Pos neh no: nikmattok, ke:meh nika:n a:nalpa ninemia.
+# text[spa] = Pues como yo vivía al otro lado del rio si conozco.
+# labels = a56 sentence
+1	Pos	pos	ADV	_	_	4	advmod	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
+3	no	no	ADV	_	_	4	advmod	_	_
+4	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	kemeh	kemej	ADP	_	_	9	mark	_	_
+7	nikan	nikan	ADV	_	_	9	advmod	_	_
+8	analpa	analpa	ADV	_	_	9	advmod	_	_
+9	ninemia	nemi	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=1|Subcat=Intr	4	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a59
+# text = Wan semi mochiwa kampa tepetah, itsintan tepet no onkak.
+# text[orig] = Wa:n semi mochi:wa ka:mpa tepe:tah, itsi:ntan tepe:t no: onkak.
+# text[spa] = También se da mucho en los cerros, al pie de los cerros también se da.
+# labels = a59 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	kampa	kampa	ADV	_	PronType=Rel	3	advmod	_	_
+5	tepetah	tepetaj	NOUN	_	Case=Abs	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	itsintan	tsintan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+8	tepet	tepet	NOUN	_	Case=Abs	7	nmod	_	_
+9	no	no	ADV	_	_	10	advmod	_	_
+10	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a68
 # text = Xohxoxoktik.
 # text[orig] = Xohxoxoktik.
@@ -1055,7 +1101,7 @@
 2	nijon	nijon	PRON	_	_	8	nsubj	_	_
 3	no	no	ADV	_	_	7	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	no	no	_	_	_	7	reparandum	_	SpaceAfter=No
+5	no	no	ADV	_	_	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	no	no	ADV	_	_	8	advmod	_	_
 8	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
@@ -1113,6 +1159,24 @@
 5	'kixtia	kixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a108
+# text = Tsopek sayoh que nijon istak nen ichokilo, n' ichokilo.
+# text[orig] = Tsope:k sayoh <i>que</i> nijó:n ista:k ne:n icho:kilo, n' icho:kilo.
+# text[spa] = Son dulces y tienen la savia de color blanco.
+# text[gloss] = Son dulces sólo que este es blanco, este savia, el savia.
+# labels = a108 sentence
+1	Tsopek	tsopek	ADJ	_	Number[subj]=Plur|Person[subj]=3	0	root	_	_
+2	sayoh	sayoj	ADV	_	_	5	advmod	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	nijon	nijon	PRON	_	_	5	discourse	_	_
+5	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	advcl	_	_
+6	nen	nen	DET	_	_	7	det	_	_
+7	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	n'	in	DET	_	_	10	det	_	_
+10	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a110
 # text = Istak wan se, kampa tekwi ihkon amo kineki kisas, hasta se imako ihkon mokawa sasaltik.
 # text[orig] = Ista:k wa:n se:, ka:mpa te:kwi ihkó:n a:mo kineki ki:sas, <i>hasta</i> se: ima:ko ihkó:n moka:wa sasaltik.
@@ -1154,8 +1218,8 @@
 # text[spa] = Al pie de los cerros por eso le llaman tepe:..., tepe:tomat.
 # labels = a126 sentence
 1-2	Tepetsintan	_	_	_	_	_	_	_	_
-1	Tepetsintan	tepet	NOUN	_	_	2	nmod	_	_
-2		tsintan	NOUN	_	NounType=Relat	3	obl	_	_
+1	Tepe	tepet	NOUN	_	_	2	nmod	_	_
+2	tsintan	tsintan	NOUN	_	NounType=Relat	3	obl	_	_
 3	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
 4	por	por	ADP	_	_	5	case	_	_
 5	eso	eso	PRON	_	_	6	obl	_	_
@@ -1183,6 +1247,20 @@
 10	achi	achi	ADV	_	_	11	advmod	_	_
 11	mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	7	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a130
+# text = Mohmoloxtik n' i..., n' ipanko nikan.
+# text[orig] = Mohmoloxtik n' i..., n' ipanko nika:n.
+# text[spa] = Tiene así como pelitos finos aquí por en..., encima.
+# labels = a130 sentence
+1	Mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
+2	n'	in	DET	_	_	5	reparandum	_	_
+3	i...	i	X	_	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	n'	in	DET	_	_	6	det	_	_
+6	ipanko	panko	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	nmod	_	_
+7	nikan	nikan	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a141
 # text = Ompa ixwa, miakkan kan se, se kita mehmelaktsitsin.
@@ -1233,6 +1311,14 @@
 8	mokawa	kahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	conj	_	_
 9	ya	ya	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a195 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a201
 # text = Pos ne keman neh nikitaya, nen, notatahwan kwalkwiah ika se kontsin.
@@ -1444,8 +1530,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	motekpana	tekpana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 6-7	imahmatsintan	_	_	_	_	_	_	_	SpaceAfter=No
-6	imahmatsintan	majma	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
-7		tsintan	NOUN	_	NounType=Relat	5	obl	_	_
+6	imahma	majma	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
+7	tsintan	tsintan	NOUN	_	NounType=Relat	5	obl	_	_
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	kemeh	kemej	ADP	_	_	10	case	_	_
 10	kahfen	kafen	NOUN	_	Case=Abs	12	obl	_	_
@@ -1477,6 +1563,22 @@
 14	no	no	ADV	_	_	15	advmod	_	_
 15	kiekkwah	kua	VERB	_	Incorporated=Yek|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:1
+# text = Mochiwa.
+# text[orig] = Mochi:wa.
+# text[spa] = Se da.
+# labels = a172 sentence
+1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Así es.
+# labels = a172 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a180
 # text = N' okwilimeh.
@@ -1581,6 +1683,15 @@
 # labels = a225 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:2
+# text = Tasohkamatik compadrito.
+# text[orig] = Tasohka:matik <i>compadrito</i>.
+# text[spa] = Gracias compadrito.
+# labels = a231 sentence
+1	Tasohkamatik	tasojkamatik	INTJ	_	_	0	root	_	_
+2	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
@@ -2534,6 +2645,14 @@
 9	wehkawa	huejkahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
 10	yetok	etok	AUX	_	Number[subj]=Sing|Person[subj]=3	9	dep	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] =
+# labels = a35 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a37
 # text = Kemah nikixmattok mahya oh..., ohololtsitsini n' ixochiotsin.

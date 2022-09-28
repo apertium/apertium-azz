@@ -1,4 +1,4 @@
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito? Pos neh no nikmattok, kemeh nikan analpa ninemia.
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>? Pos neh no: nikmattok, ke:meh nika:n a:nalpa ninemia.
 # text[spa] = ¿Aa, quiere saber compadrito? Pues como yo vivía al otro lado del rio si conozco.
@@ -10,6 +10,12 @@
 ^tikmatis/tikmatis$
 ^compadrito/compadrito$
 ^?/?$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:2
+# text = ¿A, tikneki tikmatis compadrito? Pos neh no nikmattok, kemeh nikan analpa ninemia.
+# text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>? Pos neh no: nikmattok, ke:meh nika:n a:nalpa ninemia.
+# text[spa] = ¿Aa, quiere saber compadrito? Pues como yo vivía al otro lado del rio si conozco.
+# labels = a56 sentence
 ^Pos/Pos$
 ^neh/neh$
 ^no/no$
@@ -867,7 +873,7 @@
 ^Semi/Semi$
 ^ewi/ewi$
 ^ihkon/ihkon$
-^tehtepetsintan/tehtepetsintan$
+^tehtepetsintan/tehtepe>tsintan$
 ^ihkoni/ihkoni$
 ^wan/wan$
 
@@ -913,7 +919,7 @@
 # text[orig] = Tepe:tsi:ntan onkak <i>por eso</i> kiliah tep..., tepe:tomat.
 # text[spa] = Al pie de los cerros por eso le llaman tepe:..., tepe:tomat.
 # labels = a126 sentence
-^Tepetsintan/Tepetsintan$
+^Tepetsintan/Tepe>tsintan$
 ^onkak/onkak$
 ^por/por$
 ^eso/eso$
@@ -1560,7 +1566,7 @@
 ^tik.../tik...$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195:1
 # text = Kemeh nehwa no tinentinemi newin kowtah, pos no tikixmati compadrito. Kemah.
 # text[orig] = Ke:meh nehwa no: tinentinemi ne:wí:n kowtah, pos no: tiki:xmati <i>compadrito</i>. Ke:mah.
 # text[spa] = Como usted compadrito que también anda por allá en el bosque pues también conoce. Así es.
@@ -1577,6 +1583,12 @@
 ^tikixmati/tikixmati$
 ^compadrito/compadrito$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195:2
+# text = Kemeh nehwa no tinentinemi newin kowtah, pos no tikixmati compadrito. Kemah.
+# text[orig] = Ke:meh nehwa no: tinentinemi ne:wí:n kowtah, pos no: tiki:xmati <i>compadrito</i>. Ke:mah.
+# text[spa] = Como usted compadrito que también anda por allá en el bosque pues también conoce. Así es.
+# labels = a195 sentence
 ^Kemah/Kemah$
 ^./.$
 
@@ -2265,7 +2277,7 @@
 ^mo.../mo...$
 ^,/,$
 ^motekpana/motekpana$
-^imahmatsintan/imahmatsintan$
+^imahmatsintan/imahma>tsintan$
 ^,/,$
 ^kemeh/kemeh$
 ^kahfen/kahfen$
@@ -2645,13 +2657,19 @@
 ^ata/ata$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:1
 # text = Mochiwa. Kemah.
 # text[orig] = Mochi:wa. Ke:mah.
 # text[spa] = Se da. Así es.
 # labels = a172 sentence
 ^Mochiwa/Mochiwa$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a172:2
+# text = Mochiwa. Kemah.
+# text[orig] = Mochi:wa. Ke:mah.
+# text[spa] = Se da. Así es.
+# labels = a172 sentence
 ^Kemah/Kemah$
 ^./.$
 
@@ -2942,7 +2960,7 @@
 ^niwalew/niwalew$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:1
 # text = A bueno compadrito. Tasohkamatik compadrito.
 # text[orig] = A: <i>bueno compadrito</i>. Tasohka:matik <i>compadrito</i>.
 # text[spa] = A bueno compadrito. Gracias compadrito.
@@ -2951,6 +2969,12 @@
 ^bueno/bueno$
 ^compadrito/compadrito$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:2
+# text = A bueno compadrito. Tasohkamatik compadrito.
+# text[orig] = A: <i>bueno compadrito</i>. Tasohka:matik <i>compadrito</i>.
+# text[spa] = A bueno compadrito. Gracias compadrito.
+# labels = a231 sentence
 ^Tasohkamatik/Tasohkamatik$
 ^compadrito/compadrito$
 ^./.$

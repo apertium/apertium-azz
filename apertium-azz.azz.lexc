@@ -601,6 +601,12 @@ LEXICON N-TL
 %<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
+LEXICON N-PL-REDUP
+
+%<n%>%<pl%>:                                       # ;
+%<n%>%<hon%>%<pl%>:%>tsin                          # ;
+%<n%>%<cmp%>%+:                                    CMPND ;
+
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>ti                                  NO-POSS ;
@@ -4436,6 +4442,14 @@ tiotaki:tiotaki                                       V-S-FUTR ; ! ""
 
 
 
+nentinemi:nentinemi                                   V-S-PRES ; ! "andar"
+nentinemi:nentinemi                                   V-S-IMPF ; ! "andar"
+nentinemi:nentinemi                                   V-S-PROG ; ! "andar"
+nentinemi:nentinemi                                   V-S-PRET ; ! "andar"
+nentinemi:nentinemi                                   V-S-FUTR ; ! "andar"
+
+
+
 yoli:yoli                                             V-S-PRES ; ! "nacer"
 yoli:yoli                                             V-S-IMPF ; ! "nacer"
 yoli:yoli                                             V-S-PROG ; ! "nacer"
@@ -5011,6 +5025,7 @@ tataman:tataman                                     N-Ø ; ! "diferente"
 tepexilot:tepexilo                                  N-TL ; ! "tejilote"
 konet:kone                                          N-TL ; ! "niño"
 tepet:tepe                                          N-TL ; ! "montaña"
+tejtepet:tejtepe                                    N-PL-REDUP ; ! "cerros"
 mixkouat:mixkoua                                    N-TL ; ! ""
 tomat:toma                                          N-TL ; ! "jitomate"
 sitaltomat:sital%>toma                              N-TL ; ! ""
