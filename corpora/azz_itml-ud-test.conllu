@@ -1140,6 +1140,23 @@
 6	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
+# text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
+# text[spa] = La fruta se come cuando está madura, se come como elote.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	4	obj	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5	ijuak	ijhuak	SCONJ	_	_	6	mark	_	_
+6	oksi	oksi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	parataxis	_	_
+10	kemej	kemej	ADP	_	_	11	case	_	_
+11	elot	elot	NOUN	_	Case=Abs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?
