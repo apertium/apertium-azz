@@ -810,6 +810,7 @@ LEXICON PRON-NEHUATL
 LEXICON PRON-TEHUAN
 
 %<abs%>:%>huan                                     # ; 
+%<abs%>:%>hua                                      # ; 
 !%<hon%>:%>hua%>tsin                                # ; 
 %<short%>:%>jan                                    # ; 
 !:%>hua                                             # ; 

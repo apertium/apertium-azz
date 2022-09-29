@@ -1561,6 +1561,24 @@
 21	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a221
+# text = Pos yehwa yon neh nik..., nikmattok... compadrito.
+# text[orig] = Pos yehwa yo:n neh nik..., nikmattok [...]<i>compadrito</i>.
+# text[spa] = Pues eso es lo que yo sé..., sé compadrito.
+# labels = a221 sentence
+1	Pos	pos	ADV	_	_	2	advmod	_	_
+2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+3-4	yon	_	_	_	_	_	_	_	_
+3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	cop	_	_
+4	n	in	DET	_	_	8	mark	_	_
+5	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	8	nsubj	_	_
+6	nik...	nik	X	_	_	8	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	csubj	_	SpaceAfter=No
+9	...	...	PUNCT	_	_	10	punct	_	_
+10	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	8	vocative	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a224
 # text = A, bueno.
 # text[orig] = A:, <i>bueno</i>.
@@ -1570,6 +1588,19 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	bueno	bueno	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a226
+# text = Yehwa sah neh no nikmati compadrito.
+# text[orig] = Yehwa sah neh no: nikmati <i>compadrito</i>.
+# text[spa] = Pues eso es todo lo que yo sé también compadrito.
+# labels = a226 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	sah	saj	ADV	_	_	1	advmod	_	_
+3	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+4	no	no	ADV	_	_	5	advmod	_	_
+5	nikmati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	1	csubj	_	_
+6	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a228
 # text = Pos kwali tinechilis mo..., motokay, keniw timonotsa wan kani n' tiwalew.
