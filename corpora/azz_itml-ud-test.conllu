@@ -1128,6 +1128,18 @@
 8	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:38
+# text = Istak inakayo uan tiltik in iteyo.
+# text[spa] = Su pulpa es blanca y la semilla es negra.
+# labels = sentence
+1	Istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	inakayo	nakayot	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+3	uan	huan	CCONJ	_	_	4	cc	_	_
+4	tiltik	tiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?
