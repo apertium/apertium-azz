@@ -1066,6 +1066,12 @@ kuiltia:kuilti                                        V-SIO-PROG ; ! "atinarle"
 kuiltia:kuilti                                        V-SIO-PRET ; ! "atinarle"
 kuiltia:kuilti                                        V-SIO-FUTR ; ! "atinarle"
 
+kohuilia:kohuilia                                     V-SIO-PRES ; ! "comprarle"
+kohuilia:kohuilia                                     V-SIO-IMPF ; ! "comprarle"
+kohuilia:kohuili                                      V-SIO-PROG ; ! "comprarle"
+kohuilia:kohuili                                      V-SIO-PRET ; ! "comprarle"
+kohuilia:kohuili                                      V-SIO-FUTR ; ! "comprarle"
+
 tokilia:tokilia                                       V-SIO-PRES ; ! "acercarle"
 tokilia:tokilia                                       V-SIO-IMPF ; ! "acercarle"
 tokilia:tokili                                        V-SIO-PROG ; ! "acercarle"

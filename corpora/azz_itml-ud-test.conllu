@@ -1140,6 +1140,78 @@
 6	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:89
+# text = Xochiyoua junio.
+# text[spa] = Florea en junio.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	junio	junio	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:93
+# text = Amo onkak miak nikauín.
+# text[spa] = Por aquí no hay mucha.
+# labels = sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+3	miak	miak	ADV	_	_	2	dep	_	_
+4	nikauín	nikahuin	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:94
+# text = Ijuak oksi ya se kitapana uan se kikua kemej xantiaj.
+# text[spa] = Cuando ya madura se parte y se come como la sandía.
+# labels = sentence
+1	Ijuak	ijhuak	SCONJ	_	_	2	mark	_	_
+2	oksi	oksi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
+3	ya	ya	ADV	_	_	5	advmod	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	kitapana	tapana	VERB	_	Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+6	uan	huan	CCONJ	_	_	8	cc	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	_
+9	kemej	kemej	ADP	_	_	10	case	_	_
+10	xantiaj	xantiaj	NOUN	_	Case=Abs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:807
+# text = Sekin kijtouaj xochiyoua febrero, por qué abril teyoua ya; oksekin kijtouaj xochiyoua septiembre.
+# text[spa] = Unos dicen que florea en febrero porque en abril ya tiene semilla, otros dicen que florea en septiembre.
+# labels = sentence
+1	Sekin	seki	PRON	_	_	2	nsubj	_	_
+2	kijtouaj	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	dep	_	_
+4	febrero	febrero	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	por	por	ADP	_	_	9	mark	_	_
+7	qué	que	PRON	_	_	6	fixed	_	_
+8	abril	abril	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+9	teyoua	teyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	_
+10	ya	ya	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	13	punct	_	_
+12	oksekin	okse	PRON	_	Number=Plur	13	nsubj	_	_
+13	kijtouaj	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+14	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	dep	_	_
+15	septiembre	septiembre	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:808
+# text = Kampa se kimattok kipiya se mokouilia komo se kikuasneki.
+# text[spa] = Donde sabe uno que lo tienen, lo va uno a comprar, si lo quiere comer.
+# labels = sentence
+1	Kampa	kampa	ADV	_	PronType=Rel	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kimattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	advcl	_	_
+4	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	dep	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	mokouilia	kohuilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+7	komo	komo	ADV	_	_	9	mark	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9-10	kikuasneki	_	_	_	_	_	_	_	SpaceAfter=No
+9	kikuas	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	6	advcl	_	_
+10	neki	neki	AUX	_	_	9	aux	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
