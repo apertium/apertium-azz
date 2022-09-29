@@ -1174,6 +1174,69 @@
 10	xantiaj	xantiaj	NOUN	_	Case=Abs	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
+# text = Xochimej
+# text[spa] = Las flores
+# labels =
+1	Xochimej	xochit	NOUN	_	Number=Plur	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:528
+# text = Monamaka ne Kuesalan.
+# text[spa] = Se vende en Cuetzalan.
+# labels = sentence
+1	Monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ne	ne	ADV	_	_	1	advmod	_	_
+3	Kuesalan	Cuetzalan	PROPN	_	_	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:531
+# text = Se kikua.
+# text[spa] = Se come.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:533
+# text = In xitomat no se kitoka in iteyo.
+# text[spa] = La semilla del jitomate también se siembra.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	xitomat	xitomat	NOUN	_	Case=Abs	5	dislocated	_	_
+3	no	no	ADV	_	_	5	advmod	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+6	in	in	DET	_	_	7	det	_	_
+7	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	dep	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:536
+# text = AXOX
+# text[spa] = AJO
+# labels =
+1	AXOX	AXOX	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:538
+# text = Amo se kichipaua.
+# text[spa] = No se limpia.
+# labels = sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kichipaua	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:541
+# text = Mochiua saj, ixua in iteyo.
+# text[spa] = Se da solo, nace su semilla.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	saj	saj	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	ixua	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:807
 # text = Sekin kijtouaj xochiyoua febrero, por qué abril teyoua ya; oksekin kijtouaj xochiyoua septiembre.
 # text[spa] = Unos dicen que florea en febrero porque en abril ya tiene semilla, otros dicen que florea en septiembre.
