@@ -3020,9 +3020,9 @@ tekokoj:tekokoj                                     V-S-FUTR ;
 ! "producir flores"
 xochiyohua:xochiyohua                               V-S-PRES ;
 xochiyohua:xochiyohua                               V-S-IMPF ;
-xochiyohua:xochiyohua                               V-S-PROG ;
-xochiyohua:xochiyohua                               V-S-PRET ;
-xochiyohua:xochiyohua                               V-S-FUTR ;
+xochiyohua:xochiyo                               V-S-PROG ;
+xochiyohua:xochiyo                               V-S-PRET ;
+xochiyohua:xochiyo                               V-S-FUTR ;
 
 
 ! "producir frutos"
