@@ -3017,6 +3017,14 @@ tekokoj:tekokoj                                     V-S-PROG ;
 tekokoj:tekokoj                                     V-S-PRET ;
 tekokoj:tekokoj                                     V-S-FUTR ;
 
+! "producir flores"
+xochiyohua:xochiyohua                               V-S-PRES ;
+xochiyohua:xochiyohua                               V-S-IMPF ;
+xochiyohua:xochiyohua                               V-S-PROG ;
+xochiyohua:xochiyohua                               V-S-PRET ;
+xochiyohua:xochiyohua                               V-S-FUTR ;
+
+
 ! "producir frutos"
 teyohua:teyohua                                     V-S-PRES ;
 teyohua:teyohua                                     V-S-IMPF ;
@@ -4991,7 +4999,7 @@ huitsyot:huitsyo                                    N-TL ; ! ""
 yolot:yolo                                          N-TL ; ! "corazón"
 tekuani:tekuani                                     N-Ø ; ! "bestia"
 koutaj:koutaj                                       N-Ø ; ! "monte"
-kuoutaj:kuoutaj                                     N-Ø ; ! "bosque"
+kuoutaj:kuou%{j%}taj                                N-Ø ; ! "bosque"
 tepetaj:tepetaj                                     N-Ø ; ! "cerros"
 hueikoutaj:huei%>koutaj                             N-Ø ; ! "monte grande"
 tikohuit:ti%>ko                                     N-HUITL ; ! "palo"
@@ -5131,7 +5139,7 @@ takka:takka                                         N-Ø ; ! "fruto"
 tapalo:tapalo                                       N-Ø ; ! "color"
 tapalol:tapalol                                     N-Ø ; ! "comida"
 masehualtapalol:masehual%>tapalol                   N-Ø ; ! "comida de campesino"
-xiuyo:xiuyo                                         N-YO ; ! ""
+xiuyo:xiu%{j%}yo                                    N-YO ; ! ""
 naluayo:naluayo                                     N-YO ; ! "raíz"
 chokilo:chokilo                                     N-YO ; ! "savia"
 tapajtiani:tapajti%{y%}a%>ni                        N-NI ; ! "doctor"
@@ -6686,7 +6694,7 @@ onkak:onkak                                         ADV ; ! "aquí"
 
 yekinika:yekinika                                   ADV ; ! "por primera vez"
 
-nikahuin:nikahuin                                   ADV ; ! "por aquí"
+nikahuin:nikahuín                                   ADV ; ! "por aquí"
 
 nochipa:nochipa                                     ADV ; ! "cada día, siempre"
 
@@ -6762,7 +6770,7 @@ tel:tel                                             ADV ; ! "muy"
 
 senka:senka                                         ADV ; ! "en exceso"
 
-iuki:iuki                                           ADV ; ! "así"
+iuki:iu%{j%}ki                                      ADV ; ! "así"
 
 más:más                                             ADV ; ! "más"
 
