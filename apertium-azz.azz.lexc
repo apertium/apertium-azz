@@ -1571,6 +1571,13 @@ patanaltia:patanalti                                V-SO-PRET ;
 patanaltia:patanalti                                V-SO-FUTR ;
 
 ! "quebrar"
+pojposteki:po%{j%}posteki                           V-SO-PRES ;
+pojposteki:po%{j%}posteki                           V-SO-IMPF ;
+pojposteki:po%{j%}posteki                           V-SO-PROG ;
+pojposteki:po%{j%}posteki                           V-SO-PRET ;
+pojposteki:po%{j%}posteki                           V-SO-FUTR ;
+
+! "quebrar"
 posteki:posteki                                     V-SO-PRES ;
 posteki:posteki                                     V-SO-IMPF ;
 posteki:posteki                                     V-SO-PROG ;
@@ -2584,9 +2591,16 @@ ejkehui:ejkehui                                     V-S-FUTR ;
 ! "secarse"
 huaki:huaki                                         V-S-PRES ;
 huaki:huaki                                         V-S-IMPF ;
-huaki:huaki                                         V-S-PROG ;
+huaki:huak                                          V-S-PROG ;
 huaki:huaki                                         V-S-PRET ;
 huaki:huaki                                         V-S-FUTR ;
+
+! "secarse"
+huajhuaki:hua%{j%}huaki                             V-S-PRES ;
+huajhuaki:hua%{j%}huaki                             V-S-IMPF ;
+huajhuaki:hua%{j%}huak                              V-S-PROG ;
+huajhuaki:hua%{j%}huaki                             V-S-PRET ;
+huajhuaki:hua%{j%}huaki                             V-S-FUTR ;
 
 ! "crecer grande"
 huehueia:huehueia                                   V-S-PRES ;
@@ -5710,7 +5724,6 @@ chiloj:chiloj                                       N-Ø ; ! "enchilado"
 chilmol:chilmol                                     N-Ø ; ! "mole"
 chikauka:chikauka                                   N-Ø ; ! "fuerza"
 axikal:axikal                                       N-Ø ; ! "jícara"
-apochiktik:apochiktik                               N-Ø ; ! "pálido"
 apitsak:apitsak                                     N-Ø ; ! "afluente"
 ajtok:ajtok                                         N-Ø ; ! "azolve"
 
@@ -5760,6 +5773,7 @@ mes:mes                                             N-SPA-LUGAR ; ! "mes"
 azúcar:azúcar                                       N-SPA-LUGAR ; ! ""
 azúcar:azúcar                                       N-Ø ; ! ""
 
+pesoj:pesoj                                         N-Ø ; ! "tejón"
 
 peso:peso%{j%}                                      N-Ø ; ! "peso"
 peso:peso                                           N-SPA-PESO ; ! "peso"
@@ -6436,6 +6450,9 @@ mapijpisiltik:mapi%{j%}pisiltik                     ADJ-REDUP ; ! ""
 mahuejuei:mahuejuei                                 ADJ ; ! "con hojas grandes"
 metsuehueyak:metsuehueyak                           ADJ ; ! ""
 tenkoyoktik:tenkoyoktik                             ADJ ; ! ""
+
+pochiktik:pochiktik                                 ADJ ; ! "muy blanco"
+pojpochiktik:po%{j%}pochiktik                       ADJ-REDUP ; ! "muy blanco"
 
 ololtik:ololtik                                     ADJ ; ! "esférico"
 ojololtik:o%{j%}ololtik                             ADJ-REDUP ; ! "redondo"

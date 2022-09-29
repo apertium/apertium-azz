@@ -1183,8 +1183,8 @@
 15	no	no	ADV	_	_	13	advmod	_	_
 16	porque	porque	SCONJ	_	_	22	mark	_	_
 17-18	yon	_	_	_	_	_	_	_	_
-17	yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	22	cop	_	_
-18		in	DET	_	_	22	nsubj	_	_
+17	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	22	cop	_	_
+18	n	in	DET	_	_	22	nsubj	_	_
 19	no	no	ADV	_	_	21	reparandum	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	no	no	ADV	_	_	22	advmod	_	_
@@ -1311,6 +1311,65 @@
 10	mehmelaktsitsin	*mehmelaktsitsin	X	_	_	9	dep	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a178
+# text = Ompa n' ikespan mopihpilowa, kemasa pos ompa niman se kita pos cuando se kita nijon nestok kemeh, nen, tehkoh, nen, pesohmeh, okwilimeh.
+# text[orig] = Ompa n' ike:span mopihpilowa, ke:masá: pos ompa niman se: kita pos <i>cuando</i> se: kita nijó:n ne:stok ke:meh, ne:n, tehkoh, ne:n, pe:sohmeh, okwilimeh.
+# text[spa] = Ahí en la superficie del tronco se cuelgan los frutos, a veces se ven que por ahí las señas como suben los este, tejones y otros animales.
+# text[gloss] = Ahí en su superficie se cuelgan, a veces pues ahí luego uno las ve pues cuando uno las ve este al parecer como, este suben, este, tejones, animales.
+# text[a178] = Ompa n' ike:span mopihpilowa, ke:masá: pos ompa niman se: kita pos
+# text[a179] = <i>cuando</i> se: kita nijó:n ne:stok ke:meh, ne:n, tehkoh, ne:n,
+# text[a181] = pe:sohmeh, okwilimeh.
+# labels = a178 a179 a181 fragment
+1	Ompa	ompa	ADV	_	_	4	advmod	_	_
+2	n'	in	DET	_	_	3	det	_	_
+3	ikespan	kespan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+4	mopihpilowa	pijpilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	11	punct	_	_
+6	kemasa	kemasa	ADV	_	_	11	advmod	_	_
+7	pos	pos	ADV	_	_	11	advmod	_	_
+8	ompa	ompa	ADV	_	_	11	advmod	_	_
+9	niman	niman	ADV	_	_	11	advmod	_	_
+10	se	se	NUM	_	_	11	nsubj	_	_
+11	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	parataxis	_	_
+12	pos	pos	ADV	_	_	22	advmod	_	_
+13	cuando	cuando	SCONJ	_	_	15	mark	_	_
+14	se	se	NUM	_	_	15	nsubj	_	_
+15	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	22	advcl	_	_
+16	nijon	nijon	PRON	_	_	22	dep	_	_
+17	nestok	nestok	ADV	_	_	22	advmod	_	_
+18	kemeh	kemej	ADV	_	_	22	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	nen	nen	INTJ	_	_	22	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	tehkoh	tejko	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	4	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	nen	nen	INTJ	_	_	22	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	pesohmeh	pesoj	NOUN	_	Number=Plur	22	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	okwilimeh	okuilin	NOUN	_	Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a184
+# text = Kemasa se kita nochi ma..., mawahwaktok, de kitilanah kima..., kimapohpostekih.
+# text[orig] = Ke:masá: se: kita nochi ma:..., ma:wahwa:ktok, de kitila:nah kima:..., kima:pohpostekih.
+# text[spa] = A veces ve uno que las ramas se..., se se secan al jalarlos y los animales son los que cortan las ra..., ramas.
+# labels = a184 sentence
+1	Kemasa	kemasa	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	nochi	nochi	PRON	_	_	7	nsubj	_	_
+5	ma...	ma	X	_	_	7	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	mawahwaktok	mahuajhuaki	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	kitilanah	tilana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	advcl	_	_
+11	kima...	kima	X	_	_	13	reparandum	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	kimapohpostekih	mapohposteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a187
 # text = Achi teiktik n' imay, nen, de kitilanah posteki.
 # text[orig] = Achi teiktik n' ima:y, ne:n, de kitila:nah posteki.
@@ -1427,6 +1486,80 @@
 5	se	se	NUM	_	_	6	nsubj	_	_
 6	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a210
+# text = S..., i..., no se tai, momanelowa iwan ichokilo, pos n' ichokilo amo se kita ok, porque nijon, istak n' ichokilo wan pos se kita porque se imako mopepechowa.
+# text[orig] = S..., i..., no: se: tai, moma:nelowa iwa:n icho:kilo, pos n' icho:kilo a:mo se: kita ok, <i>porque</i> nijó:n, ista:k n' icho:kilo wa:n pos se: kita <i>porque</i> se: ima:ko mopepechowa.
+# text[spa] = Su..., también se toma, se revuelve con la savia, aunque la savia no se puede tomar, porque este, la savia es de color blanco y luego se da uno cuenta porque es pegajosa.
+# text[a210] = S..., i..., no: se: tai, moma:nelowa iwa:n icho:kilo, pos n' icho:kilo a:mo se: kita ok,
+# text[a211] = <i>porque</i> nijó:n,
+# text[a212] = ista:k n' icho:kilo wa:n pos se: kita <i>porque</i> se: ima:ko mopepechowa.
+# labels = a210 a211 a212 fragment
+1	S...	s	X	_	_	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	i...	i	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	no	no	ADV	_	_	7	advmod	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	momanelowa	manelohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	parataxis	_	_
+10	iwan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+11	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	18	punct	_	_
+13	pos	pos	ADV	_	_	18	advmod	_	_
+14	n'	in	DET	_	_	15	det	_	_
+15	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	18	obj	_	_
+16	amo	amo	ADV	_	_	18	advmod	_	_
+17	se	se	NUM	_	_	18	nsubj	_	_
+18	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	parataxis	_	_
+19	ok	ok	ADV	_	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	porque	porque	SCONJ	_	_	24	mark	_	_
+22	nijon	nijon	PRON	_	_	24	dep	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	18	advcl	_	_
+25	n'	in	DET	_	_	26	det	_	_
+26	ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	24	nsubj	_	_
+27	wan	huan	CCONJ	_	_	30	cc	_	_
+28	pos	pos	ADV	_	_	30	advmod	_	_
+29	se	se	NUM	_	_	30	nsubj	_	_
+30	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	24	conj	_	_
+31	porque	porque	SCONJ	_	_	34	mark	_	_
+32	se	se	NUM	_	_	34	nsubj	_	_
+33	imako	mako	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	34	obl	_	_
+34	mopepechowa	pepechohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	30	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a217
+# text = Pero, amo, amo kikwih porque tsikilitsitsin sah kisa de itsintan de nen, nen tepetomat, itsintan sah kisa.
+# text[orig] = Pero, a:mo, a:mo kikwih <i>porque</i> tsikilitsitsi:n sah ki:sa de itsi:ntan de ne:n, ne:n tepe:tomat, itsi:ntan sah ki:sa.
+# text[spa] = Pero no, nadie la usa porque sale muy poquita savia de donde se desprenden los frutos del tepe:tomat, la savia sale de donde se desprenden los frutos.
+# text[a217] = Pero, a:mo, a:mo kikwih <i>porque</i> tsikilitsitsi:n sah ki:sa de itsi:ntan de ne:n,
+# text[a218] = ne:n tepe:tomat, itsi:ntan sah ki:sa.
+# labels = a217 a218 fragment
+1	Pero	pero	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	amo	amo	ADV	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	amo	amo	ADV	_	_	6	advmod	_	_
+6	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+7	porque	porque	SCONJ	_	_	10	mark	_	_
+8	tsikilitsitsin	tsikili	ADJ	_	Number=Plur|Polite=Form	10	nsubj	_	_
+9	sah	saj	ADV	_	_	10	advmod	_	_
+10	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	advcl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	itsintan	tsintan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+13	de	de	ADP	_	_	17	case	_	_
+14	nen	nen	PRON	_	_	16	reparandum	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	nen	nen	DET	_	_	17	det	_	_
+17	tepetomat	tepetomat	NOUN	_	Case=Abs	21	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	itsintan	tsintan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	21	obl	_	_
+20	sah	saj	ADV	_	_	21	advmod	_	_
+21	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a224
 # text = A, bueno.

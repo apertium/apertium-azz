@@ -75,7 +75,7 @@
 # text[spa] = Y los frutos también se pueden comer.
 # labels = a60 sentence
 ^Wan/Wan$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^,/,$
 ^no/no$
@@ -90,7 +90,7 @@
 ^Cuando/Cuando$
 ^nijon/nijon$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^wehkapania/wehkapania$
 ^,/,$
@@ -280,7 +280,7 @@
 ^yoni/yoni$
 ^,/,$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^kwaltsin/kwaltsin$
 ^welik/welik$
@@ -302,7 +302,7 @@
 ^no/no$
 ^kikwah/kikwah$
 ^nen/nen$
-^yon/yon$
+^yon/yo>n$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a79
 # text = pesohmeh, yon no kikwah.
@@ -311,7 +311,7 @@
 # labels = a79 fragment
 ^pesohmeh/pesohmeh$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^kikwah/kikwah$
 ^./.$
@@ -322,7 +322,7 @@
 # text[spa] = Porque los frutos son buenos, los cortan para que caigan al suelo y
 # labels = a80 fragment
 ^Porque/Porque$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^semi/semi$
 ^welik/welik$
@@ -337,7 +337,7 @@
 # text[spa] = la madera también se puede usar para
 # labels = a81 fragment
 ^pos/pos$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^kwaltia/kwaltia$
 ^para/para$
@@ -486,7 +486,7 @@
 ^kitahtapana/kitahtapana$
 ^,/,$
 ^pero/pero$
-^yon/yon$
+^yon/yo>n$
 ^seki/seki$
 ^kwaltsin/kwaltsin$
 ^tahtapani/tahtapani$
@@ -542,7 +542,7 @@
 ^,/,$
 ^seki/seki$
 ^pane/pane$
-^yon/yon$
+^yon/yo>n$
 ^ihilpitok/ihilpitok$
 ^./.$
 
@@ -594,7 +594,7 @@
 # labels = a99 fragment
 ^pos/pos$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^imahmayo/imahmayo$
 ^achi/achi$
 
@@ -634,7 +634,7 @@
 # labels = a103 fragment
 ^wan/wan$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^xohxoxoktik/xohxoxoktik$
 ^cuando/cuando$
 ^,/,$
@@ -681,7 +681,7 @@
 ^ya/ya$
 ^no/no$
 ^porque/porque$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^,/,$
 ^no/no$
@@ -791,7 +791,7 @@
 ^./.$
 ^Wan/Wan$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a116
@@ -806,7 +806,7 @@
 ^motalia/motalia$
 ^,/,$
 ^wan/wan$
-^yon/yon$
+^yon/yo>n$
 ^no/no$
 ^wehweia/wehweia$
 ^./.$
@@ -828,7 +828,7 @@
 # labels = a119 fragment
 ^Wan/Wan$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^onkak/onkak$
 ^itech/itech$
 ^n'/n'$
@@ -878,7 +878,7 @@
 # labels = a122 fragment
 ^pos/pos$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^tik.../tik...$
 ^,/,$
 
@@ -941,7 +941,7 @@
 # labels = a128 fragment
 ^kemeh/kemeh$
 ^eskia/eskia$
-^yon/yon$
+^yon/yo>n$
 ^tomat/tomat$
 ^no/no$
 ^,/,$
@@ -993,7 +993,7 @@
 # labels = a131 sentence
 ^Wan/Wan$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^nen/nen$
 ^mokawa/mokawa$
 ^n'/n'$
@@ -1015,7 +1015,7 @@
 ^n'/n'$
 ^iteyo/iteyo$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kikixtilia/kikixtilia$
 ^n'/n'$
@@ -1072,10 +1072,10 @@
 # labels = a136 sentence
 ^Pero/Pero$
 ^pos/pos$
-^yon/yon$
+^yon/yo>n$
 ^amo/amo$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^ipa/ipa$
 ^amo/amo$
 ^teh/teh$
@@ -1092,7 +1092,7 @@
 ^se/se$
 ^tamachihchiwalis/tamachihchiwalis$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kitamota/kitamota$
 ^ya/ya$
@@ -1179,7 +1179,7 @@
 # text[spa] = eso es lo que yo sé compadrito, usted tal vez sepa algo más de eso,
 # labels = a143 fragment
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^compadrito/compadrito$
 ^nikmattok/nikmattok$
 ^,/,$
@@ -1226,7 +1226,7 @@
 ^pos/pos$
 ^nehwa/nehwa$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 ^nikmattok/nikmattok$
 ^sah/sah$
@@ -1249,7 +1249,7 @@
 ^,/,$
 ^nikitak/nikitak$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^a/a$
 ^veces/veces$
 ^kima.../kima...$
@@ -1286,7 +1286,7 @@
 # text[spa] = se dan los frutos con semilla que también son buenos, son blancos
 # labels = a175 fragment
 ^motalia/motalia$
-^yon/yon$
+^yon/yo>n$
 ^kwaltsin/kwaltsin$
 ^no/no$
 ^,/,$
@@ -1350,12 +1350,6 @@
 ^se/se$
 ^kita/kita$
 ^pos/pos$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a179
-# text = cuando se kita nijon nestok kemeh, nen, tehkoh, nen,
-# text[orig] = <i>cuando</i> se: kita nijó:n ne:stok ke:meh, ne:n, tehkoh, ne:n,
-# text[spa] = las señas como suben los este,
-# labels = a179 fragment
 ^cuando/cuando$
 ^se/se$
 ^kita/kita$
@@ -1369,12 +1363,6 @@
 ^,/,$
 ^nen/nen$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a181
-# text = pesohmeh, okwilimeh.
-# text[orig] = pe:sohmeh, okwilimeh.
-# text[spa] = tejones y otros animales.
-# labels = a181 fragment
 ^pesohmeh/pesohmeh$
 ^,/,$
 ^okwilimeh/okwilimeh$
@@ -1456,7 +1444,7 @@
 ^nochi/nochi$
 ^kipostekih/kipostekih$
 ^porque/porque$
-^yon/yon$
+^yon/yo>n$
 ^achi/achi$
 ^teiktik/teiktik$
 ^./.$
@@ -1502,11 +1490,11 @@
 ^Wan/Wan$
 ^pos/pos$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^nikmattok/nikmattok$
 ^,/,$
 ^ika/ika$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a190
@@ -1599,11 +1587,11 @@
 ^ompakawin/ompakawin$
 ^amo/amo$
 ^kixmatih/kixmatih$
-^yon/yon$
+^yon/yo>n$
 ^kowtet/kowtet$
 ^compadrito/compadrito$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^toni/toni$
 ^./.$
 ^Amo/Amo$
@@ -1658,7 +1646,7 @@
 ^tikmatekitih/tikmatekitih$
 ^,/,$
 ^porque/porque$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kitsetselowa/kitsetselowa$
 ^wan/wan$
@@ -1742,21 +1730,9 @@
 ^kita/kita$
 ^ok/ok$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a211
-# text = porque nijon,
-# text[orig] = <i>porque</i> nijó:n,
-# text[spa] = porque este,
-# labels = a211 fragment
 ^porque/porque$
 ^nijon/nijon$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a212
-# text = istak n' ichokilo wan pos se kita porque se imako mopepechowa.
-# text[orig] = ista:k n' icho:kilo wa:n pos se: kita <i>porque</i> se: ima:ko mopepechowa.
-# text[spa] = la savia es de color blanco y luego se da uno cuenta porque es pegajosa.
-# labels = a212 fragment
 ^istak/istak$
 ^n'/n'$
 ^ichokilo/ichokilo$
@@ -1777,14 +1753,14 @@
 # labels = a213 fragment
 ^Mopepechowa/Mopepechowa$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^sasaltik/sasaltik$
 ^,/,$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^chichiwalayot/chichiwalayot$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kiliah/kiliah$
 ^,/,$
 
@@ -1832,12 +1808,6 @@
 ^de/de$
 ^nen/nen$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a218
-# text = nen tepetomat, itsintan sah kisa.
-# text[orig] = ne:n tepe:tomat, itsi:ntan sah ki:sa.
-# text[spa] = frutos del tepe:tomat, la savia sale de donde se desprenden los frutos.
-# labels = a218 fragment
 ^nen/nen$
 ^tepetomat/tepetomat$
 ^,/,$
@@ -1853,7 +1823,7 @@
 # labels = a221 sentence
 ^Pos/Pos$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 ^nik.../nik...$
 ^,/,$
@@ -1950,7 +1920,7 @@
 # labels = a51 fragment
 ^ox/ox$
 ^tikixmattok/tikixmattok$
-^yon/yon$
+^yon/yo>n$
 ^kowtet/kowtet$
 ^kiliah/kiliah$
 ^tepetomat/tepetomat$
@@ -2110,10 +2080,10 @@
 ^./.$
 ^Kemah/Kemah$
 ^pos/pos$
-^yon/yon$
+^yon/yo>n$
 ^kow.../kow...$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kowtet/kowtet$
 ^no/no$
 ^nikixmattok/nikixmattok$
@@ -2139,7 +2109,7 @@
 ^melaktsitsin/melaktsitsin$
 ^kwaltsin/kwaltsin$
 ^mochiwa/mochiwa$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a148
@@ -2147,7 +2117,7 @@
 # text[orig] = yo:n kowit. Seki ki..., kikwih, tein kwelitah melaktsitsí:n,
 # text[spa] = los árboles pequeños. Algunas personas que les gusta usa..., usar los tallos rectos,
 # labels = a148 fragment
-^yon/yon$
+^yon/yo>n$
 ^kowit/kowit$
 ^./.$
 ^Seki/Seki$
@@ -2184,7 +2154,7 @@
 ^wan/wan$
 ^amo/amo$
 ^chikawak/chikawak$
-^yon/yon$
+^yon/yo>n$
 ^kowtsin/kowtsin$
 ^wan/wan$
 
@@ -2219,9 +2189,9 @@
 ^ompa/ompa$
 ^nochi/nochi$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kampa/kampa$
 ^chamakihtah/chamakihtah$
 ^katka/katka$
@@ -2236,7 +2206,7 @@
 ^,/,$
 ^yekmiak/yekmiak$
 ^mochiwa/mochiwa$
-^yon/yon$
+^yon/yo>n$
 ^tepetomat/tepetomat$
 ^wan/wan$
 
@@ -2374,7 +2344,7 @@
 ^no/no$
 ^kiekkwah/kiekkwah$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^kowtet/kowtet$
 ^wan/wan$
 ^nejon/nejon$
@@ -2423,7 +2393,7 @@
 # text[spa] = Y sus..., sus..., frutos que parecen jitomates se..., si uno come
 # labels = a162 fragment
 ^Wan/Wan$
-^yon/yon$
+^yon/yo>n$
 ^i.../i...$
 ^,/,$
 ^i.../i...$
@@ -2449,13 +2419,13 @@
 ^pane/pane$
 ^tenenepilxolew/tenenepilxolew$
 ^porin/porin$
-^yon/yon$
+^yon/yo>n$
 ^yek.../yek...$
 ^,/,$
 ^yekpohpotokyoh/yekpohpotokyoh$
 ^,/,$
 ^mohmoloxtik/mohmoloxtik$
-^yon/yon$
+^yon/yo>n$
 ^i.../i...$
 ^,/,$
 ^kemeh/kemeh$
@@ -2480,9 +2450,9 @@
 ^kipantetexoh/kipantetexoh$
 ^iwki/iwki$
 ^keniw/keniw$
-^yon/yon$
+^yon/yo>n$
 ^yetok/yetok$
-^yon/yon$
+^yon/yo>n$
 ^durazno/durazno$
 ^,/,$
 ^komamo/komamo$
@@ -2559,7 +2529,7 @@
 ^amo/amo$
 ^se/se$
 ^kichipaw/kichipaw$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^iwki/iwki$
 ^se/se$
@@ -2577,7 +2547,7 @@
 # text[orig] = yo:n we:lik nochi iwa:n icho:kilo ya, pero se: te:..., te:te:nkokoh n' [...], pané: <i>fieroh</i> se: kimati se: ite:noh ya.
 # text[spa] = sabe muy sabroso comerse con todo y savia, pero se..., después se siente un dolor en la lengua, se siente feo en la boca.
 # labels = a169 fragment
-^yon/yon$
+^yon/yo>n$
 ^welik/welik$
 ^nochi/nochi$
 ^iwan/iwan$
@@ -2608,14 +2578,14 @@
 ^Wan/Wan$
 ^neli/neli$
 ^yektekwi/yektekwi$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^yekchokiloh/yekchokiloh$
 ^kemeh/kemeh$
 ^amakowit/amakowit$
 ^no/no$
 ^iwki/iwki$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^yeksasaltik/yeksasaltik$
 ^ata/ata$
@@ -2629,10 +2599,10 @@
 ^Kemah/Kemah$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^nikimxattok/nikimxattok$
 ^compadrito/compadrito$
-^yon/yon$
+^yon/yo>n$
 ^tepetomat/tepetomat$
 ^,/,$
 ^mochiwa/mochiwa$
@@ -2746,7 +2716,7 @@
 ^,/,$
 ^neli/neli$
 ^tsopek/tsopek$
-^yon/yon$
+^yon/yo>n$
 ^kowtetsin/kowtetsin$
 ^,/,$
 ^tsopek/tsopek$
@@ -2835,7 +2805,7 @@
 # labels = a216 sentence
 ^Kanah/Kanah$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^amo/amo$
 ^./.$
 
@@ -2860,7 +2830,7 @@
 ^nikixmati/nikixmati$
 ^neh/neh$
 ^compadrito/compadrito$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a222:1
@@ -2871,7 +2841,7 @@
 ^No/No$
 ^iwki/iwki$
 ^nikixmattok/nikixmattok$
-^yon/yon$
+^yon/yo>n$
 ^kowtet/kowtet$
 ^,/,$
 ^neli/neli$
@@ -2920,7 +2890,7 @@
 ^yehwa/yehwa$
 ^sah/sah$
 ^compadrito/compadrito$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a225
