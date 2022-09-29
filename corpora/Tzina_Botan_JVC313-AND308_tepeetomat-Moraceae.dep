@@ -933,9 +933,9 @@
 "<Cuando>"
 	"cuando" cnjsub @mark
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<kitapana>"
-	"tapana" v tv pres s_sg3 i_sg3
+	"tapana" v tv pres s_sg3 i_sg3 @advcl
 "<seki>"
 	"seki" det
 	"seki" prn
@@ -967,23 +967,23 @@
 # text[spa] = Y algunos trozos son rectos, los que están rectos, los trozos rectos se pueden partir con facilidad.
 # labels = a96 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->3
 "<seki>"
-	"seki" prn @nsubj
+	"seki" prn @nsubj #2->3
 "<kwaltsin>"
-	"kuali" adj hon s_sg3 @root
+	"kuali" adj hon s_sg3 @root #3->0
 "<nen>"
-	"nen" prn @nsubj
+	"nen" prn @nsubj #4->
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->6
 "<melawak>"
-	"melahuak" adj s_sg3 @acl:relcl
+	"melahuak" adj s_sg3 @acl:relcl #6->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->
 "<de>"
-	"de" pr @
+	"de" pr @dep #8->
 "<n'>"
-	"in" det @det
+	"in" det @det #9->
 "<melawak>"
 	"melahuak" adj
 	"melahuak" adj s_sg3
@@ -991,11 +991,11 @@
 	"kuali" adj hon
 	"kuali" adj hon s_sg3
 "<se>"
-	"se" num @nsubj
+	"se" num @nsubj #12->
 "<kitapana>"
-	"tapana" v tv pres s_sg3 i_sg3
+	"tapana" v tv pres s_sg3 i_sg3 @dep #13->
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a97
 # text = Kemasa siquiera nawi se 'kixtia.
@@ -1155,69 +1155,57 @@
 	"." sent @punct
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a105
-# text = De chichilewi a, seki panxiini wan se kiteki a wan
-# text[orig] = De chi:chi:le:wi a, seki panxi:i:ni wa:n se: kiteki a wa:n
-# text[spa] = Cuando ya están rojos algunos se caen al suelo o se cortan y
-# labels = a105 fragment
+# text = De chichilewi a, seki panxiini wan se kiteki a wan se kimahsewa ya no porque yon no, no tsopek.
+# text[orig] = De chi:chi:le:wi a, seki panxi:i:ni wa:n se: kiteki a wa:n se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
+# text[spa] = Cuando ya están rojos algunos se caen al suelo o se cortan y se comen ya, los frutos también, también son dulces.
+# text[a105] = De chi:chi:le:wi a, seki panxi:i:ni wa:n se: kiteki a wa:n
+# text[a106] = se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
+# labels = a105 a106 fragment
 "<De>"
-	"de" pr
+	"de" pr @mark #1->2
 "<chichilewi>"
-	"chichilehui" v iv pres s_sg3
+	"chichilehui" v iv pres s_sg3 @advcl #2->6
 "<a>"
-	"a" ij @discourse
+	"a" ij @discourse #3->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->2
 "<seki>"
-	"seki" det
-	"seki" prn
+	"seki" prn @nsubj #5->6
 "<panxiini>"
-	"xiini" v iv pres s_sg3 pan
+	"xiini" v iv pres s_sg3 pan @root #6->0
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->9
 "<se>"
-	"se" num
+	"se" num @nsubj #8->9
 "<kiteki>"
-	"teki" v tv pres s_sg3 o_sg3
+	"teki" v tv pres s_sg3 o_sg3 @conj #9->6
 "<a>"
-	"a" ij @discourse
+	"a" ij @discourse #10->9
 "<wan>"
-	"huan" cnjcoo @cc
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a106
-# text = se kimahsewa ya no porque yon no, no tsopek.
-# text[orig] = se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
-# text[spa] = se comen ya, los frutos también, también son dulces.
-# labels = a106 fragment
+	"huan" cnjcoo @cc #11->13
 "<se>"
-	"se" num
+	"se" num @nsubj #12->13
 "<kimahsewa>"
-	"majsehua" v tv pres s_sg3 o_sg3
+	"majsehua" v tv pres s_sg3 o_sg3 @conj #13->6
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod #14->13
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #15->13
 "<porque>"
-	"porque" cnjsub @mark
+	"porque" cnjsub @mark #16->22
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @cop #17->22
+		"in" det @nsubj #18->22
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @reparandum #19->21
 "<,>"
-	"," cm @punct
+	"," cm @punct #20->19
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #21->22
 "<tsopek>"
-	"tsopek" adj
-	"tsopek" adj s_sg3
+	"tsopek" adj s_sg3 @advcl #22->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->6
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a108
 # text = Tsopek sayoh que nijon istak nen ichokilo, n' ichokilo.

@@ -1159,6 +1159,38 @@
 5	'kixtia	kixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a105
+# text = De chichilewi a, seki panxiini wan se kiteki a wan se kimahsewa ya no porque yon no, no tsopek.
+# text[orig] = De chi:chi:le:wi a, seki panxi:i:ni wa:n se: kiteki a wa:n se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
+# text[spa] = Cuando ya están rojos algunos se caen al suelo o se cortan y se comen ya, los frutos también, también son dulces.
+# text[a105] = De chi:chi:le:wi a, seki panxi:i:ni wa:n se: kiteki a wa:n
+# text[a106] = se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
+# labels = a105 a106 fragment
+1	De	de	ADP	_	_	2	mark	_	_
+2	chichilewi	chichilehui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	advcl	_	_
+3	a	a	INTJ	_	_	2	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	seki	seki	PRON	_	_	6	nsubj	_	_
+6	panxiini	xiini	VERB	_	Incorporated=Pan|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+7	wan	huan	CCONJ	_	_	9	cc	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kiteki	teki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	conj	_	_
+10	a	a	INTJ	_	_	9	discourse	_	_
+11	wan	huan	CCONJ	_	_	13	cc	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	kimahsewa	majsehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	conj	_	_
+14	ya	ya	ADV	_	_	13	advmod	_	_
+15	no	no	ADV	_	_	13	advmod	_	_
+16	porque	porque	SCONJ	_	_	22	mark	_	_
+17-18	yon	_	_	_	_	_	_	_	_
+17	yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	22	cop	_	_
+18		in	DET	_	_	22	nsubj	_	_
+19	no	no	ADV	_	_	21	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	no	no	ADV	_	_	22	advmod	_	_
+22	tsopek	tsopek	ADJ	_	Number[subj]=Sing|Person[subj]=3	13	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a108
 # text = Tsopek sayoh que nijon istak nen ichokilo, n' ichokilo.
 # text[orig] = Tsope:k sayoh <i>que</i> nijó:n ista:k ne:n icho:kilo, n' icho:kilo.

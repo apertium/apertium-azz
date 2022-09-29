@@ -676,12 +676,6 @@
 ^kiteki/kiteki$
 ^a/a$
 ^wan/wan$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a106
-# text = se kimahsewa ya no porque yon no, no tsopek.
-# text[orig] = se: kimahse:wa ya no: <i>porque</i> yo:n no:, no: tsope:k.
-# text[spa] = se comen ya, los frutos también, también son dulces.
-# labels = a106 fragment
 ^se/se$
 ^kimahsewa/kimahsewa$
 ^ya/ya$
