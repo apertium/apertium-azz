@@ -1212,6 +1212,68 @@
 10	neki	neki	AUX	_	_	9	aux	_	_
 11	.	.	PUNCT	_	_	6	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:985
+# text = Se kitoka neuín kuoujtaj, moajokui saj chiktejtsitsin kimoyauaj iteyotsin.
+# text[spa] = Se siembra, pero allá por el monte se da solo, porque los pajaros riegan sus semillas.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	neuín	nehuin	ADV	_	_	2	advmod	_	_
+4	kuoujtaj	kuoutaj	NOUN	_	Case=Abs	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	moajokui	ajokui	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+7	saj	saj	ADV	_	_	6	advmod	_	_
+8	chiktejtsitsin	chiktej	NOUN	_	Number=Plur|Polite=Form	9	nsubj	_	_
+9	kimoyauaj	moyahua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+10	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:986
+# text = Se kikua in iteyo.
+# text[spa] = Su fruto se come.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:990
+# text = In kuouit kualtia para kalkuouit, para kaleual oso tankayot.
+# text[spa] = El árbol también sirve para la casa, para alfarda y para cargador.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	kuouit	kohuit	NOUN	_	Case=Abs	3	nsubj	_	_
+3	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	kalkuouit	kalkuouit	NOUN	_	Case=Abs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	kaleual	kalehual	NOUN	_	Case=Abs	5	conj	_	_
+9	oso	oso	CCONJ	_	_	10	cc	_	_
+10	tankayot	tankayot	NOUN	_	Case=Abs	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1310
+# text = Kitokaytiaj limonkuouit por qué kualtia para se tayis kemej agua fresca uan taki tsikitsitsin.
+# text[spa] = Así lo nombran porque sirve para tomarse como agua fresca y da frutos pequeños.
+# labels = sentence
+1	Kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2	limonkuouit	limonkuouit	NOUN	_	Case=Abs	1	obj	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	qué	qué	PRON	_	_	3	fixed	_	_
+5	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	advcl	_	_
+6	para	para	SCONJ	_	_	8	mark	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	tayis	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	5	advcl	_	_
+9	kemej	kemej	ADP	_	_	10	case	_	_
+10	agua	agua	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+11	fresca	fresco	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	uan	huan	CCONJ	_	_	13	cc	_	_
+13	taki	taki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	conj	_	_
+14	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Polite=Form	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.

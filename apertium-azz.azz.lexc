@@ -2382,6 +2382,12 @@ masehua:masehua                                       V-SO-PROG ; ! ""
 masehua:masehua                                       V-SO-PRET ; ! ""
 masehua:masehua                                       V-SO-FUTR ; ! ""
 
+ajokui:ajokui                                         V-SO-PRES ; ! ""
+ajokui:ajokui                                         V-SO-IMPF ; ! ""
+ajokui:ajokui                                         V-SO-PROG ; ! ""
+ajokui:ajokui                                         V-SO-PRET ; ! ""
+ajokui:ajokui                                         V-SO-FUTR ; ! ""
+
 
 
 pixohua:pixohua                                       V-SO-PRES ; ! ""
@@ -6830,7 +6836,7 @@ majya:majya                                         ADV ; ! "como"  ! FIXME: Com
 
 nion:nion                                           ADV ; ! "ni"  ! FIXME: Comprobar categoría
 
-nehuin:nehuin                                       ADV ; ! "por ahí"
+nehuin:nehuín                                       ADV ; ! "por ahí"
 nehuin:nehuini                                      ADV ; ! "por ahí"
 ampohuin:ampohuin                                   ADV ; ! "por ahí"
 
