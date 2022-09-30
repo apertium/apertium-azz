@@ -2389,6 +2389,19 @@ ichkua:ichkua                                         V-SO-PRET ; ! ""
 ichkua:ichkua                                         V-SO-FUTR ; ! ""
 
 
+tamehui:tamehui                                       V-SO-PRES ; ! ""
+tamehui:tamehui                                       V-SO-IMPF ; ! ""
+tamehui:tamehui                                       V-SO-PROG ; ! ""
+tamehui:tamehui                                       V-SO-PRET ; ! ""
+tamehui:tamehui                                       V-SO-FUTR ; ! ""
+
+ekana:%{y%}ekana                                      V-SO-PRES ; ! ""
+ekana:%{y%}ekana                                      V-SO-IMPF ; ! ""
+ekana:%{y%}ekana                                      V-SO-PROG ; ! ""
+ekana:%{y%}ekana                                      V-SO-PRET ; ! ""
+ekana:%{y%}ekana                                      V-SO-FUTR ; ! ""
+
+
 ajokui:ajokui                                         V-SO-PRES ; ! ""
 ajokui:ajokui                                         V-SO-IMPF ; ! ""
 ajokui:ajokui                                         V-SO-PROG ; ! ""
@@ -4808,6 +4821,7 @@ yehuan:ye%{j%}                                     PRON-PL3 ;
 
 nochi:nochi                                        PRON ;
 tein:te%{y%}in                                     PRON ;
+tein:teyi                                          PRON ;
 toni:toni                                          PRON ;
 nen:nen                                            PRON ;
 seki:seki%{n%}                                     PRON-SEKI ; ! "algunos"
@@ -6749,6 +6763,7 @@ senkaj:senkaj                                       ADV ; ! ""
 ayamo:ayamo                                         ADV ; ! ""
 
 ijkon:i%{j%}kon                                     ADV ; ! "así"
+ijkon:i%{j%}kón                                     ADV ; ! "así"
 ijkokon:i%{j%}kokon                                 ADV ; ! "así"
 ijkon:jkon                                          ADV ; ! "así"
 ijkoni:i%{j%}koni                                   ADV ; ! "así"
