@@ -2382,6 +2382,13 @@ masehua:masehua                                       V-SO-PROG ; ! ""
 masehua:masehua                                       V-SO-PRET ; ! ""
 masehua:masehua                                       V-SO-FUTR ; ! ""
 
+ichkua:ichkua                                         V-SO-PRES ; ! ""
+ichkua:ichkua                                         V-SO-IMPF ; ! ""
+ichkua:ichkua                                         V-SO-PROG ; ! ""
+ichkua:ichkua                                         V-SO-PRET ; ! ""
+ichkua:ichkua                                         V-SO-FUTR ; ! ""
+
+
 ajokui:ajokui                                         V-SO-PRES ; ! ""
 ajokui:ajokui                                         V-SO-IMPF ; ! ""
 ajokui:ajokui                                         V-SO-PROG ; ! ""
@@ -2397,6 +2404,12 @@ pixohua:pixo                                          V-SO-PRET ; ! ""
 pixohua:pixo                                          V-SO-FUTR ; ! ""
 
 
+
+kuidarohua:kuidarohua                                 V-SO-PRES ; ! ""
+kuidarohua:kuidarohua                                 V-SO-IMPF ; ! ""
+kuidarohua:kuidaro                                    V-SO-PROG ; ! ""
+kuidarohua:kuidaro                                    V-SO-PRET ; ! ""
+kuidarohua:kuidaro                                    V-SO-FUTR ; ! ""
 
 
 cuidarohua:cuidarohua                                 V-SO-PRES ; ! ""
@@ -5105,6 +5118,7 @@ huitstotomat:huitstotoma                            N-TL ; ! ""
 tepetomat:tepe%>toma                                N-TL ; ! ""
 miltomat:mil%>toma                                  N-TL ; ! ""
 xalkohuit:xalko                                     N-HUITL ; ! ""
+xokokohuit:xokokuo                                  N-HUITL ; ! ""
 tsotsolpajxihui:tsotsolpaj%>xihui                   N-TL ; ! ""
 kokot:koko                                          N-TL ; ! "grano"
 ehuat:ehua                                          N-TL ; ! "corteza"
@@ -5236,7 +5250,8 @@ itskuimpajuits:itskuinpajuits                       N-Ø ; ! ""
 itskuimpajuits:itskuimpajuits                       N-Ø ; ! ""
 may:may                                             N-Ø ; ! "hoja"
 majma:majma                                         N-Ø ; ! "hoja"
-maxiuyo:maxiuyo                                     N-Ø ; ! "hoja"
+maxiuyo:maxiu%{j%}yo                                N-Ø ; ! "hoja"
+kuouyo:kuou%{j%}yo                                  N-Ø ; ! ""
 xinach:xinach                                       N-Ø ; ! "semilla"
 taxkal:taxkal                                       N-Ø ; ! "tortilla"
 etaxkal:e%>taxkal                                   N-Ø ; ! "tlacoyo"
@@ -6674,6 +6689,7 @@ kiniuki:kiniuki                                     ADV-ITG ; ! "cómo es"
 keniukitik:keniukitik                               ADV-ITG ; ! "cómo es"
 
 keyej:keyej                                         ADV-ITG ; ! "por qué"
+keyej:keyéj                                         ADV-ITG ; ! "por qué"
 
 kani:kani                                           ADV-ITG ; ! "dónde"
 kanachpa:kanachpa                                   ADV-ITG ; ! "cuántas veces"
@@ -7020,5 +7036,7 @@ LEXICON Punctuación
 %"%<quot%>:%" # ;
 %”%<quot%>:%” # ;
 %“%<quot%>:%“ # ;
+%‘%<quot%>:%‘ # ;
+%’%<quot%>:%’ # ;
 
 
