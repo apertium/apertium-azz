@@ -2402,6 +2402,13 @@ ekana:%{y%}ekana                                      V-SO-PRET ; ! ""
 ekana:%{y%}ekana                                      V-SO-FUTR ; ! ""
 
 
+ixpaka:ix%>paka                                       V-SO-PRES ; ! ""
+ixpaka:ix%>paka                                       V-SO-IMPF ; ! ""
+ixpaka:ix%>paka                                       V-SO-PROG ; ! ""
+ixpaka:ix%>paka                                       V-SO-PRET ; ! ""
+ixpaka:ix%>paka                                       V-SO-FUTR ; ! ""
+
+
 ajokui:ajokui                                         V-SO-PRES ; ! ""
 ajokui:ajokui                                         V-SO-IMPF ; ! ""
 ajokui:ajokui                                         V-SO-PROG ; ! ""
