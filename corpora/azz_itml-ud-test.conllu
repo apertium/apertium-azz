@@ -2247,6 +2247,86 @@
 9	mapisiltik	mapisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	6	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1517
+# text = Mochiua itech auakuapalak, taltik in nanakat.
+# text[spa] = Se da en los troncos podridos de encino. Es de color café.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	auakuapalak	ahuakuapalak	NOUN	_	Case=Abs	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	taltik	taltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	parataxis	_	_
+6	in	in	DET	_	_	7	det	_	_
+7	nanakat	nanakat	NOUN	_	Case=Abs	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1521
+# text = CHICHILAYOJ
+# text[spa] = CALABAZA
+# labels =
+1	CHICHILAYOJ	chichilayoj	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1522
+# text = In soyokilit kuamekat.
+# text[spa] = El soyoquelite es bejuco (kuamekat).
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	soyokilit	soyokilit	NOUN	_	Case=Abs	3	nsubj	_	_
+3	kuamekat	kuamekat	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1527
+# text = solo kininmaka in pitsotsitsin inixiujyo.
+# text[spa] = solo les dan sus hojas a los puerquitos.
+# labels = fragment
+1	solo	sólo	ADV	_	_	2	advmod	_	_
+2	kininmaka	maka	VERB	_	Number[iobj]=Plur|Number[obj]=Plur|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	pitsotsitsin	pitsot	NOUN	_	Number=Plur|Polite=Form	2	iobj	_	_
+5-6	inixiujyo	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	DET	_	_	6	det	_	_
+6	ixiujyo	xiuyo	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	2	obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1531
+# text = Monamaka ixochiyo, ikilo uan itakilo tein selik uan tein chikauak ya.
+# text[spa] = Se vende la flor, y el quelite; también se vende el fruto tierno y el que ya está recio.
+# labels = sentence
+1	Monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ixochiyo	xochiyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	ikilo	kilo	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
+5	uan	huan	CCONJ	_	_	6	cc	_	_
+6	itakilo	takilot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	conj	_	_
+7	tein	tein	PRON	_	_	8	nsubj	_	_
+8	selik	selik	ADJ	_	Number[subj]=Sing|Person[subj]=3	6	acl:relcl	_	_
+9	uan	huan	CCONJ	_	_	11	cc	_	_
+10	tein	tein	PRON	_	_	11	nsubj	_	_
+11	chikauak	chikahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	8	conj	_	_
+12	ya	ya	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1535
+# text = In et totonik tak.
+# text[spa] = Este frijol es caliente.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	et	et	NOUN	_	Case=Abs	3	nsubj	_	_
+3	totonik	totonik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	tak	tak	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1540
+# text = Amo mkmati keyej iujki kiluiaj.
+# text[spa] = No sé por qué lo nombran así.
+# labels = sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	mkmati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	keyej	keyej	ADV	_	PronType=Int	5	advmod	_	_
+4	iujki	iuki	ADV	_	_	5	advmod	_	_
+5	kiluiaj	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
