@@ -1945,11 +1945,11 @@ tekilia:tekili                                      V-SO-PRET ;
 tekilia:tekili                                      V-SO-FUTR ;
 
 ! ""
-huelilia:huelilia                                   V-SO-PRES ;
-huelilia:huelilia                                   V-SO-IMPF ;
-huelilia:huelilia                                   V-SO-PROG ;
-huelilia:huelili                                    V-SO-PRET ;
-huelilia:huelili                                    V-SO-FUTR ;
+hueliltia:hueliltia                                 V-SO-PRES ;
+hueliltia:hueliltia                                 V-SO-IMPF ;
+hueliltia:hueliltia                                 V-SO-PROG ;
+hueliltia:huelilti                                  V-SO-PRET ;
+hueliltia:huelilti                                  V-SO-FUTR ;
 
 ! ""
 tsakuilia:tsakuilia                                 V-SO-PRES ;
@@ -2006,6 +2006,14 @@ poyelia:poyelia                                     V-SO-IMPF ;
 poyelia:poyelia                                     V-SO-PROG ;
 poyelia:poyeli                                      V-SO-PRET ;
 poyelia:poyeli                                      V-SO-FUTR ;
+
+! ""
+taktsontalia:taktsontalia                           V-SO-PRES ;
+taktsontalia:taktsontalia                           V-SO-IMPF ;
+taktsontalia:taktsontalia                           V-SO-PROG ;
+taktsontalia:taktsontali                            V-SO-PRET ;
+taktsontalia:taktsontali                            V-SO-FUTR ;
+
 
 ! ""
 ajuialia:ajuialia                                   V-SO-PRES ;
@@ -5034,6 +5042,7 @@ tiopan:tiopan                                       N-Ø ; ! "iglesia"
 piolamat:pio%>lama                                  N-TL ; ! "gallina"
 temaskal:temaskal                                   N-Ø ; ! "temascal"
 chechelot:chechelo                                  N-TL ; ! "ardilla"
+exot:exo                                            N-TL ; ! "ejote"
 ejekat:ejeka                                        N-TL ; ! "viento"
 huehuet:huehue                                      N-TL ; ! "viejo"
 takilot:takilo                                      N-TL ; ! "fruto"
