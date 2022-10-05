@@ -2224,6 +2224,29 @@
 4	uelik	hueli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	advcl	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1512
+# text = UAUJKILIT oso UAUJTI
+# text[spa] = QUILTONILE o AMARANTO
+# labels =
+1	UAUJKILIT	huaujkilit	NOUN	_	Case=Abs	0	root	_	_
+2	oso	oso	CCONJ	_	_	3	cc	_	_
+3	UAUJTI	huaujti	_	_	_	1	conj	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1516
+# text = Onkak ome taman: tein mapapatauak uan tein mapisiltik.
+# text[spa] = Hay dos clases: la de hojas anchas y la de hojas delgadas.
+# labels = sentence
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+2	ome	ome	NUM	_	_	3	nummod	_	_
+3	taman	taman	NOUN	_	Case=Abs	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	tein	tein	PRON	_	_	6	nsubj	_	_
+6	mapapatauak	mapajpatahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	1	parataxis	_	_
+7	uan	huan	CCONJ	_	_	9	cc	_	_
+8	tein	tein	PRON	_	_	9	nsubj	_	_
+9	mapisiltik	mapisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
