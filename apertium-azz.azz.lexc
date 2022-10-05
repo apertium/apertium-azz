@@ -2409,12 +2409,26 @@ ixpaka:ix%>paka                                       V-SO-PRET ; ! ""
 ixpaka:ix%>paka                                       V-SO-FUTR ; ! ""
 
 
+ojsa:ojsa                                             V-SO-PRES ; ! ""
+ojsa:ojsa                                             V-SO-IMPF ; ! ""
+ojsa:ojsa                                             V-SO-PROG ; ! ""
+ojsa:ojsa                                             V-SO-PRET ; ! ""
+ojsa:ojsa                                             V-SO-FUTR ; ! ""
+
+
 ajokui:ajokui                                         V-SO-PRES ; ! ""
 ajokui:ajokui                                         V-SO-IMPF ; ! ""
 ajokui:ajokui                                         V-SO-PROG ; ! ""
 ajokui:ajokui                                         V-SO-PRET ; ! ""
 ajokui:ajokui                                         V-SO-FUTR ; ! ""
 
+
+
+kekelohua:kekelohua                                   V-SO-PRES ; ! ""
+kekelohua:kekelohua                                   V-SO-IMPF ; ! ""
+kekelohua:kekelo                                      V-SO-PROG ; ! ""
+kekelohua:kekelo                                      V-SO-PRET ; ! ""
+kekelohua:kekelo                                      V-SO-FUTR ; ! ""
 
 
 pixohua:pixohua                                       V-SO-PRES ; ! ""
