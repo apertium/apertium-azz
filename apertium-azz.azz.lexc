@@ -753,6 +753,12 @@ LEXICON NP-TOP-TLAN
 %<np%>%<top%>%+tampa%<n%>%<rel%>:m%>pa             # ;
 %<np%>%<top%>%+:n                                  Locativos ; 
 
+LEXICON NP-TOP-KAN
+
+%<np%>%<top%>:n                                    # ; 
+%<np%>%<top%>%+kampa%<n%>%<rel%>:m%>pa             # ;
+%<np%>%<top%>%+:n                                  Locativos ; 
+
 LEXICON NP-TOP-PAN
 
 %<np%>%<top%>:n                                    # ; 
@@ -6481,6 +6487,7 @@ Ocotlan:Ocotla                                      NP-TOP-TLAN ;
 Omitlan:Omitla                                      NP-TOP-TLAN ;
 Huahuaxtlan:Huahuaxtla                              NP-TOP-TLAN ;
 
+Kalikan:Kalika                                     NP-TOP-KAN ; 
 Ayotzinapan:Ayotzinapa                              NP-TOP-PAN ; 
 Ostokapan:Ostokapa                                  NP-TOP-PAN ; 
 !Pahuapan:Pahuapa                                    NP-TOP-PAN ; 
