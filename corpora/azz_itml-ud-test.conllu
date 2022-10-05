@@ -2191,6 +2191,39 @@
 3	YERBAMORA	yerbamora	_	_	_	1	appos	_	SpaceAfter=No
 4	)	)	_	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1506
+# text = Kampa eski mochiua:
+# text[spa] = Se da donde sea:
+# labels = sentence
+1	Kampa	kampa	ADV	_	PronType=Rel	3	advcl	_	_
+2	eski	etok	AUX	_	Number[subj]=Sing|Person[subj]=3|Tense=Fut	1	cop	_	_
+3	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1511:1
+# text = Kinamakaj Kuesalan uan nikan, xolalpan.
+# text[spa] = Se vende en Cuetzalan y aquí en el pueblo.
+# labels = sentence
+1	Kinamakaj	namaka	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	_
+2	Kuesalan	Cuetzalan	PROPN	_	_	1	obl	_	_
+3	uan	huan	CCONJ	_	_	4	cc	_	_
+4	nikan	nikan	ADV	_	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6-7	xolalpan	_	_	_	_	_	_	_	SpaceAfter=No
+6	xolal	xolal	NOUN	_	_	7	nmod	_	_
+7	pan	pan	NOUN	_	Incorporated=Pan|NounType=Relat	4	appos	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1511:2
+# text = Kikouaj, ta uelik.
+# text[spa] = Lo compran porque es sabroso.
+# labels = sentence
+1	Kikouaj	kohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	ta	ta	ADV	_	_	4	mark	_	_
+4	uelik	hueli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	advcl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.

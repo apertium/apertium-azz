@@ -2436,6 +2436,13 @@ ojsa:ojsa                                             V-SO-PRET ; ! ""
 ojsa:ojsa                                             V-SO-FUTR ; ! ""
 
 
+mapatska:mapatska                                     V-SO-PRES ; ! ""
+mapatska:mapatska                                     V-SO-IMPF ; ! ""
+mapatska:mapatska                                     V-SO-PROG ; ! ""
+mapatska:mapatska                                     V-SO-PRET ; ! ""
+mapatska:mapatska                                     V-SO-FUTR ; ! ""
+
+
 ajokui:ajokui                                         V-SO-PRES ; ! ""
 ajokui:ajokui                                         V-SO-IMPF ; ! ""
 ajokui:ajokui                                         V-SO-PROG ; ! ""
