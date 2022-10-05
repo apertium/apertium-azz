@@ -765,6 +765,12 @@ LEXICON NP-TOP-PAN
 %<np%>%<top%>%+pampa%<n%>%<rel%>:m%>pa             # ;
 %<np%>%<top%>%+:n                                  Locativos ; 
 
+LEXICON NP-TOP-EK
+
+%<np%>%<top%>:k                                   # ; 
+%<np%>%<top%>%+kopa%<n%>%<rel%>:ko%>pa           # ;
+%<np%>%<top%>%+:k                                 Locativos ; 
+
 LEXICON NP-TOP-KO
 
 %<np%>%<top%>:ko                                   # ; 
@@ -4997,7 +5003,9 @@ ixpampa:%{i%}xpampa                                N-REL ; ! ""
 LEXICON Locativos 
 
 tsintan:tsintan                                    N-LOC ;
+tsintan:tsinta                                     N-LOC ;
 kespan:kespan                                      N-LOC ;
+kespan:kespaj                                      N-LOC ;
 tampa:tampa                                        N-LOC ;
 ixko:ixko                                          N-LOC ;
 ijtik:i%{j%}tik                                        N-LOC ;
@@ -5082,6 +5090,7 @@ kuahuitl:kua                                        N-HUITL ; ! "planta"
 kohuit:ko                                           N-HUITL ; ! "árbol, leña"
 xopilkohuit:xopil%>ko                               N-HUITL ; ! ""
 kalkohuit:kal%>ko                                   N-HUITL ; ! "madera de casa"
+kalkuohuit:kal%>kuo                                 N-HUITL ; ! "madera de casa"
 kohuit:kuo                                          N-HUITL ; ! "árbol, leña" ! Use/?
 kouyo:kouyo                                         N-Ø ; ! ""
 xihuit:xi                                           N-HUITL ; ! "hierba"
@@ -6459,14 +6468,14 @@ Xocoyolo:Xocoyolo                                   NP-TOP ;
 Tahchikteko:Tahchikte                               NP-TOP-KO ;
 Matixco:Matixco                                     NP-TOP ;
 
-Xaltepek:Xaltepek                                   NP-TOP ;
+Xaltepek:Xaltepe                                    NP-TOP-EK ;
 Xaltepec:Xaltepec                                   NP-TOP ;
 Tecoltepec:Tecoltepec                               NP-TOP ;
-Siltepek:Siltepek                                   NP-TOP ;
-Tekoltepek:Tekoltepek                               NP-TOP ;
+Siltepek:Siltepe                                    NP-TOP-EK ;
+Tekoltepek:Tekoltepe                                NP-TOP-EK ;
 
-Tekuantepek:Tekuantepek                             NP-TOP ;
-Tekoltepek:Tekoltepek                               NP-TOP ;
+Tekuantepek:Tekuantepe                              NP-TOP-EK ;
+Tekoltepek:Tekoltepe                                NP-TOP-EK ;
 Masaohuataj:Masaohuataj                             NP-TOP ;
 Koutahpehual:Koutahpehual                           NP-TOP ;
 Apipias:Apipias                                     NP-TOP ;
