@@ -1132,6 +1132,23 @@
 4	xochiyojtok	xochiyohua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:19
+# text = Tein istak xiktijtiltik uan exot tsikitsitsin uan istaket, yej ijistak.
+# text[spa] = El que es blanco tiene su ombligo negro y el ejote es chiquito y el frijol es blanco.
+# labels = sentence
+1	Tein	tein	PRON	_	_	3	nsubj	_	_
+2	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	acl:relcl	_	_
+3	xiktijtiltik	xiktijtiltik	_	_	_	0	root	_	_
+4	uan	huan	CCONJ	_	_	6	cc	_	_
+5	exot	exot	_	_	_	6	nsubj	_	_
+6	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	3	conj	_	_
+7	uan	huan	CCONJ	_	_	11	cc	_	_
+8	istaket	istaket	NOUN	_	Case=Abs	11	dislocated	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	yej	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	11	nsubj	_	_
+11	ijistak	ijistak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:20
 # text = Mochiua kampa kitokaj.
 # text[spa] = Se da donde lo siembran.
