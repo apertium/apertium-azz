@@ -2436,6 +2436,13 @@ ojsa:ojsa                                             V-SO-PRET ; ! ""
 ojsa:ojsa                                             V-SO-FUTR ; ! ""
 
 
+tsoyonia:tsoyonia                                     V-SO-PRES ; ! ""
+tsoyonia:tsoyonia                                     V-SO-IMPF ; ! ""
+tsoyonia:tsoyoni                                      V-SO-PROG ; ! ""
+tsoyonia:tsoyoni                                      V-SO-PRET ; ! ""
+tsoyonia:tsoyoni                                      V-SO-FUTR ; ! ""
+
+
 mapatska:mapatska                                     V-SO-PRES ; ! ""
 mapatska:mapatska                                     V-SO-IMPF ; ! ""
 mapatska:mapatska                                     V-SO-PROG ; ! ""
@@ -5059,6 +5066,7 @@ temaskal:temaskal                                   N-Ø ; ! "temascal"
 chechelot:chechelo                                  N-TL ; ! "ardilla"
 exot:exo                                            N-TL ; ! "ejote"
 ejekat:ejeka                                        N-TL ; ! "viento"
+ichkat:ichka                                        N-TL ; ! "algodón"
 huehuet:huehue                                      N-TL ; ! "viejo"
 takilot:takilo                                      N-TL ; ! "fruto"
 itskuinti:itskuin                                   N-TLI ; ! "perro"
@@ -5574,6 +5582,7 @@ ikniu:ikniu                                         N-Ø ; ! "hermano"
 ijxika:ijxika                                       N-Ø ; ! "gotear"
 teuti:teu                                           N-TLI ; ! "impureza"
 tenakal:tenakal                                     N-Ø ; ! "tucán"
+majtsakal:majtsakal                                 N-Ø ; ! ""
 takokol:takokol                                     N-Ø ; ! "herido"
 tajmolo:tajmolo                                     N-Ø ; ! "agitador"
 taamanal:taamanal                                   N-Ø ; ! "hervido"
@@ -6454,6 +6463,7 @@ Zotolo:Zotolo                                       NP-TOP ;
 San:San                                             NP-TOP ;
 Santa:Santa                                         NP-TOP ;
 Zacapoaxtla:Zacapoaxtla                             NP-TOP ;
+Sakapoastan:Sakapoastan                             NP-TOP ;
 Ometepetl:Ometepetl                                 NP-TOP ;
 Tetela:Tetela                                       NP-TOP ;
 Cuetzalan:Cuetzalan                                 NP-TOP ;
@@ -6942,6 +6952,7 @@ achi:achi                                           ADV ; ! "un poco"
 
 ata:ata                                             ADV ; ! "pues"
 pane:pane                                           ADV ; ! "pues"
+pane:pané                                           ADV ; ! "pues"
 
 tata:tata                                           ADV ; ! "muy bien"
 
