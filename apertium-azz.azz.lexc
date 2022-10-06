@@ -5904,6 +5904,7 @@ caballo:caballo                                     N-SPA-PESO ; ! ""
 
 trabajo:trabajo                                     N-SPA-PESO ; ! ""
 metro:metro                                         N-SPA-PESO ; ! ""
+centímetro:centímetro                               N-SPA-PESO ; ! ""
 nanómetro:nanómetro                                 N-SPA-PESO ; ! ""
 hidrógeno:hidrógeno                                 N-SPA-PESO ; ! ""
 observatorio:observatorio                           N-SPA-PESO ; ! ""
