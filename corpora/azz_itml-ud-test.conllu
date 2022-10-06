@@ -2815,6 +2815,46 @@
 5	kuoujtaj	kuoutaj	NOUN	_	Case=Abs	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1627
+# text = Nikauín amo semi kitokaj, semi kitokaj kuesaltekamej.
+# text[spa] = Por aquí no lo siembran mucho, lo cultivan más los cuetzaltecos.
+# labels = sentence
+1	Nikauín	nikahuin	ADV	_	_	4	advmod	_	_
+2	amo	amo	ADV	_	_	4	advmod	_	_
+3	semi	semi	ADV	_	_	4	advmod	_	_
+4	kitokaj	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	semi	semi	ADV	_	_	7	advmod	_	_
+7	kitokaj	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	parataxis	_	_
+8	kuesaltekamej	kuesalteka	NOUN	_	Number=Plur	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1628
+# text = Iteyo no kualtia para pajti, kuali para estsompil, kitejtekij iteyo uan kimanaj kemej talkamoj uan tayij in atsin.
+# text[spa] = La semilla sirve para remedio, es buena para la disentería; la cortan en pedacitos y la hierven como si fueran papas y toman el agua.
+# labels = sentence
+1	Iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+2	no	no	ADV	_	_	3	advmod	_	_
+3	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	pajti	pajti	NOUN	_	Case=Abs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	kuali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	parataxis	_	_
+8	para	para	ADP	_	_	9	case	_	_
+9	estsompil	estsompil	NOUN	_	Case=Abs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	kitejtekij	tejteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+12	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	11	obj	_	_
+13	uan	huan	CCONJ	_	_	14	cc	_	_
+14	kimanaj	mana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	11	conj	_	_
+15	kemej	kemej	ADP	_	_	16	case	_	_
+16	talkamoj	talkamoj	NOUN	_	Case=Abs	14	obl	_	_
+17	uan	huan	CCONJ	_	_	18	cc	_	_
+18	tayij	tai	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	11	conj	_	_
+19	in	in	DET	_	_	20	det	_	_
+20	atsin	at	NOUN	_	Polite=Form	18	dep	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
