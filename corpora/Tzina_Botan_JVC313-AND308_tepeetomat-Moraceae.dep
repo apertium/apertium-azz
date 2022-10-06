@@ -5351,7 +5351,7 @@
 "<bueno>"
 	"bueno" ij @root #2->0
 "<compadrito>"
-	"compadrito" n m sg @vocative  #3->2
+	"compadrito" n m sg @vocative #3->2
 "<.>"
 	"." sent @punct #4->2
 

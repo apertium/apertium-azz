@@ -1261,7 +1261,7 @@
 # text = Amo se kichipaua, ijuak tauitekij kiteximaj, mokaua kuoujten uan sepa selia.
 # text[spa] = No se limpia. Cuando chapean lo cortan, queda el tronquito y vuelve a retoñar.
 # labels = sentence
-1	Amo	amo	ADV	_	_	3	root	_	_
+1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kichipaua	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
@@ -2546,7 +2546,7 @@
 5	kimana	mana	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	_
 6	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 7	se	se	NUM	_	_	8	det	_	_
-8	komit	komit	_	_	_	6	nmod	_	_
+8	komit	komit	NOUN	_	Case=Abs	6	nmod	_	_
 9	uan	huan	CCONJ	_	_	11	cc	_	_
 10	se	se	NUM	_	_	11	nsubj	_	_
 11	kipoyelia	poyelia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	_
@@ -2879,6 +2879,17 @@
 6	tachijchiua	chijchihua	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1638
+# text = Sayoj onkak se taman tomiyoj.
+# text[spa] = Nomás hay una clase de tomillo.
+# labels = sentence
+1	Sayoj	sayoj	ADV	_	_	2	advmod	_	_
+2	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+3	se	se	NUM	_	_	4	nummod	_	_
+4	taman	taman	NOUN	_	Case=Abs	2	nsubj	_	_
+5	tomiyoj	tomiyoj	NOUN	_	Case=Abs	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
@@ -2895,6 +2906,53 @@
 10	kemej	kemej	ADP	_	_	11	case	_	_
 11	elot	elot	NOUN	_	Case=Abs	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1640
+# text = KAJFENKUOUIT
+# text[spa] = CAFETO
+# labels =
+1	KAJFENKUOUIT	kajfenkuouit	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1641
+# text = Tein monamaka xokoyolin no kitokaj.
+# text[spa] = El xokoyole que se vende, lo siembran.
+# labels = sentence
+1	Tein	tein	PRON	_	_	3	nsubj	_	_
+2	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	1	acl:relcl	_	_
+3	xokoyolin	xokoyolin	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	no	no	ADV	_	_	5	advmod	_	_
+5	kitokaj	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1642
+# text = Kampa taki kikuitij chechelomej oso chiktejmej, in iteyo kitamotaj uan ompa ixua.
+# text[spa] = Donde da fruto, van por él las ardillas o los pájaros.Donde tiran la semilla, allí nace.
+# labels = sentence
+1	Kampa	kampa	ADV	_	PronType=Rel	2	advmod	_	_
+2	taki	taki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	_
+3	kikuitij	kui	VERB	_	Movement=And|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+4	chechelomej	chechelot	NOUN	_	Number=Plur	3	nsubj	_	_
+5	oso	oso	CCONJ	_	_	6	cc	_	_
+6	chiktejmej	chiktej	NOUN	_	Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	in	in	DET	_	_	9	det	_	_
+9	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	obj	_	_
+10	kitamotaj	tamota	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+11	uan	huan	CCONJ	_	_	13	cc	_	_
+12	ompa	ompa	ADV	_	_	13	advmod	_	_
+13	ixua	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1648
+# text = Seki kimanaj ixiujyo uan kikuaj.
+# text[spa] = Algunos hierven sus hojas y se las comen.
+# labels = sentence
+1	Seki	seki	PRON	_	_	2	nsubj	_	_
+2	kimanaj	mana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ixiujyo	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	_
+4	uan	huan	CCONJ	_	_	5	cc	_	_
+5	kikuaj	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
@@ -3801,7 +3859,7 @@
 # labels = a231 sentence
 1	A	a	INTJ	_	_	2	discourse	_	_
 2	bueno	bueno	INTJ	_	_	0	root	_	_
-3	compadrito	compadrito	_	_	_	2	vocative	_	SpaceAfter=No
+3	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a231:2
