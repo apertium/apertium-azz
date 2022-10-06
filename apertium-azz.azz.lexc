@@ -5022,6 +5022,7 @@ huan:huan                                          N-REL ; ! "con"
 ka:ka                                              N-REL ; ! "con"
 tech:tech                                          N-REL ; ! ""
 panko:panko                                        N-REL ; ! ""
+poxko:poxko                                        N-REL ; ! ""
 pan:pan                                            N-REL ; ! ""
 ixpan:ixpan                                        N-REL ; ! ""
 talpan:talpan                                      N-REL ; ! ""
@@ -6817,6 +6818,8 @@ ompakahuin:ompakahuin                               ADV ; ! "allá"
 ne:ne                                               ADV ; ! "allá"
 nepa:nepa                                           ADV ; ! "allá"
 onkak:onkak                                         ADV ; ! "aquí"
+
+ijsiujka:ijsiujka                                   ADV ; ! ""
 
 yekinika:yekinika                                   ADV ; ! "por primera vez"
 

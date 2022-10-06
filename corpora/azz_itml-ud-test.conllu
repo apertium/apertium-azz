@@ -2734,6 +2734,87 @@
 # labels =
 1	XITOMAT	xitomat	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1615
+# text = Mochiua tepetaj.
+# text[spa] = Se da en los cerros.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	tepetaj	tepetaj	NOUN	_	Case=Abs	1	obl	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1618
+# text = Amo se kimeua por in ijsiujka moskaltia.
+# text[spa] = No se limpia porque crece rápido.
+# labels = sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kimeua	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	por	por	ADP	_	_	7	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	ijsiujka	ijsiujka	ADV	_	_	7	advmod	_	_
+7	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1621
+# text = Monamaka itech uejueyi beneficios, achto amo monamakaya, ijkón ompa pantepeuia, kikuayaj in chiktejmej in iteyo.
+# text[spa] = Se vende en los grandes beneficios; antes no se vendia, sino que se caía allá en el monte, los pájaros se comían su semilla.
+# labels = sentence
+1	Monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	uejueyi	huejhuei	ADJ	_	_	4	amod	_	_
+4	beneficios	beneficio	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	achto	achto	ADV	_	_	8	advmod	_	_
+7	amo	amo	ADV	_	_	8	advmod	_	_
+8	monamakaya	namaka	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran	1	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	ijkón	ijkon	ADV	_	_	12	advmod	_	_
+11	ompa	ompa	ADV	_	_	12	advmod	_	_
+12	pantepeuia	tepehui	VERB	_	Aspect=Imp|Incorporated=Pan|Number[subj]=Sing|Person[subj]=3|Subcat=Intr	1	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	kikuayaj	kua	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	1	parataxis	_	_
+15	in	in	DET	_	_	16	det	_	_
+16	chiktejmej	chiktej	NOUN	_	Number=Plur	14	nsubj	_	_
+17	in	in	DET	_	_	18	det	_	_
+18	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1622
+# text = No kichiuaj paletaj ika itakka.
+# text[spa] = También sirve para hacer paletas.
+# labels = sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	kichiuaj	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	paletaj	paleta	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+5	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1625
+# text = Iujki kitokaytiaj por in kostik hasta iijtik.
+# text[spa] = Así se llama porque hasta por dentro es amarillo.
+# labels = sentence
+1	Iujki	iuki	ADV	_	_	2	advmod	_	_
+2	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	in	in	DET	_	_	3	fixed	_	_
+5	kostik	kostik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	_
+6	hasta	hasta	ADP	_	_	7	case	_	_
+7	iijtik	ijtik	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1626
+# text = Mochiua kaltsintan uan kuoujtaj.
+# text[spa] = Se da cerca de la casa y en el monte.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2-3	kaltsintan	_	_	_	_	_	_	_	_
+2	kal	kali	NOUN	_	_	3	nmod	_	_
+3	tsintan	tsintan	NOUN	_	NounType=Relat	1	obl	_	_
+4	uan	huan	CCONJ	_	_	5	cc	_	_
+5	kuoujtaj	kuoutaj	NOUN	_	Case=Abs	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
