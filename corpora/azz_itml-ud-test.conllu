@@ -2590,6 +2590,150 @@
 6	totonik	totonik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1587
+# text = Semi uelik ika se takua.
+# text[spa] = Es muy sabroso.
+# labels = sentence
+1	Semi	semi	ADV	_	_	2	advmod	_	_
+2	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	takua	kua	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1590
+# text = Yves jalbert uan Elisa janucello de in Departamento de Antropología de in Université de Montréal, kineskayotijkej in xiuit uan kuamej.
+# text[spa] = Yves Jalbert y Elisa Janucello, del Departamento de Antropología de la Université de Montréal, realizaron los dibujos.
+# labels = sentence
+1	Yves	Yves	PROPN	_	Gender=Masc	17	dislocated	_	_
+2	jalbert	Jalbert	PROPN	_	_	1	flat	_	_
+3	uan	huan	CCONJ	_	_	4	cc	_	_
+4	Elisa	Elisa	PROPN	_	Gender=Fem	1	conj	_	_
+5	janucello	Janucello	PROPN	_	_	4	flat	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	in	in	DET	_	_	8	det	_	_
+8	Departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Antropología	antropología	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	in	in	DET	_	_	13	det	_	_
+13	Université	Université	PROPN	_	_	8	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Montréal	Montréal	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17	kineskayotijkej	neskayotia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	_
+18	in	in	DET	_	_	9	det	_	_
+19	xiuit	xihuit	NOUN	_	Case=Abs	17	obj	_	_
+20	uan	huan	CCONJ	_	_	21	cc	_	_
+21	kuamej	kua	NOUN	_	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1592
+# text = Se kikualia in iteyo ijuak oksi.
+# text[spa] = Se come la semilla cuando está madura.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikualia	kualia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	_
+5	ijuak	ijhuak	SCONJ	_	_	6	mark	_	_
+6	oksi	oksi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1593
+# text = Xochiyoua itech septiembre uan octubre.
+# text[spa] = Florea en septiembre y octubre.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	septiembre	septiembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	uan	huan	CCONJ	_	_	5	cc	_	_
+5	octubre	octubre	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1595
+# text = Ixua iteyo.
+# text[spa] = Nace de sus semillas.
+# labels = sentence
+1	Ixua	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1596
+# text = In talkamoj se kikua taaman iuan seboyaj oso chilposon iuan mimientajxiuit.
+# text[spa] = La papa se come en su caldo con cebolla o en chilpozonte con hojas de pimienta.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	talkamoj	talkamoj	NOUN	_	Case=Abs	4	obj	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5	taaman	taaman	NOUN	_	Case=Abs	4	obl	_	_
+6	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+7	seboyaj	seboyaj	NOUN	_	Case=Abs	6	nmod	_	_
+8	oso	oso	CCONJ	_	_	9	cc	_	_
+9	chilposon	chilposon	NOUN	_	Case=Abs	5	conj	_	_
+10	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	nmod	_	_
+11	mimientajxiuit	mimientajxiuit	NOUN	_	Case=Abs	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1600
+# text = OUAT
+# text[spa] = CAÑA DE AZÚCAR
+# labels =
+1	OUAT	ohuat	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1603
+# text = XANTIAJ
+# text[spa] = SANDIA
+# labels =
+1	XANTIAJ	xantiaj	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1604
+# text = Mochiua kampa se kitoka milaj.
+# text[spa] = Se da donde se siembra, en las milpas.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kampa	kampa	ADV	_	PronType=Rel	4	advmod	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	advcl	_	_
+5	milaj	milaj	NOUN	_	Case=Abs	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1606
+# text = Mochiua ne Tonalixkopa, Tatampakopa uan ne Xaltipampa.
+# text[spa] = Se da allá por Tonalix, Tatampa y por Xaltipan.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ne	ne	ADV	_	_	1	advmod	_	_
+3-4	Tonalixkopa	_	_	_	_	_	_	_	SpaceAfter=No
+3	Tonalix	Tonalix	PROPN	_	_	4	nmod	_	_
+4	kopa	kopa	NOUN	_	NounType=Relat	2	appos	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6-7	Tatampakopa	_	_	_	_	_	_	_	_
+6	Tatampa	Tatampa	PROPN	_	_	7	nmod	_	_
+7	kopa	kopa	NOUN	_	NounType=Relat	2	conj	_	_
+8	uan	huan	CCONJ	_	_	9	cc	_	_
+9	ne	ne	ADV	_	_	2	conj	_	_
+10-11	Xaltipampa	_	_	_	_	_	_	_	SpaceAfter=No
+10	Xaltipam	Xaltipan	PROPN	_	_	11	nmod	_	_
+11	pa	pampa	NOUN	_	NounType=Relat	9	appos	_	_
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1610
+# text = Xochiyoua itech febrero.
+# text[spa] = Florea en febrero.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	febrero	febrero	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1611
+# text = XITOMAT
+# text[spa] = JITOMATE
+# labels =
+1	XITOMAT	xitomat	NOUN	_	Case=Abs	0	root	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.

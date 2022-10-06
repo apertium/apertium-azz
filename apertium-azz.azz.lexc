@@ -710,6 +710,11 @@ LEXICON N-SPA-MESA
 %<n%>%<f%>%<sg%>:%{j%}                             # ;
 %<n%>%<f%>%<pl%>:%>s                               # ;
 
+LEXICON N-SPA-PIEDAD
+
+%<n%>%<f%>%<sg%>:                                  # ;
+%<n%>%<f%>%<pl%>:e%>s                              # ;
+
 LEXICON N-SPA-LUGAR
 
 %<n%>%<m%>%<sg%>:                                  # ;
@@ -2448,6 +2453,14 @@ mapatska:mapatska                                     V-SO-IMPF ; ! ""
 mapatska:mapatska                                     V-SO-PROG ; ! ""
 mapatska:mapatska                                     V-SO-PRET ; ! ""
 mapatska:mapatska                                     V-SO-FUTR ; ! ""
+
+
+neskayotia:neskayotia                                 V-SO-PRES ; ! ""
+neskayotia:neskayotia                                 V-SO-IMPF ; ! ""
+neskayotia:neskayoti                                  V-SO-PROG ; ! ""
+neskayotia:neskayoti                                  V-SO-PRET ; ! ""
+neskayotia:neskayoti                                  V-SO-FUTR ; ! ""
+
 
 
 ajokui:ajokui                                         V-SO-PRES ; ! ""
@@ -5013,6 +5026,8 @@ pan:pan                                            N-REL ; ! ""
 ixpan:ixpan                                        N-REL ; ! ""
 talpan:talpan                                      N-REL ; ! ""
 ixpampa:%{i%}xpampa                                N-REL ; ! ""
+ijtik:i%{j%}tik                                    N-REL ;
+ijtikpa:i%{j%}tikpa                                N-REL ;
 
 LEXICON Locativos 
 
@@ -5022,7 +5037,7 @@ kespan:kespan                                      N-LOC ;
 kespan:kespaj                                      N-LOC ;
 tampa:tampa                                        N-LOC ;
 ixko:ixko                                          N-LOC ;
-ijtik:i%{j%}tik                                        N-LOC ;
+ijtik:i%{j%}tik                                    N-LOC ;
 ixpan:ixpan                                        N-LOC ; ! ""
 ikan:ikan                                          N-LOC ; ! ""
 kechko:kechko                                      N-LOC ; ! ""
@@ -5972,11 +5987,7 @@ galaxia:galaxia                                     N-SPA-MESA ; ! ""
 lengua:lengua                                       N-SPA-MESA ; ! ""
 vez:ve                                              N-SPA-VEZ ; ! ""
 color:color                                         N-SPA-LUGAR ; ! ""
-sociedad:sociedad                                   N-SPA-LUGAR ; ! ""
-universidad:universidad                             N-SPA-LUGAR ; ! ""
-navidad:navidad                                     N-SPA-LUGAR ; ! ""
-felicidad:felicidad                                 N-SPA-LUGAR ; ! ""
-comunidad:comunidad                                 N-SPA-LUGAR ; ! ""
+
 cáncer:cáncer                                       N-SPA-LUGAR ; ! ""
 dios:dios                                           N-SPA-LUGAR ; ! ""
 cimarrón:cimarr                                     N-SPA-FUSIÓN ; ! ""
@@ -5990,6 +6001,13 @@ robot:robot                                         N-SPA-PESO ; ! ""
 nano-robot:nano-robot                               N-SPA-PESO ; ! ""
 
 microondas:microondas                               N-SPA-LUNES ; 
+
+sociedad:sociedad                                   N-SPA-PIEDAD ; ! ""
+universidad:universidad                             N-SPA-PIEDAD ; ! ""
+navidad:navidad                                     N-SPA-PIEDAD ; ! ""
+felicidad:felicidad                                 N-SPA-PIEDAD ; ! ""
+comunidad:comunidad                                 N-SPA-PIEDAD ; ! ""
+
 
 enero:enero                                         N-SPA-PESO ; ! ""
 febrero:febrero                                     N-SPA-PESO ; ! ""
@@ -6537,6 +6555,8 @@ Tzinacapan:Tzinacapa                                NP-TOP-PAN ;
 Xaltipan:Xaltipa                                    NP-TOP-PAN ;
 Zacatipan:Zacatipa                                  NP-TOP-PAN ;
 Zoatecpan:Zoatecpa                                  NP-TOP-PAN ; 
+
+Tatampa:Tatampa                                     NP-TOP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
