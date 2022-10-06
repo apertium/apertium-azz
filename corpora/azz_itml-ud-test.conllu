@@ -2352,6 +2352,17 @@
 2	parajko	parajko	NOUN	_	Case=Abs	1	obl	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1552
+# text = Uauaxtla uan Xalakapan semi mochiua.
+# text[spa] = Se da mucho por Huahuaxtla y por Xalacapan.
+# labels = sentence
+1	Uauaxtla	Huahuaxtla	PROPN	_	_	5	obl	_	_
+2	uan	huan	CCONJ	_	_	3	cc	_	_
+3	Xalakapan	Xalakapan	PROPN	_	_	1	conj	_	_
+4	semi	semi	ADV	_	_	5	advmod	_	_
+5	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1639
 # text = In iteyotsin se kikua ijuak oksi, se kikua kemej elot.
 # text[spa] = La fruta se come cuando está madura, se come como elote.
