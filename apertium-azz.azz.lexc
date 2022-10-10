@@ -1234,6 +1234,14 @@ tepehua:tepehua                                     V-SO-PROG ;
 tepehua:tepehua                                     V-SO-PRET ;
 tepehua:tepehua                                     V-SO-FUTR ;
 
+! "limpiar"
+taluia:taluia                                       V-SO-PRES ;
+taluia:taluia                                       V-SO-IMPF ;
+taluia:talui                                        V-SO-PROG ;
+taluia:talui                                        V-SO-PRET ;
+taluia:talui                                        V-SO-FUTR ;
+
+
 ! "matar"
 miktia:miktia                                       V-SO-PRES ;
 miktia:miktia                                       V-SO-IMPF ;
@@ -2322,6 +2330,13 @@ tasojkamati:tasojkamati                               V-SO-IMPF ; ! "agradecer"
 tasojkamati:tasojkamati                               V-SO-PROG ; ! "agradecer"
 tasojkamati:tasojkamati                               V-SO-PRET ; ! "agradecer"
 tasojkamati:tasojkamati                               V-SO-FUTR ; ! "agradecer"
+
+lokojkui:loko%{j%}kui                                 V-SO-PRES ; ! ""
+lokojkui:loko%{j%}kui                                 V-SO-IMPF ; ! ""
+lokojkui:loko%{j%}kui                                 V-SO-PROG ; ! ""
+lokojkui:loko%{j%}kui                                 V-SO-PRET ; ! ""
+lokojkui:loko%{j%}kui                                 V-SO-FUTR ; ! ""
+
 
 tenkui:tenkui                                         V-SO-PRES ; ! "involucar"
 tenkui:tenkui                                         V-SO-IMPF ; ! "involucar"
@@ -6819,7 +6834,7 @@ ne:ne                                               ADV ; ! "allá"
 nepa:nepa                                           ADV ; ! "allá"
 onkak:onkak                                         ADV ; ! "aquí"
 
-ijsiujka:ijsiujka                                   ADV ; ! ""
+ijsiujka:ijsiu%{j%}ka                               ADV ; ! ""
 
 yekinika:yekinika                                   ADV ; ! "por primera vez"
 

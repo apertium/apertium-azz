@@ -2601,6 +2601,37 @@
 5	takua	kua	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1589:1
+# text = Seki kikuaj in iteyo.
+# text[spa] = Algunos comen la semilla.
+# labels = sentence
+1	Seki	seki	PRON	_	_	2	nsubj	_	_
+2	kikuaj	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1589:2
+# text = Amo monamaka in kuoujtet.
+# text[spa] = No se vende.
+# labels = sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	kuoujtet	kuoujtet	NOUN	_	Case=Abs	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1589:4
+# text = Semi sesek porque tel ayoj.
+# text[spa] = Es muy frío porque tiene mucha agua.
+# labels = sentence
+1	Semi	semi	ADV	_	_	2	advmod	_	_
+2	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	porque	porque	SCONJ	_	_	5	mark	_	_
+4	tel	tel	ADV	_	Incorporated=Tel	5	advmod	_	_
+5	ayoj	ayoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1590
 # text = Yves jalbert uan Elisa janucello de in Departamento de Antropología de in Université de Montréal, kineskayotijkej in xiuit uan kuamej.
 # text[spa] = Yves Jalbert y Elisa Janucello, del Departamento de Antropología de la Université de Montréal, realizaron los dibujos.
@@ -2651,6 +2682,19 @@
 5	octubre	octubre	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1594
+# text = Se kikua, pero sayoj yek teyoj.
+# text[spa] = Se come, sólo que tiene mucha semilla.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	pero	pero	CCONJ	_	_	7	cc	_	_
+5	sayoj	sayoj	ADV	_	_	7	advmod	_	_
+6	yek	yek	ADV	_	Incorporated=Yek	7	advmod	_	_
+7	teyoj	teyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1595
 # text = Ixua iteyo.
 # text[spa] = Nace de sus semillas.
@@ -2675,6 +2719,22 @@
 10	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	nmod	_	_
 11	mimientajxiuit	mimientajxiuit	NOUN	_	Case=Abs	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1598:1
+# text = Kitokaj.
+# text[spa] = La siembran.
+# labels = sentence
+1	Kitokaj	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1598:2
+# text = Kimeuaj uan kitaluiaj.
+# text[spa] = La limpian y la aterran.
+# labels = sentence
+1	Kimeuaj	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2	uan	huan	CCONJ	_	_	3	cc	_	_
+3	kitaluiaj	taluia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1600
 # text = OUAT
