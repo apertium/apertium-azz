@@ -2200,6 +2200,28 @@
 3	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1510:1
+# text = Se kikua in nanakatsin ika chilposon oso kaldoj.
+# text[spa] = Este hongo se come en chilpozonte o en caldito, es muy sabroso.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	nanakatsin	nanakat	NOUN	_	Polite=Form	2	obj	_	_
+5	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+6	chilposon	chilposon	NOUN	_	Case=Abs	5	nmod	_	_
+7	oso	oso	CCONJ	_	_	8	cc	_	_
+8	kaldoj	kaldoj	NOUN	_	Case=Abs	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1510:2
+# text = Semi uelik.
+# text[spa] = Este hongo se come en chilpozonte o en caldito, es muy sabroso.
+# labels = sentence
+1	Semi	semi	ADV	_	_	2	advmod	_	_
+2	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1511:1
 # text = Kinamakaj Kuesalan uan nikan, xolalpan.
 # text[spa] = Se vende en Cuetzalan y aquí en el pueblo.
