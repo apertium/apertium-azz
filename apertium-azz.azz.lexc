@@ -1065,6 +1065,13 @@ kahuilia:kahuili                                      V-SIO-PROG ; ! "dejarle"
 kahuilia:kahuili                                      V-SIO-PRET ; ! "dejarle"
 kahuilia:kahuili                                      V-SIO-FUTR ; ! "dejarle"
 
+ajuiyalia:ajuiyalia                                     V-SIO-PRES ; ! "darle buen sabor"
+ajuiyalia:ajuiyalia                                     V-SIO-IMPF ; ! "darle buen sabor"
+ajuiyalia:ajuiyali                                      V-SIO-PROG ; ! "darle buen sabor"
+ajuiyalia:ajuiyali                                      V-SIO-PRET ; ! "darle buen sabor"
+ajuiyalia:ajuiyali                                      V-SIO-FUTR ; ! "darle buen sabor"
+
+
 kotonilia:kotonilia                                   V-SIO-PRES ; ! "cortarle"
 kotonilia:kotonilia                                   V-SIO-IMPF ; ! "cortarle"
 kotonilia:kotonili                                    V-SIO-PROG ; ! "cortarle"
