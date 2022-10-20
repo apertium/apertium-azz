@@ -22,6 +22,9 @@
 1	_	x	_	_	_	X	_	_
 1	_	cm	_	_	_	PUNCT	_	_
 1	_	sent	_	_	_	PUNCT	_	_
+1	_	lpar	_	_	_	PUNCT	_	_
+1	_	rpar	_	_	_	PUNCT	_	_
+1	_	quot	_	_	_	PUNCT	_	_
 #
 1	_	_	tv	_	_	_	Subcat=Tran	_
 1	_	_	iv	_	_	_	Subcat=Intr	_
