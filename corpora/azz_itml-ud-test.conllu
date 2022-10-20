@@ -1582,6 +1582,17 @@
 3	taman	taman	NOUN	_	Case=Abs	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:113
+# text = Sesek eski por in chichik.
+# text[spa] = Debe ser fría porque es amarga.
+# labels = sentence
+1	Sesek	sesek	ADJ	_	_	0	root	_	_
+2	eski	etok	AUX	_	Number[subj]=Sing|Person[subj]=3|Tense=Fut	1	cop	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	in	in	DET	_	_	3	fixed	_	_
+5	chichik	chichik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:114
 # text = Moyekchiua kampa motaktsontalia.
 # text[spa] = Donde se da, hay mucha.
@@ -1590,6 +1601,17 @@
 2	kampa	kampa	ADV	_	PronType=Rel	3	advmod	_	_
 3	motaktsontalia	taktsontalia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	advcl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:115
+# text = In uelik, se kikua.
+# text[spa] = Es sabrosa, se come,
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:117
 # text = In kuouit totonik.
@@ -1684,6 +1706,16 @@
 6	in	in	DET	_	_	7	det	_	_
 7	ixtauat	ixtahuat	NOUN	_	Case=Abs	5	appos	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:128
+# text = In semi monamaka xolal.
+# text[spa] = Se vende mucho en el pueblo.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	xolal	xolal	NOUN	_	Case=Abs	3	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:129
 # text = AMALAYOJ

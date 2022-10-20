@@ -1256,6 +1256,13 @@ miktia:mikti                                        V-SO-PROG ;
 miktia:mikti                                        V-SO-PRET ;
 miktia:mikti                                        V-SO-FUTR ;
 
+! ""
+pachania:pachania                                   V-SO-PRES ;
+pachania:pachania                                   V-SO-IMPF ;
+pachania:pachani                                    V-SO-PROG ;
+pachania:pachani                                    V-SO-PRET ;
+pachania:pachani                                    V-SO-FUTR ;
+
 
 ! "hervir"
 molontia:molontia                                   V-SO-PRES ;
