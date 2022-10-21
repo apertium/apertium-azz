@@ -375,6 +375,7 @@ LEXICON V-SIO-FUTR
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
 %<v%>%<tv%>%<fut%>:%>s                             V-AUX-I ;
 %<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<tv%>%<cnt%>:%>ni                            V-AGR-PRES ;
 %<v%>%<tv%>%<opt%>:                                V-AGR-OPT ;
 %<v%>%<tv%>:                                       V-DIR ;
 
@@ -407,6 +408,7 @@ LEXICON V-SO-FUTR
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
 %<v%>%<tv%>%<fut%>:%>s                             V-AUX-I ;
 %<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<tv%>%<cnt%>:%>ni                            V-AGR-PRES ;
 %<v%>%<tv%>%<opt%>:                                V-AGR-OPT ;
 %<v%>%<tv%>:                                       V-DIR ;
 
@@ -439,6 +441,7 @@ LEXICON V-SI-FUTR
 %<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
 %<v%>%<tv%>%<fut%>:%>s                             V-AUX-I ;
 %<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<tv%>%<cnt%>:%>ni                            V-AGR-PRES ;
 %<v%>%<tv%>%<opt%>:                                V-AGR-OPT ;
 %<v%>%<tv%>:                                       V-DIR ;
 
@@ -471,6 +474,7 @@ LEXICON V-S-FUTR
 %<v%>%<iv%>%<fut%>:%>s                             V-AGR-FUTR ;
 %<v%>%<iv%>%<fut%>:%>s                             V-AUX-I ;
 %<v%>%<iv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<iv%>%<cnt%>:%>ni                            V-AGR-PRES ;
 %<v%>%<iv%>%<opt%>:                                V-AGR-OPT ;
 %<v%>%<iv%>:                                       V-DIR ;
 
@@ -950,6 +954,10 @@ LEXICON NUM
 
 %<num%>:                                           # ; 
 
+LEXICON NUM-REDUP
+
+%<num%>%<redup%>:                                  # ; 
+
 LEXICON NUM-SE
 
 %<num%>:                                           # ; 
@@ -1022,6 +1030,30 @@ tamota:tamota                                      V-SIO-IMPF ;
 tamota:tamota                                      V-SIO-PROG ;
 tamota:tamota                                      V-SIO-PRET ; 
 tamota:tamota                                      V-SIO-FUTR ; 
+
+
+! "jalarle"
+tajtanilia:ta%{j%}tanilia                          V-SIO-PRES ; 
+tajtanilia:ta%{j%}tanilia                          V-SIO-IMPF ;
+tajtanilia:ta%{j%}tanilia                          V-SIO-PROG ;
+tajtanilia:ta%{j%}tanilia                          V-SIO-PRET ; 
+tajtanilia:ta%{j%}tanilia                          V-SIO-FUTR ; 
+
+
+! "jalarle"
+tilanilia:tilanilia                                V-SIO-PRES ; 
+tilanilia:tilanilia                                V-SIO-IMPF ;
+tilanilia:tilanilia                                V-SIO-PROG ;
+tilanilia:tilanilia                                V-SIO-PRET ; 
+tilanilia:tilanilia                                V-SIO-FUTR ; 
+
+
+! ""
+talilia:talilia                                     V-SIO-PRES ; 
+talilia:talilia                                     V-SIO-IMPF ;
+talilia:talilia                                     V-SIO-PROG ;
+talilia:talilia                                     V-SIO-PRET ; 
+talilia:talilia                                     V-SIO-FUTR ; 
 
 
 ! "buscar"
@@ -1431,6 +1463,14 @@ paka:paka                                           V-SO-IMPF ;
 paka:paka                                           V-SO-PROG ;
 paka:paka                                           V-SO-PRET ;
 paka:paka                                           V-SO-FUTR ;
+
+! "tostar"
+tehuatsa:tehuatsa                                   V-SO-PRES ;
+tehuatsa:tehuatsa                                   V-SO-IMPF ;
+tehuatsa:tehuatsa                                   V-SO-PROG ;
+tehuatsa:tehuatsa                                   V-SO-PRET ;
+tehuatsa:tehuatsa                                   V-SO-FUTR ;
+
 
 ! "tumbar"
 tenteki:tenteki                                     V-SO-PRES ;
@@ -4997,7 +5037,9 @@ ome:ome                                            NUM ; ! "dos"
 eyi:eyi                                            NUM ; ! "tres"
 ejeyi:ej%>eyi                                      NUM ; ! "tres"
 nahui:nahui                                        NUM ; ! "cuatro"
+najnahui:na%{j%}nahui                              NUM-REDUP ; ! "cuatro"
 makuil:makuil                                      NUM ; ! "cinco"
+majmakuil:ma%{j%}makuil                            NUM-REDUP ; ! "cinco"
 chikuase:chikuase%{n%}                             NUM ; ! "seis"
 chikome:chikome                                    NUM ; ! "siete"
 chikueyi:chikueyi                                  NUM ; ! "ocho"
@@ -5149,6 +5191,7 @@ xochiyot:xochiyo                                    N-TL ; ! "flor"
 makouyot:makouyo                                    N-TL ; ! "pedúnculo"
 huitsyot:huitsyo                                    N-TL ; ! ""
 yolot:yolo                                          N-TL ; ! "corazón"
+huitsyolot:huits%>yolo                              N-TL ; ! ""
 tekuani:tekuani                                     N-Ø ; ! "bestia"
 koutaj:koutaj                                       N-Ø ; ! "monte"
 kuoutaj:kuou%{j%}taj                                N-Ø ; ! "bosque"

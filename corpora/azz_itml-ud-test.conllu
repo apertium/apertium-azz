@@ -1031,6 +1031,39 @@
 1	Kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:2
+# text = In monamaka Kuesalan.
+# text[spa] = Se vende en Cuetzalan.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	Kuesalan	Cuetzalan	PROPN	_	_	2	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:3
+# text = Sayoj se taman.
+# text[spa] = Solo hay una clase.
+# labels = sentence
+1	Sayoj	sayoj	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nummod	_	_
+3	taman	taman	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:4
+# text = Kuali se kikua, maj se kiteuatsa itech komal.
+# text[spa] = Sirve para comerse, se tuesta en el comal.
+# labels = sentence
+1	Kuali	kuali	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	maj	ma	AUX	_	_	7	aux	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kiteuatsa	tehuatsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+8	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+9	komal	komal	NOUN	_	Case=Abs	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:5
 # text = Mochiua ne Kalikampa, Texayakatitan, kuoujtaj, kajfentaj uan amo kiteximaj, por in se kikua itakka.
 # text[spa] = Hay por Kalikan, Texayakatitan, en el monte, en el cafetal y no lo cortan porque su fruto se come.
@@ -1084,6 +1117,47 @@
 3	uan	huan	CCONJ	_	_	4	cc	_	_
 4	kajfentaj	kafentaj	NOUN	_	Case=Abs	2	conj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:11
+# text = In monamaka ompa ne Kuesalan.
+# text[spa] = Se vende en Cuetzalan.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ompa	ompa	ADV	_	_	2	advmod	_	_
+4	ne	ne	ADV	_	_	2	advmod	_	_
+5	Kuesalan	Cuetzalan	PROPN	_	_	4	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:12
+# text = Onkak ome taman: chaluij tein nikan mochiua uan tein kuoujtaj mochiua.
+# text[spa] = Hay dos clases: chalahuite que se da en el monte y el que se da por acá.
+# labels = sentence
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+2	ome	ome	NUM	_	_	3	nummod	_	_
+3	taman	taman	NOUN	_	Case=Abs	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	chaluij	chaluij	NOUN	_	Case=Abs	1	parataxis	_	_
+6	tein	tein	PRON	_	_	8	nsubj	_	_
+7	nikan	nikan	ADV	_	_	8	advmod	_	_
+8	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	5	acl:relcl	_	_
+9	uan	huan	CCONJ	_	_	10	cc	_	_
+10	tein	tein	PRON	_	_	5	conj	_	_
+11	kuoujtaj	kuoutaj	NOUN	_	Case=Abs	12	obl	_	_
+12	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	10	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:13
+# text = In iujki kitokaytiaj por in uitsyoj.
+# text[spa] = Le llaman así porque sus hojas son espinosas (uitsyo).
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	iujki	iuki	ADV	_	_	3	advmod	_	_
+3	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	por	por	ADP	_	_	6	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	uitsyoj	huitsyo	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:14
 # text = Onkak kajfentaj uan milaj.
@@ -1158,6 +1232,67 @@
 3	kitokaj	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	advcl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:21
+# text = Se kitoka majmakuil oso najnaui taoltsitsin uan kemaj se kitajtanilia taltikpak uan todios, uan kuali mochiuas.
+# text[spa] = Se siembran de a cinco a cuatro maicitos y luego se le pide a la Tierra y a nuestro Dios y se da muy bien.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	majmakuil	majmakuil	NUM	_	Reduplicated=Yes	6	nummod	_	_
+4	oso	oso	CCONJ	_	_	5	cc	_	_
+5	najnaui	najnaui	NUM	_	Reduplicated=Yes	3	conj	_	_
+6	taoltsitsin	taol	NOUN	_	Number=Plur|Polite=Form	2	obj	_	_
+7	uan	huan	CCONJ	_	_	10	cc	_	_
+8	kemaj	kemaj	INTJ	_	_	10	discourse	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kitajtanilia	tajtanilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	_
+11	taltikpak	taltikpak	NOUN	_	Case=Abs	10	iobj	_	_
+12	uan	huan	CCONJ	_	_	13	cc	_	_
+13	todios	dios	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=1	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	uan	huan	CCONJ	_	_	17	cc	_	_
+16	kuali	kuali	ADV	_	_	17	advmod	_	_
+17	mochiuas	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Fut	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:22
+# text = In matsaj sesek.
+# text[spa] = La piña es fría.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	matsaj	matsaj	NOUN	_	Case=Abs	3	nsubj	_	_
+3	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:23
+# text = XILEX
+# text[spa] = CIDRA
+# labels =
+1	XILEX	xilex	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:24
+# text = Monamaka ika tamachiujtsin.
+# text[spa] = Lo venden por medidas.
+# labels = sentence
+1	Monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	tamachiujtsin	tamachiuj	NOUN	_	Polite=Form	2	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:25
+# text = Se kikua in itakka, in semi uelik.
+# text[spa] = Su fruto se come, es muy sabroso.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	in	in	DET	_	_	8	dep	_	_
+7	semi	semi	ADV	_	_	8	advmod	_	_
+8	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:27
 # text = Xochiyoua itech agosto.
 # text[spa] = Florece en agosto.
@@ -1197,6 +1332,46 @@
 3	saj	saj	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:32
+# text = Komo kajfentaj, kimeua, pero komo kuoujijtik amo akaj kimeua.
+# text[spa] = Si está en el cafetal, lo limpian, pero en el monte nadie lo limpia.
+# labels = sentence
+1	Komo	komo	ADV	_	_	2	mark	_	_
+2	kajfentaj	kafentaj	NOUN	_	Case=Abs	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	kimeua	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	12	punct	_	_
+6	pero	pero	CCONJ	_	_	12	cc	_	_
+7	komo	komo	ADV	_	_	9	mark	_	_
+8-9	kuoujijtik	_	_	_	_	_	_	_	_
+8	kuouj	kohuit	NOUN	_	_	9	nmod	_	_
+9	ijtik	ijtik	NOUN	_	NounType=Relat	12	advcl	_	_
+10	amo	amo	ADV	_	_	11	advmod	_	_
+11	akaj	akaj	PRON	_	_	12	nsubj	_	_
+12	kimeua	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:33
+# text = In kuamekat, mouiuilana, ualeua itech uitsyolotsin in talijtik, uan mouilana.
+# text[spa] = Es enredadera, es trepadora, nace del corazón de su fruto, en la tierra y se extiende.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	kuamekat	kuamekat	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	mouiuilana	huihuilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	ualeua	ehua	VERB	_	Movement=Ven|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	conj	_	_
+7	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
+8	uitsyolotsin	huitsyolot	NOUN	_	Polite=Form	7	nmod	_	_
+9	in	in	DET	_	_	10	det	_	_
+10-11	talijtik	_	_	_	_	_	_	_	SpaceAfter=No
+10	talijtik	tal	NOUN	_	_	11	nmod	_	_
+11		ijtik	NOUN	_	NounType=Relat	6	obl	_	_
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	uan	huan	CCONJ	_	_	14	cc	_	_
+14	mouilana	huilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:35
 # text = In iujki kitokaytiaj por in uejueyi in itakka.
 # text[spa] = Le llaman así porque su fruto es grande.
@@ -1220,6 +1395,14 @@
 3	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 4	julio	julio	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:37
+# text = In kuouit.
+# text[spa] = Es árbol (kuouit).
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	kuouit	kohuit	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:38
 # text = Istak inakayo uan tiltik in iteyo.
@@ -1257,6 +1440,19 @@
 # labels =
 1	PAPAYAJ	papaya	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:42:2
+# text = Ixiujyo tepitsin papatauak uan amo semi ueueyak.
+# text[spa] = Sus ramas van en todas direcciones, sus hojas son un poco anchas y no muy largas.
+# labels = fragment
+1	Ixiujyo	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+2	tepitsin	tepitsin	ADV	_	_	3	advmod	_	_
+3	papatauak	pajpatahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
+4	uan	huan	CCONJ	_	_	7	cc	_	_
+5	amo	amo	ADV	_	_	7	advmod	_	_
+6	semi	semi	ADV	_	_	7	advmod	_	_
+7	ueueyak	huejhueyak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:43
 # text = Amo se kichipaua, ijuak tauitekij kiteximaj, mokaua kuoujten uan sepa selia.
 # text[spa] = No se limpia. Cuando chapean lo cortan, queda el tronquito y vuelve a retoñar.
@@ -1275,6 +1471,18 @@
 12	sepa	sepa	ADV	_	_	13	advmod	_	_
 13	selia	selia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	9	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:45
+# text = Mochiua kampa chilaj oso kampa etaj.
+# text[spa] = Se da en el chilar o en el frijolar.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kampa	kampa	ADV	_	PronType=Rel	3	advmod	_	_
+3	chilaj	chilaj	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	1	advcl	_	_
+4	oso	oso	CCONJ	_	_	6	cc	_	_
+5	kampa	kampa	ADV	_	PronType=Rel	6	advmod	_	_
+6	etaj	etaj	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:46
 # text = In nanakat saj.
