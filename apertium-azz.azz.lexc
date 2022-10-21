@@ -1701,7 +1701,7 @@ ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-PRET ;
 ajkokejketsa:ajko%>ke%{j%}ketsa                     V-SO-FUTR ;
 
 
-! ""
+! "limpiar"
 mehua:mehua                                         V-SO-PRES ;
 mehua:mehua                                         V-SO-IMPF ;
 mehua:mehua                                         V-SO-PROG ;
@@ -6509,6 +6509,7 @@ Chilcuauhta:Chilcuauhta                             NP-TOP ;
 Jonotla:Jonotla                                     NP-TOP ;
 Tozan:Tozan                                         NP-TOP ;
 Chilkoutaj:Chilkoutaj                               NP-TOP ;
+Ataujtsalan:Ataujtsalan                             NP-TOP ;
 
 Zaragoza:Zaragoza%{j%}                              NP-TOP ;
 Talchichil:Talchichil                               NP-TOP ;
@@ -6692,6 +6693,7 @@ alaktik:alaktik                                     ADJ ; ! "resbaloso"
 chikahuak:chikahuak                                 ADJ ; ! "fuerte"
 sasaltik:sasaltik                                   ADJ ; ! "pegajoso"
 tsopek:tsopek                                       ADJ ; ! "dulce"
+tsojtsopek:tso%{j%}tsopek                           ADJ-REDUP ; ! "dulce"
 yemanik:yemanik                                     ADJ ; ! "blando"
 
 takuahuak:takuahuak                                 ADJ ; ! "resistente"
