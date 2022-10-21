@@ -1679,7 +1679,7 @@
 ^ikowyo/ikowyo$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a93
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a93:1
 # text = Pisiltik semi. Mm, kemah.
 # text[orig] = Pisi:ltik semi. Mm, ke:mah.
 # text[spa] = Son muy chiquitas. Si, si.
@@ -1687,6 +1687,12 @@
 ^Pisiltik/Pisiltik$
 ^semi/semi$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a93:2
+# text = Pisiltik semi. Mm, kemah.
+# text[orig] = Pisi:ltik semi. Mm, ke:mah.
+# text[spa] = Son muy chiquitas. Si, si.
+# labels = a93 sentence
 ^Mm/Mm$
 ^,/,$
 ^kemah/kemah$
@@ -1731,7 +1737,7 @@
 ^ya/ya$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a100
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a100:1
 # text = Kemah, kipalewia, kemah. Kemah, ihkoni.
 # text[orig] = Ke:mah, kipale:wia, ke:mah. Ke:mah, ihko:ni.
 # text[spa] = Si, le ayuda, si. Si, así.
@@ -1742,6 +1748,12 @@
 ^,/,$
 ^kemah/kemah$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a100:2
+# text = Kemah, kipalewia, kemah. Kemah, ihkoni.
+# text[orig] = Ke:mah, kipale:wia, ke:mah. Ke:mah, ihko:ni.
+# text[spa] = Si, le ayuda, si. Si, así.
+# labels = a100 sentence
 ^Kemah/Kemah$
 ^,/,$
 ^ihkoni/ihkoni$
