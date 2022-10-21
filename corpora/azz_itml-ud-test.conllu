@@ -2285,6 +2285,14 @@
 4	ojoxijkuouit	ojoxijkuohuit	NOUN	_	Case=Abs	2	appos	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:108
+# text = In xiuit.
+# text[spa] = Es hierba (xiuit).
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	xiuit	xihuit	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:109
 # text = Seki kiluiaj ‘tomarosaj’.
 # text[spa] = Algunos le dicen ‘tomarosa’.
