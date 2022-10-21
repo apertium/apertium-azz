@@ -4535,6 +4535,166 @@
 11	ichantsin	chanti	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	10	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a85
+# text = Kemah, de ompa amo apaliwi kampa ichantsin pos ki..., kitalilia pos ompa no yetok.
+# text[orig] = Ke:mah, de ompa a:mo a:paliwi ka:mpa icha:ntsi:n pos ki..., kita:lilia pos ompa no: yetok.
+# text[spa] = Si, de ahí no se moja donde su casa lo..., le pone pues ahí está también.
+# labels = a85 sentence
+1	Kemah	kemaj	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ompa	ompa	ADV	_	_	6	advmod	_	_
+5	amo	amo	ADV	_	_	6	advmod	_	_
+6	apaliwi	apalihui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+7	kampa	kampa	ADV	_	PronType=Rel	8	advmod	_	_
+8	ichantsin	chanti	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	6	advcl	_	_
+9	pos	pos	ADV	_	_	12	advmod	_	_
+10	ki...	ki	X	_	_	12	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	kitalilia	talilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	parataxis	_	_
+13	pos	pos	ADV	_	_	12	advmod	_	_
+14	ompa	ompa	ADV	_	_	6	parataxis	_	_
+15	no	no	ADV	_	_	14	advmod	_	_
+16	yetok	etok	AUX	_	Number[subj]=Sing|Person[subj]=3	14	cop	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a106
+# text = Amo keman nikitas mah ki..., mah kikwa, nijon, tapialtsin.
+# text[orig] = A:mo ke:man nikitas mah ki..., mah kikwa, nijó:n, tapialtsi:n.
+# text[spa] = Nunca lo veo que..., que lo coma, ese, animal doméstico.
+# labels = a106 sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	keman	keman	ADV	_	_	3	advmod	_	_
+3	nikitas	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Fut	0	root	_	_
+4	mah	ma	AUX	_	_	7	reparandum	_	_
+5	ki...	ki	X	_	_	8	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	mah	ma	AUX	_	_	8	aux	_	_
+8	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	nijon	nijon	PRON	_	_	8	dep	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	tapialtsin	tapial	NOUN	_	Polite=Form	8	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a108
+# text = Ne kwakwehtsin oso teisa ihkon se tapialtsin amo keman nikita mah ki..., kikwa.
+# text[orig] = Ne: kwa:kwehtsi:n oso teisá: ihkó:n se: tapialtsi:n a:mo ke:man nikita mah ki..., kikwa.
+# text[spa] = El res o algún animal así nunca lo veo que lo..., que lo coma.
+# labels = a108 sentence
+1	Ne	ne	DET	_	_	2	det	_	_
+2	kwakwehtsin	kuakohuej	NOUN	_	Polite=Form	10	dislocated	_	_
+3	oso	oso	CCONJ	_	_	4	cc	_	_
+4	teisa	teisa	PRON	_	_	2	conj	_	_
+5	ihkon	ijkon	ADV	_	_	4	advmod	_	_
+6	se	se	NUM	_	_	7	det	_	_
+7	tapialtsin	tapial	NOUN	_	Polite=Form	4	appos	_	_
+8	amo	amo	ADV	_	_	10	advmod	_	_
+9	keman	keman	ADV	_	_	10	advmod	_	_
+10	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+11	mah	ma	AUX	_	_	14	aux	_	_
+12	ki...	ki	X	_	_	14	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a127
+# text = Pos nehwa nimonotsa Anastacio Nicolas Damian, neh niwalew de xolal de San Miguel Tzinacapan.
+# text[orig] = Pos nehwa nimono:tsa Anastacio Nicolás Damián, neh niwa:le:w de xola:l de San Miguel Tzinacapan.
+# text[spa] = Pues yo me llamo Anastacio Nicolás Damián, yo vengo del pueblo de San Miguel Tzinacapan.
+# labels = a127 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	nehwa	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+3	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	Anastacio	Anastacio	PROPN	_	Gender=Masc	3	obj	_	_
+5	Nicolas	Nicolás	PROPN	_	Gender=Masc	4	flat	_	_
+6	Damian	Damián	PROPN	_	Gender=Masc	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	9	nsubj	_	_
+9	niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	3	parataxis	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	xolal	xolal	NOUN	_	Case=Abs	9	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	San	San	PROPN	_	_	11	appos	_	_
+14	Miguel	Miguel	PROPN	_	Gender=Masc	13	flat	_	_
+15	Tzinacapan	Tzinacapan	PROPN	_	_	13	flat	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a129
+# text = A wenoh, tasohkamatik.
+# text[orig] = A: we:noh, tasohka:matik.
+# text[spa] = A bueno, gracias.
+# labels = a129 sentence
+1	A	a	INTJ	_	_	0	root	_	_
+2	wenoh	huenoj	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	tasohkamatik	tasojkamatik	INTJ	_	_	1	discourse	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a38
+# text = A
+# text[orig] = A:
+# text[spa] = Aa
+# labels = a38 fragment
+1	A	a	INTJ	_	_	0	root	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a40
+# text = Tankwakwikwil, kemah.
+# text[orig] = Tankwa:kwi:kwil, ke:mah.
+# text[spa] = Tankwa:kwi:kwil, si.
+# labels = a40 sentence
+1	Tankwakwikwil	tankuakuikuil	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	kemah	kemaj	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a45
+# text = Mm, mm.
+# text[orig] = Mm, mm.
+# text[spa] = Si, si.
+# labels = a45 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mm	mm	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a47
+# text = Mm, mm.
+# text[orig] = Mm, mm.
+# text[spa] = Si, si.
+# labels = a47 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mm	mm	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a63
+# text = Kemah, kemah.
+# text[orig] = Ke:mah, ke:mah.
+# text[spa] = Si, si.
+# labels = a63 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	kemah	kemaj	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a67
+# text = Wan moskaltia wehkapan wan ixochio no kostik, kostik ixochio.
+# text[orig] = Wa:n moskaltia wehkapan wa:n ixo:chio no: kostik, kostik ixo:chio.
+# text[spa] = Y crece alto y sus flores también son amarillas, sus flores son amarillas.
+# labels = a67 sentence
+1	Wan	huan	CCONJ	_	_	2	cc	_	_
+2	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	wehkapan	huejkapan	ADJ	_	_	2	dep	_	_
+4	wan	huan	CCONJ	_	_	7	cc	_	_
+5	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
+6	no	no	ADV	_	_	7	advmod	_	_
+7	kostik	kostik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	kostik	kostik	ADJ	_	Number[subj]=Sing|Person[subj]=3	7	parataxis	_	_
+10	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a78
 # text = Kemah, mm.
 # text[orig] = Ke:mah, mm.
@@ -4598,6 +4758,18 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	kemah	kemaj	INTJ	_	_	1	discourse	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98:1
+# text = Kemah, kwaltia tapalan nochi.
+# text[orig] = Ke:mah, kwaltia tapala:n nochi.
+# text[spa] = Si, sirve todo para abono.
+# labels = a98 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	tapalan	tapalan	NOUN	_	Case=Abs	3	obl	_	_
+5	nochi	nochi	PRON	_	_	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a100:1
 # text = Kemah, kipalewia, kemah.

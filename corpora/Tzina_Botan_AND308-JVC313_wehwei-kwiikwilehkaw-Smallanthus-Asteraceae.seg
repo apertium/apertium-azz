@@ -1479,7 +1479,7 @@
 ^yon/yon$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74:1
 # text = Kemah, ipa xiwit sah mochiwa, yon soh mo..., moskaltia para tapalan sah, ihkon neh nik..., nik..., nikixmati. Mm.
 # text[orig] = Ke:mah, i:pa xiwit sah mochi:wa, yo:n soh mo..., moskaltia para tapala:n sah, ihkó:n neh nik..., nik..., niki:xmati. Mm.
 # text[spa] = Si, nada más se hace hierba, ese nada más..., nada más crece para abono, así yo lo..., lo..., lo conozco. Si.
@@ -1508,6 +1508,12 @@
 ^,/,$
 ^nikixmati/nikixmati$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74:1
+# text = Kemah, ipa xiwit sah mochiwa, yon soh mo..., moskaltia para tapalan sah, ihkon neh nik..., nik..., nikixmati. Mm.
+# text[orig] = Ke:mah, i:pa xiwit sah mochi:wa, yo:n soh mo..., moskaltia para tapala:n sah, ihkó:n neh nik..., nik..., niki:xmati. Mm.
+# text[spa] = Si, nada más se hace hierba, ese nada más..., nada más crece para abono, así yo lo..., lo..., lo conozco. Si.
+# labels = a74 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -1709,7 +1715,7 @@
 ^kemah/kemah$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98:1
 # text = Kemah, kwaltia tapalan nochi. Nochi tein palani nochi kipalewia talmanik para teisa ne tatok ne ki..., kikwa ya.
 # text[orig] = Ke:mah, kwaltia tapala:n nochi. Nochi tein pala:ni nochi kipale:wia ta:lmanik para teisá: ne: tato:k ne: ki..., kikwa ya.
 # text[spa] = Si, sirve todo para abono. Todo lo que se pudre todo le ayuda a la tierra para algo de siembra este lo..., ya lo come.
@@ -1720,6 +1726,12 @@
 ^tapalan/tapalan$
 ^nochi/nochi$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98:2
+# text = Kemah, kwaltia tapalan nochi. Nochi tein palani nochi kipalewia talmanik para teisa ne tatok ne ki..., kikwa ya.
+# text[orig] = Ke:mah, kwaltia tapala:n nochi. Nochi tein pala:ni nochi kipale:wia ta:lmanik para teisá: ne: tato:k ne: ki..., kikwa ya.
+# text[spa] = Si, sirve todo para abono. Todo lo que se pudre todo le ayuda a la tierra para algo de siembra este lo..., ya lo come.
+# labels = a98 sentence
 ^Nochi/Nochi$
 ^tein/tein$
 ^palani/palani$

@@ -1141,44 +1141,39 @@
 # text[spa] = Si, de ahí no se moja donde su casa lo..., le pone pues ahí está también.
 # labels = a85 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<de>"
-	"de" pr
+	"de" pr @case #3->4
 "<ompa>"
-	"ompa" adv
+	"ompa" adv @advmod #4->6
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #5->6
 "<apaliwi>"
-	"apalihui" v iv pres s_sg3
+	"apalihui" v iv pres s_sg3 @root #6->0
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #7->8
 "<ichantsin>"
-	"chanti" n hon px3sg
+	"chanti" n hon px3sg @advcl #8->6
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #9->12
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #10->12
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->10
 "<kitalilia>"
-	"talilia" v tv pres s_sg3 i_sg3
-	"talilia" v tv pres s_sg3 i_sg3 o_pl3
-	"talilia" v tv pres s_sg3 i_sg3 o_sg3
+	"talilia" v tv pres s_sg3 i_sg3 o_sg3 @parataxis #12->6
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #13->12
 "<ompa>"
-	"ompa" adv
+	"ompa" adv @parataxis #14->6
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #15->14
 "<yetok>"
-	"etok" cop s_sg3
+	"etok" cop s_sg3 @cop #16->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->6
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a87
 # text = Yon kemasa neh nik..., nikita kipapatankawia ihkon.
@@ -1535,21 +1530,17 @@
 # text[spa] = El abono lo extiende uno, este.
 # labels = a99 sentence
 "<Tapalan>"
-	"tapalan" n abs
-	"tapalan" n abs s_sg3
-;	"tapalan" n abs s_pl3
+	"tapalan" n abs @obj #1->3
 "<se>"
-	"se" num
+	"se" num @nsubj #2->3
 "<kitetema>"
 	"*kitetema"
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->5
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" det @discourse #5->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->3
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a101
 # text = Kipalewia nen taltsin, nen talmanik wan pos ompa ewi a ne seki, okseki nen xiwtsitsin tein seki, nen, tein se kikwa o seki tein ompa moskaltia ya.
@@ -1716,33 +1707,29 @@
 # text[spa] = pues amarran, este, el animal doméstico solamente así lo tira, así lo quiebra.
 # labels = a104 fragment
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod
 "<kilpiah>"
-	"*kilpiah"
+	"ilpiya" v tv pres s_pl3 o_sg3 @root
 "<,>"
 	"," cm @punct
 "<nen>"
 	"nen" ij @discourse
-	"nen" prn
 "<,>"
 	"," cm @punct
 "<tapialtsin>"
 	"tapial" n hon
-;	"tapial" n hon s_pl3
-;	"tapial" n hon s_sg3
 "<ihkon>"
 	"ijkon" adv
 "<kitatamotah>"
-	"tamota" v tv pres s_pl3 i_sg3 o_nn
 	"tamota" v tv pret s_sg3 i_sg3 o_nn
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod
 "<,>"
 	"," cm @punct
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<kiposteki>"
-	"posteki" v tv pres s_sg3 o_sg3
+	"posteki" v tv pres s_sg3 o_sg3 @parataxis
 "<.>"
 	"." sent @punct
 
@@ -1752,33 +1739,31 @@
 # text[spa] = Nunca lo veo que..., que lo coma, ese, animal doméstico.
 # labels = a106 sentence
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod #1->3
 "<keman>"
-	"keman" adv
+	"keman" adv @advmod #2->3
 "<nikitas>"
-	"ita" v tv fut s_sg1 o_sg3
+	"ita" v tv fut s_sg1 o_sg3 @root #3->0
 "<mah>"
-	"ma" aux
+	"ma" aux @reparandum #4->7
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #5->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->5
 "<mah>"
-	"ma" aux
+	"ma" aux @aux #7->8
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @conj #8->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->10
 "<nijon>"
-	"nijon" prn
+	"nijon" prn @dep #10->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->12
 "<tapialtsin>"
-	"tapial" n hon
-;	"tapial" n hon s_pl3
-;	"tapial" n hon s_sg3
+	"tapial" n hon @nsubj #12->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->3
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a108
 # text = Ne kwakwehtsin oso teisa ihkon se tapialtsin amo keman nikita mah ki..., kikwa.
@@ -1786,39 +1771,35 @@
 # text[spa] = El res o algún animal así nunca lo veo que lo..., que lo coma.
 # labels = a108 sentence
 "<Ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" det @det #1->2
 "<kwakwehtsin>"
-	"*kwakwehtsin"
+	"kuakohuej" n hon @dislocated #2->10
 "<oso>"
-	"oso" cnjcoo @cc
+	"oso" cnjcoo @cc #3->4
 "<teisa>"
-	"teisa" prn
+	"teisa" prn @conj #4->2
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #5->4
 "<se>"
-	"se" num
+	"se" num @det #6->7
 "<tapialtsin>"
-	"tapial" n hon
-;	"tapial" n hon s_pl3
-;	"tapial" n hon s_sg3
+	"tapial" n hon @appos #7->4
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #8->10
 "<keman>"
-	"keman" adv
+	"keman" adv @advmod #9->10
 "<nikita>"
-	"ita" v tv pres s_sg1 o_sg3
+	"ita" v tv pres s_sg1 o_sg3 @root #10->0
 "<mah>"
-	"ma" aux
+	"ma" aux @aux #11->14
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #12->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #13->14
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @conj #14->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->10
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a110
 # text = Amo kikwah wan pos yehwa yon se, se molia, nijon, yehwa ekintsin nikan tinentinemih in kowtah,
@@ -2301,66 +2282,37 @@
 # text[spa] = Pues yo me llamo Anastacio Nicolás Damián, yo vengo del pueblo de San Miguel Tzinacapan.
 # labels = a127 sentence
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->3
 "<nehwa>"
-	"nehua" prn pers sg1
+	"nehua" prn pers sg1 @nsubj #2->3
 "<nimonotsa>"
-	"notsa" v tv pres s_sg1 i_ref o_sg3
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @root #3->0
 "<Anastacio>"
-	"Anastacio" np ant m
-;	"Anastacio" np ant m s_pl3
-;	"Anastacio" np ant m s_sg3
+	"Anastacio" np ant m @obj #4->3
 "<Nicolas>"
-	"Nicolás" np ant m
-	"in" det
-		"cola" n f pl px3sg
-	"cola" n f pl px3sg
-	"cola" n f pl s_sg1
-	"Nicolás" np ant m s_sg3
-;	"Nicolás" np ant m s_pl3
+	"Nicolás" np ant m @flat #5->4
 "<Damian>"
-	"Damián" np ant m
-;	"Damián" np ant m s_pl3
-;	"Damián" np ant m s_sg3
+	"Damián" np ant m @flat #6->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->9
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #8->9
 "<niwalew>"
-	"hualeu" v iv pres s_sg1
-	"hualeu" v iv pret s_sg1
+	"hualeu" v iv pres s_sg1 @parataxis #9->3
 "<de>"
-	"de" pr
+	"de" pr @case #10->11
 "<xolal>"
-	"xolal" n abs
-;	"xolal" n abs s_pl3
-;	"xolal" n abs s_sg3
+	"xolal" n abs @obl #11->9
 "<de>"
-	"de" pr
+	"de" pr @case #12->13
 "<San>"
-	"San" np top
-;	"san" adv
-;	"San" np top s_pl3
-;	"San" np top s_sg3
+	"San" np top @appos #13->11
 "<Miguel>"
-	"Miguel" np ant m @flat
-	"Miguel" np top
-;	"Miguel" np ant m s_pl3
-;	"Miguel" np top s_pl3
-;	"Miguel" np ant m s_sg3
-;	"Miguel" np top s_sg3
+	"Miguel" np ant m @flat #14->13
 "<Tzinacapan>"
-	"Tzinacapan" np top
-	"tsinaka" n cmp @nmod
-		"pan" n rel
-;	"Tzinacapan" np top s_pl3
-;	"tsinaka" n cmp s_pl3
-;		"pan" n rel
-;	"Tzinacapan" np top s_sg3
-;	"tsinaka" n cmp s_sg3
-;		"pan" n rel
+	"Tzinacapan" np top @flat #15->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->3
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a129
 # text = A wenoh, tasohkamatik.
@@ -2368,15 +2320,15 @@
 # text[spa] = A bueno, gracias.
 # labels = a129 sentence
 "<A>"
-	"a" ij @discourse
+	"a" ij @discourse #1->0
 "<wenoh>"
-	"huenoj" ij @discourse
+	"huenoj" ij @discourse #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->4
 "<tasohkamatik>"
-	"tasojkamatik" ij @discourse
+	"tasojkamatik" ij @discourse #4->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a35
 # text = Bueno, pos sepa ne nikan timonohnotsah ne, ne nimitstahtanisneki ox tikixmattok yon seki xiwit ata mochiwa ata wehkapan
@@ -2475,7 +2427,7 @@
 # text[spa] = Aa
 # labels = a38 fragment
 "<A>"
-	"a" ij @discourse
+	"a" ij @discourse @root #1->0
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a40
 # text = Tankwakwikwil, kemah.
@@ -2483,15 +2435,13 @@
 # text[spa] = Tankwa:kwi:kwil, si.
 # labels = a40 sentence
 "<Tankwakwikwil>"
-	"tankuakuikuil" n abs
-	"tankuakuikuil" n abs s_sg3
-;	"tankuakuikuil" n abs s_pl3
+	"tankuakuikuil" n abs @root #1->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->3
 "<kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a45
 # text = Mm, mm.
@@ -2499,13 +2449,13 @@
 # text[spa] = Si, si.
 # labels = a45 sentence
 "<Mm>"
-	"mm" ij @discourse
+	"mm" ij @discourse #1->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->3
 "<mm>"
-	"mm" ij @discourse
+	"mm" ij @discourse #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a47
 # text = Mm, mm.
@@ -2513,13 +2463,13 @@
 # text[spa] = Si, si.
 # labels = a47 sentence
 "<Mm>"
-	"mm" ij @discourse
+	"mm" ij @discourse #1->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->3
 "<mm>"
-	"mm" ij @discourse
+	"mm" ij @discourse #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a63
 # text = Kemah, kemah.
@@ -2527,13 +2477,13 @@
 # text[spa] = Si, si.
 # labels = a63 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->3
 "<kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a65
 # text = Pos neh amo n'mati o..., pane amo pahti yon kikwih sayoh, nejon,.... Wan neh nikixmati no iwki yon wehwei kwikwilehkaw oso tankwakwikwil.
@@ -2675,35 +2625,27 @@
 # text[spa] = Y crece alto y sus flores también son amarillas, sus flores son amarillas.
 # labels = a67 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->2
 "<moskaltia>"
-	"moskaltia" v iv pres s_sg3
-	"iskaltia" v tv pres s_sg3 o_ref
+	"moskaltia" v iv pres s_sg3 @root #2->0
 "<wehkapan>"
-	"huejkapan" adj
-	"huejkapan" adj s_sg3
+	"huejkapan" adj @dep #3->2
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #4->7
 "<ixochio>"
-	"xochiot" n px3sg
+	"xochiot" n px3sg @nsubj #5->7
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #6->7
 "<kostik>"
-	"kostik" adj
-	"kostia" v iv pret s_sg3
-	"kostik" adj s_sg3
+	"kostik" adj s_sg3 @conj #7->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<kostik>"
-	"kostik" adj
-	"kostia" v iv pret s_sg3
-	"kostik" adj s_sg3
+	"kostik" adj s_sg3 @parataxis #9->7
 "<ixochio>"
-	"xochiot" n px3sg
+	"xochiot" n px3sg @nsubj #10->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->2
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a68
 # text = Wan motaktsontalia, amo poliwi itaktsoyo soh, maski se kiteximas wan komamo se kiteximas pos sepa itsmolini, amo keman poliwi yon, wehkawa etok ompa
@@ -3050,72 +2992,70 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74
-# text = Kemah, ipa xiwit sah mochiwa, yon soh mo..., moskaltia para tapalan sah, ihkon neh nik..., nik..., nikixmati. Mm.
-# text[orig] = Ke:mah, i:pa xiwit sah mochi:wa, yo:n soh mo..., moskaltia para tapala:n sah, ihkó:n neh nik..., nik..., niki:xmati. Mm.
-# text[spa] = Si, nada más se hace hierba, ese nada más..., nada más crece para abono, así yo lo..., lo..., lo conozco. Si.
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74:1
+# text = Kemah, ipa xiwit sah mochiwa, yon soh mo..., moskaltia para tapalan sah, ihkon neh nik..., nik..., nikixmati.
+# text[orig] = Ke:mah, i:pa xiwit sah mochi:wa, yo:n soh mo..., moskaltia para tapala:n sah, ihkó:n neh nik..., nik..., niki:xmati.
+# text[spa] = Si, nada más se hace hierba, ese nada más..., nada más crece para abono, así yo lo..., lo..., lo conozco.
 # labels = a74 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<ipa>"
-	"ipa" adv
-	"pajti" n px3sg
-	"pa" n px3sg
+	"ipa" adv @advmod #3->6
 "<xiwit>"
-	"xihuit" n abs
-;	"xihuit" n abs s_pl3
-;	"xihuit" n abs s_sg3
+	"xihuit" n abs @nsubj #4->6
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #5->6
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root #6->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->13
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<soh>"
-	"soj" adv
+	"soj" adv @advmod #10->13
 "<mo...>"
-	"mo" x @reparandum
+	"mo" x @reparandum #11->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->11
 "<moskaltia>"
-	"moskaltia" v iv pres s_sg3
-	"iskaltia" v tv pres s_sg3 o_ref
+	"moskaltia" v iv pres s_sg3 @dep #13->
 "<para>"
-	"para" cnjsub @mark
-	"para" pr
+	"para" pr @case #14->15
 "<tapalan>"
-	"tapalan" n abs
-;	"tapalan" n abs s_pl3
-;	"tapalan" n abs s_sg3
+	"tapalan" n abs @obl #15->13
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #16->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #17->24
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #18->24
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #19->24
 "<nik...>"
-	"nik" x @reparandum
+	"nik" x @reparandum #20->24
 "<,>"
-	"," cm @punct
+	"," cm @punct #21->20
 "<nik...>"
-	"nik" x @reparandum
+	"nik" x @reparandum #22->24
 "<,>"
-	"," cm @punct
+	"," cm @punct #23->22
 "<nikixmati>"
-	"ixmati" v tv pres s_sg1 o_sg3
+	"ixmati" v tv pres s_sg1 o_sg3 @parataxis #24->
 "<.>"
-	"." sent @punct
+	"." sent @punct #25->6
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Si.
+# labels = a74 sentence
 "<Mm>"
-	"mm" ij @root
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a76
 # text = Pero, pero amo, amo, amo ayoh yon, soh kitatemoliah sah pero amo ayoh yon xiwitsin, wakkatik sah ixochiotsin, mahya xilwas sah.
@@ -3123,17 +3063,17 @@
 # text[spa] = Pero, pero no, no, ese no tiene agua, nada más le busca pero esa hierba no tiene agua, sus flores son secas, nada más como si fuera escobeta.
 # labels = a76 sentence
 "<Pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @reparandum
 "<,>"
 	"," cm @punct
 "<pero>"
 	"pero" cnjcoo @cc
 "<amo>"
-	"amo" adv
+	"amo" adv @reparandum
 "<,>"
 	"," cm @punct
 "<amo>"
-	"amo" adv
+	"amo" adv @reparandum
 "<,>"
 	"," cm @punct
 "<amo>"
@@ -3148,12 +3088,12 @@
 "<,>"
 	"," cm @punct
 "<soh>"
-	"soj" adv
+	"soj" adv @advmod
 "<kitatemoliah>"
 	"temolia" v tv pres s_pl3 i_sg3 o_nn
 	"temolia" v tv pret s_sg3 i_sg3 o_nn
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod
 "<pero>"
 	"pero" cnjcoo @cc
 "<amo>"
@@ -3483,57 +3423,52 @@
 "<.>"
 	"." sent @punct #5->1
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98
-# text = Kemah, kwaltia tapalan nochi. Nochi tein palani nochi kipalewia talmanik para teisa ne tatok ne ki..., kikwa ya.
-# text[orig] = Ke:mah, kwaltia tapala:n nochi. Nochi tein pala:ni nochi kipale:wia ta:lmanik para teisá: ne: tato:k ne: ki..., kikwa ya.
-# text[spa] = Si, sirve todo para abono. Todo lo que se pudre todo le ayuda a la tierra para algo de siembra este lo..., ya lo come.
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98:1
+# text = Kemah, kwaltia tapalan nochi. 
+# text[orig] = Ke:mah, kwaltia tapala:n nochi. 
+# text[spa] = Si, sirve todo para abono. 
 # labels = a98 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<kwaltia>"
-	"kualtia" v iv pres s_sg3
+	"kualtia" v iv pres s_sg3 @root #3->0
 "<tapalan>"
-	"tapalan" n abs
-;	"tapalan" n abs s_pl3
-;	"tapalan" n abs s_sg3
+	"tapalan" n abs @obl #4->3
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @nsubj #5->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->3
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98:2
+# text = Nochi tein palani nochi kipalewia talmanik para teisa ne tatok ne ki..., kikwa ya.
+# text[orig] = Nochi tein pala:ni nochi kipale:wia ta:lmanik para teisá: ne: tato:k ne: ki..., kikwa ya.
+# text[spa] = Todo lo que se pudre todo le ayuda a la tierra para algo de siembra este lo..., ya lo come.
+# labels = a98 sentence
 "<Nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @dislocated
 "<tein>"
-	"tein" prn
+	"tein" prn @nsubj
 "<palani>"
-	"palani" v iv pres s_sg3
+	"palani" v iv pres s_sg3 @acl:relcl
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @nsubj
 "<kipalewia>"
-	"palehuia" v tv pres s_sg3 o_sg3
+	"palehuia" v tv pres s_sg3 o_sg3 @root
 "<talmanik>"
-	"talmanik" n abs
-;	"talmanik" n abs s_pl3
-;	"talmanik" n abs s_sg3
+	"talmanik" n abs @obj
 "<para>"
-	"para" cnjsub @mark
-	"para" pr
+	"para" pr @case
 "<teisa>"
-	"teisa" prn
+	"teisa" prn @obl
 "<ne>"
 	"nehua" prn pers sg1 short
 	"ne" adv
 	"ne" det
 "<tatok>"
 	"tatok" n abs
-;	"tatok" n abs s_pl3
-;	"tatok" n abs s_sg3
 "<ne>"
-	"nehua" prn pers sg1 short
 	"ne" adv
 	"ne" det
 "<ki...>"
@@ -3541,9 +3476,9 @@
 "<,>"
 	"," cm @punct
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @parataxis
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod
 "<.>"
 	"." sent @punct
 

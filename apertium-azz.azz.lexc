@@ -1151,6 +1151,14 @@ piya:pix                                           V-SO-PROG  ;
 piya:pix                                           V-SO-PRET  ; 
 piya:piya                                          V-SO-FUTR  ; 
 
+! "amarrar"
+ilpiya:ilpiya                                      V-SO-PRES  ; 
+ilpiya:ilpiya                                      V-SO-IMPF  ;
+ilpiya:ilpix                                       V-SO-PROG  ;
+ilpiya:ilpix                                       V-SO-PRET  ; 
+ilpiya:ilpiya                                      V-SO-FUTR  ; 
+
+
 ! "encontrar"
 namiki:namiki                                      V-SO-PRES  ; 
 namiki:namiki                                      V-SO-IMPF  ;
