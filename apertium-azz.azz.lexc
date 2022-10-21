@@ -1274,6 +1274,13 @@ kui:kui                                             V-SO-PRET ;
 kui:kui                                             V-SO-FUTR ;
 
 ! "regar"
+ixpolohua:ixpolohua                                 V-SO-PRES ;
+ixpolohua:ixpolohua                                 V-SO-IMPF ;
+ixpolohua:ixpolohua                                 V-SO-PROG ;
+ixpolohua:ixpolohua                                 V-SO-PRET ;
+ixpolohua:ixpolohua                                 V-SO-FUTR ;
+
+! "regar"
 tepehua:tepehua                                     V-SO-PRES ;
 tepehua:tepehua                                     V-SO-IMPF ;
 tepehua:tepehua                                     V-SO-PROG ;
@@ -1286,6 +1293,13 @@ taluia:taluia                                       V-SO-IMPF ;
 taluia:talui                                        V-SO-PROG ;
 taluia:talui                                        V-SO-PRET ;
 taluia:talui                                        V-SO-FUTR ;
+
+! ""
+kuapi:kuapi                                         V-SO-PRES ;
+kuapi:kuapi                                         V-SO-IMPF ;
+kuapi:kuapi                                         V-SO-PROG ;
+kuapi:kuapi                                         V-SO-PRET ;
+kuapi:kuapi                                         V-SO-FUTR ;
 
 
 ! "matar"
@@ -2610,8 +2624,8 @@ servirohua:serbiro                                  V-SI-FUTR ;
 ! "poner"
 talilia:talilia                                     V-SI-PRES ;
 talilia:talilia                                     V-SI-IMPF ;
-talilia:talilia                                     V-SI-PROG ;
-talilia:talilia                                     V-SI-PRET ;
+talilia:talili                                      V-SI-PROG ;
+talilia:talili                                      V-SI-PRET ;
 talilia:talili                                      V-SI-FUTR ;
 
 ! "sembrar"
@@ -5630,6 +5644,7 @@ koukamoj:koukamoj                                   N-Ø ; ! "yuca"
 posok:posok                                         N-Ø ; ! "espuma"
 nan:nan                                             N-Ø ; ! "mamá"
 kuakohuej:kuakohuej                                 N-Ø ; ! "ganado"
+kuakohuej:kuakuohuej                                N-Ø ; ! "ganado"
 kakahuat:kakahua                                    N-TL ; ! "cacahuate"
 iutok:iutok                                         N-Ø ; ! "igual"
 yolchikahuak:yolchikahuak                           N-Ø ; ! "valiente"
