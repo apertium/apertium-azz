@@ -4495,6 +4495,46 @@
 5	kikuaj	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:1
+# text = Amo nikmati ox kipipina porque pane wakkatik.
+# text[orig] = A:mo nikmati ox kipipi:na *porque** pané: wa:kkatik.
+# text[spa] = No sé si lo chupa porque parece ser seco.
+# labels = a77 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	nikmati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ox	ox	SCONJ	_	_	4	mark	_	_
+4	kipipina	pipina	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	_
+5	porque	porque	SCONJ	_	_	7	mark	_	_
+6	pane	pane	ADV	_	_	7	advmod	_	_
+7	wakkatik	huakkatik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:2
+# text = Kitatemolia.
+# text[orig] = Kitate:molia.
+# text[spa] = Le busca algo.
+# labels = a77 sentence
+1	Kitatemolia	temolia	VERB	_	Animacy[obj]=Inan|Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a79
+# text = Kemasa ompa kitalia, ne, itapahsol, ihkon kichihchiwa ichantsin.
+# text[orig] = Ke:masá: ompa kita:lia, ne:, itapahsol, ihkó:n kichihchi:wa icha:ntsi:n.
+# text[spa] = A veces ahí pone, este, su nido, así hace su casita.
+# labels = a79 sentence
+1	Kemasa	kemasa	ADV	_	_	3	advmod	_	_
+2	ompa	ompa	ADV	_	_	3	advmod	_	_
+3	kitalia	talia	VERB	_	Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	ne	ne	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	itapahsol	tapajsol	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	dep	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	ihkon	ijkon	ADV	_	_	10	advmod	_	_
+10	kichihchiwa	chijchihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
+11	ichantsin	chanti	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?

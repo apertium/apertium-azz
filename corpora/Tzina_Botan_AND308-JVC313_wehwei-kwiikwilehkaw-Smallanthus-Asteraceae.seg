@@ -1,0 +1,1936 @@
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a37
+# text = Pos neh niktokaitia ne wehweita...,
+# text[orig] = Pos neh nikto:ka:itia ne: wehweita...,
+# text[spa] = Pues yo lo llamo este grand...,,
+# labels = a37 fragment
+^Pos/Pos$
+^neh/neh$
+^niktokaitia/niktokaitia$
+^ne/ne$
+^wehweita/wehweita$
+^.../...$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a39
+# text = Wehwei ehkawkwikwil.
+# text[orig] = Wehwei ehkawkwi:kwil.
+# text[spa] = grandes ehkawkwi:kwil.
+# labels = a39 sentence
+^Wehwei/Wehwei$
+^ehkawkwikwil/ehkawkwikwil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a41
+# text = Wani no niktokaitia yon no tan..., tankwakwikwil, mismo yehwa.
+# text[orig] = Wa:ni no: nikto:ka:itia yo:n no: tan..., tankwa:kwi:kwil, *mismo** yehwa.
+# text[spa] = Y también lo nombro ese también..., tankwa:kwi:kwil, es lo mismo.
+# labels = a41 sentence
+^Wani/Wani$
+^no/no$
+^niktokaitia/niktokaitia$
+^yon/yon$
+^no/no$
+^tan/tan$
+^.../...$
+^,/,$
+^tankwakwikwil/tankwakwikwil$
+^,/,$
+^mismo/mismo$
+^yehwa/yehwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a42
+# text = Yon tankwakwikwil, nen, de pewa nen itsintan moskaltia, wehwei mochiwa.
+# text[orig] = Yo:n tankwa:kwi:kwil, ne:n, de pe:wa ne:n itsi:ntan moskaltia, wehwei mochi:wa.
+# text[spa] = Ese tankwa:kwi:kwil, este, de que ya empieza acrecer de su base, se hacen grandes.
+# labels = a42 sentence
+^Yon/Yon$
+^tankwakwikwil/tankwakwikwil$
+^,/,$
+^nen/nen$
+^,/,$
+^de/de$
+^pewa/pewa$
+^nen/nen$
+^itsintan/itsintan$
+^moskaltia/moskaltia$
+^,/,$
+^wehwei/wehwei$
+^mochiwa/mochiwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a43
+# text = Wan yon se ki..., ompa itsmolini wan pankisa, weweyakia
+# text[orig] = Wa:n yo:n se: ki..., ompa itsmoli:ni wa:n panki:sa, we:weyakia
+# text[spa] = Y ese lo..., ahí retoña y sube, se hacen largos
+# labels = a43 fragment
+^Wan/Wan$
+^yon/yon$
+^se/se$
+^ki.../ki...$
+^,/,$
+^ompa/ompa$
+^itsmolini/itsmolini$
+^wan/wan$
+^pankisa/pankisa$
+^,/,$
+^weweyakia/weweyakia$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a44
+# text = wan motalia i..., ixochiotsin, nen, kostik.
+# text[orig] = wa:n mota:lia i..., ixo:chiotsi:n, ne:n, kostik.
+# text[spa] = y se pone..., sus flores, este, son amarillas.
+# labels = a44 fragment
+^wan/wan$
+^motalia/motalia$
+^i.../i...$
+^,/,$
+^ixochiotsin/ixochiotsin$
+^,/,$
+^nen/nen$
+^,/,$
+^kostik/kostik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a46
+# text = Kemeskia teyowa kostik wan ompa ne.... No waki seki.
+# text[orig] = Ke:meskia teyowa kostik wa:n ompa ne: .... No: wa:ki seki.
+# text[spa] = Como si fuera que da frutos amarillos y ahí este... También se secan unos.
+# labels = a46 sentence
+^Kemeskia/Kemeskia$
+^teyowa/teyowa$
+^kostik/kostik$
+^wan/wan$
+^ompa/ompa$
+^ne/ne$
+^.../...$
+^./.$
+^No/No$
+^waki/waki$
+^seki/seki$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a48
+# text = No waki pero yon se kita ne kampa, kemeh ekintsin tinentinemih ne kowtah, kahfentah,
+# text[orig] = No: wa:ki pero yo:n se: kita ne: ka:mpa, ke:meh ekintsi:n tinentinemih ne: kowtah, kahfe:ntah,
+# text[spa] = También se seca pero ese lo ve uno allá donde, como ahora andamos en el monte o en los cafetales,
+# labels = a48 fragment
+^No/No$
+^waki/waki$
+^pero/pero$
+^yon/yon$
+^se/se$
+^kita/kita$
+^ne/ne$
+^kampa/kampa$
+^,/,$
+^kemeh/kemeh$
+^ekintsin/ekintsin$
+^tinentinemih/tinentinemih$
+^ne/ne$
+^kowtah/kowtah$
+^,/,$
+^kahfentah/kahfentah$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a49
+# text = pos ompa tikitah siempre miak onkak.
+# text[orig] = pos ompa tikitah *siempre** miak onkak.
+# text[spa] = Pues allá vemos que siempre hay muchas.
+# labels = a49 fragment
+^pos/pos$
+^ompa/ompa$
+^tikitah/tikitah$
+^siempre/siempre$
+^miak/miak$
+^onkak/onkak$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a50
+# text = Wan in solamente antes tikwiwitayah, ihkon kasa ika, yon ko..., kowit se kixihximaya wan se tatsoponiaya
+# text[orig] = Wa:n i:n *solamente antes** tikwiwitayah, ihkó:n ka:sá: i[ka], yo:n ko..., kowit se: kixihxi:maya wa:n se: tatsopo:nia:ya
+# text[spa] = Y solamente antes lo arrancábamos, así en algún lugar con. ese si..., labrábamos un palo y con eso picábamos en la tierra
+# labels = a50 fragment
+^Wan/Wan$
+^in/in$
+^solamente/solamente$
+^antes/antes$
+^tikwiwitayah/tikwiwitayah$
+^,/,$
+^ihkon/ihkon$
+^kasa/kasa$
+^ika/ika$
+^,/,$
+^yon/yon$
+^ko/ko$
+^.../...$
+^,/,$
+^kowit/kowit$
+^se/se$
+^kixihximaya/kixihximaya$
+^wan/wan$
+^se/se$
+^tatsoponiaya/tatsoponiaya$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a51
+# text = ompa se kichkwaya para waki a tepitsin.
+# text[orig] = ompa se: kichkwaya para wa:ki a tepitsi:n.
+# text[spa] = de ahí lo  escarbaba uno para que se secara tantito.
+# labels = a51 fragment
+^ompa/ompa$
+^se/se$
+^kichkwaya/kichkwaya$
+^para/para$
+^waki/waki$
+^a/a$
+^tepitsin/tepitsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a52
+# text = Kemeh ne tekwako se kitaliaya, tepitsin waki a,
+# text[orig] = Ke:meh ne: tekwa:ko se: kita:lia:ya, tepitsi:n wa:ki a,
+# text[spa] = Como allá encima de una piedra lo ponía uno y ya se secaba,
+# labels = a52 fragment
+^Kemeh/Kemeh$
+^ne/ne$
+^tekwako/tekwako$
+^se/se$
+^kitaliaya/kitaliaya$
+^,/,$
+^tepitsin/tepitsin$
+^waki/waki$
+^a/a$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a53
+# text = no mismo yehwa de n' wehwei, wehwei kilit de n' kwikwil porque
+# text[orig] = no: *mismo** yehwa de n' wehwei, wehwei kilit de n' kwi:kwil *porque**
+# text[spa] = es el mismo de los grandes, de los quelites grandes del kwi:kwil porque
+# labels = a53 fragment
+^no/no$
+^mismo/mismo$
+^yehwa/yehwa$
+^de/de$
+^n'/n'$
+^wehwei/wehwei$
+^,/,$
+^wehwei/wehwei$
+^kilit/kilit$
+^de/de$
+^n'/n'$
+^kwikwil/kwikwil$
+^porque/porque$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a54
+# text = pos seki kwikwiltik ti..., tikitah ekintsin, de n' wehwei wan seki achi de n' selik
+# text[orig] = pos seki kwi:kwiltik ti..., tikitah ekintsi:n, de n' wehwei wa:n seki achi de n' selik
+# text[spa] = pues unos son rayados lo..., lo vemos hoy, de los grandes y otros son de los un poco tiernos
+# labels = a54 fragment
+^pos/pos$
+^seki/seki$
+^kwikwiltik/kwikwiltik$
+^ti.../ti...$
+^,/,$
+^tikitah/tikitah$
+^ekintsin/ekintsin$
+^,/,$
+^de/de$
+^n'/n'$
+^wehwei/wehwei$
+^wan/wan$
+^seki/seki$
+^achi/achi$
+^de/de$
+^n'/n'$
+^selik/selik$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a55
+# text = mochiwtiw ihkon kwikwilewtiw a hasta, hasta moskaltia ya.
+# text[orig] = mochi:wtiw ihkó:n kwi:kwile:wtiw a *hasta, hasta** moskaltia ya.
+# text[spa] = se va haciendo así el kwi:kwilehkaw hasta, hasta que ya crece.
+# labels = a55 fragment
+^mochiwtiw/mochiwtiw$
+^ihkon/ihkon$
+^kwikwilewtiw/kwikwilewtiw$
+^a/a$
+^hasta/hasta$
+^,/,$
+^hasta/hasta$
+^moskaltia/moskaltia$
+^ya/ya$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a56
+# text = Wan yeh yon neh amo nikmati kox kwali para pahti oso para se kinimaka piotsitsin o pitsotsitsin nochi
+# text[orig] = Wan yeh yo:n neh a:mo nikmati kox kwali para pahti oso para se: kinimaka pio:tsitsi:n *o** pitsotsitsi:n nochi
+# text[spa] = Y ese yo no sé si es que sirve para remedio o para darles a los pollos o todo para los cerdos
+# labels = a56 fragment
+^Wan/Wan$
+^yeh/yeh$
+^yon/yon$
+^neh/neh$
+^amo/amo$
+^nikmati/nikmati$
+^kox/kox$
+^kwali/kwali$
+^para/para$
+^pahti/pahti$
+^oso/oso$
+^para/para$
+^se/se$
+^kinimaka/kinimaka$
+^piotsitsin/piotsitsin$
+^o/o$
+^pitsotsitsin/pitsotsitsin$
+^nochi/nochi$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a57
+# text = pos yehwa yon neh amo nikmati, neh nikita soh in tankwakwikwil newin kampa tinentinemih ekintsin ne kowtah
+# text[orig] = pos yehwa yo:n neh a:mo nikmati, neh nikita soh i:n [tan]kwa:kwi:kwil ne:wí:n ka:mpa tinentinemih ekintsi:n ne: kowtah
+# text[spa] = pues eso es lo que yo no sé, yo nada más veo este tankwa:kwi:kwil allá donde andamos en el monte
+# labels = a57 fragment
+^pos/pos$
+^yehwa/yehwa$
+^yon/yon$
+^neh/neh$
+^amo/amo$
+^nikmati/nikmati$
+^,/,$
+^neh/neh$
+^nikita/nikita$
+^soh/soh$
+^in/in$
+^tankwakwikwil/tankwakwikwil$
+^newin/newin$
+^kampa/kampa$
+^tinentinemih/tinentinemih$
+^ekintsin/ekintsin$
+^ne/ne$
+^kowtah/kowtah$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a58
+# text = pos tikitstinemih pero nikita xochiowa kohkostik.
+# text[orig] = pos tikitstinemih pero nikita xo:chiowa kohkostik.
+# text[spa] = pues lo andamos viendo y veo que florece con flores amarillas.
+# labels = a58 fragment
+^pos/pos$
+^tikitstinemih/tikitstinemih$
+^pero/pero$
+^nikita/nikita$
+^xochiowa/xochiowa$
+^kohkostik/kohkostik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a59
+# text = Pero amo nikita ne kox kwaltia para tapalan oso kowtatil.
+# text[orig] = Pero a:mo nikita ne: kox kwaltia para tapala:n oso kowtati:l.
+# text[spa] = Pero no lo veo si es que sirve para abono o para leña.
+# labels = a59 sentence
+^Pero/Pero$
+^amo/amo$
+^nikita/nikita$
+^ne/ne$
+^kox/kox$
+^kwaltia/kwaltia$
+^para/para$
+^tapalan/tapalan$
+^oso/oso$
+^kowtatil/kowtatil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a60
+# text = Nochi amo nikmati, neh nik..., nikitstinemi sah wan yehwa yon neh amo nikmati kox kwali topah.
+# text[orig] = Nochi a:mo nikmati, neh nik..., nikitstinemi sah wa:n yehwa yo:n neh a:mo nikmati kox kwali topah.
+# text[spa] = Todo no sé, yo lo..., nada lo ando viendo y eso es lo que no sé si es que sirve para nuestro remedio.
+# labels = a60 sentence
+^Nochi/Nochi$
+^amo/amo$
+^nikmati/nikmati$
+^,/,$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^nikitstinemi/nikitstinemi$
+^sah/sah$
+^wan/wan$
+^yehwa/yehwa$
+^yon/yon$
+^neh/neh$
+^amo/amo$
+^nikmati/nikmati$
+^kox/kox$
+^kwali/kwali$
+^topah/topah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a61
+# text = Ke antes n' tatahmeh yehwan kimattoyah de ke kwali ika timopahtiayah ne xiwtsitsin
+# text[orig] = Ke *antes** n' ta:tahmeh yehwa:n kimattoyah de ke kwali ika timopahtia:yah ne: xiwtsitsi:n
+# text[spa] = Porque anteriormente los señores ellos sabían de que con esa podiamos curarnos
+# labels = a61 fragment
+^Ke/Ke$
+^antes/antes$
+^n'/n'$
+^tatahmeh/tatahmeh$
+^yehwan/yehwan$
+^kimattoyah/kimattoyah$
+^de/de$
+^ke/ke$
+^kwali/kwali$
+^ika/ika$
+^timopahtiayah/timopahtiayah$
+^ne/ne$
+^xiwtsitsin/xiwtsitsin$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a62
+# text = pero ekintsin pos neh amo nikmati ne kox kwali para pahti, kox kwali welik para nen, para se yehwa.
+# text[orig] = pero ekintsi:n pos neh a:mo nikmati ne: kox kwali para pahti, kox kwali we:lik para ne:n, para se: yehwa.
+# text[spa] = pero ahora pues yo no sé si es que sirve para remedio, si es que sabe rico para este, para uno.
+# labels = a62 fragment
+^pero/pero$
+^ekintsin/ekintsin$
+^pos/pos$
+^neh/neh$
+^amo/amo$
+^nikmati/nikmati$
+^ne/ne$
+^kox/kox$
+^kwali/kwali$
+^para/para$
+^pahti/pahti$
+^,/,$
+^kox/kox$
+^kwali/kwali$
+^welik/welik$
+^para/para$
+^nen/nen$
+^,/,$
+^para/para$
+^se/se$
+^yehwa/yehwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a64
+# text = Teh xa kachi tikmattos, no kwali tinechilis, nen, keniw, keniw tikita nen xiwtsin nen tankwakwikwil wan ok..., ehka..., yon kilit de n' wehwei, mismo yehwa, mm.
+# text[orig] = Teh xa: kachi tikmattos, no: kwali tine:chili:s, ne:n, ke:ní:w, ke:ní:w tikita ne:n xiwtsi:n ne:n tankwa:kwi:kwil wa:n ok..., ehka..., yo:n kilit de n' wehwei, *mismo** yehwa, mm.
+# text[spa] = Tu a lo mejor sabes más, también me puedes decir, este, como, como lo ves la hierba, este el tankwa:kwi:kwil y el..., ehka..., ese quelite de los grandes, es lo mismo, si.
+# labels = a64 sentence
+^Teh/Teh$
+^xa/xa$
+^kachi/kachi$
+^tikmattos/tikmattos$
+^,/,$
+^no/no$
+^kwali/kwali$
+^tinechilis/tinechilis$
+^,/,$
+^nen/nen$
+^,/,$
+^keniw/keniw$
+^,/,$
+^keniw/keniw$
+^tikita/tikita$
+^nen/nen$
+^xiwtsin/xiwtsin$
+^nen/nen$
+^tankwakwikwil/tankwakwikwil$
+^wan/wan$
+^ok.../ok...$
+^,/,$
+^ehka/ehka$
+^.../...$
+^,/,$
+^yon/yon$
+^kilit/kilit$
+^de/de$
+^n'/n'$
+^wehwei/wehwei$
+^,/,$
+^mismo/mismo$
+^yehwa/yehwa$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75
+# text = A, sayoh ihkon de ke.... Pos neh no nikitstinemi, nen, pos no kipapatankawia yon witsikitsin mo....
+# text[orig] = A:, sayoh ihkó:n de ke .... Pos neh no: nikitstinemi, ne:n, pos no: kipa:pata:nkawia yo:n wi:tsikitsi:n mo....
+# text[spa] = A, nada más así de que... Pues yo también lo ando viendo, este, pues también sobrevuelan en ese los colibrís se...
+# labels = a75 fragment
+^A/A$
+^,/,$
+^sayoh/sayoh$
+^ihkon/ihkon$
+^de/de$
+^ke.../ke...$
+^./.$
+^Pos/Pos$
+^neh/neh$
+^no/no$
+^nikitstinemi/nikitstinemi$
+^,/,$
+^nen/nen$
+^,/,$
+^pos/pos$
+^no/no$
+^kipapatankawia/kipapatankawia$
+^yon/yon$
+^witsikitsin/witsikitsin$
+^mo.../mo...$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:1
+# text = Amo nikmati ox kipipina porque pane wakkatik. Kitatemolia.
+# text[orig] = A:mo nikmati ox kipipi:na *porque** pané: wa:kkatik. Kitate:molia.
+# text[spa] = No sé si lo chupa porque parece ser seco. Le busca algo.
+# labels = a77 sentence
+^Amo/Amo$
+^nikmati/nikmati$
+^ox/ox$
+^kipipina/kipipina$
+^porque/porque$
+^pane/pane$
+^wakkatik/wakkatik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:2
+# text = Amo nikmati ox kipipina porque pane wakkatik. Kitatemolia.
+# text[orig] = A:mo nikmati ox kipipi:na *porque** pané: wa:kkatik. Kitate:molia.
+# text[spa] = No sé si lo chupa porque parece ser seco. Le busca algo.
+# labels = a77 sentence
+^Kitatemolia/Kitatemolia$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a79
+# text = Kemasa ompa kitalia, ne, itapahsol, ihkon kichihchiwa ichantsin.
+# text[orig] = Ke:masá: ompa kita:lia, ne:, itapahsol, ihkó:n kichihchi:wa icha:ntsi:n.
+# text[spa] = A veces ahí pone, este, su nido, así hace su casita.
+# labels = a79 sentence
+^Kemasa/Kemasa$
+^ompa/ompa$
+^kitalia/kitalia$
+^,/,$
+^ne/ne$
+^,/,$
+^itapahsol/itapahsol$
+^,/,$
+^ihkon/ihkon$
+^kichihchiwa/kichihchiwa$
+^ichantsin/ichantsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a81
+# text = Pos no tak, no kwelita de ke kemasa no de wehwei n' imayo.
+# text[orig] = Pos no: tak, no: kwelita de ke ke:masá: no: de wehwei n' ima:yo.
+# text[spa] = Pues a lo mejor también, también le gusta de que a veces sus ramas son grandes.
+# labels = a81 sentence
+^Pos/Pos$
+^no/no$
+^tak/tak$
+^,/,$
+^no/no$
+^kwelita/kwelita$
+^de/de$
+^ke/ke$
+^kemasa/kemasa$
+^no/no$
+^de/de$
+^wehwei/wehwei$
+^n'/n'$
+^imayo/imayo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a83
+# text = Ompa tatampa, nen, tak para amo apaliwi.
+# text[orig] = Ompa tatampa, ne:n, tak para a:mo a:paliwi.
+# text[spa] = Ahí abajo, este, a lo mejor para que no se moje.
+# labels = a83 sentence
+^Ompa/Ompa$
+^tatampa/tatampa$
+^,/,$
+^nen/nen$
+^,/,$
+^tak/tak$
+^para/para$
+^amo/amo$
+^apaliwi/apaliwi$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a85
+# text = Kemah, de ompa amo apaliwi kampa ichantsin pos ki..., kitalilia pos ompa no yetok.
+# text[orig] = Ke:mah, de ompa a:mo a:paliwi ka:mpa icha:ntsi:n pos ki..., kita:lilia pos ompa no: yetok.
+# text[spa] = Si, de ahí no se moja donde su casa lo..., le pone pues ahí está también.
+# labels = a85 sentence
+^Kemah/Kemah$
+^,/,$
+^de/de$
+^ompa/ompa$
+^amo/amo$
+^apaliwi/apaliwi$
+^kampa/kampa$
+^ichantsin/ichantsin$
+^pos/pos$
+^ki.../ki...$
+^,/,$
+^kitalilia/kitalilia$
+^pos/pos$
+^ompa/ompa$
+^no/no$
+^yetok/yetok$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a87
+# text = Yon kemasa neh nik..., nikita kipapatankawia ihkon.
+# text[orig] = Yo:n ke:masá: neh nik..., nikita kipa:pata:nkawia ihkó:n.
+# text[spa] = Ese a veces yo lo..., lo veo que vuela así.
+# labels = a87 sentence
+^Yon/Yon$
+^kemasa/kemasa$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^nikita/nikita$
+^kipapatankawia/kipapatankawia$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a89
+# text = Pero, pos yehwa yon nimitstahtania kox no, no kipipina o yehwa ne i..., n' itakwal pero pos neh nikmattok, nen, semi wakkatik.
+# text[orig] = Pero, pos yehwa yo:n nimitstahtania kox no:, no: kipipi:na *o** yehwa ne: i..., n' itakwal pero pos neh nikmattok, ne:n, semi wa:kkatik.
+# text[spa] = Pero, pues es lo que te pregunto si también, también lo chupa o eso este..., su comida pero pues yo sé, este, es muy seco.
+# labels = a89 sentence
+^Pero/Pero$
+^,/,$
+^pos/pos$
+^yehwa/yehwa$
+^yon/yon$
+^nimitstahtania/nimitstahtania$
+^kox/kox$
+^no/no$
+^,/,$
+^no/no$
+^kipipina/kipipina$
+^o/o$
+^yehwa/yehwa$
+^ne/ne$
+^i.../i...$
+^,/,$
+^n'/n'$
+^itakwal/itakwal$
+^pero/pero$
+^pos/pos$
+^neh/neh$
+^nikmattok/nikmattok$
+^,/,$
+^nen/nen$
+^,/,$
+^semi/semi$
+^wakkatik/wakkatik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a92
+# text = Wan, pos yehwa ne nimitsilia, nen, amo keman nikita ne mah, mah wehwei mochiwa, tohtomawak, yon achi pihpitsawak wan moyokolia waki wan pos yon neh amo nikita ox kikwih kowtatil.
+# text[orig] = Wa:n, pos yehwa ne: nimitsilia, ne:n, a:mo ke:man nikita ne: mah, mah wehwei mochi:wa, tohtoma:wak, yo:n achi pihpitsa:wak wa:n moyo:kolia wa:ki wa:n pos yo:n neh a:mo nikita ox kikwih kowtati:l.
+# text[spa] = Y pues eso es lo que yo te digo, este, nunca lo veo yo que, que se hagan grandes, gruesos, esos son un poco delgados y se secan por si solas y pues ese no lo veo si lo coupan para leña.
+# labels = a92 sentence
+^Wan/Wan$
+^,/,$
+^pos/pos$
+^yehwa/yehwa$
+^ne/ne$
+^nimitsilia/nimitsilia$
+^,/,$
+^nen/nen$
+^,/,$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^ne/ne$
+^mah/mah$
+^,/,$
+^mah/mah$
+^wehwei/wehwei$
+^mochiwa/mochiwa$
+^,/,$
+^tohtomawak/tohtomawak$
+^,/,$
+^yon/yon$
+^achi/achi$
+^pihpitsawak/pihpitsawak$
+^wan/wan$
+^moyokolia/moyokolia$
+^waki/waki$
+^wan/wan$
+^pos/pos$
+^yon/yon$
+^neh/neh$
+^amo/amo$
+^nikita/nikita$
+^ox/ox$
+^kikwih/kikwih$
+^kowtatil/kowtatil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a94
+# text = Pos kansika kampa amo tematsakwilih pos se ki..., se kitehteki ika yon tatekiloni, kwaltsin se kipayana, se kikohkotona
+# text[orig] = Pos ka:nsika ka:mpa a:mo te:matsakwilih pos se: ki..., se: kitehteki ika yo:n tateki:lo:ni, kwaltsi:n se: kipaya:na, se: kikohkoto:na
+# text[spa] = Pues en algunas partes donde no le estorba auno pues lo..., lo corta uno con machete, lo pica uno bien, lo corta uno en pedazos
+# labels = a94 fragment
+^Pos/Pos$
+^kansika/kansika$
+^kampa/kampa$
+^amo/amo$
+^tematsakwilih/tematsakwilih$
+^pos/pos$
+^se/se$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kitehteki/kitehteki$
+^ika/ika$
+^yon/yon$
+^tatekiloni/tatekiloni$
+^,/,$
+^kwaltsin/kwaltsin$
+^se/se$
+^kipayana/kipayana$
+^,/,$
+^se/se$
+^kikohkotona/kikohkotona$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a95
+# text = wan ompa se kitapana, wenoh se kitamota kemeh ne wan ompa ne ki..., se kipachowa iwan okseki xiwtsitsin wan ompa ne palani a.
+# text[orig] = wa:n ompa se: kitapa:na, we:noh se: kitamo:ta ke:meh ne: wa:n ompa ne: ki..., se: kipachowa iwa:n okseki xiwtsitsi:n wa:n ompa ne: pala:ni a.
+# text[spa] = y ahí lo parte uno, buenno, lo tira uno por allá y ahí lo..., lo tapa uno con otras hierbas y ya ahí se pudre.
+# labels = a95 fragment
+^wan/wan$
+^ompa/ompa$
+^se/se$
+^kitapana/kitapana$
+^,/,$
+^wenoh/wenoh$
+^se/se$
+^kitamota/kitamota$
+^kemeh/kemeh$
+^ne/ne$
+^wan/wan$
+^ompa/ompa$
+^ne/ne$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kipachowa/kipachowa$
+^iwan/iwan$
+^okseki/okseki$
+^xiwtsitsin/xiwtsitsin$
+^wan/wan$
+^ompa/ompa$
+^ne/ne$
+^palani/palani$
+^a/a$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a97
+# text = Yon kihtowah ke no kwali para tapalan.
+# text[orig] = Yo:n kihtowah ke no: kwali para tapala:n.
+# text[spa] = Ese dicen que también es bueno para abono.
+# labels = a97 sentence
+^Yon/Yon$
+^kihtowah/kihtowah$
+^ke/ke$
+^no/no$
+^kwali/kwali$
+^para/para$
+^tapalan/tapalan$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a99
+# text = Tapalan se kitetema, ne.
+# text[orig] = Tapala:n se: kite:te:ma, ne:.
+# text[spa] = El abono lo extiende uno, este.
+# labels = a99 sentence
+^Tapalan/Tapalan$
+^se/se$
+^kitetema/kitetema$
+^,/,$
+^ne/ne$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a101
+# text = Kipalewia nen taltsin, nen talmanik wan pos ompa ewi a ne seki, okseki nen xiwtsitsin tein seki, nen, tein se kikwa o seki tein ompa moskaltia ya.
+# text[orig] = Kipale:wia ne:n ta:ltsi:n, ne:n ta:lmanik wa:n pos ompa e:wi a ne: seki, okseki ne:n xiwtsitsi:n tein seki, ne:n, tein se: kikwa *o** seki tein ompa moskaltia ya.
+# text[spa] = Le ayuda a ala tierra, este la tierra y pues ya ahí nacen algunos, otras hierbas del otro, este, del que come uno u otras de las que ahí ya crecen.
+# labels = a101 sentence
+^Kipalewia/Kipalewia$
+^nen/nen$
+^taltsin/taltsin$
+^,/,$
+^nen/nen$
+^talmanik/talmanik$
+^wan/wan$
+^pos/pos$
+^ompa/ompa$
+^ewi/ewi$
+^a/a$
+^ne/ne$
+^seki/seki$
+^,/,$
+^okseki/okseki$
+^nen/nen$
+^xiwtsitsin/xiwtsitsin$
+^tein/tein$
+^seki/seki$
+^,/,$
+^nen/nen$
+^,/,$
+^tein/tein$
+^se/se$
+^kikwa/kikwa$
+^o/o$
+^seki/seki$
+^tein/tein$
+^ompa/ompa$
+^moskaltia/moskaltia$
+^ya/ya$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a103
+# text = Pero pos yon neh nikmattok yon sayoh para tapalan o para ihkon, wan yon ihkon nik..., nikitstinemi newin kampa, newin se nentinemi
+# text[orig] = Pero pos yo:n neh nikmattok yo:n sayoh para tapala:n *o** para ihkó:n, wa:n yo:n ihkó:n nik..., nikitstinemi ne:wí:n ka:mpa, ne:wí:n se: nentinemi
+# text[spa] = Pero pues yo sé que eso nada más es para abono o para algo así, y eso así lo..., lo ando viendo por allá donde, donde anda uno
+# labels = a103 fragment
+^Pero/Pero$
+^pos/pos$
+^yon/yon$
+^neh/neh$
+^nikmattok/nikmattok$
+^yon/yon$
+^sayoh/sayoh$
+^para/para$
+^tapalan/tapalan$
+^o/o$
+^para/para$
+^ihkon/ihkon$
+^,/,$
+^wan/wan$
+^yon/yon$
+^ihkon/ihkon$
+^nik.../nik...$
+^,/,$
+^nikitstinemi/nikitstinemi$
+^newin/newin$
+^kampa/kampa$
+^,/,$
+^newin/newin$
+^se/se$
+^nentinemi/nentinemi$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a104
+# text = pos kilpiah, nen, tapialtsin ihkon kitatamotah sah, ihkon kiposteki.
+# text[orig] = pos kilpiah, ne:n, tapialtsi:n ihkó:n kita:tamo:tah sah, ihkó:n kiposteki.
+# text[spa] = pues amarran, este, el animal doméstico solamente así lo tira, así lo quiebra.
+# labels = a104 fragment
+^pos/pos$
+^kilpiah/kilpiah$
+^,/,$
+^nen/nen$
+^,/,$
+^tapialtsin/tapialtsin$
+^ihkon/ihkon$
+^kitatamotah/kitatamotah$
+^sah/sah$
+^,/,$
+^ihkon/ihkon$
+^kiposteki/kiposteki$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a106
+# text = Amo keman nikitas mah ki..., mah kikwa, nijon, tapialtsin.
+# text[orig] = A:mo ke:man nikitas mah ki..., mah kikwa, nijó:n, tapialtsi:n.
+# text[spa] = Nunca lo veo que..., que lo coma, ese, animal doméstico.
+# labels = a106 sentence
+^Amo/Amo$
+^keman/keman$
+^nikitas/nikitas$
+^mah/mah$
+^ki.../ki...$
+^,/,$
+^mah/mah$
+^kikwa/kikwa$
+^,/,$
+^nijon/nijon$
+^,/,$
+^tapialtsin/tapialtsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a108
+# text = Ne kwakwehtsin oso teisa ihkon se tapialtsin amo keman nikita mah ki..., kikwa.
+# text[orig] = Ne: kwa:kwehtsi:n oso teisá: ihkó:n se: tapialtsi:n a:mo ke:man nikita mah ki..., kikwa.
+# text[spa] = El res o algún animal así nunca lo veo que lo..., que lo coma.
+# labels = a108 sentence
+^Ne/Ne$
+^kwakwehtsin/kwakwehtsin$
+^oso/oso$
+^teisa/teisa$
+^ihkon/ihkon$
+^se/se$
+^tapialtsin/tapialtsin$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^mah/mah$
+^ki.../ki...$
+^,/,$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a110
+# text = Amo kikwah wan pos yehwa yon se, se molia, nijon, yehwa ekintsin nikan tinentinemih in kowtah,
+# text[orig] = A:mo kikwah wa:n pos yehwa yo:n se:, se: molia, nijó:n, yehwa ekintsi:n nika:n tinentinemih i:n kowtah,
+# text[spa] = No lo comen y pues eso lo, piensa uno, este, eso es ahora que andamos aquí en el monte,
+# labels = a110 fragment
+^Amo/Amo$
+^kikwah/kikwah$
+^wan/wan$
+^pos/pos$
+^yehwa/yehwa$
+^yon/yon$
+^se/se$
+^,/,$
+^se/se$
+^molia/molia$
+^,/,$
+^nijon/nijon$
+^,/,$
+^yehwa/yehwa$
+^ekintsin/ekintsin$
+^nikan/nikan$
+^tinentinemih/tinentinemih$
+^in/in$
+^kowtah/kowtah$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a111
+# text = pos nochi mah se moli kinin, katin de n' welik, katin para teservirowa para in ti..., timoservirowah,
+# text[orig] = pos nochi mah se: moli ki:ni:n, katí:n de n' we:lik, katí:n para *te:servi:rowa** para i:n ti..., *timoservi:rowah**,
+# text[spa] = pues hay que decirnos todo, cual es de que se come, cual del que sirve para..., para ocuparlo,
+# labels = a111 fragment
+^pos/pos$
+^nochi/nochi$
+^mah/mah$
+^se/se$
+^moli/moli$
+^kinin/kinin$
+^,/,$
+^katin/katin$
+^de/de$
+^n'/n'$
+^welik/welik$
+^,/,$
+^katin/katin$
+^para/para$
+^teservirowa/teservirowa$
+^para/para$
+^in/in$
+^ti.../ti...$
+^,/,$
+^timoservirowah/timoservirowah$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a113
+# text = para kowtatil o para teisa ihkon para topah.
+# text[orig] = para kowtati:l *o** para teisá: ihkó:n para topah.
+# text[spa] = para leña o algo así para nuestro remedio.
+# labels = a113 fragment
+^para/para$
+^kowtatil/kowtatil$
+^o/o$
+^para/para$
+^teisa/teisa$
+^ihkon/ihkon$
+^para/para$
+^topah/topah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a114
+# text = Entos ekintsin nochi nikan timonohnotstokeh, nochi timotapowi..., timo..., timo..., timomakah, timoliah ya
+# text[orig] = Entó:s ekintsi:n nochi nika:n timonohno:tstokeh, nochi timotapowi:..., timo..., timo..., timomakah, timoliah ya
+# text[spa] = Entonces ahora todo aquí nos estamos platicando, todo nos platicam..., nos...,  nos..., nos damos, ya nos decimos
+# labels = a114 fragment
+^Entos/Entos$
+^ekintsin/ekintsin$
+^nochi/nochi$
+^nikan/nikan$
+^timonohnotstokeh/timonohnotstokeh$
+^,/,$
+^nochi/nochi$
+^timotapowi/timotapowi$
+^.../...$
+^,/,$
+^timo.../timo...$
+^,/,$
+^timo.../timo...$
+^,/,$
+^timomakah/timomakah$
+^,/,$
+^timoliah/timoliah$
+^ya/ya$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a115
+# text = para nejon no timattiatih.
+# text[orig] = para nejó:n no: timattia:tih.
+# text[spa] = para este también ir sabiendo.
+# labels = a115 fragment
+^para/para$
+^nejon/nejon$
+^no/no$
+^timattiatih/timattiatih$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a117
+# text = Ke niman kihtos pos yehwa in nechtapowih no nik..., niktekiti oso nik..., nikwitiw.
+# text[orig] = Ke: niman kihto:s pos yehwa i:n ne:chtapowih no: nik..., niktekiti oso nik..., nikwiti:w.
+# text[spa] = Porque luego va a decir pues este me platicó también..., lo vo a cortar o..., lo voy a ir a traer.
+# labels = a117 sentence
+^Ke/Ke$
+^niman/niman$
+^kihtos/kihtos$
+^pos/pos$
+^yehwa/yehwa$
+^in/in$
+^nechtapowih/nechtapowih$
+^no/no$
+^nik.../nik...$
+^,/,$
+^niktekiti/niktekiti$
+^oso/oso$
+^nik.../nik...$
+^,/,$
+^nikwitiw/nikwitiw$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a119
+# text = Wan yehwa yon kwaltsin nikan ti..., timahsih, nikan timonamiktinemih pos no ti..., timonohnotsah
+# text[orig] = Wa:n yehwa yo:n kwaltsi:n nika:n ti..., timahsih, nika:n timona:miktinemih pos no: ti..., timonohno:tsah
+# text[spa] = Y eso es muy bonito lo que aquí nos..., nos encontramos, aquí nos andamos encontrando pues también..., nos platicamos
+# labels = a119 fragment
+^Wan/Wan$
+^yehwa/yehwa$
+^yon/yon$
+^kwaltsin/kwaltsin$
+^nikan/nikan$
+^ti.../ti...$
+^,/,$
+^timahsih/timahsih$
+^,/,$
+^nikan/nikan$
+^timonamiktinemih/timonamiktinemih$
+^pos/pos$
+^no/no$
+^ti.../ti...$
+^,/,$
+^timonohnotsah/timonohnotsah$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a120
+# text = wan timotapowiah katin de n' tankwakwikwil.
+# text[orig] = wa:n timotapowiah katí:n de n' tan[kwa:]kwi:kwil.
+# text[spa] = y ns platicamos cuál es el tankwa:kwi:kwil.
+# labels = a120 fragment
+^wan/wan$
+^timotapowiah/timotapowiah$
+^katin/katin$
+^de/de$
+^n'/n'$
+^tankwakwikwil/tankwakwikwil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a123
+# text = Wan tankwakwikwil nen ome, de yon, yon mismo taman, no, mismo yehwa pero no taman nen okse pero tikiliah wehwei, wehwei tankwakwikwil.
+# text[orig] = Wa:n [tankwa:]kwi:kwil ne:n o:me, de yo:n, yo:n *mismo** taman, no:, *mismo** yehwa pero no: taman ne:n oksé: pero tikiliah wehwei, wehwei tankwa:kwi:kwil.
+# text[spa] = Y el tankwa:kwi:kwil son dos, de ese, ese mismo tiipo, también, es el mismo pero el otro es diferente pero le decimos grandes, tankwa:kwi:kwil de los grandes.
+# labels = a123 sentence
+^Wan/Wan$
+^tankwakwikwil/tankwakwikwil$
+^nen/nen$
+^ome/ome$
+^,/,$
+^de/de$
+^yon/yon$
+^,/,$
+^yon/yon$
+^mismo/mismo$
+^taman/taman$
+^,/,$
+^no/no$
+^,/,$
+^mismo/mismo$
+^yehwa/yehwa$
+^pero/pero$
+^no/no$
+^taman/taman$
+^nen/nen$
+^okse/okse$
+^pero/pero$
+^tikiliah/tikiliah$
+^wehwei/wehwei$
+^,/,$
+^wehwei/wehwei$
+^tankwakwikwil/tankwakwikwil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a124
+# text = Yehwa yon, nen, nochi tik..., tikitstokeh ekintsin wan pos solamente yehwa sah nimitstahtania kox no tikixmati kox.
+# text[orig] = Yehwa yo:n, ne:n, nochi tik..., tikitstokeh ekintsi:n wa:n pos *solamente** yehwa sah nimitstahtania kox no: tiki:xmati kox.
+# text[spa] = Eso es, este, todo lo..., estamos viendo ahorita y pues solamente eso te pregunto si es que también lo conoces si.
+# labels = a124 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^,/,$
+^nen/nen$
+^,/,$
+^nochi/nochi$
+^tik.../tik...$
+^,/,$
+^tikitstokeh/tikitstokeh$
+^ekintsin/ekintsin$
+^wan/wan$
+^pos/pos$
+^solamente/solamente$
+^yehwa/yehwa$
+^sah/sah$
+^nimitstahtania/nimitstahtania$
+^kox/kox$
+^no/no$
+^tikixmati/tikixmati$
+^kox/kox$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a127
+# text = Pos nehwa nimonotsa Anastacio Nicolas Damian, neh niwalew de xolal de San Miguel Tzinacapan.
+# text[orig] = Pos nehwa nimono:tsa Anastacio Nicolás Damián, neh niwa:le:w de xola:l de San Miguel Tzinacapan.
+# text[spa] = Pues yo me llamo Anastacio Nicolás Damián, yo vengo del pueblo de San Miguel Tzinacapan.
+# labels = a127 sentence
+^Pos/Pos$
+^nehwa/nehwa$
+^nimonotsa/nimonotsa$
+^Anastacio/Anastacio$
+^Nicolas/Nicolas$
+^Damian/Damian$
+^,/,$
+^neh/neh$
+^niwalew/niwalew$
+^de/de$
+^xolal/xolal$
+^de/de$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a129
+# text = A wenoh, tasohkamatik.
+# text[orig] = A: we:noh, tasohka:matik.
+# text[spa] = A bueno, gracias.
+# labels = a129 sentence
+^A/A$
+^wenoh/wenoh$
+^,/,$
+^tasohkamatik/tasohkamatik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a35
+# text = Bueno, pos sepa ne nikan timonohnotsah ne, ne nimitstahtanisneki ox tikixmattok yon seki xiwit ata mochiwa ata wehkapan
+# text[orig] = *Bueno**, pos sepa ne: nika:n timonohno:tsah ne:, ne: nimitstahtani:sneki ox tiki:xmattok yo:n seki xiwit ata mochi:wa ata wehkapan
+# text[spa] = Bueno pues otra vez aquí nos platicamos este, yo quiero preguntarte si conoces una hierba que crece alto
+# labels = a35 fragment
+^Bueno/Bueno$
+^,/,$
+^pos/pos$
+^sepa/sepa$
+^ne/ne$
+^nikan/nikan$
+^timonohnotsah/timonohnotsah$
+^ne/ne$
+^,/,$
+^ne/ne$
+^nimitstahtanisneki/nimitstahtanisneki$
+^ox/ox$
+^tikixmattok/tikixmattok$
+^yon/yon$
+^seki/seki$
+^xiwit/xiwit$
+^ata/ata$
+^mochiwa/mochiwa$
+^ata/ata$
+^wehkapan/wehkapan$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a36
+# text = wan ixochio kostik wan metskwihkwikwiltik, ¿Keniw tehwa t'tokaitia?
+# text[orig] = wa:n ixo:chio kostik wa:n metskwihkwi:kwiltik, ¿Ke:ní:w tehwa t'to:ka:itia?
+# text[spa] = y sus flores son amraillas y sus tallos son rayados, ¿Como lo llamas tu?
+# labels = a36 fragment
+^wan/wan$
+^ixochio/ixochio$
+^kostik/kostik$
+^wan/wan$
+^metskwihkwikwiltik/metskwihkwikwiltik$
+^,/,$
+^¿/¿$
+^Keniw/Keniw$
+^tehwa/tehwa$
+^t'tokaitia/t'tokaitia$
+^?/?$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a38
+# text = A
+# text[orig] = A:
+# text[spa] = Aa
+# labels = a38 fragment
+^A/A$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a40
+# text = Tankwakwikwil, kemah.
+# text[orig] = Tankwa:kwi:kwil, ke:mah.
+# text[spa] = Tankwa:kwi:kwil, si.
+# labels = a40 sentence
+^Tankwakwikwil/Tankwakwikwil$
+^,/,$
+^kemah/kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a45
+# text = Mm, mm.
+# text[orig] = Mm, mm.
+# text[spa] = Si, si.
+# labels = a45 sentence
+^Mm/Mm$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a47
+# text = Mm, mm.
+# text[orig] = Mm, mm.
+# text[spa] = Si, si.
+# labels = a47 sentence
+^Mm/Mm$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a63
+# text = Kemah, kemah.
+# text[orig] = Ke:mah, ke:mah.
+# text[spa] = Si, si.
+# labels = a63 sentence
+^Kemah/Kemah$
+^,/,$
+^kemah/kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a65
+# text = Pos neh amo n'mati o..., pane amo pahti yon kikwih sayoh, nejon,.... Wan neh nikixmati no iwki yon wehwei kwikwilehkaw oso tankwakwikwil.
+# text[orig] = Pos neh a:mo n'mati o..., pané: a:mo pahti yo:n kikwih sayoh, nejó:n, .... Wa:n neh niki:xmati no: iwki yo:n wehwei kwi:kwilehkaw oso tankwa:kwi:kwil.
+# text[spa] = Pues yo no sé..., parece que no sirve para remedio ese lo ocupan nada más para, este... Y yo lo conozco igual ese kwi:kwilehkaw de os grandes o tankwa:kwi:kwil.
+# labels = a65 sentence
+^Pos/Pos$
+^neh/neh$
+^amo/amo$
+^n'mati/n'mati$
+^o.../o...$
+^,/,$
+^pane/pane$
+^amo/amo$
+^pahti/pahti$
+^yon/yon$
+^kikwih/kikwih$
+^sayoh/sayoh$
+^,/,$
+^nejon/nejon$
+^,/,$
+^.../...$
+^./.$
+^Wan/Wan$
+^neh/neh$
+^nikixmati/nikixmati$
+^no/no$
+^iwki/iwki$
+^yon/yon$
+^wehwei/wehwei$
+^kwikwilehkaw/kwikwilehkaw$
+^oso/oso$
+^tankwakwikwil/tankwakwikwil$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a66
+# text = Yon, nejon, tikto..., kiliah tankwakwikwil porque yekkwihkwikwiltik nen imetskowyo wan imaxiwyo wehwei kachi, mapatakaxtik wan matempantsitsikiltik no.
+# text[orig] = Yo:n, nejó:n, tikto..., kiliah tankwa:kwi:kwil *porque** ye:kkwihkwi:kwiltik ne:n imetskowyo wa:n ima:xiwyo wehwei kachi, ma:patakaxtik wa:n ma:te:mpantsitsikiltik no:.
+# text[spa] = Ese, este, lo..., le dicen tankwa:kwi:kwil porque sus tallos son rayados y sus hojas son más grandes, son grandes y también aserradas.
+# labels = a66 sentence
+^Yon/Yon$
+^,/,$
+^nejon/nejon$
+^,/,$
+^tikto/tikto$
+^.../...$
+^,/,$
+^kiliah/kiliah$
+^tankwakwikwil/tankwakwikwil$
+^porque/porque$
+^yekkwihkwikwiltik/yekkwihkwikwiltik$
+^nen/nen$
+^imetskowyo/imetskowyo$
+^wan/wan$
+^imaxiwyo/imaxiwyo$
+^wehwei/wehwei$
+^kachi/kachi$
+^,/,$
+^mapatakaxtik/mapatakaxtik$
+^wan/wan$
+^matempantsitsikiltik/matempantsitsikiltik$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a67
+# text = Wan moskaltia wehkapan wan ixochio no kostik, kostik ixochio.
+# text[orig] = Wa:n moskaltia wehkapan wa:n ixo:chio no: kostik, kostik ixo:chio.
+# text[spa] = Y crece alto y sus flores también son amarillas, sus flores son amarillas.
+# labels = a67 sentence
+^Wan/Wan$
+^moskaltia/moskaltia$
+^wehkapan/wehkapan$
+^wan/wan$
+^ixochio/ixochio$
+^no/no$
+^kostik/kostik$
+^,/,$
+^kostik/kostik$
+^ixochio/ixochio$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a68
+# text = Wan motaktsontalia, amo poliwi itaktsoyo soh, maski se kiteximas wan komamo se kiteximas pos sepa itsmolini, amo keman poliwi yon, wehkawa etok ompa
+# text[orig] = Wa:n motaktsonta:lia, a:mo poliwi itaktsoyo soh, ma:ski se: kite:xi:mas wa:n koma:mo se: kite:xi:mas pos sepa itsmoli:ni, a:mo ke:man poliwi yo:n, wehka:wa etok ompa
+# text[spa] = Y se hace mata grande, no se pierde la mata solo, aunque lo tumbe uno y si no lo tumba pues retoña de nuevo, ese nunca se extingue, permanece mucho tiempo ahí
+# labels = a68 fragment
+^Wan/Wan$
+^motaktsontalia/motaktsontalia$
+^,/,$
+^amo/amo$
+^poliwi/poliwi$
+^itaktsoyo/itaktsoyo$
+^soh/soh$
+^,/,$
+^maski/maski$
+^se/se$
+^kiteximas/kiteximas$
+^wan/wan$
+^komamo/komamo$
+^se/se$
+^kiteximas/kiteximas$
+^pos/pos$
+^sepa/sepa$
+^itsmolini/itsmolini$
+^,/,$
+^amo/amo$
+^keman/keman$
+^poliwi/poliwi$
+^yon/yon$
+^,/,$
+^wehkawa/wehkawa$
+^etok/etok$
+^ompa/ompa$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a69
+# text = wan nejon para tapalan kwaltia pos ompa palani nochi itech talmanik, ompa mochiwa tapalan.
+# text[orig] = wa:n nejó:n para tapala:n kwaltia pos ompa pala:ni nochi itech ta:lmanik, ompa mochi:wa tapala:n.
+# text[spa] = y para abono sirve porque pues ahí se pudre todo en la tierra, ahí se hace abono.
+# labels = a69 fragment
+^wan/wan$
+^nejon/nejon$
+^para/para$
+^tapalan/tapalan$
+^kwaltia/kwaltia$
+^pos/pos$
+^ompa/ompa$
+^palani/palani$
+^nochi/nochi$
+^itech/itech$
+^talmanik/talmanik$
+^,/,$
+^ompa/ompa$
+^mochiwa/mochiwa$
+^tapalan/tapalan$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a70
+# text = Pero, nejon, amo teh, amo teh kikwih, para tapial ki..., neh amo nikita ox kikwa, kikwa tapial
+# text[orig] = Pero, nejó:n, a:mo teh, a:mo teh kikwih, para tapial ki..., neh a:mo nikita ox kikwa, kikwa tapial
+# text[spa] = Pero, este, nada, no ocupan para nada, para animal doméstico lo..., yo no veo si se lo come, se lo come al animal doméstico
+# labels = a70 fragment
+^Pero/Pero$
+^,/,$
+^nejon/nejon$
+^,/,$
+^amo/amo$
+^teh/teh$
+^,/,$
+^amo/amo$
+^teh/teh$
+^kikwih/kikwih$
+^,/,$
+^para/para$
+^tapial/tapial$
+^ki.../ki...$
+^,/,$
+^neh/neh$
+^amo/amo$
+^nikita/nikita$
+^ox/ox$
+^kikwa/kikwa$
+^,/,$
+^kikwa/kikwa$
+^tapial/tapial$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a71
+# text = porque kampa se kilpia se tapialtsin ompa ki..., kisempata sah, amo kikwa, yeh kikwa soh tein kwelilia sah, seki yon xiwit amo keman nikita kikwa.
+# text[orig] = *porque** ka:mpa se: kilpia se: tapialtsi:n ompa ki..., kisempa:ta sah, a:mo kikwa, yeh kikwa soh tein kwe:lilia sah, seki yo:n xiwit a:mo ke:man nikita kikwa.
+# text[spa] = porque donde amarra uno un animal ahí l..., lo aplasta nada más, no lo  come, nada más come lo que le gusta, otras esa hierba nunca lo veo que lo coma.
+# labels = a71 fragment
+^porque/porque$
+^kampa/kampa$
+^se/se$
+^kilpia/kilpia$
+^se/se$
+^tapialtsin/tapialtsin$
+^ompa/ompa$
+^ki.../ki...$
+^,/,$
+^kisempata/kisempata$
+^sah/sah$
+^,/,$
+^amo/amo$
+^kikwa/kikwa$
+^,/,$
+^yeh/yeh$
+^kikwa/kikwa$
+^soh/soh$
+^tein/tein$
+^kwelilia/kwelilia$
+^sah/sah$
+^,/,$
+^seki/seki$
+^yon/yon$
+^xiwit/xiwit$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a72
+# text = Kemah, nejon, pero amo teh, amo teh ki.., kitatekiwtiah nion tei,
+# text[orig] = Ke:mah, nejó:n, pero a:mo teh, a:mo teh ki.., kitatekiwtiah nió:n tei,
+# text[spa] = Si, este, pero no hay nada, no hay na...., no lo ocupan, para nada,
+# labels = a72 fragment
+^Kemah/Kemah$
+^,/,$
+^nejon/nejon$
+^,/,$
+^pero/pero$
+^amo/amo$
+^teh/teh$
+^,/,$
+^amo/amo$
+^teh/teh$
+^ki/ki$
+^../..$
+^,/,$
+^kitatekiwtiah/kitatekiwtiah$
+^nion/nion$
+^tei/tei$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a73
+# text = nion para kowtatil, nion para, para teisa pahti o oso para tapial kikwas, amo, amo kinimakah yon.
+# text[orig] = nió:n para kowtati:l, nió:n para, para teisá: pahti *o** oso para tapial kikwa:s, a:mo, a:mo kinimakah yo:n.
+# text[spa] = ni para leña, ni para, para algún remedio o para que lo coma el animal doméstico, no, no les dan eso.
+# labels = a73 fragment
+^nion/nion$
+^para/para$
+^kowtatil/kowtatil$
+^,/,$
+^nion/nion$
+^para/para$
+^,/,$
+^para/para$
+^teisa/teisa$
+^pahti/pahti$
+^o/o$
+^oso/oso$
+^para/para$
+^tapial/tapial$
+^kikwas/kikwas$
+^,/,$
+^amo/amo$
+^,/,$
+^amo/amo$
+^kinimakah/kinimakah$
+^yon/yon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a74
+# text = Kemah, ipa xiwit sah mochiwa, yon soh mo..., moskaltia para tapalan sah, ihkon neh nik..., nik..., nikixmati. Mm.
+# text[orig] = Ke:mah, i:pa xiwit sah mochi:wa, yo:n soh mo..., moskaltia para tapala:n sah, ihkó:n neh nik..., nik..., niki:xmati. Mm.
+# text[spa] = Si, nada más se hace hierba, ese nada más..., nada más crece para abono, así yo lo..., lo..., lo conozco. Si.
+# labels = a74 sentence
+^Kemah/Kemah$
+^,/,$
+^ipa/ipa$
+^xiwit/xiwit$
+^sah/sah$
+^mochiwa/mochiwa$
+^,/,$
+^yon/yon$
+^soh/soh$
+^mo.../mo...$
+^,/,$
+^moskaltia/moskaltia$
+^para/para$
+^tapalan/tapalan$
+^sah/sah$
+^,/,$
+^ihkon/ihkon$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^nik.../nik...$
+^,/,$
+^nikixmati/nikixmati$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a76
+# text = Pero, pero amo, amo, amo ayoh yon, soh kitatemoliah sah pero amo ayoh yon xiwitsin, wakkatik sah ixochiotsin, mahya xilwas sah.
+# text[orig] = Pero, pero a:mo, a:mo, a:mo a:yoh yo:n, soh kitate:moliah sah pero a:mo a:yoh yo:n xiwitsi:n, wa:kkatik sah ixo:chiotsi:n, mahyá: xilwa:s sah.
+# text[spa] = Pero, pero no, no, ese no tiene agua, nada más le busca pero esa hierba no tiene agua, sus flores son secas, nada más como si fuera escobeta.
+# labels = a76 sentence
+^Pero/Pero$
+^,/,$
+^pero/pero$
+^amo/amo$
+^,/,$
+^amo/amo$
+^,/,$
+^amo/amo$
+^ayoh/ayoh$
+^yon/yon$
+^,/,$
+^soh/soh$
+^kitatemoliah/kitatemoliah$
+^sah/sah$
+^pero/pero$
+^amo/amo$
+^ayoh/ayoh$
+^yon/yon$
+^xiwitsin/xiwitsin$
+^,/,$
+^wakkatik/wakkatik$
+^sah/sah$
+^ixochiotsin/ixochiotsin$
+^,/,$
+^mahya/mahya$
+^xilwas/xilwas$
+^sah/sah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a78
+# text = Kemah, mm.
+# text[orig] = Ke:mah, mm.
+# text[spa] = Si, si.
+# labels = a78 sentence
+^Kemah/Kemah$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a80
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Si.
+# labels = a80 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a82
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Si.
+# labels = a82 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a84
+# text = Kemah, yehwa yon kemah pero.... Mm.
+# text[orig] = Ke:mah, yehwa yo:n ke:mah pero .... Mm.
+# text[spa] = Si, eso es pero... Si.
+# labels = a84 sentence
+^Kemah/Kemah$
+^,/,$
+^yehwa/yehwa$
+^yon/yon$
+^kemah/kemah$
+^pero/pero$
+^.../...$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a86
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Si.
+# labels = a86 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a88
+# text = Mm. Mm. Yon amo, amo,
+# text[orig] = Mm. Mm. Yo:n a:mo, a:mo,
+# text[spa] = Si. Si. Ese no, no,
+# labels = a88 fragment
+^Mm/Mm$
+^./.$
+^Mm/Mm$
+^./.$
+^Yon/Yon$
+^amo/amo$
+^,/,$
+^amo/amo$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a90
+# text = amo, amo nekyoh, komo ke onkak sah xochitsin tein ki..., kitemaka inekyo, yon xochitsin amo nekyoh nion tei. Nochi wakkatik sah.
+# text[orig] = a:mo, a:mo nekyoh, komo ke onkak sah xo:chitsí:n tein ki..., kite:maka inekyo, yo:n xo:chitsí:n a:mo nekyoh nió:n tei. Nochi wa:kkatik sah.
+# text[spa] = no, no tiene miel, como que nada más hay flores que..., las que dan miel, esa florecita no tiene nada de miel. Todo es seco.
+# labels = a90 fragment
+^amo/amo$
+^,/,$
+^amo/amo$
+^nekyoh/nekyoh$
+^,/,$
+^komo/komo$
+^ke/ke$
+^onkak/onkak$
+^sah/sah$
+^xochitsin/xochitsin$
+^tein/tein$
+^ki.../ki...$
+^,/,$
+^kitemaka/kitemaka$
+^inekyo/inekyo$
+^,/,$
+^yon/yon$
+^xochitsin/xochitsin$
+^amo/amo$
+^nekyoh/nekyoh$
+^nion/nion$
+^tei/tei$
+^./.$
+^Nochi/Nochi$
+^wakkatik/wakkatik$
+^sah/sah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a91
+# text = Mm. Takot sah nochi. Mm, amo ta ne ki..., ompa mawilowa sah, kan keman se kitas...ika yon, yon xiwit kwikwiltik ikowyo.
+# text[orig] = Mm. Tako:t sah nochi. Mm, a:mo ta: ne: ki..., ompa ma:wilowa sah, ka:n ke:man se: kitas [...]ika yo:n, yo:n xiwit kwi:kwiltik ikowyo.
+# text[spa] = Si. Todo es vara. Si, no pues este lo..., ahí se echa a perder nada más, nunca lo va a ver uno con eso, esa hierba de tallos rayados.
+# labels = a91 sentence
+^Mm/Mm$
+^./.$
+^Takot/Takot$
+^sah/sah$
+^nochi/nochi$
+^./.$
+^Mm/Mm$
+^,/,$
+^amo/amo$
+^ta/ta$
+^ne/ne$
+^ki.../ki...$
+^,/,$
+^ompa/ompa$
+^mawilowa/mawilowa$
+^sah/sah$
+^,/,$
+^kan/kan$
+^keman/keman$
+^se/se$
+^kitas/kitas$
+^.../...$
+^ika/ika$
+^yon/yon$
+^,/,$
+^yon/yon$
+^xiwit/xiwit$
+^kwikwiltik/kwikwiltik$
+^ikowyo/ikowyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a93
+# text = Pisiltik semi. Mm, kemah.
+# text[orig] = Pisi:ltik semi. Mm, ke:mah.
+# text[spa] = Son muy chiquitas. Si, si.
+# labels = a93 sentence
+^Pisiltik/Pisiltik$
+^semi/semi$
+^./.$
+^Mm/Mm$
+^,/,$
+^kemah/kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a96
+# text = Palani a, kemah.
+# text[orig] = Pala:ni a, ke:mah.
+# text[spa] = Ya se pudre, si.
+# labels = a96 sentence
+^Palani/Palani$
+^a/a$
+^,/,$
+^kemah/kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a98
+# text = Kemah, kwaltia tapalan nochi. Nochi tein palani nochi kipalewia talmanik para teisa ne tatok ne ki..., kikwa ya.
+# text[orig] = Ke:mah, kwaltia tapala:n nochi. Nochi tein pala:ni nochi kipale:wia ta:lmanik para teisá: ne: tato:k ne: ki..., kikwa ya.
+# text[spa] = Si, sirve todo para abono. Todo lo que se pudre todo le ayuda a la tierra para algo de siembra este lo..., ya lo come.
+# labels = a98 sentence
+^Kemah/Kemah$
+^,/,$
+^kwaltia/kwaltia$
+^tapalan/tapalan$
+^nochi/nochi$
+^./.$
+^Nochi/Nochi$
+^tein/tein$
+^palani/palani$
+^nochi/nochi$
+^kipalewia/kipalewia$
+^talmanik/talmanik$
+^para/para$
+^teisa/teisa$
+^ne/ne$
+^tatok/tatok$
+^ne/ne$
+^ki.../ki...$
+^,/,$
+^kikwa/kikwa$
+^ya/ya$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a100
+# text = Kemah, kipalewia, kemah. Kemah, ihkoni.
+# text[orig] = Ke:mah, kipale:wia, ke:mah. Ke:mah, ihko:ni.
+# text[spa] = Si, le ayuda, si. Si, así.
+# labels = a100 sentence
+^Kemah/Kemah$
+^,/,$
+^kipalewia/kipalewia$
+^,/,$
+^kemah/kemah$
+^./.$
+^Kemah/Kemah$
+^,/,$
+^ihkoni/ihkoni$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a102
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a102 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a105
+# text = Kemah, kan, kan kikwah, amo kikwa, mm.
+# text[orig] = Ke:mah, ka:n, ka:n kikwah, a:mo kikwa, mm.
+# text[spa] = Si, no, no lo comen, no lo comen, si.
+# labels = a105 sentence
+^Kemah/Kemah$
+^,/,$
+^kan/kan$
+^,/,$
+^kan/kan$
+^kikwah/kikwah$
+^,/,$
+^amo/amo$
+^kikwa/kikwa$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a107
+# text = Kemah, eski amo, amo kweliliah, mm. Mm. Kanah, kan,
+# text[orig] = Ke:mah, eski a:mo, a:mo kwe:liliah, mm. Mm. Kanah, ka:n,
+# text[spa] = Si, es que no, no les gusta, si. Si. No, no,
+# labels = a107 fragment
+^Kemah/Kemah$
+^,/,$
+^eski/eski$
+^amo/amo$
+^,/,$
+^amo/amo$
+^kweliliah/kweliliah$
+^,/,$
+^mm/mm$
+^./.$
+^Mm/Mm$
+^./.$
+^Kanah/Kanah$
+^,/,$
+^kan/kan$
+^,/,$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a109
+# text = Kan kikwah, kan kikwah por eso....
+# text[orig] = Ka:n kikwah, ka:n kikwah *por eso** ....
+# text[spa] = No lo comen, no lo comen por eso...
+# labels = a109 fragment
+^Kan/Kan$
+^kikwah/kikwah$
+^,/,$
+^kan/kan$
+^kikwah/kikwah$
+^por/por$
+^eso/eso$
+^.../...$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a112
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a112 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a116
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a116 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a118
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a118 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a121
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a121 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a122
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a122 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a125
+# text = Yeh..., yehwa sah no, kan teh mas tikmatih wan nimitsilia tapalan sah wan kikwa n' tapial, nion tei, nion tei, nion no yon kiliah chiktehtsitsin, yehwa sah yon, tapalan sah nikixmati.
+# text[orig] = Yeh..., yehwa sah no:, ka:n teh *más** tikmatih wa:n nimitsilia tapala:n sah wa:n kikwa n' tapial, nió:n tei, nió:n tei, nió:n no: yo:n kiliah chiktehtsitsi:n, yehwa sah yo:n, tapala:n sah niki:xmati.
+# text[spa] = Ese..., nada máas es eso también, no sabemos nada más y te digo que solamente sirve para abono y lo comen los animales, nada, nada, ni ese pájarito, eso es todo, nada más lo conozco para abono.
+# labels = a125 sentence
+^Yeh/Yeh$
+^.../...$
+^,/,$
+^yehwa/yehwa$
+^sah/sah$
+^no/no$
+^,/,$
+^kan/kan$
+^teh/teh$
+^mas/mas$
+^tikmatih/tikmatih$
+^wan/wan$
+^nimitsilia/nimitsilia$
+^tapalan/tapalan$
+^sah/sah$
+^wan/wan$
+^kikwa/kikwa$
+^n'/n'$
+^tapial/tapial$
+^,/,$
+^nion/nion$
+^tei/tei$
+^,/,$
+^nion/nion$
+^tei/tei$
+^,/,$
+^nion/nion$
+^no/no$
+^yon/yon$
+^kiliah/kiliah$
+^chiktehtsitsin/chiktehtsitsin$
+^,/,$
+^yehwa/yehwa$
+^sah/sah$
+^yon/yon$
+^,/,$
+^tapalan/tapalan$
+^sah/sah$
+^nikixmati/nikixmati$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a126
+# text = Yehwa sah yon, nejon, soh 'nechili keniw motokay wan kani tiwalewak.
+# text[orig] = Yehwa sah yo:n, nejó:n, soh 'ne:chili ke:ní:w moto:ka:y wa:n ka:ni tiwa:le:wak.
+# text[spa] = Eso es todo, este, nada más dime cual es tu nombre y de donde vienes.
+# labels = a126 sentence
+^Yehwa/Yehwa$
+^sah/sah$
+^yon/yon$
+^,/,$
+^nejon/nejon$
+^,/,$
+^soh/soh$
+^'nechili/'nechili$
+^keniw/keniw$
+^motokay/motokay$
+^wan/wan$
+^kani/kani$
+^tiwalewak/tiwalewak$
+^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a128
+# text = Neh, neh nimonotsa niErnesto Vazquez no niwalew San Miguel Tzinacapan.
+# text[orig] = Neh, neh nimono:tsa niErnesto Vázquez no: niwa:le:w San Miguel Tzinacapan.
+# text[spa] = Yo, yo me llamo Ernesto Vázquez también vengo de San Miguel Tzinacapan.
+# labels = a128 sentence
+^Neh/Neh$
+^,/,$
+^neh/neh$
+^nimonotsa/nimonotsa$
+^niErnesto/niErnesto$
+^Vazquez/Vazquez$
+^no/no$
+^niwalew/niwalew$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^./.$
+
