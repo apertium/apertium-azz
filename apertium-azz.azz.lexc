@@ -1056,6 +1056,14 @@ talilia:talilia                                     V-SIO-PRET ;
 talilia:talilia                                     V-SIO-FUTR ; 
 
 
+! "quitarle"
+kuilia:kuilia                                     V-SIO-PRES ;
+kuilia:kuilia                                     V-SIO-IMPF ;
+kuilia:kuilia                                     V-SIO-PROG ;
+kuilia:kuilia                                     V-SIO-PRET ;
+kuilia:kuili                                      V-SIO-FUTR ;
+
+
 ! "buscar"
 temolia:temolia                                     V-SIO-PRES ;
 temolia:temolia                                     V-SIO-IMPF ;
