@@ -3007,6 +3007,43 @@
 5	taki	taki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	advcl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:177
+# text = TSOJPIKILIT oso TSOJPILOMEKAT
+# text[spa] = TSOJPIKILIT o TSOJPILOMEKAT
+# labels =
+1	TSOJPIKILIT	tsojpikilit	NOUN	_	Case=Abs	0	root	_	_
+2	oso	oso	CCONJ	_	_	3	cc	_	_
+3	TSOJPILOMEKAT	tsojpilomekat	NOUN	_	Case=Abs	1	conj	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:181
+# text = Nochipa xochiyoua.
+# text[spa] = Siempre está floreando.
+# labels = sentence
+1	Nochipa	nochipa	ADV	_	_	2	advmod	_	_
+2	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:182
+# text = In amo monamaka
+# text[spa] = No se vende.
+# labels =
+1	In	in	DET	_	_	3	dep	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:184
+# text = In semi kikouaj, sayoj maj onka.
+# text[spa] = Esta fruta se vende mucho si la hay.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	kikouaj	kohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	sayoj	sayoj	ADV	_	_	7	advmod	_	_
+6	maj	ma	AUX	_	_	7	aux	_	_
+7	onka	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
