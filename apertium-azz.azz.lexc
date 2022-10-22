@@ -5675,6 +5675,7 @@ yolchikahuak:yolchikahuak                           N-Ø ; ! "valiente"
 hueyakaxtik:hueyakaxtik                             N-Ø ; ! "largo"
 taxuis:taxuis                                       N-Ø ; ! "grano"
 tatsoyon:tatsoyon                                   N-Ø ; ! "frito"
+ohuasin:ohuasin                                     N-Ø ; ! "caña seca de maíz"
 taksa:taksa                                         N-Ø ; ! "pisar"
 xaltik:xaltik                                       N-Ø ; ! "precocido"
 tanahual:tanahual                                   N-Ø ; ! "abrazada(medida)"
@@ -6534,6 +6535,7 @@ Fidel:Fidel                                         NP-ANT-M ; ! ""
 Jonathan:Jonathan                                   NP-ANT-M ; ! ""
 Sebastián:Sebastián                                 NP-ANT-M ; ! ""
 Martin:Martin                                       NP-ANT-M ; ! ""
+Santiago:Santiago                                   NP-ANT-M ; ! ""
 Ramón:Ramón                                         NP-ANT-M ; ! ""
 Anton:Anton                                         NP-ANT-M ; ! ""
 Federico:Federico                                   NP-ANT-M ; ! ""
@@ -6621,6 +6623,7 @@ Miguel:Miguel                                       NP-TOP ;
 
 Yohualichan:Yohualichan                             NP-TOP ;
 Atsalan:Atsalan                                     NP-TOP ;
+Atmolon:Atmolon                                     NP-TOP ;
 
 Tecoltepec:Tecoltepec                               NP-TOP ; 
 Ziltepec:Ziltepec                                   NP-TOP ; 
@@ -6651,6 +6654,7 @@ Ecatlan:Ecatla                                      NP-TOP-PAN ;
 Tacuapan:Tacuapa                                    NP-TOP-PAN ; 
 Tasalolpan:Tasalolpa                                NP-TOP-PAN ;
 Tatempan:Tatempa                                    NP-TOP-PAN ; 
+Yankuitlalpan:Yankuitlalpa                          NP-TOP-PAN ;
 Tuzamapan:Tuzamapa                                  NP-TOP-PAN ; 
 Tzinacapan:Tzinacapa                                NP-TOP-PAN ;
 Xaltipan:Xaltipa                                    NP-TOP-PAN ;
