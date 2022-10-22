@@ -452,7 +452,7 @@
 ^mm/mm$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75:1
 # text = A, sayoh ihkon de ke.... Pos neh no nikitstinemi, nen, pos no kipapatankawia yon witsikitsin mo....
 # text[orig] = A:, sayoh ihkó:n de ke .... Pos neh no: nikitstinemi, ne:n, pos no: kipa:pata:nkawia yo:n wi:tsikitsi:n mo....
 # text[spa] = A, nada más así de que... Pues yo también lo ando viendo, este, pues también sobrevuelan en ese los colibrís se...
@@ -464,6 +464,12 @@
 ^de/de$
 ^ke.../ke...$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75:2
+# text = A, sayoh ihkon de ke.... Pos neh no nikitstinemi, nen, pos no kipapatankawia yon witsikitsin mo....
+# text[orig] = A:, sayoh ihkó:n de ke .... Pos neh no: nikitstinemi, ne:n, pos no: kipa:pata:nkawia yo:n wi:tsikitsi:n mo....
+# text[spa] = A, nada más así de que... Pues yo también lo ando viendo, este, pues también sobrevuelan en ese los colibrís se...
+# labels = a75 fragment
 ^Pos/Pos$
 ^neh/neh$
 ^no/no$

@@ -941,10 +941,10 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75
-# text = A, sayoh ihkon de ke.... Pos neh no nikitstinemi, nen, pos no kipapatankawia yon witsikitsin mo....
-# text[orig] = A:, sayoh ihkó:n de ke .... Pos neh no: nikitstinemi, ne:n, pos no: kipa:pata:nkawia yo:n wi:tsikitsi:n mo....
-# text[spa] = A, nada más así de que... Pues yo también lo ando viendo, este, pues también sobrevuelan en ese los colibrís se...
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75:1
+# text = A, sayoh ihkon de ke.... 
+# text[orig] = A:, sayoh ihkó:n de ke.... 
+# text[spa] = A, nada más así de que... 
 # labels = a75 fragment
 "<A>"
 	"a" ij @discourse
@@ -960,43 +960,42 @@
 	"ke" x @reparandum
 "<.>"
 	"." sent @punct
+
+# sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a75:2
+# text = Pos neh no nikitstinemi, nen, pos no kipapatankawia yon witsikitsin mo....
+# text[orig] = Pos neh no: nikitstinemi, ne:n, pos no: kipa:pata:nkawia yo:n wi:tsikitsi:n mo....
+# text[spa] = Pues yo también lo ando viendo, este, pues también sobrevuelan en ese los colibrís se...
+# labels = a75 fragment
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->4
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #2->4
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #3->4
 "<nikitstinemi>"
-	"ita" v tv s_sg1 o_sg3
-		"nemi" vaux
+	"ita" v tv s_sg1 o_sg3 @root #4->0
+		"nemi" vaux @aux #5->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->7
 "<nen>"
-	"nen" ij @discourse
-	"nen" prn
+	"nen" ij @discourse #7->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->11
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #9->11
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #10->11
 "<kipapatankawia>"
-	"papatankahuia" v tv pres s_sg3 o_sg3
+	"papatankahuia" v tv pres s_sg3 o_sg3 @parataxis #11->4
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<witsikitsin>"
-	"huitsikitsin" n abs
-;	"huitsikitsin" n abs s_pl3
-;	"huitsikitsin" n abs s_sg3
+	"huitsikitsin" n abs @nsubj #14->
 "<mo...>"
-	"mo" x @reparandum
+	"mo" x @dep #15->
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->4
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:1
 # text = Amo nikmati ox kipipina porque pane wakkatik.

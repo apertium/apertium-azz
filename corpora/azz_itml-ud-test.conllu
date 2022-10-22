@@ -1868,6 +1868,21 @@
 4	saj	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:74:5
+# text = Mochiua parajko, amo nikauín, nikauín amo teyi.
+# text[spa] = Se da para arriba, por aquí no hay.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	parajko	parajko	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	amo	amo	ADV	_	_	5	advmod	_	_
+5	nikauín	nikahuin	ADV	_	_	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	nikauín	nikahuin	ADV	_	_	9	advmod	_	_
+8	amo	amo	ADV	_	_	9	advmod	_	_
+9	teyi	teyi	PRON	_	_	1	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:74:6
 # text = Tejuan tikpiyayaj se pesmaapan, tsikitsin tikoujkej Sakapoasta.
 # text[spa] = Nosotros teníamos uno en Pesmaapan; era chiquito cuando lo compramos en Zacapoaxtla.
@@ -2171,6 +2186,39 @@
 10	xantiaj	xantiaj	NOUN	_	Case=Abs	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:95
+# text = In iujki kiluiaj por in taki uan miak iteyo kipiya, pisiltik majyá xal uan tsopek.
+# text[spa] = Así le llaman porque su fruto tiene muchas semillas pequeñitas como granos de arena y es dulce.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	iujki	iuki	ADV	_	_	3	advmod	_	_
+3	kiluiaj	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	por	por	ADP	_	_	6	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	taki	taki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	_
+7	uan	huan	CCONJ	_	_	10	cc	_	_
+8	miak	miak	DET	_	_	9	det	_	_
+9	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	obj	_	_
+10	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	10	parataxis	_	_
+13	majyá	majya	ADV	_	_	14	dep	_	_
+14	xal	xal	NOUN	_	Case=Abs	12	dep	_	_
+15	uan	huan	CCONJ	_	_	16	cc	_	_
+16	tsopek	tsopek	ADJ	_	Number[subj]=Sing|Person[subj]=3	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:96
+# text = Kualtia para se kiajuiyalis tapalol.
+# text[spa] = Sirve para condimentar la comida.
+# labels = sentence
+1	Kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	para	para	SCONJ	_	_	4	mark	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kiajuiyalis	ajuiyalia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	1	advcl	_	_
+5	tapalol	tapalol	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:98
 # text = Onkak eyi taman: limón injertado, limón corriente uan limajlimon.
 # text[spa] = Hay tres clases: limón injertado, limón corriente y lima-limón.
@@ -2326,6 +2374,25 @@
 3	kemanian	kemanian	ADV	_	_	4	advmod	_	_
 4	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:112
+# text = Mochiua itech kuopach uan ompa ya peua itsmolini, no mochiua itech tepach.
+# text[spa] = Se da en el musgo de los árboles, ahí empieza a retoñar; también sobre las piedras.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	kuopach	kuopach	NOUN	_	Case=Abs	2	nmod	_	_
+4	uan	huan	CCONJ	_	_	7	cc	_	_
+5	ompa	ompa	ADV	_	_	7	advmod	_	_
+6	ya	ya	ADV	_	_	7	advmod	_	_
+7	peua	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	conj	_	_
+8	itsmolini	itsmolini	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	dep	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	no	no	ADV	_	_	11	advmod	_	_
+11	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+12	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+13	tepach	tepach	NOUN	_	Case=Abs	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:113
 # text = Sesek eski por in chichik.

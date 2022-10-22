@@ -1232,6 +1232,14 @@ ita:%{i%}ta                                         V-SO-PRET ;
 ita:%{i%}ta                                         V-SO-FUTR ;
 ita%<v%>%<tv%>:%{i%}ts                              V-DIR ;
 
+! "condimentar"
+ajuilia:ajuili%{y%}a                                V-SO-PRES ;
+ajuilia:ajuili%{y%}a                                V-SO-IMPF ;
+ajuilia:ajuili                                      V-SO-PROG ;
+ajuilia:ajuili                                      V-SO-PRET ;
+ajuilia:ajuili                                      V-SO-FUTR ;
+
+
 ! "imaginar"
 nemilia:nemili%{y%}a                                V-SO-PRES ;
 nemilia:nemili%{y%}a                                V-SO-IMPF ;
