@@ -2521,6 +2521,12 @@ masehua:masehua                                       V-SO-PROG ; ! ""
 masehua:masehua                                       V-SO-PRET ; ! ""
 masehua:masehua                                       V-SO-FUTR ; ! ""
 
+molta:molta                                           V-SO-PRES ; ! ""
+molta:molta                                           V-SO-IMPF ; ! ""
+molta:molta                                           V-SO-PROG ; ! ""
+molta:molta                                           V-SO-PRET ; ! ""
+molta:molta                                           V-SO-FUTR ; ! ""
+
 ichkua:ichkua                                         V-SO-PRES ; ! ""
 ichkua:ichkua                                         V-SO-IMPF ; ! ""
 ichkua:ichkua                                         V-SO-PROG ; ! ""
@@ -3054,6 +3060,13 @@ moskaltia:moskalti%{y%}a                            V-S-IMPF ;
 moskaltia:moskalti                                  V-S-PROG ;
 moskaltia:moskalti                                  V-S-PRET ;
 moskaltia:moskalti                                  V-S-FUTR ;
+
+! ""
+xiyoti:xiyoti                                     V-S-PRES ;
+xiyoti:xiyoti                                     V-S-IMPF ;
+xiyoti:xiyoti                                     V-S-PROG ;
+xiyoti:xiyoti                                     V-S-PRET ;
+xiyoti:xiyoti                                     V-S-FUTR ;
 
 ! "ponerse"
 motalia:motalia                                     V-S-PRES ;
@@ -5071,6 +5084,7 @@ katin:katini                                      DET ; ! "cuál, qué"
 LEXICON Números 
 
 se:se                                              NUM-SE ; ! "uno"
+sejse:se%{j%}se                                    NUM-REDUP ; ! "uno"
 ome:ome                                            NUM ; ! "dos"
 eyi:eyi                                            NUM ; ! "tres"
 ejeyi:ej%>eyi                                      NUM ; ! "tres"
@@ -5989,6 +6003,7 @@ tepotadoj:tepotadoj                                 N-Ø ; ! "diputado"
 huitsikitsin:huitsikitsin                           N-Ø ; ! "colibrí"
 xantoj:xantoj                                       N-Ø ; ! "santo"
 xapoj:xapoj                                         N-Ø ; ! "jabón"
+xipoj:xipoj                                         N-Ø ; ! ""
 xolasoj:xolasoj                                     N-Ø ; ! "cedazo"
 
 hueyichikaujkameyot:hueyi%>chikau%{j%}kameyo        N-TL ; ! "radiación electromagnética"
