@@ -1101,6 +1101,13 @@ ixnextiltia:ixnextilti%{y%}                         V-SIO-FUTR ;
 
 
 ! ""
+poxtalilia:pox%>talilia                 V-SIO-PRES ;
+poxtalilia:pox%>talilia                 V-SIO-IMPF ;
+poxtalilia:pox%>talili                  V-SIO-PROG ;
+poxtalilia:pox%>talili                  V-SIO-PRET ;
+poxtalilia:pox%>talili                  V-SIO-FUTR ;
+
+! ""
 poxpepechohuilia:pox%>pepechohuilia                 V-SIO-PRES ;
 poxpepechohuilia:pox%>pepechohuilia                 V-SIO-IMPF ;
 poxpepechohuilia:pox%>pepechohuili                  V-SIO-PROG ;
@@ -1265,6 +1272,14 @@ ita:%{i%}ta                                         V-SO-FUTR ;
 ita%<v%>%<tv%>:%{i%}ts                              V-DIR ;
 
 ! "condimentar"
+tsoyonia:tsoyoni%{y%}a                              V-SO-PRES ;
+tsoyonia:tsoyoni%{y%}a                              V-SO-IMPF ;
+tsoyonia:tsoyoni                                    V-SO-PROG ;
+tsoyonia:tsoyoni                                    V-SO-PRET ;
+tsoyonia:tsoyoni                                    V-SO-FUTR ;
+
+
+! "condimentar"
 ajuilia:ajuili%{y%}a                                V-SO-PRES ;
 ajuilia:ajuili%{y%}a                                V-SO-IMPF ;
 ajuilia:ajuili                                      V-SO-PROG ;
@@ -1356,6 +1371,15 @@ taluia:taluia                                       V-SO-IMPF ;
 taluia:talui                                        V-SO-PROG ;
 taluia:talui                                        V-SO-PRET ;
 taluia:talui                                        V-SO-FUTR ;
+
+! ""
+maxima:maxima                                       V-SO-PRES ;
+maxima:maxima                                       V-SO-IMPF ;
+maxima:maxima                                       V-SO-PROG ;
+maxima:maxima                                       V-SO-PRET ;
+maxima:maxima                                       V-SO-FUTR ;
+
+
 
 ! ""
 kuapi:kuapi                                         V-SO-PRES ;
@@ -5501,6 +5525,7 @@ pa:pa%{n%}                                          N-Ø ; ! "papá"
 knihuan:knihuan                                     N-Ø ; ! "hermano"
 pipiliknihuan:pipili%>knihuan                       N-Ø ; ! ""
 chokil:chokil                                       N-Ø ; ! ""
+nexuitil:nexuitil                                   N-Ø ; ! "empacho"
 
 iluiti:ilui                                         N-TLI ; ! "fiesta"
 iluit:ilui                                          N-TL ; ! "fiesta"
