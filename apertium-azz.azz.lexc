@@ -1099,6 +1099,22 @@ ixnextiltia:ixnextilti%{y%}                         V-SIO-PROG ;
 ixnextiltia:ixnextilti%{y%}                         V-SIO-PRET ;
 ixnextiltia:ixnextilti%{y%}                         V-SIO-FUTR ;
 
+
+! ""
+poxpepechohuilia:pox%>pepechohuilia                 V-SIO-PRES ;
+poxpepechohuilia:pox%>pepechohuilia                 V-SIO-IMPF ;
+poxpepechohuilia:pox%>pepechohuili                  V-SIO-PROG ;
+poxpepechohuilia:pox%>pepechohuili                  V-SIO-PRET ;
+poxpepechohuilia:pox%>pepechohuili                  V-SIO-FUTR ;
+
+! ""
+pepechohuilia:pepechohuilia                 V-SIO-PRES ;
+pepechohuilia:pepechohuilia                 V-SIO-IMPF ;
+pepechohuilia:pepechohuili                  V-SIO-PROG ;
+pepechohuilia:pepechohuili                  V-SIO-PRET ;
+pepechohuilia:pepechohuili                  V-SIO-FUTR ;
+
+
 kahuilia:kahuilia                                     V-SIO-PRES ; ! "dejarle"
 kahuilia:kahuilia                                     V-SIO-IMPF ; ! "dejarle"
 kahuilia:kahuili                                      V-SIO-PROG ; ! "dejarle"
@@ -1247,6 +1263,13 @@ ajuilia:ajuili                                      V-SO-PROG ;
 ajuilia:ajuili                                      V-SO-PRET ;
 ajuilia:ajuili                                      V-SO-FUTR ;
 
+
+! ""
+ixuitia:ixuiti%{y%}a                                V-SO-PRES ;
+ixuitia:ixuiti%{y%}a                                V-SO-IMPF ;
+ixuitia:ixuiti                                      V-SO-PROG ;
+ixuitia:ixuiti                                      V-SO-PRET ;
+ixuitia:ixuiti                                      V-SO-FUTR ;
 
 ! "imaginar"
 nemilia:nemili%{y%}a                                V-SO-PRES ;
