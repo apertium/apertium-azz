@@ -3283,6 +3283,73 @@
 15	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	11	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:212
+# text = Se kikua itakka, pijpitsaktsin se kitejteki, achto se kipaxijxima ika machete.
+# text[spa] = Su fruto se come, se corta delgadito, primero se le quita la cáscara con machete.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	pijpitsaktsin	pijpitsaktsin	ADJ	_	_	7	dep	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kitejteki	tejteki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	achto	achto	ADV	_	_	11	advmod	_	_
+10	se	se	NUM	_	_	11	nsubj	_	_
+11	kipaxijxima	xijxima	VERB	_	Incorporated=Pan|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+12	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+13	machete	machete	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:213
+# text = Mochiua kampa eski: itech milaj, kaltsintaj oso kajfentaj.
+# text[spa] = Se da por todas partes: en la milpa, cerca de la casa o en el cafetal.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kampa	kampa	ADV	_	PronType=Rel	1	advcl	_	_
+3	eski	etok	AUX	_	Number[subj]=Sing|Person[subj]=3|Tense=Fut	2	cop	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	parataxis	_	_
+6	milaj	milaj	NOUN	_	Case=Abs	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8-9	kaltsintaj	_	_	_	_	_	_	_	_
+8	kal	kali	_	_	_	9	nmod	_	_
+9	tsintaj	tsintan	NOUN	_	NounType=Relat	5	conj	_	_
+10	oso	oso	CCONJ	_	_	11	cc	_	_
+11	kajfentaj	kafentaj	NOUN	_	Case=Abs	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:214
+# text = Moneki se kitachipauis.
+# text[spa] = Hay que limpiarlo.
+# labels = sentence
+1	Moneki	neki	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kitachipauis	chipahuia	VERB	_	Animacy[obj]=Inan|Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	1	dep	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:215
+# text = Amo semi mochiua.
+# text[spa] = No se da mucho.
+# labels = sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:216
+# text = Yek miak onkak, amo moneneki.
+# text[spa] = Hay mucho, no se chiquea.
+# labels = sentence
+1	Yek	yek	ADV	_	Incorporated=Yek	2	advmod	_	_
+2	miak	miak	ADJ	_	_	3	nsubj	_	_
+3	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	amo	amo	ADV	_	_	6	advmod	_	_
+6	moneneki	moneneki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores

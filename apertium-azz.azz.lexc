@@ -1165,7 +1165,15 @@ ilpilia:%{i%}lpili                                    V-SIO-PRET ; ! ""
 ilpilia:%{i%}lpili                                    V-SIO-FUTR ; ! ""
 
 
+! "limpiar"
+chipahuia:chipahuia                                   V-SIO-PRES ;
+chipahuia:chipahuia                                   V-SIO-IMPF ;
+chipahuia:chipahui                                   V-SIO-PROG ;
+chipahuia:chipahui                                   V-SIO-PRET ;
+chipahuia:chipahui                                   V-SIO-FUTR ;
 
+
+ 
 LEXICON SO
 
 ! "tener"
@@ -1262,6 +1270,14 @@ ajuilia:ajuili%{y%}a                                V-SO-IMPF ;
 ajuilia:ajuili                                      V-SO-PROG ;
 ajuilia:ajuili                                      V-SO-PRET ;
 ajuilia:ajuili                                      V-SO-FUTR ;
+
+! ""
+xijxima:xi%{j%}xima                                 V-SO-PRES ;
+xijxima:xi%{j%}xima                                 V-SO-IMPF ;
+xijxima:xi%{j%}xima                                 V-SO-PROG ;
+xijxima:xi%{j%}xima                                 V-SO-PRET ;
+xijxima:xi%{j%}xima                                 V-SO-FUTR ;
+
 
 
 ! ""
@@ -5188,7 +5204,7 @@ ijtikpa:i%{j%}tikpa                                N-REL ;
 LEXICON Locativos 
 
 tsintan:tsintan                                    N-LOC ;
-tsintan:tsinta                                     N-LOC ;
+tsintan:tsinta%{j%}                                N-LOC ;
 kespan:kespan                                      N-LOC ;
 kespan:kespaj                                      N-LOC ;
 tampa:tampa                                        N-LOC ;
@@ -6812,6 +6828,7 @@ ixtapaktik:ix%>tapaktik                             ADJ ; ! "abierto"
 
 
 pijpitsaktik:pi%{j%}pitsaktik                       ADJ-REDUP ; ! "delgado"
+pijpitsaktsin:pi%{j%}pitsaktsin                     ADJ-TSIN ; ! "delgadito"
 alaktik:alaktik                                     ADJ ; ! "resbaloso"
 
 chikahuak:chikahuak                                 ADJ ; ! "fuerte"
