@@ -4096,6 +4096,31 @@
 13	emol	emol	NOUN	_	Case=Abs	10	appos	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:312
+# text = Se kikua ikamojyo:
+# text[spa] = El camote se come:
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ikamojyo	kamojyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:315
+# text = Xochiyoua itech marzo, sempoual tonal uaki ya in ixochiyo.
+# text[spa] = Florea en marzo, a los veinte días se se secan sus flores.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	marzo	marzo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	sempoual	sempohual	NUM	_	_	6	nummod	_	_
+6	tonal	tonal	NOUN	_	Case=Abs	7	obl	_	_
+7	uaki	huaki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+8	ya	ya	ADV	_	_	7	advmod	_	_
+9	in	in	DET	_	_	10	det	_	_
+10	ixochiyo	xochiyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
