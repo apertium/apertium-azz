@@ -1324,6 +1324,13 @@ huiteki:huiteki                                     V-SO-PRET ;
 huiteki:huiteki                                     V-SO-FUTR ;
 
 ! "cortar"
+kesteki:kesteki                                     V-SO-PRES ;
+kesteki:kesteki                                     V-SO-IMPF ;
+kesteki:kesteki                                     V-SO-PROG ;
+kesteki:kesteki                                     V-SO-PRET ;
+kesteki:kesteki                                     V-SO-FUTR ;
+
+! "cortar"
 teki:teki                                           V-SO-PRES ;
 teki:teki                                           V-SO-IMPF ;
 teki:teki                                           V-SO-PROG ;
@@ -5252,6 +5259,7 @@ nakasko:nakasko                                    N-LOC ; ! ""
 nakastan:nakastan                                  N-LOC ; ! ""
 
 pan:pan                                            N-LOC ; ! ""
+pan:pa                                             N-LOC ; ! ""
 pampa:pampa                                        N-LOC ; ! ""
 
 kopa:kopa                                          N-LOC ; ! "" ! Comprobar: Sólo en palabras compuestas? 
