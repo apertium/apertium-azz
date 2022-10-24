@@ -2735,6 +2735,14 @@ talia:tali%{y%}a                                    V-SI-PROG ;
 talia:tali%{y%}a                                    V-SI-PRET ;
 talia:tali                                          V-SI-FUTR ;
 
+! "doler"
+ijtikokohua:ijti%>kokohua                           V-SO-PRES ;
+ijtikokohua:ijti%>kokohua                           V-SO-IMPF ;
+ijtikokohua:ijti%>kokohua                           V-SO-PROG ;
+ijtikokohua:ijti%>koko                              V-SO-PRET ;
+ijtikokohua:ijti%>koko                              V-SO-FUTR ;
+
+
 ! "tirar"
 tamota:tamota                                       V-SI-PRES ;
 tamota:tamota                                       V-SI-IMPF ;
@@ -5288,6 +5296,7 @@ ejekat:ejeka                                        N-TL ; ! "viento"
 ichkat:ichka                                        N-TL ; ! "algodón"
 huehuet:huehue                                      N-TL ; ! "viejo"
 takilot:takilo                                      N-TL ; ! "fruto"
+tsopilot:tso%{j%}pilo                               N-TL ; ! "zopilote"
 itskuinti:itskuin                                   N-TLI ; ! "perro"
 metsti:mets                                         N-TLI ; ! "mes"
 metskouyo:metskouyo                                 N-Ø ; ! "tallo"

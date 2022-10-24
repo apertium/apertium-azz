@@ -4025,6 +4025,77 @@
 9	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	advcl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:305
+# text = Uan mochiua itech mayo, junio.
+# text[spa] = Se da en los meses de mayo y junio.
+# labels = sentence
+1	Uan	huan	CCONJ	_	_	2	cc	_	_
+2	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	mayo	mayo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	junio	junio	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:306
+# text = Se kikua, se kikixtilia in ieuayo uan se kipipina.
+# text[spa] = Se come: se le quita la cáscara y se chupa.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	kikixtilia	kixtilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+6	in	in	DET	_	_	7	det	_	_
+7	ieuayo	ehuayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+8	uan	huan	CCONJ	_	_	10	cc	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kipipina	pipina	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:307
+# text = Sesek porque teijtikokoj komo se kitelkuaj.
+# text[spa] = Es fría porque hace daño si se come mucha.
+# labels = sentence incorporation
+1	Sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	porque	porque	SCONJ	_	_	3	mark	_	_
+3	teijtikokoj	ijtikokohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pret	1	advcl	_	_
+4	komo	komo	ADV	_	_	6	mark	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kitelkuaj	kua	VERB	_	Incorporated=Tel|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:309
+# text = Iujki monotsa tak por in nejnextik.
+# text[spa] = Tal vez se llama así porque sus hojas son grises.
+# labels = sentence
+1	Iujki	iuki	ADV	_	_	2	advmod	_	_
+2	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	tak	tak	ADV	_	_	2	advmod	_	_
+4	por	por	ADP	_	_	6	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	nejnextik	nejnextik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:310
+# text = Pané amo kualtia para pajti, pero kualtia para tapalol, para emol.
+# text[spa] = Parece que no es medicinal, pero sirve para comida, para los frijoles.
+# labels = sentence
+1	Pané	pane	ADV	_	_	3	advmod	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	pajti	pajti	NOUN	_	Case=Abs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	pero	pero	CCONJ	_	_	8	cc	_	_
+8	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	conj	_	_
+9	para	para	ADP	_	_	10	case	_	_
+10	tapalol	tapalol	NOUN	_	Case=Abs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	emol	emol	NOUN	_	Case=Abs	10	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
