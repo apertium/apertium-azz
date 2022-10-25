@@ -4964,6 +4964,19 @@
 2	ixua	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:422:1
+# text = Para atol kiixtapanaj in vainiya uan kipantaliliaj.
+# text[spa] = Para el atole, la vainilla se parte a la mitad y se le echa al atole.
+# labels = sentence
+1	Para	para	ADP	_	_	2	case	_	_
+2	atol	atol	NOUN	_	Case=Abs	3	obl	_	_
+3	kiixtapanaj	ixtapana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	in	in	DET	_	_	5	det	_	_
+5	vainiya	vainiya	NOUN	_	Case=Abs	3	obj	_	_
+6	uan	huan	CCONJ	_	_	7	cc	_	_
+7	kipantaliliaj	talilia	VERB	_	Incorporated=Pan|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
