@@ -4977,6 +4977,89 @@
 7	kipantaliliaj	talilia	VERB	_	Incorporated=Pan|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:423
+# text = In kuomekat, mouilana kemej ayojmekat.
+# text[spa] = Es bejuco (kuamekat). Se extiende como la calabaza.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	kuomekat	komekat	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	mouilana	huilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+5	kemej	kemej	ADP	_	_	6	case	_	_
+6	ayojmekat	ayojmekat	NOUN	_	Case=Abs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:424
+# text = Amo xochiyoua, ta nanakat.
+# text[spa] = No florea pues es hongo.
+# labels = sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	ta	ta	ADV	_	_	5	advmod	_	_
+5	nanakat	nanakat	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:426
+# text = Xochiyoua abril, junio onkak ya.
+# text[spa] = Florece en abril; en junio ya se da.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	abril	abril	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	junio	junio	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+5	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	parataxis	_	_
+6	ya	ya	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:427
+# text = In no monamaka ne Sakapoastan.
+# text[spa] = Este también se vende allá en Zacapoaxtla.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	no	no	ADV	_	_	3	advmod	_	_
+3	monamaka	namaka	VERB	_	Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	ne	ne	ADV	_	_	3	advmod	_	_
+5	Sakapoastan	Sakapoastan	PROPN	_	_	4	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:428
+# text = TEIN TEKITIKEJ (1986)
+# text[spa] = INVESTIGADORES (1986)
+# labels =
+1	TEIN	tein	PRON	_	_	0	root	_	_
+2	TEKITIKEJ	tekiti	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pret	1	acl:relcl	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	1986	1986	NUM	_	_	1	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:429
+# text = Mouiuilana kemej eskia kuamekat.
+# text[spa] = Se extiende como si fuera bejuco.
+# labels = sentence
+1	Mouiuilana	huihuilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kemej	kemej	ADV	_	_	4	mark	_	_
+3	eskia	etok	AUX	_	Mood=Cond|Number[subj]=Sing|Person[subj]=3	4	cop	_	_
+4	kuamekat	kuamekat	NOUN	_	Case=Abs	1	advcl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:432
+# text = Miak mochiua, pero yetok tiempo saj: junio uan mayo.
+# text[spa] = Brota mucho, pero sólo en mayo y junio.
+# labels = sentence
+1	Miak	miak	ADV	_	_	2	advmod	_	_
+2	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	pero	pero	CCONJ	_	_	6	cc	_	_
+5	yetok	etok	AUX	_	Number[subj]=Sing|Person[subj]=3	6	cop	_	_
+6	tiempo	tiempo	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+7	saj	saj	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	_
+9	junio	junio	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+10	uan	huan	CCONJ	_	_	11	cc	_	_
+11	mayo	mayo	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
