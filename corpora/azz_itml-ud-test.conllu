@@ -4375,6 +4375,72 @@
 21	soneujkui	soneujkui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:352
+# text = Iujki kitokaytiaj por in mapisiltik.
+# text[spa] = Lo nombran así porque sus hojas son muy delgaditas.
+# labels = sentence
+1	Iujki	iuki	ADV	_	_	2	advmod	_	_
+2	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	in	in	DET	_	_	3	fixed	_	_
+5	mapisiltik	mapisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:353
+# text = Mochiua kuoujtaj oso kajfentaj.
+# text[spa] = Se da en el monte y en los cafetales.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kuoujtaj	kuoutaj	NOUN	_	Case=Abs	1	obl	_	_
+3	oso	oso	CCONJ	_	_	4	cc	_	_
+4	kajfentaj	kafentaj	NOUN	_	Case=Abs	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:354
+# text = In sesek, cuando se tayi se momaka cuenta.
+# text[spa] = El limón es frío, uno se da cuenta al tomarlo.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	cuando	cuando	SCONJ	_	_	6	mark	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	tayi	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	8	advcl	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	momaka	maka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+9	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:356
+# text = ITSPAJPATA
+# text[spa] = PLÁTANO SILVESTRE
+# labels =
+1	ITSPAJPATA	itspajpata	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:357
+# text = Ipa se kikua saj in inakayo : achto se kiteyojkixtia para oksi ya uan kemaj se kikua ya.
+# text[spa] = Sólo se come la carne del fruto : se le quita su semilla y se deja madurar y ya se come.
+# labels = sentence incorporation
+1	Ipa	ipa	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	saj	saj	ADV	_	_	3	advmod	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	inakayo	nakayot	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	achto	achto	ADV	_	_	10	advmod	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kiteyojkixtia	teyojkixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+11	para	para	SCONJ	_	_	12	mark	_	_
+12	oksi	oksi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	10	advcl	_	_
+13	ya	ya	ADV	_	_	12	advmod	_	_
+14	uan	huan	CCONJ	_	_	17	cc	_	_
+15	kemaj	kemaj	INTJ	_	_	17	discourse	_	_
+16	se	se	NUM	_	_	17	nsubj	_	_
+17	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	10	conj	_	_
+18	ya	ya	ADV	_	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores

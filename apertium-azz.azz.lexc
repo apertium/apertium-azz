@@ -1496,6 +1496,13 @@ tilana:tilana                                       V-SO-PRET ;
 tilana:tilana                                       V-SO-FUTR ;
 
 ! ""
+teyojkixtia:teyoj%>kixtia                                       V-SO-PRES ;
+teyojkixtia:teyoj%>kixtia                                       V-SO-IMPF ;
+teyojkixtia:teyoj%>kixti                                        V-SO-PROG ;
+teyojkixtia:teyoj%>kixti                                        V-SO-PRET ;
+teyojkixtia:teyoj%>kixti                                        V-SO-FUTR ;
+
+! ""
 kixtia:kixtia                                       V-SO-PRES ;
 kixtia:kixtia                                       V-SO-IMPF ;
 kixtia:kixti                                        V-SO-PROG ;
