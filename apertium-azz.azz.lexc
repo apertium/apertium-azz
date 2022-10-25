@@ -1425,13 +1425,6 @@ ajsi:ajsi                                           V-SO-PROG ;
 ajsi:ajsi                                           V-SO-PRET ;
 ajsi:ajsi                                           V-SO-FUTR ;
 
-! "usar"
-kui:kui                                             V-SO-PRES ;
-kui:kui                                             V-SO-IMPF ;
-kui:kui                                             V-SO-PROG ;
-kui:kui                                             V-SO-PRET ;
-kui:kui                                             V-SO-FUTR ;
-
 ! "comer"
 kua:kua                                             V-SO-PRES ;
 kua:kua                                             V-SO-IMPF ;
@@ -2531,6 +2524,12 @@ tsonkuajkua:tsonkuajkua                               V-SO-PROG ; ! "masticar"
 tsonkuajkua:tsonkuajkua                               V-SO-PRET ; ! "masticar"
 tsonkuajkua:tsonkuajkua                               V-SO-FUTR ; ! "masticar"
 
+ijpotsa:ijpotsa                                       V-SO-PRES ; ! "eructar"
+ijpotsa:ijpotsa                                       V-SO-IMPF ; ! "eructar"
+ijpotsa:ijpotsa                                       V-SO-PROG ; ! "eructar"
+ijpotsa:ijpotsa                                       V-SO-PRET ; ! "eructar"
+ijpotsa:ijpotsa                                       V-SO-FUTR ; ! "eructar"
+
 hualkui:hualkui                                       V-SO-PRES ; ! "traer"
 hualkui:hualkui                                       V-SO-IMPF ; ! "traer"
 hualkui:hualkui                                       V-SO-PROG ; ! "traer"
@@ -3285,6 +3284,13 @@ taki:taki                                           V-S-IMPF ;
 taki:taki                                           V-S-PROG ;
 taki:taki                                           V-S-PRET ;
 taki:taki                                           V-S-FUTR ;
+
+! "acabar"
+motami:motami                                       V-S-PRES ;
+motami:motami                                       V-S-IMPF ;
+motami:motami                                       V-S-PROG ;
+motami:motami                                       V-S-PRET ;
+motami:motami                                       V-S-FUTR ;
 
 ! "acabar"
 tami:tami                                           V-S-PRES ;
