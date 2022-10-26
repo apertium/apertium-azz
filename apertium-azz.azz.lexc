@@ -1587,6 +1587,14 @@ tetehuatsa:te%{j%}tehuatsa                          V-SO-PROG ;
 tetehuatsa:te%{j%}tehuatsa                          V-SO-PRET ;
 tetehuatsa:te%{j%}tehuatsa                          V-SO-FUTR ;
 
+! "tostar en comal"
+komaltehuatsa:komal%>tehuatsa                       V-SO-PRES ;
+komaltehuatsa:komal%>tehuatsa                       V-SO-IMPF ;
+komaltehuatsa:komal%>tehuatsa                       V-SO-PROG ;
+komaltehuatsa:komal%>tehuatsa                       V-SO-PRET ;
+komaltehuatsa:komal%>tehuatsa                       V-SO-FUTR ;
+
+
 ! "tostar"
 tehuatsa:tehuatsa                                   V-SO-PRES ;
 tehuatsa:tehuatsa                                   V-SO-IMPF ;
