@@ -5645,6 +5645,33 @@
 # labels =
 1	UAXIN	huaxin	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:526
+# text = In euayo no semi kuali para estsompil uan kalanemilis : kimanaj iuan ieuayo in eskouit uan uiuilakani uan kemaj se tayi.
+# text[spa] = La cáscara es muy buena para curar la disentería y la diarrea : se hierve junto con la cáscara de sangre de grado y el uiuilakani y se toma.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	euayo	ehuayo	NOUN	_	Case=Abs	5	nsubj	_	_
+3	no	no	ADV	_	_	5	advmod	_	_
+4	semi	semi	ADV	_	_	5	advmod	_	_
+5	kuali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	estsompil	estsompil	NOUN	_	Case=Abs	5	obl	_	_
+8	uan	huan	CCONJ	_	_	9	cc	_	_
+9	kalanemilis	kalanemilis	NOUN	_	Case=Abs	7	conj	_	_
+10	:	:	PUNCT	_	_	11	punct	_	_
+11	kimanaj	mana	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	parataxis	_	_
+12	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+13	ieuayo	ehuayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	12	nmod	_	_
+14	in	in	DET	_	_	15	det	_	_
+15	eskouit	eskohuit	NOUN	_	Case=Abs	13	nmod	_	_
+16	uan	huan	CCONJ	_	_	17	cc	_	_
+17	uiuilakani	huihuilakani	NOUN	_	Case=Abs	13	conj	_	_
+18	uan	huan	CCONJ	_	_	21	cc	_	_
+19	kemaj	kemaj	INTJ	_	_	21	discourse	_	_
+20	se	se	NUM	_	_	21	nsubj	_	_
+21	tayi	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:527
 # text = Xochimej
 # text[spa] = Las flores
@@ -5660,6 +5687,17 @@
 3	Kuesalan	Cuetzalan	PROPN	_	_	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:530:1
+# text = Iujki kiluiaj por in rajrabontik.
+# text[spa] = Así le dicen porque son como raboncitos.
+# labels = sentence
+1	Iujki	iuki	ADV	_	_	2	advmod	_	_
+2	kiluiaj	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	in	in	DET	_	_	3	fixed	_	_
+5	rajrabontik	rajrabontik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	2	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:531
 # text = Se kikua.
 # text[spa] = Se come.
@@ -5667,6 +5705,16 @@
 1	Se	se	NUM	_	_	2	nsubj	_	_
 2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:532
+# text = Ipa iujki itokay saj.
+# text[spa] = De por sí así es su nombre.
+# labels = sentence
+1	Ipa	ipa	ADV	_	_	2	advmod	_	_
+2	iujki	iuki	ADV	_	_	0	root	_	_
+3	itokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+4	saj	saj	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:533
 # text = In xitomat no se kitoka in iteyo.
@@ -5680,6 +5728,19 @@
 6	in	in	DET	_	_	7	det	_	_
 7	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	dep	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:535
+# text = Nika uin no mochiua kaltsintan.
+# text[spa] = Por aquí también se da al pie de la casa.
+# labels = sentence
+1	Nika	nika	ADV	_	_	4	advmod	_	_
+2	uin	uin	X	_	_	1	goeswith	_	_
+3	no	no	ADV	_	_	4	advmod	_	_
+4	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+5-6	kaltsintan	_	_	_	_	_	_	_	SpaceAfter=No
+5	kal	kali	NOUN	_	_	6	nmod	_	_
+6	tsintan	tsintan	NOUN	_	NounType=Relat	4	obl	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:536
 # text = AXOX
