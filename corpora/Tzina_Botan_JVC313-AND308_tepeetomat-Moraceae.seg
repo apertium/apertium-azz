@@ -137,12 +137,6 @@
 ^n'/n'$
 ^imay/imay$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a65
-# text = wan ompa ya ne mochiwtiw nen i..., iteyotsitsin.
-# text[orig] = wa:n ompa ya ne: mochi:wtiw ne:n i..., iteyotsitsi:n.
-# text[spa] = y así van brotando las flores para que después produzca su..., sus frutos.
-# labels = a65 fragment
 ^wan/wan$
 ^ompa/ompa$
 ^ya/ya$
@@ -168,12 +162,6 @@
 ^ayamo/ayamo$
 ^chikawak/chikawak$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a67
-# text = pos nijon xohxoxoktik.
-# text[orig] = pos nijó:n xohxoxoktik.
-# text[spa] = pues son de color verde.
-# labels = a67 fragment
 ^pos/pos$
 ^nijon/nijon$
 ^xohxoxoktik/xohxoxoktik$
@@ -422,36 +410,18 @@
 ^se/se$
 ^kichiwa/kichiwa$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a87
-# text = pos amo kachi kikwih porque ,
-# text[orig] = pos a:mo kachi kikwih <i>porque</i>,
-# text[spa] = no la usan mucho porque,
-# labels = a87 fragment
 ^pos/pos$
 ^amo/amo$
 ^kachi/kachi$
 ^kikwih/kikwih$
 ^porque/porque$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a88
-# text = pos nijon maski neh nikita,
-# text[orig] = pos nijó:n ma:ski neh nikita,
-# text[spa] = pues yo veo que aunque,
-# labels = a88 fragment
 ^pos/pos$
 ^nijon/nijon$
 ^maski/maski$
 ^neh/neh$
 ^nikita/nikita$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a89
-# text = mas chikawak metsti ihkon, pero nijon okwilowa.
-# text[orig] = ma:s chika:wak me:tsti ihkó:n, pero nijó:n okwilowa.
-# text[spa] = uno corte en luna recia, la madera se apolilla.
-# labels = a89 fragment
 ^mas/mas$
 ^chikawak/chikawak$
 ^metsti/metsti$

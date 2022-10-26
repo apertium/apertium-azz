@@ -8438,6 +8438,28 @@
 10	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a66
+# text = Cuando ihkon, cuando ayamo, ayamo chikawak, pos nijon xohxoxoktik.
+# text[orig] = <i>Cuando</i> ihkó:n, <i>cuando</i> aya:mo, aya:mo chika:wak, pos nijó:n xohxoxoktik.
+# text[spa] = Cuando los frutos todavía, todavía no están maduros, pues son de color verde.
+# text[a66] = <i>Cuando</i> ihkó:n, <i>cuando</i> aya:mo, aya:mo chika:wak,
+# text[a67] = pos nijó:n xohxoxoktik.
+# text[gloss] = Cuando así, cuando todavía no, todavía no están maduros, pues estos son verdes.
+# labels = a66 a67 fragment
+1	Cuando	cuando	SCONJ	_	_	4	reparandum	_	_
+2	ihkon	ijkon	ADV	_	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	cuando	cuando	SCONJ	_	_	8	mark	_	_
+5	ayamo	ayamo	ADV	_	_	7	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ayamo	ayamo	ADV	_	_	8	advmod	_	_
+8	chikawak	chikahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	12	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	pos	pos	ADV	_	_	12	advmod	_	_
+11	nijon	nijon	PRON	_	_	12	nsubj	_	_
+12	xohxoxoktik	xojxoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a68
 # text = Xohxoxoktik.
 # text[orig] = Xohxoxoktik.
@@ -8514,6 +8536,61 @@
 9	niman	niman	ADV	_	_	10	advmod	_	_
 10	posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a85
+# text = Yon amo kachi kikwih.
+# text[orig] = Yo:n a:mo kachi kikwih.
+# text[spa] = Ésa madera casi no la usan.
+# labels = a85 sentence cleft
+1-2	Yon	_	_	_	_	_	_	_	_
+1	Yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2		in	DET	_	_	5	mark	_	_
+3	amo	amo	ADV	_	_	5	advmod	_	_
+4	kachi	kachi	ADV	_	_	5	advmod	_	_
+5	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	csubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a86
+# text = Amo kachi kikwih para teihsa kemeh in kaltsin se kichiwa, pos amo kachi kikwih porque, pos nijon maski neh nikita, mas chikawak metsti ihkon, pero nijon okwilowa.
+# text[orig] = A:mo kachi kikwih para teihsá: ke:meh i:n kaltsí:n se: kichi:wa, pos a:mo kachi kikwih <i>porque</i>, pos nijó:n ma:ski neh nikita, ma:s chika:wak me:tsti ihkó:n, pero nijó:n okwilowa.
+# text[spa] = Casi no usan mucho para la construcción de casas, no la usan mucho porque, pues yo veo que aunque, uno corte en luna recia, la madera se apolilla.
+# text[a86] = A:mo kachi kikwih para teihsá: ke:meh i:n kaltsí:n se: kichi:wa,
+# text[a87] = pos a:mo kachi kikwih <i>porque</i>,
+# text[a88] = pos nijó:n ma:ski neh nikita,
+# text[a89] = ma:s chika:wak me:tsti ihkó:n, pero nijó:n okwilowa.
+# labels = a86 a87 a88 a89 fragment
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	kachi	kachi	ADV	_	_	3	advmod	_	_
+3	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	teihsa	teisa	PRON	_	_	3	obl	_	_
+6	kemeh	kemej	ADV	_	_	10	mark	_	_
+7	in	in	DET	_	_	8	det	_	_
+8	kaltsin	kali	NOUN	_	Polite=Form	10	obj	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kichiwa	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	pos	pos	ADV	_	_	15	advmod	_	_
+13	amo	amo	ADV	_	_	15	advmod	_	_
+14	kachi	kachi	ADV	_	_	15	advmod	_	_
+15	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+16	porque	porque	SCONJ	_	_	25	mark	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	pos	pos	ADV	_	_	22	advmod	_	_
+19	nijon	nijon	PRON	_	_	22	dep	_	_
+20	maski	maski	SCONJ	_	_	22	mark	_	_
+21	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	22	nsubj	_	_
+22	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	15	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	mas	más	ADV	_	_	25	advmod	_	_
+25	chikawak	chikahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	31	advcl	_	_
+26	metsti	metsti	NOUN	_	Case=Abs	25	nsubj	_	_
+27	ihkon	ijkon	ADV	_	_	25	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	25	punct	_	_
+29	pero	pero	CCONJ	_	_	31	cc	_	_
+30	nijon	nijon	PRON	_	_	31	nsubj	_	_
+31	okwilowa	okuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	15	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a97
 # text = Kemasa siquiera nawi se 'kixtia.
