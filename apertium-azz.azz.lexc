@@ -1010,6 +1010,14 @@ maka:maka                                          V-SIO-PROG ;
 maka:maka                                          V-SIO-PRET ; 
 maka:maka                                          V-SIO-FUTR ; 
 
+! "darle las gracias"
+tasojkamatilia:tasojkamatilia                      V-SIO-PRES ; 
+tasojkamatilia:tasojkamatilia                      V-SIO-IMPF ;
+tasojkamatilia:tasojkamatili                       V-SIO-PROG ;
+tasojkamatilia:tasojkamatili                       V-SIO-PRET ; 
+tasojkamatilia:tasojkamatili                       V-SIO-FUTR ; 
+
+
 ! "vender"
 namaka:namaka                                      V-SIO-PRES ; 
 namaka:namaka                                      V-SIO-IMPF ;
