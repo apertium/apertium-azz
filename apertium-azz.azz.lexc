@@ -2578,6 +2578,14 @@ huihuita:huihuita                                     V-SO-PROG ; ! "arrancar"
 huihuita:huihuita                                     V-SO-PRET ; ! "arrancar"
 huihuita:huihuita                                     V-SO-FUTR ; ! "arrancar"
 
+! "endulzar"
+tsopelia:tsopelia                                   V-SO-PRES ;
+tsopelia:tsopelia                                   V-SO-IMPF ;
+tsopelia:tsopeli                                    V-SO-PROG ;
+tsopelia:tsopeli                                    V-SO-PRET ;
+tsopelia:tsopeli                                    V-SO-FUTR ;
+
+
 xakualohua:xakualohua                                 V-SO-PRES ; ! "restregar"
 xakualohua:xakualohua                                 V-SO-IMPF ; ! "restregar"
 xakualohua:xakualo                                    V-SO-PROG ; ! "restregar"
