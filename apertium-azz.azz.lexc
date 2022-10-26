@@ -1581,6 +1581,13 @@ paka:paka                                           V-SO-PRET ;
 paka:paka                                           V-SO-FUTR ;
 
 ! "tostar"
+tetehuatsa:te%{j%}tehuatsa                          V-SO-PRES ;
+tetehuatsa:te%{j%}tehuatsa                          V-SO-IMPF ;
+tetehuatsa:te%{j%}tehuatsa                          V-SO-PROG ;
+tetehuatsa:te%{j%}tehuatsa                          V-SO-PRET ;
+tetehuatsa:te%{j%}tehuatsa                          V-SO-FUTR ;
+
+! "tostar"
 tehuatsa:tehuatsa                                   V-SO-PRES ;
 tehuatsa:tehuatsa                                   V-SO-IMPF ;
 tehuatsa:tehuatsa                                   V-SO-PROG ;
