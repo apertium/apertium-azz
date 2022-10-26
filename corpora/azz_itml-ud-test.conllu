@@ -5769,6 +5769,100 @@
 6	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:543
+# text = In kuouit sesek.
+# text[spa] = Este árbol es frío.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	kuouit	kohuit	NOUN	_	Case=Abs	3	nsubj	_	_
+3	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:544
+# text = Nochi in tataman pajpata se kikua.
+# text[spa] = Todos los tipos de plátanos son comestibles.
+# labels = sentence
+1	Nochi	nochi	DET	_	_	3	det	_	_
+2	in	in	DET	_	_	3	det	_	_
+3	tataman	taman	NOUN	_	Number=Plur	6	obj	_	_
+4	pajpata	pajpata	NOUN	_	Case=Abs	3	nmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:546
+# text = Onkak ome taman: seki mochiua ueueyak uan seki ojololtik.
+# text[spa] = Hay dos clases: algunos son largos y otros, boluditos.
+# labels = sentence
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+2	ome	ome	NUM	_	_	3	nummod	_	_
+3	taman	taman	NOUN	_	Case=Abs	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	seki	seki	PRON	_	_	6	nsubj	_	_
+6	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+7	ueueyak	huejhueyak	ADJ	_	Reduplicated=Yes	6	dep	_	_
+8	uan	huan	CCONJ	_	_	10	cc	_	_
+9	seki	seki	PRON	_	_	10	nsubj	_	_
+10	ojololtik	ojololtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:547
+# text = Peua 27 (uaujkilit) uan tami 55 (uitsti) : Eleuterio Salazar.
+# text[spa] = del número 27 (uaujkilit - quiltonile) al número 55 (uitsti - espinoso), lo corregió Eleuterio Salazar;
+# labels = sentence
+1	Peua	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	27	27	NUM	_	_	1	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	uaujkilit	huaujkilit	NOUN	_	Case=Abs	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	uan	huan	CCONJ	_	_	7	cc	_	_
+7	tami	tami	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	conj	_	_
+8	55	55	NUM	_	_	7	nsubj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	uitsti	huitsti	NOUN	_	Case=Abs	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	Eleuterio	Eleuterio	PROPN	_	Gender=Masc	1	parataxis	_	_
+14	Salazar	Salazar	PROPN	_	_	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:548
+# text = Tak sesek.
+# text[spa] = Tal vez es fría.
+# labels = sentence
+1	Tak	tak	ADV	_	_	2	advmod	_	_
+2	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:549
+# text = Ixua isemilla.
+# text[spa] = Se reproduce por la semilla.
+# labels = sentence
+1	Ixua	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	isemilla	semilla	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:550
+# text = In xiuit sesek.
+# text[spa] = Esta hierba es fría.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	xiuit	xihuit	NOUN	_	Case=Abs	3	nsubj	_	_
+3	sesek	sesek	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:553
+# text = Onkak tein kuali uan tein cimarrón.
+# text[spa] = Hay de la buena y de la cimarrona.
+# labels = sentence
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+2	tein	tein	PRON	_	_	1	nsubj	_	_
+3	kuali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	acl:relcl	_	_
+4	uan	huan	CCONJ	_	_	5	cc	_	_
+5	tein	tein	PRON	_	_	2	conj	_	_
+6	cimarrón	cimarrón	NOUN	_	Gender=Fem|Number=Sing|Number[subj]=Sing|Person[subj]=3	5	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:599
 # text = Ipa iujki tiktokaytiaj.
 # text[spa] = Así lo llamamos siempre.
