@@ -3576,9 +3576,7 @@
 	"kemej" adv
 	"kemej" pr
 "<amakowit>"
-	"amakohuit" n abs
 	"amakohuit" n abs s_sg3
-;	"amakohuit" n abs s_pl3
 "<.>"
 	"." sent @punct
 
@@ -3608,15 +3606,15 @@
 # text[spa] = No, no tampoco ....
 # labels = a137 fragment
 "<Amo>"
-	"amo" adv
+	"amo" adv @reparandum #1->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<amo>"
-	"amo" adv
+	"amo" adv @root #3->0
 "<no...>"
-	"no" x @reparandum
+	"no" adv @advmod #4->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a145
 # text = Pos kemah. Kemah pos yon kow..., yon kowtet no nikixmattok que tepetomat, nejon,
