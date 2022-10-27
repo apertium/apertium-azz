@@ -8543,8 +8543,8 @@
 # text[spa] = Ésa madera casi no la usan.
 # labels = a85 sentence cleft
 1-2	Yon	_	_	_	_	_	_	_	_
-1	Yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
-2		in	DET	_	_	5	mark	_	_
+1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	n	in	DET	_	_	5	mark	_	_
 3	amo	amo	ADV	_	_	5	advmod	_	_
 4	kachi	kachi	ADV	_	_	5	advmod	_	_
 5	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	csubj	_	SpaceAfter=No
@@ -8591,6 +8591,60 @@
 30	nijon	nijon	PRON	_	_	31	nsubj	_	_
 31	okwilowa	okuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	15	conj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a90
+# text = Yon kikwih no s..., kow..., kowtatil, se kitahtapana, pero yon seki kwaltsin tahtapani wan seki achi tehtetsiltik.
+# text[orig] = Yo:n kikwih no: s..., kow..., kowtati:l, se: kitahtapa:na, pero yo:n seki kwaltsi:n tahtapa:ni wa:n seki achi tehtetsi:ltik.
+# text[spa] = Ésa madera también la usan para la..., le..., leña, se parten los trozos con hacha, algunos trozos se pueden partir bien y otros son así como muy torcidos.
+# text[a90] = Yo:n kikwih no: s..., kow..., kowtati:l,
+# text[a91] = se: kitahtapa:na, pero yo:n seki kwaltsi:n tahtapa:ni wa:n seki achi tehtetsi:ltik.
+# labels = a90 a91 fragment
+1-2	Yon	_	_	_	_	_	_	_	_
+1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	n	in	DET	_	_	3	mark	_	_
+3	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	csubj	_	_
+4	no	no	ADV	_	_	3	advmod	_	_
+5	s...	s	X	_	_	9	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kow...	kou	X	_	_	9	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	kowtatil	koutatil	NOUN	_	Case=Abs	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	se	se	NUM	_	_	12	nsubj	_	_
+12	kitahtapana	tajtapana	VERB	_	Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	pero	pero	CCONJ	_	_	15	cc	_	_
+15-16	yon	_	_	_	_	_	_	_	_
+15	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	12	conj	_	_
+16	n	in	DET	_	_	19	mark	_	_
+17	seki	seki	PRON	_	_	19	nsubj	_	_
+18	kwaltsin	kuali	ADJ	_	Polite=Form	19	advmod	_	_
+19	tahtapani	tajtapani	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	15	csubj	_	_
+20	wan	huan	CCONJ	_	_	23	cc	_	_
+21	seki	seki	PRON	_	_	23	nsubj	_	_
+22	achi	achi	ADV	_	_	23	advmod	_	_
+23	tehtetsiltik	tejtetsiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a96
+# text = Wan seki kwaltsin nen, melawak, de n' melawak kwaltsin se kitapana.
+# text[orig] = Wa:n seki kwaltsi:n ne:n, mela:wak, de n' mela:wak kwaltsi:n se: kitapa:na.
+# text[spa] = Y algunos trozos son rectos, los que están rectos, los trozos rectos se pueden partir con facilidad.
+# labels = a96 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	seki	seki	PRON	_	_	3	nsubj	_	_
+3	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	_
+4	nen	nen	PRON	_	_	13	dislocated	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	melawak	melahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	de	de	ADP	_	_	10	dep	_	_
+9	n'	in	DET	_	_	10	det	_	_
+10	melawak	melahuak	ADJ	_	_	13	obl	_	_
+11	kwaltsin	kuali	ADV	_	_	13	advmod	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	kitapana	tapana	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a97
 # text = Kemasa siquiera nawi se 'kixtia.

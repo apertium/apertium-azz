@@ -129,7 +129,7 @@
 # text[orig] = Yo:n moma:yo:tia, ihkwí:n yowi n' ima:y,
 # text[spa] = Las ramas se extienden así, crecen en forma horizontal
 # labels = a64 fragment
-^Yon/Yon$
+^Yon/Yo>n$
 ^momayotia/momayotia$
 ^,/,$
 ^ihkwin/ihkwin$
@@ -388,7 +388,7 @@
 # text[orig] = Yo:n a:mo kachi kikwih.
 # text[spa] = Ésa madera casi no la usan.
 # labels = a85 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^kachi/kachi$
 ^kikwih/kikwih$
@@ -437,7 +437,7 @@
 # text[orig] = Yo:n kikwih no: s..., kow..., kowtati:l,
 # text[spa] = Ésa madera también la usan para la..., le..., leña,
 # labels = a90 fragment
-^Yon/Yon$
+^Yon/Yo>n$
 ^kikwih/kikwih$
 ^no/no$
 ^s.../s...$
@@ -446,12 +446,6 @@
 ^,/,$
 ^kowtatil/kowtatil$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a91
-# text = se kitahtapana, pero yon seki kwaltsin tahtapani wan seki achi tehtetsiltik.
-# text[orig] = se: kitahtapa:na, pero yo:n seki kwaltsi:n tahtapa:ni wa:n seki achi tehtetsi:ltik.
-# text[spa] = se parten los trozos con hacha, algunos trozos se pueden partir bien y otros son así como muy torcidos.
-# labels = a91 fragment
 ^se/se$
 ^kitahtapana/kitahtapana$
 ^,/,$
@@ -2309,7 +2303,7 @@
 # text[orig] = Yo:n kowtanchomeh no: kie:kkwah yehwa yo:n kowtet wa:n nejó:n
 # text[spa] = Las martas también se alimentan mucho de éstos frutos y este
 # labels = a160 fragment
-^Yon/Yon$
+^Yon/Yo>n$
 ^kowtanchomeh/kowtanchomeh$
 ^no/no$
 ^kiekkwah/kiekkwah$
