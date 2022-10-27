@@ -1339,6 +1339,13 @@ kesteki:kesteki                                     V-SO-PRET ;
 kesteki:kesteki                                     V-SO-FUTR ;
 
 ! "cortar"
+majtekia:ma%{j%}%>tekia                             V-SO-PRES ;
+majtekia:ma%{j%}%>tekia                             V-SO-IMPF ;
+majtekia:ma%{j%}%>teki                              V-SO-PROG ;
+majtekia:ma%{j%}%>teki                              V-SO-PRET ;
+majtekia:ma%{j%}%>teki                              V-SO-FUTR ;
+
+! "cortar"
 teki:teki                                           V-SO-PRES ;
 teki:teki                                           V-SO-IMPF ;
 teki:teki                                           V-SO-PROG ;

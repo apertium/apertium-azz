@@ -1221,104 +1221,88 @@
 	"." sent @punct #18->1
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a111
-# text = Mokawa sasaltik ihkon,
-# text[orig] = Moka:wa sasaltik ihkó:n,
-# text[spa] = Como es pegajosa queda pegada en las manos,
-# labels = a111 fragment
+# text = Mokawa sasaltik ihkon, amo, amo kineki niman kisas, mas se momahtekia ihkon, pero amo kineki kisas porque semi telchikawak nijon i..., ichokilo.
+# text[orig] = Moka:wa sasaltik ihkó:n, a:mo, a:mo kineki niman ki:sas, ma:s se: momahtekia ihkó:n, pero a:mo kineki ki:sas <i>porque</i> semi telchika:wak nijó:n i..., icho:kilo.
+# text[spa] = Como es pegajosa queda pegada en las manos, no, no sale con facilidad aunque uno así se lava las manos, pero no se despega fácilmente por ser muy pegajosa la..., la savia.
+# text[a111] = Moka:wa sasaltik ihkó:n,
+# text[a112] = a:mo, a:mo kineki niman ki:sas, ma:s se: momahtekia ihkó:n,
+# text[a113] = pero a:mo kineki ki:sas <i>porque</i> semi telchika:wak nijó:n i...,
+# text[a114] = icho:kilo.
+# labels = a111 a112 a113 a114 fragment
 "<Mokawa>"
-	"kahua" n px2sg
-	"mokahua" v iv pres s_sg3
-	"kahua" v tv pres s_sg3 o_ref
+	"mokahua" v iv pres s_sg3 @root #1->0
 "<sasaltik>"
-	"sasaltik" adj
-	"sasaltik" adj s_sg3
+	"sasaltik" adj @dep #2->1
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #3->1
 "<,>"
-	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a112
-# text = amo, amo kineki niman kisas, mas se momahtekia ihkon,
-# text[orig] = a:mo, a:mo kineki niman ki:sas, ma:s se: momahtekia ihkó:n,
-# text[spa] = no, no sale con facilidad aunque uno así se lava las manos,
-# labels = a112 fragment
+	"," cm @punct #4->5
 "<amo>"
-	"amo" adv
+	"amo" adv @reparandum #5->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->8
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #7->8
 "<kineki>"
-	"neki" v tv pres s_sg3 o_sg3
+	"neki" v tv pres s_sg3 o_sg3 @parataxis #8->1
 "<niman>"
-	"in" det
-		"man" n abs px3sg
-	"niman" adv
-	"man" n px3sg
-	"man" n abs s_sg1
+	"niman" adv @advmod #9->10
 "<kisas>"
-	"kisa" v iv fut s_sg3
+	"kisa" v iv fut s_sg3 @xcomp #10->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->14
 "<mas>"
-	"más" adv
+	"más" adv @mark #12->14
 "<se>"
-	"se" num
+	"se" num @nsubj #13->14
 "<momahtekia>"
-	"*momahtekia"
+	"majtekia" v tv pres s_sg3 o_ref @advcl #14->19
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #15->14
 "<,>"
-	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a113
-# text = pero amo kineki kisas porque semi telchikawak nijon i...,
-# text[orig] = pero a:mo kineki ki:sas <i>porque</i> semi telchika:wak nijó:n i...,
-# text[spa] = pero no se despega fácilmente por ser muy pegajosa la...,
-# labels = a113 fragment
+	"," cm @punct #16->19
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #17->19
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #18->19
 "<kineki>"
-	"neki" v tv pres s_sg3 o_sg3
+	"neki" v tv pres s_sg3 o_sg3 @conj #19->8
 "<kisas>"
-	"kisa" v iv fut s_sg3
+	"kisa" v iv fut s_sg3 @xcomp #20->19
 "<porque>"
-	"porque" cnjsub @mark
+	"porque" cnjsub @mark #21->23
 "<semi>"
-	"semi" adv
+	"semi" adv @advmod #22->23
 "<telchikawak>"
-	"chikahuak" adj tel
+	"chikahuak" adj tel s_sg3 @advcl #23->20
 "<nijon>"
-	"nijon" prn
+	"nijon" prn @dep #24->27
 "<i...>"
-	"i" x @reparandum
+	"i" x @reparandum #25->27
 "<,>"
-	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a114
-# text = ichokilo.
-# text[orig] = icho:kilo.
-# text[spa] = la savia.
-# labels = a114 fragment
+	"," cm @punct #26->25
 "<ichokilo>"
-	"chokilo" n px3sg
-	"chokilo" n pl px3sg
+	"chokilo" n px3sg @nsubj #27->23
 "<.>"
-	"." sent @punct
+	"." sent @punct #28->1
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115
-# text = Ichokilo istak. Wan yehwa yon,
-# text[orig] = Icho:kilo ista:k. Wa:n yehwa yo:n,
-# text[spa] = La savia es blanca. Y es la que,
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115:1
+# text = Ichokilo istak.
+# text[orig] = Icho:kilo ista:k. 
+# text[spa] = La savia es blanca.
 # labels = a115 fragment
 "<Ichokilo>"
-	"chokilo" n px3sg
+	"chokilo" n px3sg @nsubj #1->2
 "<istak>"
-	"istak" adj s_sg3
+	"istak" adj s_sg3 @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115:2
+# text = Wan yehwa yon,
+# text[orig] = Wa:n yehwa yo:n,
+# text[spa] = Y es la que,
+# labels = a115 fragment
 "<Wan>"
 	"huan" cnjcoo @cc
 "<yehwa>"
@@ -1402,10 +1386,6 @@
 "<aten>"
 	"at" n cmp @nmod
 		"ten" n rel
-;	"at" n cmp s_pl3
-;		"ten" n rel
-;	"at" n cmp s_sg3
-;		"ten" n rel
 "<wan>"
 	"huan" cnjcoo @cc
 "<pos>"
@@ -1416,10 +1396,6 @@
 "<atentenoh>"
 	"at" n cmp @nmod
 		"tentenoj" n rel
-;	"at" n cmp s_pl3
-;		"tentenoj" n rel
-;	"at" n cmp s_sg3
-;		"tentenoj" n rel
 "<oso>"
 	"oso" cnjcoo @cc
 "<kansika>"
@@ -1436,8 +1412,6 @@
 	"kansika" adv
 "<kahfentah>"
 	"kafentaj" n abs
-;	"kafentaj" n abs s_pl3
-;	"kafentaj" n abs s_sg3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a120
 # text = yetok ihkoni, pero amo nowiyan.
@@ -1570,31 +1544,24 @@
 	"." sent @punct #10->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a127
-# text = Mm, tepetomat nijon,
-# text[orig] = Mm, tepe:tomat nijó:n,
-# text[spa] = Mm, el tepe:tomat este,
-# labels = a127 fragment
+# text = Mm, tepetomat nijon, kemeh eskia yon tomat no, pero ne no okse taman, tsikitsitsin.
+# text[orig] = Mm, tepe:tomat nijó:n, ke:meh eskia yo:n tomat no:, pero ne: no: oksé: taman, tsikitsitsi:n.
+# text[spa] = Mm, el tepe:tomat este, los frutos también se parecen a los jitomates pero son diferentes y más chiquitos.
+# text[a127] = Mm, tepe:tomat nijó:n, 
+# text[a128] = ke:meh eskia yo:n tomat no:, pero ne: no: oksé: taman, tsikitsitsi:n.
+# labels = a127 a128 fragment
 "<Mm>"
 	"mm" ij @discourse
 "<,>"
 	"," cm @punct
 "<tepetomat>"
 	"tepetomat" n abs
-;	"tepetomat" n abs s_pl3
-;	"tepetomat" n abs s_sg3
 "<nijon>"
 	"nijon" prn
 "<,>"
 	"," cm @punct
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a128
-# text = kemeh eskia yon tomat no, pero ne no okse taman, tsikitsitsin.
-# text[orig] = ke:meh eskia yo:n tomat no:, pero ne: no: oksé: taman, tsikitsitsi:n.
-# text[spa] = los frutos también se parecen a los jitomates pero son diferentes y más chiquitos.
-# labels = a128 fragment
 "<kemeh>"
 	"kemej" adv
-	"kemej" pr
 "<eskia>"
 	"etok" cop cni s_sg3
 "<yon>"
@@ -1606,31 +1573,21 @@
 ;	"tomat" n abs s_sg3
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<,>"
 	"," cm @punct
 "<pero>"
 	"pero" cnjcoo @cc
 "<ne>"
-	"nehua" prn pers sg1 short
 	"ne" adv
-	"ne" det
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<okse>"
 	"okse" det @det
 "<taman>"
 	"taman" n abs
-	"man" n px3nn
-;	"taman" n abs s_pl3
-;	"taman" n abs s_sg3
 "<,>"
 	"," cm @punct
 "<tsikitsitsin>"
-	"tsiki" adj hon pl
 	"tsiki" adj hon pl s_sg3
 "<.>"
 	"." sent @punct
@@ -1692,6 +1649,7 @@
 # text = Wan de yon nen mokawa n' iteyotsitsin kwaltsin ne, pohpochiktik.
 # text[orig] = Wa:n de yo:n ne:n moka:wa n' iteyotsitsi:n kwaltsi:n ne:, pohpochiktik.
 # text[spa] = Y al comer la pulpa de los frutos, los huesos quedan así de color blanco.
+# text[gloss] = Y de ... esto se queda, los huesitos son buenos allí, son blancos.
 # labels = a131 sentence
 "<Wan>"
 	"huan" cnjcoo @cc
@@ -1710,15 +1668,13 @@
 "<iteyotsitsin>"
 	"teyo" n hon pl px3sg @nsubj
 "<kwaltsin>"
-	"kuali" adj hon
 	"kuali" adj hon s_sg3
 "<ne>"
 	"ne" adv
-	"ne" det
 "<,>"
 	"," cm @punct
 "<pohpochiktik>"
-	"pojpochiktik" adj redup
+	"pojpochiktik" adj redup s_sg3
 "<.>"
 	"." sent @punct
 
@@ -2055,9 +2011,9 @@
 "<,>"
 	"," cm @punct
 "<a>"
-	"a" ij @discourse
+	"a" pr @advmod
 "<ver>"
-	"ver" x
+	"ver" x @fixed
 "<xa>"
 	"xa" adv
 "<,>"
@@ -2565,26 +2521,27 @@
 # text = N' imay nochi kipostekih porque yon achi teiktik.
 # text[orig] = N' ima:y nochi kipostekih <i>porque</i> yo:n achi teiktik.
 # text[spa] = Las ramas delgadas las cortan porque son suaves.
+# text[gloss] = Sus ramas todas las cortan porque son estos que son suaves.
 # labels = a185 sentence
 "<N'>"
-	"in" det @det
+	"in" det @det #1->2
 "<imay>"
-	"may" n px3sg @dislocated
+	"may" n px3sg @dislocated #2->4
 "<nochi>"
-	"nochi" prn @obj
+	"nochi" prn @obj #3->4
 "<kipostekih>"
-	"posteki" v tv pres s_pl3 o_sg3 @root
+	"posteki" v tv pres s_pl3 o_sg3 @root #4->0
 "<porque>"
-	"porque" cnjsub @mark
+	"porque" cnjsub @mark #5->6
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @advcl #6->4
+		"in" det @mark #7->9
 "<achi>"
-	"achi" adv @advmod
+	"achi" adv @advmod #8->9
 "<teiktik>"
-	"teiktik" adj s_pl3
+	"teiktik" adj s_pl3 @csubj #9->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->4
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a187
 # text = Achi teiktik n' imay, nen, de kitilanah posteki.

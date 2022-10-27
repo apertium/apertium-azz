@@ -702,12 +702,6 @@
 ^sasaltik/sasaltik$
 ^ihkon/ihkon$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a112
-# text = amo, amo kineki niman kisas, mas se momahtekia ihkon,
-# text[orig] = a:mo, a:mo kineki niman ki:sas, ma:s se: momahtekia ihkó:n,
-# text[spa] = no, no sale con facilidad aunque uno así se lava las manos,
-# labels = a112 fragment
 ^amo/amo$
 ^,/,$
 ^amo/amo$
@@ -720,12 +714,6 @@
 ^momahtekia/momahtekia$
 ^ihkon/ihkon$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a113
-# text = pero amo kineki kisas porque semi telchikawak nijon i...,
-# text[orig] = pero a:mo kineki ki:sas <i>porque</i> semi telchika:wak nijó:n i...,
-# text[spa] = pero no se despega fácilmente por ser muy pegajosa la...,
-# labels = a113 fragment
 ^pero/pero$
 ^amo/amo$
 ^kineki/kineki$
@@ -736,16 +724,10 @@
 ^nijon/nijon$
 ^i.../i...$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a114
-# text = ichokilo.
-# text[orig] = icho:kilo.
-# text[spa] = la savia.
-# labels = a114 fragment
 ^ichokilo/ichokilo$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115:1
 # text = Ichokilo istak. Wan yehwa yon,
 # text[orig] = Icho:kilo ista:k. Wa:n yehwa yo:n,
 # text[spa] = La savia es blanca. Y es la que,
@@ -753,6 +735,12 @@
 ^Ichokilo/Ichokilo$
 ^istak/istak$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a115:2
+# text = Ichokilo istak. Wan yehwa yon,
+# text[orig] = Icho:kilo ista:k. Wa:n yehwa yo:n,
+# text[spa] = La savia es blanca. Y es la que,
+# labels = a115 fragment
 ^Wan/Wan$
 ^yehwa/yehwa$
 ^yon/yo>n$
@@ -897,12 +885,6 @@
 ^tepetomat/tepetomat$
 ^nijon/nijon$
 ^,/,$
-
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a128
-# text = kemeh eskia yon tomat no, pero ne no okse taman, tsikitsitsin.
-# text[orig] = ke:meh eskia yo:n tomat no:, pero ne: no: oksé: taman, tsikitsitsi:n.
-# text[spa] = los frutos también se parecen a los jitomates pero son diferentes y más chiquitos.
-# labels = a128 fragment
 ^kemeh/kemeh$
 ^eskia/eskia$
 ^yon/yo>n$
