@@ -1520,7 +1520,7 @@
 ^Kemah/Kemah$
 ^./.$
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197:1
 # text = Pero tein amo yowih kowtah ompakawin amo kixmatih yon kowtet compadrito, yon toni. Amo kimatih ox welik.
 # text[orig] = Pero tein a:mo yowih kowtah ompakawí:n a:mo ki:xmatih yo:n kowtet <i>compadrito</i>, yo:n toni. A:mo kimatih ox we:lik.
 # text[spa] = Pero el que no va al campo no conoce ése fruto compadrito, no sabe qué es. No sabe si es sabroso.
@@ -1540,6 +1540,12 @@
 ^yon/yo>n$
 ^toni/toni$
 ^./.$
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197:2
+# text = Pero tein amo yowih kowtah ompakawin amo kixmatih yon kowtet compadrito, yon toni. Amo kimatih ox welik.
+# text[orig] = Pero tein a:mo yowih kowtah ompakawí:n a:mo ki:xmatih yo:n kowtet <i>compadrito</i>, yo:n toni. A:mo kimatih ox we:lik.
+# text[spa] = Pero el que no va al campo no conoce ése fruto compadrito, no sabe qué es. No sabe si es sabroso.
+# labels = a197 sentence
 ^Amo/Amo$
 ^kimatih/kimatih$
 ^ox/ox$

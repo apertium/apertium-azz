@@ -8967,6 +8967,29 @@
 9	ya	ya	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a193
+# text = Amo nochi tikmatih, seki tikixmattokeh wan seki amo nochi tikixmatih, pero in tehwan tik....
+# text[orig] = A:mo nochi tikmatih, seki tiki:xmattokeh wa:n seki a:mo nochi tiki:xmatih, pero i:n tehwa:n tik....
+# text[spa] = No sabemos todo, algunos lo conocemos, otros no lo conocemos, pero nosotros lo...,
+# labels = a193 fragment
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	nochi	nochi	PRON	_	_	3	obj	_	_
+3	tikmatih	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	seki	seki	PRON	_	_	6	obj	_	_
+6	tikixmattokeh	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+7	wan	huan	CCONJ	_	_	11	cc	_	_
+8	seki	seki	PRON	_	_	11	dislocated	_	_
+9	amo	amo	ADV	_	_	11	advmod	_	_
+10	nochi	nochi	PRON	_	_	11	obj	_	_
+11	tikixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	pero	pero	CCONJ	_	_	16	cc	_	_
+14	in	in	DET	_	_	15	det	_	_
+15	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	16	nsubj	_	_
+16	tik...	tik	X	_	_	6	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195:2
 # text = Kemah.
 # text[orig] = Ke:mah.
@@ -8974,6 +8997,17 @@
 # labels = a195 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197:2
+# text = Amo kimatih ox welik.
+# text[orig] = A:mo kimatih ox we:lik.
+# text[spa] = No sabe si es sabroso.
+# labels = a197 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	kimatih	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ox	ox	SCONJ	_	_	4	mark	_	_
+4	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a201
 # text = Pos ne keman neh nikitaya, nen, notatahwan kwalkwiah ika se kontsin.

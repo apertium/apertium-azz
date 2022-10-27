@@ -2679,47 +2679,39 @@
 # text[spa] = No sabemos todo, algunos lo conocemos, otros no lo conocemos, pero nosotros lo...,
 # labels = a193 fragment
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod #1->3
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @obj #2->3
 "<tikmatih>"
-	"mati" v tv pres s_pl1 o_sg3
-	"mati" v tv pret s_sg2 o_sg3
+	"mati" v tv pres s_pl1 o_sg3 @root #3->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->6
 "<seki>"
-	"seki" det
-	"seki" prn
+	"seki" prn @obj #5->6
 "<tikixmattokeh>"
-	"ixmati" v tv prog pres s_pl1 o_sg3
+	"ixmati" v tv prog pres s_pl1 o_sg3 @parataxis #6->3
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #7->11
 "<seki>"
-	"seki" det
-	"seki" prn
+	"seki" prn @dislocated #8->11
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #9->11
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @obj #10->11
 "<tikixmatih>"
-	"ixmati" v tv pres s_pl1 o_sg3
-	"ixmati" v tv pret s_sg2 o_sg3
+	"ixmati" v tv pres s_pl1 o_sg3 @conj #11->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->16
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #13->16
 "<in>"
-	"in" det @det
+	"in" det @det #14->15
 "<tehwan>"
-	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa @nmod
+	"tehuan" prn pers pl1 abs @nsubj #15->16
 "<tik...>"
-	"tik" x @reparandum
+	"tik" x @conj #16->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->3
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a195:1
 # text = Kemeh nehwa no tinentinemi newin kowtah, pos no tikixmati compadrito.
@@ -2762,34 +2754,34 @@
 "<.>"
 	"." sent @punct #2->1
 
-# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197
-# text = Pero tein amo yowih kowtah ompakawin amo kixmatih yon kowtet compadrito, yon toni. Amo kimatih ox welik.
-# text[orig] = Pero tein a:mo yowih kowtah ompakawí:n a:mo ki:xmatih yo:n kowtet <i>compadrito</i>, yo:n toni. A:mo kimatih ox we:lik.
-# text[spa] = Pero el que no va al campo no conoce ése fruto compadrito, no sabe qué es. No sabe si es sabroso.
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197:1
+# text = Pero tein amo yowih kowtah ompakawin amo kixmatih yon kowtet compadrito, yon toni. 
+# text[orig] = Pero tein a:mo yowih kowtah ompakawí:n a:mo ki:xmatih yo:n kowtet <i>compadrito</i>, yo:n toni. 
+# text[spa] = Pero el que no va al campo no conoce ése fruto compadrito, no sabe qué es. 
 # labels = a197 sentence
 "<Pero>"
 	"pero" cnjcoo @cc
 "<tein>"
-	"tein" prn
+	"tein" prn @nsubj
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<yowih>"
-	"yohui" v iv pres s_pl3
+	"yohui" v iv pres s_pl3 @acl:relcl
 "<kowtah>"
-	"koutaj" n abs
+	"koutaj" n abs @obl
 "<ompakawin>"
-	"ompakahuin" adv
+	"ompakahuin" adv @advmod
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<kixmatih>"
-	"ixmati" v tv pret s_sg3 o_sg3
+	"ixmati" v tv pret s_sg3 o_sg3 @root
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<kowtet>"
 	"koutet" n abs
 "<compadrito>"
-	"compadrito" n m sg
+	"compadrito" n m sg @vocative
 "<,>"
 	"," cm @punct
 "<yon>"
@@ -2799,19 +2791,22 @@
 	"toni" prn
 "<.>"
 	"." sent @punct
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a197:2
+# text = Amo kimatih ox welik.
+# text[orig] = A:mo kimatih ox we:lik.
+# text[spa] = No sabe si es sabroso.
+# labels = a197 sentence
 "<Amo>"
-	"amo" adv
+	"amo" adv @advmod #1->2
 "<kimatih>"
-	"mati" v tv pres s_pl3 o_sg3
-	"mati" v tv pret s_sg3 o_sg3
+	"mati" v tv pres s_pl3 o_sg3 @root #2->0
 "<ox>"
-	"ox" cnjsub @mark
+	"ox" cnjsub @mark #3->4
 "<welik>"
-	"huelik" adj
-	"huelik" adj s_sg3
-	"hueli" v iv pret s_sg3
+	"huelik" adj s_sg3 @ccomp #4->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->2
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a201
 # text = Pos ne keman neh nikitaya, nen, notatahwan kwalkwiah ika se kontsin.
@@ -2878,15 +2873,11 @@
 "<,>"
 	"," cm @punct
 "<kikwitih>"
-	"kuiti" v tv pres s_pl3 o_sg3
 	"kui" v tv and s_pl3 o_sg3
-	"kuiti" v tv pret s_sg3 o_sg3
 "<ya>"
 	"ya" adv
 "<ne>"
-	"nehua" prn pers sg1 short
 	"ne" adv
-	"ne" det
 "<tikmatekitih>"
 	"*tikmatekitih"
 "<,>"
