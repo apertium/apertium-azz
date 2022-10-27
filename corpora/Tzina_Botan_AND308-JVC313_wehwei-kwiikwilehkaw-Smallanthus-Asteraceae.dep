@@ -2319,7 +2319,7 @@
 # text[spa] = A bueno, gracias.
 # labels = a129 sentence
 "<A>"
-	"a" ij @discourse #1->0
+	"a" ij @root #1->0
 "<wenoh>"
 	"huenoj" ij @discourse #2->1
 "<,>"
@@ -2426,7 +2426,7 @@
 # text[spa] = Aa
 # labels = a38 fragment
 "<A>"
-	"a" ij @discourse @root #1->0
+	"a" ij @root #1->0
 
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a40
 # text = Tankwakwikwil, kemah.
@@ -2448,7 +2448,7 @@
 # text[spa] = Si, si.
 # labels = a45 sentence
 "<Mm>"
-	"mm" ij @discourse #1->0
+	"mm" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<mm>"
@@ -2462,7 +2462,7 @@
 # text[spa] = Si, si.
 # labels = a47 sentence
 "<Mm>"
-	"mm" ij @discourse #1->0
+	"mm" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<mm>"
@@ -2476,7 +2476,7 @@
 # text[spa] = Si, si.
 # labels = a63 sentence
 "<Kemah>"
-	"kemaj" ij @discourse #1->0
+	"kemaj" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<kemah>"
@@ -3136,7 +3136,7 @@
 # text[spa] = Si, si.
 # labels = a78 sentence
 "<Kemah>"
-	"kemaj" ij @discourse #1->0
+	"kemaj" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<mm>"
@@ -3398,7 +3398,7 @@
 # text[spa] = Si, si.
 # labels = a93 sentence
 "<Mm>"
-	"mm" ij @discourse #1->0
+	"mm" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<kemah>"
@@ -3505,7 +3505,7 @@
 # text[spa] = Si, así.
 # labels = a100 sentence
 "<Kemah>"
-	"kemaj" ij @discourse #1->0
+	"kemaj" ij @root #1->0
 "<,>"
 	"," cm @punct #2->3
 "<ihkoni>"
