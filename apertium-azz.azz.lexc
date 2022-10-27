@@ -1345,6 +1345,13 @@ majtekia:ma%{j%}%>teki                              V-SO-PROG ;
 majtekia:ma%{j%}%>teki                              V-SO-PRET ;
 majtekia:ma%{j%}%>teki                              V-SO-FUTR ;
 
+! "cortar con manos"
+mateki:ma%>teki                                     V-SO-PRES ;
+mateki:ma%>teki                                     V-SO-IMPF ;
+mateki:ma%>teki                                     V-SO-PROG ;
+mateki:ma%>teki                                     V-SO-PRET ;
+mateki:ma%>teki                                     V-SO-FUTR ;
+
 ! "cortar"
 teki:teki                                           V-SO-PRES ;
 teki:teki                                           V-SO-IMPF ;

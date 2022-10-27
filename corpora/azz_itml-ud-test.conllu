@@ -8722,6 +8722,46 @@
 7	nikan	nikan	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a138
+# text = Pos ne, kansika se kita ixwa ihkon, ompa ne kansika ihkon mo..., i..., i..., kiowaltemah nen pesohmeh, wan ki..., ompa ne ixwa ya.
+# text[orig] = Pos ne:, ka:nsika se: kita ixwa ihkó:n, ompa ne: ka:nsika ihkó:n mo..., i..., i..., kiowalte:mah ne:n pe:sohmeh, wa:n ki..., ompa ne: ixwa ya.
+# text[spa] = En algunas partes se ven las plantas que nacen de las semillas, ahí se..., i..., i...., ahí amontonan los tejones, y lo..., ahí germinan las semillas.
+# text[a138] = Pos ne:, ka:nsika se: kita ixwa ihkó:n, ompa ne: ka:nsika ihkó:n mo...,
+# text[a139] = i..., i..., kiowalte:mah ne:n pe:sohmeh,
+# text[a140] = wa:n ki..., ompa ne: ixwa ya.
+# labels = a138 a139 a140 sentence
+1	Pos	pos	ADV	_	_	6	advmod	_	_
+2	ne	ne	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	kansika	kansika	ADV	_	_	2	appos	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+7	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	dep	_	_
+8	ihkon	ijkon	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	20	punct	_	_
+10	ompa	ompa	ADV	_	_	20	advmod	_	_
+11	ne	ne	ADV	_	_	20	advmod	_	_
+12	kansika	kansika	ADV	_	_	11	advmod	_	_
+13	ihkon	ijkon	ADV	_	_	20	advmod	_	_
+14	mo...	mo	X	_	_	20	reparandum	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	i...	i	X	_	_	20	reparandum	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	i...	i	X	_	_	20	reparandum	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	kiowaltemah	ohualtema	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	6	parataxis	_	_
+21	nen	nen	DET	_	_	22	det	_	_
+22	pesohmeh	peso	NOUN	_	Number=Plur	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	29	punct	_	_
+24	wan	huan	CCONJ	_	_	29	cc	_	_
+25	ki...	ki	X	_	_	29	reparandum	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	ompa	ompa	ADV	_	_	29	advmod	_	_
+28	ne	ne	ADV	_	_	29	advmod	_	_
+29	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	20	conj	_	_
+30	ya	ya	ADV	_	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a185
 # text = N' imay nochi kipostekih porque yon achi teiktik.
 # text[orig] = N' ima:y nochi kipostekih <i>porque</i> yo:n achi teiktik.
@@ -8825,6 +8865,34 @@
 5	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	_
 6	meliohkomit	meliojkomit	NOUN	_	Case=Abs	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a203
+# text = Kwa..., kikwitih ya ne tikmatekitih, porque yon se kitsetselowa wan semi pati, porque yemanik.
+# text[orig] = Kwa..., kikwitih ya ne: tikma:tekitih, <i>porque</i> yo:n se: kitsetselowa wa:n semi pa:ti, <i>porque</i> yema:nik.
+# text[spa] = Lo traen pero cortan los frutos con las manos, porque si uno agita las ramas para que caigan al suelo se rompen rápidamente. porque son muy suaves.
+# text[a203] = Kwa..., kikwitih ya ne: tikma:tekitih, <i>porque</i> yo:n se: kitsetselowa wa:n semi pa:ti,
+# text[a205] = <i>porque</i> yema:nik.
+# labels = a203 a205 sentence incorporation
+1	Kwa...	kua	X	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kikwitih	kui	VERB	_	Movement=And|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+4	ya	ya	ADV	_	_	3	advmod	_	_
+5	ne	ne	ADV	_	_	6	advmod	_	_
+6	tikmatekitih	mateki	VERB	_	Movement=And|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	3	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	porque	porque	SCONJ	_	_	9	mark	_	_
+9-10	yon	_	_	_	_	_	_	_	_
+9	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	6	advcl	_	_
+10	n	in	DET	_	_	12	mark	_	_
+11	se	se	NUM	_	_	12	nsubj	_	_
+12	kitsetselowa	tsetselohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	csubj	_	_
+13	wan	huan	CCONJ	_	_	15	cc	_	_
+14	semi	semi	ADV	_	_	15	advmod	_	_
+15	pati	pati	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	porque	porque	SCONJ	_	_	18	mark	_	_
+18	yemanik	yemanik	ADJ	_	Number[subj]=Sing|Person[subj]=3	15	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a209
 # text = Nijon iayo no kwali se tai.
@@ -8968,6 +9036,71 @@
 15	no	no	ADV	_	_	16	advmod	_	_
 16	niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a50
+# text = Pos t..., 'technohnotsa compadrito, t'nekih timitstahtaniskeh, ox tikixmattok yon kowtet kiliah tepetomat, kani mochiwa, ne katin achi de wehkapan mochiwa n' kwowit, o..., ox se kikwa oso, oso kanah compadrito.
+# text[orig] = Pos t..., 'te:chnohno:tsa <i>compadrito</i>, t'nekih timitstahtani:skeh, ox tiki:xmattok yo:n kowtet kiliah tepe:tomat, ka:ni mochi:wa, ne: katí:n achi de wehkapan mochi:wa n' kwowit, o..., ox se: kikwa oso, oso ka:nah <i>compadrito</i>.
+# text[spa] = Pues queremos preguntarle algo compadrito para que nos platiques, si conoces esos frutos que le llaman tepe:tomat, ¿en donde se dan?, ¿hasta qué altura crece el árbol?, si..., si se pueden comer o, o no compadrito.
+# text[a50] = Pos t..., 'te:chnohno:tsa <i>compadrito</i>, t'nekih timitstahtani:skeh,
+# text[a51] = ox tiki:xmattok yo:n kowtet kiliah tepe:tomat,
+# text[a52] = ka:ni mochi:wa, ne: katí:n achi de wehkapan mochi:wa n' kwowit,
+# text[a53] = o..., ox se: kikwa oso,
+# text[a54] = oso ka:nah <i>compadrito</i>.
+# text[a54] = Yehwa n' tiknekih timitstahtani:skeh.
+# labels = a50 a51 a52 a53 a54 sentence
+1	Pos	pos	ADV	_	_	4	advmod	_	_
+2	t...	t	X	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	'technohnotsa	nojnotsa	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
+5	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	4	vocative	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	t'nekih	neki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	4	parataxis	_	_
+8	timitstahtaniskeh	tajtania	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|Tense=Fut	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	ox	ox	SCONJ	_	_	11	mark	_	_
+11	tikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	7	parataxis	_	_
+12-13	yon	_	_	_	_	_	_	_	_
+12	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	11	obj	_	_
+13	n	in	DET	_	_	14	mark	_	_
+14	kowtet	koutet	NOUN	_	Case=Abs	12	nsubj	_	_
+15	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	14	acl:relcl	_	_
+16	tepetomat	tepetomat	NOUN	_	Case=Abs	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	kani	kani	ADV	_	PronType=Int	19	advmod	_	_
+19	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	ne	ne	ADV	_	_	26	advmod	_	_
+22	katin	katin	PRON	_	_	26	obl	_	_
+23	achi	achi	ADV	_	_	22	advmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	wehkapan	huejkapan	ADJ	_	_	22	nmod	_	_
+26	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	parataxis	_	_
+27	n'	in	DET	_	_	28	det	_	_
+28	kwowit	kohuit	NOUN	_	Case=Abs	26	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	34	punct	_	_
+30	o...	o	X	_	_	32	reparandum	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	ox	ox	SCONJ	_	_	34	mark	_	_
+33	se	se	NUM	_	_	34	nsubj	_	_
+34	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	parataxis	_	_
+35	oso	oso	CCONJ	_	_	37	reparandum	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	oso	oso	CCONJ	_	_	38	cc	_	_
+38	kanah	kanaj	INTJ	_	_	34	conj	_	_
+39	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	38	vocative	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a54:2
+# text = Yehwa n' tiknekih timitstahtaniskeh.
+# text[orig] = Yehwa n' tiknekih timitstahtani:skeh.
+# text[spa] = Eso es lo que queremos preguntarle.
+# text[a54] = oso ka:nah <i>compadrito</i>. Yehwa n' tiknekih timitstahtani:skeh.
+# labels = a54 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	n'	in	DET	_	_	3	mark	_	_
+3	tiknekih	neki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	1	csubj	_	_
+4	timitstahtaniskeh	tajtania	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=1|Subcat=Tran|Tense=Fut	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a72
 # text = Mohmoloxtik.
