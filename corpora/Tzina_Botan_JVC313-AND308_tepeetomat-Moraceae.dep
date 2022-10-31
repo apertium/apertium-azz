@@ -2722,9 +2722,9 @@
 # text[spa] = En los cerros.
 # labels = a125 sentence
 "<Tepeyoh>"
-	"*Tepeyoh"
+	"tepeyoh" adv @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a137
 # text = Amo, amo no....
@@ -2945,28 +2945,22 @@
 "<,>"
 	"," cm @punct
 "<yekmiak>"
-	"miak" adj yek
+	"miak" adj yek @dep
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @nsubj
+		"in" det @det
 "<tepetomat>"
-	"tepetomat" n abs
-;	"tepetomat" n abs s_pl3
-;	"tepetomat" n abs s_sg3
+	"tepetomat" n abs @nsubj
 "<wan>"
 	"huan" cnjcoo @cc
 "<in>"
 	"in" det @det
 "<tiempo>"
 	"tiempo" n m sg
-;	"tiempo" n m sg s_pl3
-;	"tiempo" n m sg s_sg3
 "<mayo>"
-	"mayo" n m sg
-;	"mayo" n m sg s_pl3
-;	"mayo" n m sg s_sg3
+	"mayo" n m sg @nmod
 "<ihwak>"
 	"ijhuak" cnjsub @mark
 "<n'>"
@@ -3006,14 +3000,14 @@
 # text[a158] = wa:n después de chika:waya, pos ne: kostitiw <i>hasta</i> chi:chi:lewi <i>cuando</i> oksi a.
 # labels = a156 a157 a158 sentence
 "<Mopihpilowa>"
-	"pijpilohua" v tv pres s_sg3 o_ref
+	"pijpilohua" v tv pres s_sg3 o_ref @root
 "<imahmatsintan>"
 	"majma" n cmp px3sg @nmod
-		"tsintan" n rel
+		"tsintan" n rel @obl
 "<wan>"
 	"huan" cnjcoo @cc
 "<ompa>"
-	"ompa" adv
+	"ompa" adv @advmod
 "<nen>"
 	"nen" ij @discourse
 	"nen" prn
@@ -3557,33 +3551,27 @@
 "<,>"
 	"," cm @punct
 "<yehwa>"
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<nikimxattok>"
-	"*nikimxattok"
+	"ixmati" v tv prog pres s_sg1 o_sg3
 "<compadrito>"
-	"compadrito" n m sg
-;	"compadrito" n m sg s_pl3
-;	"compadrito" n m sg s_sg3
+	"compadrito" n m sg @vocative
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @obj
+		"in" det @det
 "<tepetomat>"
-	"tepetomat" n abs
-;	"tepetomat" n abs s_pl3
-;	"tepetomat" n abs s_sg3
+	"tepetomat" n abs @nsubj
 "<,>"
 	"," cm @punct
 "<mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @parataxis
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @advmod
 "<kowtahpa>"
-	"koutajpa" adv
+	"koutajpa" adv @advmod
 "<.>"
 	"." sent @punct
 
@@ -3683,30 +3671,25 @@
 "<,>"
 	"," cm @punct
 "<kemeh>"
-	"kemej" adv
-	"kemej" pr
+	"kemej" adv @mark
 "<in>"
-	"in" det @det
+	"in" det @fixed
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<nemi>"
 	"nemi" v iv pres s_sg3
 "<kowtah>"
-	"koutaj" n abs
-;	"koutaj" n abs s_pl3
-;	"koutaj" n abs s_sg3
+	"koutaj" n abs @obl
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<kixmati>"
-	"ixmati" v tv pres s_sg3 o_sg3
+	"ixmati" v tv pres s_sg3 o_sg3 @root
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod
 "<se>"
 	"se" num
 "<kowtakilot>"
 	"koutakilot" n abs
-;	"koutakilot" n abs s_pl3
-;	"koutakilot" n abs s_sg3
 "<wan>"
 	"huan" cnjcoo @cc
 "<se>"

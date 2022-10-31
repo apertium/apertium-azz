@@ -1,3 +1,71 @@
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a23
+# text = ¿Kani mochiwa wan keniwki n' ixochio?
+# text[orig] = ¿Ka:ni mochi:wa wa:n ke:niwki n' ixo:chio?
+# text[spa] = ¿Dónde crece y cómo es la flor?
+# labels = a23 sentence
+1	¿	¿	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Kani	kani	ADV	_	PronType=Int	3	advmod	_	_
+3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	wan	huan	CCONJ	_	_	5	cc	_	_
+5	keniwki	keniuki	ADV	_	PronType=Int	3	conj	_	_
+6	n'	in	DET	_	_	7	det	_	_
+7	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a38
+# text = Neh nimonotsa Ruben Macario, ninemi nikan Chilkwowtah.
+# text[orig] = Neh nimono:tsa Rubén Macario, ninemi nika:n Chi:lkwowtah.
+# text[spa] = Yo me llamo Ruben Macario, vivo en Chilcouhta.
+# labels = a38 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	Ruben	Rubén	PROPN	_	Gender=Masc	2	obj	_	_
+4	Macario	Macario	PROPN	_	_	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	ninemi	nemi	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+7	nikan	nikan	ADV	_	_	6	advmod	_	_
+8	Chilkwowtah	Chilkuoutaj	PROPN	_	_	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a39
+# text = Niwalew casi s..., Chilkwowtah, cerca de San Miguel.
+# text[orig] = Niwa:le:w *casi** s..., Chi:lkwowtah, *cerca de** San Miguel.
+# text[spa] = Vengo casi de Chilcoutah, cerca de San Miguel.
+# labels = a39 sentence
+1	Niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+2	casi	casi	ADV	_	_	5	advmod	_	_
+3	s...	s	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Chilkwowtah	Chilkuoutaj	PROPN	_	_	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	cerca	cerca	ADV	_	_	9	advmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	San	San	PROPN	_	_	5	obl	_	_
+10	Miguel	Miguel	PROPN	_	Gender=Masc	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a40:1
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí, tengo cincuenta y seis años.
+# labels = a40 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a40:2
+# text = Nox..., nikpia cincuenta y seis años.
+# text[orig] = Nox..., nikpia *cincuenta y seis años**.
+# text[spa] = Sí, tengo cincuenta y seis años.
+# labels = a40 sentence
+1	Nox...	nox	X	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nikpia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	cincuenta	cincuenta	NUM	_	_	7	nummod	_	_
+5	y	y	CCONJ	_	_	6	cc	_	_
+6	seis	seis	NUM	_	_	4	conj	_	_
+7	años	año	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:1
 # text = ¿Keniuj Mochijchiuaj ne Sitalimej?
 # text[spa] = ¿Cómo se forman las estrellas?
@@ -9162,6 +9230,14 @@
 1	Wehweia	huehueia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a125
+# text = Tepeyoh.
+# text[orig] = Tepe:yoh.
+# text[spa] = En los cerros.
+# labels = a125 sentence
+1	Tepeyoh	tepeyoh	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a137
 # text = Amo, amo no....
 # text[orig] = A:mo, a:mo no: ....
@@ -10337,7 +10413,7 @@
 # text[spa] = (Cuando aserran) el tronco suelta el color con tinte a rojo,
 # text[a39] = Itapalo ki:sa mahyá: ye:kchi:chi:ltik,
 # text[a40] = *cuando** kitekih.
-# labels = a39 a40 fragment
+# labels = a39 a40 sentence
 1	Itapalo	tapalo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 3	mahya	mahya	ADV	_	_	4	advmod	_	_
@@ -10416,6 +10492,16 @@
 7	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	7	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a50
+# text = Wan, nen,
+# text[orig] = Wa:n, ne:n,
+# text[spa] = Y ...
+# labels = a50 sentence
+1	Wan	huan	CCONJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	nen	nen	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a51
 # text = ¿komo se kitoka kaltsintan no mochiwa?
 # text[orig] = ¿komo se: kito:ka kaltsi:ntan no: mochi:wa?
@@ -10438,7 +10524,7 @@
 # text[spa] = Buenos, pues si acaso, de éste, ¿Hay un solo tipo de kakate o hay varios tipos?
 # text[a53] = *Bueno**, pos *este**, komohkó:n,
 # text[a54] = i:n, ¿i:pa se: taman sah oso miak taman onkak?
-# labels = a53 a54 fragment
+# labels = a53 a54 sentence
 1	Bueno	bueno	INTJ	_	_	18	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	pos	pos	ADV	_	_	18	advmod	_	_
@@ -10463,7 +10549,7 @@
 # text = ¿Wan itakka kan welik?
 # text[orig] = ¿Wa:n ita:kka ka:n we:lik?
 # text[spa] = ¿Y los frutos no son comestibles?
-# labels = a56 sentence complete
+# labels = a56 sentence
 1	¿	¿	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	5	cc	_	_
 3	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
