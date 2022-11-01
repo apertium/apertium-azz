@@ -1,3 +1,64 @@
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a4
+# text = Aman Ruben xtechtapowi, ne, ox tikimattok yon xiwit, yon kiliah, este, tsons..., seki kiliah tsonsasal, neh nikilia tsonsasal, amo n'mati teh keniw t'tokaytia ox, no miak taman onkak wan, ox kwali se kikwi, kani mochiwa.
+# text[orig] = A:man Rubén xte:chtapowi, ne:, ox tiki:mattok yo:n xiwit, yo:n kiliah, *este**, tsons..., seki kiliah tsonsasal, neh nikilia tsonsasal, a:mo n'mati teh ke:ní:w t'to:ka:ytia ox, no: miak taman onkak wa:n, ox kwali se: kikwi, ka:ni mochi:wa.
+# text[spa] = Ahora Rubén, cuéntame, este, si acaso conoces esa hierba, ese que le llaman, este, <i>tson...,</i>, unos lo llaman <i>tsonsasal</i>, yo le llamo <i>tsonsasal</i>, no sé, tú, como le llamas, si acaso, hay varios tipos y, si acaso se puede ocupar, donde crece
+# text[a4] = A:man Rubén xte:chtapowi, ne:, ox tiki:mattok yo:n xiwit, yo:n kiliah, *este**,
+# text[a5] = tsons..., seki kiliah tsonsasal, neh nikilia tsonsasal, a:mo n'mati teh ke:ní:w t'to:ka:ytia ox,
+# text[a6] = no: miak taman onkak wa:n,
+# text[a7] = ox kwali se: kikwi, ka:ni mochi:wa.
+# labels = a4 a5 a6 a7 sentence
+1	Aman	aman	ADV	_	_	3	advmod	_	_
+2	Ruben	Rubén	PROPN	_	Gender=Masc	3	vocative	_	_
+3	xtechtapowi	tapohui	VERB	_	Mood=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	ne	ne	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ox	ox	SCONJ	_	_	8	mark	_	_
+8	tikimattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+9-10	yon	_	_	_	_	_	_	_	_
+9	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	8	obj	_	_
+10	n	in	DET	_	_	11	mark	_	_
+11	xiwit	xihuit	NOUN	_	Case=Abs	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13-14	yon	_	_	_	_	_	_	_	_
+13	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	11	appos	_	_
+14	n	in	DET	_	_	15	mark	_	_
+15	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	13	csubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	este	este	INTJ	_	_	15	discourse	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	tsons...	tsons	X	_	_	23	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	seki	seki	PRON	_	_	22	nsubj	_	_
+22	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	15	parataxis	_	_
+23	tsonsasal	tsonsasal	NOUN	_	Case=Abs	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	26	nsubj	_	_
+26	nikilia	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	22	parataxis	_	_
+27	tsonsasal	tsonsasal	NOUN	_	Case=Abs	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	amo	amo	ADV	_	_	30	advmod	_	_
+30	n'mati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	22	parataxis	_	_
+31	teh	tehua	PRON	_	Number=Sing|Person=2|PronType=Pers	33	nsubj	_	_
+32	keniw	keni	ADV	_	PronType=Int	33	advmod	_	_
+33	t'tokaytia	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	30	parataxis	_	_
+34	ox	ox	SCONJ	_	_	39	mark	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	no	no	ADV	_	_	39	advmod	_	_
+37	miak	miak	DET	_	_	38	det	_	_
+38	taman	taman	NOUN	_	Case=Abs	39	nsubj	_	_
+39	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	30	parataxis	_	_
+40	wan	huan	CCONJ	_	_	43	cc	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	ox	ox	SCONJ	_	_	43	mark	_	_
+43	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	39	conj	_	_
+44	se	se	NUM	_	_	45	nsubj	_	_
+45	kikwi	kui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	43	csubj	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	48	punct	_	_
+47	kani	kani	ADV	_	PronType=Int	48	advmod	_	_
+48	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	43	parataxis	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a23
 # text = ¿Kani mochiwa wan keniwki n' ixochio?
 # text[orig] = ¿Ka:ni mochi:wa wa:n ke:niwki n' ixo:chio?
@@ -11,6 +72,103 @@
 6	n'	in	DET	_	_	7	det	_	_
 7	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a24
+# text = N' ixochio, este, istak, kemeh ochpawas, ta mismo ochpawas, sayoh kemeh neh nimitsilia porin, porin wehkapan moskaltia wan matohtohmiyoh.
+# text[orig] = N' ixo:chio, *este**, ista:k, ke:meh ochpa:wa:s, ta: *mismo** ochpa:wa:s, sayoh ke:meh neh nimitsilia porin, porin wehkapan moskaltia wa:n ma:tohtohmiyoh.
+# text[spa] = La flor, este, es blanca, como el <i>ochpa:wa:s</i>, pues es un tipo de <i>ochpa:wa:s</i>, sólo como yo te digo que, porque crece alto y con hojas pubscentes.
+# text[a24] = N' ixo:chio, *este**, ista:k, ke:meh ochpa:wa:s,
+# text[a25] = ta: *mismo** ochpa:wa:s,
+# text[a26] = sayoh ke:meh neh nimitsilia porin,
+# text[a27] = porin wehkapan moskaltia wa:n ma:tohtohmiyoh.
+# labels = a24 a25 a26 a27 sentence
+1	N'	in	DET	_	_	2	det	_	_
+2	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	este	este	INTJ	_	_	6	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	kemeh	kemej	ADP	_	_	9	case	_	_
+9	ochpawas	ochpahuas	NOUN	_	Case=Abs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	ta	ta	ADV	_	_	12	advmod	_	_
+12	mismo	mismo	ADJ	_	Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	6	parataxis	_	_
+13	ochpawas	ochpahuas	NOUN	_	Case=Abs	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	sayoh	sayoj	ADV	_	_	18	advmod	_	_
+16	kemeh	kemej	ADV	_	_	18	advmod	_	_
+17	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	18	nsubj	_	_
+18	nimitsilia	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|Tense=Pres	6	parataxis	_	_
+19	porin	porin	SCONJ	_	_	21	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	porin	porin	SCONJ	_	_	23	mark	_	_
+22	wehkapan	huejkapan	ADJ	_	_	23	advmod	_	_
+23	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	18	advcl	_	_
+24	wan	huan	CCONJ	_	_	25	cc	_	_
+25	matohtohmiyoh	matojtojmiyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a28
+# text = Wan ixochiotsin istak kemeh, istak n' ixochiotsin wan pewa moskaltia wehkapan.
+# text[orig] = Wa:n ixo:chiotsi:n ista:k ke:meh, ista:k n' ixo:chiotsi:n wa:n pe:wa moskaltia wehkapan.
+# text[spa] = Y la flor es blanca como el, la flor es blanca y empieza a crecer alto.
+# text[a28] = Wa:n ixo:chiotsi:n ista:k ke:meh,
+# text[a29] = ista:k n' ixo:chiotsi:n wa:n pe:wa moskaltia wehkapan.
+# labels = a28 a29 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	3	nsubj	_	_
+3	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	kemeh	kemej	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	parataxis	_	_
+7	n'	in	DET	_	_	8	det	_	_
+8	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	6	nsubj	_	_
+9	wan	huan	CCONJ	_	_	10	cc	_	_
+10	pewa	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	conj	_	_
+11	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	10	xcomp	_	_
+12	wehkapan	huejkapan	ADJ	_	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a29:2
+# text = Amo semi telwehkapan mas que solamente, kemeh, semi kemeh, kemeh se neketsal sah.
+# text[orig] = A:mo semi telwehkapan *más que solamente**, ke:meh, semi ke:meh, ke:meh se: neketsal sah.
+# text[spa] = No es muy alto, solamente, como el, muy [alto] como el, como el tamaño de uno [la altura de una persona adulta, quiza entre 1.50 cm.]
+# text[a29] = A:mo semi telwehkapan *más que solamente**, ke:meh, semi ke:meh,
+# text[a30] = ke:meh se: neketsal sah.
+# labels = a28 a29 a30 sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	semi	semi	ADV	_	_	3	advmod	_	_
+3	telwehkapan	huejkapan	ADJ	_	Incorporated=Tel|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	mas	más	ADV	_	_	5	dep	_	_
+5	que	que	SCONJ	_	_	15	mark	_	_
+6	solamente	solamente	ADV	_	_	15	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	kemeh	kemej	ADP	_	_	13	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	semi	semi	ADV	_	_	11	advmod	_	_
+11	kemeh	kemej	ADP	_	_	13	reparandum	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	kemeh	kemej	ADP	_	_	15	case	_	_
+14	se	se	NUM	_	_	15	det	_	_
+15	neketsal	neketsal	NOUN	_	Case=Abs	3	obl	_	_
+16	sah	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a31
+# text = Onkak, onkak kemeh se neketsal de wehkapan.
+# text[orig] = Onkak, onkak ke:meh se: neketsal de wehkapan.
+# text[spa] = Hay, hay unos como la altura de una persona adulta
+# labels = a31 sentence
+1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	punct	_	_
+4	kemeh	kemej	ADP	_	_	6	case	_	_
+5	se	se	NUM	_	_	6	det	_	_
+6	neketsal	neketsal	NOUN	_	Case=Abs	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	wehkapan	huejkapan	ADJ	_	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a38
 # text = Neh nimonotsa Ruben Macario, ninemi nikan Chilkwowtah.
@@ -65,6 +223,84 @@
 6	seis	seis	NUM	_	_	4	conj	_	_
 7	años	año	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a8
+# text = Pues neh nikixmattok solamente se, ome taman.
+# text[orig] = *Pues** neh niki:xmattok *solamente** se:, o:me taman.
+# text[spa] = Pues yo solamente conozco uno ..., dos tipos.
+# labels = a8 sentence
+1	Pues	pues	ADV	_	_	3	advmod	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+3	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	solamente	solamente	ADV	_	_	3	advmod	_	_
+5	se	se	NUM	_	_	7	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ome	ome	NUM	_	_	8	nummod	_	_
+8	taman	taman	NOUN	_	Case=Abs	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a9
+# text = Se yon tein wehkapan moskaltia ata, wan wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsin wan seki, mas pisiltik.
+# text[orig] = Se: yo:n tein wehkapan moskaltia ata, wa[:n] wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsi:n wa:n seki, *más** pisi:ltik.
+# text[spa] = Uno, es el que crece alto, y las semillas son grandes y el otro, son más pequeños.
+# text[a9] = Se: yo:n tein wehkapan moskaltia ata,
+# text[a10] = wa[:n] wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsi:n wa:n seki,
+# text[a11] = *más** pisi:ltik.
+# labels = a10 a11 a9 sentence
+1	Se	se	NUM	_	_	2	dislocated	_	_
+2-3	yon	_	_	_	_	_	_	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+3	n	in	DET	_	_	4	det	_	_
+4	tein	tein	PRON	_	_	2	nsubj	_	_
+5	wehkapan	huejkapan	ADJ	_	_	6	advmod	_	_
+6	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	acl:relcl	_	_
+7	ata	ata	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	wan	huan	CCONJ	_	_	10	cc	_	_
+10	wehwei	huejhuei	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	_
+11	n'	in	DET	_	_	12	det	_	_
+12	i...	i	X	_	_	23	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	n'	in	DET	_	_	15	det	_	_
+15	i...	i	X	_	_	23	reparandum	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	n'	in	DET	_	_	18	det	_	_
+18	i...	i	X	_	_	23	reparandum	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	n'	in	DET	_	_	21	det	_	_
+21	i...	i	X	_	_	23	reparandum	_	_
+22	n'	in	DET	_	_	23	det	_	_
+23	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	10	nsubj	_	_
+24	wan	huan	CCONJ	_	_	28	cc	_	_
+25	seki	seki	PRON	_	_	2	dislocated	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	mas	más	ADV	_	_	28	advmod	_	_
+28	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	10	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a14
+# text = Que ihkon nikita neh para mah..., teihsa mah kwaltia ihkon, amo kwaltia.
+# text[orig] = *Que** ihkó:n nikita neh para mah ..., teihsá: mah kwaltia ihkó:n, a:mo kwaltia.
+# text[spa] = Que yo vea que lo ..., que sirva para algo, no se ocupa.
+# text[a14] = *Que** ihkó:n nikita neh para mah ...,
+# text[a15] = teihsá: mah kwaltia ihkó:n, a:mo kwaltia.
+# labels = a14 a15 sentence
+1	Que	que	SCONJ	_	_	3	mark	_	_
+2	ihkon	ijkon	ADV	_	_	3	advmod	_	_
+3	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+5	para	para	SCONJ	_	_	6	dep	_	_
+6	mah	ma	AUX	_	_	10	reparandum	_	SpaceAfter=No
+7	...	...	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	teihsa	teisa	PRON	_	_	11	dep	_	_
+10	mah	ma	AUX	_	_	11	aux	_	_
+11	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	_
+12	ihkon	ijkon	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	amo	amo	ADV	_	_	15	advmod	_	_
+15	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:1
 # text = ¿Keniuj Mochijchiuaj ne Sitalimej?
@@ -10384,6 +10620,17 @@
 10	yetok	etok	AUX	_	Number[subj]=Sing|Person[subj]=3	9	dep	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a33
+# text = Ixiwyo pisiltik n' imaxiwyo.
+# text[orig] = Ixiwyo pisi:ltik n' ima:xiwyo.
+# text[spa] = Las hojas son pequeñas.
+# labels = a33 sentence
+1	Ixiwyo	xiuyo	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	2	dislocated	_	_
+2	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	imaxiwyo	maxiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:1
 # text = Mm.
 # text[orig] = Mm.
@@ -10438,6 +10685,70 @@
 # labels = a46 sentence
 1	Amo	amo	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a48
+# text = Mochiwa kanika eski.
+# text[orig] = Mochi:wa ka:nika eski.
+# text[spa] = Se da en cualquier parte.
+# labels = a48 sentence
+1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kanika	kanika	ADV	_	_	1	advcl	_	_
+3	eski	etok	AUX	_	Mood=Cond|Number[subj]=Sing|Person[subj]=3	2	cop	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a49
+# text = Mochiwa kanika eski, porque tehwan ne kampa ne nejon kowtah no onkak.
+# text[orig] = Mochi:wa ka:nika eski, *porque** tehwa:n ne: ka:mpa ne: nejó:n kowtah no: onkak.
+# text[spa] = Se da en cualquier parte, porque allá en el monte, cerca de donde vivimos también hay.
+# labels = a49 sentence
+1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kanika	kanika	ADV	_	_	1	advcl	_	_
+3	eski	etok	AUX	_	Mood=Cond|Number[subj]=Sing|Person[subj]=3	2	cop	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	13	punct	_	_
+5	porque	porque	SCONJ	_	_	13	mark	_	_
+6	tehwan	tehuan	PRON	_	Number=Plur|Person=1|PronType=Pers	13	dep	_	_
+7	ne	ne	ADV	_	_	9	advmod	_	_
+8	kampa	kampa	ADV	_	PronType=Rel	9	advmod	_	_
+9	ne	ne	ADV	_	_	13	advcl	_	_
+10	nejon	nejon	DET	_	_	11	det	_	_
+11	kowtah	koutaj	NOUN	_	Case=Abs	13	obl	_	_
+12	no	no	ADV	_	_	13	advmod	_	_
+13	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a55
+# text = Neh nikixmattok ipa se taman sah, amo n'mati ox onkak ome taman, neh nikixmattok ipa se taman sah, yehwa yon tein tamapisiltik.
+# text[orig] = Neh niki:xmattok i:pa se: taman sah, a:mo n'mati ox onkak o:me taman, neh niki:xmattok i:pa se: taman sah, yehwa yo:n tein tama:pisi:ltik.
+# text[spa] = Yo solamente conozco un solo tipo, no sé si exsta dos tipos, yo solamente conozco un solo tipo, el que tiene hojas pequeñas.
+# labels = a55 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ipa	ipa	ADV	_	_	2	advmod	_	_
+4	se	se	NUM	_	_	5	nummod	_	_
+5	taman	taman	NOUN	_	Case=Abs	2	obj	_	_
+6	sah	saj	ADV	_	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	amo	amo	ADV	_	_	9	advmod	_	_
+9	n'mati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+10	ox	ox	SCONJ	_	_	11	mark	_	_
+11	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	9	ccomp	_	_
+12	ome	ome	NUM	_	_	13	nummod	_	_
+13	taman	taman	NOUN	_	Case=Abs	9	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	16	nsubj	_	_
+16	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+17	ipa	ipa	ADV	_	_	16	advmod	_	_
+18	se	se	NUM	_	_	19	nummod	_	_
+19	taman	taman	NOUN	_	Case=Abs	16	obj	_	_
+20	sah	saj	ADV	_	_	16	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	19	dep	_	_
+23-24	yon	_	_	_	_	_	_	_	_
+23	yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	22	dep	_	_
+24		in	DET	_	_	25	mark	_	_
+25	tein	tein	PRON	_	_	23	nsubj	_	_
+26	tamapisiltik	tamapisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	25	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a63
 # text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.

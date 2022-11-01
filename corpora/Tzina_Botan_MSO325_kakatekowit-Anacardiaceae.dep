@@ -350,15 +350,15 @@
 # text[spa] = Las hojas son pequeñas.
 # labels = a33 sentence
 "<Ixiwyo>"
-	"xiuyo" n pl px3sg
+	"xiuyo" n pl px3sg @dislocated #1->2
 "<pisiltik>"
-	"pisiltik" adj s_sg3
+	"pisiltik" adj s_sg3 @root #2->0
 "<n'>"
-	"in" det
+	"in" det @det #3->4
 "<imaxiwyo>"
-	"maxiuyo" n px3sg
+	"maxiuyo" n px3sg @nsubj #4->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->2
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a34
 # text = Wan de n' ikowyo n' ipanko mahya panrarayado wan neli de, de takwawak neli mochiwa n' iewayo yektilawak ata.
@@ -613,12 +613,11 @@
 "<Mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref @root #1->0
 "<kanika>"
-	"kanika" adv @advmod #2->
+	"kanika" adv @advcl #2->1
 "<eski>"
-	"eski" adj
-	"eski" adj s_sg3
+	"etok" cop cni s_sg3 @cop #3->2
 "<.>"
-	"." sent @punct #4->
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a49
 # text = Mochiwa kanika eski, porque tehwan ne kampa ne nejon kowtah no onkak.
@@ -626,38 +625,33 @@
 # text[spa] = Se da en cualquier parte, porque allá en el monte, cerca de donde vivimos también hay.
 # labels = a49 sentence
 "<Mochiwa>"
-	"chihua" v tv pres s_sg3 o_ref
+	"chihua" v tv pres s_sg3 o_ref @root #1->0
 "<kanika>"
-	"kanika" adv
+	"kanika" adv @advcl #2->1
 "<eski>"
-	"eski" adj
-	"eski" adj s_sg3
+	"etok" cop cni s_sg3 @cop #3->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->13
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark #5->13
 "<tehwan>"
-	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa
+	"tehuan" prn pers pl1 short @dep #6->13
 "<ne>"
-	"ne" adv
-	"ne" det
+	"ne" adv @advmod #7->9
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #8->9
 "<ne>"
-	"ne" adv
+	"ne" adv @advcl #9->13
 "<nejon>"
-	"nejon" prn
+	"nejon" det @det #10->11
 "<kowtah>"
-	"koutaj" n abs
+	"koutaj" n abs @obl #11->13
 "<no>"
-	"no" adv
+	"no" adv @advmod #12->13
 "<onkak>"
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @advcl #13->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->1
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a52
 # text = Pos tak mochiwas sayoh que de que amo se kitoka pero mochiwas nimolia neh, pos ta de que mochiwa kowtah mochiwas no, sayoh mah se kitoka sah.
@@ -665,29 +659,29 @@
 # text[spa] = Quizá sí se de, solamente nadie se ha a trevido a sembrarlo, pues se da bien en el monte, es probable que se de, solamente se debe sembrar.
 # labels = a52 sentence
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod
 "<tak>"
-	"tak" adv
+	"tak" adv @advmod
 "<mochiwas>"
-	"chihua" v tv fut s_sg3 o_ref
+	"chihua" v tv fut s_sg3 o_ref @root
 "<sayoh>"
-	"sayoj" adv
+	"sayoj" adv @advmod
 "<que>"
-	"que" cnjsub
+	"que" cnjsub @mark
 "<de>"
 	"de" pr
 "<que>"
 	"que" cnjsub
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<se>"
-	"se" num
+	"se" num @nsubj
 "<kitoka>"
 	"toka" v tv pres s_sg3 o_sg3
 "<pero>"
-	"pero" cnjcoo
+	"pero" cnjcoo @cc
 "<mochiwas>"
-	"chihua" v tv fut s_sg3 o_ref
+	"chihua" v tv fut s_sg3 o_ref @conj
 "<nimolia>"
 	"molia" v iv pres s_sg1
 "<neh>"
@@ -706,8 +700,6 @@
 	"chihua" v tv pres s_sg3 o_ref
 "<kowtah>"
 	"koutaj" n abs
-;	"koutaj" n abs s_pl3 REMOVE:29
-;	"koutaj" n abs s_sg3 REMOVE:29
 "<mochiwas>"
 	"chihua" v tv fut s_sg3 o_ref
 "<no>"
@@ -734,76 +726,58 @@
 # text[spa] = Yo solamente conozco un solo tipo, no sé si exsta dos tipos, yo solamente conozco un solo tipo, el que tiene hojas pequeñas.
 # labels = a55 sentence
 "<Neh>"
-	"nehua" prn pers sg1 short @nsubj
+	"nehua" prn pers sg1 short @nsubj #1->2
 "<nikixmattok>"
-	"ixmati" v tv prog pres s_sg1 o_sg3 @root
+	"ixmati" v tv prog pres s_sg1 o_sg3 @root #2->0
 "<ipa>"
-	"ipa" adv
-	"pajti" n px3sg
-	"pa" n px3sg
-;	"pa" n abs px3sg
+	"ipa" adv @advmod #3->2
 "<se>"
-	"se" num
+	"se" num @nummod #4->5
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-;	"man" n abs px3nn
-;	"taman" n abs s_pl3 REMOVE:29
-;	"taman" n abs s_sg3 REMOVE:29
+	"taman" n abs @obj #5->2
 "<sah>"
-	"saj" adv @advmod
+	"saj" adv @advmod #6->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->9
 "<amo>"
-	"amo" adv @advmod
+	"amo" adv @advmod #8->9
 "<n'mati>"
-	"mati" v tv pres s_sg1 o_sg3 @parataxis
+	"mati" v tv pres s_sg1 o_sg3 @parataxis #9->2
 "<ox>"
-	"ox" cnjsub
+	"ox" cnjsub @mark #10->11
 "<onkak>"
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @ccomp #11->9
 "<ome>"
-	"ome" num @nummod
+	"ome" num @nummod #12->13
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-;	"man" n abs px3nn
-;	"taman" n abs s_pl3 REMOVE:31
-;	"taman" n abs s_sg3 REMOVE:31
+	"taman" n abs @nsubj #13->9
 "<,>"
-	"," cm @punct
+	"," cm @punct #14->16
 "<neh>"
-	"nehua" prn pers sg1 short @nsubj
+	"nehua" prn pers sg1 short @nsubj #15->16
 "<nikixmattok>"
-	"ixmati" v tv prog pres s_sg1 o_sg3 @parataxis
+	"ixmati" v tv prog pres s_sg1 o_sg3 @parataxis #16->2
 "<ipa>"
-	"ipa" adv
-	"pajti" n px3sg
-	"pa" n px3sg
-;	"pa" n abs px3sg
+	"ipa" adv @advmod #17->16
 "<se>"
-	"se" num
+	"se" num @nummod #18->19
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-;	"man" n abs px3nn
-;	"taman" n abs s_pl3 REMOVE:29
-;	"taman" n abs s_sg3 REMOVE:29
+	"taman" n abs @obj #19->16
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #20->16
 "<,>"
-	"," cm @punct
+	"," cm @punct #21->22
 "<yehwa>"
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @dep #22->19
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
-"<tein>"
-	"tein" prn
+	"yehua" prn pers sg3 short @dep #23->22
+		"in" det @mark #24->25
+"<tein>" 
+	"tein" prn @nsubj #25->23
 "<tamapisiltik>"
-	"*tamapisiltik"
+	"tamapisiltik" adj s_sg3 @acl:relcl #26->25
 "<.>"
-	"." sent @punct
+	"." sent @punct #27->2
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a57
 # text = Amo nikmati yon, neh amo keman nikwa de yon itakka, ox welik, amo n'mati.
