@@ -1017,6 +1017,12 @@ tasojkamatilia:tasojkamatili                       V-SIO-PROG ;
 tasojkamatilia:tasojkamatili                       V-SIO-PRET ; 
 tasojkamatilia:tasojkamatili                       V-SIO-FUTR ; 
 
+! ""
+tamotilia:tamotilia                                V-SIO-PRES ;
+tamotilia:tamotilia                                V-SIO-IMPF ;
+tamotilia:tamotilia                                V-SIO-PROG ;
+tamotilia:tamotilia                                V-SIO-PRET ;
+tamotilia:tamotilia                                V-SIO-FUTR ;
 
 ! "vender"
 namaka:namaka                                      V-SIO-PRES ; 
@@ -1679,6 +1685,13 @@ huika:huika                                         V-SO-FUTR ;
 !hualkui:hualkui                                    V-SO-PROG ;
 !hualkui:hualkui                                    V-SO-PRET ;
 !hualkui:hualkui                                    V-SO-FUTR ;
+
+! "jugar"
+ahuiltia:ahuiltia                                   V-SO-PRES ;
+ahuiltia:ahuiltia                                   V-SO-IMPF ;
+ahuiltia:ahuilti                                    V-SO-PROG ;
+ahuiltia:ahuilti                                    V-SO-PRET ;
+ahuiltia:ahuilti                                    V-SO-FUTR ;
 
 ! "pertenecer"
 tapohui:tapohui                                     V-SO-PRES ;
