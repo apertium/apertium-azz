@@ -4,7 +4,7 @@ echo -n "" >/tmp/azz.conllu
 echo -n "" >/tmp/azz-conv.log
 for i in *.dep; do 
 	flen=$(echo ${i} | wc -c)
-	neq=$(expr 101 - ${flen})
+	neq=$(expr 105 - ${flen})
 	pad=""
 	for j in $(seq 1 ${neq}); do
 		pad="${pad}="
@@ -27,8 +27,8 @@ if [[ $res -eq 1 ]]; then
 fi
 tsegs=$(for i in *.seg; do python3 ../scripts/extract-seg.py < $i; done | grep -v '^#' | grep '\/'  | wc -l)
 ssegs=$(for i in *.seg; do python3 ../scripts/extract-seg.py < $i; done | grep '^$'  | wc -l)
-echo "================================================================================================================"
+echo "===================================================================================================================="
 echo -e "${d}\t${ssegs}\t${tsegs}\t${sents}\t${toks}\t${compl}%\t${targ}\t${win}"
-echo "================================================================================================================"
+echo "===================================================================================================================="
 udapy -s ud.SetSpaceAfterFromText ud.FixPunct < /tmp/azz.conllu  > /tmp/azz2.conllu
 mv /tmp/azz2.conllu azz_itml-ud-test.conllu 

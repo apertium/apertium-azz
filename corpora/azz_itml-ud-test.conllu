@@ -331,6 +331,17 @@
 19	telsasaltik	sasaltik	ADJ	_	Incorporated=Tel|Number[subj]=Sing|Person[subj]=3	7	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
+# sent_id = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d_ed-2020-01-02_Trad-ADA_FORM.eaf:a22
+# text = Tamelawa sayoh xiwit sah.
+# text[orig] = Tamela:wa sayoh xiwit sah.
+# text[spa] = Simplemente es una hierba.
+# labels = a22 sentence
+1	Tamelawa	tamelawa	ADV	_	_	3	advmod	_	_
+2	sayoh	sayoj	ADV	_	_	3	advmod	_	_
+3	xiwit	xihuit	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	sah	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:1
 # text = ¿Keniuj Mochijchiuaj ne Sitalimej?
 # text[spa] = ¿Cómo se forman las estrellas?
