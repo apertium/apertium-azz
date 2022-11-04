@@ -1056,6 +1056,39 @@
 18	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:62:1
+# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej.
+# text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# text[gloss] = Puede uno reunir muchas moléculas que crian un nano-robot, y con esta máquina puede uno conocer cuales células se enferman, éstos _ _ en los ratones.
+# labels = incorporation
+1	Ueli	hueli	AUX	_	_	3	aux	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kinsentiliya	sentilia	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	miyak	miak	DET	_	_	5	det	_	_
+5	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	teyin	tein	PRON	_	_	7	nsubj	_	_
+7	kiskaltiyaj	iskaltia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	acl:relcl	_	_
+8	se	se	NUM	_	_	9	det	_	_
+9	nano-robot	nano-robot	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	17	punct	_	_
+11	uan	huan	CCONJ	_	_	17	cc	_	_
+12	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	17	obl	_	_
+13	nijin	nijin	DET	_	_	14	det	_	_
+14	teposmej	tepos	NOUN	_	Number=Plur	12	nmod	_	_
+15	uelis	hueli	AUX	_	Tense=Fut	17	aux	_	_
+16	se	se	NUM	_	_	17	nsubj	_	_
+17	kinixmatis	ixmati	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	conj	_	_
+18	katin	katin	DET	_	PronType=Int	19	det	_	_
+19	células	célula	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+20	mokokouaj	kokohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	17	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	nejin	nejin	DET	_	_	23	det	_	_
+23	tamatilismej	tamatilis	NOUN	_	Number=Plur	24	nsubj	_	_
+24	moixyeyekouaj	ixyeyekohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	17	parataxis	_	_
+25	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	24	obl	_	_
+26	kimichimej	kimichin	NOUN	_	Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:64
 # text = In ueyi tatoponilis
 # text[spa] = La Gran Explosión
@@ -1063,6 +1096,23 @@
 1	In	in	DET	_	_	2	det	_	_
 2	ueyi	huei	ADJ	_	_	3	amod	_	_
 3	tatoponilis	tatoponilis	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:67
+# text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
+# text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
+# labels = Con esto puede decirse que antes, más se acercaban los planetas.
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+2	nijin	nijin	PRON	_	_	1	nmod	_	_
+3	ueli	hueli	AUX	_	_	4	aux	_	_
+4	moijtoua	ijtohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+5	ke	ke	SCONJ	_	_	9	mark	_	_
+6	achtopa	achtopa	ADV	_	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	kachi	kachi	ADV	_	_	9	advmod	_	_
+9	netechiujtoyaj	*netechiujtoyaj	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Intr	4	dep	_	_
+10	in	in	DET	_	_	11	det	_	_
+11	semanauak	semanahuak	NOUN	_	Case=Abs	9	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:70:1
 # text = Maj sekinemili ke tiktsikitsintiliya se tepet kemej se askat, uelis no se kinemilis ke tayijtik tikalakiyaj ne tonal, nochi ne mixti uan ne mixkouamej; axkan maj se kikajkaua.
@@ -1165,6 +1215,41 @@
 # labels =
 1	Tajtoleualoni	tajtoleualoni	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:84:2
+# text = Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
+# text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# text[gloss] = Todo lo que ves en el mundo y nosotros se hace con átomos.
+# labels =
+1	Nochi	nochi	PRON	_	_	2	dep	_	_
+2	teyin	tein	PRON	_	_	8	nsubj	_	_
+3	tikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	2	acl:relcl	_	_
+4	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	semanauak	semanahuak	NOUN	_	Case=Abs	4	nmod	_	_
+6	uan	huan	CCONJ	_	_	7	cc	_	_
+7	tejuan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	2	conj	_	_
+8	tichijchiujtokej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+9	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+10	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:86.1
+# text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis.
+# text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# text[gloss] = células: todos los que hay son tan pequeñas y tiene vida.
+# labels =
+1	células	célula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	8	punct	_	_
+3	nochi	nochi	PRON	_	_	4	dep	_	_
+4	teyin	tein	PRON	_	_	8	nsubj	_	_
+5	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	4	acl:relcl	_	_
+6	tel	tel	ADV	_	Incorporated=Tel	8	advmod	_	_
+7	senkaj	senka	ADV	_	_	8	advmod	_	_
+8	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Polite=Form	1	parataxis	_	_
+9	uan	huan	CCONJ	_	_	10	cc	_	_
+10	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	conj	_	_
+11	nemilis	nemilis	NOUN	_	Case=Abs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:86.2
 # text = Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
@@ -1220,6 +1305,30 @@
 3	sitalimej	sitalin	NOUN	_	Number=Plur	4	nsubj	_	_
 4	milinij	milini	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:94:1
+# text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej.
+# text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# text[gloss] = galaxia: nube grande y estrellas que se dan está parado vapor y polvo, y tienen algunas planetas.
+# labels =
+1	galaxia	galaxia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	9	punct	_	_
+3	uejueyi	huehuei	ADJ	_	_	4	amod	_	_
+4	mixti	mixti	NOUN	_	Case=Abs	9	nsubj	_	_
+5	uan	huan	CCONJ	_	_	6	cc	_	_
+6	sitalimej	sitalin	NOUN	_	Number=Plur	4	conj	_	_
+7	teyin	tein	PRON	_	_	8	nsubj	_	_
+8	chijchiujtokej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	6	acl:relcl	_	_
+9	ijka	ijka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	dep	_	_
+10	ijpotok	ijpotok	NOUN	_	Case=Abs	9	dep	_	_
+11	uan	huan	CCONJ	_	_	12	cc	_	_
+12	mixuak	mixuak	NOUN	_	Case=Abs	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	uan	huan	CCONJ	_	_	15	cc	_	_
+15	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	conj	_	_
+16	okseki	okse	DET	_	Number=Plur	17	det	_	_
+17	taltikpakmej	taltikpak	NOUN	_	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:94:2
 # text = In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.

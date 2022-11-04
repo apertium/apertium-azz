@@ -1919,11 +1919,11 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = kiteixmatiltijtok-tamachilis:62.1
+# sent_id = kiteixmatiltijtok-tamachilis:62:1
 # text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. 
 # text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
 # text[gloss] = Puede uno reunir muchas moléculas que crian un nano-robot, y con esta máquina puede uno conocer cuales células se enferman, éstos _ _ en los ratones.
-# labels =  
+# labels = incorporation
 "<Ueli>"
 	"hueli" vaux @aux #1->3
 "<se>"
@@ -1943,7 +1943,7 @@
 "<nano-robot>"
 	"nano-robot" n m sg @obj #9->7
 "<,>"
-	"," cm @punct #10->
+	"," cm @punct #10->17
 "<uan>"
 	"huan" cnjcoo @cc #11->17
 "<ika>"
@@ -1969,15 +1969,15 @@
 "<nejin>"
 	"nejin" det @det #22->23
 "<tamatilismej>"
-	"tamatilis" n pl
+	"tamatilis" n pl @nsubj #23->24
 "<moixyeyekouaj>"
-	"*moixyeyekouaj"
+	"ixyeyekohua" v tv pres s_pl3 o_ref @parataxis #24->17
 "<itech>"
-	"tech" n rel px3sg @obl
+	"tech" n rel px3sg @obl #25->24
 "<kimichimej>"
-	"kimichin" n pl @nmod
+	"kimichin" n pl @nmod #26->25
 "<.>"
-	"." sent @punct
+	"." sent @punct #27->3
 
 # sent_id = kiteixmatiltijtok-tamachilis:62.2
 # text = Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
@@ -2031,6 +2031,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:66
 # text = Xiujmej tayikan moajsik ke ne mixkouamej teyin monotsaj galaxias techkaujteuaj uan ne teyin kachi uejka moajsij kachi ijsiujka mouekatiliya.
 # text[spa] = Durante el siglo pasado se descubrió que las galaxias en el universo se alejan de nosotros y que, mientras más lejos estén, se alejan más rápido.
+# text[gloss] = 
 # labels =  
 "<Xiujmej>"
 	"*Xiujmej"
@@ -2042,20 +2043,15 @@
 	"ke" prn
 ;	"ke" x REMOVE:41
 "<ne>"
-	"ne" adv
 	"ne" det @det
 "<mixkouamej>"
-	"mixkouat" n pl
-;	"mixkouat" n pl s_pl3 REMOVE:29
-;	"mixkouat" n pl s_sg3 REMOVE:29
+	"mixkohuat" n pl
 "<teyin>"
 	"tein" prn
 "<monotsaj>"
 	"notsa" v tv pres s_pl3 i_ref o_sg3
 "<galaxias>"
 	"galaxia" n f pl
-;	"galaxia" n f pl s_pl3 REMOVE:29
-;	"galaxia" n f pl s_sg3 REMOVE:29
 "<techkaujteuaj>"
 	"*techkaujteuaj"
 "<uan>"
@@ -2088,42 +2084,43 @@
 # sent_id = kiteixmatiltijtok-tamachilis:67
 # text = Ika nijin ueli moijtoua ke achtopa, kachi netechiujtoyaj in semanauak.
 # text[spa] = Con base en estas observaciones, se puede concluir que, en el pasado, se encontraban más cerca unas de otras.
-# labels =  
+# labels = Con esto puede decirse que antes, más se acercaban los planetas.
 "<Ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #1->4
 "<nijin>"
-	"nijin" prn
+	"nijin" prn @nmod #2->1
 "<ueli>"
-	"hueli" vaux
+	"hueli" vaux @aux #3->4
 "<moijtoua>"
-	"ijtohua" v tv pres s_sg3 o_ref
+	"ijtohua" v tv pres s_sg3 o_ref @root #4->0
 "<ke>"
-	"ke" prn
+	"ke" cnjsub @mark #5->9
 "<achtopa>"
-	"achtopa" adv
+	"achtopa" adv @advmod #6->9
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->9
 "<kachi>"
-	"kachi" prn
+	"kachi" adv @advmod #8->9
 "<netechiujtoyaj>"
-	"*netechiujtoyaj"
+	"*netechiujtoyaj" v iv impf s_pl3 @dep #9->4
 "<in>"
-	"in" det @det
+	"in" det @det #10->11
 "<semanauak>"
-	"semanahuak" n abs
+	"semanahuak" n abs @nsubj #11->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->4
 
 # sent_id = kiteixmatiltijtok-tamachilis:69
 # text = Ta ijkuak tikitaj kachi teyin panok ya itech in Semauak, kachi netechiujtokej nochi teyin onkak itech, yej ika se kinemiliya ke achtopa nochi in Semanauak tel senka olochyetoya.
 # text[spa] = Entre más al pasado del universo observemos, veremos que más cerca están todas las cosas que en él existen; por eso suponemos que, en algún momento, todo dentro de él estuvo súper comprimido.
+# text[gloss] = Entonces cuando vemos más que trasladó ya en el universo, más 
 # labels =  
 "<Ta>"
 	"ta" adv
 "<ijkuak>"
-	"ijkuak" cnjsub
+	"ijkuak" cnjsub @mark
 "<tikitaj>"
-	"ita" v tv pres s_pl1 o_sg3
+	"ita" v tv pres s_pl1 o_sg3 @advcl
 "<kachi>"
 	"kachi" adv
 "<teyin>"
@@ -2142,8 +2139,6 @@
 	"," cm @punct
 "<kachi>"
 	"kachi" adv
-	"kachi" det @det
-	"kachi" prn
 "<netechiujtokej>"
 	"*netechiujtokej"
 "<nochi>"
@@ -2178,8 +2173,6 @@
 	"in" det @det
 "<Semanauak>"
 	"semanahuak" n abs
-	"semanahuak" n abs s_sg3
-;	"semanahuak" n abs s_pl3 REMOVE:39
 "<tel>"
 	"tel" adv
 "<senka>"
@@ -2270,14 +2263,13 @@
 	"*kinemili"
 "<ke>"
 	"ke" prn
-;	"ke" x REMOVE:41
 "<nochi>"
 	"nochi" det @det
 	"nochi" prn
 "<toponi>"
 	"toponi" v iv pres s_sg3
 "<ijkuak>"
-	"ijkuak" cnjsub
+	"ijkuak" cnjsub @mark
 "<se>"
 	"se" num
 "<kikajkaua>"
@@ -2323,6 +2315,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:73
 # text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
 # text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
+# text[gloss] = Esto que se llama "Gran explosión", es esto con ...
 # labels =  
 "<Nijin>"
 	"nijin" prn @nsubj
@@ -2477,7 +2470,7 @@
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
 # labels =  
 "<átomos>"
-	"átomo" n m pl
+	"átomo" n m pl @root
 "<:>"
 	":" sent  
 "<nochi>"
@@ -2488,7 +2481,6 @@
 	"nejin" prn
 "<okuilimej>"
 	"okuilin" n pl
-;	"okuilin" n pl s_sg3 REMOVE:31
 "<,>"
 	"," cm @punct
 "<kuaujtakilomej>"
@@ -2520,59 +2512,60 @@
 # sent_id = kiteixmatiltijtok-tamachilis:84:2
 # text = Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
 # text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# text[gloss] = Todo lo que ves en el mundo y nosotros se hace con átomos.
 # labels =  
 "<Nochi>"
-	"nochi" prn
+	"nochi" prn @dep #1->2
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #2->8
 "<tikita>"
-	"ita" v tv pres s_sg2 o_sg3
+	"ita" v tv pres s_sg2 o_sg3 @acl:relcl #3->2
 "<itech>"
-	"tech" n rel px3sg @obl
+	"tech" n rel px3sg @obl #4->3
 "<semanauak>"
-	"semanahuak" n abs @nmod
+	"semanahuak" n abs @nmod #5->4
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #6->7
 "<tejuan>"
-	"tehuan" prn pers pl1 abs @nsubj
+	"tehuan" prn pers pl1 abs @conj #7->2
 "<tichijchiujtokej>"
-	"chijchihua" v iv prog pres s_pl1
-	"chijchiutok" adj s_pl1
+	"chijchihua" v iv prog pres s_pl1 @root #8->0
 "<ika>"
-	"ka" n rel px3sg @obl
+	"ka" n rel px3sg @obl #9->8
 "<átomos>"
-	"átomo" n m pl @nmod
+	"átomo" n m pl @nmod #10->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->8
 
 # sent_id = kiteixmatiltijtok-tamachilis:86.1
 # text = células: nochi teyin onkak tel senkaj tsikitsitsin uan kipiya nemilis. 
 # text[spa] = célula: unidades más pequeñas que tienen vida. Nuestro cuerpo, el de los animales y las plantas están  formados por muchísimas células.
+# text[gloss] = células: todos los que hay son tan pequeñas y tiene vida.
 # labels =  
 "<células>"
-	"célula" n f pl @root
+	"célula" n f pl @root #1->0
 "<:>"
-	":" sent @punct
+	":" sent @punct #2->1
 "<nochi>"
-	"nochi" prn @parataxis
+	"nochi" prn @dep #3->4
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #4->8
 "<onkak>"
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @acl:relcl #5->4
 "<tel>"
-	"tel" adv @advmod
+	"tel" adv @advmod #6->8
 "<senkaj>"
-	"senka" adv @advmod
+	"senka" adv @advmod #7->8
 "<tsikitsitsin>"
-	"tsiki" adj hon pl
+	"tsiki" adj hon pl @parataxis #8->1
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #9->10
 "<kipiya>"
-	"piya" v tv pres s_sg3 o_sg3 @conj
+	"piya" v tv pres s_sg3 o_sg3 @conj #10->8
 "<nemilis>"
-	"nemilis" n abs @obj
+	"nemilis" n abs @obj #11->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->1
 
 # sent_id = kiteixmatiltijtok-tamachilis:86.2
 # text = Totakayo, okuiltakayot uan nochin in kuaujmej chijchiujtokej ika miyak células.
@@ -2667,46 +2660,44 @@
 # sent_id = kiteixmatiltijtok-tamachilis:94:1
 # text = galaxia: uejueyi mixti uan sitalimej teyin chijchiujtokej ijka ijpotok uan mixuak, uan kipiya okseki taltikpakmej. 
 # text[spa] = galaxias: conjuntos grandes de estrellas, planetas, gas y polvo.
+# text[gloss] = galaxia: nube grande y estrellas que se dan está parado vapor y polvo, y tienen algunas planetas.
 # labels =  
 "<galaxia>"
-	"galaxia" n f sg @root
+	"galaxia" n f sg @root #1->0
 "<:>"
-	":" sent @punct 
+	":" sent @punct #2->1
 "<uejueyi>"
-	"huehuei" adj
+	"huehuei" adj @amod #3->4
 "<mixti>"
-	"mixti" n abs
+	"mixti" n abs @nsubj #4->9
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #5->6
 "<sitalimej>"
-	"sitalin" n pl
+	"sitalin" n pl @conj #6->4
 "<teyin>"
-	"tein" prn
+	"tein" prn @nsubj #7->8
 "<chijchiujtokej>"
-	"chijchihua" v iv prog pres s_pl3
-	"chijchiutok" adj s_pl3
+	"chijchihua" v iv prog pres s_pl3 @acl:relcl #8->6
 "<ijka>"
-	"ijka" v iv pres s_sg3
+	"ijka" v iv pres s_sg3 @dep #9->1
 "<ijpotok>"
-	"ijpotok" n abs
-;	"ijpotok" n abs s_pl3 REMOVE:29
-;	"ijpotok" n abs s_sg3 REMOVE:29
+	"ijpotok" n abs @dep #10->9
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #11->12
 "<mixuak>"
-	"mixuak" n abs
+	"mixuak" n abs @conj #12->10
 "<,>"
-	"," cm @punct
+	"," cm @punct #13->15
 "<uan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #14->15
 "<kipiya>"
-	"piya" v tv pres s_sg3 o_sg3
+	"piya" v tv pres s_sg3 o_sg3 @conj #15->9
 "<okseki>"
-	"okse" det pl @det
+	"okse" det pl @det #16->17
 "<taltikpakmej>"
-	"taltikpak" n pl @obj
+	"taltikpak" n pl @obj #17->15
 "<.>"
-	"." sent @punct
+	"." sent @punct #18->1
 
 # sent_id = kiteixmatiltijtok-tamachilis:94:2
 # text = In sitalkouat moixmati kemej togalaxia uan monotsa Vía Láctea.

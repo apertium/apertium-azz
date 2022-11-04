@@ -1047,7 +1047,7 @@
 ^cancerígenas/cancerígenas$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:62
+# sent_id = kiteixmatiltijtok-tamachilis:62:1
 # text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
 # text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
 # labels =  
@@ -1078,6 +1078,11 @@
 ^itech/itech$
 ^kimichimej/kimichimej$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:62:2
+# text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej. Nijin tamachilis kitapoua se yankuik nemachtil kampa moixnextiya keniuj se kinmiktis células cancerígenas teyin tekokolismakaj.
+# text[spa] = En el caso de estas células, se ha conseguido unir a varias moléculas que funcionan como un nano-robot y éstas han logrado identificar las células cancerígenas en ratones, lo que abre la posibilidad de empezar a desarrollar mecanismos para la destrucción de las células cancerígenas en humanos.
+# labels =  
 ^Nijin/Nijin$
 ^tamachilis/tamachilis$
 ^kitapoua/kitapoua$
