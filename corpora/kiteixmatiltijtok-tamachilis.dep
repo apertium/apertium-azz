@@ -169,6 +169,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:8
 # text = Achtopa momaneloua yejua ne ijpotok hidrógeno, ta amo yetik uan yej kachi onkak itech in Semanauak; ijkon mochiua se kuemit kanpa motekpanaj átomos teyin ijkon etixtiyouej uan, ika in, mochiua tit itech ne sitalin.
 # text[spa] = Lo primero en fusionarse es el hidrógeno, que  es el elemento más ligero y abundante del universo; así comienza la cadena de formación de átomos cada vez más pesados y, con esto, la producción de luz de la estrella.
+# text[gloss] = Antes 
 # labels =  
 "<Achtopa>"
 	"achtopa" adv @advmod
@@ -177,7 +178,6 @@
 "<yejua>"
 	"yehua" prn pers sg3
 "<ne>"
-	"ne" adv
 	"ne" det @det
 "<ijpotok>"
 	"ijpotok" n abs
@@ -190,7 +190,7 @@
 "<amo>"
 	"amo" adv @advmod
 "<yetik>"
-	"etik" adj s_sg3
+	"etik" adj s_sg3 
 "<uan>"
 	"huan" cnjcoo @cc
 "<yej>"
