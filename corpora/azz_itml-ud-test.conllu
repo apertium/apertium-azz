@@ -10643,6 +10643,14 @@
 2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a26:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a26 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a30
 # text = Kichiwa sakera se, se kaxtol xiwit, wehkawa yetok.
 # text[orig] = Kichi:wa sake:ra se:, se: kaxto:l xiwit, wehka:wa yetok.
@@ -10829,6 +10837,30 @@
 4	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a38
+# text = Wan, nen, itapalo.
+# text[orig] = Wa:n, ne:n, itapalo.
+# text[spa] = ¿De qué color es (quizá se refiera al color de la flor o del trocno)?
+# labels = a38 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nen	nen	PRON	_	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	itapalo	tapalo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a45
+# text = Yon amo kitokah.
+# text[orig] = Yo:n a:mo kito:kah.
+# text[spa] = Ese árbol no se siembra
+# labels = a45 sentence
+1-2	Yon	_	_	_	_	_	_	_	_
+1	Yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2		in	DET	_	_	4	mark	_	_
+3	amo	amo	ADV	_	_	4	advmod	_	_
+4	kitokah	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	csubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a47
 # text = ¿Wan kani, nen, mochiwa?
 # text[orig] = ¿Wa:n ka:ni, ne:n, mochi:wa?
@@ -10863,8 +10895,8 @@
 3	se	se	NUM	_	_	4	nsubj	_	_
 4	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 5-6	kaltsintan	_	_	_	_	_	_	_	_
-5	kal	kali	NOUN	_	_	4	obl	_	_
-6	tsintan	tsintan	NOUN	_	NounType=Relat	5	compound	_	_
+5	kaltsintan	kali	NOUN	_	_	4	obl	_	_
+6		tsintan	NOUN	_	NounType=Relat	5	compound	_	_
 7	no	no	ADV	_	_	8	advmod	_	_
 8	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	parataxis	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	4	punct	_	_

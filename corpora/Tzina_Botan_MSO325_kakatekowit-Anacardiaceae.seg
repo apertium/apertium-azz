@@ -1,11 +1,18 @@
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a26
-# text = Mm. Pos de yon kakatekowit neh n'mattok que yon nochi serbirowa para kikwih ki..., ne keman kihtowah ipa kikwiah para kowkalikxit,
-# text[orig] = Mm. Pos de yo:n kakatekowit neh n'mattok *que** yo:n nochi *serbi:rowa para** kikwih ki..., ne: ke:man kihtowah i:pa kikwiah para kowkalikxit,
-# text[spa] = Mm. Pues el kakatekowit yo sé que tiene varios usos, se usa para construcción de casas,
-# labels = a26 fragment
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a26:1
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm. 
+# labels = a26 sentence
 ^Mm/Mm$
 ^./.$
+
+# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a26:2
+# text = Pos de yon kakatekowit neh n'mattok que yon nochi serbirowa para kikwih ki..., ne keman kihtowah ipa kikwiah para kowkalikxit, oso para ihkon teihsa, komo yon se ika, se yon se takwecholoni, kwali kikechiliah yehwa para n' kowit para serbirowa yon amo palani niman, wehkawa, yetok.
+# text[orig] = Pos de yo:n kakatekowit neh n'mattok *que** yo:n nochi *serbi:rowa para** kikwih ki..., ne: ke:man kihtowah i:pa kikwiah para kowkalikxit, oso para ihkó:n teihsá:, komo yo:n se: ika, se: yo:n se: takwe:cholo:ni, kwali kikechiliah yehwa para n' kowit *para serbi:rowa** yo:n a:mo pala:ni niman, wehka:wa, yetok.
+# text[spa] = Pues el kakatekowit yo sé que tiene varios usos, se usa para construcción de casas, o para alguna otra cosa, como para base de un molino manual para hacer masa, el tronco del kakate no se pudre pronto.
+# text[2] = Pos de yo:n kakatekowit neh n'mattok *que** yo:n nochi *serbi:rowa para** kikwih ki..., ne: ke:man kihtowah i:pa kikwiah para kowkalikxit,
+# text[a27] = oso para ihkó:n teihsá:, komo yo:n se: ika, se: yo:n se: takwe:cholo:ni, kwali kikechiliah yehwa para n' kowit *para serbi:rowa** yo:n a:mo pala:ni niman, wehka:wa, yetok.
+# labels = a26 a27 sentence
 ^Pos/Pos$
 ^de/de$
 ^yon/yon$
@@ -28,12 +35,6 @@
 ^para/para$
 ^kowkalikxit/kowkalikxit$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a27
-# text = oso para ihkon teihsa, komo yon se ika, se yon se takwecholoni, kwali kikechiliah yehwa para n' kowit para serbirowa yon amo palani niman, wehkawa, yetok.
-# text[orig] = oso para ihkó:n teihsá:, komo yo:n se: ika, se: yo:n se: takwe:cholo:ni, kwali kikechiliah yehwa para n' kowit *para serbi:rowa** yo:n a:mo pala:ni niman, wehka:wa, yetok.
-# text[spa] = o para alguna otra cosa, como para base de un molino manual para hacer masa, el tronco del kakate no se pudre pronto.
-# labels = a27 fragment
 ^oso/oso$
 ^para/para$
 ^ihkon/ihkon$
@@ -68,10 +69,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a28
-# text = Wan nochi de yon kihtowah que,
-# text[orig] = Wa:n nochi de yo:n kihtowah *que**,
-# text[spa] = Y lo que comentan
-# labels = a28 fragment
+# text = Wan nochi de yon kihtowah que, que nejon komo yoloh mas wehkawa ye..., nejon yetok, weh..., wehkawa taxikowa.
+# text[orig] = Wa:n nochi de yo:n kihtowah *que**, *que** nejó:n komo yo:loh *más** wehka:wa ye..., nejó:n yetok, weh..., wehka:wa taxi:kowa.
+# text[spa] = Y lo que comentan que si el tronco ya tiene la médula, dura más tiempo. El tronco dura mucho tiempo.
+# text[a28] = Wa:n nochi de yo:n kihtowah *que**,
+# text[a29] = *que** nejó:n komo yo:loh *más** wehka:wa ye..., nejó:n yetok, weh..., wehka:wa taxi:kowa.
+# labels = a28 a29 sentence
 ^Wan/Wan$
 ^nochi/nochi$
 ^de/de$
@@ -79,12 +82,6 @@
 ^kihtowah/kihtowah$
 ^que/que$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a29
-# text = que nejon komo yoloh mas wehkawa ye..., nejon yetok, weh..., wehkawa taxikowa.
-# text[orig] = *que** nejó:n komo yo:loh *más** wehka:wa ye..., nejó:n yetok, weh..., wehka:wa taxi:kowa.
-# text[spa] = que si el tronco ya tiene la médula, dura más tiempo. El tronco dura mucho tiempo.
-# labels = a29 fragment
 ^que/que$
 ^nejon/nejon$
 ^komo/komo$
@@ -203,16 +200,16 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:1
-# text = Mm. Kemah wan mahya nejon kipia rayitas n' ipanko nen kowit wan ixiwyo mapisiltik.
-# text[orig] = Mm. Ke:mah wa:n mahyá: nejó:n kipia *rayitas** n' ipanko ne:n kowit wa:n ixiwyo ma:pisi:ltik.
-# text[spa] = Si, y es cierto, la corteza es rayada y las hojas son pequeñas.
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] =
 # labels = a35 sentence
 ^Mm/Mm$
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a35:2
-# text = Mm. Kemah wan mahya nejon kipia rayitas n' ipanko nen kowit wan ixiwyo mapisiltik.
-# text[orig] = Mm. Ke:mah wa:n mahyá: nejó:n kipia *rayitas** n' ipanko ne:n kowit wa:n ixiwyo ma:pisi:ltik.
+# text = Kemah wan mahya nejon kipia rayitas n' ipanko nen kowit wan ixiwyo mapisiltik.
+# text[orig] = Ke:mah wa:n mahyá: nejó:n kipia *rayitas** n' ipanko ne:n kowit wa:n ixiwyo ma:pisi:ltik.
 # text[spa] = Si, y es cierto, la corteza es rayada y las hojas son pequeñas.
 # labels = a35 sentence
 ^Kemah/Kemah$
@@ -246,10 +243,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a39
-# text = Itapalo kisa mahya yekchichiltik,
-# text[orig] = Itapalo ki:sa mahyá: ye:kchi:chi:ltik,
+# text = Itapalo kisa mahya yekchichiltik, cuando kitekih.
+# text[orig] = Itapalo ki:sa mahyá: ye:kchi:chi:ltik, *cuando** kitekih.
 # text[spa] = (Cuando aserran) el tronco suelta el color con tinte a rojo,
-# labels = a39 fragment
+# text[a39] = Itapalo ki:sa mahyá: ye:kchi:chi:ltik,
+# text[a40] = *cuando** kitekih.
+# labels = a39 a40 sentence
 ^Itapalo/Itapalo$
 ^kisa/kisa$
 ^mahya/mahya$
@@ -268,10 +267,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a43
-# text = Kemah, no kwaltia, no yekkwaltsin tata, yektekoloh, yon yekweloktik. Komo se taxotaltia
-# text[orig] = Ke:mah, no: kwaltia, no: ye:kkwaltsi:n tata, ye:ktekoloh, yo:n ye:kweloktik. Komo se: taxo:taltia
-# text[spa] = Si, arde muy bien, dejando mucha brasa y la lumbre es muy caliente. Al hacer lumbre (con este tipo de leña)
-# labels = a43 fragment
+# text = Kemah, no kwaltia, no yekkwaltsin tata, yektekoloh, yon yekweloktik. Komo se taxotaltia okyowatika se mewa como siempre nejon xotatok porque, nejon, tekoloh kwali.
+# text[orig] = Ke:mah, no: kwaltia, no: ye:kkwaltsi:n tata, ye:ktekoloh, yo:n ye:kweloktik. Komo se: taxo:taltia okyowatika se: me:wa *como siempre** nejó:n xo:tatok *porque**, nejó:n, tekoloh kwali.
+# text[spa] = Si, arde muy bien, dejando mucha brasa y la lumbre es muy caliente. Al hacer lumbre (con este tipo de leña) al siguiente día por la mañana, se pueden encontrar brasas prendidas porque es muy buena madera.
+# text[a43] = Ke:mah, no: kwaltia, no: ye:kkwaltsi:n tata, ye:ktekoloh, yo:n ye:kweloktik. Komo se: taxo:taltia
+# text[a44] = okyowatika se: me:wa *como siempre** nejó:n xo:tatok *porque**, nejó:n, tekoloh kwali.
+# labels = a43 a44 sentence
 ^Kemah/Kemah$
 ^,/,$
 ^no/no$
@@ -289,12 +290,6 @@
 ^Komo/Komo$
 ^se/se$
 ^taxotaltia/taxotaltia$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a44
-# text = okyowatika se mewa como siempre nejon xotatok porque, nejon, tekoloh kwali.
-# text[orig] = okyowatika se: me:wa *como siempre** nejó:n xo:tatok *porque**, nejó:n, tekoloh kwali.
-# text[spa] = al siguiente día por la mañana, se pueden encontrar brasas prendidas porque es muy buena madera.
-# labels = a44 fragment
 ^okyowatika/okyowatika$
 ^se/se$
 ^mewa/mewa$
@@ -412,7 +407,7 @@
 ^,/,$
 ^yehwa/yehwa$
 ^yon/yon$
-^tein/tein$
+^tein>" /"<tein>" 
 ^tamapisiltik/tamapisiltik$
 ^./.$
 
@@ -561,7 +556,7 @@
 # text = Wan, nen, yon tikihtowa kwaltia k...., e..., komohkon se kikwi kalikxit ¿wan kowtatil no weli?
 # text[orig] = Wa:n, ne:n, yo:n tikihtowa kwaltia k...., e:..., komohkó:n se: kikwi kalikxit ¿wa:n kowtati:l no: weli?
 # text[spa] = Y decimos que el tronco del kakate sirve para horcones, ¿Y también se usa para leña?
-# labels = a41 fragment
+# labels = a41 sentence
 ^Wan/Wan$
 ^,/,$
 ^nen/nen$
@@ -569,8 +564,7 @@
 ^yon/yon$
 ^tikihtowa/tikihtowa$
 ^kwaltia/kwaltia$
-^k.../k...$
-^./.$
+^k..../k....$
 ^,/,$
 ^e.../e...$
 ^,/,$
@@ -613,7 +607,7 @@
 # text = Wan, nen,
 # text[orig] = Wa:n, ne:n,
 # text[spa] = Y ...
-# labels = a50 fragment
+# labels = a50 sentence
 ^Wan/Wan$
 ^,/,$
 ^nen/nen$
@@ -628,16 +622,18 @@
 ^komo/komo$
 ^se/se$
 ^kitoka/kitoka$
-^kaltsintan/kal>tsintan$
+^kaltsintan/kaltsintan$
 ^no/no$
 ^mochiwa/mochiwa$
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a53
-# text = Bueno, pos este, komohkon,
-# text[orig] = *Bueno**, pos *este**, komohkó:n,
-# text[spa] = Buenos, pues si acaso,
-# labels = a53 a54 fragment
+# text = Bueno, pos este, komohkon, in, ¿ipa se taman sah oso miak taman onkak?
+# text[orig] = *Bueno**, pos *este**, komohkó:n, i:n, ¿i:pa se: taman sah oso miak taman onkak?
+# text[spa] = Buenos, pues si acaso, de éste, ¿Hay un solo tipo de kakate o hay varios tipos?
+# text[a53] = *Bueno**, pos *este**, komohkó:n, 
+# text[a54] = i:n, ¿i:pa se: taman sah oso miak taman onkak?
+# labels = a53 a54 sentence
 ^Bueno/Bueno$
 ^,/,$
 ^pos/pos$
@@ -684,22 +680,19 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a60
-# text = Komohkon nochi a ne in,
-# text[orig] = Komohkó:n nochi a ne: i:n,
-# text[spa] = Si eso es todo
-# labels = a60 fragment
+# text = Komohkon nochi a ne in, in tein titechilih de n' kakatekowit, motokay wan moxolal.
+# text[orig] = Komohkó:n nochi a ne: i:n, i:n tein tite:chilih de n' kakatekowit, moto:ka:y wa:n moxola:l.
+# text[spa] = Si eso es todo lo que nos has contado dínos tu nombre y de donde vienes
+# text[a60] = Komohkó:n nochi a ne: i:n,
+# text[a61] = i:n tein tite:chilih de n' kakatekowit,
+# text[a62] = moto:ka:y wa:n moxola:l.
+# labels = a60 a61 a62 sentence
 ^Komohkon/Komohkon$
 ^nochi/nochi$
 ^a/a$
 ^ne/ne$
 ^in/in$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a61
-# text = in tein titechilih de n' kakatekowit,
-# text[orig] = i:n tein tite:chilih de n' kakatekowit,
-# text[spa] = lo que nos has contado
-# labels = a61 fragment
 ^in/in$
 ^tein/tein$
 ^titechilih/titechilih$
@@ -707,13 +700,8 @@
 ^n'/n'$
 ^kakatekowit/kakatekowit$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a_ed-2017-04-10_trad-ADA_FORM.eaf:a62
-# text = motokay wan moxolal.
-# text[orig] = moto:ka:y wa:n moxola:l.
-# text[spa] = dínos tu nombre y de donde vienes
-# labels = a62 fragment
 ^motokay/motokay$
 ^wan/wan$
 ^moxolal/moxolal$
 ^./.$
+

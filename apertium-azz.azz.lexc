@@ -6962,6 +6962,8 @@ mapajpatahuak:mapa%{j%}patahuak                     ADJ-REDUP ; ! "ancho"
 kanak:kanak                                         ADJ ; ! "delgado"
 xokok:xokok                                         ADJ ; ! "ácido"
 
+rarayado:rarayado                                   ADJ-REDUP ; ! "rayado"
+
 totonik:totonik                                     ADJ ; ! "caliente"
 tojtotonik:to%{j%}totonik                           ADJ-REDUP ; ! "caliente"
 sesek:se%{j%}sek                                    ADJ ; ! "frío"
