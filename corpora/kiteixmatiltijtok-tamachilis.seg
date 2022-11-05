@@ -165,7 +165,7 @@
 ^sitalimej/sitalimej$
 ^./.$
 
-# sent_id = kiteixmatiltijtok-tamachilis:12
+# sent_id = kiteixmatiltijtok-tamachilis:12:1
 # text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
 # text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
 # labels =  
@@ -181,6 +181,11 @@
 ^yolik/yolik$
 ^totaltikpak/totaltikpak$
 ^./.$
+
+# sent_id = kiteixmatiltijtok-tamachilis:12:2
+# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak. Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# labels =  
 ^Totaltikpak/Totaltikpak$
 ^uan/uan$
 ^nochi/nochi$
@@ -1263,8 +1268,10 @@
 # labels =  
 ^Nijin/Nijin$
 ^monotsa/monotsa$
+^“/“$
 ^Ueyi/Ueyi$
 ^Tatoponilis/Tatoponilis$
+^”/”$
 ^,/,$
 ^yejua/yejua$
 ^nijin/nijin$

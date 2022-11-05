@@ -465,6 +465,40 @@
 23	sitalimej	sitalin	NOUN	_	Number=Plur	21	nsubj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:12:1
+# text = Ne átomos teyin mochiuakej itech oksekin sitalimej, ijkon yolik totaltikpak.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# text[gloss] = En los átomos que se generan en otras estrellas, así nace nuestra planeta.
+# labels =
+1	Ne	ne	DET	_	_	2	det	_	_
+2	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	10	dislocated	_	_
+3	teyin	tein	PRON	_	_	4	nsubj	_	_
+4	mochiuakej	chihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	2	acl:relcl	_	_
+5	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	oksekin	okse	DET	_	Number=Plur	7	det	_	_
+7	sitalimej	sitalin	NOUN	_	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	ijkon	ijkon	ADV	_	_	10	advmod	_	_
+10	yolik	yoli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+11	totaltikpak	taltikpak	NOUN	_	Number[psor]=Plur|Person[psor]=1	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:12:2
+# text = Totaltikpak uan nochi teyin onkak itech, kemej tejuan.
+# text[spa] = Los átomos generados en muchas otras estrellas llegaron a formar el planeta que habitamos, la Tierra, y todo lo que está en él, incluso a nosotros mismos.
+# text[gloss] = Nuestro planeta y todo lo que hay en él, como nosotros.
+# labels =
+1	Totaltikpak	taltikpak	NOUN	_	Number[psor]=Plur|Person[psor]=1	0	root	_	_
+2	uan	huan	CCONJ	_	_	3	cc	_	_
+3	nochi	nochi	PRON	_	_	1	conj	_	_
+4	teyin	tein	PRON	_	_	3	nsubj	_	_
+5	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	4	acl:relcl	_	_
+6	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	kemej	kemej	ADP	_	_	9	case	_	_
+9	tejuan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:14
 # text = Maj amo onkanij sitalimej, tejua uan nejua amo nikan tiyetoskiyaj timotajtanijtoskiyaj ¿keniuj mochiujkej ne sitalimej?
 # text[spa] = Sin las estrellas, tú y yo no estaríamos aquí para preguntarnos: ¿cómo se forman las estrellas?
@@ -506,6 +540,31 @@
 6	amo	amo	ADV	_	_	7	advmod	_	_
 7	kitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:19
+# text = Kemej, in kouamej teyin kuali kitaj tokauanyoj uan nekmej kuali kitaj nochin tapalmej teyin kipia se xochit.
+# text[spa] = Por ejemplo, las serpientes pueden ver el calor que emiten nuestros cuerpos y las abejas distinguen en las flores colores que son invisibles para nosotros.
+# text[gloss] = Como, las serpientes que bien lo ven nuestro calor y abejas bien ven todos colores que tienen una flor.
+# labels =
+1	Kemej	kemej	ADV	_	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	kouamej	kohuat	NOUN	_	Number=Plur	7	nsubj	_	_
+5	teyin	tein	PRON	_	_	7	dep	_	_
+6	kuali	kuali	ADV	_	_	7	advmod	_	_
+7	kitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+8	tokauanyoj	kahuanyo	NOUN	_	Number[psor]=Plur|Person[psor]=1	7	obj	_	_
+9	uan	huan	CCONJ	_	_	12	cc	_	_
+10	nekmej	nekti	NOUN	_	Number=Plur	12	nsubj	_	_
+11	kuali	kuali	ADV	_	_	12	advmod	_	_
+12	kitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	conj	_	_
+13	nochin	nochi	DET	_	_	14	det	_	_
+14	tapalmej	tapal	NOUN	_	Number=Plur	12	obj	_	_
+15	teyin	tein	PRON	_	_	16	obj	_	_
+16	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	14	acl:relcl	_	_
+17	se	se	NUM	_	_	18	det	_	_
+18	xochit	xochit	NOUN	_	Case=Abs	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:21
 # text = In tepos teyin monotsa horno de microondas, teyin ika se tatotonia, kitekitiltiya se tauil teyin amo ueli tikitaj, nejin monotsa microondas no ijkon in celulares uan teposejekatanojnotsalonimej kitekitiltiyaj in tauil teyin amo ueli tikitaj.
@@ -619,6 +678,47 @@
 1	Ininchikaujkayo	ininchikaujkayot	NOUN	_	Case=Abs	2	nsubj	_	_
 2	kintamanchiuaj	tamanchihua	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:26
+# text = In, rayos X kipiyaj kachi miyak chikaualis teyin ueli moitaj, uan microondas kipiyaj kachi tepitsin miyak chikaualis kej rayos X uan nejin microondas kipiyaj kachi tsiktsin chikaualis teyin mokui itech in teposejekatanojnotsaloni.
+# text[spa] = Por ejemplo, los rayos X tienen más energía que la luz visible y ésta última tiene más que las microondas y las microondas tienen más energía que la utilizada para las transmisiones de radio.
+# text[gloss] = Este, rayos X tienen más mucho energía que se puede ver, y microondas tienen un poco más energía que rayos X y estas microondas tienen más pequeña energía que se usa en los radioteléfonos.
+# labels =
+1	In	in	DET	_	_	5	dep	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	X	X	X	_	_	3	flat	_	_
+5	kipiyaj	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+6	kachi	kachi	ADV	_	_	7	advmod	_	_
+7	miyak	miak	DET	_	_	8	det	_	_
+8	chikaualis	chikahualis	NOUN	_	Case=Abs	5	obj	_	_
+9	teyin	tein	PRON	_	_	11	nsubj	_	_
+10	ueli	hueli	AUX	_	_	11	aux	_	_
+11	moitaj	ita	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	uan	huan	CCONJ	_	_	15	cc	_	_
+14	microondas	microonda	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	kipiyaj	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	_
+16	kachi	kachi	ADV	_	_	17	advmod	_	_
+17	tepitsin	tepitsin	ADV	_	_	18	advmod	_	_
+18	miyak	miak	DET	_	_	19	det	_	_
+19	chikaualis	chikahualis	NOUN	_	Case=Abs	15	obj	_	_
+20	kej	kej	SCONJ	_	_	21	mark	_	_
+21	rayos	rayo	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	X	X	X	_	_	21	flat	_	_
+23	uan	huan	CCONJ	_	_	26	cc	_	_
+24	nejin	nejin	DET	_	_	25	det	_	_
+25	microondas	microonda	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
+26	kipiyaj	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	_
+27	kachi	kachi	ADV	_	_	28	advmod	_	_
+28	tsiktsin	tsik	ADJ	_	Polite=Form	29	amod	_	_
+29	chikaualis	chikahualis	NOUN	_	Case=Abs	26	obj	_	_
+30	teyin	tein	PRON	_	_	31	nsubj	_	_
+31	mokui	kui	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	29	acl:relcl	_	_
+32	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	31	obl	_	_
+33	in	in	DET	_	_	34	det	_	_
+34	teposejekatanojnotsaloni	teposejekatanojnotsaloni	NOUN	_	Case=Abs	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:28
 # text = Satepan ika tikmatkej katin itatekiujtilis in ueyichikuakameyot radiación electromagnética ika nejin peuak mochijchiuaj yankuik teposmej kemej televisión, radio, teléfonos celulares, radiografías uan motamatsintokatok kenuij kuali tapaleuis maj motokotso in kokolis teyin monotsa cáncer.
@@ -807,6 +907,38 @@
 25	kichipauas	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	22	acl:relcl	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:41
+# text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
+# text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
+# text[gloss] = Se quiere que uno se espera y así luego unos días, que puede uno ver,  _ máquinas que no _ ,  _ que tiene nuestra agua.
+# labels =
+1	Moneki	neki	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	maj	ma	AUX	_	_	3	aux	_	_
+3	semochiya	chia	VERB	_	Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	dep	_	_
+4	uan	huan	CCONJ	_	_	13	cc	_	_
+5	ijkon	ijkon	ADV	_	_	13	advmod	_	_
+6	satepan	satepan	ADV	_	_	13	advmod	_	_
+7	oksekin	okse	DET	_	Number=Plur	8	det	_	_
+8	tonalmej	tonal	NOUN	_	Number=Plur	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	maj	ma	AUX	_	_	13	aux	_	_
+11	ueli	hueli	AUX	_	_	13	aux	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	kitas	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	1	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	ijka	ijka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	dep	_	_
+16	teposmej	tepos	NOUN	_	Number=Plur	15	nsubj	_	_
+17	teyin	tein	PRON	_	_	19	dep	_	_
+18	amo	amo	ADV	_	_	19	advmod	_	_
+19	tapitsochiuaj	*tapitsochiuaj	VERB	_	_	16	dep	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	nejin	nejin	DET	_	_	22	det	_	_
+22	nekuelmololmej	*nekuelmolol	NOUN	_	Number=Plur	19	dep	_	_
+23	teyin	tein	PRON	_	_	24	nsubj	_	_
+24	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	22	acl:relcl	_	_
+25	toatsin	at	NOUN	_	Number[psor]=Plur|Person[psor]=1|Polite=Form	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:43
 # text = Próxima Centauri B
 # text[spa] = Próxima Centauri B
@@ -849,6 +981,38 @@
 8	onkas	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	3	conj	_	_
 9	nemilis	nemilis	NOUN	_	Case=Abs	8	nsubj	_	SpaceAfter=No
 10	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:47
+# text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
+# text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
+# text[gloss] = Puede encontrarse vida en otras planetas muy a algunos ocurre, con eso muchas personas buscan cómo y dónde se puede encontrar estos otros planetas en esas estrellas.
+# labels =
+1	Uelis	hueli	AUX	_	Tense=Fut	2	aux	_	_
+2	moajsis	ajsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Fut	0	root	_	_
+3	nemilis	nemilis	NOUN	_	Case=Abs	2	nsubj	_	_
+4	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+5	oksekin	okse	DET	_	Number=Plur	6	det	_	_
+6	taltikpakmej	taltikpak	NOUN	_	Number=Plur	4	nmod	_	_
+7	semi	semi	ADV	_	_	8	advmod	_	_
+8	teyoltanemililtiya	yoltanemililtia	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	yejua	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	11	nmod	_	_
+11	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+12	miyakej	miak	DET	_	Number=Plur	13	det	_	_
+13	tokniuan	toknihuan	NOUN	_	Case=Abs	14	dep	_	_
+14	tamatemouaj	matemohua	VERB	_	Animacy[obj]=Inan|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+15	keniuj	keni	ADV	_	PronType=Int	19	advmod	_	_
+16	uan	huan	CCONJ	_	_	17	cc	_	_
+17	kani	kani	ADV	_	PronType=Int	15	conj	_	_
+18	uelis	hueli	AUX	_	Tense=Fut	19	aux	_	_
+19	moajsiskej	ajsi	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Fut	14	advcl	_	_
+20	ne	ne	DET	_	_	22	det	_	_
+21	oksekin	okse	DET	_	Number=Plur	22	det	_	_
+22	taltikpakmej	taltikpak	NOUN	_	Number=Plur	19	nsubj	_	_
+23	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+24	neje	neje	DET	_	_	25	det	_	_
+25	sitalimej	sitalin	NOUN	_	Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:49
 # text = Itech in metsti agosto xiuit 2016 iluikataixpejpenanij teyin pouij itech in nechikol Observatorio Espacial Austral, kiteyixnextiltijkej ke itech in semanauak onkak okse taltikpak teyin ijkuitik nejin totalmanik, maski amo yekinika yejua moajsi, nejin tajtol moneki maj sekimati, ta ne okse taltikpak no kiyeualoua okse tonal: Próxima Centauri teyin kinetechojtok ne tonal teyin nochipa tikitaj.
@@ -915,6 +1079,27 @@
 59	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	56	acl:relcl	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	17	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:50.1
+# text = Ika nijin tamatemolis tetaliya itech se tanojnotsalis kampa moixyejyekoua keniuj uelis se yas sitalkopa.
+# text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
+# text[gloss] = Con esta investigación _ en un _ donde se prueba como puede uno ir a las estrellas.
+# labels =
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+2	nijin	nijin	DET	_	_	3	det	_	_
+3	tamatemolis	tamatemolis	NOUN	_	Case=Abs	1	nsubj	_	_
+4	tetaliya	*tetaliya	VERB	_	_	0	root	_	_
+5	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	se	se	NUM	_	_	7	det	_	_
+7	tanojnotsalis	*tanojnotsalis	NOUN	_	Case=Abs	4	nmod	_	_
+8	kampa	kampa	ADV	_	PronType=Rel	9	advmod	_	_
+9	moixyejyekoua	ixyejyekohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	advcl	_	_
+10	keniuj	keni	ADV	_	PronType=Int	13	advmod	_	_
+11	uelis	hueli	AUX	_	Tense=Fut	13	aux	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	yas	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Fut	9	dep	_	_
+14	sitalkopa	sitalkopa	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:50.2
 # text = Miyakej tamatemolmej poliuij ok uan ayamo ueli moijtos ke nejin okse taltikpak teyin moajsik kipiya nemilis (Próxima Centauri B).
 # text[spa] = Aún hay muchas cosas por investigar y no es posible afirmar todavía que el planeta descubierto, llamado Próxima Centauri B, pueda contener vida.
@@ -970,6 +1155,41 @@
 1	In	in	DET	_	_	2	det	_	_
 2	Nanotecnologías	nanotecnología	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:56
+# text = In tamachilis teyin motokaytiya nanotecnologías, se nemachtil uan kinchijchiua teposmej tel senkaj tsikitsitsin teyin amo ueli motaj ta sayoj ueli motaj ika se tepos teyin motokaytiya microscopio.
+# text[spa] = La nanotecnología es el estudio y creación de dispositivos a una escala tan pequeña que no pueden percibirse a simple vista y sólo se pueden ver con ayuda de microscopios.
+# text[gloss] = El conocimiento que se nombra nanotecnología, un estudio y hacen máquinas muy muy pequeñas que no pueden verse entonces sólo pueden verse con una máquina que se nombra microscopio.
+# labels =
+1	In	in	DET	_	_	2	det	_	_
+2	tamachilis	tamachilis	NOUN	_	Case=Abs	8	dislocated	_	_
+3	teyin	tein	PRON	_	_	4	nsubj	_	_
+4	motokaytiya	tokaytia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	acl:relcl	_	_
+5	nanotecnologías	nanotecnología	NOUN	_	Gender=Fem|Number=Plur	4	dep	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	se	se	NUM	_	_	8	det	_	_
+8	nemachtil	nemachtil	NOUN	_	Case=Abs	0	root	_	_
+9	uan	huan	CCONJ	_	_	10	cc	_	_
+10	kinchijchiua	chijchihua	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	conj	_	_
+11	teposmej	tepos	NOUN	_	Number=Plur	10	obj	_	_
+12	tel	tel	ADV	_	Incorporated=Tel	14	advmod	_	_
+13	senkaj	senkaj	ADV	_	_	14	advmod	_	_
+14	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Polite=Form	11	amod	_	_
+15	teyin	tein	PRON	_	_	18	nsubj	_	_
+16	amo	amo	ADV	_	_	18	advmod	_	_
+17	ueli	hueli	AUX	_	_	18	aux	_	_
+18	motaj	ita	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	11	acl:relcl	_	_
+19	ta	ta	ADV	_	_	22	dep	_	_
+20	sayoj	sayoj	ADV	_	_	22	advmod	_	_
+21	ueli	hueli	AUX	_	_	22	aux	_	_
+22	motaj	ita	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	10	parataxis	_	_
+23	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
+24	se	se	NUM	_	_	25	det	_	_
+25	tepos	tepos	NOUN	_	Case=Abs	23	nmod	_	_
+26	teyin	tein	PRON	_	_	27	nsubj	_	_
+27	motokaytiya	tokaytia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	25	acl:relcl	_	_
+28	microscopio	microscópio	NOUN	_	Gender=Masc|Number=Sing	27	dep	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:57.1
 # text = Nijin tamachiuj monotsa nanométrica uan ijkon kachi se kiajsikamatis keniuj chichiujtok, uelis se kinemilis se askat teyin nemi itech in taltikpak uan in taltikpak se kitsikitsintiltiya uan ijkon maj aki itech se imakpal.
 # text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
@@ -1010,6 +1230,16 @@
 33	se	se	NUM	_	_	34	det	_	_
 34	imakpal	makpal	NOUN	_	Number[psor]=Sing|Person[psor]=3	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:57.2
+# text = Nijin askat no motokotsojtiyaj.
+# text[spa] = A esta escala se le llama nanométrica y, para darnos una idea de su tamaño, podemos imaginar una hormiga de 1 nanómetro de largo en la superficie de una naranja, ¡la hormiga vería esta naranja como si fuera del tamaño de nuestro planeta!
+# labels =
+1	Nijin	nijin	DET	_	_	2	det	_	_
+2	askat	askat	NOUN	_	Case=Abs	4	nsubj	_	_
+3	no	no	ADV	_	_	4	advmod	_	_
+4	motokotsojtiyaj	tokotsojtiya	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:57.3
 # text = Nejin askat mokaua keme itamachiuj se nanómetro.
@@ -1055,6 +1285,37 @@
 17	uan	huan	CCONJ	_	_	18	cc	_	_
 18	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:60
+# text = In teposmej motekitiltiyaj itech in tapajtilnemachtilmej kampa mochijchiujtokej nano-robots, teyin uelij kinpaleuiyaj seki células oso kinpojpolouaj teyin mokokouaj, kemej in células cancerígenas.
+# text[spa] = Una de las aplicaciones más importantes de estos objetos es su posible uso en la medicina para la que se están desarrollando nano-robots que sean capaces de atacar a células específicas, como las cancerígenas.
+# text[gloss] = Las máquinas se ocupan en medicina donde se hacen nano-robots, que pueden ayudar unas células o
+# labels =
+1	In	in	DET	_	_	2	det	_	_
+2	teposmej	tepos	NOUN	_	Number=Plur	3	nsubj	_	_
+3	motekitiltiyaj	tekitiltia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	tapajtilnemachtilmej	*tapajtilnemachtil	NOUN	_	Number=Plur	4	nmod	_	_
+7	kampa	kampa	ADV	_	PronType=Rel	8	advmod	_	_
+8	mochijchiujtokej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	6	advcl	_	_
+9	nano-robots	nano-robot	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	teyin	tein	PRON	_	_	13	nsubj	_	_
+12	uelij	hueli	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	13	aux	_	_
+13	kinpaleuiyaj	palehuia	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	acl:relcl	_	_
+14	seki	seki	DET	_	_	15	det	_	_
+15	células	célula	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+16	oso	oso	CCONJ	_	_	17	cc	_	_
+17	kinpojpolouaj	pojpolohua	VERB	_	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	13	conj	_	_
+18	teyin	tein	PRON	_	_	17	obj	_	_
+19	mokokouaj	kokohua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	18	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	kemej	kemej	ADP	_	_	23	case	_	_
+22	in	in	DET	_	_	23	det	_	_
+23	células	célula	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
+24	cancerígenas	cancerígeno	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:62:1
 # text = Ueli se kinsentiliya miyak moléculas teyin kiskaltiyaj se nano-robot, uan ika nijin teposmej uelis se kinixmatis katin células mokokouaj, nejin tamatilismej moixyeyekouaj itech kimichimej.
@@ -1151,6 +1412,21 @@
 31	kikajkaua	kajkahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = kiteixmatiltijtok-tamachilis:70:2
+# text = Maj se kinemili ke nochi toponi ijkuak se kikajkaua.
+# text[spa] = Imaginemos que podemos comprimir una montaña al tamaño de una hormiga, e incluso más, que en esa misma compresión también metemos al Sol, a la Vía láctea y a todas las galaxias.
+# labels =
+1	Maj	ma	AUX	_	_	3	aux	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kinemili	nemili	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	ke	ke	SCONJ	_	_	6	mark	_	_
+5	nochi	nochi	PRON	_	_	6	nsubj	_	_
+6	toponi	toponi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	ccomp	_	_
+7	ijkuak	ijkuak	SCONJ	_	_	9	mark	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kikajkaua	kajkahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = kiteixmatiltijtok-tamachilis:72
 # text = Ijkon mochiuj Tosemanauak; no ijkon ne tonalmej uan nochi in tayojkanyot mochiujtiuetskej.
 # text[spa] = Imaginemos que soltamos este conjunto comprimido y que todo explota al hacerlo.
@@ -1172,6 +1448,28 @@
 13	mochiujti	chihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran	2	parataxis	_	_
 14	uetskej	huetsi	AUX	_	_	13	aux	_	_
 15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:73
+# text = Nijin monotsa “Ueyi Tatoponilis”, yejua nijin ika se kinextiya itech ne tamatemolis.
+# text[spa] = Así es como describimos al nacimiento del universo, el espacio y el tiempo en un instante.
+# text[gloss] = Esto que se llama "Gran explosión", es con esto uno aparece en la investigación.
+# labels =
+1	Nijin	nijin	PRON	_	_	2	nsubj	_	_
+2	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	“	“	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	Ueyi	huei	ADJ	_	_	5	amod	_	_
+5	Tatoponilis	tatoponilis	NOUN	_	Case=Abs	2	obj	_	SpaceAfter=No
+6	”	”	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	yejua	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	parataxis	_	_
+9	nijin	nijin	PRON	_	_	10	nmod	_	_
+10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+11	se	se	NUM	_	_	12	nsubj	_	_
+12	kinextiya	nextia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	csubj	_	_
+13	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+14	ne	ne	DET	_	_	15	det	_	_
+15	tamatemolis	tamatemolis	NOUN	_	Case=Abs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:74
 # text = Ika nijin tatoponilis kipeualtij nochi teyin axkan onkak, ne tit uan nochi teyin axkan tikitaj.
@@ -1214,6 +1512,30 @@
 # text[spa] = Glosario
 # labels =
 1	Tajtoleualoni	tajtoleualoni	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = kiteixmatiltijtok-tamachilis:84:1
+# text = átomos: nochi nejin okuilimej, kuaujtakilomej uan nochi teyin tikitaj itech in totalmanik chichiujtokej ijka átomos.
+# text[spa] = átomo: constituyentes básicos de las cosas, animales y plantas de nuestro planeta, de lo que observamos  en el universo y de nosotros mismos.
+# text[gloss] = átomo: todos los animales, _ y todo que nosotros vemos
+# labels =
+1	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	15	punct	_	_
+3	nochi	nochi	DET	_	_	5	det	_	_
+4	nejin	nejin	DET	_	_	5	det	_	_
+5	okuilimej	okuilin	NOUN	_	Number=Plur	15	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	kuaujtakilomej	kuaujtakilo	NOUN	_	Number=Plur	5	conj	_	_
+8	uan	huan	CCONJ	_	_	9	cc	_	_
+9	nochi	nochi	PRON	_	_	5	conj	_	_
+10	teyin	tein	PRON	_	_	11	obj	_	_
+11	tikitaj	ita	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	9	acl:relcl	_	_
+12	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+13	in	in	DET	_	_	14	det	_	_
+14	totalmanik	talmanik	NOUN	_	Number[psor]=Plur|Person[psor]=1	12	nmod	_	_
+15	chichiujtokej	chijchihua	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	1	parataxis	_	_
+16	ijka	ijka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	15	dep	_	_
+17	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:84:2
 # text = Nochi teyin tikita itech semanauak uan tejuan tichijchiujtokej ika átomos.
