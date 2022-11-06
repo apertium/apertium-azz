@@ -9666,6 +9666,171 @@
 11	Tzinacapan	Tzinacapan	PROPN	_	_	9	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a147
+# text = ¿N' iteyo welik oso amo welik?
+# text[orig] = ¿N' iteyo we:lik oso a:mo we:lik?
+# text[spa] = ¿Y sus semillas son comestibles o no?
+# labels = a147 sentence
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	N'	in	DET	_	_	3	det	_	_
+3	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+4	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+5	oso	oso	CCONJ	_	_	7	cc	_	_
+6	amo	amo	ADV	_	_	7	advmod	_	_
+7	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a10
+# text = Nijon neh nikixmati nen nawi taman.
+# text[orig] = Nijó:n neh niki:xmati ne:n na:wi taman.
+# text[spa] = Este yo conozco cuatro tipos.
+# labels = a10 sentence
+1	Nijon	nijon	PRON	_	_	3	discourse	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+3	nikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	nen	nen	INTJ	_	_	3	discourse	_	_
+5	nawi	nahui	NUM	_	_	6	nummod	_	_
+6	taman	taman	NOUN	_	Case=Abs	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a16
+# text = Wan okse no, no igual yon chichiltik no.
+# text[orig] = Wa:n oksé: no:, no: *igual** yo:n chi:chi:ltik no:.
+# text[spa] = Y otro también es igual, ése también es rojo.
+# labels = a16 sentence
+1	Wan	huan	CCONJ	_	_	6	cc	_	_
+2	okse	okse	PRON	_	_	6	nsubj	_	_
+3	no	no	ADV	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	no	no	ADV	_	_	6	advmod	_	_
+6	igual	igual	ADJ	_	_	0	root	_	_
+7-8	yon	_	_	_	_	_	_	_	_
+7	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	6	parataxis	_	_
+8	n	in	DET	_	_	9	mark	_	_
+9	chichiltik	chijchiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	7	csubj	_	_
+10	no	no	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a27
+# text = Kitaliliah, nen, manteca.
+# text[orig] = Kita:liliah, ne:n, *manteca**.
+# text[spa] = Lo guisan con manteca.
+# labels = a27 sentence
+1	Kitaliliah	talilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	nen	nen	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	manteca	manteca	NOUN	_	Gender=Fem|Number=Sing	1	dislocated	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a36
+# text = N' iteyo tihtiltik.
+# text[orig] = N' iteyo tihti:ltik.
+# text[spa] = Sus semillas son de color negro.
+# labels = a36 sentence
+1	N'	in	DET	_	_	2	det	_	_
+2	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+3	tihtiltik	tijtiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a77
+# text = Tikiliah kitepewah o kixiniah, nochi.
+# text[orig] = Tikiliah kitepe:wah *o** kixi:niah, nochi.
+# text[spa] = Nosotros decimos que riegan las semillas.
+# labels = a77 sentence
+1	Tikiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kitepewah	tepehua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	ccomp	_	_
+3	o	o	CCONJ	_	_	4	cc	_	_
+4	kixiniah	xinia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	nochi	nochi	PRON	_	_	2	dislocated	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a84
+# text = Pero tehwan tikitayah nen totatahwan kikwayah, ki..., kipatayah kwaltsin, kimapatayah, wan kitaliayah itech se yon sokikaxit.
+# text[orig] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah, ki..., kipa:tayah kwaltsi:n, kima:pa:tayah, wa:n kita:lia:yah itech se: yo:n sokikaxit.
+# text[spa] = Nosotros veíamos a nuestros abuelos que así lo preparaban, lo..., hervían y lo exprimian bien con las manos y ponían en un plato de barro.
+# text[a84] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah,
+# text[a85] = ki..., kipa:tayah kwaltsi:n, kima:pa:tayah,
+# text[a86] = wa:n kita:lia:yah itech se: yo:n sokikaxit.
+# labels = a84 a85 a86 sentence incorporation
+1	Pero	pero	CCONJ	_	_	3	cc	_	_
+2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
+3	tikitayah	ita	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
+4	nen	nen	INTJ	_	_	3	discourse	_	_
+5	totatahwan	tataj	NOUN	_	Number=Plur|Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
+6	kikwayah	kua	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	ki...	ki	X	_	_	10	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	kipatayah	pata	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	parataxis	_	_
+11	kwaltsin	kuali	ADJ	_	Polite=Form	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	kimapatayah	mapata	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	wan	huan	CCONJ	_	_	16	cc	_	_
+16	kitaliayah	talia	VERB	_	Aspect=Imp|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran	13	conj	_	_
+17	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
+18	se	se	NUM	_	_	19	det	_	_
+19-20	yon	_	_	_	_	_	_	_	_
+19	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	17	dep	_	_
+20	n	in	DET	_	_	21	dep	_	_
+21	sokikaxit	sokikaxit	NOUN	_	Case=Abs	19	dep	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a87
+# text = Ompa kitaliayah wan tiktekiliayah nen chiltamoltal, chiltekpin.
+# text[orig] = Ompa kita:lia:yah wa:n tikte:kilia:yah ne:n chi:ltamo:ltal, chi:ltekpin.
+# text[spa] = En el plato le echaban salsa de chiltepín.
+# labels = a87 sentence
+1	Ompa	ompa	ADV	_	_	2	advmod	_	_
+2	kitaliayah	talia	VERB	_	Aspect=Imp|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
+3	wan	huan	CCONJ	_	_	4	cc	_	_
+4	tiktekiliayah	tekilia	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	2	conj	_	_
+5	nen	nen	DET	_	_	6	det	_	_
+6	chiltamoltal	chiltamoltal	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	chiltekpin	chiltekpin	NOUN	_	Case=Abs	6	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a97
+# text = De sehselik se kikwa hasta n' i..., n' ikowyotsin.
+# text[orig] = De sehselik se: kikwa *hasta** n' i..., n' ikowyotsi:n.
+# text[spa] = Los quelites tiernos se les puede comer hasta los ta..., tallos.
+# labels = a97 sentence
+1	De	de	ADP	_	_	2	mark	_	_
+2	sehselik	sejselik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	4	advcl	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5	hasta	hasta	ADP	_	_	10	case	_	_
+6	n'	in	DET	_	_	9	reparandum	_	_
+7	i...	i	X	_	_	10	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	n'	in	DET	_	_	10	det	_	_
+10	ikowyotsin	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a101
+# text = De teyowa amo igual welik.
+# text[orig] = De teyowa a:mo *igual** we:lik.
+# text[spa] = Cuando ya tienen semillas ya tienen el mismo sabor.
+# text[gloss] = Cuando ya tienen semillas no son igual de sabrosos.
+# labels = a101 sentence
+1	De	de	ADP	_	_	2	mark	_	_
+2	teyowa	teyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
+3	amo	amo	ADV	_	_	5	advmod	_	_
+4	igual	igual	ADV	_	_	5	advmod	_	_
+5	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a114
+# text = Chichilewi.
+# text[orig] = Chi:chi:le:wi.
+# text[spa] = Es rojo.
+# labels = a114 sentence
+1	Chichilewi	chichilehui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a126
 # text = Pos neh nik..., neh nikitak ne keman, nen, ki..., kitepewah sah.
 # text[orig] = Pos neh nik..., neh nikitak ne: ke:man, ne:n, ki..., kitepe:wah sah.

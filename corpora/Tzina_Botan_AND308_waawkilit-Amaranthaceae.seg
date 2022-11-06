@@ -63,6 +63,8 @@
 # text[orig] = ¿N' iteyo we:lik oso a:mo we:lik?
 # text[spa] = ¿Y sus semillas son comestibles o no?
 # labels = a147 sentence
+^¿/¿$
+^N'/N'$
 ^iteyo/iteyo$
 ^welik/welik$
 ^oso/oso$
