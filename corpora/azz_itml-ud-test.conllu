@@ -12307,3 +12307,15 @@
 6	tikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	4	acl:relcl	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a103
+# text = Neh niwitsa de San Miguel.
+# text[orig] = Neh niwi:tsa de San Miguel.
+# text[spa] = Yo vengo de San Miguel.
+# labels = a103 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	San	San	PROPN	_	_	2	obl	_	_
+5	Miguel	Miguel	PROPN	_	Gender=Masc	2	flat	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
