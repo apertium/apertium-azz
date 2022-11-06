@@ -626,28 +626,22 @@
 # text[spa] = Esa es la que yo conozco como mowih y es medicina.
 # labels = a46 sentence
 "<Yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehuan" prn pers pl3 abs @root
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<nikmattok>"
-	"mati" v tv prog pres s_sg1 o_sg3
+	"mati" v tv prog pres s_sg1 o_sg3 
 "<monotsa>"
 	"notsa" v tv pres s_sg3 i_ref o_sg3
 "<mowih>"
 	"mohuij" n abs
-;	"mohuij" n abs s_pl3
-;	"mohuij" n abs s_sg3
 "<para>"
-	"para" cnjsub @mark
 	"para" pr
 "<pahti>"
 	"pajti" n abs
-;	"pajti" n abs s_pl3
-;	"pajti" n abs s_sg3
 "<.>"
 	"." sent @punct
 
@@ -933,17 +927,17 @@
 # text[spa] = Eso es lo que yo quería saber.
 # labels = a69 sentence
 "<Yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehuan" prn pers pl3 abs @root #1->0
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @cop #2->5
+		"in" det @mark #3->5
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #4->5
 "<nikahsikamatisnekia>"
-	"*nikahsikamatisnekia"
+	"ajsikamati" v tv fut s_sg1 o_sg3 @csubj #5->1
+		"neki" vaux impf @aux #6->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a70
 # text = Neh kemeh ni..., kemeh nitatah pos neh nikaki sayoh ki..., kihtowah que pahti, nechtapowia ne no..., nosiwaw que pahti.
@@ -1164,9 +1158,9 @@
 # text[spa] = Si.
 # labels = a84 sentence
 "<Kemah>"
-	"kemaj" ij @root
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a85
 # text = Pos yehwa yon neh nimitsilia, neh nikixmattok neli yon sentaman tein neh nimitsilia yon kowtsin. Pero amo, amo, amo n'mati kox pahti yon. Tein neh nikmattok neli que pahti, yehwa n' tein pisiltik nimitsilia, yon okseki pos, no tikmatih que ihkon monotsa no mahya kihtowah que, kixmatih que iwki yehwa yon monotsa iwki no kemeh yon okseki, porque tikixmatiliah n' ixochiotsin wan ixiwyotsin, wan ikowyotsin, nochi, nochi iwkitik a.
@@ -1435,9 +1429,9 @@
 # text[spa] = Sí
 # labels = a92 sentence
 "<Kemah>"
-	"kemaj" ij @root
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a95
 # text = Pues tikmatis welis kemah, eski no, no yehwa, no iwki monotsa mowih.
@@ -1461,8 +1455,6 @@
 	"etok" cop fut s_sg3
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<,>"
 	"," cm @punct
 "<no>"
@@ -1497,66 +1489,51 @@
 # text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
 # labels = a96 a97 sentence
 "<Tikmatis>"
-	"mati" v tv fut s_sg2 o_sg3
+	"mati" v tv fut s_sg2 o_sg3 @root #1->0
 "<cada>"
-	"cada" det @det
+	"cada" det @det #2->3
 "<xiwtsitsin>"
-	"xihuit" n hon pl
-;	"xihuit" n hon pl s_pl3
-;	"xihuit" n hon pl s_sg3
+	"xihuit" n hon pl @obj #3->1
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #4->6
 "<teihsa>"
-	"teisa" prn
+	"teisa" prn @dep #5->6
 "<kowtsin>"
-	"kohuit" n hon
-;	"kohuit" n hon s_pl3
-;	"kohuit" n hon s_sg3
+	"kohuit" n hon @appos #6->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->8
 "<xiwtsin>"
-	"xihuit" n hon
-;	"xihuit" n hon s_pl3
-;	"xihuit" n hon s_sg3
+	"xihuit" n hon @appos #8->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->10
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @parataxis #10->1
 "<ome>"
-	"ome" num
+	"ome" num @nummod #11->12
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-	"taman" n abs s_pl3
-	"taman" n abs s_sg3
+	"taman" n abs @nsubj #12->10
 "<,>"
-	"," cm @punct
+	"," cm @punct #13->14
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @parataxis #14->1
 "<hasta>"
-	"hasta" pr
+	"hasta" adv @advmod #15->16
 "<eyi>"
-	"eyi" num
+	"eyi" num @nummod #16->17
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-	"taman" n abs s_pl3
-	"taman" n abs s_sg3
+	"taman" n abs @nsubj #17->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #18->22
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #19->22
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #20->22
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @obj #21->22
 "<tikihixmatih>"
-	"*tikihixmatih"
+	"ixmati" v tv pres s_pl1 o_sg3 @conj #22->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a98
 # text = Wan tataman no n' kowtsitsin mahya kemeh tehwan tikihtowah. Pos, este , ixiwyotsin, ikowyotsin, ixochiotsin, iw..., iwki, iwki no, sanoke kipata tepitsin de weh..., de moskaltia, de wehkapania wan de n..., de n' ikowyo wan de tik..., tein kemeh kikwih para pahti. Wan tein amo para pahti pos tikmattokeh que amo para pahti.
@@ -1756,7 +1733,7 @@
 "<pos>"
 	"pos" adv
 "<tikmattokeh>"
-	"mati" v tv prog pres s_pl1 o_sg3
+	"mati" v tv prog pres s_pl1 o_sg3 @root
 "<para>"
 	"para" cnjsub @mark
 	"para" pr
@@ -3144,10 +3121,10 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94
-# text = Kemah, neh yehwa yoni, ihkoni sah neh nikmattok. Mm.
-# text[orig] = Ke:mah, neh yehwa yo:ni, ihko:ni sah neh nikmattok. Mm.
-# text[spa] = Si, yo nada más eso, nomás eso sé de esa planta. Mm.
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94:1
+# text = Kemah, neh yehwa yoni, ihkoni sah neh nikmattok.
+# text[orig] = Ke:mah, neh yehwa yo:ni, ihko:ni sah neh nikmattok.
+# text[spa] = Si, yo nada más eso, nomás eso sé de esa planta.
 # labels = a94 sentence
 "<Kemah>"
 	"kemaj" ij @discourse
@@ -3164,19 +3141,25 @@
 "<,>"
 	"," cm @punct
 "<ihkoni>"
-	"ijkoni" adv
+	"ijkoni" adv @advmod
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<nikmattok>"
 	"mati" v tv prog pres s_sg1 o_sg3
 "<.>"
 	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a94 sentence
 "<Mm>"
-	"mm" ij @root
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a99
 # text = Pos kemah kan... Kemah.
@@ -3255,7 +3238,6 @@
 	"tein" prn
 "<teiliah>"
 	"ilia" v tv pres s_pl3 o_aa
-	"ilia" v tv pret s_sg3 o_aa
 "<seki>"
 	"seki" det
 	"seki" prn
@@ -3277,19 +3259,25 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109
-# text = Kemah. Mm.
-# text[orig] = Ke:mah. Mm.
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:1
+# text = Kemah.
+# text[orig] = Ke:mah.
 # text[spa] = Sí, mm.
 # labels = a109 sentence
 "<Kemah>"
-	"kemaj" ij @root
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
 "<Mm>"
-	"mm" ij @root
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:1
 # text = Pos kan teihsa, no yehwa neh tein tinechilwih, ihkon timonohnotskeh, timotapowihkeh, pos miak tasohkamatik kemah. 

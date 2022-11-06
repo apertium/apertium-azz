@@ -1,3 +1,65 @@
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a69
+# text = Yehwa yon neh nikahsikamatisnekia.
+# text[orig] = Yehwa yo:n neh nikahsika:matisnekia.
+# text[spa] = Eso es lo que yo quería saber.
+# labels = a69 sentence
+1	Yehwa	yehuan	PRON	_	Case=Abs|Number=Plur|Person=3|PronType=Pers	0	root	_	_
+2-3	yon	_	_	_	_	_	_	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	cop	_	_
+3	n	in	DET	_	_	5	mark	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+5-6	nikahsikamatisnekia	_	_	_	_	_	_	_	SpaceAfter=No
+5	nikahsikamatis	ajsikamati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Fut	1	csubj	_	_
+6	nekia	neki	AUX	_	Aspect=Imp	5	aux	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a84
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a84 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a92
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí
+# labels = a92 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a96
+# text = Tikmatis cada xiwtsitsin ihkon teihsa kowtsin, xiwtsin, onkak ome taman, onkak hasta eyi taman, pero amo nochi tikihixmatih.
+# text[orig] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n, onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# text[spa] = Sabes que cada planta o arbolito, hay dos o hasta tres tipos, pero no todos los conocemos.
+# text[a96] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n,
+# text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# labels = a96 a97 sentence
+1	Tikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
+2	cada	cada	DET	_	_	3	det	_	_
+3	xiwtsitsin	xihuit	NOUN	_	Number=Plur|Polite=Form	1	obj	_	_
+4	ihkon	ijkon	ADV	_	_	6	advmod	_	_
+5	teihsa	teisa	PRON	_	_	6	dep	_	_
+6	kowtsin	kohuit	NOUN	_	Polite=Form	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	xiwtsin	xihuit	NOUN	_	Polite=Form	3	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	parataxis	_	_
+11	ome	ome	NUM	_	_	12	nummod	_	_
+12	taman	taman	NOUN	_	Case=Abs	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	parataxis	_	_
+15	hasta	hasta	ADV	_	_	16	advmod	_	_
+16	eyi	eyi	NUM	_	_	17	nummod	_	_
+17	taman	taman	NOUN	_	Case=Abs	14	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	pero	pero	CCONJ	_	_	22	cc	_	_
+20	amo	amo	ADV	_	_	22	advmod	_	_
+21	nochi	nochi	PRON	_	_	22	obj	_	_
+22	tikihixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a106
 # text = Kemah.
 # text[orig] = Ke:mah.
@@ -48,8 +110,8 @@
 3	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5-6	yon	_	_	_	_	_	_	_	_
-5	yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	obj	_	_
-6		in	DET	_	_	7	mark	_	_
+5	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	obj	_	_
+6	n	in	DET	_	_	7	mark	_	_
 7	kilwiah	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	csubj	_	_
 8	mowih	mohuij	NOUN	_	Case=Abs	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -143,8 +205,8 @@
 5	nikwik	kui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7-8	yon	_	_	_	_	_	_	_	_
-7	yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	obj	_	_
-8		in	DET	_	_	9	det	_	_
+7	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	obj	_	_
+8	n	in	DET	_	_	9	det	_	_
 9	xiwtsini	xihuit	NOUN	_	Polite=Form	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	pero	pero	CCONJ	_	_	12	cc	_	_
@@ -167,6 +229,14 @@
 5	que	que	SCONJ	_	_	6	mark	_	_
 6	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	4	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a94 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a99
 # text = Pos kemah kan... Kemah.
@@ -200,6 +270,22 @@
 11	iwki	iuki	ADV	_	_	7	ccomp	_	_
 12	sah	saj	ADV	_	_	11	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:1
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:2
 # text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.

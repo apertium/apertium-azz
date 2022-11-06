@@ -9,7 +9,7 @@
 ^nanah/nanah$
 ^,/,$
 ^neh/neh$
-^nimitstahtanisneki/nimitstahtanisneki$
+^nimitstahtanisneki/nimitstahtanis>neki$
 ^de/de$
 ^seki/seki$
 ^xiwtsitsin/xiwtsitsin$
@@ -74,26 +74,26 @@
 ^wan/wan$
 ^kemeh/kemeh$
 ^tein/tein$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^tein/tein$
-^yon/yon$
+^yon/yo>n$
 ^pisil/pisil$
 ^.../...$
 ^,/,$
 ^tein/tein$
-^yon/yon$
+^yon/yo>n$
 ^tikihtowah/tikihtowah$
 ^mapisiltik/mapisiltik$
 ^t.../t...$
 ^,/,$
 ^mowih/mowih$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^weh/weh$
 ^.../...$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^ihkon/ihkon$
 ^sah/sah$
 ^moskaltia/moskaltia$
@@ -108,7 +108,7 @@
 ^,/,$
 ^wan/wan$
 ^okseki/okseki$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^ikow/ikow$
 ^.../...$
@@ -184,7 +184,7 @@
 ^pahti/pahti$
 ^,/,$
 ^bueno/bueno$
-^yon/yon$
+^yon/yo>n$
 ^okseki/okseki$
 ^amo/amo$
 ^nikmati/nikmati$
@@ -203,11 +203,11 @@
 ^,/,$
 ^yehwa/yehwa$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^pisiltik/pisiltik$
 ^,/,$
 ^tein/tein$
-^yon/yon$
+^yon/yo>n$
 ^tehwan/tehwan$
 ^tikilwiah/tikilwiah$
 ^,/,$
@@ -215,7 +215,7 @@
 ^,/,$
 ^mowih/mowih$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^para/para$
 ^kikwih/kikwih$
 ^para/para$
@@ -229,7 +229,7 @@
 ^este/este$
 ^,/,$
 ^kipiah/kipiah$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kokolis/kokolis$
 ^eliwis/eliwis$
@@ -254,7 +254,7 @@
 ^toni/toni$
 ^n'/n'$
 ^kinchiwiliskeh/kinchiwiliskeh$
-^yon/yon$
+^yon/yo>n$
 ^hasta/hasta$
 ^tilewih/tilewih$
 ^m/m$
@@ -269,7 +269,7 @@
 # text[spa] = Entonces hierven las hojas del <i>mowih</i> y los bañan con el agua y una poquita les dan de beber.
 # labels = a45 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^mowih/mowih$
 ^kimolontiah/kimolontiah$
 ^wan/wan$
@@ -287,7 +287,7 @@
 # text[spa] = Esa es la que yo conozco como mowih y es medicina.
 # labels = a46 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 ^nikmattok/nikmattok$
 ^monotsa/monotsa$
@@ -322,13 +322,13 @@
 ^wehkapan/wehkapan$
 ^,/,$
 ^mahya/mahya$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kow.../kow...$
 ^Aja/Aja$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a58
@@ -346,7 +346,7 @@
 ^n'neki/n'neki$
 ^nimitstahtanis/nimitstahtanis$
 ^wan/wan$
-^yon/yon$
+^yon/yo>n$
 ^mowih/mowih$
 ^keniw/keniw$
 ^n'/n'$
@@ -371,7 +371,7 @@
 ^,/,$
 ^yehwa/yehwa$
 ^neh/neh$
-^nikmatisneki/nikmatisneki$
+^nikmatisneki/nikmatis>neki$
 ^./.$
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a67
@@ -431,9 +431,9 @@
 # text[spa] = Eso es lo que yo quería saber.
 # labels = a69 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
-^nikahsikamatisnekia/nikahsikamatisnekia$
+^nikahsikamatisnekia/nikahsikamatis>nekia$
 ^./.$
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a70
@@ -514,7 +514,7 @@
 # labels = a74 a75 sentence
 ^Wan/Wan$
 ^tehwatsin/tehwatsin$
-^nimitstahtanisneki/nimitstahtanisneki$
+^nimitstahtanisneki/nimitstahtanis>neki$
 ^kox/kox$
 ^xa/xa$
 ^no/no$
@@ -537,7 +537,7 @@
 ^moteiskaltihkawan/moteiskaltihkawan$
 ^o/o$
 ^keniw/keniw$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a84
@@ -559,19 +559,19 @@
 # labels = a85 a86 a87 a88 sentence
 ^Pos/Pos$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 ^nimitsilia/nimitsilia$
 ^,/,$
 ^neh/neh$
 ^nikixmattok/nikixmattok$
 ^neli/neli$
-^yon/yon$
+^yon/yo>n$
 ^sentaman/sentaman$
 ^tein/tein$
 ^neh/neh$
 ^nimitsilia/nimitsilia$
-^yon/yon$
+^yon/yo>n$
 ^kowtsin/kowtsin$
 ^./.$
 ^Pero/Pero$
@@ -583,7 +583,7 @@
 ^n'mati/n'mati$
 ^kox/kox$
 ^pahti/pahti$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 ^Tein/Tein$
 ^neh/neh$
@@ -598,7 +598,7 @@
 ^pisiltik/pisiltik$
 ^nimitsilia/nimitsilia$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^okseki/okseki$
 ^pos/pos$
 ^,/,$
@@ -616,12 +616,12 @@
 ^que/que$
 ^iwki/iwki$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^monotsa/monotsa$
 ^iwki/iwki$
 ^no/no$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^okseki/okseki$
 ^,/,$
 ^porque/porque$
@@ -654,7 +654,7 @@
 ^tepitsin/tepitsin$
 ^kipata/kipata$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^porin/porin$
 ^wehkapania/wehkapania$
 ^wan/wan$
@@ -839,7 +839,7 @@
 # text[spa] = Eso es.
 # labels = a108 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^./.$
 
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a110
@@ -850,7 +850,7 @@
 ^Pues/Pues$
 ^yehwa/yehwa$
 ^sah/sah$
-^yon/yon$
+^yon/yo>n$
 ^neh/neh$
 ^nimitstahtanilia/nimitstahtanilia$
 ^,/,$
@@ -898,7 +898,7 @@
 ^neh/neh$
 ^nikixmattok/nikixmattok$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^kilwiah/kilwiah$
 ^mowih/mowih$
 ^,/,$
@@ -932,7 +932,7 @@
 ^yehwa/yehwa$
 ^sah/sah$
 ^ipa/ipa$
-^yon/yon$
+^yon/yo>n$
 ^nikixmattok/nikixmattok$
 ^,/,$
 ^amo/amo$
@@ -983,13 +983,13 @@
 ^sah/sah$
 ^ipa/ipa$
 ^no/no$
-^yon/yon$
+^yon/yo>n$
 ^sentaman/sentaman$
 ^neli/neli$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^tikihtowa/tikihtowa$
-^yon/yon$
+^yon/yo>n$
 ^map/map$
 ^.../...$
 ^,/,$
@@ -1005,16 +1005,16 @@
 ^que/que$
 ^yehwa/yehwa$
 ^neli/neli$
-^yon/yon$
+^yon/yo>n$
 ^pilimeh/pilimeh$
 ^,/,$
 ^tein/tein$
-^yon/yon$
+^yon/yo>n$
 ^mohkakwih/mohkakwih$
 ^kinilwiah/kinilwiah$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^ika/ika$
 ^kinaltiah/kinaltiah$
 ^neli/neli$
@@ -1060,7 +1060,7 @@
 ^mah/mah$
 ^kelkawa/kelkawa$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^tsahtsiskwi/tsahtsiskwi$
 ^./.$
 
@@ -1071,7 +1071,7 @@
 # labels = a55 sentence
 ^Porque/Porque$
 ^neli/neli$
-^yon/yon$
+^yon/yo>n$
 ^kihtowah/kihtowah$
 ^yektsahtsih/yektsahtsih$
 ^,/,$
@@ -1094,7 +1094,7 @@
 ^yoni/yoni$
 ^,/,$
 ^ika/ika$
-^yon/yon$
+^yon/yo>n$
 ^kihtowah/kihtowah$
 ^kelkawah/kelkawah$
 ^m/m$
@@ -1128,7 +1128,7 @@
 # text[spa] = Pues respecto a eso, no sé, yo me imagino que quizá lo siembran el tallo.
 # labels = a60 sentence
 ^Pos/Pos$
-^yon/yon$
+^yon/yo>n$
 ^amo/amo$
 ^nikmati/nikmati$
 ^no/no$
@@ -1285,14 +1285,14 @@
 ^kihtowa/kihtowa$
 ^que/que$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tsahtsiskwih/tsahtsiskwih$
 ^m'/m'$
 ^pilimeh/pilimeh$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^mah/mah$
 ^ika/ika$
 ^kinaltikan/kinaltikan$
@@ -1313,7 +1313,7 @@
 ^keman/keman$
 ^nikwik/nikwik$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^xiwtsini/xiwtsini$
 ^,/,$
 ^pero/pero$
@@ -1339,18 +1339,18 @@
 ^,/,$
 ^que/que$
 ^yehwa/yehwa$
-^yon/yon$
+^yon/yo>n$
 ^komo/komo$
 ^tsahtsiskwih/tsahtsiskwih$
 ^m/m$
 ^pilimeh/pilimeh$
 ^pos/pos$
 ^ika/ika$
-^yon/yon$
+^yon/yo>n$
 ^kinaltiah/kinaltiah$
 ^wan/wan$
 ^neli/neli$
-^yon/yon$
+^yon/yo>n$
 ^tikihtowa/tikihtowa$
 ^kintailtiah/kintailtiah$
 ^tsiktsin/tsiktsin$
@@ -1367,7 +1367,7 @@
 ^no/no$
 ^kelkawah/kelkawah$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^tsahtsiskwih/tsahtsiskwih$
 ^./.$
 ^Neh/Neh$
@@ -1394,7 +1394,7 @@
 ^keman/keman$
 ^nikwih/nikwih$
 ^neh/neh$
-^yon/yon$
+^yon/yo>n$
 ^xiwtsini/xiwtsini$
 ^pero/pero$
 ^pos/pos$
@@ -1520,7 +1520,7 @@
 ^a/a$
 ^./.$
 
-# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94:1
 # text = Kemah, neh yehwa yoni, ihkoni sah neh nikmattok. Mm.
 # text[orig] = Ke:mah, neh yehwa yo:ni, ihko:ni sah neh nikmattok. Mm.
 # text[spa] = Si, yo nada más eso, nomás eso sé de esa planta. Mm.
@@ -1536,6 +1536,12 @@
 ^neh/neh$
 ^nikmattok/nikmattok$
 ^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a94 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -1596,13 +1602,19 @@
 ^neli/neli$
 ^./.$
 
-# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109
-# text = Kemah. Mm.
-# text[orig] = Ke:mah. Mm.
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:1
+# text = Kemah.
+# text[orig] = Ke:mah.
 # text[spa] = Sí, mm.
 # labels = a109 sentence
 ^Kemah/Kemah$
 ^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
 ^Mm/Mm$
 ^./.$
 

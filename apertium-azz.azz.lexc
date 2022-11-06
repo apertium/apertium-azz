@@ -513,6 +513,7 @@ LEXICON V-Ø-FUTR
 LEXICON V-AUX-I
 
 %+neki%<vaux%>:%>neki                              V-AGR-PRES ;
+%+neki%<vaux%>%<impf%>:%>neki%>%{y%}a              V-AGR-PRES ;
 
 LEXICON V-AUX-II
 
