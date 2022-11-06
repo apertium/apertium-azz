@@ -9666,6 +9666,144 @@
 11	Tzinacapan	Tzinacapan	PROPN	_	_	9	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a126
+# text = Pos neh nik..., neh nikitak ne keman, nen, ki..., kitepewah sah.
+# text[orig] = Pos neh nik..., neh nikitak ne: ke:man, ne:n, ki..., kitepe:wah sah.
+# text[spa] = Pues yo lo..., lo vi hace años, lo..., riegan así en el suelo.
+# labels = a126 sentence
+1	Pos	pos	ADV	_	_	6	advmod	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	reparandum	_	_
+3	nik...	nik	X	_	_	6	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	nsubj	_	_
+6	nikitak	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
+7	ne	ne	ADV	_	_	6	advmod	_	_
+8	keman	keman	ADV	_	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	nen	nen	INTJ	_	_	6	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ki...	ki	X	_	_	14	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	kitepewah	tepehua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	parataxis	_	_
+15	sah	saj	ADV	_	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a127
+# text = Ompa ixwa, kasika se kita ihkon, miak ixwatok tsikitsitsin.
+# text[orig] = Ompa ixwa, ka:siká: se: kita ihkó:n, miak ixwatok tsikitsitsi:n.
+# text[spa] = Ahí nacen las plantas, algunas partes los ve uno así, que están creciendo muchas plantas pequeñas.
+# text[a127] = Ompa ixwa, ka:siká: se: kita ihkó:n,
+# text[a128] = miak ixwatok tsikitsitsi:n.
+# labels = a127 a128 sentence
+1	Ompa	ompa	ADV	_	_	2	advmod	_	_
+2	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	kasika	kasika	ADV	_	_	6	advmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+7	ihkon	ijkon	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	miak	miak	ADV	_	_	10	advmod	_	_
+10	ixwatok	ixhua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+11	tsikitsitsin	tsiki	ADJ	_	Number=Plur|Polite=Form	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a129
+# text = Ompa se kikwihkwi wan se ki..., se kwika ya no.
+# text[orig] = Ompa se: kikwihkwi wa:n se: ki..., se: kwi:ka ya no:.
+# text[spa] = Ahí los corta uno y se..., llevan a la casa también.
+# labels = a129 sentence
+1	Ompa	ompa	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kikwihkwi	kuijkui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	wan	huan	CCONJ	_	_	9	cc	_	_
+5	se	se	NUM	_	_	8	reparandum	_	_
+6	ki...	ki	X	_	_	9	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kwika	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
+10	ya	ya	ADV	_	_	9	advmod	_	_
+11	no	no	ADV	_	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a134
+# text = Pos de n' chichiltik ihkon yowi, wan ihkon mopampilowa tepitsin.
+# text[orig] = Pos de n' chi:chi:ltik ihkó:n yowi, wa:n ihkó:n mopampilowa tepitsi:n.
+# text[spa] = Pues el de color rojo crece así hacia arriba y después de florear se cuelga hacia abajo un poco.
+# text[a134] = Pos de n' chi:chi:ltik ihkó:n yowi,
+# text[a135] = wa:n ihkó:n mopampilowa tepitsi:n.
+# labels = a134 a135 sentence
+1	Pos	pos	ADV	_	_	6	advmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	chichiltik	chijchiltik	ADJ	_	_	6	nsubj	_	_
+5	ihkon	ijkon	ADV	_	_	6	advmod	_	_
+6	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	wan	huan	CCONJ	_	_	10	cc	_	_
+9	ihkon	ijkon	ADV	_	_	10	advmod	_	_
+10	mopampilowa	pilohua	VERB	_	Incorporated=Pan|Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	6	conj	_	_
+11	tepitsin	tepitsin	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a141
+# text = Entos de chik..., chikawaya ihkon mopilowa ihkon.
+# text[orig] = Entó:s de chik..., chika:waya ihkó:n mopilowa ihkó:n.
+# text[spa] = Entonces cuando las semillas ma..., maduran se cuelgan así hacia abajo.
+# labels = a141 sentence
+1	Entos	entos	ADV	_	_	7	advmod	_	_
+2	de	de	ADP	_	_	5	mark	_	_
+3	chik...	chik	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	chikawaya	chikahuaya	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	advcl	_	_
+6	ihkon	ijkon	ADV	_	_	5	advmod	_	_
+7	mopilowa	pilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+8	ihkon	ijkon	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a150
+# text = I..., ihkon xini wan tatampa ya de nen, ixwa, n' iteyo.
+# text[orig] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa, n' iteyo.
+# text[spa] = A..., así caen al suelo y germinan después las semillas.
+# text[a150] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa,
+# text[a151] = n' iteyo.
+# labels = a150 a151 sentence
+1	I...	i	X	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ihkon	ijkon	ADV	_	_	4	advmod	_	_
+4	xini	xini	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+5	wan	huan	CCONJ	_	_	12	cc	_	_
+6-7	tatampa	_	_	_	_	_	_	_	_
+6	tatampa	tal	NOUN	_	_	7	nmod	_	_
+7		tampa	NOUN	_	NounType=Relat	12	obl	_	_
+8	ya	ya	ADV	_	_	12	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	nen	nen	PRON	_	_	12	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	n'	in	DET	_	_	15	det	_	_
+15	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	12	dislocated	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a153
+# text = Wan amo keman nikita mah kikwa, nen, se kikwa.
+# text[orig] = Wa:n a:mo ke:man nikita mah kikwa, ne:n, se: kikwa.
+# text[spa] = Y nunca veo que se consuman o que alguien las consuma.
+# labels = a153 sentence
+1	Wan	huan	CCONJ	_	_	4	cc	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	keman	keman	ADV	_	_	4	advmod	_	_
+4	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+5	mah	ma	AUX	_	_	6	aux	_	_
+6	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	nen	nen	INTJ	_	_	4	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	se	se	NUM	_	_	11	nsubj	_	_
+11	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a157
 # text = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se kikwa.
 # text[orig] = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se: kikwa.
