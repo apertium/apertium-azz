@@ -1806,8 +1806,7 @@
 ^n'/n'$
 ^ikowyo/ikowyo$
 ^komo/komo$
-^seh/seh$
-^.../...$
+^seh.../seh...$
 ^,/,$
 ^sehselik/sehselik$
 ^,/,$
@@ -1817,7 +1816,7 @@
 ^kikwa/kikwa$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:1
 # text = Nochi, nochi welik. Mm.
 # text[orig] = Nochi, nochi we:lik. Mm.
 # text[spa] = Todo, todo es comestible. Mm.
@@ -1827,6 +1826,12 @@
 ^nochi/nochi$
 ^welik/welik$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:2
+# text = Nochi, nochi welik. Mm.
+# text[orig] = Nochi, nochi we:lik. Mm.
+# text[spa] = Todo, todo es comestible. Mm.
+# labels = a159 sentence
 ^Mm/Mm$
 ^./.$
 

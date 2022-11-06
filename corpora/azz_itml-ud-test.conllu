@@ -9666,6 +9666,47 @@
 11	Tzinacapan	Tzinacapan	PROPN	_	_	9	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a157
+# text = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se kikwa.
+# text[orig] = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se: kikwa.
+# text[spa] = Se come hasta el tallo si los quelites están tier..., tiernos, se come todo.
+# text[a157] = Nochi de n' ikowyo komo seh..., sehselik,
+# text[a158] = pos nochi se: kikwa.
+# labels = a157 a158 sentence
+1	Nochi	nochi	PRON	_	_	13	dislocated	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nmod	_	_
+5	komo	komo	ADV	_	_	8	mark	_	_
+6	seh...	seh	X	_	_	8	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	sehselik	sejselik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	pos	pos	ADV	_	_	13	advmod	_	_
+11	nochi	nochi	PRON	_	_	13	obj	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:1
+# text = Nochi, nochi welik.
+# text[orig] = Nochi, nochi we:lik.
+# text[spa] = Todo, todo es comestible.
+# labels = a159 sentence
+1	Nochi	nochi	PRON	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nochi	nochi	PRON	_	_	4	nsubj	_	_
+4	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a159 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a163
 # text = Pos neh nimonotsa Anastacio Nicolas Damian.
 # text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián.

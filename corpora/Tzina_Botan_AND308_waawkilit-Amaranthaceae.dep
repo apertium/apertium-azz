@@ -3584,63 +3584,59 @@
 # text[a158] = pos nochi se: kikwa.
 # labels = a157 a158 sentence
 "<Nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @dislocated #1->13
 "<de>"
-	"de" pr
+	"de" pr @case #2->4
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #3->4
 "<ikowyo>"
-	"kouyo" n px3sg
+	"kouyo" n px3sg @nmod #4->1
 "<komo>"
-	"komo" adv
-"<seh>"
-	"*seh"
-"<...>"
-	"..." sent @punct
+	"komo" adv @mark #5->8
+"<seh...>"
+	"seh" x @reparandum #6->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->6
 "<sehselik>"
-	"sejselik" adj redup
-	"sejselik" adj redup s_sg3
+	"sejselik" adj redup s_sg3 @advcl #8->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->8
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #10->13
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @obj #11->13
 "<se>"
-	"se" num
+	"se" num @nsubj #12->13
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3
+	"kua" v tv pres s_sg3 o_sg3 @parataxis #13->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->13
 
-# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159
-# text = Nochi, nochi welik. Mm.
-# text[orig] = Nochi, nochi we:lik. Mm.
-# text[spa] = Todo, todo es comestible. Mm.
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:1
+# text = Nochi, nochi welik.
+# text[orig] = Nochi, nochi we:lik.
+# text[spa] = Todo, todo es comestible.
 # labels = a159 sentence
 "<Nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @reparandum #1->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @nsubj #3->4
 "<welik>"
-	"huelik" adj
-	"huelik" adj s_sg3
-	"hueli" v iv pret s_sg3
+	"huelik" adj s_sg3 @root #4->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->4
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a159 sentence
 "<Mm>"
-	"mm" ij @root
+	"mm" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a163
 # text = Pos neh nimonotsa Anastacio Nicolas Damian.
