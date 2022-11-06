@@ -9926,6 +9926,45 @@
 8	ihkon	ijkon	ADV	_	_	7	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a142
+# text = Wan okse pos no, no igual, ihkon nas..., nakasikayowi ihkon.
+# text[orig] = Wa:n oksé: pos no:, no: *igual**, ihkó:n nas..., nakasikayowi ihkó:n.
+# text[spa] = Y el otro pues también es igual, así se va..., de lado hacia abajo.
+# labels = a142 sentence
+1	Wan	huan	CCONJ	_	_	7	cc	_	_
+2	okse	okse	PRON	_	_	7	nsubj	_	_
+3	pos	pos	ADV	_	_	7	advmod	_	_
+4	no	no	ADV	_	_	7	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	no	no	ADV	_	_	7	advmod	_	_
+7	igual	igual	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	ihkon	ijkon	ADV	_	_	12	advmod	_	_
+10	nas...	nas	X	_	_	12	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	nakasikayowi	nakasikayohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	parataxis	_	_
+13	ihkon	ijkon	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a145
+# text = Maski moketsa ihkon, pero siempre ki..., kitani, ihkon mixpilowa.
+# text[orig] = Ma:ski moketsa ihkó:n, *pero siempre** ki..., kita:ni, ihkó:n mi:xpilowa.
+# text[spa] = La mata crece erecta, pero siempre sel va..., de lado.
+# labels = a145 sentence
+1	Maski	maski	SCONJ	_	_	2	mark	_	_
+2	moketsa	moketsa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	ihkon	ijkon	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	pero	pero	CCONJ	_	_	9	cc	_	_
+6	siempre	siempre	ADV	_	_	9	advmod	_	_
+7	ki...	ki	X	_	_	9	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	kitani	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Past	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	ihkon	ijkon	ADV	_	_	12	advmod	_	_
+12	mixpilowa	ixpilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a150
 # text = I..., ihkon xini wan tatampa ya de nen, ixwa, n' iteyo.
 # text[orig] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa, n' iteyo.
@@ -9950,6 +9989,17 @@
 14	n'	in	DET	_	_	15	det	_	_
 15	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	12	dislocated	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a152
+# text = Yon ixwa.
+# text[orig] = Yo:n ixwa.
+# text[spa] = Las  semillas germinan.
+# labels = a152 sentence
+1-2	Yon	_	_	_	_	_	_	_	_
+1	Yon	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2		in	DET	_	_	3	mark	_	_
+3	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	csubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a153
 # text = Wan amo keman nikita mah kikwa, nen, se kikwa.

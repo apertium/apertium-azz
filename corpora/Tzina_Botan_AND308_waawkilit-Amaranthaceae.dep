@@ -147,7 +147,6 @@
 # text[a162] = moto:ka:y wa:n moxola:l.
 # labels = a160 a161 a162 sentence
 "<Bueno>"
-	"buenoj" ij @discourse
 	"bueno" ij @discourse
 "<pos>"
 	"pos" adv
@@ -2993,22 +2992,21 @@
 # text[spa] = Crece hacia arriba de..., sus semillas se van formando en hileras.
 # labels = a139 sentence
 "<Pankisa>"
-	"pankisa" v iv pres s_sg3
-	"kisa" v iv pres s_sg3 pan
+	"kisa" v iv pres s_sg3 pan @root
 "<kwa...>"
 	"kua" x @reparandum
 "<,>"
 	"," cm @punct
 "<de>"
-	"de" pr
+	"de" pr @case
 "<que>"
 	"que" cnjsub @mark
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<wan>"
 	"huan" cnjcoo @cc
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<motekpantiw>"
 	"*motekpantiw"
 "<n'>"
@@ -3027,8 +3025,7 @@
 "<Motekpantiw>"
 	"*Motekpantiw"
 "<kwaltsin>"
-	"kuali" adj hon
-	"kuali" adj hon s_sg3
+	"kuali" adj hon @advmod
 "<ihkon>"
 	"ijkon" adv
 "<.>"
@@ -3064,39 +3061,33 @@
 # text[spa] = Y el otro pues también es igual, así se va..., de lado hacia abajo.
 # labels = a142 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->7
 "<okse>"
-	"okse" det @det
+	"okse" prn @nsubj #2->7
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #3->7
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @reparandum #4->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->4
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #6->7
 "<igual>"
-	"igual" ij @discourse
+	"igual" adj s_sg3 @root #7->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->12
 "<ihkon>"
-	"ijkon" adv
-"<nas>"
-	"*nas"
-"<...>"
-	"..." sent @punct
+	"ijkon" adv @advmod #9->12
+"<nas...>"
+	"nas" x @reparandum #10->12
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->10
 "<nakasikayowi>"
-	"nakasikayohui" v iv pres s_sg3
+	"nakasikayohui" v iv pres s_sg3 @parataxis #12->7
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #13->12
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->7
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a143
 # text = Nijon amo, tak kitani de n' iteyo.
@@ -3118,7 +3109,6 @@
 	"de" pr
 "<n'>"
 	"in" det @det
-;	"nik" x
 "<iteyo>"
 	"teyo" n px3sg
 "<.>"
@@ -3131,7 +3121,6 @@
 # labels = a144 sentence
 "<N'>"
 	"in" det @det
-;	"nik" x
 "<iteyo>"
 	"teyo" n px3sg
 "<ne>"
@@ -3139,7 +3128,6 @@
 	"ne" adv
 	"ne" det
 "<kitani>"
-	"ita" v tv cnt s_sg3 o_sg3
 	"ita" v tv pp s_sg3 o_sg3
 "<porque>"
 	"porque" cnjsub @mark
@@ -3201,32 +3189,31 @@
 # text[spa] = La mata crece erecta, pero siempre sel va..., de lado.
 # labels = a145 sentence
 "<Maski>"
-	"maski" cnjsub @mark
+	"maski" cnjsub @mark #1->2
 "<moketsa>"
-	"moketsa" v iv pres s_sg3
+	"moketsa" v iv pres s_sg3 @root #2->0
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #3->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->2
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #5->9
 "<siempre>"
-	"siempre" adv
+	"siempre" adv @advmod #6->9
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #7->9
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<kitani>"
-	"ita" v tv cnt s_sg3 o_sg3
-	"ita" v tv pp s_sg3 o_sg3
+	"ita" v tv pp s_sg3 o_sg3 @conj #9->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->12
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod #11->12
 "<mixpilowa>"
-	"*mixpilowa"
+	"ixpilohua" v tv pres s_sg3 o_ref @parataxis #12->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->2
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a146
 # text = Kemah, yehwa yon neh nik..., Pos n' iteyo nijon amo, amo keman tikitah mah, mah se kikwa, o mah se kita kikwa chiktehtsin, amo.
@@ -3352,12 +3339,12 @@
 # text[spa] = Las  semillas germinan.
 # labels = a152 sentence
 "<Yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @root #1->0
+		"in" det @mark #2->3
 "<ixwa>"
-	"ixhua" v iv pres s_sg3
+	"ixhua" v iv pres s_sg3 @csubj #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a153
 # text = Wan amo keman nikita mah kikwa, nen, se kikwa.
