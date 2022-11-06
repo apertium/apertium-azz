@@ -9666,6 +9666,36 @@
 11	Tzinacapan	Tzinacapan	PROPN	_	_	9	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a163
+# text = Pos neh nimonotsa Anastacio Nicolas Damian.
+# text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián.
+# text[spa] = Pues yo me llamo Anastacio Nicolás Damián.
+# labels = a163 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+3	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	Anastacio	Anastacio	PROPN	_	Gender=Masc	3	obj	_	_
+5	Nicolas	Nicolás	PROPN	_	Gender=Masc	4	flat	_	_
+6	Damian	Damián	PROPN	_	_	4	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a164
+# text = Niwalew de ne xolalpan de San Miguel Tzinacapan.
+# text[orig] = Niwa:le:w de ne: xola:lpan de San Miguel Tzinacapan.
+# text[spa] = Vengo del pueblo de San Miguel Tzinacapan.
+# labels = a164 sentence
+1	Niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	ne	ne	ADV	_	_	1	advmod	_	_
+4-5	xolalpan	_	_	_	_	_	_	_	_
+4	xolal	xolal	NOUN	_	_	5	nmod	_	_
+5	pan	pan	NOUN	_	Incorporated=Pan|NounType=Relat	3	appos	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	San	San	PROPN	_	_	3	appos	_	_
+8	Miguel	Miguel	PROPN	_	Gender=Masc	7	flat	_	_
+9	Tzinacapan	Tzinacapan	PROPN	_	_	7	flat	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?

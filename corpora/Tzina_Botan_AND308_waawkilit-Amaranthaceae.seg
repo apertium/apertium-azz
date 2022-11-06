@@ -1,0 +1,1860 @@
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a9
+# text = Ekintsin Tacho 'technohnotsa de, nen, kanachi taman, nen, wawkilit n' teh tikixmattok.
+# text[orig] = Ekintsi:n Tacho 'te:chnohno:tsa de, ne:n, ka:nachi taman, ne:n, wa:wkilit n' teh tiki:xmattok.
+# text[spa] = Ahora don Tacho platícanos cuantos tipos de wa:wkilit conoce usted.
+# labels = a9 sentence
+^Ekintsin/Ekintsin$
+^Tacho/Tacho$
+^'technohnotsa/'technohnotsa$
+^de/de$
+^,/,$
+^nen/nen$
+^,/,$
+^kanachi/kanachi$
+^taman/taman$
+^,/,$
+^nen/nen$
+^,/,$
+^wawkilit/wawkilit$
+^n'/n'$
+^teh/teh$
+^tikixmattok/tikixmattok$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a132
+# text = ¿Wan tein in tikihtowa ome taman, este, n' tein istak wan chichiltik, n' i..., n' i..., ¿n' ixochio keniwki, mokehketsa, mopahpampilowa?
+# text[orig] = ¿Wa:n tein i:n tikihtowa o:me taman, *este**, n' tein ista:k wa:n chi:chi:ltik, n' i..., n' i..., ¿n' ixo:chio ke:niwki, mokehketsa, mopahpampilowa?
+# text[spa] = ¿Y de los quelites que me platicas que son dos, el de color blanco y el rojo cómo son sus..., sus..., sus flores cómo son, son erectas o se cuelgan hacia abajo?
+# text[a132] = ¿Wa:n tein i:n tikihtowa o:me taman, *este**, n' tein ista:k wa:n chi:chi:ltik, n' i..., n' i...,
+# text[a133] = ¿n' ixo:chio ke:niwki, mokehketsa, mopahpampilowa?
+# labels = a132 a133 sentence
+^¿/¿$
+^Wan/Wan$
+^tein/tein$
+^in/in$
+^tikihtowa/tikihtowa$
+^ome/ome$
+^taman/taman$
+^,/,$
+^este/este$
+^,/,$
+^n'/n'$
+^tein/tein$
+^istak/istak$
+^wan/wan$
+^chichiltik/chichiltik$
+^,/,$
+^n'/n'$
+^i.../i...$
+^,/,$
+^n'/n'$
+^i.../i...$
+^,/,$
+^ixochio/ixochio$
+^keniwki/keniwki$
+^,/,$
+^mokehketsa/mokehketsa$
+^,/,$
+^mopahpampilowa/mopahpampilowa$
+^?/?$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a147
+# text = ¿N' iteyo welik oso amo welik?
+# text[orig] = ¿N' iteyo we:lik oso a:mo we:lik?
+# text[spa] = ¿Y sus semillas son comestibles o no?
+# labels = a147 sentence
+^iteyo/iteyo$
+^welik/welik$
+^oso/oso$
+^amo/amo$
+^welik/welik$
+^?/?$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a160
+# text = Bueno pos pane nochi a n' tein in, 'technohnots in ome taman wawkilit in tein teh tikixmattok. Aman xitechili, nen, motokay wan moxolal.
+# text[orig] = *Bueno** pos pané: nochi a n' tein i:n, 'te:chnohno:ts i:n o:me taman wa:wkilit i:n tein teh tiki:xmattok. A:man xite:chili, ne:n, moto:ka:y wa:n moxola:l.
+# text[spa] = Bueno pues parece que ya es todo lo que, nos platicaste de los dos quelites que conoces. Ahora dinos este, tu nombre y del pueblo de donde vienes.
+# text[a160] = *Bueno** pos pané: nochi a n' tein i:n,
+# text[a161] = 'te:chnohno:ts i:n o:me taman wa:wkilit i:n tein teh tiki:xmattok. A:man xite:chili, ne:n,
+# text[a162] = moto:ka:y wa:n moxola:l.
+# labels = a160 a161 a162 sentence
+^Bueno/Bueno$
+^pos/pos$
+^pane/pane$
+^nochi/nochi$
+^a/a$
+^n'/n'$
+^tein/tein$
+^in/in$
+^,/,$
+^'technohnots/'technohnots$
+^in/in$
+^ome/ome$
+^taman/taman$
+^wawkilit/wawkilit$
+^in/in$
+^tein/tein$
+^teh/teh$
+^tikixmattok/tikixmattok$
+^./.$
+^Aman/Aman$
+^xitechili/xitechili$
+^,/,$
+^nen/nen$
+^,/,$
+^motokay/motokay$
+^wan/wan$
+^moxolal/moxolal$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a10
+# text = Nijon neh nikixmati nen nawi taman.
+# text[orig] = Nijó:n neh niki:xmati ne:n na:wi taman.
+# text[spa] = Este yo conozco cuatro tipos.
+# labels = a10 sentence
+^Nijon/Nijon$
+^neh/neh$
+^nikixmati/nikixmati$
+^nen/nen$
+^nawi/nawi$
+^taman/taman$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a11
+# text = N' istak wan de n' chichiltik wan de yon kowtah, kowtah, nen.
+# text[orig] = N' ista:k wa:n de n' chi:chi:ltik wa:n de yo:n kowtah, kowtah, ne:n.
+# text[spa] = El primero es blanco, segundo que es rojo y otro que se da en el bosque.
+# labels = a11 sentence
+^N'/N'$
+^istak/istak$
+^wan/wan$
+^de/de$
+^n'/n'$
+^chichiltik/chichiltik$
+^wan/wan$
+^de/de$
+^yon/yo>n$
+^kowtah/kowtah$
+^,/,$
+^kowtah/kowtah$
+^,/,$
+^nen/nen$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a12
+# text = Ne kwowtah, pos yon ne, tehwan no tikiliah mismo de yeh, ahmolkilit.
+# text[orig] = Ne: kwowtah, pos yo:n ne:, tehwa:n no: tikiliah *mismo de** yeh, ahmo:lkilit.
+# text[spa] = El que se da en el bosque es el que nosotros también le llamamos ahmo:lkilit.
+# labels = a12 sentence
+^Ne/Ne$
+^kwowtah/kwowtah$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^ne/ne$
+^,/,$
+^tehwan/tehwan$
+^no/no$
+^tikiliah/tikiliah$
+^mismo/mismo$
+^de/de$
+^yeh/yeh$
+^,/,$
+^ahmolkilit/ahmolkilit$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a13
+# text = N' tikiliah yehwa yon, yon nochi, nen, yon welik no ka, se kimapata wan se kikwi, nen, chiltamoltal.
+# text[orig] = N' tikiliah yehwa yo:n, yo:n nochi, ne:n, yo:n we:lik no: ka, se: kima:pa:ta wa:n se: kikwi, ne:n, chi:ltamo:ltal.
+# text[spa] = Así le llamamos y todos esos son este, ese es comestible, se exprime fuertemente con las manos y se prepara con salsa.
+# text[a13] = N' tikiliah yehwa yo:n, yo:n nochi, ne:n,
+# text[a14] = yo:n we:lik no: ka, se: kima:pa:ta wa:n se: kikwi, ne:n, chi:ltamo:ltal.
+# labels = a13 a14 sentence
+^N'/N'$
+^tikiliah/tikiliah$
+^yehwa/yehwa$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^nochi/nochi$
+^,/,$
+^nen/nen$
+^,/,$
+^yon/yo>n$
+^welik/welik$
+^no/no$
+^ka/ka$
+^,/,$
+^se/se$
+^kimapata/kimapata$
+^wan/wan$
+^se/se$
+^kikwi/kikwi$
+^,/,$
+^nen/nen$
+^,/,$
+^chiltamoltal/chiltamoltal$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a15
+# text = Nijon tehwan tikiliah, nen, kiltonil, kiltonil tikiliah.
+# text[orig] = Nijó:n tehwa:n tikiliah, ne:n, kilto:ni:l, kilto:ni:l tikiliah.
+# text[spa] = Nosotros le llamamos quiltonile, le llamamos quiltonile.
+# labels = a15 sentence
+^Nijon/Nijon$
+^tehwan/tehwan$
+^tikiliah/tikiliah$
+^,/,$
+^nen/nen$
+^,/,$
+^kiltonil/kiltonil$
+^,/,$
+^kiltonil/kiltonil$
+^tikiliah/tikiliah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a16
+# text = Wan okse no, no igual yon chichiltik no.
+# text[orig] = Wa:n oksé: no:, no: *igual** yo:n chi:chi:ltik no:.
+# text[spa] = Y otro también es igual, ése también es rojo.
+# labels = a16 sentence
+^Wan/Wan$
+^okse/okse$
+^no/no$
+^,/,$
+^no/no$
+^igual/igual$
+^yon/yo>n$
+^chichiltik/chichiltik$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a17
+# text = Yon no welik para, nen, ika chiltamoltal no se kimapata.
+# text[orig] = Yo:n no: we:lik para, ne:n, ika chi:ltamo:ltal no: se: kima:pa:ta.
+# text[spa] = Ese también es bueno preparado con salsa, primero se exprime.
+# labels = a17 sentence
+^Yon/Yon$
+^no/no$
+^welik/welik$
+^para/para$
+^,/,$
+^nen/nen$
+^,/,$
+^ika/ika$
+^chiltamoltal/chiltamoltal$
+^no/no$
+^se/se$
+^kimapata/kimapata$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a18
+# text = Kimapatskah kwaltsin, wan se kitalia ihkon wan seki kitaliliah, nen, chilito 'kwechowah iwan se ki..., se kikwa ya.
+# text[orig] = Kima:pa:tskah kwaltsi:n, wa:n se: kita:lia ihkó:n wa:n seki kita:liliah, ne:n, *chilito** 'kwe:chowah iwa:n se: ki..., se: kikwa ya.
+# text[spa] = Lo exprimen bien el quelite hervido, enseguida trituran los chiles para la salsa y ya se..., ya se consume.
+# text[a18] = Kima:pa:tskah kwaltsi:n, wa:n se: kita:lia ihkó:n wa:n seki kita:liliah, ne:n, *chilito** 'kwe:chowah
+# text[a19] = iwa:n se: ki..., se: kikwa ya.
+# labels = a18 a19 sentence
+^Kimapatskah/Kimapatskah$
+^kwaltsin/kwaltsin$
+^,/,$
+^wan/wan$
+^se/se$
+^kitalia/kitalia$
+^ihkon/ihkon$
+^wan/wan$
+^seki/seki$
+^kitaliliah/kitaliliah$
+^,/,$
+^nen/nen$
+^,/,$
+^chilito/chilito$
+^kwechowah/kwechowah$
+^iwan/iwan$
+^se/se$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kikwa/kikwa$
+^ya/ya$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a20
+# text = Wan yon o..., ome taman para kichiwah ne tapalol, kitsoyoniah no.
+# text[orig] = Wa:n yo:n o:..., o:me taman para kichi:wah ne: tapalo:l, kitsoyo:niah no:.
+# text[spa] = Hay dos formas de preparar la comida, también se pueden freir.
+# labels = a20 sentence
+^Wan/Wan$
+^yon/yo>n$
+^o.../o...$
+^,/,$
+^ome/ome$
+^taman/taman$
+^para/para$
+^kichiwah/kichiwah$
+^ne/ne$
+^tapalol/tapalol$
+^,/,$
+^kitsoyoniah/kitsoyoniah$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a21
+# text = Kitsoyoniah, nen, kikixtiliah n' iteyo, yon iwan momanelowa n' iteyo, iteyo tihtiltik.
+# text[orig] = Kitsoyo:niah, ne:n, kiki:xtiliah n' iteyo, yo:n iwa:n moma:nelowa n' iteyo, iteyo tihti:ltik.
+# text[spa] = Limpian el quelite, le sacan las semillas, porque se juntan los quelites con las semillas, las semillas son negras.
+# text[a21] = Kitsoyo:niah, ne:n, kiki:xtiliah n' iteyo,
+# text[a22] = yo:n iwa:n moma:nelowa n' iteyo, iteyo tihti:ltik.
+# labels = a21 a22 sentence
+^Kitsoyoniah/Kitsoyoniah$
+^,/,$
+^nen/nen$
+^,/,$
+^kikixtiliah/kikixtiliah$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^yon/yo>n$
+^iwan/iwan$
+^momanelowa/momanelowa$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^iteyo/iteyo$
+^tihtiltik/tihtiltik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a23
+# text = Amo n' iwan kitaliliah n' iteyo, porque komo kitaliliah n' iwan iteyo, nijon, tilewi, momanelowa.
+# text[orig] = A:mo n' iwa:n kita:liliah n' iteyo, *porque** komo kita:liliah n' iwa:n iteyo, nijó:n, ti:le:wi, moma:nelowa.
+# text[spa] = No hierven con las semillas, porque se hierve unto con las semillas el quelite sale de color negro.
+# text[a23] = A:mo n' iwa:n kita:liliah n' iteyo,
+# text[a24] = *porque** komo kita:liliah n' iwa:n iteyo, nijó:n, ti:le:wi, moma:nelowa.
+# labels = a23 a24 sentence
+^Amo/Amo$
+^n'/n'$
+^iwan/iwan$
+^kitaliliah/kitaliliah$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^porque/porque$
+^komo/komo$
+^kitaliliah/kitaliliah$
+^n'/n'$
+^iwan/iwan$
+^iteyo/iteyo$
+^,/,$
+^nijon/nijon$
+^,/,$
+^tilewi/tilewi$
+^,/,$
+^momanelowa/momanelowa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a25
+# text = Neh nik..., neh nikmati, nen, de ome taman se ki..., cuando para, kamanah wan kitsoyoniah.
+# text[orig] = Neh nik..., neh nikmati, ne:n, de o:me taman se: ki..., *cuando** para, ka:manah wa:n kitsoyo:niah.
+# text[spa] = Yo conoz..., conozco dos formas de preparar, se..., primero lo hierven en caldo y después lo guisan.
+# text[a25] = Neh nik..., neh nikmati, ne:n, de o:me taman se: ki...,
+# text[a26] = *cuando** para, ka:manah wa:n kitsoyo:niah.
+# labels = a25 a26 sentence
+^Neh/Neh$
+^nik.../nik...$
+^,/,$
+^neh/neh$
+^nikmati/nikmati$
+^,/,$
+^nen/nen$
+^,/,$
+^de/de$
+^ome/ome$
+^taman/taman$
+^se/se$
+^ki.../ki...$
+^,/,$
+^cuando/cuando$
+^para/para$
+^,/,$
+^kamanah/kamanah$
+^wan/wan$
+^kitsoyoniah/kitsoyoniah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a27
+# text = Kitaliliah, nen, manteca.
+# text[orig] = Kita:liliah, ne:n, *manteca**.
+# text[spa] = Lo guisan con manteca.
+# labels = a27 sentence
+^Kitaliliah/Kitaliliah$
+^,/,$
+^nen/nen$
+^,/,$
+^manteca/manteca$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a28
+# text = Wan pos, yehwa nijon, nen, nehwa nikmati, nen, ki..., kichiwah yon wan.... Pos wehkapania kampa yon chichiltik de n' imako pewa ihkon kipia pane yon, venitas ihkon, ihkon, raramitas, hasta nijon maalaxtik. Wan, pos yon, yowi ihkon, nen, iyolselo, wan ompa momahmaxalowa ompa, nen, kipia ya n' iteyo.
+# text[orig] = Wa:n pos, yehwa nijó:n, ne:n, nehwa nikmati, ne:n, ki..., kichi:wah yo:n wa:n .... Pos wehkapania ka:mpa yo:n chi:chi:ltik de n' ima:ko pe:wa ihkó:n kipia pané: yo:n, *venitas** ihkó:n, ihkó:n, *ra:ramitas**, *hasta** nijó:n ma:alaxtik. Wa:n, pos yo:n, yowi ihkó:n, ne:n, iyo:lselo, wa:n ompa momahmaxalowa ompa, ne:n, kipia ya n' iteyo.
+# text[spa] = Y pues, eso es lo que yo sé, este lo..., preparan la comida y .... Pues el quelite de color rojo crece un poco alto y sus hojas en el haz tienen así como venitas, así tiene sus ramitas, sus hojas son lisas. Y, el quelite crece así derecho, en la punta de la planta va saliendo sus ramas y ahí se dan sus semillas.
+# text[a28] = Wa:n pos,
+# text[a29] = yehwa nijó:n, ne:n, nehwa nikmati, ne:n, ki...,
+# text[a30] = kichi:wah yo:n wa:n ....
+# text[a31] = Pos wehkapania ka:mpa yo:n chi:chi:ltik de n' ima:ko pe:wa
+# text[a32] = ihkó:n kipia pané: yo:n, *venitas** ihkó:n, ihkó:n, *ra:ramitas**,
+# text[a33] = *hasta** nijó:n ma:alaxtik. Wa:n,
+# text[a34] = pos yo:n, yowi ihkó:n, ne:n, iyo:lselo,
+# text[a35] = wa:n ompa momahmaxalowa ompa, ne:n, kipia ya n' iteyo.
+# labels = a28 a29 a30 a31 a32 a33 a34 a35 sentence
+^Wan/Wan$
+^pos/pos$
+^,/,$
+^yehwa/yehwa$
+^nijon/nijon$
+^,/,$
+^nen/nen$
+^,/,$
+^nehwa/nehwa$
+^nikmati/nikmati$
+^,/,$
+^nen/nen$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kichiwah/kichiwah$
+^yon/yo>n$
+^wan/wan$
+^.../...$
+^./.$
+^Pos/Pos$
+^wehkapania/wehkapania$
+^kampa/kampa$
+^yon/yo>n$
+^chichiltik/chichiltik$
+^de/de$
+^n'/n'$
+^imako/imako$
+^pewa/pewa$
+^ihkon/ihkon$
+^kipia/kipia$
+^pane/pane$
+^yon/yo>n$
+^,/,$
+^venitas/venitas$
+^ihkon/ihkon$
+^,/,$
+^ihkon/ihkon$
+^,/,$
+^raramitas/raramitas$
+^,/,$
+^hasta/hasta$
+^nijon/nijon$
+^maalaxtik/maalaxtik$
+^./.$
+^Wan/Wan$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^,/,$
+^yowi/yowi$
+^ihkon/ihkon$
+^,/,$
+^nen/nen$
+^,/,$
+^iyolselo/iyolselo$
+^,/,$
+^wan/wan$
+^ompa/ompa$
+^momahmaxalowa/momahmaxalowa$
+^ompa/ompa$
+^,/,$
+^nen/nen$
+^,/,$
+^kipia/kipia$
+^ya/ya$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a36
+# text = N' iteyo tihtiltik.
+# text[orig] = N' iteyo tihti:ltik.
+# text[spa] = Sus semillas son de color negro.
+# labels = a36 sentence
+^N'/N'$
+^iteyo/iteyo$
+^tihtiltik/tihtiltik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a37
+# text = Wan okseki, n' seki, n'neltoka porque, yon de istak pos nijon, yowi hasta ihkon mopampiloti wan istak n' iteyo.
+# text[orig] = Wa:n okseki, n' seki, n'neltoka *porque**, yo:n de ista:k [po]s nijó:n, yowi *hasta** ihkó:n [mo]pampilo:ti wa:n ista:k n' iteyo.
+# text[spa] = Y el otro pues uno se da cuenta porque el quelite de hojas blancas este, crece y la punta se cuelga hacia abajo con sus semillas de color blanco.
+# text[a37] = Wa:n okseki, n' seki, n'neltoka *porque**,
+# text[a38] = yo:n de ista:k [po]s nijó:n,
+# text[a39] = yowi *hasta** ihkó:n [mo]pampilo:ti wa:n ista:k n' iteyo.
+# labels = a37 a38 a39 sentence
+^Wan/Wan$
+^okseki/okseki$
+^,/,$
+^n'/n'$
+^seki/seki$
+^,/,$
+^n'neltoka/n'neltoka$
+^porque/porque$
+^,/,$
+^yon/yo>n$
+^de/de$
+^istak/istak$
+^pos/pos$
+^nijon/nijon$
+^,/,$
+^yowi/yowi$
+^hasta/hasta$
+^ihkon/ihkon$
+^mopampiloti/mopampiloti$
+^wan/wan$
+^istak/istak$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a40
+# text = Istak n' iteyo wan okseki nen, kowtah nen kiltonil, tehwan tikiliah kiltonil, pos yon mopihpilowa por racimitos nen i..., iteyo.
+# text[orig] = Ista:k n' iteyo wa:n okseki ne:n, kowtah ne:n kilto:ni:l, tehwa:n tikiliah kilto:ni:l, pos yo:n mopihpilowa *por racimitos** ne:n i..., iteyo.
+# text[spa] = Tiene las semillas de color blanco y el otro quelite que, se da en el bosque, quiltonile del bosque sus frutos se cuelgan por racimos sus...,
+# text[a40] = Ista:k n' iteyo wa:n okseki ne:n,
+# text[a41] = kowtah ne:n kilto:ni:l, tehwa:n tikiliah kilto:ni:l,
+# text[a42] = pos yo:n mopihpilowa *por racimitos** ne:n i..., iteyo.
+# labels = a40 a41 a42 sentence
+^Istak/Istak$
+^n'/n'$
+^iteyo/iteyo$
+^wan/wan$
+^okseki/okseki$
+^nen/nen$
+^,/,$
+^kowtah/kowtah$
+^nen/nen$
+^kiltonil/kiltonil$
+^,/,$
+^tehwan/tehwan$
+^tikiliah/tikiliah$
+^kiltonil/kiltonil$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^mopihpilowa/mopihpilowa$
+^por/por$
+^racimitos/racimitos$
+^nen/nen$
+^i.../i...$
+^,/,$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a43
+# text = Iteyo chihchichiltik no, wan kosawia, de waki a pos no, no tihtilewi.
+# text[orig] = Iteyo chihchi:chi:ltik no:, wa:n kosawia, de wa:ki a pos no:, no: tihti:le:wi.
+# text[spa] = frutos son de color rojo, después de que se secan van tomando un color amarillo hasta convertirse en negro.
+# text[a43] = Iteyo chihchi:chi:ltik no:,
+# text[a44] = wa:n kosawia, de wa:ki a pos no:, no: tihti:le:wi.
+# labels = a43 a44 sentence
+^Iteyo/Iteyo$
+^chihchichiltik/chihchichiltik$
+^no/no$
+^,/,$
+^wan/wan$
+^kosawia/kosawia$
+^,/,$
+^de/de$
+^waki/waki$
+^a/a$
+^pos/pos$
+^no/no$
+^,/,$
+^no/no$
+^tihtilewi/tihtilewi$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a45
+# text = Pos yon no semi kikwah nen chiktehmeh.
+# text[orig] = Pos yo:n no: semi kikwah ne:n chiktehmeh.
+# text[spa] = Los pájaros también se alimentan con los frutos de ese quelite.
+# labels = a45 sentence
+^Pos/Pos$
+^yon/yo>n$
+^no/no$
+^semi/semi$
+^kikwah/kikwah$
+^nen/nen$
+^chiktehmeh/chiktehmeh$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a46
+# text = Yon kikwah. Okseki pos amo nikitak ox kikwah.
+# text[orig] = Yo:n kikwah. Okseki pos a:mo nikitak ox kikwah.
+# text[spa] = Esos frutos aprovechan los pájaros. Las semillas de los otros quelites nunca he visto que se los coman.
+# labels = a46 sentence
+^Yon/Yon$
+^kikwah/kikwah$
+^./.$
+^Okseki/Okseki$
+^pos/pos$
+^amo/amo$
+^nikitak/nikitak$
+^ox/ox$
+^kikwah/kikwah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a47
+# text = Yon kikwah, yon kiliah, nen, chiwihkoyo.
+# text[orig] = Yo:n kikwah, yo:n kiliah, ne:n, chiwihkoyo.
+# text[spa] = El que se alimenta de esos frutos es el pájaro que le llaman perdíz.
+# text[a47] = Yo:n kikwah, yo:n kiliah, ne:n,
+# text[a48] = chiwihkoyo.
+# labels = a47 a48 sentence
+^Yon/Yon$
+^kikwah/kikwah$
+^,/,$
+^yon/yo>n$
+^kiliah/kiliah$
+^,/,$
+^nen/nen$
+^,/,$
+^chiwihkoyo/chiwihkoyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a49
+# text = Chiwihkoyo porque newin, kowtah semi nemih nen chiwihkoyomeh.
+# text[orig] = Chiwihkoyo *porque** ne:wí:n, kowtah semi nemih ne:n chiwihkoyomeh.
+# text[spa] = El perdíz por allá en el, bosque hay muchos perdices.
+# text[a49] = Chiwihkoyo *porque** ne:wí:n,
+# text[a50] = kowtah semi nemih ne:n chiwihkoyomeh.
+# labels = a49 a50 sentence
+^Chiwihkoyo/Chiwihkoyo$
+^porque/porque$
+^newin/newin$
+^,/,$
+^kowtah/kowtah$
+^semi/semi$
+^nemih/nemih$
+^nen/nen$
+^chiwihkoyomeh/chiwihkoyomeh$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a51
+# text = Xa nankixmatih kemeh yon piotsin.
+# text[orig] = Xa: nanki:xmatih ke:meh yo:n piotsi:n.
+# text[spa] = No sé si la conocen pero es como un pollito.
+# labels = a51 sentence
+^Xa/Xa$
+^nankixmatih/nankixmatih$
+^kemeh/kemeh$
+^yon/yo>n$
+^piotsin/piotsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a52
+# text = Kemeh yon piotsin tat..., taxelowa wan igualito nemi newin kowtah, wei ihkon.
+# text[orig] = Ke:meh yo:n piotsi:n tat..., taxe:lowa wa:n *igualito** nemi ne:wí:n kowtah, we:i ihkó:n.
+# text[spa] = Es muy parecido a un pollito que anda tri..., trillando por ahí es igualito pero así anda en el bosque.
+# text[a52] = Ke:meh yo:n piotsi:n tat..., taxe:lowa wa:n
+# text[a53] = *igualito** nemi ne:wí:n kowtah, we:i ihkó:n.
+# labels = a52 a53 sentence
+^Kemeh/Kemeh$
+^yon/yo>n$
+^piotsin/piotsin$
+^tat/tat$
+^.../...$
+^,/,$
+^taxelowa/taxelowa$
+^wan/wan$
+^igualito/igualito$
+^nemi/nemi$
+^newin/newin$
+^kowtah/kowtah$
+^,/,$
+^wei/wei$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a54
+# text = Entos yeh yon kikwa, tatampa no, ihkon antes tikitayah totatahwan, kintaliliayah yon tamalin, tamalin kiliah ihkon, kiliah se kowit wan itsintan ne kitaliliah de nen kiltonil, wan ompa mo..., ompa yowi nijon chiktehtsin, wan de ompa mokalakia kemah mo..., mokechpiloti wan papataka ya, yon chiwihkoyo.
+# text[orig] = Entó:s yeh yo:n kikwa, tatampa no:, ihkó:n *antes** tikitayah tota:tahwa:n, kinta:lilia:yah yo:n tamali:n, tamali:n kiliah ihkó:n, kiliah se: kowit wa:n itsi:ntan ne: kita:liliah de ne:n kilto:ni:l, wa:n ompa mo..., ompa yowi nijó:n chiktehtsi:n, wa:n de ompa mokalakia ke:mah mo..., mokechpilo:ti wa:n papataka ya, yo:n chiwihkoyo.
+# text[spa] = Enonces se alimenta de esos frutos, también anda debajo de otras plantas, así veíamos antes a nuestros abuelos, les ponían una cuerda ponían así una cuerda torcida, algunos le llaman una mata de al pie de la mata de quiltonile, y ahí se..., ahí iba el pajarito, ahí metía su cabeza dentro de la cuerda, entonces se..., ahorcaba y empezaba a revolotear el perdíz.
+# text[a54] = Entó:s yeh yo:n kikwa, tatampa no:,
+# text[a55] = ihkó:n *antes** tikitayah tota:tahwa:n,
+# text[a56] = kinta:lilia:yah yo:n
+# text[a57] = tamali:n, tamali:n kiliah ihkó:n,
+# text[a58] = kiliah se: kowit wa:n
+# text[a59] = itsi:ntan ne: kita:liliah de ne:n kilto:ni:l,
+# text[a60] = wa:n ompa mo..., ompa yowi nijó:n chiktehtsi:n,
+# text[a61] = wa:n de ompa mokalakia ke:mah mo..., mokechpilo:ti wa:n
+# text[a62] = papataka ya,
+# text[a63] = yo:n chiwihkoyo.
+# labels = a54 a55 a56 a57 a58 a59 a60 a61 a62 a63 sentence
+^Entos/Entos$
+^yeh/yeh$
+^yon/yo>n$
+^kikwa/kikwa$
+^,/,$
+^tatampa/tatampa$
+^no/no$
+^,/,$
+^ihkon/ihkon$
+^antes/antes$
+^tikitayah/tikitayah$
+^totatahwan/totatahwan$
+^,/,$
+^kintaliliayah/kintaliliayah$
+^yon/yo>n$
+^tamalin/tamalin$
+^,/,$
+^tamalin/tamalin$
+^kiliah/kiliah$
+^ihkon/ihkon$
+^,/,$
+^kiliah/kiliah$
+^se/se$
+^kowit/kowit$
+^wan/wan$
+^itsintan/itsintan$
+^ne/ne$
+^kitaliliah/kitaliliah$
+^de/de$
+^nen/nen$
+^kiltonil/kiltonil$
+^,/,$
+^wan/wan$
+^ompa/ompa$
+^mo.../mo...$
+^,/,$
+^ompa/ompa$
+^yowi/yowi$
+^nijon/nijon$
+^chiktehtsin/chiktehtsin$
+^,/,$
+^wan/wan$
+^de/de$
+^ompa/ompa$
+^mokalakia/mokalakia$
+^kemah/kemah$
+^mo.../mo...$
+^,/,$
+^mokechpiloti/mokechpiloti$
+^wan/wan$
+^papataka/papataka$
+^ya/ya$
+^,/,$
+^yon/yo>n$
+^chiwihkoyo/chiwihkoyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a64
+# text = Yon chiwihkoyomehwehwein, ihkokon de wehwein, kemeh se piotsin.
+# text[orig] = Yo:n chiwihkoyo[meh]wehwei:n, ihko:kó:n de wehwei:n, ke:meh se: piotsi:n.
+# text[spa] = Los perdices son grandes, son así de grandes, como un pollito.
+# text[a64] = Yo:n chiwihkoyo[meh]wehwei:n,
+# text[a65] = ihko:kó:n de wehwei:n,
+# text[a66] = ke:meh se: piotsi:n.
+# labels = a64 a65 a66 sentence
+^Yon/Yon$
+^chiwihkoyomehwehwein/chiwihkoyomehwehwein$
+^,/,$
+^ihkokon/ihkokon$
+^de/de$
+^wehwein/wehwein$
+^,/,$
+^kemeh/kemeh$
+^se/se$
+^piotsin/piotsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a67
+# text = Kemeh se piotsin, kemeh yon, ihkokon.
+# text[orig] = Ke:meh se: piotsi:n, ke:meh yo:n, ihko:ko:n.
+# text[spa] = Son como unos pollitos, son así de grandes.
+# labels = a67 sentence
+^Kemeh/Kemeh$
+^se/se$
+^piotsin/piotsin$
+^,/,$
+^kemeh/kemeh$
+^yon/yo>n$
+^,/,$
+^ihkokon/ihkokon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a68
+# text = Wan yehwa in, yehwa yon nikixmati wan.... Pos n' okseki nen, nen, mas nik..., n' okse amo kachi nikita nen, seki kiltonil, de yehwa nen kampa.... Yon amo, amo nikihtos kitohtokah ihkon, yon kixiniah sah kampa tachipawah kwaltsin ihkon, wan tachipawah ne wan kixi..., kitepewah ihkon.
+# text[orig] = Wa:n yehwa i:n, yehwa yo:n niki:xmati wa:n .... Pos n' okseki ne:n, ne:n, *más** nik..., n' oksé: a:mo kachi nikita ne:n, seki [kil]to:ni:l, de yehwa ne:n ka:mpa .... Yo:n a:mo, a:mo nikihto:s kitohto:kah ihkó:n, yo:n kixi:niah sah ka:mpa tachipa:wah kwaltsi:n ihkó:n, wa:n tachipa:wah ne: wa:n kixi:..., [ki]tepe:wah ihkó:n.
+# text[spa] = Esos son los que yo conozco, conozco esos pájaros y .... Pues los demás quiltoniles este, este, más lo..., el otro quiltonile lo veo muy poco, el otro quiltonil, es el en donde .... Esa planta no puedo decir que la siembran así, limpian el terreno y riegan así las semillas, limpian bonito el terreno y rie..., riegan las semillas así.
+# text[a68] = Wa:n yehwa i:n,
+# text[a69] = yehwa yo:n niki:xmati wa:n ....
+# text[a70] = Pos n' okseki ne:n,
+# text[a71] = ne:n, *más** nik..., n' oksé: a:mo kachi nikita ne:n,
+# text[a72] = seki [kil]to:ni:l, de yehwa ne:n
+# text[a73] = ka:mpa ....
+# text[a74] = Yo:n a:mo, a:mo nikihto:s kitohto:kah ihkó:n,
+# text[a75] = yo:n kixi:niah sah ka:mpa tachipa:wah kwaltsi:n ihkó:n,
+# text[a76] = wa:n tachipa:wah ne: wa:n kixi:..., [ki]tepe:wah ihkó:n.
+# labels = a68 a69 a70 a71 a72 a73 a74 a75 a76 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^in/in$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^nikixmati/nikixmati$
+^wan/wan$
+^.../...$
+^./.$
+^Pos/Pos$
+^n'/n'$
+^okseki/okseki$
+^nen/nen$
+^,/,$
+^nen/nen$
+^,/,$
+^mas/mas$
+^nik.../nik...$
+^,/,$
+^n'/n'$
+^okse/okse$
+^amo/amo$
+^kachi/kachi$
+^nikita/nikita$
+^nen/nen$
+^,/,$
+^seki/seki$
+^kiltonil/kiltonil$
+^,/,$
+^de/de$
+^yehwa/yehwa$
+^nen/nen$
+^kampa/kampa$
+^.../...$
+^./.$
+^Yon/Yon$
+^amo/amo$
+^,/,$
+^amo/amo$
+^nikihtos/nikihtos$
+^kitohtokah/kitohtokah$
+^ihkon/ihkon$
+^,/,$
+^yon/yo>n$
+^kixiniah/kixiniah$
+^sah/sah$
+^kampa/kampa$
+^tachipawah/tachipawah$
+^kwaltsin/kwaltsin$
+^ihkon/ihkon$
+^,/,$
+^wan/wan$
+^tachipawah/tachipawah$
+^ne/ne$
+^wan/wan$
+^kixi/kixi$
+^.../...$
+^,/,$
+^kitepewah/kitepewah$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a77
+# text = Tikiliah kitepewah o kixiniah, nochi.
+# text[orig] = Tikiliah kitepe:wah *o** kixi:niah, nochi.
+# text[spa] = Nosotros decimos que riegan las semillas.
+# labels = a77 sentence
+^Tikiliah/Tikiliah$
+^kitepewah/kitepewah$
+^o/o$
+^kixiniah/kixiniah$
+^,/,$
+^nochi/nochi$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a78
+# text = Kixiniah kwaltsin kiektiah wan kitepewah kemeh ne, yekkwaltsin ixmanisti cuando ewi a.
+# text[orig] = Kixi:niah kwaltsi:n kie:ktiah wa:n kitepe:wah ke:meh ne:, ye:kkwaltsi:n i:xmanisti *cuando** e:wi a.
+# text[spa] = Limpian bien las semillas y las riegan así, cuando las plantas van creciendo así parejas se ve sí como un plano verde.
+# text[a78] = Kixi:niah kwaltsi:n kie:ktiah wa:n kitepe:wah ke:meh ne:,
+# text[a79] = ye:kkwaltsi:n i:xmanisti *cuando** e:wi a.
+# labels = a78 a79 sentence
+^Kixiniah/Kixiniah$
+^kwaltsin/kwaltsin$
+^kiektiah/kiektiah$
+^wan/wan$
+^kitepewah/kitepewah$
+^kemeh/kemeh$
+^ne/ne$
+^,/,$
+^yekkwaltsin/yekkwaltsin$
+^ixmanisti/ixmanisti$
+^cuando/cuando$
+^ewi/ewi$
+^a/a$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a80
+# text = Cuando ewi a ihkon, yekkwaltsitsin kokonemeh, se kitekiti wan yeksehselik, yekahwiak se ki..., kikwa, atamanal.
+# text[orig] = *Cuando** e:wi a ihkó:n, ye:kkwaltsitsi:n ko:kone:meh, se: kitekiti wa:n ye:ksehselik, ye:kahwia:k se: ki..., kikwa, a:tamanal.
+# text[spa] = Cuando germinan las semillas así van creciendo las pequeñas plantas, ya se cortan así muy verdes y tienen una fragancia agradable, se hierven los quelites en caldo.
+# text[a80] = *Cuando** e:wi a ihkó:n, ye:kkwaltsitsi:n ko:kone:meh,
+# text[a81] = se: kitekiti wa:n ye:ksehselik, ye:kahwia:k se: ki..., kikwa, a:tamanal.
+# labels = a80 a81 sentence
+^Cuando/Cuando$
+^ewi/ewi$
+^a/a$
+^ihkon/ihkon$
+^,/,$
+^yekkwaltsitsin/yekkwaltsitsin$
+^kokonemeh/kokonemeh$
+^,/,$
+^se/se$
+^kitekiti/kitekiti$
+^wan/wan$
+^yeksehselik/yeksehselik$
+^,/,$
+^yekahwiak/yekahwiak$
+^se/se$
+^ki.../ki...$
+^,/,$
+^kikwa/kikwa$
+^,/,$
+^atamanal/atamanal$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a82
+# text = Pos no kwaltia kitaliliah mantequita wan kitsoyoniah, no kwaltsin welik kitaliliah nen cebolla.
+# text[orig] = Pos no: kwaltia kita:liliah *mantequita** wa:n kitsoyo:niah, no: kwaltsi:n we:lik kita:liliah ne:n *cebolla**.
+# text[spa] = También se pueden freir con manteca. (Freir con aceite o manteca. Guisar con salsa.) también le da un buen sabor si se le agrega la cebolla.
+# text[a82] = Pos no: kwaltia kita:liliah *mantequita** wa:n kitsoyo:niah,
+# text[a83] = no: kwaltsi:n we:lik kita:liliah ne:n *cebolla**.
+# labels = a82 a83 sentence
+^Pos/Pos$
+^no/no$
+^kwaltia/kwaltia$
+^kitaliliah/kitaliliah$
+^mantequita/mantequita$
+^wan/wan$
+^kitsoyoniah/kitsoyoniah$
+^,/,$
+^no/no$
+^kwaltsin/kwaltsin$
+^welik/welik$
+^kitaliliah/kitaliliah$
+^nen/nen$
+^cebolla/cebolla$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a84
+# text = Pero tehwan tikitayah nen totatahwan kikwayah, ki..., kipatayah kwaltsin, kimapatayah, wan kitaliayah itech se yon sokikaxit.
+# text[orig] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah, ki..., kipa:tayah kwaltsi:n, kima:pa:tayah, wa:n kita:lia:yah itech se: yo:n sokikaxit.
+# text[spa] = Nosotros veíamos a nuestros abuelos que así lo preparaban, lo..., hervían y lo exprimian bien con las manos y ponían en un plato de barro.
+# text[a84] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah,
+# text[a85] = ki..., kipa:tayah kwaltsi:n, kima:pa:tayah,
+# text[a86] = wa:n kita:lia:yah itech se: yo:n sokikaxit.
+# labels = a84 a85 a86 sentence
+^Pero/Pero$
+^tehwan/tehwan$
+^tikitayah/tikitayah$
+^nen/nen$
+^totatahwan/totatahwan$
+^kikwayah/kikwayah$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kipatayah/kipatayah$
+^kwaltsin/kwaltsin$
+^,/,$
+^kimapatayah/kimapatayah$
+^,/,$
+^wan/wan$
+^kitaliayah/kitaliayah$
+^itech/itech$
+^se/se$
+^yon/yo>n$
+^sokikaxit/sokikaxit$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a87
+# text = Ompa kitaliayah wan tiktekiliayah nen chiltamoltal, chiltekpin.
+# text[orig] = Ompa kita:lia:yah wa:n tikte:kilia:yah ne:n chi:ltamo:ltal, chi:ltekpin.
+# text[spa] = En el plato le echaban salsa de chiltepín.
+# labels = a87 sentence
+^Ompa/Ompa$
+^kitaliayah/kitaliayah$
+^wan/wan$
+^tiktekiliayah/tiktekiliayah$
+^nen/nen$
+^chiltamoltal/chiltamoltal$
+^,/,$
+^chiltekpin/chiltekpin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a88
+# text = Yon semi kweliltia.
+# text[orig] = Yo:n semi kwe:liltia.
+# text[spa] = Así queda muy sabrosa la comida.
+# labels = a88 sentence
+^Yon/Yon$
+^semi/semi$
+^kweliltia/kweliltia$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a89
+# text = Semi kweliltia nijon, yon kiltsin.
+# text[orig] = Semi kwe:liltia nijó:n, yo:n kiltsí:n.
+# text[spa] = Le da un buen sabor a, los quelites.
+# text[a89] = Semi kwe:liltia nijó:n,
+# text[a90] = yo:n kiltsí:n.
+# labels = a89 a90 sentence
+^Semi/Semi$
+^kweliltia/kweliltia$
+^nijon/nijon$
+^,/,$
+^yon/yo>n$
+^kiltsin/kiltsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a91
+# text = Wan ekintsin, nen, yon para neh nik..., ompa ne nikitak, pos, kwaltsin welik.
+# text[orig] = Wa:n ekintsi:n, ne:n, yo:n para neh nik..., ompa ne: nikitak, pos, kwaltsi:n we:lik.
+# text[spa] = Y entonces este para..., yo lo probé pues que es muy sabroso.
+# text[a91] = Wa:n ekintsi:n, ne:n, yo:n para neh nik...,
+# text[a92] = ompa ne: nikitak, pos,
+# text[a93] = kwaltsi:n we:lik.
+# labels = a91 a92 a93 sentence
+^Wan/Wan$
+^ekintsin/ekintsin$
+^,/,$
+^nen/nen$
+^,/,$
+^yon/yo>n$
+^para/para$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^ompa/ompa$
+^ne/ne$
+^nikitak/nikitak$
+^,/,$
+^pos/pos$
+^,/,$
+^kwaltsin/kwaltsin$
+^welik/welik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a94
+# text = Kwaltsin welik nijon, nijon kilit, kilit nijon.
+# text[orig] = Kwaltsi:n we:lik nijó:n, nijó:n kilit, kilit nijó:n.
+# text[spa] = Así queda muy sabrosa esa comida, de quelites, esos quelites.
+# text[a94] = Kwaltsi:n we:lik nijó:n,
+# text[a95] = nijó:n kilit, kilit nijó:n.
+# labels = a94 a95 sentence
+^Kwaltsin/Kwaltsin$
+^welik/welik$
+^nijon/nijon$
+^,/,$
+^nijon/nijon$
+^kilit/kilit$
+^,/,$
+^kilit/kilit$
+^nijon/nijon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a96
+# text = Yon kemah nochi, nochi se kikwa.
+# text[orig] = Yo:n ke:mah nochi, nochi se: kikwa.
+# text[spa] = Así es, se comen todos así.
+# labels = a96 sentence
+^Yon/Yon$
+^kemah/kemah$
+^nochi/nochi$
+^,/,$
+^nochi/nochi$
+^se/se$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a97
+# text = De sehselik se kikwa hasta n' i..., n' ikowyotsin.
+# text[orig] = De sehselik se: kikwa *hasta** n' i..., n' ikowyotsi:n.
+# text[spa] = Los quelites tiernos se les puede comer hasta los ta..., tallos.
+# labels = a97 sentence
+^De/De$
+^sehselik/sehselik$
+^se/se$
+^kikwa/kikwa$
+^hasta/hasta$
+^n'/n'$
+^i.../i...$
+^,/,$
+^n'/n'$
+^ikowyotsin/ikowyotsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a98
+# text = Yon de sehselik, pero de chikawak amo wel se kikwa porque takwawak siempre.
+# text[orig] = Yo:n de sehselik, pero de chika:wak a:mo wel se: kikwa *porque** takwa:wak *siempre**.
+# text[spa] = Al estar tiernos son buenos, pero cuando cuando los quelites ya están pasados no se pueden comer con el tallo están son duros.
+# labels = a98 sentence
+^Yon/Yon$
+^de/de$
+^sehselik/sehselik$
+^,/,$
+^pero/pero$
+^de/de$
+^chikawak/chikawak$
+^amo/amo$
+^wel/wel$
+^se/se$
+^kikwa/kikwa$
+^porque/porque$
+^takwawak/takwawak$
+^siempre/siempre$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a99
+# text = Pero de sehselik nochi se kikwa, pero cuando ayamo, ta yon no teyowa.
+# text[orig] = Pero de sehselik nochi se: kikwa, *pero cuando** aya:mo, ta: yo:n no: teyowa.
+# text[spa] = Pero cuando están tiernos se aprovecha, cuando todavía no, cuando todavía no producen semillas.
+# text[a99] = Pero de sehselik nochi se: kikwa,
+# text[a100] = *pero cuando** aya:mo, ta: yo:n no: teyowa.
+# labels = a100 a99 sentence
+^Pero/Pero$
+^de/de$
+^sehselik/sehselik$
+^nochi/nochi$
+^se/se$
+^kikwa/kikwa$
+^,/,$
+^pero/pero$
+^cuando/cuando$
+^ayamo/ayamo$
+^,/,$
+^ta/ta$
+^yon/yo>n$
+^no/no$
+^teyowa/teyowa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a101
+# text = De teyowa amo igual welik.
+# text[orig] = De teyowa a:mo *igual** we:lik.
+# text[spa] = Cuando ya tienen semillas ya tienen el mismo sabor.
+# labels = a101 sentence
+^De/De$
+^teyowa/teyowa$
+^amo/amo$
+^igual/igual$
+^welik/welik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a102
+# text = Amo igual porque momanelowa iwan, nen, komo kimanah momanelowa n' i..., iwan iteyo.
+# text[orig] = A:mo *igual porque** moma:nelowa iwa:n, ne:n, komo kimanah moma:nelowa n' i..., iwa:n iteyo.
+# text[spa] = Ya no es igual porque los quelites se mezclan este con, cuando hierven se mezclan con las..., semillas.
+# text[a102] = A:mo *igual porque** moma:nelowa iwa:n, ne:n,
+# text[a103] = komo kimanah moma:nelowa n' i..., iwa:n iteyo.
+# labels = a102 a103 sentence
+^Amo/Amo$
+^igual/igual$
+^porque/porque$
+^momanelowa/momanelowa$
+^iwan/iwan$
+^,/,$
+^nen/nen$
+^,/,$
+^komo/komo$
+^kimanah/kimanah$
+^momanelowa/momanelowa$
+^n'/n'$
+^i.../i...$
+^,/,$
+^iwan/iwan$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a104
+# text = Pos amo igual, nen, welik siempre. Yon no kiektiah porque, de chikawak seki pos ki..., seki o..., no kimanah iwan iteyo, pos momanelowa ya, tilewi nen tapalol. Wan yon, yon n' i..., n' istak pos yon, iayotsin amo, amo mopata, istak.
+# text[orig] = Pos a:mo *igual**, ne:n, we:lik *siempre**. Yo:n no: kie:ktiah *porque**, de chika:wak seki pos ki..., seki o..., no: kimanah iwa:n iteyo, pos moma:nelowa ya, ti:le:wi ne:n tapalo:l. Wa:n yo:n, yo:n n' i..., n' ista:k pos yo:n, ia:yotsi:n a:mo, a:mo mopata, ista:k.
+# text[spa] = Pues el quelite ya no tiene el mismo sabor. También lo limpian porque, si ya están recios pues al..., hervirlos junto con las semillas se mezcla y queda de color negra la comida. Y el quelite blan..., blanco pues este, el caldo no cambia de color, así sigue siendo de color blanco.
+# text[a104] = Pos a:mo *igual**, ne:n, we:lik *siempre**. Yo:n no: kie:ktiah *porque**,
+# text[a105] = de chika:wak seki pos ki...,
+# text[a106] = seki o..., no: kimanah
+# text[a107] = iwa:n iteyo, pos moma:nelowa ya, ti:le:wi ne:n
+# text[a108] = tapalo:l. Wa:n yo:n,
+# text[a109] = yo:n n' i..., n' ista:k pos yo:n,
+# text[a110] = ia:yotsi:n a:mo, a:mo mopata, ista:k.
+# labels = a104 a105 a106 a107 a108 a109 a110 sentence
+^Pos/Pos$
+^amo/amo$
+^igual/igual$
+^,/,$
+^nen/nen$
+^,/,$
+^welik/welik$
+^siempre/siempre$
+^./.$
+^Yon/Yon$
+^no/no$
+^kiektiah/kiektiah$
+^porque/porque$
+^,/,$
+^de/de$
+^chikawak/chikawak$
+^seki/seki$
+^pos/pos$
+^ki.../ki...$
+^,/,$
+^seki/seki$
+^o.../o...$
+^,/,$
+^no/no$
+^kimanah/kimanah$
+^iwan/iwan$
+^iteyo/iteyo$
+^,/,$
+^pos/pos$
+^momanelowa/momanelowa$
+^ya/ya$
+^,/,$
+^tilewi/tilewi$
+^nen/nen$
+^tapalol/tapalol$
+^./.$
+^Wan/Wan$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^n'/n'$
+^i.../i...$
+^,/,$
+^n'/n'$
+^istak/istak$
+^pos/pos$
+^yon/yo>n$
+^,/,$
+^iayotsin/iayotsin$
+^amo/amo$
+^,/,$
+^amo/amo$
+^mopata/mopata$
+^,/,$
+^istak/istak$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a111
+# text = Pero nen chichiltik, nen chichiltik, pos yon nochi hasta chichilewi nen atsin.
+# text[orig] = Pero ne:n chi:chi:ltik, ne:n chi:chi:ltik, pos yo:n nochi *hasta** chi:chi:le:wi ne:n a:tsí:n.
+# text[spa] = Pero el caldo del quelite de color rojo, este queda así de color rojo, el caldo queda todo así de color rojo.
+# text[a111] = Pero ne:n chi:chi:ltik, ne:n
+# text[a112] = chi:chi:ltik,
+# text[a113] = pos yo:n nochi *hasta** chi:chi:le:wi ne:n a:tsí:n.
+# labels = a111 a112 a113 sentence
+^Pero/Pero$
+^nen/nen$
+^chichiltik/chichiltik$
+^,/,$
+^nen/nen$
+^chichiltik/chichiltik$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^nochi/nochi$
+^hasta/hasta$
+^chichilewi/chichilewi$
+^nen/nen$
+^atsin/atsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a114
+# text = Chichilewi.
+# text[orig] = Chi:chi:le:wi.
+# text[spa] = Es rojo.
+# labels = a114 sentence
+^Chichilewi/Chichilewi$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a115
+# text = Nen atsin ki..., mas kitaliliah n' is...., porque yon nochi chichiltik n' imayo, de n' ikowyotsin hasta, hasta ahko,nochi no chichiltik.
+# text[orig] = Ne:n a:tsí:n ki..., ma:s kita:liliah n' is...., *porque** yo:n nochi chi:chi:ltik n' ima:yo, de n' ikowyotsi:n *hasta, hasta** ahko,nochi no: chi:chi:ltik.
+# text[spa] = El agua le..., le echan es..., porque las hojas del quelite son rojas, todo el tallo es de color ojo hasta la punta.
+# text[a115] = Ne:n a:tsí:n ki..., ma:s kita:liliah n' is....,
+# text[a116] = *porque** yo:n nochi chi:chi:ltik n' ima:yo,
+# text[a117] = de n' ikowyotsi:n *hasta, hasta** ahko,nochi no: chi:chi:ltik.
+# labels = a115 a116 a117 sentence
+^Nen/Nen$
+^atsin/atsin$
+^ki.../ki...$
+^,/,$
+^mas/mas$
+^kitaliliah/kitaliliah$
+^n'/n'$
+^is.../is...$
+^./.$
+^,/,$
+^porque/porque$
+^yon/yo>n$
+^nochi/nochi$
+^chichiltik/chichiltik$
+^n'/n'$
+^imayo/imayo$
+^,/,$
+^de/de$
+^n'/n'$
+^ikowyotsin/ikowyotsin$
+^hasta/hasta$
+^,/,$
+^hasta/hasta$
+^ahko/ahko$
+^nochi/nochi$
+^no/no$
+^chichiltik/chichiltik$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a118
+# text = Entos de que kimanah ya ne, nochi chichilewi n' atsin. Chichilewi.
+# text[orig] = Entó:s *de que** kimanah ya ne:, nochi chi:chi:le:wi n' a:tsí:n. Chi:chi:le:wi.
+# text[spa] = Entonces cuando hierven, el caldo se convierte en rojo. Es de color rojo.
+# text[a118] = Entó:s *de que** kimanah ya ne:,
+# text[a119] = nochi chi:chi:le:wi n' a:tsí:n. Chi:chi:le:wi.
+# labels = a118 a119 sentence
+^Entos/Entos$
+^de/de$
+^que/que$
+^kimanah/kimanah$
+^ya/ya$
+^ne/ne$
+^,/,$
+^nochi/nochi$
+^chichilewi/chichilewi$
+^n'/n'$
+^atsin/atsin$
+^./.$
+^Chichilewi/Chichilewi$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a120
+# text = Wan okse de n' istak yon amo, amo chichilewi, yon pos, ihkon istak mokawa porque amo, amo kipia nen tapal.
+# text[orig] = Wa:n oksé: de n' ista:k yo:n a:mo, a:mo chi:chi:le:wi, yo:n pos, ihkó:n ista:k moka:wa *porque** a:mo, a:mo kipia ne:n tapal.
+# text[spa] = Y el otro de color blanco no se convierte en color rojo, ese pues así queda de color blanco porque no, no tiene un color.
+# text[a120] = Wa:n oksé: de n' ista:k yo:n a:mo, a:mo chi:chi:le:wi, yo:n pos,
+# text[a121] = ihkó:n ista:k moka:wa *porque** a:mo,
+# text[a122] = a:mo kipia ne:n tapal.
+# labels = a120 a121 a122 sentence
+^Wan/Wan$
+^okse/okse$
+^de/de$
+^n'/n'$
+^istak/istak$
+^yon/yo>n$
+^amo/amo$
+^,/,$
+^amo/amo$
+^chichilewi/chichilewi$
+^,/,$
+^yon/yo>n$
+^pos/pos$
+^,/,$
+^ihkon/ihkon$
+^istak/istak$
+^mokawa/mokawa$
+^porque/porque$
+^amo/amo$
+^,/,$
+^amo/amo$
+^kipia/kipia$
+^nen/nen$
+^tapal/tapal$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a123
+# text = Wan in se nen, ait keyeh, tak ki..., ipa ihkon hasta n' ikowyo tak ipa ihkon nen, semilla se kitepewa. Pero seki kihtowah kitokah.
+# text[orig] = Wa:n i:n se: ne:n, a:it ke:yeh, tak ki..., i:pa ihkó:n *hasta** n' ikowyo tak i:pa ihkó:n ne:n, *semilla** se: kitepe:wa. Pero seki kihtowah kito:kah.
+# text[spa] = y el otro pues quien sabe por qué, creo que..., siempre ha sido de ese color hasta el tallo de, creo que así es la semilla cuando se riega. Pero otras personas dicen que la siembran.
+# text[a123] = Wa:n i:n se: ne:n, a:it ke:yeh, tak ki...,
+# text[a124] = i:pa ihkó:n *hasta** n' ikowyo tak i:pa ihkó:n ne:n,
+# text[a125] = *semilla** se: kitepe:wa. Pero seki kihtowah kito:kah.
+# labels = a123 a124 a125 sentence
+^Wan/Wan$
+^in/in$
+^se/se$
+^nen/nen$
+^,/,$
+^ait/ait$
+^keyeh/keyeh$
+^,/,$
+^tak/tak$
+^ki.../ki...$
+^,/,$
+^ipa/ipa$
+^ihkon/ihkon$
+^hasta/hasta$
+^n'/n'$
+^ikowyo/ikowyo$
+^tak/tak$
+^ipa/ipa$
+^ihkon/ihkon$
+^nen/nen$
+^,/,$
+^semilla/semilla$
+^se/se$
+^kitepewa/kitepewa$
+^./.$
+^Pero/Pero$
+^seki/seki$
+^kihtowah/kihtowah$
+^kitokah/kitokah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a126
+# text = Pos neh nik..., neh nikitak ne keman, nen, ki..., kitepewah sah.
+# text[orig] = Pos neh nik..., neh nikitak ne: ke:man, ne:n, ki..., kitepe:wah sah.
+# text[spa] = Pues yo lo..., lo vi hace años, lo..., riegan así en el suelo.
+# labels = a126 sentence
+^Pos/Pos$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^neh/neh$
+^nikitak/nikitak$
+^ne/ne$
+^keman/keman$
+^,/,$
+^nen/nen$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kitepewah/kitepewah$
+^sah/sah$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a127
+# text = Ompa ixwa, kasika se kita ihkon, miak ixwatok tsikitsitsin.
+# text[orig] = Ompa ixwa, ka:siká: se: kita ihkó:n, miak ixwatok tsikitsitsi:n.
+# text[spa] = Ahí nacen las plantas, algunas partes los ve uno así, que están creciendo muchas plantas pequeñas.
+# text[a127] = Ompa ixwa, ka:siká: se: kita ihkó:n,
+# text[a128] = miak ixwatok tsikitsitsi:n.
+# labels = a127 a128 sentence
+^Ompa/Ompa$
+^ixwa/ixwa$
+^,/,$
+^kasika/kasika$
+^se/se$
+^kita/kita$
+^ihkon/ihkon$
+^,/,$
+^miak/miak$
+^ixwatok/ixwatok$
+^tsikitsitsin/tsikitsitsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a129
+# text = Ompa se kikwihkwi wan se ki..., se kwika ya no.
+# text[orig] = Ompa se: kikwihkwi wa:n se: ki..., se: kwi:ka ya no:.
+# text[spa] = Ahí los corta uno y se..., llevan a la casa también.
+# labels = a129 sentence
+^Ompa/Ompa$
+^se/se$
+^kikwihkwi/kikwihkwi$
+^wan/wan$
+^se/se$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kwika/kwika$
+^ya/ya$
+^no/no$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a130
+# text = Pos yehwa yon neh nik..., nik..., yehwa yon neh nikmattok. Mm.
+# text[orig] = Pos yehwa yo:n neh nik..., nik..., yehwa yo:n neh nikmattok. Mm.
+# text[spa] = Pues eso es lo que yo lo..., lo..., lo sé. Mm.
+# text[a130] = Pos yehwa yo:n neh nik..., nik...,
+# text[a131] = yehwa yo:n neh nikmattok. Mm.
+# labels = a130 a131 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^yon/yo>n$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^nik.../nik...$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^neh/neh$
+^nikmattok/nikmattok$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a134
+# text = Pos de n' chichiltik ihkon yowi, wan ihkon mopampilowa tepitsin.
+# text[orig] = Pos de n' chi:chi:ltik ihkó:n yowi, wa:n ihkó:n mopampilowa tepitsi:n.
+# text[spa] = Pues el de color rojo crece así hacia arriba y después de florear se cuelga hacia abajo un poco.
+# text[a134] = Pos de n' chi:chi:ltik ihkó:n yowi,
+# text[a135] = wa:n ihkó:n mopampilowa tepitsi:n.
+# labels = a134 a135 sentence
+^Pos/Pos$
+^de/de$
+^n'/n'$
+^chichiltik/chichiltik$
+^ihkon/ihkon$
+^yowi/yowi$
+^,/,$
+^wan/wan$
+^ihkon/ihkon$
+^mopampilowa/mopampilowa$
+^tepitsin/tepitsin$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a136
+# text = Wan okse, nen, pos nikitaya nen de n' istak, yeh no igual ihkon pankisa.
+# text[orig] = Wa:n oksé, ne:n, pos nikitaya ne:n de n' ista:k, yeh no: *igual** ihkó:n panki:sa.
+# text[spa] = Y otro que es, yo veía que el de color blanco, es igual, crece hacía arriba.
+# text[a136] = Wa:n oksé, ne:n,
+# text[a137] = pos nikitaya ne:n de n' ista:k,
+# text[a138] = yeh no: *igual** ihkó:n panki:sa.
+# labels = a136 a137 a138 sentence
+^Wan/Wan$
+^okse/okse$
+^,/,$
+^nen/nen$
+^,/,$
+^pos/pos$
+^nikitaya/nikitaya$
+^nen/nen$
+^de/de$
+^n'/n'$
+^istak/istak$
+^,/,$
+^yeh/yeh$
+^no/no$
+^igual/igual$
+^ihkon/ihkon$
+^pankisa/pankisa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a139
+# text = Pankisa kwa..., de que ihkon wan ihkon motekpantiw n' iteyo.
+# text[orig] = Pa:nki:sa kwa:..., *de que** ihkó:n wa:n ihkó:n motekpa:ntiw n' iteyo.
+# text[spa] = Crece hacia arriba de..., sus semillas se van formando en hileras.
+# labels = a139 sentence
+^Pankisa/Pankisa$
+^kwa.../kwa...$
+^,/,$
+^de/de$
+^que/que$
+^ihkon/ihkon$
+^wan/wan$
+^ihkon/ihkon$
+^motekpantiw/motekpantiw$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a140
+# text = Motekpantiw kwaltsin ihkon.
+# text[orig] = Motekpa:ntiw kwaltsi:n ihkó:n.
+# text[spa] = Se van produciendo así.
+# labels = a140 sentence
+^Motekpantiw/Motekpantiw$
+^kwaltsin/kwaltsin$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a141
+# text = Entos de chik..., chikawaya ihkon mopilowa ihkon.
+# text[orig] = Entó:s de chik..., chika:waya ihkó:n mopilowa ihkó:n.
+# text[spa] = Entonces cuando las semillas ma..., maduran se cuelgan así hacia abajo.
+# labels = a141 sentence
+^Entos/Entos$
+^de/de$
+^chik.../chik...$
+^,/,$
+^chikawaya/chikawaya$
+^ihkon/ihkon$
+^mopilowa/mopilowa$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a142
+# text = Wan okse pos no, no igual, ihkon nas..., nakasikayowi ihkon.
+# text[orig] = Wa:n oksé: pos no:, no: *igual**, ihkó:n nas..., nakasikayowi ihkó:n.
+# text[spa] = Y el otro pues también es igual, así se va..., de lado hacia abajo.
+# labels = a142 sentence
+^Wan/Wan$
+^okse/okse$
+^pos/pos$
+^no/no$
+^,/,$
+^no/no$
+^igual/igual$
+^,/,$
+^ihkon/ihkon$
+^nas/nas$
+^.../...$
+^,/,$
+^nakasikayowi/nakasikayowi$
+^ihkon/ihkon$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a143
+# text = Nijon amo, tak kitani de n' iteyo.
+# text[orig] = Nijó:n a:mo, tak kita:ni de n' iteyo.
+# text[spa] = Este no, yo creo que por el peso de las semillas.
+# labels = a143 sentence
+^Nijon/Nijon$
+^amo/amo$
+^,/,$
+^tak/tak$
+^kitani/kitani$
+^de/de$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a144
+# text = N' iteyo ne kitani porque kipia ne ihkon, nen, miak n' iteyo pos kemeh eskia ihkon no mo..., no kwika.
+# text[orig] = N' iteyo ne: kita:ni *porque** kipia ne: ihkó:n, ne:n, miak n' iteyo pos ke:meh eskia ihkó:n no: mo..., no: kwi:ka.
+# text[spa] = He visto que así se va de lado por sus semillas, porque produce muchas semillas así se..., se cuelga.
+# labels = a144 sentence
+^N'/N'$
+^iteyo/iteyo$
+^ne/ne$
+^kitani/kitani$
+^porque/porque$
+^kipia/kipia$
+^ne/ne$
+^ihkon/ihkon$
+^,/,$
+^nen/nen$
+^,/,$
+^miak/miak$
+^n'/n'$
+^iteyo/iteyo$
+^pos/pos$
+^kemeh/kemeh$
+^eskia/eskia$
+^ihkon/ihkon$
+^no/no$
+^mo.../mo...$
+^,/,$
+^no/no$
+^kwika/kwika$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a145
+# text = Maski moketsa ihkon, pero siempre ki..., kitani, ihkon mixpilowa.
+# text[orig] = Ma:ski moketsa ihkó:n, *pero siempre** ki..., kita:ni, ihkó:n mi:xpilowa.
+# text[spa] = La mata crece erecta, pero siempre sel va..., de lado.
+# labels = a145 sentence
+^Maski/Maski$
+^moketsa/moketsa$
+^ihkon/ihkon$
+^,/,$
+^pero/pero$
+^siempre/siempre$
+^ki.../ki...$
+^,/,$
+^kitani/kitani$
+^,/,$
+^ihkon/ihkon$
+^mixpilowa/mixpilowa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a146
+# text = Kemah, yehwa yon neh nik..., Pos n' iteyo nijon amo, amo keman tikitah mah, mah se kikwa, o mah se kita kikwa chiktehtsin, amo.
+# text[orig] = Ke:mah, yehwa yo:n neh nik..., Pos n' iteyo nijó:n a:mo, a:mo ke:man tikitah mah, mah se: kikwa, *o** mah se: kita kikwa chiktehtsi:n, a:mo.
+# text[spa] = Así es, eso es lo que yo lo..., Pues las semillas nunca, nunca he visto que alguien las consuma, o que uno vea que se coman los pájaros, no.
+# text[a146] = Ke:mah, yehwa yo:n neh nik...,
+# text[a148] = Pos n' iteyo nijó:n a:mo, a:mo ke:man tikitah mah, mah se: kikwa,
+# text[a149] = *o** mah se: kita kikwa chiktehtsi:n, a:mo.
+# labels = a146 a148 a149 sentence
+^Kemah/Kemah$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^neh/neh$
+^nik.../nik...$
+^,/,$
+^Pos/Pos$
+^n'/n'$
+^iteyo/iteyo$
+^nijon/nijon$
+^amo/amo$
+^,/,$
+^amo/amo$
+^keman/keman$
+^tikitah/tikitah$
+^mah/mah$
+^,/,$
+^mah/mah$
+^se/se$
+^kikwa/kikwa$
+^,/,$
+^o/o$
+^mah/mah$
+^se/se$
+^kita/kita$
+^kikwa/kikwa$
+^chiktehtsin/chiktehtsin$
+^,/,$
+^amo/amo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a150
+# text = I..., ihkon xini wan tatampa ya de nen, ixwa, n' iteyo.
+# text[orig] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa, n' iteyo.
+# text[spa] = A..., así caen al suelo y germinan después las semillas.
+# text[a150] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa,
+# text[a151] = n' iteyo.
+# labels = a150 a151 sentence
+^I.../I...$
+^,/,$
+^ihkon/ihkon$
+^xini/xini$
+^wan/wan$
+^tatampa/tatampa$
+^ya/ya$
+^de/de$
+^nen/nen$
+^,/,$
+^ixwa/ixwa$
+^,/,$
+^n'/n'$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a152
+# text = Yon ixwa.
+# text[orig] = Yo:n ixwa.
+# text[spa] = Las  semillas germinan.
+# labels = a152 sentence
+^Yon/Yon$
+^ixwa/ixwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a153
+# text = Wan amo keman nikita mah kikwa, nen, se kikwa.
+# text[orig] = Wa:n a:mo ke:man nikita mah kikwa, ne:n, se: kikwa.
+# text[spa] = Y nunca veo que se consuman o que alguien las consuma.
+# labels = a153 sentence
+^Wan/Wan$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^mah/mah$
+^kikwa/kikwa$
+^,/,$
+^nen/nen$
+^,/,$
+^se/se$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a154
+# text = Yehwa sah, nen, se kikwa, nen,.... Yon amo nikihtos tikihkixtilitih n' imayo sah, yon nochi se kikwa.
+# text[orig] = Yehwa sah, ne:n, se: kikwa, ne:n, .... Yo:n a:mo nikihto:s tikihki:xtili:tih n' ima:yo sah, yo:n nochi se: kikwa.
+# text[spa] = Eso es todo, se come el..., Del quelite no solo se consumen las hojas, se come todo.
+# text[a154] = Yehwa sah, ne:n, se: kikwa, ne:n, ....
+# text[a155] = Yo:n a:mo nikihto:s tikihki:xtili:tih n' ima:yo sah,
+# text[a156] = yo:n nochi se: kikwa.
+# labels = a154 a155 a156 sentence
+^Yehwa/Yehwa$
+^sah/sah$
+^,/,$
+^nen/nen$
+^,/,$
+^se/se$
+^kikwa/kikwa$
+^,/,$
+^nen/nen$
+^,/,$
+^.../...$
+^./.$
+^Yon/Yon$
+^amo/amo$
+^nikihtos/nikihtos$
+^tikihkixtilitih/tikihkixtilitih$
+^n'/n'$
+^imayo/imayo$
+^sah/sah$
+^,/,$
+^yon/yo>n$
+^nochi/nochi$
+^se/se$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a157
+# text = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se kikwa.
+# text[orig] = Nochi de n' ikowyo komo seh..., sehselik, pos nochi se: kikwa.
+# text[spa] = Se come hasta el tallo si los quelites están tier..., tiernos, se come todo.
+# text[a157] = Nochi de n' ikowyo komo seh..., sehselik,
+# text[a158] = pos nochi se: kikwa.
+# labels = a157 a158 sentence
+^Nochi/Nochi$
+^de/de$
+^n'/n'$
+^ikowyo/ikowyo$
+^komo/komo$
+^seh/seh$
+^.../...$
+^,/,$
+^sehselik/sehselik$
+^,/,$
+^pos/pos$
+^nochi/nochi$
+^se/se$
+^kikwa/kikwa$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a159
+# text = Nochi, nochi welik. Mm.
+# text[orig] = Nochi, nochi we:lik. Mm.
+# text[spa] = Todo, todo es comestible. Mm.
+# labels = a159 sentence
+^Nochi/Nochi$
+^,/,$
+^nochi/nochi$
+^welik/welik$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a163
+# text = Pos neh nimonotsa Anastacio Nicolas Damian.
+# text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián.
+# text[spa] = Pues yo me llamo Anastacio Nicolás Damián.
+# labels = a163 sentence
+^Pos/Pos$
+^neh/neh$
+^nimonotsa/nimonotsa$
+^Anastacio/Anastacio$
+^Nicolas/Nicolas$
+^Damian/Damian$
+^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a164
+# text = Niwalew de ne xolalpan de San Miguel Tzinacapan.
+# text[orig] = Niwa:le:w de ne: xola:lpan de San Miguel Tzinacapan.
+# text[spa] = Vengo del pueblo de San Miguel Tzinacapan.
+# labels = a164 sentence
+^Niwalew/Niwalew$
+^de/de$
+^ne/ne$
+^xolalpan/xolal>pan$
+^de/de$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^./.$
+
