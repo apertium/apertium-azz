@@ -1,0 +1,3373 @@
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a26
+# text = 'Nechtapohpolwi nanah, neh nimitstahtanisneki de seki xiwtsitsin monotsa mowih, n...., ne, amo nikmati kanachi, kanachi taman de mowih tikixmati n' tehwatsin.
+# text[orig] = 'Ne:chtapohpolwi na:nah, neh nimitstahtani:sneki de seki xiwtsitsí:n mono:tsa mowih, n...., ne:, a:mo nikmati ka:nachi, ka:nachi taman de mowih tiki:xmati n' tehwa:tsi:n.
+# text[spa] = Perdóname doña, te quiero preguntar acerca de alguna hierba que se llama <i>mowih</i>, yo, no sé cuantos, no se cuantos tipos de <i>mowih</i> conoces tú.
+# text[a26] = 'Ne:chtapohpolwi na:nah, neh nimitstahtani:sneki de seki xiwtsitsí:n mono:tsa mowih,
+# text[a27] = n...., ne:, a:mo nikmati ka:nachi, ka:nachi taman de mowih tiki:xmati n' tehwa:tsi:n.
+# labels = a26 a27 sentence
+"<'Nechtapohpolwi>"
+	"*Nechtapohpolwi"
+"<nanah>"
+	"nanaj" n abs
+;	"nanaj" n abs s_pl3
+;	"nanaj" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nimitstahtanisneki>"
+	"tajtania" v tv fut s_sg1 o_sg2
+		"neki" vaux
+"<de>"
+	"de" pr
+"<seki>"
+	"seki" det
+	"seki" prn
+"<xiwtsitsin>"
+	"xihuit" n hon pl
+;	"xihuit" n hon pl s_pl3
+;	"xihuit" n hon pl s_sg3
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<n>"
+	"in" det @det
+"<...>"
+	"..." sent @punct
+"<.>"
+	"." sent @punct
+"<,>"
+	"," cm @punct
+"<ne>"
+	"nehua" prn pers sg1 short
+	"ne" adv
+	"ne" det
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<nikmati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<kanachi>"
+	"kanachi" det @det
+"<,>"
+	"," cm @punct
+"<kanachi>"
+	"kanachi" det @det
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+;	"taman" n abs s_pl3
+;	"taman" n abs s_sg3
+"<de>"
+	"de" pr
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<tikixmati>"
+	"ixmati" v tv pres s_sg2 o_sg3
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tehwatsin>"
+	"tehua" prn pers sg2 hon
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a31
+# text = Pos xkita, es..., tehwan timonemiliah, welis ome taman onkak. Tikmatis keyeh tehwatsin, n' ixiwyo ihkon ya, tamati wan kemeh tein yon, tein yon pisil..., tein yon tikihtowah mapisiltik t..., mowih, yon weh..., yon ihkon sah moskaltia, amo wehkapan moskaltia, wan yoks..., wan okseki yon tein ikow..., ikowyohwehkapan moskaltia, ki..., kixmatih, kixmatih por mowih, por..., n' ihkon tamati n' ixochiotsin wan ixiwyotsin, ihkon ixiwyotsin wan ixochiotsin.
+# text[orig] = Pos xkita, <i>es...</i>, tehwa:n timonemiliah, welis o:me taman onkak. Tikmatis ke:yeh tehwa:tsi:n, n' ixiwyo ihkó:n ya, tamati wa:n ke:meh tein yo:n, tein yo:n pisi:l..., tein yo:n tikihtowah ma:pisi:ltik t..., mowih, yo:n weh..., yo:n ihkó:n sah moskaltia, a:mo wehkapan moskaltia, wa:n yoks..., wa:n okseki yo:n tein ikow..., ikowyohwehkapan moskaltia, ki..., ki:xmatih, ki:xmatih <i>por</i> mowih, <i>por...</i>, n' ihkó:n tamati n' ixo:chiotsi:n wa:n ixiwyotsi:n, ihkó:n ixiwyotsi:n wa:n ixo:chiotsi:n.
+# text[spa] = Pues, ves, este, nosotros pensamos que quizá haya dos tipos. Sabe usted porqué, exactamente, las hojas son, se parecen a los que son de hojas pequeñas. Sí, las que conocemos como de hojas pequeñas..., y el <i>mowih</i>, de las... nomás crece así, de este tamaño, no crece alto, y el otro, el del tronco que crece alto, lo conocen con el nombre de <i>mowih</i>, porque si se paracen las flores y las hojas, así son las hojas y las flores.
+# text[a31] = Pos xkita, <i>es...</i>, tehwa:n timonemiliah,
+# text[a32] = welis o:me taman onkak. Tikmatis ke:yeh tehwa:tsi:n,
+# text[a33] = n' ixiwyo ihkó:n ya,
+# text[a34] = tamati wa:n ke:meh tein yo:n, tein yo:n pisi:l..., tein yo:n tikihtowah ma:pisi:ltik t..., mowih, yo:n weh..., yo:n ihkó:n sah moskaltia, a:mo wehkapan moskaltia,
+# text[a35] = wa:n yoks..., wa:n okseki yo:n tein ikow..., ikowyohwehkapan moskaltia,
+# text[a36] = ki..., ki:xmatih, ki:xmatih <i>por</i> mowih,
+# text[a37] = <i>por...</i>, n' ihkó:n tamati n' ixo:chiotsi:n wa:n ixiwyotsi:n, ihkó:n ixiwyotsi:n wa:n ixo:chiotsi:n.
+# labels = a31 a32 a33 a34 a35 a36 a37 sentence
+"<Pos>"
+	"pos" adv
+"<xkita>"
+	"ita" v tv pres imp s_sg2 o_sg3
+"<,>"
+	"," cm @punct
+"<es>"
+	"es" x
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<tehwan>"
+	"tehuan" prn pers pl1 abs
+	"tehuan" prn pers pl1 short
+	"huan" n rel px3aa
+"<timonemiliah>"
+	"nemilia" v tv pres s_pl1 o_ref
+"<,>"
+	"," cm @punct
+"<welis>"
+	"hueli" vaux fut
+	"hueli" v iv fut s_sg3
+"<ome>"
+	"ome" num
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+	"taman" n abs s_sg3
+;	"taman" n abs s_pl3
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<.>"
+	"." sent @punct
+"<Tikmatis>"
+	"mati" v tv fut s_sg2 o_sg3
+"<keyeh>"
+	"keyej" adv itg
+"<tehwatsin>"
+	"tehua" prn pers sg2 hon
+"<,>"
+	"," cm @punct
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<ixiwyo>"
+	"xiuyo" n px3sg
+	"xiuyo" n pl px3sg
+"<ihkon>"
+	"ijkon" adv
+"<ya>"
+	"ya" adv
+"<,>"
+	"," cm @punct
+"<tamati>"
+	"tamati" v iv pres s_sg3
+	"mati" v tv pres s_sg3 o_nn
+"<wan>"
+	"huan" cnjcoo @cc
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<tein>"
+	"tein" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<,>"
+	"," cm @punct
+"<tein>"
+	"tein" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<pisil>"
+	"*pisil"
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<tein>"
+	"tein" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tikihtowah>"
+	"ijtohua" v tv pres s_pl1 o_sg3
+"<mapisiltik>"
+	"mapisiltik" adj
+	"mapisiltik" adj s_sg3
+"<t...>"
+	"t" x @reparandum
+"<,>"
+	"," cm @punct
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<weh>"
+	"huej" mod
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<ihkon>"
+	"ijkon" adv
+"<sah>"
+	"saj" adv
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<wehkapan>"
+	"huejkapan" adj
+	"huejkapan" adj s_sg3
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<yoks>"
+	"*yoks"
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<okseki>"
+	"okse" det pl @det
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tein>"
+	"tein" prn
+"<ikow>"
+	"kohuit" n px3sg
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<ikowyohwehkapan>"
+	"*ikowyohwehkapan"
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<ki...>"
+	"ki" x @reparandum
+"<,>"
+	"," cm @punct
+"<kixmatih>"
+	"ixmati" v tv pres s_pl3 o_sg3
+	"ixmati" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<kixmatih>"
+	"ixmati" v tv pres s_pl3 o_sg3
+	"ixmati" v tv pret s_sg3 o_sg3
+"<por>"
+	"por" pr
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<por>"
+	"por" pr
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<ihkon>"
+	"ijkon" adv
+"<tamati>"
+	"tamati" v iv pres s_sg3
+	"mati" v tv pres s_sg3 o_nn
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<wan>"
+	"huan" cnjcoo @cc
+"<ixiwyotsin>"
+	"xiuyo" n hon px3sg
+"<,>"
+	"," cm @punct
+"<ihkon>"
+	"ijkon" adv
+"<ixiwyotsin>"
+	"xiuyo" n hon px3sg
+"<wan>"
+	"huan" cnjcoo @cc
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a39
+# text = Sayoh ne por, tak n' tepitsin kipata porin moskaltia mas wehkapan, wan kowyoh. Kowyohtomawak.
+# text[orig] = Sayoh ne: <i>por</i>, tak n' tepitsi:n kipata porin moskaltia <i>más</i> wehkapan, wa:n kowyoh. Kowyohtoma:wak.
+# text[spa] = Quizá diferencía un poco porque crece más alto que el otro y el tronco es más grueso.
+# text[a39] = Sayoh ne: <i>por</i>, tak n' tepitsi:n kipata porin moskaltia <i>más</i> wehkapan,
+# text[a40] = wa:n kowyoh. Kowyohtoma:wak.
+# labels = a39 a40 sentence
+"<Sayoh>"
+	"sayoj" adv
+"<ne>"
+	"nehua" prn pers sg1 short
+	"ne" adv
+	"ne" det
+"<por>"
+	"por" pr
+"<,>"
+	"," cm @punct
+"<tak>"
+	"tak" adv
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tepitsin>"
+	"tepitsin" adv
+"<kipata>"
+	"pata" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 pan
+"<porin>"
+	"porin" cnjsub @mark
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<mas>"
+	"más" adv
+"<wehkapan>"
+	"huejkapan" adj
+	"huejkapan" adj s_sg3
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<kowyoh>"
+	"*kowyoh"
+"<.>"
+	"." sent @punct
+"<Kowyohtomawak>"
+	"*Kowyohtomawak"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a41
+# text = Wan okseki tein tikilwiah mowih para pahti, bueno yon okseki amo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti, yehwa de yon pisiltik, tein yon tehwan tikilwiah, este, mowih, yon para kikwih para pipiltsitsin, kemeh in tein kipiah, este , kipiah yon se kokolis eliwis tsahtsih.
+# text[orig] = Wa:n okseki tein tikilwiah mowih para pahti, <i>bueno</i> yo:n okseki a:mo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti, yehwa de yo:n pisi:ltik, tein yo:n tehwa:n tikilwiah, <i>este</i>, mowih, yo:n para kikwih para pi:piltsitsi:n, ke:meh i:n tein kipiah, <i>este</i>, kipiah yo:n se: kokolis eliwis tsahtsih.
+# text[spa] = Y el otro, al que le llamamos <i>mowih</i>, que se ocupa para medicina, bueno, la otra planta no sé si la ocupan como medicinal, pero al que conozco, la ocupan para medicina, esa, la de hojas pequeñas, al que nosotros le llamamos <i>mowih</i>, esa, la que ocupan para niños que tienen, tienen una enfermedad rara, los niños lloran desesperadamente.
+# text[a41] = Wa:n okseki tein tikilwiah mowih para pahti, <i>bueno</i> yo:n okseki a:mo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti,
+# text[a42] = yehwa de yo:n pisi:ltik, tein yo:n tehwa:n tikilwiah, <i>este</i>, mowih, yo:n para kikwih para pi:piltsitsi:n, ke:meh i:n tein kipiah, <i>este</i>,
+# text[a43] = kipiah yo:n se: kokolis eliwis tsahtsih.
+# labels = a41 a42 a43 sentence
+"<Wan>"
+	"huan" cnjcoo @cc
+"<okseki>"
+	"okse" det pl @det
+"<tein>"
+	"tein" prn
+"<tikilwiah>"
+	"ilhuia" v tv pres s_pl1 i_sg3 o_sg3
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<bueno>"
+	"buenoj" ij @discourse
+	"bueno" ij @discourse
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<okseki>"
+	"okse" det pl @det
+"<amo>"
+	"amo" adv
+"<nikmati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<ox>"
+	"ox" cnjsub @mark
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<pero>"
+	"pero" cnjcoo @cc
+"<tein>"
+	"tein" prn
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<pisiltik>"
+	"pisiltik" adj
+	"pisiltik" adj s_sg3
+"<,>"
+	"," cm @punct
+"<tein>"
+	"tein" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tehwan>"
+	"tehuan" prn pers pl1 abs
+	"tehuan" prn pers pl1 short
+	"huan" n rel px3aa
+"<tikilwiah>"
+	"ilhuia" v tv pres s_pl1 i_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<este>"
+	"este" ij @discourse
+"<,>"
+	"," cm @punct
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pipiltsitsin>"
+	"pipili" n hon pl
+	"pipil" n hon pl
+;	"pipili" n hon pl s_pl3
+;	"pipil" n hon pl s_pl3
+;	"pipili" n hon pl s_sg3
+;	"pipil" n hon pl s_sg3
+"<,>"
+	"," cm @punct
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<in>"
+	"in" det @det
+"<tein>"
+	"tein" prn
+"<kipiah>"
+	"piya" v tv pres s_pl3 o_sg3
+"<,>"
+	"," cm @punct
+"<este>"
+	"este" ij @discourse
+"<,>"
+	"," cm @punct
+"<kipiah>"
+	"piya" v tv pres s_pl3 o_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<se>"
+	"se" num
+"<kokolis>"
+	"kokolis" n abs
+;	"kokolis" n abs s_pl3
+;	"kokolis" n abs s_sg3
+"<eliwis>"
+	"elihuis" adj
+	"elihuis" adj s_sg3
+"<tsahtsih>"
+	"*tsahtsih"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a44
+# text = Eliwis tsahtsih wan amo kimatih ok toni n..., toni n' kinchiwiliskeh yon hasta tilewih m' pilimeh n' tsahtsih.
+# text[orig] = Eliwis tsahtsih wa:n a:mo kimatih ok toni n..., toni n' kinchi:wili:skeh yo:n <i>hasta</i> ti:le:wih m' pilimeh n' tsahtsih.
+# text[spa] = Lloran desperadamente y no se sabe qué hacer con ellos, de tanto llorar quedan morados.
+# labels = a44 sentence
+"<Eliwis>"
+	"elihuis" adj
+	"elihuis" adj s_sg3
+"<tsahtsih>"
+	"*tsahtsih"
+"<wan>"
+	"huan" cnjcoo @cc
+"<amo>"
+	"amo" adv
+"<kimatih>"
+	"mati" v tv pres s_pl3 o_sg3
+	"mati" v tv pret s_sg3 o_sg3
+"<ok>"
+	"ok" adv
+;	"ok" x
+"<toni>"
+	"toni" prn
+"<n>"
+	"in" det @det
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<toni>"
+	"toni" prn
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kinchiwiliskeh>"
+	"chihuilia" v tv fut s_pl3 o_pl3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<hasta>"
+	"hasta" pr
+"<tilewih>"
+	"tilehui" v iv pres s_pl3
+	"tilehui" v iv pret s_sg3
+"<m>"
+	"m" x
+'
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tsahtsih>"
+	"*tsahtsih"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a45
+# text = Yehwa yon mowih kimolontiah wan tsiktsin kintailtiah wan seki ika kinaltiah.
+# text[orig] = Yehwa yo:n mowih kimolo:ntiah wa:n tsiktsi:n kintai:ltiah wa:n seki ika kina:ltiah.
+# text[spa] = Entonces hierven las hojas del <i>mowih</i> y los bañan con el agua y una poquita les dan de beber.
+# labels = a45 sentence
+"<Yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<kimolontiah>"
+	"molontia" v tv pres s_pl3 o_sg3
+"<wan>"
+	"huan" cnjcoo @cc
+"<tsiktsin>"
+	"tsik" adj hon
+	"tsik" adj hon s_sg3
+"<kintailtiah>"
+	"*kintailtiah"
+"<wan>"
+	"huan" cnjcoo @cc
+"<seki>"
+	"seki" det
+	"seki" prn
+"<ika>"
+	"ka" n rel px3sg
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a46
+# text = Yehwa yon neh nikmattok monotsa mowih para pahti.
+# text[orig] = Yehwa yo:n neh nikmattok mono:tsa mowih para pahti.
+# text[spa] = Esa es la que yo conozco como mowih y es medicina.
+# labels = a46 sentence
+"<Yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a47
+# text = Wan okse, okse n' taman, kihtowah que mowih yehwa n' tein nimitsilia moskaltia wehkapan, mahya yon se kow... Aja, yehwa yon.
+# text[orig] = Wa:n oksé:, oksé: n' taman, kihtowah <i>que</i> mowih yehwa n' tein nimitsilia moskaltia wehkapan, mahyá: yo:n se: kow... Ajá, yehwa yo:n.
+# text[spa] = Y la otra planta, dicen que es <i>mowih</i> la que te digo que crece más alto, se parece a un... Si, esa es.
+# text[a47] = Wa:n oksé:, oksé: n' taman,
+# text[a48] = kihtowah <i>que</i> mowih
+# text[a49] = yehwa n' tein nimitsilia moskaltia wehkapan, mahyá: yo:n se: kow... Ajá, yehwa yo:n.
+# labels = a47 a48 a49 sentence
+"<Wan>"
+	"huan" cnjcoo @cc
+"<okse>"
+	"okse" det @det
+"<,>"
+	"," cm @punct
+"<okse>"
+	"okse" det @det
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+;	"taman" n abs s_pl3
+;	"taman" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tein>"
+	"tein" prn
+"<nimitsilia>"
+	"ilia" v tv pres s_sg1 o_sg2
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<wehkapan>"
+	"huejkapan" adj
+	"huejkapan" adj s_sg3
+"<,>"
+	"," cm @punct
+"<mahya>"
+	"majya" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<se>"
+	"se" num
+"<kow...>"
+	"kou" x @reparandum
+"<Aja>"
+	"aja" ij @discourse
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a58
+# text = Okse tatsintokalis nanah, neh n'neki nimitstahtanis wan yon mowih keniw n' kitokah, ox i..., kipia iteyo o kowtsin o keniw n' takts..., keniw n' kitaktsontaliah, yehwa neh nikmatisneki.
+# text[orig] = Oksé: tatsi:ntokalis na:nah, neh n'neki nimitstahtani:s wa:n yo:n mowih ke:ní:w n' kito:kah, ox i..., kipia iteyo <i>o</i> kowtsí:n <i>o</i> ke:ní:w n' takts..., ke:ní:w n' kitaktsonta:liah, yehwa neh nikmatisneki.
+# text[spa] = Señora, quiero hacerte otra pregunta, ¿Cómo siembran el <i>mowih</i>? Acaso ... tiene semillas o se siembra el tronco o c[omo lo reproducen, es lo que quiero preguntarte.
+# text[a58] = Oksé: tatsi:ntokalis na:nah, neh n'neki nimitstahtani:s wa:n yo:n mowih ke:ní:w n' kito:kah, ox i...,
+# text[a59] = kipia iteyo <i>o</i> kowtsí:n <i>o</i> ke:ní:w n' takts..., ke:ní:w n' kitaktsonta:liah, yehwa neh nikmatisneki.
+# labels = a58 a59 sentence
+"<Okse>"
+	"okse" det @det
+"<tatsintokalis>"
+	"tatsintokalis" n abs
+;	"tatsintokalis" n abs s_pl3
+;	"tatsintokalis" n abs s_sg3
+"<nanah>"
+	"nanaj" n abs
+;	"nanaj" n abs s_pl3
+;	"nanaj" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<n'neki>"
+	"neki" v tv pres s_sg1 o_sg3
+"<nimitstahtanis>"
+	"tajtania" v tv fut s_sg1 o_sg2
+"<wan>"
+	"huan" cnjcoo @cc
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kitokah>"
+	"toka" v tv pres s_pl3 o_sg3
+	"toka" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<i...>"
+	"i" x @reparandum
+"<,>"
+	"," cm @punct
+"<kipia>"
+	"piya" v tv pres s_sg3 o_sg3
+"<iteyo>"
+	"teyo" n px3sg
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<kowtsin>"
+	"kohuit" n hon
+;	"kohuit" n hon s_pl3
+;	"kohuit" n hon s_sg3
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<takts>"
+	"*takts"
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kitaktsontaliah>"
+	"taktsontalia" v tv pres s_pl3 o_sg3
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikmatisneki>"
+	"mati" v tv fut s_sg1 o_sg3
+		"neki" vaux
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a67
+# text = Okse tatsintokalis, neh n'neki nimitstahtanis nanah kemih in tikmati que pahti, keniw n' tikmatik tehwatsin, tikchiwka ya o mitsilwihkeh o, o.... Xa ika timopil..., xa ika ihkon tikitaya aksa ika mopilpahtia wan mitsilwih que tanamiki.
+# text[orig] = Oksé: tatsi:nto:kalis, neh n'neki nimitstahtani:s na:nah ke:mih i:n tikmati <i>que</i> pahti, ke:ní:w n' tikmatik tehwa:tsi:n, tikchi:wka ya <i>o</i> mitsilwihkeh <i>o, o</i> .... Xa: ika timopil..., xa: ika ihkó:n tikitaya a:ksá: ika mopilpahtia wa:n mitsilwih <i>que</i> tana:miki.
+# text[spa] = Quiero preguntarte otra cosa señora señora, pues tu sabes que esta planta es medicinal, ¿Cómo te enteraste, ya lo habías hecho o solamente te contaron? o, Quizá con eso ... quizá alguna vez alguien lo ocupó para curar a su niño y te contó que es buena para medicina.
+# text[a67] = Oksé: tatsi:nto:kalis, neh n'neki nimitstahtani:s na:nah ke:mih i:n tikmati <i>que</i> pahti, ke:ní:w n' tikmatik tehwa:tsi:n, tikchi:wka ya <i>o</i> mitsilwihkeh <i>o, o</i> ....
+# text[a68] = Xa: ika timopil..., xa: ika ihkó:n tikitaya a:ksá: ika mopilpahtia wa:n mitsilwih <i>que</i> tana:miki.
+# labels = a67 a68 sentence
+"<Okse>"
+	"okse" det @det
+"<tatsintokalis>"
+	"tatsintokalis" n abs
+;	"tatsintokalis" n abs s_pl3
+;	"tatsintokalis" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<n'neki>"
+	"neki" v tv pres s_sg1 o_sg3
+"<nimitstahtanis>"
+	"tajtania" v tv fut s_sg1 o_sg2
+"<nanah>"
+	"nanaj" n abs
+;	"nanaj" n abs s_pl3
+;	"nanaj" n abs s_sg3
+"<kemih>"
+	"kemij" adv
+"<in>"
+	"in" det @det
+"<tikmati>"
+	"mati" v tv pres s_sg2 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<keniw>"
+	"keni" adv itg
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tikmatik>"
+	"mati" v tv pret s_sg2 o_sg3
+"<tehwatsin>"
+	"tehua" prn pers sg2 hon
+"<,>"
+	"," cm @punct
+"<tikchiwka>"
+	"chia" v tv plu s_sg2 o_sg3
+"<ya>"
+	"ya" adv
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<mitsilwihkeh>"
+	"ilhuia" v tv pret s_pl3 i_sg2 o_sg3
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<,>"
+	"," cm @punct
+"<o...>"
+	"oj" x @reparandum
+"<.>"
+	"." sent @punct
+"<Xa>"
+	"xa" adv
+"<ika>"
+	"ka" n rel px3sg
+"<timopil>"
+	"*timopil"
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<xa>"
+	"xa" adv
+"<ika>"
+	"ka" n rel px3sg
+"<ihkon>"
+	"ijkon" adv
+"<tikitaya>"
+	"ita" v tv impf s_sg2 o_sg3
+"<aksa>"
+	"aksa" prn
+"<ika>"
+	"ka" n rel px3sg
+"<mopilpahtia>"
+	"*mopilpahtia"
+"<wan>"
+	"huan" cnjcoo @cc
+"<mitsilwih>"
+	"ilhuia" v tv pret s_sg3 i_sg2 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<tanamiki>"
+	"namiki" v tv pres s_sg3 o_nn
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a69
+# text = Yehwa yon neh nikahsikamatisnekia.
+# text[orig] = Yehwa yo:n neh nikahsika:matisnekia.
+# text[spa] = Eso es lo que yo quería saber.
+# labels = a69 sentence
+"<Yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikahsikamatisnekia>"
+	"*nikahsikamatisnekia"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a70
+# text = Neh kemeh ni..., kemeh nitatah pos neh nikaki sayoh ki..., kihtowah que pahti, nechtapowia ne no..., nosiwaw que pahti.
+# text[orig] = Neh ke:meh ni..., ke:meh nita:tah pos neh nikaki sayoh ki..., kihtowah <i>que</i> pahti, ne:chtapowia ne: no..., nosiwa:w <i>que</i> pahti.
+# text[spa] = Pues yo como..., como soy hombre, solamente he escuchado que es medicinal, mi esposa me lo ha contado que es medicinal.
+# labels = a70 sentence
+"<Neh>"
+	"nehua" prn pers sg1 short
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<ni...>"
+	"ni" x @reparandum
+"<,>"
+	"," cm @punct
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<nitatah>"
+	"in" det
+		"tataj" n abs px3sg
+	"tataj" n px3sg
+	"tataj" n abs s_sg1
+	"ita" v tv pret s_sg1 o_nn
+"<pos>"
+	"pos" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikaki>"
+	"kaki" v iv pres s_sg1
+"<sayoh>"
+	"sayoj" adv
+"<ki...>"
+	"ki" x @reparandum
+"<,>"
+	"," cm @punct
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<nechtapowia>"
+	"pohui" v tv impf s_sg3 i_sg1 o_nn
+	"tapohui" v tv impf s_sg3 o_sg1
+"<ne>"
+	"nehua" prn pers sg1 short
+	"ne" adv
+	"ne" det
+"<no...>"
+	"no" x @reparandum
+"<,>"
+	"," cm @punct
+"<nosiwaw>"
+	"sihuat" n px1sg
+"<que>"
+	"que" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a71
+# text = Pos amo nikma..., amo nikyekahsika..., nikyekahsikatatsintokihtok kwali keniw, ox ki..., ox neli n' kinamikik, ox kichiwka ya, o xa sayoh no kitekakilih.
+# text[orig] = Pos a:mo nikma..., a:mo nikye:kahsika:..., nikye:kahsika:tatsi:ntokihtok kwali ke:ní:w, ox ki..., ox neli n' kina:mikik, ox kichi:wka ya, <i>o</i> xa sayoh no: kite:kakilih.
+# text[spa] = Pues no ..., no le..., le he preguntado muy bien, si es verdad que lo haya sanado, si ya lo comprobó, o quizà solamente lo escuchó de otra persona.
+# text[a71] = Pos a:mo nikma..., a:mo nikye:kahsika:..., nikye:kahsika:tatsi:ntokihtok kwali ke:ní:w,
+# text[a72] = ox ki..., ox neli n' kina:mikik, ox kichi:wka ya,
+# text[a73] = <i>o</i> xa sayoh no: kite:kakilih.
+# labels = a71 a72 a73 sentence
+"<Pos>"
+	"pos" adv
+"<amo>"
+	"amo" adv
+"<nikma...>"
+	"nikma" x @reparandum
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<nikyekahsika>"
+	"ajsi" v tv plu s_sg1 o_sg3 yek
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<nikyekahsikatatsintokihtok>"
+	"*nikyekahsikatatsintokihtok"
+"<kwali>"
+	"kuali" adj
+	"kuali" adv
+	"kuali" adj s_sg3
+"<keniw>"
+	"keni" adv itg
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<ki...>"
+	"ki" x @reparandum
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<neli>"
+	"neli" adv
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kinamikik>"
+	"namiki" v tv pret s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<kichiwka>"
+	"chia" v tv plu s_sg3 o_sg3
+"<ya>"
+	"ya" adv
+"<,>"
+	"," cm @punct
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<xa>"
+	"xa" adv
+"<sayoh>"
+	"sayoj" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<kitekakilih>"
+	"*kitekakilih"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a74
+# text = Wan tehwatsin nimitstahtanisneki kox xa no 'te..., 'tekakilih sah, ox, ox tik..., neli tik..., neli kichiwkah ya moteiskaltihkawan o keniw yon.
+# text[orig] = Wa:n tehwa:tsi:n nimitstahtani:sneki kox xa: no: 'te:..., 'te:kakilih sah, ox, ox tik..., neli tik..., neli kichi:wkah ya mote:iskaltihka:wa:n <i>o</i> ke:ní:w yo:n.
+# text[spa] = Y a usted quiero preguntarle si solamente has escuchado o..., o tus padres ya lo había hecho o cómo es eso.
+# text[a74] = Wa:n tehwa:tsi:n nimitstahtani:sneki kox xa: no: 'te:..., 'te:kakilih sah, ox, ox tik...,
+# text[a75] = neli tik..., neli kichi:wkah ya mote:iskaltihka:wa:n <i>o</i> ke:ní:w yo:n.
+# labels = a74 a75 sentence
+"<Wan>"
+	"huan" cnjcoo @cc
+"<tehwatsin>"
+	"tehua" prn pers sg2 hon
+"<nimitstahtanisneki>"
+	"tajtania" v tv fut s_sg1 o_sg2
+		"neki" vaux
+"<kox>"
+	"kox" cnjsub @mark
+"<xa>"
+	"xa" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+ '
+"<te...>"
+	"te" x @reparandum
+"<,>"
+	"," cm @punct
+ '
+"<tekakilih>"
+	"kakilia" v tv pret s_sg3 o_aa
+"<sah>"
+	"saj" adv
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<,>"
+	"," cm @punct
+"<ox>"
+	"ox" cnjsub @mark
+"<tik...>"
+	"tik" x @reparandum
+"<,>"
+	"," cm @punct
+"<neli>"
+	"neli" adv
+"<tik...>"
+	"tik" x @reparandum
+"<,>"
+	"," cm @punct
+"<neli>"
+	"neli" adv
+"<kichiwkah>"
+	"chia" v tv plu s_pl3 o_sg3
+"<ya>"
+	"ya" adv
+"<moteiskaltihkawan>"
+	"teiskaltijka" n pl px2sg
+"<o>"
+	"oj" ij @discourse
+	"o" cnjcoo @cc
+;	"oj" x
+"<keniw>"
+	"keni" adv itg
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a84
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a84 sentence
+"<Kemah>"
+	"kemaj" ij @root
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a85
+# text = Pos yehwa yon neh nimitsilia, neh nikixmattok neli yon sentaman tein neh nimitsilia yon kowtsin. Pero amo, amo, amo n'mati kox pahti yon. Tein neh nikmattok neli que pahti, yehwa n' tein pisiltik nimitsilia, yon okseki pos, no tikmatih que ihkon monotsa no mahya kihtowah que, kixmatih que iwki yehwa yon monotsa iwki no kemeh yon okseki, porque tikixmatiliah n' ixochiotsin wan ixiwyotsin, wan ikowyotsin, nochi, nochi iwkitik a.
+# text[orig] = Pos yehwa yo:n neh nimitsilia, neh niki:xmattok neli yo:n sentaman tein neh nimitsilia yo:n kowtsí:n. Pero a:mo, a:mo, a:mo n'mati kox pahti yo:n. Tein neh nikmattok neli <i>que</i> pahti, yehwa n' tein pisi:ltik nimitsilia, yo:n okseki pos, no: tikmatih <i>que</i> ihkó:n mono:tsa no: mahyá: kihtowah <i>que</i>, ki:xmatih <i>que</i>iwki yehwa yo:n mono:tsa iwki no: ke:meh yo:n okseki, <i>porque</i> tiki:xmatiliah n' ixo:chiotsi:n wa:n ixiwyotsi:n, wa:n ikowyotsi:n, nochi, nochi iwkitik a.
+# text[spa] = Pues es eso lo que yo te digo, yo solamente conozco de esa planta que te cuento. Pero no, no, no sé si es medicinal esa planta. Pues yo sé que es medicinal es la que tinen hojas pequeñas  y de la otra pues, pues también sabemos que dicen que así se llama, así la conocen esa planta, tiene el mismo nombre que la otra planta, la reconocemos por el tipo flor y la hoja, y el tallo es parecido al otro.
+# text[a85] = Pos yehwa yo:n neh nimitsilia, neh niki:xmattok neli yo:n sentaman tein neh nimitsilia yo:n kowtsí:n. Pero a:mo, a:mo, a:mo n'mati kox pahti yo:n. Tein neh nikmattok neli <i>que</i> pahti, yehwa n' tein pisi:ltik nimitsilia, yo:n okseki pos,
+# text[a86] = no: tikmatih <i>que</i> ihkó:n mono:tsa no: mahyá: kihtowah <i>que</i>, ki:xmatih <i>que</i>iwki yehwa yo:n mono:tsa iwki no: ke:meh yo:n okseki,
+# text[a87] = <i>porque</i> tiki:xmatiliah n' ixo:chiotsi:n wa:n ixiwyotsi:n,
+# text[a88] = wa:n ikowyotsi:n, nochi, nochi iwkitik a.
+# labels = a85 a86 a87 a88 sentence
+"<Pos>"
+	"pos" adv
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nimitsilia>"
+	"ilia" v tv pres s_sg1 o_sg2
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3
+"<neli>"
+	"neli" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<sentaman>"
+	"sentaman" adv
+"<tein>"
+	"tein" prn
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nimitsilia>"
+	"ilia" v tv pres s_sg1 o_sg2
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kowtsin>"
+	"kohuit" n hon
+;	"kohuit" n hon s_pl3
+;	"kohuit" n hon s_sg3
+"<.>"
+	"." sent @punct
+"<Pero>"
+	"pero" cnjcoo @cc
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<n'mati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<kox>"
+	"kox" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<.>"
+	"." sent @punct
+"<Tein>"
+	"tein" prn
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<neli>"
+	"neli" adv
+"<que>"
+	"que" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<tein>"
+	"tein" prn
+"<pisiltik>"
+	"pisiltik" adj
+	"pisiltik" adj s_sg3
+"<nimitsilia>"
+	"ilia" v tv pres s_sg1 o_sg2
+"<,>"
+	"," cm @punct
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<okseki>"
+	"okse" det pl @det
+"<pos>"
+	"pos" adv
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<tikmatih>"
+	"mati" v tv pres s_pl1 o_sg3
+	"mati" v tv pret s_sg2 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<ihkon>"
+	"ijkon" adv
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<mahya>"
+	"majya" adv
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<,>"
+	"," cm @punct
+"<kixmatih>"
+	"ixmati" v tv pres s_pl3 o_sg3
+	"ixmati" v tv pret s_sg3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<iwki>"
+	"iuki" adv
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<iwki>"
+	"iuki" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<okseki>"
+	"okse" det pl @det
+"<,>"
+	"," cm @punct
+"<porque>"
+	"porque" cnjsub @mark
+"<tikixmatiliah>"
+	"*tikixmatiliah"
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<wan>"
+	"huan" cnjcoo @cc
+"<ixiwyotsin>"
+	"xiuyo" n hon px3sg
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<ikowyotsin>"
+	"kouyo" n hon px3sg
+"<,>"
+	"," cm @punct
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<,>"
+	"," cm @punct
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<iwkitik>"
+	"iukitik" adj
+	"iukitik" adj s_sg3
+"<a>"
+	"a" ij @discourse
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a89
+# text = No iwtik a. Sanoke tepitsin kipata de yon porin wehkapania wan tepitsin mas kowyohtomawak. Aja, yehwa yoni.
+# text[orig] = No: iwtik a. Sanoke tepitsi:n kipata de yo:n porin wehkapania wa:n tepitsi:n <i>más</i> kowyohtoma:wak. Ajá, yehwa yo:ni.
+# text[spa] = Es muy parecido, solamente se diferencia porque la otra planta crece más alta y el tronco es más grueso. Aha,  es eso.
+# labels = a89 sentence
+"<No>"
+	"no" adv
+	"no" det
+;	"no" x
+"<iwtik>"
+	"ijtik" n rel
+"<a>"
+	"a" ij @discourse
+"<.>"
+	"." sent @punct
+"<Sanoke>"
+	"sanoke" cnjsub @mark
+"<tepitsin>"
+	"tepitsin" adv
+"<kipata>"
+	"pata" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 pan
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<porin>"
+	"porin" cnjsub @mark
+"<wehkapania>"
+	"huejkapania" v iv pres s_sg3
+"<wan>"
+	"huan" cnjcoo @cc
+"<tepitsin>"
+	"tepitsin" adv
+"<mas>"
+	"más" adv
+"<kowyohtomawak>"
+	"*kowyohtomawak"
+"<.>"
+	"." sent @punct
+"<Aja>"
+	"aja" ij @discourse
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a92
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí
+# labels = a92 sentence
+"<Kemah>"
+	"kemaj" ij @root
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a95
+# text = Pues tikmatis welis kemah, eski no, no yehwa, no iwki monotsa mowih.
+# text[orig] = <i>Pues</i> tikmatis welis ke:mah, eski no:, no: yehwa, no: iwki mono:tsa mowih.
+# text[spa] = Pues quizás sea posible, quizá también, esa planta también se llama <i>mowih</i>.
+# labels = a95 sentence
+"<Pues>"
+	"pues" adv
+"<tikmatis>"
+	"mati" v tv fut s_sg2 o_sg3
+"<welis>"
+	"hueli" vaux fut
+	"hueli" v iv fut s_sg3
+"<kemah>"
+	"kemaj" ij @discourse
+"<,>"
+	"," cm @punct
+"<eski>"
+	"eski" adj
+	"eski" adj s_sg3
+	"etok" cop fut s_sg3
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<iwki>"
+	"iuki" adv
+"<monotsa>"
+	"notsa" v tv pres s_sg3 i_ref o_sg3
+"<mowih>"
+	"mohuij" n abs
+;	"mohuij" n abs s_pl3
+;	"mohuij" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a96
+# text = Tikmatis cada xiwtsitsin ihkon teihsa kowtsin, xiwtsin, onkak ome taman, onkak hasta eyi taman, pero amo nochi tikihixmatih.
+# text[orig] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n, onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# text[spa] = Sabes que cada planta o arbolito, hay dos o hasta tres tipos, pero no todos los conocemos.
+# text[a96] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n,
+# text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# labels = a96 a97 sentence
+"<Tikmatis>"
+	"mati" v tv fut s_sg2 o_sg3
+"<cada>"
+	"cada" det @det
+"<xiwtsitsin>"
+	"xihuit" n hon pl
+;	"xihuit" n hon pl s_pl3
+;	"xihuit" n hon pl s_sg3
+"<ihkon>"
+	"ijkon" adv
+"<teihsa>"
+	"teisa" prn
+"<kowtsin>"
+	"kohuit" n hon
+;	"kohuit" n hon s_pl3
+;	"kohuit" n hon s_sg3
+"<,>"
+	"," cm @punct
+"<xiwtsin>"
+	"xihuit" n hon
+;	"xihuit" n hon s_pl3
+;	"xihuit" n hon s_sg3
+"<,>"
+	"," cm @punct
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<ome>"
+	"ome" num
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+	"taman" n abs s_pl3
+	"taman" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<hasta>"
+	"hasta" pr
+"<eyi>"
+	"eyi" num
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+	"taman" n abs s_pl3
+	"taman" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<pero>"
+	"pero" cnjcoo @cc
+"<amo>"
+	"amo" adv
+"<nochi>"
+	"nochi" det
+	"nochi" prn
+"<tikihixmatih>"
+	"*tikihixmatih"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a98
+# text = Wan tataman no n' kowtsitsin mahya kemeh tehwan tikihtowah. Pos, este , ixiwyotsin, ikowyotsin, ixochiotsin, iw..., iwki, iwki no, sanoke kipata tepitsin de weh..., de moskaltia, de wehkapania wan de n..., de n' ikowyo wan de tik..., tein kemeh kikwih para pahti. Wan tein amo para pahti pos tikmattokeh que amo para pahti.
+# text[orig] = Wa:n ta:taman no: n' kowtsitsí:n mahyá: ke:meh tehwa:n tikihtowah. Pos, <i>este</i>, ixiwyotsi:n, ikowyotsi:n, ixo:chiotsi:n, iw..., iwki, iwki no:, sanoke kipata tepitsi:n de weh..., de moskaltia, de wehkapania wa:n de n..., de n' ikowyo wa:n de tik..., tein ke:meh kikwih para pahti. Wa:n tein a:mo para pahti pos tikmattokeh <i>que</i> a:mo para pahti.
+# text[spa] = Y son diferentes los arbolitos, como decimos. Pues, este, las hojas, el tronco y las flores son parecidas, Sólo cambia un poco de altura y de ..., del tronco y, y la que ocupan para medicina. Y la que no es medicial pues sabemos muy bien que no es medicinal.
+# text[a98] = Wa:n ta:taman no: n' kowtsitsí:n mahyá: ke:meh tehwa:n tikihtowah. Pos, <i>este</i>,
+# text[a100] = ixiwyotsi:n, ikowyotsi:n, ixo:chiotsi:n, iw..., iwki, iwki no:,
+# text[a101] = sanoke kipata tepitsi:n de weh..., de moskaltia, de wehkapania wa:n de n...,
+# text[a103] = de n' ikowyo wa:n de tik..., tein ke:meh kikwih para pahti. Wa:n tein a:mo para pahti pos tikmattokeh <i>que</i> a:mo para pahti.
+# labels = a100 a101 a103 a98 sentence
+"<Wan>"
+	"huan" cnjcoo @cc
+"<tataman>"
+	"tataman" n abs
+	"taman" n px3nn
+;	"tataman" n abs s_pl3
+;	"tataman" n abs s_sg3
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kowtsitsin>"
+	"kohuit" n hon pl
+;	"kohuit" n hon pl s_pl3
+;	"kohuit" n hon pl s_sg3
+"<mahya>"
+	"majya" adv
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<tehwan>"
+	"tehuan" prn pers pl1 abs
+	"tehuan" prn pers pl1 short
+	"huan" n rel px3aa
+"<tikihtowah>"
+	"ijtohua" v tv pres s_pl1 o_sg3
+"<.>"
+	"." sent @punct
+"<Pos>"
+	"pos" adv
+"<,>"
+	"," cm @punct
+"<este>"
+	"este" ij @discourse
+"<,>"
+	"," cm @punct
+"<ixiwyotsin>"
+	"xiuyo" n hon px3sg
+"<,>"
+	"," cm @punct
+"<ikowyotsin>"
+	"kouyo" n hon px3sg
+"<,>"
+	"," cm @punct
+"<ixochiotsin>"
+	"xochiot" n hon px3sg
+"<,>"
+	"," cm @punct
+"<iw...>"
+	"iw" x @reparandum
+"<,>"
+	"," cm @punct
+"<iwki>"
+	"iuki" adv
+"<,>"
+	"," cm @punct
+"<iwki>"
+	"iuki" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<,>"
+	"," cm @punct
+"<sanoke>"
+	"sanoke" cnjsub @mark
+"<kipata>"
+	"pata" v tv pres s_sg3 o_sg3
+	"ita" v tv pres s_sg3 o_sg3 pan
+"<tepitsin>"
+	"tepitsin" adv
+"<de>"
+	"de" pr
+"<weh>"
+	"huej" mod
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<de>"
+	"de" pr
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<,>"
+	"," cm @punct
+"<de>"
+	"de" pr
+"<wehkapania>"
+	"huejkapania" v iv pres s_sg3
+"<wan>"
+	"huan" cnjcoo @cc
+"<de>"
+	"de" pr
+"<n>"
+	"in" det @det
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<de>"
+	"de" pr
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<ikowyo>"
+	"kouyo" n px3sg
+"<wan>"
+	"huan" cnjcoo @cc
+"<de>"
+	"de" pr
+"<tik...>"
+	"tik" x @reparandum
+"<,>"
+	"," cm @punct
+"<tein>"
+	"tein" prn
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<kikwih>"
+	"kui" v tv pres s_pl3 o_sg3
+	"kui" v tv pret s_sg3 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+"<Wan>"
+	"huan" cnjcoo @cc
+"<tein>"
+	"tein" prn
+"<amo>"
+	"amo" adv
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<pos>"
+	"pos" adv
+"<tikmattokeh>"
+	"mati" v tv prog pres s_pl1 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<amo>"
+	"amo" adv
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a104
+# text = Pero tein tikmattokeh que para pahti pos tikmattokeh para pahti.
+# text[orig] = Pero tein tikmattokeh <i>que</i> para pahti pos tikmattokeh para pahti.
+# text[spa] = Pero de la que sabemos que es medicinal pues lo sabemos perfectamente.
+# labels = a104 sentence
+"<Pero>"
+	"pero" cnjcoo @cc
+"<tein>"
+	"tein" prn
+"<tikmattokeh>"
+	"mati" v tv prog pres s_pl1 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<pos>"
+	"pos" adv
+"<tikmattokeh>"
+	"mati" v tv prog pres s_pl1 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a106
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a106 sentence
+"<Kemah>"
+	"kemaj" ij @root #1->0
+"<.>"
+	"." sent @punct #2->1
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a108
+# text = Yehwa yon.
+# text[orig] = Yehwa yo:n.
+# text[spa] = Eso es.
+# labels = a108 sentence
+"<Yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a110
+# text = Pues yehwa sah yon neh nimitstahtanilia, tasohkamatik.
+# text[orig] = <i>Pues</i> yehwa sah yo:n neh nimitstahtanilia, tasohka:matik.
+# text[spa] = Pues nada más eso de lo que yo te cuento, gracias.
+# labels = a110 sentence
+"<Pues>"
+	"pues" adv
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<sah>"
+	"saj" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nimitstahtanilia>"
+	"tajtanilia" v tv pres s_sg1 i_sg2 o_sg3
+"<,>"
+	"," cm @punct
+"<tasohkamatik>"
+	"tasojkamatik" ij @discourse
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a111
+# text = 'Tasohkamatilia que ti..., timonohnotskeh nikan in, neh nimonotsa niRuben Macario, niwalewa de Chilcuauhta wan nipowi nikan cerca San Miguel.
+# text[orig] = 'Tasohka:matilia <i>que</i> ti..., timonohno:tskeh nika:n i:n, neh nimono:tsa niRubén Macario, niwa:le:wa de Chilcuauhta wa:n nipowi nika:n <i>cerca</i> San Miguel.
+# text[spa] = Te agradezco por haber platicado aquí, yo me llamo Rubén Macario, vengo de Chilcuahta Y pertenezco en San Miguel Tzinacan.
+# text[a111] = 'Tasohka:matilia <i>que</i> ti..., timonohno:tskeh nika:n i:n,
+# text[a112] = neh nimono:tsa niRubén Macario, niwa:le:wa de Chilcuauhta
+# text[a113] = wa:n nipowi nika:n <i>cerca</i> San Miguel.
+# labels = a111 a112 a113 sentence
+"<'Tasohkamatilia>"
+	"tasojkamatilia" v tv pres s_sg1 i_sg2 o_sg3 @root #1->0
+"<que>"
+	"que" cnjsub @mark #2->5
+"<ti...>"
+	"ti" x @reparandum #3->5
+"<,>"
+	"," cm @punct #4->5
+"<timonohnotskeh>"
+	"nojnotsa" v tv pret s_pl1 o_ref @ccomp #5->1
+"<nikan>"
+	"nikan" adv @advmod #6->5
+"<in>"
+	"in" det @dep #7->5
+"<,>"
+	"," cm @punct #8->10
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #9->10
+"<nimonotsa>"
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @parataxis #10->1
+"<niRuben>"
+	"Rubén" np ant m s_sg1 @obj #11->10
+"<Macario>"
+	"Macario" np cog @flat #12->11
+"<,>"
+	"," cm @punct #13->14
+"<niwalewa>"
+	"huala" v iv pres s_sg1 @parataxis #14->1
+"<de>"
+	"de" pr @case #15->16
+"<Chilcuauhta>"
+	"Chilcuauhta" np top @obl #16->14
+"<wan>"
+	"huan" cnjcoo @cc #17->18
+"<nipowi>"
+	"pohui" v iv pres s_sg1 @conj #18->14
+"<nikan>"
+	"nikan" adv @advmod #19->18
+"<cerca>"
+	"cerca" adv @advmod #20->21
+"<San>"
+	"San" np top @appos #21->19
+"<Miguel>"
+	"Miguel" np ant m @flat #22->21
+"<.>"
+	"." sent @punct #23->1
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a28
+# text = Pos neh nikixmattok de yon kilwiah mowih, neh nikixmattok ipa sentaman sah.
+# text[orig] = Pos neh niki:xmattok de yo:n kilwiah mowih, neh niki:xmattok i:pa sentaman sah.
+# text[spa] = Pues, yo conozco de este que dicen <i>mowih</i>, yo conozco acaso solamente uno hay.
+# labels = a28 sentence
+"<Pos>"
+	"pos" adv @advmod #1->3
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #2->3
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3 @root #3->0
+"<de>"
+	"de" pr @case #4->5
+"<yon>"
+	"yehua" prn pers sg3 short @obj #5->3
+		"in" det @mark #6->7
+"<kilwiah>"
+	"ilhuia" v tv pres s_pl3 i_sg3 o_sg3 @csubj #7->5
+"<mowih>"
+	"mohuij" n abs @obj #8->7
+"<,>"
+	"," cm @punct #9->11
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #10->11
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3 @parataxis #11->3
+"<ipa>"
+	"ipa" adv @advmod #12->11
+"<sentaman>"
+	"sentaman" adv @advmod #13->11
+"<sah>"
+	"saj" adv @advmod #14->11
+"<.>"
+	"." sent @punct #15->3
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a29
+# text = Yon moketsa ata, nen, ikowyotsin wan mapisiltik, maweweyak, neh yehwa sah ipa yon nikixmattok, amo nikixmati komo ome taman onkak.
+# text[orig] = Yo:n moketsa ata, ne:n, ikowyotsi:n wa:n ma:pisi:ltik, ma:we:weyak, neh yehwa sah i:pa yo:n niki:xmattok, a:mo niki:xmati komo o:me taman onkak.
+# text[spa] = El del tronco erecto y tiene hojas pequeñas y alargadas, yo solamente esto conozco, no conozco si hay dos tipos.
+# text[a29] = Yo:n moketsa ata, ne:n, ikowyotsi:n wa:n ma:pisi:ltik, ma:we:weyak,
+# text[a30] = neh yehwa sah i:pa yo:n niki:xmattok, a:mo niki:xmati komo o:me taman onkak.
+# labels = a29 a30 sentence
+"<Yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<moketsa>"
+	"moketsa" v iv pres s_sg3
+	"ketsa" v tv pres s_sg3 o_ref
+"<ata>"
+	"ata" adv
+"<,>"
+	"," cm @punct
+"<nen>"
+	"nen" ij @discourse
+	"nen" prn
+"<,>"
+	"," cm @punct
+"<ikowyotsin>"
+	"kouyo" n hon px3sg
+"<wan>"
+	"huan" cnjcoo @cc
+"<mapisiltik>"
+	"mapisiltik" adj
+	"mapisiltik" adj s_sg3
+"<,>"
+	"," cm @punct
+"<maweweyak>"
+	"mahuejhueyak" adj redup
+	"mahuejhueyak" adj redup s_sg3
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<sah>"
+	"saj" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<nikixmati>"
+	"ixmati" v tv pres s_sg1 o_sg3
+"<komo>"
+	"komo" adv
+"<ome>"
+	"ome" num
+"<taman>"
+	"taman" n abs
+	"man" n px3nn
+;	"taman" n abs s_pl3
+;	"taman" n abs s_sg3
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a38
+# text = A, no iwki.
+# text[orig] = A:, no: iwki.
+# text[spa] = Ah, así son.
+# labels = a38 sentence
+"<A>"
+	"a" ij @root #1->0
+"<,>"
+	"," cm @punct #2->1
+"<no>"
+	"no" adv @advmod #3->4
+"<iwki>"
+	"iuki" adv @parataxis #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a50
+# text = Tein mas wei, mas wei moskaltia tikihtowa.
+# text[orig] = Tein <i>más</i> we:i, <i>más</i> we:i moskaltia tikihtowa.
+# text[spa] = El más grande, la que dicen que crece más alto.
+# labels = a50 sentence
+"<Tein>"
+	"tein" prn
+"<mas>"
+	"más" adv
+"<wei>"
+	"huei" adj s_sg3
+"<,>"
+	"," cm @punct
+"<mas>"
+	"más" adv
+"<wei>"
+	"huei" adj s_sg3
+"<moskaltia>"
+	"moskaltia" v iv pres s_sg3
+	"iskaltia" v tv pres s_sg3 o_ref
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a51
+# text = Pos neh nikixmattok yehwa sah ipa no yon sentaman neli kemeh yon tikihtowa yon map..., mapisiltik, maweweyak, wan neli ipa no n'mattok que yehwa neli yon pilimeh, tein yon mohkakwih kinilwiah, yehwa yon ika kinaltiah neli.
+# text[orig] = Pos neh niki:xmattok yehwa sah i:pa no: yo:n sentaman neli ke:meh yo:n tikihtowa yo:n ma:p..., ma:pisi:ltik, ma:we:weyak, wa:n neli i:pa no: n'mattok <i>que</i> yehwa neli yo:n pilimeh, tein yo:n mohka:kwih kinilwiah, yehwa yo:n ika kina:ltiah neli.
+# text[spa] = Pues yo nada más conozco esa, de un solo tipo, así como tú dices, esa que tiene hojas pequeñas y alargadas, y es verdad, de por sí sé que cuando los niños tienen como susto, los bañan con el agua del <i>mowih</i>
+# text[a51] = Pos neh niki:xmattok yehwa sah i:pa no: yo:n sentaman neli ke:meh yo:n tikihtowa yo:n ma:p..., ma:pisi:ltik, ma:we:weyak,
+# text[a52] = wa:n neli i:pa no: n'mattok <i>que</i> yehwa neli yo:n pilimeh, tein yo:n mohka:kwih kinilwiah, yehwa yo:n ika kina:ltiah neli.
+# labels = a51 a52 sentence
+"<Pos>"
+	"pos" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikixmattok>"
+	"ixmati" v tv prog pres s_sg1 o_sg3
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<sah>"
+	"saj" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<sentaman>"
+	"sentaman" adv
+"<neli>"
+	"neli" adv
+"<kemeh>"
+	"kemej" adv
+	"kemej" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<map>"
+	"*map"
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<mapisiltik>"
+	"mapisiltik" adj
+	"mapisiltik" adj s_sg3
+"<,>"
+	"," cm @punct
+"<maweweyak>"
+	"mahuejhueyak" adj redup
+	"mahuejhueyak" adj redup s_sg3
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<n'mattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<neli>"
+	"neli" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<,>"
+	"," cm @punct
+"<tein>"
+	"tein" prn
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<mohkakwih>"
+	"*mohkakwih"
+"<kinilwiah>"
+	"ilhuia" v tv pres s_pl3 i_pl3 o_sg3
+	"ilhuia" v tv pres s_pl3 i_sg3 o_pl3
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<ika>"
+	"ka" n rel px3sg
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<neli>"
+	"neli" adv
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a53
+# text = Wan kwaltsin mochiwa neli n' at, yek..., yektapalat mochiwa, yekchichiltik.
+# text[orig] = Wa:n kwaltsi:n mochi:wa neli n' a:t, ye:k..., ye:ktapala:t mochi:wa, ye:kchi:chi:ltik.
+# text[spa] = El agua queda bien bonita, colorada, queda muy rojizo.
+# labels = a53 sentence
+"<Wan>"
+	"huan" cnjcoo @cc #1->3
+"<kwaltsin>"
+	"kuali" adj hon s_sg3 @dep #2->3
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref @root #3->0
+"<neli>"
+	"neli" adv @advmod #4->3
+"<n'>"
+	"in" det @det #5->6
+"<at>"
+	"at" n abs @nsubj #6->3
+"<,>"
+	"," cm @punct #7->3
+"<yek...>"
+	"yek" x @reparandum #8->10
+"<,>"
+	"," cm @punct #9->8
+"<yektapalat>"
+	"tapalat" adj yek @dep #10->11
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref @parataxis #11->3
+"<,>"
+	"," cm @punct #12->13
+"<yekchichiltik>"
+	"chijchiltik" adj yek @parataxis #13->3
+"<.>"
+	"." sent @punct #14->3
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a54
+# text = N'mattok que yehwa yoni neli ika kinaltiah m' pilimeh, kihtowah para mah kelkawa de yon tsahtsiskwi.
+# text[orig] = N'mattok <i>que</i> yehwa yo:ni neli ika kina:ltiah m' pilimeh, kihtowah para mah kelka:wa de yo:n tsahtsiskwi.
+# text[spa] = Sé que con esa agua bañan a los niños, dicen que con eso pueden curarse cuando lloran desesperdamente.
+# labels = a54 sentence
+"<N'mattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<neli>"
+	"neli" adv
+"<ika>"
+	"ka" n rel px3sg
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<m'>"
+	"m'" x
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<,>"
+	"," cm @punct
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<mah>"
+	"ma" aux
+"<kelkawa>"
+	"*kelkawa"
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tsahtsiskwi>"
+	"tsajtsiskui" v iv pres s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a55
+# text = Porque neli yon kihtowah yektsahtsih, neli seki iksa hasta ixtayowah.
+# text[orig] = <i>Porque</i> neli yo:n kihtowah ye:ktsahtsih, neli seki i:ksá: <i>hasta</i> i:xtayowah.
+# text[spa] = Porque es verdad de lo que dicen, lloran desesperadamente, a veces algunos niños se desmayan de tanto llorar.
+# labels = a55 sentence
+"<Porque>"
+	"porque" cnjsub @mark
+"<neli>"
+	"neli" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<yektsahtsih>"
+	"*yektsahtsih"
+"<,>"
+	"," cm @punct
+"<neli>"
+	"neli" adv
+"<seki>"
+	"seki" det
+	"seki" prn
+"<iksa>"
+	"iksa" adv
+"<hasta>"
+	"hasta" pr
+"<ixtayowah>"
+	"ixtayohua" v iv pres s_pl3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a56
+# text = Wan yehwa yoni, ika yon kihtowah kelkawah m' pilimeh ika kinaltiah, amo n'mati neh ox onkak okse mas ika teihsa mas pahti, neh ipa yehwa sah yoni nikmattok.
+# text[orig] = Wa:n yehwa yo:ni, ika yo:n kihtowah kelka:wah m' pilimeh ika kina:ltiah, a:mo n'mati neh ox onkak oksé: <i>más</i> ika teihsá: <i>más</i> pahti, neh i:pa yehwa sah yo:ni nikmattok.
+# text[spa] = Y eso es, que al darles de beber y bañarlos con esa agua, dejan o se curan de esa enfermedad, no sé si exista otra planta para ... que cure otra enfermedad, yo nada más eso sé.
+# text[a56] = Wa:n yehwa yo:ni, ika yo:n kihtowah kelka:wah m' pilimeh ika kina:ltiah, a:mo n'mati neh ox onkak oksé: <i>más</i> ika
+# text[a57] = teihsá: <i>más</i> pahti, neh i:pa yehwa sah yo:ni nikmattok.
+# labels = a56 a57 sentence
+"<Wan>"
+	"huan" cnjcoo @cc
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<,>"
+	"," cm @punct
+"<ika>"
+	"ka" n rel px3sg
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<kelkawah>"
+	"*kelkawah"
+"<m>"
+	"m" x
+'
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<ika>"
+	"ka" n rel px3sg
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<n'mati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<ox>"
+	"ox" cnjsub @mark
+"<onkak>"
+	"onkak" adv
+	"onka" v iv pret s_sg3
+"<okse>"
+	"okse" det @det
+"<mas>"
+	"más" adv
+"<ika>"
+	"ka" n rel px3sg
+"<teihsa>"
+	"teisa" prn
+"<mas>"
+	"más" adv
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<sah>"
+	"saj" adv
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a60
+# text = Pos yon amo nikmati no, neh nimolwia que xa ikowyotsin kitokah.
+# text[orig] = Pos yo:n a:mo nikmati no:, neh nimolwia <i>que</i> xa: ikowyotsi:n kito:kah.
+# text[spa] = Pues respecto a eso, no sé, yo me imagino que quizá lo siembran el tallo.
+# labels = a60 sentence
+"<Pos>"
+	"pos" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<amo>"
+	"amo" adv
+"<nikmati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<no>"
+	"no" adv
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nimolwia>"
+	"*nimolwia"
+"<que>"
+	"que" cnjsub @mark
+"<xa>"
+	"xa" adv
+"<ikowyotsin>"
+	"kouyo" n hon px3sg
+"<kitokah>"
+	"toka" v tv pres s_pl3 o_sg3
+	"toka" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a61
+# text = Porque neh amo keman nikita komo xochiowa oso teyowa.
+# text[orig] = <i>Porque</i> neh a:mo ke:man nikita komo xo:chiowa oso teyowa.
+# text[spa] = Porque yo nunca he visto que floree o que tenga semillas.
+# labels = a61 sentence
+"<Porque>"
+	"porque" cnjsub @mark #1->5
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #2->5
+"<amo>"
+	"amo" adv @advmod #3->5
+"<keman>"
+	"keman" adv @advmod #4->5
+"<nikita>"
+	"ita" v tv pres s_sg1 o_sg3 @root #5->0
+"<komo>"
+	"komo" adv @mark #6->7
+"<xochiowa>"
+	"xochiohua" v iv pres s_sg3 @advcl #7->5
+"<oso>"
+	"oso" cnjcoo @cc #8->9
+"<teyowa>"
+	"teyohua" v iv pres s_sg3 @conj #9->7
+"<.>"
+	"." sent @punct #10->5
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a62
+# text = Neh nimolwia que xa kow..., kowtsini kitokah wan selia ya. Wan komo tein se maselia, pos selias tiktokas.
+# text[orig] = Neh nimolwia <i>que</i> xa: kow..., kowtsí:ni kito:kah wa:n selia ya. Wa:n komo tein se: ma:selia, pos selias tikto:kas.
+# text[spa] = Yo me imagino que quizá siembran el tallo y retoña. Y el que siembra y tiene buena mano, al sembrarlo, retoña.
+# labels = a62 sentence
+"<Neh>"
+	"nehua" prn pers sg1 short
+"<nimolwia>"
+	"*nimolwia"
+"<que>"
+	"que" cnjsub @mark
+"<xa>"
+	"xa" adv
+"<kow...>"
+	"kou" x @reparandum
+"<,>"
+	"," cm @punct
+"<kowtsini>"
+	"*kowtsini"
+"<kitokah>"
+	"toka" v tv pres s_pl3 o_sg3
+	"toka" v tv pret s_sg3 o_sg3
+"<wan>"
+	"huan" cnjcoo @cc
+"<selia>"
+	"selia" v iv pres s_sg3
+"<ya>"
+	"ya" adv
+"<.>"
+	"." sent @punct
+"<Wan>"
+	"huan" cnjcoo @cc
+"<komo>"
+	"komo" adv
+"<tein>"
+	"tein" prn
+"<se>"
+	"se" num
+"<maselia>"
+	"maselia" v iv pres s_sg3
+"<,>"
+	"," cm @punct
+"<pos>"
+	"pos" adv
+"<selias>"
+	"selia" v iv fut s_sg3
+"<tiktokas>"
+	"toka" v tv fut s_sg2 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a63
+# text = Porque nejon amo, amo n'mati ox no teyowa yoni, amo keman nikita nen ixochio.
+# text[orig] = <i>Porque</i> nejó:n a:mo, a:mo n'mati ox no: teyowa yo:ni, a:mo ke:man nikita ne:n ixo:chio.
+# text[spa] = Porque eso no sé si da frutos, nunca le he visto flores.
+# labels = a63 sentence
+"<Porque>"
+	"porque" cnjsub @mark
+"<nejon>"
+	"nejon" prn
+"<amo>"
+	"amo" adv
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<n'mati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<ox>"
+	"ox" cnjsub @mark
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<teyowa>"
+	"teyohua" v iv pres s_sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<,>"
+	"," cm @punct
+"<amo>"
+	"amo" adv
+"<keman>"
+	"keman" adv
+"<nikita>"
+	"ita" v tv pres s_sg1 o_sg3
+"<nen>"
+	"nen" ij @discourse
+	"nen" prn
+"<ixochio>"
+	"xochiot" n px3sg
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a64
+# text = No nion, no nion nikmati neh komo xochiowa, no neli tehwan ne kaltsintan neli no onkaya se, pero waktok a porque neli tapialmeh kikwah.
+# text[orig] = No: nió:n, no: nió:n nikmati neh komo xo:chiowa, no: neli tehwa:n ne: kaltsi:ntan neli no: onkaya se:, pero wa:ktok a <i>porque</i> neli tapialmeh kikwah.
+# text[spa] = No estoy enterada si alguna vez florea, pues es cierto, allá, cerca de mi casa también había una mata, pero ya está secándose porque se ahí se alimentan los animales.
+# text[a64] = No: nió:n, no: nió:n nikmati neh komo xo:chiowa, no: neli tehwa:n ne: kaltsi:ntan neli no: onkaya se:,
+# text[a65] = pero wa:ktok a <i>porque</i> neli tapialmeh kikwah.
+# labels = a64 a65 sentence
+"<No>"
+	"no" adv
+	"no" det
+;	"no" x
+"<nion>"
+	"nion" adv
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<nion>"
+	"nion" adv
+"<nikmati>"
+	"mati" v tv pres s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<komo>"
+	"komo" adv
+"<xochiowa>"
+	"xochiohua" v iv pres s_sg3
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<neli>"
+	"neli" adv
+"<tehwan>"
+	"tehuan" prn pers pl1 abs
+	"tehuan" prn pers pl1 short
+	"huan" n rel px3aa
+"<ne>"
+	"nehua" prn pers sg1 short
+	"ne" adv
+	"ne" det
+"<kaltsintan>"
+	"kali" n cmp @nmod
+		"tsintan" n rel
+;	"kali" n cmp s_pl3
+;		"tsintan" n rel
+;	"kali" n cmp s_sg3
+;		"tsintan" n rel
+"<neli>"
+	"neli" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<onkaya>"
+	"onka" v iv impf s_sg3
+"<se>"
+	"se" num
+"<,>"
+	"," cm @punct
+"<pero>"
+	"pero" cnjcoo @cc
+"<waktok>"
+	"huaki" v iv prog pres s_sg3
+"<a>"
+	"a" ij @discourse
+"<porque>"
+	"porque" cnjsub @mark
+"<neli>"
+	"neli" adv
+"<tapialmeh>"
+	"tapial" n pl
+;	"tapial" n pl s_pl3
+;	"tapial" n pl s_sg3
+"<kikwah>"
+	"kua" v tv pres s_pl3 o_sg3
+	"kua" v tv pret s_sg3 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a66
+# text = Wan amo keman nikita ox xochiowa, pero neh nimolia que xa ikowyotsin no kitokah wan selia.
+# text[orig] = Wa:n a:mo ke:man nikita ox xo:chiowa, pero neh nimolia <i>que</i> xa: ikowyotsi:n no: kito:kah wa:n selia.
+# text[spa] = Y nunca la he visto que floree pero yo me imagino que a lo mejor siembran el tallo y retoña.
+# labels = a66 sentence
+"<Wan>"
+	"huan" cnjcoo @cc #1->4
+"<amo>"
+	"amo" adv @advmod #2->4
+"<keman>"
+	"keman" adv @advmod #3->4
+"<nikita>"
+	"ita" v tv pres s_sg1 o_sg3 @root #4->0
+"<ox>"
+	"ox" cnjsub @mark #5->6
+"<xochiowa>"
+	"xochiohua" v iv pres s_sg3 @ccomp #6->4
+"<,>"
+	"," cm @punct #7->10
+"<pero>"
+	"pero" cnjcoo @cc #8->10
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #9->10
+"<nimolia>"
+	"molia" v iv pres s_sg1 @conj #10->4
+"<que>"
+	"que" cnjsub @mark #11->15
+"<xa>"
+	"xa" adv @advmod #12->15
+"<ikowyotsin>"
+	"kouyo" n hon px3sg @obj #13->15
+"<no>"
+	"no" adv @advmod #14->15
+"<kitokah>"
+	"toka" v tv pres s_pl3 o_sg3 @advcl #15->10
+"<wan>"
+	"huan" cnjcoo @cc #16->17
+"<selia>"
+	"selia" v iv pres s_sg3 @conj #17->15
+"<.>"
+	"." sent @punct #18->4
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a76
+# text = Amo. Yon neh ipa no nikakiliaya noman, kihtowa que yehwa yon tein tsahtsiskwih m' pilimeh, yehwa yon mah ika kinaltikan wan kihtowah que kelkawah.
+# text[orig] = A:mo. Yo:n neh i:pa no: nikakilia:ya no:má:n, kihtowa <i>que</i> yehwa yo:n tein tsahtsiskwih m' pilimeh, yehwa yo:n mah ika kina:lti:ka:n wa:n kihtowah <i>que</i> kelka:wah.
+# text[spa] = No. Eso lo escuchaba de mi mamá, dice que cuando los niños lloran desesperadamente, que los bañen con el agua del <i>mowih</i> y poco a poco se les va quitando esa enfermedad de llorar mucho.
+# labels = a76 sentence
+"<Amo>"
+	"amo" adv
+"<.>"
+	"." sent @punct
+"<Yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<neh>"
+	"nehua" prn pers sg1 short
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<nikakiliaya>"
+	"kakilia" v tv impf s_sg1 o_sg3
+"<noman>"
+	"man" n px1sg
+"<,>"
+	"," cm @punct
+"<kihtowa>"
+	"ijtohua" v tv pres s_sg3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tein>"
+	"tein" prn
+"<tsahtsiskwih>"
+	"tsajtsiskui" v iv pres s_pl3
+	"tsajtsiskui" v iv pret s_sg3
+"<m'>"
+	"m'" x
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<,>"
+	"," cm @punct
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<mah>"
+	"ma" aux
+"<ika>"
+	"ka" n rel px3sg
+"<kinaltikan>"
+	"altia" v tv opt s_pl3 o_pl3
+"<wan>"
+	"huan" cnjcoo @cc
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<kelkawah>"
+	"*kelkawah"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a77
+# text = Pero neh amo keman nikwik de yon xiwtsini, pero nikmattok kihtowah neli que pahti.
+# text[orig] = Pero neh a:mo ke:man nikwik de yo:n xiwtsi:ni, pero nikmattok kihtowah neli <i>que</i> pahti.
+# text[spa] = Pero yo nunca ocupé las hojas de esa planta, pero sí sé que dicen que esa planta es medicinal.
+# labels = a77 sentence
+"<Pero>"
+	"pero" cnjcoo @cc #1->5
+"<neh>"
+	"nehua" prn pers sg1 short @nsubj #2->5
+"<amo>"
+	"amo" adv @advmod #3->5
+"<keman>"
+	"keman" adv @advmod #4->5
+"<nikwik>"
+	"kui" v tv pret s_sg1 o_sg3 @root #5->0
+"<de>"
+	"de" pr @case #6->7
+"<yon>"
+	"yehua" prn pers sg3 short @obj #7->5
+		"in" det @det #8->9
+"<xiwtsini>"
+	"xihuit" n hon @nsubj #9->7
+"<,>"
+	"," cm @punct #10->12
+"<pero>"
+	"pero" cnjcoo @cc #11->12
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3 @conj #12->5
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3 @ccomp #13->12
+"<neli>"
+	"neli" adv @advmod #14->13
+"<que>"
+	"que" cnjsub @mark #15->16
+"<pahti>"
+	"pajti" n abs s_sg3 @advcl #16->13
+"<.>"
+	"." sent @punct #17->5
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a78
+# text = Pero kihtowah neli que, que yehwa yon komo tsahtsiskwih m' pilimeh pos ika yon kinaltiah wan neli yon tikihtowa kintailtiah tsiktsin, wan, wan nejon kinaltiah ika seki a wan no kelkawah de yon tsahtsiskwih. Neh yehwa yoni nikmattok, wan neli ipa nikakiliani noteiskaltihkaw neh nechilwiaya.
+# text[orig] = Pero kihtowah neli <i>que, que</i> yehwa yo:n komo tsahtsiskwih m' pilimeh pos ika yo:n kina:ltiah wa:n neli yo:n tikihtowa kintai:ltiah tsiktsi:n, wa:n, wa:n nejó:n kina:ltiah ika seki a wa:n no: kelka:wah de yo:n tsahtsiskwih. Neh yehwa yo:ni nikmattok, wa:n neli i:pa nikakilia:ni note:iskaltihka:w neh ne:chilwia:ya.
+# text[spa] = Pero solamente cuando los niños lloran mucho, lloran desperadamente, los bañan con el agua hervida de esa planta y una poquita les dan de beber, y el resto del agua hervida de la planta lo ocupan para bañarlo, entonces al llorar ya no quedan morados. Eso es lo que yo sé, es verdad, yo le oía a mi madre, me lo contaba.
+# text[a78] = Pero kihtowah neli <i>que, que</i> yehwa yo:n komo tsahtsiskwih m' pilimeh pos ika yo:n kina:ltiah wa:n neli yo:n tikihtowa kintai:ltiah tsiktsi:n,
+# text[a79] = wa:n, wa:n nejó:n kina:ltiah ika seki a wa:n no: kelka:wah de yo:n tsahtsiskwih. Neh yehwa yo:ni nikmattok,
+# text[a80] = wa:n neli i:pa nikakilia:ni note:iskaltihka:w neh ne:chilwia:ya.
+# labels = a78 a79 a80 sentence
+"<Pero>"
+	"pero" cnjcoo @cc
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<neli>"
+	"neli" adv
+"<que>"
+	"que" cnjsub @mark
+"<,>"
+	"," cm @punct
+"<que>"
+	"que" cnjsub @mark
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<komo>"
+	"komo" adv
+"<tsahtsiskwih>"
+	"tsajtsiskui" v iv pres s_pl3
+	"tsajtsiskui" v iv pret s_sg3
+"<m>"
+	"m" x
+'
+"<pilimeh>"
+	"pili" n pl
+;	"pili" n pl s_pl3
+;	"pili" n pl s_sg3
+"<pos>"
+	"pos" adv
+"<ika>"
+	"ka" n rel px3sg
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<wan>"
+	"huan" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tikihtowa>"
+	"ijtohua" v tv pres s_sg2 o_sg3
+"<kintailtiah>"
+	"*kintailtiah"
+"<tsiktsin>"
+	"tsik" adj hon
+	"tsik" adj hon s_sg3
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<nejon>"
+	"nejon" prn
+"<kinaltiah>"
+	"altia" v tv pres s_pl3 o_pl3
+"<ika>"
+	"ka" n rel px3sg
+"<seki>"
+	"seki" det
+	"seki" prn
+"<a>"
+	"a" ij @discourse
+"<wan>"
+	"huan" cnjcoo @cc
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<kelkawah>"
+	"*kelkawah"
+"<de>"
+	"de" pr
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<tsahtsiskwih>"
+	"tsajtsiskui" v iv pres s_pl3
+	"tsajtsiskui" v iv pret s_sg3
+"<.>"
+	"." sent @punct
+"<Neh>"
+	"nehua" prn pers sg1 short
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<,>"
+	"," cm @punct
+"<wan>"
+	"huan" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<ipa>"
+	"ipa" adv
+	"pajti" n px3sg @nmod
+	"pan" n rel px3sg
+	"pa" n px3sg @nmod
+"<nikakiliani>"
+	"kakilia" v tv pp s_sg1 o_sg3
+"<noteiskaltihkaw>"
+	"teiskaltijka" n px1sg
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nechilwiaya>"
+	"ilhuia" v tv impf s_sg3 i_sg1 o_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a81
+# text = Pero amo keman nikwih neh yon xiwtsini pero pos kihtowah neli que pahti.
+# text[orig] = Pero a:mo ke:man nikwih neh yo:n xiwtsi:ni pero pos kihtowah neli <i>que</i> pahti.
+# text[spa] = Pero yo nunca ocupé esa planta pero pues dicen que es medicinal.
+# labels = a81 sentence
+"<Pero>"
+	"pero" cnjcoo @cc
+"<amo>"
+	"amo" adv
+"<keman>"
+	"keman" adv
+"<nikwih>"
+	"kui" v tv pret s_sg1 o_sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<yon>"
+	"yehua" prn pers sg3 short
+		"in" det
+"<xiwtsini>"
+	"*xiwtsini"
+"<pero>"
+	"pero" cnjcoo @cc
+"<pos>"
+	"pos" adv
+"<kihtowah>"
+	"ijtohua" v tv pres s_pl3 o_sg3
+"<neli>"
+	"neli" adv
+"<que>"
+	"que" cnjsub @mark
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a82
+# text = Mah a..., we..., se kineltoka que neli pahti porque pos kasa ika nejon tahtanih hasta kinekih kikowaskeh.
+# text[orig] = Mah a..., we..., se: kineltoka <i>que</i> neli pahti <i>porque</i> pos ka:sá: ika nejó:n tahtanih <i>hasta</i> kinekih kikowaskeh.
+# text[spa] = Pues uno cree que es medicinal porque algunas personas la piden, la quieren para sembrar.
+# labels = a82 sentence
+"<Mah>"
+	"ma" aux
+"<a>"
+	"a" ij @discourse
+"<...>"
+	"..." sent @punct
+"<,>"
+	"," cm @punct
+"<we...>"
+	"we" x @reparandum
+"<,>"
+	"," cm @punct
+"<se>"
+	"se" num
+"<kineltoka>"
+	"neltoka" v tv pres s_sg3 o_sg3
+"<que>"
+	"que" cnjsub @mark
+"<neli>"
+	"neli" adv
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<porque>"
+	"porque" cnjsub @mark
+"<pos>"
+	"pos" adv
+"<kasa>"
+	"kasa" adv
+"<ika>"
+	"ka" n rel px3sg
+"<nejon>"
+	"nejon" prn
+"<tahtanih>"
+	"tajtani" v iv pres s_pl3
+	"tajtani" v iv pret s_sg3
+"<hasta>"
+	"hasta" pr
+"<kinekih>"
+	"neki" v tv pres s_pl3 o_sg3
+	"neki" v tv pret s_sg3 o_sg3
+"<kikowaskeh>"
+	"*kikowaskeh"
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a83
+# text = Kemah, porque kimattokeh que pahti.
+# text[orig] = Ke:mah, <i>porque</i> kimattokeh <i>que</i> pahti.
+# text[spa] = Si, pues saben que es medicinal.
+# labels = a83 sentence
+"<Kemah>"
+	"kemaj" ij @root #1->0
+"<,>"
+	"," cm @punct #2->4
+"<porque>"
+	"porque" cnjsub @mark #3->4
+"<kimattokeh>"
+	"mati" v tv prog pres s_pl3 o_sg3 @advcl #4->1
+"<que>"
+	"que" cnjsub @mark #5->6
+"<pahti>"
+	"pajti" n abs s_sg3 @ccomp #6->4
+"<.>"
+	"." sent @punct #7->1
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a90
+# text = A, no iwki a. Yehwa yoni wan in seki tsikitsitsin mochiwa. Yeh moma.... Ta komo tawelita no n' kampa tsintoktok kwaltsin hasta talpan mososowa ata.
+# text[orig] = A:, no: iwki a. Yehwa yo:ni wa:n i:n seki tsikitsitsi:n mochi:wa. Yeh moma:.... Ta: komo tawelita no: n' ka:mpa tsi:nto:ktok kwaltsi:n <i>hasta</i> ta:lpan moso:sowa ata.
+# text[spa] = Ah, es parecida. Eso es y de este, no crece muy alto. Esa ... Si donde está la mata sembrada, se adapta muy bien, la planta se desarrolla muy bien, las ramitas se extendien hasta el suelo.
+# text[a90] = A:, no: iwki a. Yehwa yo:ni wa:n i:n seki tsikitsitsi:n mochi:wa. Yeh moma:....
+# text[a91] = Ta: komo tawelita no: n' ka:mpa tsi:nto:ktok kwaltsi:n <i>hasta</i> ta:lpan moso:sowa ata.
+# labels = a90 a91 sentence
+"<A>"
+	"a" ij @discourse
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<iwki>"
+	"iuki" adv
+"<a>"
+	"a" ij @discourse
+"<.>"
+	"." sent @punct
+"<Yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<wan>"
+	"huan" cnjcoo @cc
+"<in>"
+	"in" det @det
+"<seki>"
+	"seki" det
+	"seki" prn
+"<tsikitsitsin>"
+	"tsiki" adj hon pl
+	"tsiki" adj hon pl s_sg3
+"<mochiwa>"
+	"chihua" v tv pres s_sg3 o_ref
+"<.>"
+	"." sent @punct
+"<Yeh>"
+	"yehua" prn pers sg3 short
+"<moma>"
+	"mait" n px2sg
+"<...>"
+	"..." sent @punct
+"<.>"
+	"." sent @punct
+"<Ta>"
+	"ta" adv
+"<komo>"
+	"komo" adv
+"<tawelita>"
+	"huelita" v tv pres s_sg3 o_nn
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<n'>"
+	"in" det @det
+;	"nik" x
+"<kampa>"
+	"kampa" adv rel
+	"kampa" n rel
+"<tsintoktok>"
+	"*tsintoktok"
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<hasta>"
+	"hasta" pr
+"<talpan>"
+	"talpan" adv
+	"tal" n cmp @nmod
+		"pan" n rel
+	"tal" n cmp s_sg3 @nmod
+		"pan" n rel
+;	"tal" n cmp s_pl3
+;		"pan" n rel
+"<mososowa>"
+	"sojsohua" v tv pres s_sg3 o_ref
+"<ata>"
+	"ata" adv
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a93
+# text = Eh, porque nejon momahmaytia kwaltsin wan neli no hasta talpan mososowa pero neli komo amo teh kikwa, pero komo kikwah se tapialtsin neli pos no iwki waki a.
+# text[orig] = Eh, <i>porque</i> nejó:n momahma:ytia kwaltsi:n wa:n neli no: <i>hasta</i> ta:lpan moso:sowa pero neli komo a:mo teh kikwa, pero komo kikwah se: tapialtsí:n neli pos no: iwki wa:ki a.
+# text[spa] = Si, porque esas plantas se ramifican y es cierto, que las ramas se extienden hasta el suelo siempre y cuando no se coman los animales, porque si los animales se alimentan de esta planta, se seca.
+# labels = a93 sentence
+"<Eh>"
+	"ej" ij @discourse
+"<,>"
+	"," cm @punct
+"<porque>"
+	"porque" cnjsub @mark
+"<nejon>"
+	"nejon" prn
+"<momahmaytia>"
+	"*momahmaytia"
+"<kwaltsin>"
+	"kuali" adj hon
+	"kuali" adj hon s_sg3
+"<wan>"
+	"huan" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<hasta>"
+	"hasta" pr
+"<talpan>"
+	"talpan" adv
+	"tal" n cmp @nmod
+		"pan" n rel
+	"tal" n cmp s_sg3 @nmod
+		"pan" n rel
+;	"tal" n cmp s_pl3
+;		"pan" n rel
+"<mososowa>"
+	"sojsohua" v tv pres s_sg3 o_ref
+"<pero>"
+	"pero" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<komo>"
+	"komo" adv
+"<amo>"
+	"amo" adv
+"<teh>"
+	"tehua" prn pers sg2 short
+"<kikwa>"
+	"kua" v tv pres s_sg3 o_sg3
+"<,>"
+	"," cm @punct
+"<pero>"
+	"pero" cnjcoo @cc
+"<komo>"
+	"komo" adv
+"<kikwah>"
+	"kua" v tv pres s_pl3 o_sg3
+	"kua" v tv pret s_sg3 o_sg3
+"<se>"
+	"se" num
+"<tapialtsin>"
+	"tapial" n hon
+;	"tapial" n hon s_pl3
+;	"tapial" n hon s_sg3
+"<neli>"
+	"neli" adv
+"<pos>"
+	"pos" adv
+"<no>"
+	"no" adv
+	"no" det
+;	"no" x
+"<iwki>"
+	"iuki" adv
+"<waki>"
+	"huaki" v iv pres s_sg3
+"<a>"
+	"a" ij @discourse
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94
+# text = Kemah, neh yehwa yoni, ihkoni sah neh nikmattok. Mm.
+# text[orig] = Ke:mah, neh yehwa yo:ni, ihko:ni sah neh nikmattok. Mm.
+# text[spa] = Si, yo nada más eso, nomás eso sé de esa planta. Mm.
+# labels = a94 sentence
+"<Kemah>"
+	"kemaj" ij @discourse
+"<,>"
+	"," cm @punct
+"<neh>"
+	"nehua" prn pers sg1 short
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<yoni>"
+	"yehua" prn pers sg3 short
+		"nin" prn
+"<,>"
+	"," cm @punct
+"<ihkoni>"
+	"ijkoni" adv
+"<sah>"
+	"saj" adv
+"<neh>"
+	"nehua" prn pers sg1 short
+"<nikmattok>"
+	"mati" v tv prog pres s_sg1 o_sg3
+"<.>"
+	"." sent @punct
+"<Mm>"
+	"mm" ij @root
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a99
+# text = Pos kemah kan... Kemah.
+# text[orig] = Pos ke:mah ka:n ... Ke:mah.
+# text[spa] = Pues sí, no ... Sí.
+# text[a99] = Pos ke:mah ka:n ...
+# text[a102] = Ke:mah.
+# labels = a102 a99 sentence
+"<Pos>"
+	"pos" adv @advmod #1->2
+"<kemah>"
+	"kemaj" ij @root #2->0
+"<kan>"
+	"kan" adv @advmod #3->2
+"<...>"
+	"..." sent @punct #4->2
+"<Kemah>"
+	"kemaj" ij @parataxis #5->2
+"<.>"
+	"." sent @punct #6->2
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a105
+# text = Pos kemah se ki..., se kiita ya que nochi iwki sah.
+# text[orig] = Pos ke:mah se: ki..., se: kiita ya <i>que</i> nochi iwki sah.
+# text[spa] = Pues sí... uno lo ve que todos son iguales.
+# labels = a105 sentence
+"<Pos>"
+	"pos" adv @advmod #1->7
+"<kemah>"
+	"kemaj" ij @discourse #2->7
+"<se>"
+	"se" num @reparandum #3->6
+"<ki...>"
+	"ki" x @reparandum #4->7
+"<,>"
+	"," cm @punct #5->4
+"<se>"
+	"se" num @nsubj #6->7
+"<kiita>"
+	"ita" v tv pres s_sg3 o_sg3 @root #7->0
+"<ya>"
+	"ya" adv @advmod #8->7
+"<que>"
+	"que" cnjsub @mark #9->11
+"<nochi>"
+	"nochi" prn @nsubj #10->11
+"<iwki>"
+	"iuki" adv @ccomp #11->7
+"<sah>"
+	"saj" adv @advmod #12->11
+"<.>"
+	"." sent @punct #13->7
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a107
+# text = Kemah, pero neli pos nejon, neli tein teiliah seki para pahti pos se kikwi neli.
+# text[orig] = Ke:mah, pero neli pos nejó:n, neli tein te:iliah seki para pahti pos se: kikwi neli.
+# text[spa] = Si, pero es verdad de lo nos dicen, unas plantas son medicinales y ya las ocupa uno.
+# labels = a107 sentence
+"<Kemah>"
+	"kemaj" ij @discourse
+"<,>"
+	"," cm @punct
+"<pero>"
+	"pero" cnjcoo @cc
+"<neli>"
+	"neli" adv
+"<pos>"
+	"pos" adv
+"<nejon>"
+	"nejon" prn
+"<,>"
+	"," cm @punct
+"<neli>"
+	"neli" adv
+"<tein>"
+	"tein" prn
+"<teiliah>"
+	"ilia" v tv pres s_pl3 o_aa
+	"ilia" v tv pret s_sg3 o_aa
+"<seki>"
+	"seki" det
+	"seki" prn
+"<para>"
+	"para" cnjsub @mark
+	"para" pr
+"<pahti>"
+	"pajti" n abs
+;	"pajti" n abs s_pl3
+;	"pajti" n abs s_sg3
+"<pos>"
+	"pos" adv
+"<se>"
+	"se" num
+"<kikwi>"
+	"kui" v tv pres s_sg3 o_sg3
+"<neli>"
+	"neli" adv
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109
+# text = Kemah. Mm.
+# text[orig] = Ke:mah. Mm.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
+"<Kemah>"
+	"kemaj" ij @root
+"<.>"
+	"." sent @punct
+"<Mm>"
+	"mm" ij @root
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:1
+# text = Pos kan teihsa, no yehwa neh tein tinechilwih, ihkon timonohnotskeh, timotapowihkeh, pos miak tasohkamatik kemah. 
+# text[orig] = Pos ka:n teihsá:, no: yehwa neh tein tine:chilwih, ihkó:n timonohno:tskeh, timotapowihkeh, pos miak tasohka:matik ke:mah. 
+# text[spa] = Pues no es nada, pues de todo lo que me has contado, hemos platicado. 
+# labels = a114 sentence
+"<Pos>"
+	"pos" adv @advmod
+"<kan>"
+	"kan" adv @advmod
+"<teihsa>"
+	"teisa" prn @root
+"<,>"
+	"," cm @punct
+"<no>"
+	"no" adv @advmod
+"<yehwa>"
+	"yehuan" prn pers pl3 abs
+	"yehua" prn pers sg3
+"<neh>"
+	"nehua" prn pers sg1 short
+"<tein>"
+	"tein" prn
+"<tinechilwih>"
+	"ilhuia" v tv pret s_sg2 i_sg1 o_sg3
+"<,>"
+	"," cm @punct
+"<ihkon>"
+	"ijkon" adv
+"<timonohnotskeh>"
+	"monojnotsa" v iv pret s_pl1
+	"nojnotsa" v tv pret s_pl1 o_ref
+"<,>"
+	"," cm @punct
+"<timotapowihkeh>"
+	"pohui" v tv pret s_pl1 i_ref o_nn
+	"tapohui" v tv pret s_pl1 o_ref
+"<,>"
+	"," cm @punct
+"<pos>"
+	"pos" adv
+"<miak>"
+	"miak" adj
+	"miak" adv
+	"miak" det
+	"miak" adj s_sg3
+"<tasohkamatik>"
+	"tasojkamatik" ij @discourse
+"<kemah>"
+	"kemaj" ij @discourse
+"<.>"
+	"." sent @punct
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:2
+# text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.
+# text[orig] = Neh nimono:tsa niMaría Salazar Osollo, niwi:tsa de San Miguel.
+# text[spa] = Yo me llamo María Salazar Osollo, vengo de San Miguel.
+# labels = a114 sentence
+"<Neh>"
+	"nehua" prn pers sg1 short @nsubj #1->2
+"<nimonotsa>"
+	"notsa" v tv pres s_sg1 i_ref o_sg3 @root #2->0
+"<niMaria>"
+	"María" np ant f s_sg1 @obj #3->2
+"<Salazar>"
+	"Salazar" np cog @flat #4->3
+"<Osollo>"
+	"Osollo" np cog @flat #5->3
+"<,>"
+	"," cm @punct #6->7
+"<niwitsa>"
+	"huitsa" v iv pres s_sg1 @parataxis #7->2
+"<de>"
+	"de" pr @case #8->9
+"<San>"
+	"San" np top @obl #9->7
+"<Miguel>"
+	"Miguel" np ant m @flat #10->9
+"<.>"
+	"." sent @punct #11->2
+

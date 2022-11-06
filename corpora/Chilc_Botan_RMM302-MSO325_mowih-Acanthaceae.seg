@@ -1,0 +1,1650 @@
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a26
+# text = 'Nechtapohpolwi nanah, neh nimitstahtanisneki de seki xiwtsitsin monotsa mowih, n...., ne, amo nikmati kanachi, kanachi taman de mowih tikixmati n' tehwatsin.
+# text[orig] = 'Ne:chtapohpolwi na:nah, neh nimitstahtani:sneki de seki xiwtsitsí:n mono:tsa mowih, n...., ne:, a:mo nikmati ka:nachi, ka:nachi taman de mowih tiki:xmati n' tehwa:tsi:n.
+# text[spa] = Perdóname doña, te quiero preguntar acerca de alguna hierba que se llama <i>mowih</i>, yo, no sé cuantos, no se cuantos tipos de <i>mowih</i> conoces tú.
+# text[a26] = 'Ne:chtapohpolwi na:nah, neh nimitstahtani:sneki de seki xiwtsitsí:n mono:tsa mowih,
+# text[a27] = n...., ne:, a:mo nikmati ka:nachi, ka:nachi taman de mowih tiki:xmati n' tehwa:tsi:n.
+# labels = a26 a27 sentence
+^'Nechtapohpolwi/'Nechtapohpolwi$
+^nanah/nanah$
+^,/,$
+^neh/neh$
+^nimitstahtanisneki/nimitstahtanisneki$
+^de/de$
+^seki/seki$
+^xiwtsitsin/xiwtsitsin$
+^monotsa/monotsa$
+^mowih/mowih$
+^,/,$
+^n/n$
+^.../...$
+^./.$
+^,/,$
+^ne/ne$
+^,/,$
+^amo/amo$
+^nikmati/nikmati$
+^kanachi/kanachi$
+^,/,$
+^kanachi/kanachi$
+^taman/taman$
+^de/de$
+^mowih/mowih$
+^tikixmati/tikixmati$
+^n'/n'$
+^tehwatsin/tehwatsin$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a31
+# text = Pos xkita, es..., tehwan timonemiliah, welis ome taman onkak. Tikmatis keyeh tehwatsin, n' ixiwyo ihkon ya, tamati wan kemeh tein yon, tein yon pisil..., tein yon tikihtowah mapisiltik t..., mowih, yon weh..., yon ihkon sah moskaltia, amo wehkapan moskaltia, wan yoks..., wan okseki yon tein ikow..., ikowyohwehkapan moskaltia, ki..., kixmatih, kixmatih por mowih, por..., n' ihkon tamati n' ixochiotsin wan ixiwyotsin, ihkon ixiwyotsin wan ixochiotsin.
+# text[orig] = Pos xkita, <i>es...</i>, tehwa:n timonemiliah, welis o:me taman onkak. Tikmatis ke:yeh tehwa:tsi:n, n' ixiwyo ihkó:n ya, tamati wa:n ke:meh tein yo:n, tein yo:n pisi:l..., tein yo:n tikihtowah ma:pisi:ltik t..., mowih, yo:n weh..., yo:n ihkó:n sah moskaltia, a:mo wehkapan moskaltia, wa:n yoks..., wa:n okseki yo:n tein ikow..., ikowyohwehkapan moskaltia, ki..., ki:xmatih, ki:xmatih <i>por</i> mowih, <i>por...</i>, n' ihkó:n tamati n' ixo:chiotsi:n wa:n ixiwyotsi:n, ihkó:n ixiwyotsi:n wa:n ixo:chiotsi:n.
+# text[spa] = Pues, ves, este, nosotros pensamos que quizá haya dos tipos. Sabe usted porqué, exactamente, las hojas son, se parecen a los que son de hojas pequeñas. Sí, las que conocemos como de hojas pequeñas..., y el <i>mowih</i>, de las... nomás crece así, de este tamaño, no crece alto, y el otro, el del tronco que crece alto, lo conocen con el nombre de <i>mowih</i>, porque si se paracen las flores y las hojas, así son las hojas y las flores.
+# text[a31] = Pos xkita, <i>es...</i>, tehwa:n timonemiliah,
+# text[a32] = welis o:me taman onkak. Tikmatis ke:yeh tehwa:tsi:n,
+# text[a33] = n' ixiwyo ihkó:n ya,
+# text[a34] = tamati wa:n ke:meh tein yo:n, tein yo:n pisi:l..., tein yo:n tikihtowah ma:pisi:ltik t..., mowih, yo:n weh..., yo:n ihkó:n sah moskaltia, a:mo wehkapan moskaltia,
+# text[a35] = wa:n yoks..., wa:n okseki yo:n tein ikow..., ikowyohwehkapan moskaltia,
+# text[a36] = ki..., ki:xmatih, ki:xmatih <i>por</i> mowih,
+# text[a37] = <i>por...</i>, n' ihkó:n tamati n' ixo:chiotsi:n wa:n ixiwyotsi:n, ihkó:n ixiwyotsi:n wa:n ixo:chiotsi:n.
+# labels = a31 a32 a33 a34 a35 a36 a37 sentence
+^Pos/Pos$
+^xkita/xkita$
+^,/,$
+^es/es$
+^.../...$
+^,/,$
+^tehwan/tehwan$
+^timonemiliah/timonemiliah$
+^,/,$
+^welis/welis$
+^ome/ome$
+^taman/taman$
+^onkak/onkak$
+^./.$
+^Tikmatis/Tikmatis$
+^keyeh/keyeh$
+^tehwatsin/tehwatsin$
+^,/,$
+^n'/n'$
+^ixiwyo/ixiwyo$
+^ihkon/ihkon$
+^ya/ya$
+^,/,$
+^tamati/tamati$
+^wan/wan$
+^kemeh/kemeh$
+^tein/tein$
+^yon/yon$
+^,/,$
+^tein/tein$
+^yon/yon$
+^pisil/pisil$
+^.../...$
+^,/,$
+^tein/tein$
+^yon/yon$
+^tikihtowah/tikihtowah$
+^mapisiltik/mapisiltik$
+^t.../t...$
+^,/,$
+^mowih/mowih$
+^,/,$
+^yon/yon$
+^weh/weh$
+^.../...$
+^,/,$
+^yon/yon$
+^ihkon/ihkon$
+^sah/sah$
+^moskaltia/moskaltia$
+^,/,$
+^amo/amo$
+^wehkapan/wehkapan$
+^moskaltia/moskaltia$
+^,/,$
+^wan/wan$
+^yoks/yoks$
+^.../...$
+^,/,$
+^wan/wan$
+^okseki/okseki$
+^yon/yon$
+^tein/tein$
+^ikow/ikow$
+^.../...$
+^,/,$
+^ikowyohwehkapan/ikowyohwehkapan$
+^moskaltia/moskaltia$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kixmatih/kixmatih$
+^,/,$
+^kixmatih/kixmatih$
+^por/por$
+^mowih/mowih$
+^,/,$
+^por/por$
+^.../...$
+^,/,$
+^n'/n'$
+^ihkon/ihkon$
+^tamati/tamati$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^wan/wan$
+^ixiwyotsin/ixiwyotsin$
+^,/,$
+^ihkon/ihkon$
+^ixiwyotsin/ixiwyotsin$
+^wan/wan$
+^ixochiotsin/ixochiotsin$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a39
+# text = Sayoh ne por, tak n' tepitsin kipata porin moskaltia mas wehkapan, wan kowyoh. Kowyohtomawak.
+# text[orig] = Sayoh ne: <i>por</i>, tak n' tepitsi:n kipata porin moskaltia <i>más</i> wehkapan, wa:n kowyoh. Kowyohtoma:wak.
+# text[spa] = Quizá diferencía un poco porque crece más alto que el otro y el tronco es más grueso.
+# text[a39] = Sayoh ne: <i>por</i>, tak n' tepitsi:n kipata porin moskaltia <i>más</i> wehkapan,
+# text[a40] = wa:n kowyoh. Kowyohtoma:wak.
+# labels = a39 a40 sentence
+^Sayoh/Sayoh$
+^ne/ne$
+^por/por$
+^,/,$
+^tak/tak$
+^n'/n'$
+^tepitsin/tepitsin$
+^kipata/kipata$
+^porin/porin$
+^moskaltia/moskaltia$
+^mas/mas$
+^wehkapan/wehkapan$
+^,/,$
+^wan/wan$
+^kowyoh/kowyoh$
+^./.$
+^Kowyohtomawak/Kowyohtomawak$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a41
+# text = Wan okseki tein tikilwiah mowih para pahti, bueno yon okseki amo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti, yehwa de yon pisiltik, tein yon tehwan tikilwiah, este, mowih, yon para kikwih para pipiltsitsin, kemeh in tein kipiah, este , kipiah yon se kokolis eliwis tsahtsih.
+# text[orig] = Wa:n okseki tein tikilwiah mowih para pahti, <i>bueno</i> yo:n okseki a:mo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti, yehwa de yo:n pisi:ltik, tein yo:n tehwa:n tikilwiah, <i>este</i>, mowih, yo:n para kikwih para pi:piltsitsi:n, ke:meh i:n tein kipiah, <i>este</i>, kipiah yo:n se: kokolis eliwis tsahtsih.
+# text[spa] = Y el otro, al que le llamamos <i>mowih</i>, que se ocupa para medicina, bueno, la otra planta no sé si la ocupan como medicinal, pero al que conozco, la ocupan para medicina, esa, la de hojas pequeñas, al que nosotros le llamamos <i>mowih</i>, esa, la que ocupan para niños que tienen, tienen una enfermedad rara, los niños lloran desesperadamente.
+# text[a41] = Wa:n okseki tein tikilwiah mowih para pahti, <i>bueno</i> yo:n okseki a:mo nikmati ox kikwih para pahti, pero tein neh nikmattok kikwih para pahti,
+# text[a42] = yehwa de yo:n pisi:ltik, tein yo:n tehwa:n tikilwiah, <i>este</i>, mowih, yo:n para kikwih para pi:piltsitsi:n, ke:meh i:n tein kipiah, <i>este</i>,
+# text[a43] = kipiah yo:n se: kokolis eliwis tsahtsih.
+# labels = a41 a42 a43 sentence
+^Wan/Wan$
+^okseki/okseki$
+^tein/tein$
+^tikilwiah/tikilwiah$
+^mowih/mowih$
+^para/para$
+^pahti/pahti$
+^,/,$
+^bueno/bueno$
+^yon/yon$
+^okseki/okseki$
+^amo/amo$
+^nikmati/nikmati$
+^ox/ox$
+^kikwih/kikwih$
+^para/para$
+^pahti/pahti$
+^,/,$
+^pero/pero$
+^tein/tein$
+^neh/neh$
+^nikmattok/nikmattok$
+^kikwih/kikwih$
+^para/para$
+^pahti/pahti$
+^,/,$
+^yehwa/yehwa$
+^de/de$
+^yon/yon$
+^pisiltik/pisiltik$
+^,/,$
+^tein/tein$
+^yon/yon$
+^tehwan/tehwan$
+^tikilwiah/tikilwiah$
+^,/,$
+^este/este$
+^,/,$
+^mowih/mowih$
+^,/,$
+^yon/yon$
+^para/para$
+^kikwih/kikwih$
+^para/para$
+^pipiltsitsin/pipiltsitsin$
+^,/,$
+^kemeh/kemeh$
+^in/in$
+^tein/tein$
+^kipiah/kipiah$
+^,/,$
+^este/este$
+^,/,$
+^kipiah/kipiah$
+^yon/yon$
+^se/se$
+^kokolis/kokolis$
+^eliwis/eliwis$
+^tsahtsih/tsahtsih$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a44
+# text = Eliwis tsahtsih wan amo kimatih ok toni n..., toni n' kinchiwiliskeh yon hasta tilewih m' pilimeh n' tsahtsih.
+# text[orig] = Eliwis tsahtsih wa:n a:mo kimatih ok toni n..., toni n' kinchi:wili:skeh yo:n <i>hasta</i> ti:le:wih m' pilimeh n' tsahtsih.
+# text[spa] = Lloran desperadamente y no se sabe qué hacer con ellos, de tanto llorar quedan morados.
+# labels = a44 sentence
+^Eliwis/Eliwis$
+^tsahtsih/tsahtsih$
+^wan/wan$
+^amo/amo$
+^kimatih/kimatih$
+^ok/ok$
+^toni/toni$
+^n/n$
+^.../...$
+^,/,$
+^toni/toni$
+^n'/n'$
+^kinchiwiliskeh/kinchiwiliskeh$
+^yon/yon$
+^hasta/hasta$
+^tilewih/tilewih$
+^m/m$
+^pilimeh/pilimeh$
+^n'/n'$
+^tsahtsih/tsahtsih$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a45
+# text = Yehwa yon mowih kimolontiah wan tsiktsin kintailtiah wan seki ika kinaltiah.
+# text[orig] = Yehwa yo:n mowih kimolo:ntiah wa:n tsiktsi:n kintai:ltiah wa:n seki ika kina:ltiah.
+# text[spa] = Entonces hierven las hojas del <i>mowih</i> y los bañan con el agua y una poquita les dan de beber.
+# labels = a45 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^mowih/mowih$
+^kimolontiah/kimolontiah$
+^wan/wan$
+^tsiktsin/tsiktsin$
+^kintailtiah/kintailtiah$
+^wan/wan$
+^seki/seki$
+^ika/ika$
+^kinaltiah/kinaltiah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a46
+# text = Yehwa yon neh nikmattok monotsa mowih para pahti.
+# text[orig] = Yehwa yo:n neh nikmattok mono:tsa mowih para pahti.
+# text[spa] = Esa es la que yo conozco como mowih y es medicina.
+# labels = a46 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^neh/neh$
+^nikmattok/nikmattok$
+^monotsa/monotsa$
+^mowih/mowih$
+^para/para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a47
+# text = Wan okse, okse n' taman, kihtowah que mowih yehwa n' tein nimitsilia moskaltia wehkapan, mahya yon se kow... Aja, yehwa yon.
+# text[orig] = Wa:n oksé:, oksé: n' taman, kihtowah <i>que</i> mowih yehwa n' tein nimitsilia moskaltia wehkapan, mahyá: yo:n se: kow... Ajá, yehwa yo:n.
+# text[spa] = Y la otra planta, dicen que es <i>mowih</i> la que te digo que crece más alto, se parece a un... Si, esa es.
+# text[a47] = Wa:n oksé:, oksé: n' taman,
+# text[a48] = kihtowah <i>que</i> mowih
+# text[a49] = yehwa n' tein nimitsilia moskaltia wehkapan, mahyá: yo:n se: kow... Ajá, yehwa yo:n.
+# labels = a47 a48 a49 sentence
+^Wan/Wan$
+^okse/okse$
+^,/,$
+^okse/okse$
+^n'/n'$
+^taman/taman$
+^,/,$
+^kihtowah/kihtowah$
+^que/que$
+^mowih/mowih$
+^yehwa/yehwa$
+^n'/n'$
+^tein/tein$
+^nimitsilia/nimitsilia$
+^moskaltia/moskaltia$
+^wehkapan/wehkapan$
+^,/,$
+^mahya/mahya$
+^yon/yon$
+^se/se$
+^kow.../kow...$
+^Aja/Aja$
+^,/,$
+^yehwa/yehwa$
+^yon/yon$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a58
+# text = Okse tatsintokalis nanah, neh n'neki nimitstahtanis wan yon mowih keniw n' kitokah, ox i..., kipia iteyo o kowtsin o keniw n' takts..., keniw n' kitaktsontaliah, yehwa neh nikmatisneki.
+# text[orig] = Oksé: tatsi:ntokalis na:nah, neh n'neki nimitstahtani:s wa:n yo:n mowih ke:ní:w n' kito:kah, ox i..., kipia iteyo <i>o</i> kowtsí:n <i>o</i> ke:ní:w n' takts..., ke:ní:w n' kitaktsonta:liah, yehwa neh nikmatisneki.
+# text[spa] = Señora, quiero hacerte otra pregunta, ¿Cómo siembran el <i>mowih</i>? Acaso ... tiene semillas o se siembra el tronco o c[omo lo reproducen, es lo que quiero preguntarte.
+# text[a58] = Oksé: tatsi:ntokalis na:nah, neh n'neki nimitstahtani:s wa:n yo:n mowih ke:ní:w n' kito:kah, ox i...,
+# text[a59] = kipia iteyo <i>o</i> kowtsí:n <i>o</i> ke:ní:w n' takts..., ke:ní:w n' kitaktsonta:liah, yehwa neh nikmatisneki.
+# labels = a58 a59 sentence
+^Okse/Okse$
+^tatsintokalis/tatsintokalis$
+^nanah/nanah$
+^,/,$
+^neh/neh$
+^n'neki/n'neki$
+^nimitstahtanis/nimitstahtanis$
+^wan/wan$
+^yon/yon$
+^mowih/mowih$
+^keniw/keniw$
+^n'/n'$
+^kitokah/kitokah$
+^,/,$
+^ox/ox$
+^i.../i...$
+^,/,$
+^kipia/kipia$
+^iteyo/iteyo$
+^o/o$
+^kowtsin/kowtsin$
+^o/o$
+^keniw/keniw$
+^n'/n'$
+^takts/takts$
+^.../...$
+^,/,$
+^keniw/keniw$
+^n'/n'$
+^kitaktsontaliah/kitaktsontaliah$
+^,/,$
+^yehwa/yehwa$
+^neh/neh$
+^nikmatisneki/nikmatisneki$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a67
+# text = Okse tatsintokalis, neh n'neki nimitstahtanis nanah kemih in tikmati que pahti, keniw n' tikmatik tehwatsin, tikchiwka ya o mitsilwihkeh o, o.... Xa ika timopil..., xa ika ihkon tikitaya aksa ika mopilpahtia wan mitsilwih que tanamiki.
+# text[orig] = Oksé: tatsi:nto:kalis, neh n'neki nimitstahtani:s na:nah ke:mih i:n tikmati <i>que</i> pahti, ke:ní:w n' tikmatik tehwa:tsi:n, tikchi:wka ya <i>o</i> mitsilwihkeh <i>o, o</i> .... Xa: ika timopil..., xa: ika ihkó:n tikitaya a:ksá: ika mopilpahtia wa:n mitsilwih <i>que</i> tana:miki.
+# text[spa] = Quiero preguntarte otra cosa señora señora, pues tu sabes que esta planta es medicinal, ¿Cómo te enteraste, ya lo habías hecho o solamente te contaron? o, Quizá con eso ... quizá alguna vez alguien lo ocupó para curar a su niño y te contó que es buena para medicina.
+# text[a67] = Oksé: tatsi:nto:kalis, neh n'neki nimitstahtani:s na:nah ke:mih i:n tikmati <i>que</i> pahti, ke:ní:w n' tikmatik tehwa:tsi:n, tikchi:wka ya <i>o</i> mitsilwihkeh <i>o, o</i> ....
+# text[a68] = Xa: ika timopil..., xa: ika ihkó:n tikitaya a:ksá: ika mopilpahtia wa:n mitsilwih <i>que</i> tana:miki.
+# labels = a67 a68 sentence
+^Okse/Okse$
+^tatsintokalis/tatsintokalis$
+^,/,$
+^neh/neh$
+^n'neki/n'neki$
+^nimitstahtanis/nimitstahtanis$
+^nanah/nanah$
+^kemih/kemih$
+^in/in$
+^tikmati/tikmati$
+^que/que$
+^pahti/pahti$
+^,/,$
+^keniw/keniw$
+^n'/n'$
+^tikmatik/tikmatik$
+^tehwatsin/tehwatsin$
+^,/,$
+^tikchiwka/tikchiwka$
+^ya/ya$
+^o/o$
+^mitsilwihkeh/mitsilwihkeh$
+^o/o$
+^,/,$
+^o.../o...$
+^./.$
+^Xa/Xa$
+^ika/ika$
+^timopil/timopil$
+^.../...$
+^,/,$
+^xa/xa$
+^ika/ika$
+^ihkon/ihkon$
+^tikitaya/tikitaya$
+^aksa/aksa$
+^ika/ika$
+^mopilpahtia/mopilpahtia$
+^wan/wan$
+^mitsilwih/mitsilwih$
+^que/que$
+^tanamiki/tanamiki$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a69
+# text = Yehwa yon neh nikahsikamatisnekia.
+# text[orig] = Yehwa yo:n neh nikahsika:matisnekia.
+# text[spa] = Eso es lo que yo quería saber.
+# labels = a69 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^neh/neh$
+^nikahsikamatisnekia/nikahsikamatisnekia$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a70
+# text = Neh kemeh ni..., kemeh nitatah pos neh nikaki sayoh ki..., kihtowah que pahti, nechtapowia ne no..., nosiwaw que pahti.
+# text[orig] = Neh ke:meh ni..., ke:meh nita:tah pos neh nikaki sayoh ki..., kihtowah <i>que</i> pahti, ne:chtapowia ne: no..., nosiwa:w <i>que</i> pahti.
+# text[spa] = Pues yo como..., como soy hombre, solamente he escuchado que es medicinal, mi esposa me lo ha contado que es medicinal.
+# labels = a70 sentence
+^Neh/Neh$
+^kemeh/kemeh$
+^ni.../ni...$
+^,/,$
+^kemeh/kemeh$
+^nitatah/nitatah$
+^pos/pos$
+^neh/neh$
+^nikaki/nikaki$
+^sayoh/sayoh$
+^ki.../ki...$
+^,/,$
+^kihtowah/kihtowah$
+^que/que$
+^pahti/pahti$
+^,/,$
+^nechtapowia/nechtapowia$
+^ne/ne$
+^no.../no...$
+^,/,$
+^nosiwaw/nosiwaw$
+^que/que$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a71
+# text = Pos amo nikma..., amo nikyekahsika..., nikyekahsikatatsintokihtok kwali keniw, ox ki..., ox neli n' kinamikik, ox kichiwka ya, o xa sayoh no kitekakilih.
+# text[orig] = Pos a:mo nikma..., a:mo nikye:kahsika:..., nikye:kahsika:tatsi:ntokihtok kwali ke:ní:w, ox ki..., ox neli n' kina:mikik, ox kichi:wka ya, <i>o</i> xa sayoh no: kite:kakilih.
+# text[spa] = Pues no ..., no le..., le he preguntado muy bien, si es verdad que lo haya sanado, si ya lo comprobó, o quizà solamente lo escuchó de otra persona.
+# text[a71] = Pos a:mo nikma..., a:mo nikye:kahsika:..., nikye:kahsika:tatsi:ntokihtok kwali ke:ní:w,
+# text[a72] = ox ki..., ox neli n' kina:mikik, ox kichi:wka ya,
+# text[a73] = <i>o</i> xa sayoh no: kite:kakilih.
+# labels = a71 a72 a73 sentence
+^Pos/Pos$
+^amo/amo$
+^nikma.../nikma...$
+^,/,$
+^amo/amo$
+^nikyekahsika/nikyekahsika$
+^.../...$
+^,/,$
+^nikyekahsikatatsintokihtok/nikyekahsikatatsintokihtok$
+^kwali/kwali$
+^keniw/keniw$
+^,/,$
+^ox/ox$
+^ki.../ki...$
+^,/,$
+^ox/ox$
+^neli/neli$
+^n'/n'$
+^kinamikik/kinamikik$
+^,/,$
+^ox/ox$
+^kichiwka/kichiwka$
+^ya/ya$
+^,/,$
+^o/o$
+^xa/xa$
+^sayoh/sayoh$
+^no/no$
+^kitekakilih/kitekakilih$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a74
+# text = Wan tehwatsin nimitstahtanisneki kox xa no 'te..., 'tekakilih sah, ox, ox tik..., neli tik..., neli kichiwkah ya moteiskaltihkawan o keniw yon.
+# text[orig] = Wa:n tehwa:tsi:n nimitstahtani:sneki kox xa: no: 'te:..., 'te:kakilih sah, ox, ox tik..., neli tik..., neli kichi:wkah ya mote:iskaltihka:wa:n <i>o</i> ke:ní:w yo:n.
+# text[spa] = Y a usted quiero preguntarle si solamente has escuchado o..., o tus padres ya lo había hecho o cómo es eso.
+# text[a74] = Wa:n tehwa:tsi:n nimitstahtani:sneki kox xa: no: 'te:..., 'te:kakilih sah, ox, ox tik...,
+# text[a75] = neli tik..., neli kichi:wkah ya mote:iskaltihka:wa:n <i>o</i> ke:ní:w yo:n.
+# labels = a74 a75 sentence
+^Wan/Wan$
+^tehwatsin/tehwatsin$
+^nimitstahtanisneki/nimitstahtanisneki$
+^kox/kox$
+^xa/xa$
+^no/no$
+^te.../te...$
+^,/,$
+^tekakilih/tekakilih$
+^sah/sah$
+^,/,$
+^ox/ox$
+^,/,$
+^ox/ox$
+^tik.../tik...$
+^,/,$
+^neli/neli$
+^tik.../tik...$
+^,/,$
+^neli/neli$
+^kichiwkah/kichiwkah$
+^ya/ya$
+^moteiskaltihkawan/moteiskaltihkawan$
+^o/o$
+^keniw/keniw$
+^yon/yon$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a84
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a84 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a85
+# text = Pos yehwa yon neh nimitsilia, neh nikixmattok neli yon sentaman tein neh nimitsilia yon kowtsin. Pero amo, amo, amo n'mati kox pahti yon. Tein neh nikmattok neli que pahti, yehwa n' tein pisiltik nimitsilia, yon okseki pos, no tikmatih que ihkon monotsa no mahya kihtowah que, kixmatih que iwki yehwa yon monotsa iwki no kemeh yon okseki, porque tikixmatiliah n' ixochiotsin wan ixiwyotsin, wan ikowyotsin, nochi, nochi iwkitik a.
+# text[orig] = Pos yehwa yo:n neh nimitsilia, neh niki:xmattok neli yo:n sentaman tein neh nimitsilia yo:n kowtsí:n. Pero a:mo, a:mo, a:mo n'mati kox pahti yo:n. Tein neh nikmattok neli <i>que</i> pahti, yehwa n' tein pisi:ltik nimitsilia, yo:n okseki pos, no: tikmatih <i>que</i> ihkó:n mono:tsa no: mahyá: kihtowah <i>que</i>, ki:xmatih <i>que</i>iwki yehwa yo:n mono:tsa iwki no: ke:meh yo:n okseki, <i>porque</i> tiki:xmatiliah n' ixo:chiotsi:n wa:n ixiwyotsi:n, wa:n ikowyotsi:n, nochi, nochi iwkitik a.
+# text[spa] = Pues es eso lo que yo te digo, yo solamente conozco de esa planta que te cuento. Pero no, no, no sé si es medicinal esa planta. Pues yo sé que es medicinal es la que tinen hojas pequeñas  y de la otra pues, pues también sabemos que dicen que así se llama, así la conocen esa planta, tiene el mismo nombre que la otra planta, la reconocemos por el tipo flor y la hoja, y el tallo es parecido al otro.
+# text[a85] = Pos yehwa yo:n neh nimitsilia, neh niki:xmattok neli yo:n sentaman tein neh nimitsilia yo:n kowtsí:n. Pero a:mo, a:mo, a:mo n'mati kox pahti yo:n. Tein neh nikmattok neli <i>que</i> pahti, yehwa n' tein pisi:ltik nimitsilia, yo:n okseki pos,
+# text[a86] = no: tikmatih <i>que</i> ihkó:n mono:tsa no: mahyá: kihtowah <i>que</i>, ki:xmatih <i>que</i>iwki yehwa yo:n mono:tsa iwki no: ke:meh yo:n okseki,
+# text[a87] = <i>porque</i> tiki:xmatiliah n' ixo:chiotsi:n wa:n ixiwyotsi:n,
+# text[a88] = wa:n ikowyotsi:n, nochi, nochi iwkitik a.
+# labels = a85 a86 a87 a88 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^yon/yon$
+^neh/neh$
+^nimitsilia/nimitsilia$
+^,/,$
+^neh/neh$
+^nikixmattok/nikixmattok$
+^neli/neli$
+^yon/yon$
+^sentaman/sentaman$
+^tein/tein$
+^neh/neh$
+^nimitsilia/nimitsilia$
+^yon/yon$
+^kowtsin/kowtsin$
+^./.$
+^Pero/Pero$
+^amo/amo$
+^,/,$
+^amo/amo$
+^,/,$
+^amo/amo$
+^n'mati/n'mati$
+^kox/kox$
+^pahti/pahti$
+^yon/yon$
+^./.$
+^Tein/Tein$
+^neh/neh$
+^nikmattok/nikmattok$
+^neli/neli$
+^que/que$
+^pahti/pahti$
+^,/,$
+^yehwa/yehwa$
+^n'/n'$
+^tein/tein$
+^pisiltik/pisiltik$
+^nimitsilia/nimitsilia$
+^,/,$
+^yon/yon$
+^okseki/okseki$
+^pos/pos$
+^,/,$
+^no/no$
+^tikmatih/tikmatih$
+^que/que$
+^ihkon/ihkon$
+^monotsa/monotsa$
+^no/no$
+^mahya/mahya$
+^kihtowah/kihtowah$
+^que/que$
+^,/,$
+^kixmatih/kixmatih$
+^que/que$
+^iwki/iwki$
+^yehwa/yehwa$
+^yon/yon$
+^monotsa/monotsa$
+^iwki/iwki$
+^no/no$
+^kemeh/kemeh$
+^yon/yon$
+^okseki/okseki$
+^,/,$
+^porque/porque$
+^tikixmatiliah/tikixmatiliah$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^wan/wan$
+^ixiwyotsin/ixiwyotsin$
+^,/,$
+^wan/wan$
+^ikowyotsin/ikowyotsin$
+^,/,$
+^nochi/nochi$
+^,/,$
+^nochi/nochi$
+^iwkitik/iwkitik$
+^a/a$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a89
+# text = No iwtik a. Sanoke tepitsin kipata de yon porin wehkapania wan tepitsin mas kowyohtomawak. Aja, yehwa yoni.
+# text[orig] = No: iwtik a. Sanoke tepitsi:n kipata de yo:n porin wehkapania wa:n tepitsi:n <i>más</i> kowyohtoma:wak. Ajá, yehwa yo:ni.
+# text[spa] = Es muy parecido, solamente se diferencia porque la otra planta crece más alta y el tronco es más grueso. Aha,  es eso.
+# labels = a89 sentence
+^No/No$
+^iwtik/iwtik$
+^a/a$
+^./.$
+^Sanoke/Sanoke$
+^tepitsin/tepitsin$
+^kipata/kipata$
+^de/de$
+^yon/yon$
+^porin/porin$
+^wehkapania/wehkapania$
+^wan/wan$
+^tepitsin/tepitsin$
+^mas/mas$
+^kowyohtomawak/kowyohtomawak$
+^./.$
+^Aja/Aja$
+^,/,$
+^yehwa/yehwa$
+^yoni/yoni$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a92
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí
+# labels = a92 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a95
+# text = Pues tikmatis welis kemah, eski no, no yehwa, no iwki monotsa mowih.
+# text[orig] = <i>Pues</i> tikmatis welis ke:mah, eski no:, no: yehwa, no: iwki mono:tsa mowih.
+# text[spa] = Pues quizás sea posible, quizá también, esa planta también se llama <i>mowih</i>.
+# labels = a95 sentence
+^Pues/Pues$
+^tikmatis/tikmatis$
+^welis/welis$
+^kemah/kemah$
+^,/,$
+^eski/eski$
+^no/no$
+^,/,$
+^no/no$
+^yehwa/yehwa$
+^,/,$
+^no/no$
+^iwki/iwki$
+^monotsa/monotsa$
+^mowih/mowih$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a96
+# text = Tikmatis cada xiwtsitsin ihkon teihsa kowtsin, xiwtsin, onkak ome taman, onkak hasta eyi taman, pero amo nochi tikihixmatih.
+# text[orig] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n, onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# text[spa] = Sabes que cada planta o arbolito, hay dos o hasta tres tipos, pero no todos los conocemos.
+# text[a96] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n,
+# text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
+# labels = a96 a97 sentence
+^Tikmatis/Tikmatis$
+^cada/cada$
+^xiwtsitsin/xiwtsitsin$
+^ihkon/ihkon$
+^teihsa/teihsa$
+^kowtsin/kowtsin$
+^,/,$
+^xiwtsin/xiwtsin$
+^,/,$
+^onkak/onkak$
+^ome/ome$
+^taman/taman$
+^,/,$
+^onkak/onkak$
+^hasta/hasta$
+^eyi/eyi$
+^taman/taman$
+^,/,$
+^pero/pero$
+^amo/amo$
+^nochi/nochi$
+^tikihixmatih/tikihixmatih$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a98
+# text = Wan tataman no n' kowtsitsin mahya kemeh tehwan tikihtowah. Pos, este , ixiwyotsin, ikowyotsin, ixochiotsin, iw..., iwki, iwki no, sanoke kipata tepitsin de weh..., de moskaltia, de wehkapania wan de n..., de n' ikowyo wan de tik..., tein kemeh kikwih para pahti. Wan tein amo para pahti pos tikmattokeh que amo para pahti.
+# text[orig] = Wa:n ta:taman no: n' kowtsitsí:n mahyá: ke:meh tehwa:n tikihtowah. Pos, <i>este</i>, ixiwyotsi:n, ikowyotsi:n, ixo:chiotsi:n, iw..., iwki, iwki no:, sanoke kipata tepitsi:n de weh..., de moskaltia, de wehkapania wa:n de n..., de n' ikowyo wa:n de tik..., tein ke:meh kikwih para pahti. Wa:n tein a:mo para pahti pos tikmattokeh <i>que</i> a:mo para pahti.
+# text[spa] = Y son diferentes los arbolitos, como decimos. Pues, este, las hojas, el tronco y las flores son parecidas, Sólo cambia un poco de altura y de ..., del tronco y, y la que ocupan para medicina. Y la que no es medicial pues sabemos muy bien que no es medicinal.
+# text[a98] = Wa:n ta:taman no: n' kowtsitsí:n mahyá: ke:meh tehwa:n tikihtowah. Pos, <i>este</i>,
+# text[a100] = ixiwyotsi:n, ikowyotsi:n, ixo:chiotsi:n, iw..., iwki, iwki no:,
+# text[a101] = sanoke kipata tepitsi:n de weh..., de moskaltia, de wehkapania wa:n de n...,
+# text[a103] = de n' ikowyo wa:n de tik..., tein ke:meh kikwih para pahti. Wa:n tein a:mo para pahti pos tikmattokeh <i>que</i> a:mo para pahti.
+# labels = a100 a101 a103 a98 sentence
+^Wan/Wan$
+^tataman/tataman$
+^no/no$
+^n'/n'$
+^kowtsitsin/kowtsitsin$
+^mahya/mahya$
+^kemeh/kemeh$
+^tehwan/tehwan$
+^tikihtowah/tikihtowah$
+^./.$
+^Pos/Pos$
+^,/,$
+^este/este$
+^,/,$
+^ixiwyotsin/ixiwyotsin$
+^,/,$
+^ikowyotsin/ikowyotsin$
+^,/,$
+^ixochiotsin/ixochiotsin$
+^,/,$
+^iw.../iw...$
+^,/,$
+^iwki/iwki$
+^,/,$
+^iwki/iwki$
+^no/no$
+^,/,$
+^sanoke/sanoke$
+^kipata/kipata$
+^tepitsin/tepitsin$
+^de/de$
+^weh/weh$
+^.../...$
+^,/,$
+^de/de$
+^moskaltia/moskaltia$
+^,/,$
+^de/de$
+^wehkapania/wehkapania$
+^wan/wan$
+^de/de$
+^n/n$
+^.../...$
+^,/,$
+^de/de$
+^n'/n'$
+^ikowyo/ikowyo$
+^wan/wan$
+^de/de$
+^tik.../tik...$
+^,/,$
+^tein/tein$
+^kemeh/kemeh$
+^kikwih/kikwih$
+^para/para$
+^pahti/pahti$
+^./.$
+^Wan/Wan$
+^tein/tein$
+^amo/amo$
+^para/para$
+^pahti/pahti$
+^pos/pos$
+^tikmattokeh/tikmattokeh$
+^que/que$
+^amo/amo$
+^para/para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a104
+# text = Pero tein tikmattokeh que para pahti pos tikmattokeh para pahti.
+# text[orig] = Pero tein tikmattokeh <i>que</i> para pahti pos tikmattokeh para pahti.
+# text[spa] = Pero de la que sabemos que es medicinal pues lo sabemos perfectamente.
+# labels = a104 sentence
+^Pero/Pero$
+^tein/tein$
+^tikmattokeh/tikmattokeh$
+^que/que$
+^para/para$
+^pahti/pahti$
+^pos/pos$
+^tikmattokeh/tikmattokeh$
+^para/para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a106
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a106 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a108
+# text = Yehwa yon.
+# text[orig] = Yehwa yo:n.
+# text[spa] = Eso es.
+# labels = a108 sentence
+^Yehwa/Yehwa$
+^yon/yon$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a110
+# text = Pues yehwa sah yon neh nimitstahtanilia, tasohkamatik.
+# text[orig] = <i>Pues</i> yehwa sah yo:n neh nimitstahtanilia, tasohka:matik.
+# text[spa] = Pues nada más eso de lo que yo te cuento, gracias.
+# labels = a110 sentence
+^Pues/Pues$
+^yehwa/yehwa$
+^sah/sah$
+^yon/yon$
+^neh/neh$
+^nimitstahtanilia/nimitstahtanilia$
+^,/,$
+^tasohkamatik/tasohkamatik$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a111
+# text = 'Tasohkamatilia que ti..., timonohnotskeh nikan in, neh nimonotsa niRuben Macario, niwalewa de Chilcuauhta wan nipowi nikan cerca San Miguel.
+# text[orig] = 'Tasohka:matilia <i>que</i> ti..., timonohno:tskeh nika:n i:n, neh nimono:tsa niRubén Macario, niwa:le:wa de Chilcuauhta wa:n nipowi nika:n <i>cerca</i> San Miguel.
+# text[spa] = Te agradezco por haber platicado aquí, yo me llamo Rubén Macario, vengo de Chilcuahta Y pertenezco en San Miguel Tzinacan.
+# text[a111] = 'Tasohka:matilia <i>que</i> ti..., timonohno:tskeh nika:n i:n,
+# text[a112] = neh nimono:tsa niRubén Macario, niwa:le:wa de Chilcuauhta
+# text[a113] = wa:n nipowi nika:n <i>cerca</i> San Miguel.
+# labels = a111 a112 a113 sentence
+^'Tasohkamatilia/'Tasohkamatilia$
+^que/que$
+^ti.../ti...$
+^,/,$
+^timonohnotskeh/timonohnotskeh$
+^nikan/nikan$
+^in/in$
+^,/,$
+^neh/neh$
+^nimonotsa/nimonotsa$
+^niRuben/niRuben$
+^Macario/Macario$
+^,/,$
+^niwalewa/niwalewa$
+^de/de$
+^Chilcuauhta/Chilcuauhta$
+^wan/wan$
+^nipowi/nipowi$
+^nikan/nikan$
+^cerca/cerca$
+^San/San$
+^Miguel/Miguel$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a28
+# text = Pos neh nikixmattok de yon kilwiah mowih, neh nikixmattok ipa sentaman sah.
+# text[orig] = Pos neh niki:xmattok de yo:n kilwiah mowih, neh niki:xmattok i:pa sentaman sah.
+# text[spa] = Pues, yo conozco de este que dicen <i>mowih</i>, yo conozco acaso solamente uno hay.
+# labels = a28 sentence
+^Pos/Pos$
+^neh/neh$
+^nikixmattok/nikixmattok$
+^de/de$
+^yon/yon$
+^kilwiah/kilwiah$
+^mowih/mowih$
+^,/,$
+^neh/neh$
+^nikixmattok/nikixmattok$
+^ipa/ipa$
+^sentaman/sentaman$
+^sah/sah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a29
+# text = Yon moketsa ata, nen, ikowyotsin wan mapisiltik, maweweyak, neh yehwa sah ipa yon nikixmattok, amo nikixmati komo ome taman onkak.
+# text[orig] = Yo:n moketsa ata, ne:n, ikowyotsi:n wa:n ma:pisi:ltik, ma:we:weyak, neh yehwa sah i:pa yo:n niki:xmattok, a:mo niki:xmati komo o:me taman onkak.
+# text[spa] = El del tronco erecto y tiene hojas pequeñas y alargadas, yo solamente esto conozco, no conozco si hay dos tipos.
+# text[a29] = Yo:n moketsa ata, ne:n, ikowyotsi:n wa:n ma:pisi:ltik, ma:we:weyak,
+# text[a30] = neh yehwa sah i:pa yo:n niki:xmattok, a:mo niki:xmati komo o:me taman onkak.
+# labels = a29 a30 sentence
+^Yon/Yon$
+^moketsa/moketsa$
+^ata/ata$
+^,/,$
+^nen/nen$
+^,/,$
+^ikowyotsin/ikowyotsin$
+^wan/wan$
+^mapisiltik/mapisiltik$
+^,/,$
+^maweweyak/maweweyak$
+^,/,$
+^neh/neh$
+^yehwa/yehwa$
+^sah/sah$
+^ipa/ipa$
+^yon/yon$
+^nikixmattok/nikixmattok$
+^,/,$
+^amo/amo$
+^nikixmati/nikixmati$
+^komo/komo$
+^ome/ome$
+^taman/taman$
+^onkak/onkak$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a38
+# text = A, no iwki.
+# text[orig] = A:, no: iwki.
+# text[spa] = Ah, así son.
+# labels = a38 sentence
+^A/A$
+^,/,$
+^no/no$
+^iwki/iwki$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a50
+# text = Tein mas wei, mas wei moskaltia tikihtowa.
+# text[orig] = Tein <i>más</i> we:i, <i>más</i> we:i moskaltia tikihtowa.
+# text[spa] = El más grande, la que dicen que crece más alto.
+# labels = a50 sentence
+^Tein/Tein$
+^mas/mas$
+^wei/wei$
+^,/,$
+^mas/mas$
+^wei/wei$
+^moskaltia/moskaltia$
+^tikihtowa/tikihtowa$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a51
+# text = Pos neh nikixmattok yehwa sah ipa no yon sentaman neli kemeh yon tikihtowa yon map..., mapisiltik, maweweyak, wan neli ipa no n'mattok que yehwa neli yon pilimeh, tein yon mohkakwih kinilwiah, yehwa yon ika kinaltiah neli.
+# text[orig] = Pos neh niki:xmattok yehwa sah i:pa no: yo:n sentaman neli ke:meh yo:n tikihtowa yo:n ma:p..., ma:pisi:ltik, ma:we:weyak, wa:n neli i:pa no: n'mattok <i>que</i> yehwa neli yo:n pilimeh, tein yo:n mohka:kwih kinilwiah, yehwa yo:n ika kina:ltiah neli.
+# text[spa] = Pues yo nada más conozco esa, de un solo tipo, así como tú dices, esa que tiene hojas pequeñas y alargadas, y es verdad, de por sí sé que cuando los niños tienen como susto, los bañan con el agua del <i>mowih</i>
+# text[a51] = Pos neh niki:xmattok yehwa sah i:pa no: yo:n sentaman neli ke:meh yo:n tikihtowa yo:n ma:p..., ma:pisi:ltik, ma:we:weyak,
+# text[a52] = wa:n neli i:pa no: n'mattok <i>que</i> yehwa neli yo:n pilimeh, tein yo:n mohka:kwih kinilwiah, yehwa yo:n ika kina:ltiah neli.
+# labels = a51 a52 sentence
+^Pos/Pos$
+^neh/neh$
+^nikixmattok/nikixmattok$
+^yehwa/yehwa$
+^sah/sah$
+^ipa/ipa$
+^no/no$
+^yon/yon$
+^sentaman/sentaman$
+^neli/neli$
+^kemeh/kemeh$
+^yon/yon$
+^tikihtowa/tikihtowa$
+^yon/yon$
+^map/map$
+^.../...$
+^,/,$
+^mapisiltik/mapisiltik$
+^,/,$
+^maweweyak/maweweyak$
+^,/,$
+^wan/wan$
+^neli/neli$
+^ipa/ipa$
+^no/no$
+^n'mattok/n'mattok$
+^que/que$
+^yehwa/yehwa$
+^neli/neli$
+^yon/yon$
+^pilimeh/pilimeh$
+^,/,$
+^tein/tein$
+^yon/yon$
+^mohkakwih/mohkakwih$
+^kinilwiah/kinilwiah$
+^,/,$
+^yehwa/yehwa$
+^yon/yon$
+^ika/ika$
+^kinaltiah/kinaltiah$
+^neli/neli$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a53
+# text = Wan kwaltsin mochiwa neli n' at, yek..., yektapalat mochiwa, yekchichiltik.
+# text[orig] = Wa:n kwaltsi:n mochi:wa neli n' a:t, ye:k..., ye:ktapala:t mochi:wa, ye:kchi:chi:ltik.
+# text[spa] = El agua queda bien bonita, colorada, queda muy rojizo.
+# labels = a53 sentence
+^Wan/Wan$
+^kwaltsin/kwaltsin$
+^mochiwa/mochiwa$
+^neli/neli$
+^n'/n'$
+^at/at$
+^,/,$
+^yek.../yek...$
+^,/,$
+^yektapalat/yektapalat$
+^mochiwa/mochiwa$
+^,/,$
+^yekchichiltik/yekchichiltik$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a54
+# text = N'mattok que yehwa yoni neli ika kinaltiah m' pilimeh, kihtowah para mah kelkawa de yon tsahtsiskwi.
+# text[orig] = N'mattok <i>que</i> yehwa yo:ni neli ika kina:ltiah m' pilimeh, kihtowah para mah kelka:wa de yo:n tsahtsiskwi.
+# text[spa] = Sé que con esa agua bañan a los niños, dicen que con eso pueden curarse cuando lloran desesperdamente.
+# labels = a54 sentence
+^N'mattok/N'mattok$
+^que/que$
+^yehwa/yehwa$
+^yoni/yoni$
+^neli/neli$
+^ika/ika$
+^kinaltiah/kinaltiah$
+^m'/m'$
+^pilimeh/pilimeh$
+^,/,$
+^kihtowah/kihtowah$
+^para/para$
+^mah/mah$
+^kelkawa/kelkawa$
+^de/de$
+^yon/yon$
+^tsahtsiskwi/tsahtsiskwi$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a55
+# text = Porque neli yon kihtowah yektsahtsih, neli seki iksa hasta ixtayowah.
+# text[orig] = <i>Porque</i> neli yo:n kihtowah ye:ktsahtsih, neli seki i:ksá: <i>hasta</i> i:xtayowah.
+# text[spa] = Porque es verdad de lo que dicen, lloran desesperadamente, a veces algunos niños se desmayan de tanto llorar.
+# labels = a55 sentence
+^Porque/Porque$
+^neli/neli$
+^yon/yon$
+^kihtowah/kihtowah$
+^yektsahtsih/yektsahtsih$
+^,/,$
+^neli/neli$
+^seki/seki$
+^iksa/iksa$
+^hasta/hasta$
+^ixtayowah/ixtayowah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a56
+# text = Wan yehwa yoni, ika yon kihtowah kelkawah m' pilimeh ika kinaltiah, amo n'mati neh ox onkak okse mas ika teihsa mas pahti, neh ipa yehwa sah yoni nikmattok.
+# text[orig] = Wa:n yehwa yo:ni, ika yo:n kihtowah kelka:wah m' pilimeh ika kina:ltiah, a:mo n'mati neh ox onkak oksé: <i>más</i> ika teihsá: <i>más</i> pahti, neh i:pa yehwa sah yo:ni nikmattok.
+# text[spa] = Y eso es, que al darles de beber y bañarlos con esa agua, dejan o se curan de esa enfermedad, no sé si exista otra planta para ... que cure otra enfermedad, yo nada más eso sé.
+# text[a56] = Wa:n yehwa yo:ni, ika yo:n kihtowah kelka:wah m' pilimeh ika kina:ltiah, a:mo n'mati neh ox onkak oksé: <i>más</i> ika
+# text[a57] = teihsá: <i>más</i> pahti, neh i:pa yehwa sah yo:ni nikmattok.
+# labels = a56 a57 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^yoni/yoni$
+^,/,$
+^ika/ika$
+^yon/yon$
+^kihtowah/kihtowah$
+^kelkawah/kelkawah$
+^m/m$
+^pilimeh/pilimeh$
+^ika/ika$
+^kinaltiah/kinaltiah$
+^,/,$
+^amo/amo$
+^n'mati/n'mati$
+^neh/neh$
+^ox/ox$
+^onkak/onkak$
+^okse/okse$
+^mas/mas$
+^ika/ika$
+^teihsa/teihsa$
+^mas/mas$
+^pahti/pahti$
+^,/,$
+^neh/neh$
+^ipa/ipa$
+^yehwa/yehwa$
+^sah/sah$
+^yoni/yoni$
+^nikmattok/nikmattok$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a60
+# text = Pos yon amo nikmati no, neh nimolwia que xa ikowyotsin kitokah.
+# text[orig] = Pos yo:n a:mo nikmati no:, neh nimolwia <i>que</i> xa: ikowyotsi:n kito:kah.
+# text[spa] = Pues respecto a eso, no sé, yo me imagino que quizá lo siembran el tallo.
+# labels = a60 sentence
+^Pos/Pos$
+^yon/yon$
+^amo/amo$
+^nikmati/nikmati$
+^no/no$
+^,/,$
+^neh/neh$
+^nimolwia/nimolwia$
+^que/que$
+^xa/xa$
+^ikowyotsin/ikowyotsin$
+^kitokah/kitokah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a61
+# text = Porque neh amo keman nikita komo xochiowa oso teyowa.
+# text[orig] = <i>Porque</i> neh a:mo ke:man nikita komo xo:chiowa oso teyowa.
+# text[spa] = Porque yo nunca he visto que floree o que tenga semillas.
+# labels = a61 sentence
+^Porque/Porque$
+^neh/neh$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^komo/komo$
+^xochiowa/xochiowa$
+^oso/oso$
+^teyowa/teyowa$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a62
+# text = Neh nimolwia que xa kow..., kowtsini kitokah wan selia ya. Wan komo tein se maselia, pos selias tiktokas.
+# text[orig] = Neh nimolwia <i>que</i> xa: kow..., kowtsí:ni kito:kah wa:n selia ya. Wa:n komo tein se: ma:selia, pos selias tikto:kas.
+# text[spa] = Yo me imagino que quizá siembran el tallo y retoña. Y el que siembra y tiene buena mano, al sembrarlo, retoña.
+# labels = a62 sentence
+^Neh/Neh$
+^nimolwia/nimolwia$
+^que/que$
+^xa/xa$
+^kow.../kow...$
+^,/,$
+^kowtsini/kowtsini$
+^kitokah/kitokah$
+^wan/wan$
+^selia/selia$
+^ya/ya$
+^./.$
+^Wan/Wan$
+^komo/komo$
+^tein/tein$
+^se/se$
+^maselia/maselia$
+^,/,$
+^pos/pos$
+^selias/selias$
+^tiktokas/tiktokas$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a63
+# text = Porque nejon amo, amo n'mati ox no teyowa yoni, amo keman nikita nen ixochio.
+# text[orig] = <i>Porque</i> nejó:n a:mo, a:mo n'mati ox no: teyowa yo:ni, a:mo ke:man nikita ne:n ixo:chio.
+# text[spa] = Porque eso no sé si da frutos, nunca le he visto flores.
+# labels = a63 sentence
+^Porque/Porque$
+^nejon/nejon$
+^amo/amo$
+^,/,$
+^amo/amo$
+^n'mati/n'mati$
+^ox/ox$
+^no/no$
+^teyowa/teyowa$
+^yoni/yoni$
+^,/,$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^nen/nen$
+^ixochio/ixochio$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a64
+# text = No nion, no nion nikmati neh komo xochiowa, no neli tehwan ne kaltsintan neli no onkaya se, pero waktok a porque neli tapialmeh kikwah.
+# text[orig] = No: nió:n, no: nió:n nikmati neh komo xo:chiowa, no: neli tehwa:n ne: kaltsi:ntan neli no: onkaya se:, pero wa:ktok a <i>porque</i> neli tapialmeh kikwah.
+# text[spa] = No estoy enterada si alguna vez florea, pues es cierto, allá, cerca de mi casa también había una mata, pero ya está secándose porque se ahí se alimentan los animales.
+# text[a64] = No: nió:n, no: nió:n nikmati neh komo xo:chiowa, no: neli tehwa:n ne: kaltsi:ntan neli no: onkaya se:,
+# text[a65] = pero wa:ktok a <i>porque</i> neli tapialmeh kikwah.
+# labels = a64 a65 sentence
+^No/No$
+^nion/nion$
+^,/,$
+^no/no$
+^nion/nion$
+^nikmati/nikmati$
+^neh/neh$
+^komo/komo$
+^xochiowa/xochiowa$
+^,/,$
+^no/no$
+^neli/neli$
+^tehwan/tehwan$
+^ne/ne$
+^kaltsintan/kaltsintan$
+^neli/neli$
+^no/no$
+^onkaya/onkaya$
+^se/se$
+^,/,$
+^pero/pero$
+^waktok/waktok$
+^a/a$
+^porque/porque$
+^neli/neli$
+^tapialmeh/tapialmeh$
+^kikwah/kikwah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a66
+# text = Wan amo keman nikita ox xochiowa, pero neh nimolia que xa ikowyotsin no kitokah wan selia.
+# text[orig] = Wa:n a:mo ke:man nikita ox xo:chiowa, pero neh nimolia <i>que</i> xa: ikowyotsi:n no: kito:kah wa:n selia.
+# text[spa] = Y nunca la he visto que floree pero yo me imagino que a lo mejor siembran el tallo y retoña.
+# labels = a66 sentence
+^Wan/Wan$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^ox/ox$
+^xochiowa/xochiowa$
+^,/,$
+^pero/pero$
+^neh/neh$
+^nimolia/nimolia$
+^que/que$
+^xa/xa$
+^ikowyotsin/ikowyotsin$
+^no/no$
+^kitokah/kitokah$
+^wan/wan$
+^selia/selia$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a76
+# text = Amo. Yon neh ipa no nikakiliaya noman, kihtowa que yehwa yon tein tsahtsiskwih m' pilimeh, yehwa yon mah ika kinaltikan wan kihtowah que kelkawah.
+# text[orig] = A:mo. Yo:n neh i:pa no: nikakilia:ya no:má:n, kihtowa <i>que</i> yehwa yo:n tein tsahtsiskwih m' pilimeh, yehwa yo:n mah ika kina:lti:ka:n wa:n kihtowah <i>que</i> kelka:wah.
+# text[spa] = No. Eso lo escuchaba de mi mamá, dice que cuando los niños lloran desesperadamente, que los bañen con el agua del <i>mowih</i> y poco a poco se les va quitando esa enfermedad de llorar mucho.
+# labels = a76 sentence
+^Amo/Amo$
+^./.$
+^Yon/Yon$
+^neh/neh$
+^ipa/ipa$
+^no/no$
+^nikakiliaya/nikakiliaya$
+^noman/noman$
+^,/,$
+^kihtowa/kihtowa$
+^que/que$
+^yehwa/yehwa$
+^yon/yon$
+^tein/tein$
+^tsahtsiskwih/tsahtsiskwih$
+^m'/m'$
+^pilimeh/pilimeh$
+^,/,$
+^yehwa/yehwa$
+^yon/yon$
+^mah/mah$
+^ika/ika$
+^kinaltikan/kinaltikan$
+^wan/wan$
+^kihtowah/kihtowah$
+^que/que$
+^kelkawah/kelkawah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a77
+# text = Pero neh amo keman nikwik de yon xiwtsini, pero nikmattok kihtowah neli que pahti.
+# text[orig] = Pero neh a:mo ke:man nikwik de yo:n xiwtsi:ni, pero nikmattok kihtowah neli <i>que</i> pahti.
+# text[spa] = Pero yo nunca ocupé las hojas de esa planta, pero sí sé que dicen que esa planta es medicinal.
+# labels = a77 sentence
+^Pero/Pero$
+^neh/neh$
+^amo/amo$
+^keman/keman$
+^nikwik/nikwik$
+^de/de$
+^yon/yon$
+^xiwtsini/xiwtsini$
+^,/,$
+^pero/pero$
+^nikmattok/nikmattok$
+^kihtowah/kihtowah$
+^neli/neli$
+^que/que$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a78
+# text = Pero kihtowah neli que, que yehwa yon komo tsahtsiskwih m' pilimeh pos ika yon kinaltiah wan neli yon tikihtowa kintailtiah tsiktsin, wan, wan nejon kinaltiah ika seki a wan no kelkawah de yon tsahtsiskwih. Neh yehwa yoni nikmattok, wan neli ipa nikakiliani noteiskaltihkaw neh nechilwiaya.
+# text[orig] = Pero kihtowah neli <i>que, que</i> yehwa yo:n komo tsahtsiskwih m' pilimeh pos ika yo:n kina:ltiah wa:n neli yo:n tikihtowa kintai:ltiah tsiktsi:n, wa:n, wa:n nejó:n kina:ltiah ika seki a wa:n no: kelka:wah de yo:n tsahtsiskwih. Neh yehwa yo:ni nikmattok, wa:n neli i:pa nikakilia:ni note:iskaltihka:w neh ne:chilwia:ya.
+# text[spa] = Pero solamente cuando los niños lloran mucho, lloran desperadamente, los bañan con el agua hervida de esa planta y una poquita les dan de beber, y el resto del agua hervida de la planta lo ocupan para bañarlo, entonces al llorar ya no quedan morados. Eso es lo que yo sé, es verdad, yo le oía a mi madre, me lo contaba.
+# text[a78] = Pero kihtowah neli <i>que, que</i> yehwa yo:n komo tsahtsiskwih m' pilimeh pos ika yo:n kina:ltiah wa:n neli yo:n tikihtowa kintai:ltiah tsiktsi:n,
+# text[a79] = wa:n, wa:n nejó:n kina:ltiah ika seki a wa:n no: kelka:wah de yo:n tsahtsiskwih. Neh yehwa yo:ni nikmattok,
+# text[a80] = wa:n neli i:pa nikakilia:ni note:iskaltihka:w neh ne:chilwia:ya.
+# labels = a78 a79 a80 sentence
+^Pero/Pero$
+^kihtowah/kihtowah$
+^neli/neli$
+^que/que$
+^,/,$
+^que/que$
+^yehwa/yehwa$
+^yon/yon$
+^komo/komo$
+^tsahtsiskwih/tsahtsiskwih$
+^m/m$
+^pilimeh/pilimeh$
+^pos/pos$
+^ika/ika$
+^yon/yon$
+^kinaltiah/kinaltiah$
+^wan/wan$
+^neli/neli$
+^yon/yon$
+^tikihtowa/tikihtowa$
+^kintailtiah/kintailtiah$
+^tsiktsin/tsiktsin$
+^,/,$
+^wan/wan$
+^,/,$
+^wan/wan$
+^nejon/nejon$
+^kinaltiah/kinaltiah$
+^ika/ika$
+^seki/seki$
+^a/a$
+^wan/wan$
+^no/no$
+^kelkawah/kelkawah$
+^de/de$
+^yon/yon$
+^tsahtsiskwih/tsahtsiskwih$
+^./.$
+^Neh/Neh$
+^yehwa/yehwa$
+^yoni/yoni$
+^nikmattok/nikmattok$
+^,/,$
+^wan/wan$
+^neli/neli$
+^ipa/ipa$
+^nikakiliani/nikakiliani$
+^noteiskaltihkaw/noteiskaltihkaw$
+^neh/neh$
+^nechilwiaya/nechilwiaya$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a81
+# text = Pero amo keman nikwih neh yon xiwtsini pero pos kihtowah neli que pahti.
+# text[orig] = Pero a:mo ke:man nikwih neh yo:n xiwtsi:ni pero pos kihtowah neli <i>que</i> pahti.
+# text[spa] = Pero yo nunca ocupé esa planta pero pues dicen que es medicinal.
+# labels = a81 sentence
+^Pero/Pero$
+^amo/amo$
+^keman/keman$
+^nikwih/nikwih$
+^neh/neh$
+^yon/yon$
+^xiwtsini/xiwtsini$
+^pero/pero$
+^pos/pos$
+^kihtowah/kihtowah$
+^neli/neli$
+^que/que$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a82
+# text = Mah a..., we..., se kineltoka que neli pahti porque pos kasa ika nejon tahtanih hasta kinekih kikowaskeh.
+# text[orig] = Mah a..., we..., se: kineltoka <i>que</i> neli pahti <i>porque</i> pos ka:sá: ika nejó:n tahtanih <i>hasta</i> kinekih kikowaskeh.
+# text[spa] = Pues uno cree que es medicinal porque algunas personas la piden, la quieren para sembrar.
+# labels = a82 sentence
+^Mah/Mah$
+^a/a$
+^.../...$
+^,/,$
+^we.../we...$
+^,/,$
+^se/se$
+^kineltoka/kineltoka$
+^que/que$
+^neli/neli$
+^pahti/pahti$
+^porque/porque$
+^pos/pos$
+^kasa/kasa$
+^ika/ika$
+^nejon/nejon$
+^tahtanih/tahtanih$
+^hasta/hasta$
+^kinekih/kinekih$
+^kikowaskeh/kikowaskeh$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a83
+# text = Kemah, porque kimattokeh que pahti.
+# text[orig] = Ke:mah, <i>porque</i> kimattokeh <i>que</i> pahti.
+# text[spa] = Si, pues saben que es medicinal.
+# labels = a83 sentence
+^Kemah/Kemah$
+^,/,$
+^porque/porque$
+^kimattokeh/kimattokeh$
+^que/que$
+^pahti/pahti$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a90
+# text = A, no iwki a. Yehwa yoni wan in seki tsikitsitsin mochiwa. Yeh moma.... Ta komo tawelita no n' kampa tsintoktok kwaltsin hasta talpan mososowa ata.
+# text[orig] = A:, no: iwki a. Yehwa yo:ni wa:n i:n seki tsikitsitsi:n mochi:wa. Yeh moma:.... Ta: komo tawelita no: n' ka:mpa tsi:nto:ktok kwaltsi:n <i>hasta</i> ta:lpan moso:sowa ata.
+# text[spa] = Ah, es parecida. Eso es y de este, no crece muy alto. Esa ... Si donde está la mata sembrada, se adapta muy bien, la planta se desarrolla muy bien, las ramitas se extendien hasta el suelo.
+# text[a90] = A:, no: iwki a. Yehwa yo:ni wa:n i:n seki tsikitsitsi:n mochi:wa. Yeh moma:....
+# text[a91] = Ta: komo tawelita no: n' ka:mpa tsi:nto:ktok kwaltsi:n <i>hasta</i> ta:lpan moso:sowa ata.
+# labels = a90 a91 sentence
+^A/A$
+^,/,$
+^no/no$
+^iwki/iwki$
+^a/a$
+^./.$
+^Yehwa/Yehwa$
+^yoni/yoni$
+^wan/wan$
+^in/in$
+^seki/seki$
+^tsikitsitsin/tsikitsitsin$
+^mochiwa/mochiwa$
+^./.$
+^Yeh/Yeh$
+^moma/moma$
+^.../...$
+^./.$
+^Ta/Ta$
+^komo/komo$
+^tawelita/tawelita$
+^no/no$
+^n'/n'$
+^kampa/kampa$
+^tsintoktok/tsintoktok$
+^kwaltsin/kwaltsin$
+^hasta/hasta$
+^talpan/talpan$
+^mososowa/mososowa$
+^ata/ata$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a93
+# text = Eh, porque nejon momahmaytia kwaltsin wan neli no hasta talpan mososowa pero neli komo amo teh kikwa, pero komo kikwah se tapialtsin neli pos no iwki waki a.
+# text[orig] = Eh, <i>porque</i> nejó:n momahma:ytia kwaltsi:n wa:n neli no: <i>hasta</i> ta:lpan moso:sowa pero neli komo a:mo teh kikwa, pero komo kikwah se: tapialtsí:n neli pos no: iwki wa:ki a.
+# text[spa] = Si, porque esas plantas se ramifican y es cierto, que las ramas se extienden hasta el suelo siempre y cuando no se coman los animales, porque si los animales se alimentan de esta planta, se seca.
+# labels = a93 sentence
+^Eh/Eh$
+^,/,$
+^porque/porque$
+^nejon/nejon$
+^momahmaytia/momahmaytia$
+^kwaltsin/kwaltsin$
+^wan/wan$
+^neli/neli$
+^no/no$
+^hasta/hasta$
+^talpan/talpan$
+^mososowa/mososowa$
+^pero/pero$
+^neli/neli$
+^komo/komo$
+^amo/amo$
+^teh/teh$
+^kikwa/kikwa$
+^,/,$
+^pero/pero$
+^komo/komo$
+^kikwah/kikwah$
+^se/se$
+^tapialtsin/tapialtsin$
+^neli/neli$
+^pos/pos$
+^no/no$
+^iwki/iwki$
+^waki/waki$
+^a/a$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a94
+# text = Kemah, neh yehwa yoni, ihkoni sah neh nikmattok. Mm.
+# text[orig] = Ke:mah, neh yehwa yo:ni, ihko:ni sah neh nikmattok. Mm.
+# text[spa] = Si, yo nada más eso, nomás eso sé de esa planta. Mm.
+# labels = a94 sentence
+^Kemah/Kemah$
+^,/,$
+^neh/neh$
+^yehwa/yehwa$
+^yoni/yoni$
+^,/,$
+^ihkoni/ihkoni$
+^sah/sah$
+^neh/neh$
+^nikmattok/nikmattok$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a99
+# text = Pos kemah kan... Kemah.
+# text[orig] = Pos ke:mah ka:n ... Ke:mah.
+# text[spa] = Pues sí, no ... Sí.
+# text[a99] = Pos ke:mah ka:n ...
+# text[a102] = Ke:mah.
+# labels = a102 a99 sentence
+^Pos/Pos$
+^kemah/kemah$
+^kan/kan$
+^.../...$
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a105
+# text = Pos kemah se ki..., se kiita ya que nochi iwki sah.
+# text[orig] = Pos ke:mah se: ki..., se: kiita ya <i>que</i> nochi iwki sah.
+# text[spa] = Pues sí... uno lo ve que todos son iguales.
+# labels = a105 sentence
+^Pos/Pos$
+^kemah/kemah$
+^se/se$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kiita/kiita$
+^ya/ya$
+^que/que$
+^nochi/nochi$
+^iwki/iwki$
+^sah/sah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a107
+# text = Kemah, pero neli pos nejon, neli tein teiliah seki para pahti pos se kikwi neli.
+# text[orig] = Ke:mah, pero neli pos nejó:n, neli tein te:iliah seki para pahti pos se: kikwi neli.
+# text[spa] = Si, pero es verdad de lo nos dicen, unas plantas son medicinales y ya las ocupa uno.
+# labels = a107 sentence
+^Kemah/Kemah$
+^,/,$
+^pero/pero$
+^neli/neli$
+^pos/pos$
+^nejon/nejon$
+^,/,$
+^neli/neli$
+^tein/tein$
+^teiliah/teiliah$
+^seki/seki$
+^para/para$
+^pahti/pahti$
+^pos/pos$
+^se/se$
+^kikwi/kikwi$
+^neli/neli$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a109
+# text = Kemah. Mm.
+# text[orig] = Ke:mah. Mm.
+# text[spa] = Sí, mm.
+# labels = a109 sentence
+^Kemah/Kemah$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:1
+# text = Pos kan teihsa, no yehwa neh tein tinechilwih, ihkon timonohnotskeh, timotapowihkeh, pos miak tasohkamatik kemah. 
+# text[orig] = Pos ka:n teihsá:, no: yehwa neh tein tine:chilwih, ihkó:n timonohno:tskeh, timotapowihkeh, pos miak tasohka:matik ke:mah. 
+# text[spa] = Pues no es nada, pues de todo lo que me has contado, hemos platicado. 
+# labels = a114 sentence
+^Pos/Pos$
+^kan/kan$
+^teihsa/teihsa$
+^,/,$
+^no/no$
+^yehwa/yehwa$
+^neh/neh$
+^tein/tein$
+^tinechilwih/tinechilwih$
+^,/,$
+^ihkon/ihkon$
+^timonohnotskeh/timonohnotskeh$
+^,/,$
+^timotapowihkeh/timotapowihkeh$
+^,/,$
+^pos/pos$
+^miak/miak$
+^tasohkamatik/tasohkamatik$
+^kemah/kemah$
+^./.$
+
+# sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a114:2
+# text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.
+# text[orig] = Neh nimono:tsa niMaría Salazar Osollo, niwi:tsa de San Miguel.
+# text[spa] = Yo me llamo María Salazar Osollo, vengo de San Miguel.
+# labels = a114 sentence
+^Neh/Neh$
+^nimonotsa/nimonotsa$
+^niMaria/niMaria$
+^Salazar/Salazar$
+^Osollo/Osollo$
+^,/,$
+^niwitsa/niwitsa$
+^de/de$
+^San/San$
+^Miguel/Miguel$
+^./.$
