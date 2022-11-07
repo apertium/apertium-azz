@@ -82,55 +82,42 @@
 # text[a39] = tato:ktsí:n *cuando** ki:sati a, ata: ki..., ki..., moskaltia seki, seki x..., xiwtsí:n ihtikohkoyoktik.
 # labels = a37 a38 a39 sentence
 "<Onkak>"
-	"onkak" adv
 	"onka" v iv pret s_sg3
 "<ata>"
 	"ata" adv
 "<seki>"
 	"seki" det
-	"seki" prn
 "<xiwtsin>"
 	"xihuit" n hon
-;	"xihuit" n hon s_pl3
-;	"xihuit" n hon s_sg3
 "<itech>"
 	"tech" n rel px3sg
 "<milah>"
 	"milaj" n abs
-;	"milaj" n abs s_pl3
-;	"milaj" n abs s_sg3
 "<kemeh>"
 	"kemej" adv
 	"kemej" pr
 "<in>"
 	"in" det @det
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
-"<moskal>"
-	"*moskal"
-"<...>"
-	"..." sent @punct
+	"kampa" adv rel @reparandum
+"<moskal...>"
+	"moskal" x @reparandum
 "<,>"
 	"," cm @punct
 "<kampa>"
 	"kampa" adv rel
-	"kampa" n rel
 "<mi...>"
 	"mi" x @reparandum
 "<,>"
 	"," cm @punct
 "<tawitekih>"
 	"huiteki" v tv pres s_pl3 o_nn
-	"huiteki" v tv pret s_sg3 o_nn
 "<o>"
-	"oj" ij @discourse
 	"o" cnjcoo @cc
-;	"oj" x
 "<takelpachowah>"
-	"kelpachohua" v tv pres s_pl3 o_nn
+	"kelpachohua" v tv pres s_pl3 o_nn @conj
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod
 "<ata>"
 	"ata" adv
 "<,>"

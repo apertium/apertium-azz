@@ -10090,6 +10090,67 @@
 9	Tzinacapan	Tzinacapan	PROPN	_	_	7	flat	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a103
+# text = Wewehka.
+# text[orig] = We:wehka.
+# text[spa] = Muy dispersas.
+# labels = a103 sentence
+1	Wewehka	huehuejka	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a147
+# text = Despues kwali, kwali se yowi a, amo tekokoh ok.
+# text[orig] = *Después** kwali, kwali se: yowi a, a:mo te:kokoh ok.
+# text[spa] = Después uno ya puede orinar, ya no duele.
+# labels = a147 sentence
+1	Despues	después	ADV	_	_	6	advmod	_	_
+2	kwali	kuali	ADJ	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	kwali	kuali	ADJ	_	_	6	advmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+7	a	a	INTJ	_	_	6	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	amo	amo	ADV	_	_	10	advmod	_	_
+10	tekokoh	tekokoj	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	6	parataxis	_	_
+11	ok	ok	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a167
+# text = Ompa tsikilitsin ya, kemah se tai a.
+# text[orig] = Ompa tsikilitsi:n ya, ke:mah se: tai a.
+# text[spa] = Una vez que queda muy poco, ya lo bebe uno.
+# labels = a167 sentence
+1	Ompa	ompa	ADV	_	_	2	advmod	_	_
+2	tsikilitsin	tsikili	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	_
+3	ya	ya	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	kemah	kemaj	INTJ	_	_	7	discourse	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+8	a	a	INTJ	_	_	7	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a169
+# text = Se tai a.
+# text[orig] = Se: tai a.
+# text[spa] = Ya lo bebe uno.
+# labels = a169 sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	a	a	INTJ	_	_	2	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a248:2
+# text = Xiwit, xiwtsin.
+# text[orig] = Xiwit, xiwtsí:n.
+# text[spa] = Es hierba, hierbita.
+# labels = a248 sentence
+1	Xiwit	xihuit	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	xiwtsin	xihuit	NOUN	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?
 # text[orig] = ¿A:, tikneki tikmatis <i>compadrito</i>?
