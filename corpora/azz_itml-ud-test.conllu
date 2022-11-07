@@ -12307,6 +12307,96 @@
 6	tikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	4	acl:relcl	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a40
+# text = Neh nikixmati que monotsa tatapits, amo nikmati keniw n' tehwatsin tiktokaytia.
+# text[orig] = Neh niki:xmati *que** mono:tsa ta:tapits, a:mo nikmati ke:ní:w n' tehwa:tsi:n tikto:ka:ytia.
+# text[spa] = Yo lo conozco que se llama ta:tapi:ts, no sé cómo lo llama usted.
+# labels = a40 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_
+4	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	2	ccomp	_	_
+5	tatapits	tatapits	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	amo	amo	ADV	_	_	8	advmod	_	_
+8	nikmati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+9	keniw	keni	ADV	_	PronType=Int	12	advmod	_	_
+10	n'	in	DET	_	_	11	det	_	_
+11	tehwatsin	tehua	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Pers	12	nsubj	_	_
+12	tiktokaytia	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	8	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a66
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a66 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a101
+# text = Pos no kwali, este, nen, neh nim..., nikneki nikmatis de kanitehwatsin tiwalewa.
+# text[orig] = Pos no: kwali, *este**, ne:n, neh nim..., nikneki nikmatis de ka:n[i]tehwa:tsi:n tiwa:le:wa.
+# text[spa] = Pues está muy bien, este yo, te..., quiero saber de donde viene usted.
+# text[a101] = Pos no: kwali, *este**, ne:n, neh nim...,
+# text[a102] = nikneki nikmatis de ka:n[i]tehwa:tsi:n tiwa:le:wa.
+# labels = a101 a102 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	no	no	ADV	_	_	3	advmod	_	_
+3	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	este	este	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	nen	nen	INTJ	_	_	3	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	12	nsubj	_	_
+10	nim...	nim	X	_	_	12	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	nikneki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+13	nikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Fut	12	xcomp	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15-16	kanitehwatsin	_	_	_	_	_	_	_	_
+15	kani	kani	ADV	_	PronType=Int	17	advmod	_	_
+16	tehwatsin	tehua	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Pers	17	nsubj	_	_
+17	tiwalewa	huala	VERB	_	Number[subj]=Sing|Person[subj]=2|Subcat=Intr|Tense=Pres	13	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a61
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a61 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a80
+# text = Xochiowa pane ihistak n' ixochio, amo nikyekelnamiki keniw, pero xochiowa no.
+# text[orig] = Xo:chiowa pané: ihista:k n' ixo:chio, a:mo nikye:kelna:miki ke:ní:w, pero xo:chiowa no:.
+# text[spa] = Sí florece, parece que sus flores son blancas, no me acuerdo exactamente pero también florece.
+# labels = a80 sentence
+1	Xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	pane	pane	ADV	_	_	3	advmod	_	_
+3	ihistak	ijistak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	1	parataxis	_	_
+4	n'	in	DET	_	_	5	det	_	_
+5	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	amo	amo	ADV	_	_	8	advmod	_	_
+8	nikyekelnamiki	elnamiki	VERB	_	Incorporated=Yek|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+9	keniw	keni	ADV	_	PronType=Int	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	pero	pero	CCONJ	_	_	12	cc	_	_
+12	xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	8	conj	_	_
+13	no	no	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a97
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a97 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a103
 # text = Neh niwitsa de San Miguel.
 # text[orig] = Neh niwi:tsa de San Miguel.
@@ -12318,4 +12408,14 @@
 4	San	San	PROPN	_	_	2	obl	_	_
 5	Miguel	Miguel	PROPN	_	Gender=Masc	2	flat	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a105
+# text = Maria Salazar Osollo.
+# text[orig] = María Salazar Osollo.
+# text[spa] = María Salazar Osollo.
+# labels = a105 sentence
+1	Maria	María	PROPN	_	Gender=Fem	0	root	_	_
+2	Salazar	Salazar	PROPN	_	_	1	flat	_	_
+3	Osollo	Osollo	PROPN	_	_	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
 

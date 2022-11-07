@@ -195,32 +195,31 @@
 # text[spa] = Yo lo conozco que se llama ta:tapi:ts, no sé cómo lo llama usted.
 # labels = a40 sentence
 "<Neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #1->2
 "<nikixmati>"
-	"ixmati" v tv pres s_sg1 o_sg3
+	"ixmati" v tv pres s_sg1 o_sg3 @root #2->0
 "<que>"
-	"que" cnjsub @mark
+	"que" cnjsub @mark #3->4
 "<monotsa>"
-	"notsa" v tv pres s_sg3 i_ref o_sg3
+	"notsa" v tv pres s_sg3 i_ref o_sg3 @ccomp #4->2
 "<tatapits>"
-	"tapits" n px3nn
+	"tatapits" n abs @obj #5->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->8
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #7->8
 "<nikmati>"
-	"mati" v tv pres s_sg1 o_sg3
+	"mati" v tv pres s_sg1 o_sg3 @parataxis #8->2
 "<keniw>"
-	"keni" adv itg
+	"keni" adv itg @advmod #9->12
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #10->11
 "<tehwatsin>"
-	"tehua" prn pers sg2 hon
+	"tehua" prn pers sg2 hon @nsubj #11->12
 "<tiktokaytia>"
-	"tokaytia" v tv pres s_sg2 o_sg3
+	"tokaytia" v tv pres s_sg2 o_sg3 @ccomp #12->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->2
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a41
 # text = Yehwa yon neh nikneki nikmatis ken..., keniw tikixmati tehwatsin, ¿keniw monotsa? Aja. Wan tehwatsin kemeh in tikixmati yon xoch..., yon xochi..., bueno yon tatapits para toni n' tik..., para toni n' kwaltia nejon, este, keniw s..., para toni n' se kitatekiwtia, mahya tikihtokan tehwan ipa para awil sah o teihsa ihkon ki..., kichiwaltiah.
@@ -783,9 +782,9 @@
 # text[spa] = Sí.
 # labels = a66 sentence
 "<Kemah>"
-	"kemaj" ij @root
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a67
 # text = Kemah eski porque neh nikixmatik ipa ni..., kemeh katka nipili, axkan nikpia no, no nikpia este, ome powal wan kaxtol, kaxtoloyeyi, ome, ome xiwit.
@@ -1618,47 +1617,40 @@
 # text[a102] = nikneki nikmatis de ka:n[i]tehwa:tsi:n tiwa:le:wa.
 # labels = a101 a102 sentence
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->3
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #2->3
 "<kwali>"
-	"kuali" adj
-	"kuali" adv
-	"kuali" adj s_sg3
+	"kuali" adj s_sg3 @root #3->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->5
 "<este>"
-	"este" ij @discourse
+	"este" ij @discourse #5->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->5
 "<nen>"
-	"nen" ij @discourse
-	"nen" prn
+	"nen" ij @discourse #7->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->7
 "<neh>"
-	"nehua" prn pers sg1 short
-"<nim>"
-	"*nim"
-"<...>"
-	"..." sent @punct
+	"nehua" prn pers sg1 short @nsubj #9->12
+"<nim...>"
+	"nim" x @reparandum #10->12
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->9
 "<nikneki>"
-	"neki" v tv pres s_sg1 o_sg3
+	"neki" v tv pres s_sg1 o_sg3 @parataxis #12->3
 "<nikmatis>"
-	"mati" v tv fut s_sg1 o_sg3
+	"mati" v tv fut s_sg1 o_sg3 @xcomp #13->12
 "<de>"
-	"de" pr
+	"de" pr @case #14->15
 "<kanitehwatsin>"
-	"*kanitehwatsin"
+	"kani" adv itg @advmod #15->17
+		"tehua" prn pers sg2 hon @nsubj #16->17
 "<tiwalewa>"
-	"huala" v iv pres s_sg2
-	"ehua" v iv pres s_sg2 hual
+	"huala" v iv pres s_sg2 @advcl #17->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #18->3
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a104
 # text = San Miguel, ¿keniw motokay? No kwali, neh nimonotsa niRuben Macario Martinez, neh no niwalewa de nikan Chilcuauhta, mismo tipowih n' ompa San Miguel, sanoke tehwan tinemih itech neka, este, mas chikopa ya tepitsin. Kemah. No taman ya.
@@ -2131,10 +2123,10 @@
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
 # labels = a61 sentence
-"<Kemah>"
-	"kemaj" ij @root
+"<Kemah>" 
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a65
 # text = Pos tak ipa onkak pero neh amo nikixmatia, neh pewak nikixmati de que noteiskaltihkaw katka nechiliaya keniw monotsa ihwak a nechnextilih yehwa. Kemah. Pero pos ipa onkak desde ne keman, ipa mochiwa pos ta de que nejon kampa se tatoka pos ipa mochiwa.
@@ -2358,37 +2350,33 @@
 # text[spa] = Sí florece, parece que sus flores son blancas, no me acuerdo exactamente pero también florece.
 # labels = a80 sentence
 "<Xochiowa>"
-	"xochiohua" v iv pres s_sg3
+	"xochiohua" v iv pres s_sg3 @root #1->0
 "<pane>"
-	"pane" adv
+	"pane" adv @advmod #2->3
 "<ihistak>"
-	"ijistak" adj redup
-	"ijistak" adj redup s_sg3
+	"ijistak" adj redup s_sg3 @parataxis #3->1
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #4->5
 "<ixochio>"
-	"xochiot" n px3sg
+	"xochiot" n px3sg @nsubj #5->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->3
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #7->8
 "<nikyekelnamiki>"
-	"elnamiki" v tv pres s_sg1 o_sg3 yek
+	"elnamiki" v tv pres s_sg1 o_sg3 yek @parataxis #8->1
 "<keniw>"
-	"keni" adv itg
+	"keni" adv itg @advmod #9->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->12
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #11->12
 "<xochiowa>"
-	"xochiohua" v iv pres s_sg3
+	"xochiohua" v iv pres s_sg3 @conj #12->8
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #13->12
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->1
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a82
 # text = Yehwa yon amo, amo keman nikchiwa cuenta ox teyowa pero nikixmattok no n' ixochio pisiltik n' ixochiotsin. Kemah, ta xochiowa no.
@@ -2695,9 +2683,9 @@
 # text[spa] = Sí.
 # labels = a97 sentence
 "<Kemah>"
-	"kemaj" ij @root
+	"kemaj" ij @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a100
 # text = Pos para neh, yehwa sah no. Kemah. Mm.
@@ -2707,7 +2695,6 @@
 "<Pos>"
 	"pos" adv
 "<para>"
-	"para" cnjsub @mark
 	"para" pr
 "<neh>"
 	"nehua" prn pers sg1 short
@@ -2720,8 +2707,6 @@
 	"saj" adv
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<.>"
 	"." sent @punct
 "<Kemah>"
@@ -2757,19 +2742,13 @@
 # text[spa] = María Salazar Osollo.
 # labels = a105 sentence
 "<Maria>"
-	"María" np ant f
-	"María" np ant f s_sg3
-;	"María" np ant f s_pl3
+	"María" np ant f @root #1->0
 "<Salazar>"
-	"Salazar" np cog @flat
-;	"Salazar" np cog s_pl3
-;	"Salazar" np cog s_sg3
+	"Salazar" np cog @flat #2->1
 "<Osollo>"
-	"Osollo" np cog
-	"Osollo" np cog s_sg3
-;	"Osollo" np cog s_pl3
+	"Osollo" np cog @flat #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b_ed-2018-01-02_trad-HSO_FORM.eaf:a108
 # text = Kemah. Kemah pos no taman ya motanotsa, pero pos tipowih nochi San Miguel.
