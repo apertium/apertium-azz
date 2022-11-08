@@ -10141,6 +10141,484 @@
 3	a	a	INTJ	_	_	2	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a200
+# text = Por eso tikiliah chapolistit.
+# text[orig] = *Por eso** tikiliah chapolistit.
+# text[spa] = Por eso le llamamos chapolistit.
+# labels = a200 sentence
+1	Por	por	ADP	_	_	2	case	_	_
+2	eso	eso	PRON	_	_	3	obl	_	_
+3	tikiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	chapolistit	chapolistit	NOUN	_	Case=Abs	3	dep	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a203
+# text = Pos no igual, nen, te..., tenamiki.
+# text[orig] = Pos no: *igual**, ne:n, te:..., te:na:miki.
+# text[spa] = Pues también, este, nos cura.
+# labels = a203 sentence
+1	Pos	pos	ADV	_	_	9	advmod	_	_
+2	no	no	ADV	_	_	9	advmod	_	_
+3	igual	igual	INTJ	_	_	9	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	nen	nen	INTJ	_	_	9	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	te...	te	X	_	_	9	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	tenamiki	tenamiki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a207
+# text = Kemah miak kimatih no para se ki..., se kichiwas, nijon, semi pahti.
+# text[orig] = Ke:mah miak kimatih no: para se: ki..., se: kichi:was, nijó:n, semi pahti.
+# text[spa] = Sí, muchas sí saben cómo hacerlo, este, es muy buena medicina.
+# labels = a207 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	_
+2	miak	miak	PRON	_	_	3	nsubj	_	_
+3	kimatih	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	no	no	ADV	_	_	3	advmod	_	_
+5	para	para	SCONJ	_	_	10	mark	_	_
+6	se	se	NUM	_	_	9	reparandum	_	_
+7	ki...	ki	X	_	_	10	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kichiwas	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	nijon	nijon	PRON	_	_	3	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	semi	semi	ADV	_	_	15	advmod	_	_
+15	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	3	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a215
+# text = Amo kwaltia porque selik.
+# text[orig] = A:mo kwaltia *porque** selik.
+# text[spa] = No sirve porque es tierno.
+# labels = a215 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	porque	porque	SCONJ	_	_	4	mark	_	_
+4	selik	selik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a219
+# text = 'Panketsah ya wan..., kemasa nehwa nikchiwa nijon.
+# text[orig] = 'Panketsah ya wa:n ..., ke:masá: nehwa nikchi:wa nijó:n.
+# text[spa] = Ya lo paran y ..., a veces yo lo hago, este,
+# labels = a219 sentence
+1	'Panketsah	ketsa	VERB	_	Incorporated=Pan|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ya	ya	ADV	_	_	1	advmod	_	_
+3	wan	huan	CCONJ	_	_	8	cc	_	SpaceAfter=No
+4	...	...	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	kemasa	kemasa	ADV	_	_	8	advmod	_	_
+7	nehwa	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	8	nsubj	_	_
+8	nikchiwa	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	1	conj	_	_
+9	nijon	nijon	PRON	_	_	8	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a220
+# text = Ta nijon pahti seki amo tikmatih.
+# text[orig] = Ta: nijó:n pahti seki a:mo tikmatih.
+# text[spa] = Pues ese es medicinal, algunos no lo sabemos.
+# labels = a220 sentence
+1	Ta	ta	ADV	_	_	3	advmod	_	_
+2	nijon	nijon	PRON	_	_	3	nsubj	_	_
+3	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	seki	seki	PRON	_	_	6	nsubj	_	_
+5	amo	amo	ADV	_	_	6	advmod	_	_
+6	tikmatih	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a231
+# text = Mah se kimapatska kwaltsin.
+# text[orig] = Mah se: kima:pa:tska kwaltsi:n.
+# text[spa] = Que lo apachurre muy bien.
+# labels = a231 sentence
+1	Mah	ma	AUX	_	_	3	aux	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kimapatska	mapatska	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	kwaltsin	kuali	ADJ	_	Polite=Form	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a233
+# text = Pos yehwa ekintsin nikan timonohnotstokeh, compadrito.
+# text[orig] = Pos yehwa ekintsi:n nika:n timonohno:tstokeh, *compadrito**.
+# text[spa] = Pues es eso lo que ahora estamos platicando compradrito.
+# labels = a233 sentence
+1	Pos	pos	ADV	_	_	2	advmod	_	_
+2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+3	ekintsin	ekintsin	ADV	_	_	5	advmod	_	_
+4	nikan	nikan	ADV	_	_	5	advmod	_	_
+5	timonohnotstokeh	monojnotsa	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	2	csubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a255:1
+# text = Yehwa sah.
+# text[orig] = Yehwa sah.
+# text[spa] = Solamente eso.
+# labels = a255 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	sah	saj	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a255:2
+# text = Bueno compadrito.
+# text[orig] = *Bueno compadrito**.
+# text[spa] = Bueno compadrito.
+# labels = a255 sentence
+1	Bueno	bueno	INTJ	_	_	0	root	_	_
+2	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a84
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a84 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a90
+# text = Wewehka sah motalia n' iteyo ata.
+# text[orig] = We:wehka sah mota:lia n' iteyo ata.
+# text[spa] = Las semillas salen muy dispersas.
+# labels = a90 sentence
+1	Wewehka	huehuejka	ADV	_	_	3	advmod	_	_
+2	sah	saj	ADV	_	_	3	advmod	_	_
+3	motalia	talia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	n'	in	DET	_	_	5	det	_	_
+5	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+6	ata	ata	ADV	_	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a93
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a93 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a98
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a98 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a109:1
+# text = Pihpitsawak.
+# text[orig] = Pihpitsa:wak.
+# text[spa] = Son deslgadas.
+# labels = a109 sentence
+1	Pihpitsawak	pijpitsahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a109:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a109 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a111
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a111 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a126
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a126 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a130
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a130 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a132
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a132 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a136
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a136 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a140
+# text = Kemah, kan weli.
+# text[orig] = Ke:mah, ka:n weli.
+# text[spa] = Sí, no se puede.
+# labels = a140 sentence
+1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kan	kan	ADV	_	_	4	advmod	_	_
+4	weli	hueli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a142
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a142 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a159
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a159 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a163
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a163 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a168
+# text = Se tai a.
+# text[orig] = Se: tai a.
+# text[spa] = Ya lo bebe uno.
+# labels = a168 sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	a	a	INTJ	_	_	2	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a173:1
+# text = Kemah, kwali pahti.
+# text[orig] = Ke:mah, kwali pahti.
+# text[spa] = Sí, es muy buena medicina.
+# labels = a173 sentence
+1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kwali	kuali	ADJ	_	_	4	amod	_	_
+4	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a178
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a178 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a180
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a180 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a182
+# text = Kemah, ihkoni.
+# text[orig] = Ke:mah, ihko:ni.
+# text[spa] = Sí, asi es.
+# labels = a182 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ihkoni	ijkoni	ADV	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a186
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a186 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a191
+# text = Wan iyolan mochiwa se xochitsin ihkwin wehkapantik.
+# text[orig] = Wa:n iyo:la:n mochi:wa se: xo:chitsí:n ihkwí:n wehkapantik.
+# text[spa] = Y en el cogollo sale una florecita, así de alto.
+# labels = a191 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	iyolan	yolan	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	se	se	NUM	_	_	5	det	_	_
+5	xochitsin	xochit	NOUN	_	Polite=Form	3	nsubj	_	_
+6	ihkwin	ijkuin	ADV	_	_	7	advmod	_	_
+7	wehkapantik	huejkapantik	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a195:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a195 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a195:3
+# text = Kemah no kwali pahti.
+# text[orig] = Ke:mah no: kwali pahti.
+# text[spa] = Sí, también es buena medicina.
+# labels = a195 sentence
+1	Kemah	kemaj	INTJ	_	_	4	discourse	_	_
+2	no	no	ADV	_	_	4	advmod	_	_
+3	kwali	kuali	ADJ	_	_	4	amod	_	_
+4	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a197
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a197 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a202
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a202 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a205:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a205 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a206
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a206 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a210
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a210 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a212:1
+# text = Ikowyo.
+# text[orig] = Ikowyo.
+# text[spa] = El tallo.
+# labels = a212 sentence
+1	Ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a212:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a212 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a214
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a214 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a222
+# text = Kemah, kan se kimati.
+# text[orig] = Ke:mah, ka:n se: kimati.
+# text[spa] = Sí, uno no lo sabe.
+# labels = a222 sentence
+1	Kemah	kemaj	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kan	kan	ADV	_	_	5	advmod	_	_
+4	se	se	NUM	_	_	5	nsubj	_	_
+5	kimati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a227:2
+# text = Amo.
+# text[orig] = A:mo.
+# text[spa] = No.
+# labels = a227 sentence
+1	Amo	amo	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a234
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a234 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a237
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a237 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a239
+# text = Mah, mah, mah se motapowi.
+# text[orig] = Mah, mah, mah se: motapowi.
+# text[spa] = Que, que lo cuente uno.
+# labels = a239 sentence
+1	Mah	ma	AUX	_	_	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	mah	ma	AUX	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mah	ma	AUX	_	_	7	aux	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	motapowi	tapohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a241
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a241 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a248:1
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a248 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a248:2
 # text = Xiwit, xiwtsin.
 # text[orig] = Xiwit, xiwtsí:n.
@@ -10150,6 +10628,27 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	xiwtsin	xihuit	NOUN	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	1	parataxis	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a250
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a250 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a256:2
+# text = Kemah, tasohkamatik kemah, compadrito.
+# text[orig] = Ke:mah, tasohka:matik ke:mah, *compadrito**.
+# text[spa] = Sí, pues gracias compadrito.
+# labels = a256 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	tasohkamatik	tasojkamatik	INTJ	_	_	1	discourse	_	_
+4	kemah	kemaj	INTJ	_	_	1	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e_ed-2018-11-13_Trad-HSO_FORM.eaf:a56:1
 # text = ¿A, tikneki tikmatis compadrito?

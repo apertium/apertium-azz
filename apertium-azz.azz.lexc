@@ -5845,6 +5845,7 @@ hueyakaxtik:hueyakaxtik                             N-Ø ; ! "largo"
 taxuis:taxuis                                       N-Ø ; ! "grano"
 tatsoyon:tatsoyon                                   N-Ø ; ! "frito"
 ohuasin:ohuasin                                     N-Ø ; ! "caña seca de maíz"
+ohuat:ohua                                          N-TL ; ! "caña"
 taksa:taksa                                         N-Ø ; ! "pisar"
 xaltik:xaltik                                       N-Ø ; ! "precocido"
 tanahual:tanahual                                   N-Ø ; ! "abrazada(medida)"
@@ -6877,6 +6878,9 @@ yolpakij:yol%>pa%{j%}ki%{j%}                        ADJ ; ! "feliz de corazón"
 pakij:pa%{j%}ki%{j%}                                ADJ ; ! "feliz"
 
 tsik:tsik                                           ADJ ; ! "un poco de"
+
+ajajsitok:a%{j%}ajsitok                             ADJ-REDUP ; ! "entero"
+ajsitok:ajsitok                                     ADJ ; ! "completo"
 
 mapisiltik:mapisiltik                               ADJ ; ! "pequeño"
 malakachtik:malakachtik                             ADJ ; ! "circular"
