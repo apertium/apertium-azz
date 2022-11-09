@@ -5077,6 +5077,16 @@
 # labels =
 1	AXIUJKENKECH	axiujkenkech	NOUN	_	Case=Abs	0	root	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:246:1
+# text = Se kikua in itakka.
+# text[spa] = El fruto se come, lo comen más los mestizos.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	in	in	DET	_	_	4	det	_	_
+4	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:247
 # text = In achá xochiyoua kemej itech diciembre, porque itech abril onkak ya in iteyo.
 # text[spa] = Florea como por diciembre, porque en abril ya empieza a dar frutos.
@@ -5158,6 +5168,30 @@
 2	kiluiaj	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 3	torojet	torojet	NOUN	_	Case=Abs	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:255
+# text = Peua 56 (alakcho) uan tami 85 (papalokilit), : Emma Yolanda Argueta Mereles.
+# text[spa] = del número 56 (alakcho) al número 85 (papalokilit - ), lo corregió Emma Yolanda Argueta Mereles;
+# text[gloss] = Empieza 56 (alakcho) y termina 85 (papalokilit),: Emma Yolanda Argueta Mereles
+# labels = sentence
+1	Peua	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	56	56	NUM	_	_	1	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	alakcho	alakcho	NOUN	_	Case=Abs	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	uan	huan	CCONJ	_	_	7	cc	_	_
+7	tami	tami	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	conj	_	_
+8	85	85	NUM	_	_	7	nsubj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	papalokilit	papalokilit	NOUN	_	Case=Abs	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	:	:	PUNCT	_	_	14	punct	_	_
+14	Emma	Emma	PROPN	_	Gender=Fem	1	parataxis	_	_
+15	Yolanda	Yolanda	PROPN	_	Gender=Fem	14	flat	_	_
+16	Argueta	Argueta	PROPN	_	_	14	flat	_	_
+17	Mereles	Mereles	PROPN	_	_	14	flat	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:256
 # text = Onkak ome taman: tein kuali uan cimarrón.
