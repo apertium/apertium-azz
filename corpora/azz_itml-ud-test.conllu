@@ -4773,6 +4773,62 @@
 11	elot	elot	NOUN	_	Case=Abs	5	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:224
+# text = Ika titamij tiktasojkamatiliaj in Telesecundaria Tetsijtsilin uan no in itayekankauj Coral Morales Espinosa akin techpaleuij ika tomin maj tikixnextikan in amaix maseualkopa una koyokopa, ika in tekit techpaleuia maj tikixnextikan nochi in maseualtamachilis tein moijkuiloua, maj kiixmatikan maseualmej uan nochi in okseki tokniuan.
+# text[spa] = Finalmente expresamos nuestra gratitud ala Telesecundaria Tetsijtsilin, de San Miguel Tzinacapan, y su directora María del Coral Morales Espinosa, que financió la publicación de este volumen bilingüe, contribuyendo así a la difusión de los estudios indígenas, tanto entre la gente de habla maseual como en el público en general.
+# text[gloss] = Con eso acabamos damos las gracias a la Telesecundaria Tetsijtsilin y su directora Coral Morales Espinosa, quien nos ayudó con dinero para que presentemos el libro en náhuatl y castellano, con el trabajo nos ayudó a presentar todo el conocimiento indígena que se escribió, a conocer gente de habla náhuatl y todo la otra gente.
+# labels = sentence
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+2	titamij	tami	VERB	_	Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+3	tiktasojkamatiliaj	tasojkamatilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+4	in	in	DET	_	_	5	det	_	_
+5	Telesecundaria	telesecundaria	NOUN	_	Case=Abs	3	iobj	_	_
+6	Tetsijtsilin	Tetsijtsilin	PROPN	_	_	5	appos	_	_
+7	uan	huan	CCONJ	_	_	10	cc	_	_
+8	no	no	ADV	_	_	10	advmod	_	_
+9	in	in	DET	_	_	10	det	_	_
+10	itayekankauj	tayekankauj	NOUN	_	Case=Abs	5	conj	_	_
+11	Coral	Coral	PROPN	_	Gender=Fem	10	appos	_	_
+12	Morales	Morales	PROPN	_	_	11	flat	_	_
+13	Espinosa	Espinosa	PROPN	_	_	11	flat	_	_
+14	akin	akin	PRON	_	_	15	nsubj	_	_
+15	techpaleuij	palehuia	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|Tense=Pret	10	acl:relcl	_	_
+16	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	15	obl	_	_
+17	tomin	tomin	NOUN	_	Case=Abs	15	nmod	_	_
+18	maj	ma	AUX	_	_	19	aux	_	_
+19	tikixnextikan	ixnextia	VERB	_	Mood=Opt|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	15	dep	_	_
+20	in	in	DET	_	_	21	det	_	_
+21	amaix	amaix	NOUN	_	Case=Abs	19	obj	_	_
+22-23	maseualkopa	_	_	_	_	_	_	_	_
+22	maseualkopa	masehual	NOUN	_	_	23	nmod	_	_
+23		kopa	NOUN	_	NounType=Relat	19	obl	_	_
+24	una	huan	CCONJ	_	_	26	cc	_	_
+25-26	koyokopa	_	_	_	_	_	_	_	SpaceAfter=No
+25	koyokopa	koyot	NOUN	_	_	26	nmod	_	_
+26		kopa	NOUN	_	NounType=Relat	23	conj	_	_
+27	,	,	PUNCT	_	_	31	punct	_	_
+28	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	31	obl	_	_
+29	in	in	DET	_	_	30	det	_	_
+30	tekit	tekit	NOUN	_	Case=Abs	28	nmod	_	_
+31	techpaleuia	palehuia	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+32	maj	ma	AUX	_	_	33	aux	_	_
+33	tikixnextikan	ixnextia	VERB	_	Mood=Opt|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	31	dep	_	_
+34	nochi	nochi	DET	_	_	36	det	_	_
+35	in	in	DET	_	_	36	det	_	_
+36	maseualtamachilis	maseualtamachilis	NOUN	_	Case=Abs	33	obj	_	_
+37	tein	tein	PRON	_	_	38	nsubj	_	_
+38	moijkuiloua	ijkuilohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	36	acl:relcl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	maj	ma	AUX	_	_	41	aux	_	_
+41	kiixmatikan	ixmati	VERB	_	Mood=Opt|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran	31	dep	_	_
+42	maseualmej	masehual	NOUN	_	Number=Plur	41	obj	_	_
+43	uan	huan	CCONJ	_	_	47	cc	_	_
+44	nochi	nochi	DET	_	_	47	det	_	_
+45	in	in	DET	_	_	47	det	_	_
+46	okseki	okse	DET	_	Number=Plur	47	det	_	_
+47	tokniuan	toknihuan	NOUN	_	Case=Abs	42	conj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:225
 # text = Mochiua yek ueyi kuouit kampa amo kitentekij.
 # text[spa] = Donde no lo cortan, crece muy alto.
