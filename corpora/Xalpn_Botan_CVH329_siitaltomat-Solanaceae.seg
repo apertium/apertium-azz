@@ -456,17 +456,22 @@
 ^xoxowik/xoxowik$
 ^./.$
 
-# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97
-# text = Ihkon tikch..., tikmoltah. Uhuh.
-# text[orig] = Ihkó:n tikch..., tikmo:ltah. Uhuh.
-# text[spa] = Así lo..., los machacamos. Uhuh.
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97:1
+# text = Ihkon tikch..., tikmoltah. 
+# text[orig] = Ihkó:n tikch..., tikmo:ltah. 
+# text[spa] = Así lo..., los machacamos. 
 # labels = a97 sentence
 ^Ihkon/Ihkon$
-^tikch/tikch$
-^.../...$
+^tikch.../tikch...$
 ^,/,$
 ^tikmoltah/tikmoltah$
 ^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97:2
+# text = Uhuh.
+# text[orig] = Uhuh.
+# text[spa] = Uhuh.
+# labels = a97 sentence
 ^Uhuh/Uhuh$
 ^./.$
 
@@ -612,7 +617,7 @@
 ^onkak/onkak$
 ^no/no$
 ^n'/n'$
-^kaltsintan/kaltsintan$
+^kaltsintan/kal>tsintan$
 ^pos/pos$
 ^amo/amo$
 ^no/no$
@@ -670,13 +675,19 @@
 ^ikowyotsin/ikowyotsin$
 ^./.$
 
-# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144
-# text = Mm. Neh, neh, ne niwalewa ne Xalpantzingo.
-# text[orig] = Mm. Neh, neh, ne: niwa:le:wa ne: Xalpantzingo.
-# text[spa] = Mm. Yo vengo de Xa:lpantzingo.
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144:1
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm. 
 # labels = a144 sentence
-^Mm/Mm$
+^Mm>" /"<Mm>" 
 ^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144:2
+# text =  Neh, neh, ne niwalewa ne Xalpantzingo.
+# text[orig] =  Neh, neh, ne: niwa:le:wa ne: Xalpantzingo.
+# text[spa] =  Yo vengo de Xa:lpantzingo.
+# labels = a144 sentence
 ^Neh/Neh$
 ^,/,$
 ^neh/neh$
@@ -1067,7 +1078,7 @@
 ^wan/wan$
 ^tein/tein$
 ^kitokah/kitokah$
-^kaltsintan/kaltsintan$
+^kaltsintan/kal>tsintan$
 ^pos/pos$
 ^yehwa/yehwa$
 ^yon/yo>n$
@@ -1207,7 +1218,7 @@
 ^no/no$
 ^kipiah/kipiah$
 ^n'/n'$
-^kaltsintan/kaltsintan$
+^kaltsintan/kal>tsintan$
 ^./.$
 
 # sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a118

@@ -13149,3 +13149,198 @@
 12	xamani	xamani	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97:1
+# text = Ihkon tikch..., tikmoltah.
+# text[orig] = Ihkó:n tikch..., tikmo:ltah.
+# text[spa] = Así lo..., los machacamos.
+# labels = a97 sentence
+1	Ihkon	ijkon	ADV	_	_	4	advmod	_	_
+2	tikch...	tikch	X	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tikmoltah	molta	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97:2
+# text = Uhuh.
+# text[orig] = Uhuh.
+# text[spa] = Uhuh.
+# labels = a97 sentence
+1	Uhuh	ujuj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a101
+# text = Mochiwa.
+# text[orig] = Mochi:wa.
+# text[spa] = Se da.
+# labels = a101 sentence
+1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a110
+# text = Eso.
+# text[orig] = *Eso**.
+# text[spa] = Eso.
+# labels = a110 sentence
+1	Eso	eso	PRON	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a121
+# text = Ihkon.
+# text[orig] = Ihkó:n.
+# text[spa] = Así es.
+# labels = a121 sentence
+1	Ihkon	ijkon	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a128
+# text = Kiwalkwih ok.
+# text[orig] = Kiwa:lkwih ok.
+# text[spa] = Lo traen todavía.
+# labels = a128 sentence
+1	Kiwalkwih	kui	VERB	_	Movement=Ven|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+2	ok	ok	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a130
+# text = No tik..., tikowah komo amo teh tikpiyah, pero komohkon ne, onkak no n' kaltsintan pos amo no tikowah ok.
+# text[orig] = No: tik..., tikowah komo a:mo teh tikpiyah, pero komohkó:n ne:, onkak no: n' kaltsi:ntan pos a:mo no: tikowah ok.
+# text[spa] = También lo..., lo compramos si es que no lo tenemos en casa, pero si este, también producimos junto a la casa ya no lo compramos.
+# text[a130] = No: tik..., tikowah komo a:mo teh tikpiyah, pero komohkó:n ne:,
+# text[a131] = onkak no: n' kaltsi:ntan pos a:mo no: tikowah ok.
+# labels = a130 a131 sentence
+1	No	no	ADV	_	_	4	advmod	_	_
+2	tik...	tik	X	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tikowah	kohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+5	komo	komo	ADV	_	_	8	mark	_	_
+6	amo	amo	ADV	_	_	8	advmod	_	_
+7	teh	tehuan	PRON	_	Number=Plur|Person=1|PronType=Pers	8	nsubj	_	_
+8	tikpiyah	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	4	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	pero	pero	CCONJ	_	_	14	cc	_	_
+11	komohkon	komojkon	SCONJ	_	_	14	mark	_	_
+12	ne	ne	DET	_	_	14	dep	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	4	parataxis	_	_
+15	no	no	ADV	_	_	14	advmod	_	_
+16	n'	in	DET	_	_	17	det	_	_
+17-18	kaltsintan	_	_	_	_	_	_	_	_
+17	kal	kali	NOUN	_	_	18	nmod	_	_
+18	tsintan	tsintan	NOUN	_	NounType=Relat	14	obl	_	_
+19	pos	pos	ADV	_	_	22	advmod	_	_
+20	amo	amo	ADV	_	_	22	advmod	_	_
+21	no	no	ADV	_	_	22	advmod	_	_
+22	tikowah	kohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	14	parataxis	_	_
+23	ok	ok	ADV	_	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a132
+# text = Kemah, ompa ya se kikwi.
+# text[orig] = Ke:mah, ompa ya se: kikwi.
+# text[spa] = Sí, pues ya lo corta uno ahí.
+# labels = a132 sentence
+1	Kemah	kemaj	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ompa	ompa	ADV	_	_	6	advmod	_	_
+4	ya	ya	ADV	_	_	6	advmod	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kikwi	kui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a135
+# text = Ika tamachiw.
+# text[orig] = Ika tamachi:w.
+# text[spa] = Con medida.
+# labels = a135 sentence
+1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+2	tamachiw	tamachiuj	NOUN	_	Case=Abs	1	nmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a140
+# text = Iwan i..., iwan ikowyotsin.
+# text[orig] = Iwa:n i..., iwa:n ikowyotsi:n.
+# text[spa] = Junto con su..., con los pedúnculos.
+# labels = a140 sentence
+1	Iwan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	reparandum	_	_
+2	i...	i	X	_	_	5	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	iwan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+5	ikowyotsin	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a144 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144:2
+# text = Neh, neh, ne niwalewa ne Xalpantzingo.
+# text[orig] =  Neh, neh, ne: niwa:le:wa ne: Xalpantzingo.
+# text[spa] =  Yo vengo de Xa:lpantzingo.
+# labels = a144 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ne	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	nsubj	_	_
+6	niwalewa	huala	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
+7	ne	ne	ADV	_	_	6	advmod	_	_
+8	Xalpantzingo	Xalpantzingo	PROPN	_	_	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a145
+# text = Nimonotsa Cristina Vazquez Hernandez.
+# text[orig] = Nimono:tsa Cristina Vázquez Hernández.
+# text[spa] = Me llamo Cristina Vázquez Hernández.
+# labels = a145 sentence
+1	Nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	Cristina	Cristina	PROPN	_	Gender=Fem	1	obj	_	_
+3	Vazquez	Vázquez	PROPN	_	_	2	flat	_	_
+4	Hernandez	Hernández	PROPN	_	_	2	flat	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a84
+# text = Aman, kwali titechtapowis namehwan ompa ne keniw nankitatekiwtiah.
+# text[orig] = A:man, kwali tite:chtapowi:s namehwa:n ompa ne: ke:ní:w nankitatekiwtiah.
+# text[spa] = Ahora me puedes platicar allá ustedes cómo las usan.
+# labels = a84 sentence
+1	Aman	aman	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kwali	kuali	ADV	_	_	4	advmod	_	_
+4	titechtapowis	tapohui	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
+5	namehwan	namehuan	PRON	_	Case=Abs|Number=Plur|Person=2|PronType=Pers	9	nsubj	_	_
+6	ompa	ompa	ADV	_	_	9	advmod	_	_
+7	ne	ne	ADV	_	_	9	advmod	_	_
+8	keniw	keni	ADV	_	PronType=Int	9	advmod	_	_
+9	nankitatekiwtiah	tatekiutia	VERB	_	Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	4	dep	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a115
+# text = Kemah, kanah ika kitokah ok wan pos chiltekpin kanah ika no kipiah n' kaltsintan.
+# text[orig] = Ke:mah, kanah ika kito:kah ok wa:n pos chi:ltekpin kanah ika no: kipiah n' kaltsi:ntan.
+# text[spa] = Sí, algunas partes lo siembran todavía y pues el chiltepín el algunos lugares también tienen sembrado junto a la casa.
+# text[a115] = Ke:mah, kanah ika kito:kah ok wa:n
+# text[a116] = pos chi:ltekpin kanah ika no: kipiah n' kaltsi:ntan.
+# labels = a115 a116 sentence
+1	Kemah	kemaj	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kanah	kanaj	INTJ	_	_	5	discourse	_	_
+4	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+5	kitokah	toka	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+6	ok	ok	ADV	_	_	5	advmod	_	_
+7	wan	huan	CCONJ	_	_	13	cc	_	_
+8	pos	pos	ADV	_	_	13	advmod	_	_
+9	chiltekpin	chiltekpin	NOUN	_	Case=Abs	13	obj	_	_
+10	kanah	kanaj	INTJ	_	_	13	discourse	_	_
+11	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
+12	no	no	ADV	_	_	13	advmod	_	_
+13	kipiah	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	conj	_	_
+14	n'	in	DET	_	_	15	det	_	_
+15-16	kaltsintan	_	_	_	_	_	_	_	SpaceAfter=No
+15	kal	kali	NOUN	_	_	16	nmod	_	_
+16	tsintan	tsintan	NOUN	_	NounType=Relat	13	obl	_	_
+17	.	.	PUNCT	_	_	5	punct	_	_
+
