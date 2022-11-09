@@ -2505,12 +2505,9 @@
 # text[spa] = Lo traen.
 # labels = a129 sentence
 "<Kiwalkwih>"
-	"hualkui" v tv pres s_pl3 o_sg3
-	"kui" v tv pres s_pl3 o_sg3 hual
-	"hualkui" v tv pret s_sg3 o_sg3
-	"kui" v tv pret s_sg3 o_sg3 hual
+	"kui" v tv pres s_pl3 o_sg3 hual @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a133
 # text = Kanah, ompa ya se mopalewihtiw.
@@ -2540,63 +2537,51 @@
 # text[a136] = ki..., kinamakah a:mo ika *kilo**, ta: ata ika tamachi:w.
 # labels = a134 a136 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->6
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #2->6
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #3->6
 "<nikan>"
-	"nikan" adv
+	"nikan" adv @advmod #4->6
 "<Kwesalan>"
-	"Cuetzalan" np top
-;	"Cuetzalan" np top s_pl3
-;	"Cuetzalan" np top s_sg3
+	"Cuetzalan" np top @appos #5->4
 "<tikitah>"
-	"ita" v tv pres s_pl1 o_sg3
-	"ita" v tv pret s_sg2 o_sg3
+	"ita" v tv pres s_pl1 o_sg3 @root #6->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->8
 "<este>"
-	"este" ij @discourse
+	"este" ij @discourse #8->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->8
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #10->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->10
 "<ki...>"
-	"ki" x @reparandum
+	"ki" x @reparandum #12->14
 "<,>"
-	"," cm @punct
+	"," cm @punct #13->12
 "<kinamakah>"
-	"namaka" v tv pres s_pl3 i_sg3 o_pl3
-	"namaka" v tv pres s_pl3 i_sg3 o_sg3
-	"namaka" v tv pret s_sg3 i_sg3 o_pl3
-	"namaka" v tv pret s_sg3 i_sg3 o_sg3
+	"namaka" v tv pres s_pl3 i_sg3 o_sg3 @parataxis #14->6
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #15->16
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #16->14
 "<kilo>"
-	"kilo" n m sg
-;	"kilo" n m sg s_pl3
-;	"kilo" n m sg s_sg3
+	"kilo" n m sg @nmod #17->16
 "<,>"
-	"," cm @punct
+	"," cm @punct #18->21
 "<ta>"
-	"ta" adv
+	"ta" adv @advmod #19->21
 "<ata>"
-	"ata" adv
+	"ata" adv @advmod #20->21
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #21->14
 "<tamachiw>"
-	"tamachiuj" n abs
-	"tamachiu" adj
-	"tamachiuj" n abs s_sg3
-	"tamachiu" adj s_sg3
-;	"tamachiuj" n abs s_pl3
+	"tamachiuj" n abs @nmod #22->21
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->6
 
 # sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a138
 # text = Ika tamachiw, se xikal.
@@ -2604,23 +2589,17 @@
 # text[spa] = Con medida, usan una jícara.
 # labels = a138 sentence
 "<Ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @root #1->0
 "<tamachiw>"
-	"tamachiuj" n abs
-	"tamachiu" adj
-	"tamachiuj" n abs s_sg3
-	"tamachiu" adj s_sg3
-;	"tamachiuj" n abs s_pl3
+	"tamachiuj" n abs @nmod #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->5
 "<se>"
-	"se" num
+	"se" num @det #4->5
 "<xikal>"
-	"xikal" n abs
-	"xikal" n abs s_sg3
-;	"xikal" n abs s_pl3
+	"xikal" n abs @parataxis #5->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->1
 
 # sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a139
 # text = Aja, yehwa yon ki..., kipexontiah wan kinamakah ata amo, amo tamayektil ta iwki yon kemeh taki.
@@ -2700,41 +2679,27 @@
 # text[spa] = Bueno pues yo me llamo Eleuterio Gorostiza, vengo de San Miguel.
 # labels = a143 sentence
 "<Bueno>"
-	"buenoj" ij @discourse
-	"bueno" ij @discourse
+	"bueno" ij @discourse #1->5
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod #2->5
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nmod #3->4
 "<notokay>"
-	"tokay" n px1sg
+	"tokay" n px1sg @nsubj #4->5
 "<Eleuterio>"
-	"Eleuterio" np ant m
-;	"Eleuterio" np ant m s_pl3
-;	"Eleuterio" np ant m s_sg3
+	"Eleuterio" np ant m @root #5->0
 "<Gorostiza>"
-	"Gorostiza" np cog @flat
-;	"Gorostiza" np cog s_pl3
-;	"Gorostiza" np cog s_sg3
+	"Gorostiza" np cog @flat #6->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->8
 "<niwalewa>"
-	"huala" v iv pres s_sg1
-	"ehua" v iv pres s_sg1 hual
+	"huala" v iv pres s_sg1 @parataxis #8->5
 "<nikan>"
-	"nikan" adv
+	"nikan" adv @advmod #9->8
 "<San>"
-	"San" np top
-;	"san" adv
-;	"San" np top s_pl3
-;	"San" np top s_sg3
+	"San" np top @appos #10->9
 "<Miguel>"
-	"Miguel" np ant m @flat
-	"Miguel" np top
-;	"Miguel" np ant m s_pl3
-;	"Miguel" np top s_pl3
-;	"Miguel" np ant m s_sg3
-;	"Miguel" np top s_sg3
+	"Miguel" np ant m @flat #11->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->5
 
