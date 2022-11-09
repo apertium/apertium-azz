@@ -1,0 +1,1440 @@
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a44:1
+# text = Pos neh nikixmati sitaltomat. 
+# text[orig] = Pos neh niki:xmati si:taltomat. 
+# text[spa] = Pues yo lo conozco como <i>si:taltomat</i>. 
+# labels = a44 sentence
+^Pos/Pos$
+^neh/neh$
+^nikixmati/nikixmati$
+^sitaltomat/sitaltomat$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a44:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a44 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a45
+# text = Wan yehwa yon, nen, tehan ihkon tiktokaytiah n' ompaka newin tehan, kampa tehan tinemih. Mm.
+# text[orig] = Wa:n yehwa yo:n, ne:n, teha:n ihkó:n tikto:ka:ytiah n' ompaka ne:wí:n teha:n, ka:mpa teha:n tinemih. Mm.
+# text[spa] = Y ese es el que, nosotras así lo llamamos allá en donde vivimos. Mm.
+# text[a45] = Wa:n yehwa yo:n, ne:n,
+# text[a46] = teha:n ihkó:n tikto:ka:ytiah n' ompaka ne:wí:n teha:n, ka:mpa teha:n tinemih. Mm.
+# labels = a45 a46 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^yon/yo>n$
+^,/,$
+^nen/nen$
+^,/,$
+^tehan/tehan$
+^ihkon/ihkon$
+^tiktokaytiah/tiktokaytiah$
+^n'/n'$
+^ompaka/ompaka$
+^newin/newin$
+^tehan/tehan$
+^,/,$
+^kampa/kampa$
+^tehan/tehan$
+^tinemih/tinemih$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a47
+# text = Pero.... Po..., eski... Pisiltik.
+# text[orig] = Pero .... Po..., eski ... Pisi:ltik.
+# text[spa] = Pero .... Po..., debe ser .... Son pequeños los frutos.
+# text[a47] = Pero ....
+# text[a50] = Po..., eski ...
+# text[a52] = Pisi:ltik.
+# labels = a47 a50 a52 sentence
+^Pero/Pero$
+^..../....$
+^Po.../Po...$
+^,/,$
+^eski/eski$
+^.../...$
+^Pisiltik/Pisiltik$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a55
+# text = No mochiwa.
+# text[orig] = No: mochi:wa.
+# text[spa] = También se da.
+# labels = a55 sentence
+^No/No$
+^mochiwa/mochiwa$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a57
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a57 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a59
+# text = Mowilana, mowilana.
+# text[orig] = Mowila:na, mowila:na.
+# text[spa] = Se extiende, se extiende.
+# labels = a59 sentence
+^Mowilana/Mowilana$
+^,/,$
+^mowilana/mowilana$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a62:1
+# text = Kemah, kohkostik n' ixochiotsin.
+# text[orig] = Ke:mah, kohkostik n' ixo:chiotsi:n.
+# text[spa] = Sí, sus florecitas son de color amarillo.
+# labels = a62 sentence
+^Kemah/Kemah$
+^,/,$
+^kohkostik/kohkostik$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a62:2
+# text = Kohkostik.
+# text[orig] = Kohkostik.
+# text[spa] = Son de color amarillo.
+# labels = a62 sentence
+^Kohkostik/Kohkostik$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a64
+# text = Mooholochowa.
+# text[orig] = Mooholo:chowa.
+# text[spa] = Se da en racimos.
+# labels = a64 sentence
+^Mooholochowa/Mooholochowa$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a66
+# text = Mm. Kemeh eskia ne, ken tikihtoskeh, ox amo racimo, ta racimo tak koyokopa ya.
+# text[orig] = Mm. Ke:meh eskia ne:, ke:n tikihto:skeh, ox a:mo *racimo**, ta: *racimo** tak koyo:kopa ya.
+# text[spa] = Mm. Como si fuera este, cómo diríamos, si no es racimo, porque racimo se dice en español.
+# text[a66] = Mm. Ke:meh eskia ne:,
+# text[a67] = ke:n tikihto:skeh, ox
+# text[a68] = a:mo *racimo**, ta: *racimo** tak koyo:kopa ya.
+# labels = a66 a67 a68 sentence
+^Mm/Mm$
+^./.$
+^Kemeh/Kemeh$
+^eskia/eskia$
+^ne/ne$
+^,/,$
+^ken/ken$
+^tikihtoskeh/tikihtoskeh$
+^,/,$
+^ox/ox$
+^amo/amo$
+^racimo/racimo$
+^,/,$
+^ta/ta$
+^racimo/racimo$
+^tak/tak$
+^koyokopa/koyokopa$
+^ya/ya$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a69
+# text = Ne, kampa, kampa motempilowa n' ixochiotsin, itech mismo ikowyotsin ata miak mopilowa. Eheh.
+# text[orig] = Ne:, ka:mpa, ka:mpa mote:mpilowa n' ixo:chiotsi:n, itech *mismo** ikowyotsi:n ata miak mopilowa. Eheh.
+# text[spa] = Este donde, donde brotan las florecitas, en el mismo tallo se cuelgan muchos frutos. Eheh.
+# text[a69] = Ne:, ka:mpa, ka:mpa mote:mpilowa n' ixo:chiotsi:n,
+# text[a70] = itech *mismo** ikowyotsi:n ata miak mopilowa. Eheh.
+# labels = a69 a70 sentence
+^Ne/Ne$
+^,/,$
+^kampa/kampa$
+^,/,$
+^kampa/kampa$
+^motempilowa/motempilowa$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^,/,$
+^itech/itech$
+^mismo/mismo$
+^ikowyotsin/ikowyotsin$
+^ata/ata$
+^miak/miak$
+^mopilowa/mopilowa$
+^./.$
+^Eheh/Eheh$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a71
+# text = Yeha yon, kwaltsin, kwaltsin mochiwa, kwaltsin taki. Mm.
+# text[orig] = Yeha yo:n, kwaltsi:n, kwaltsi:n mochi:wa, kwaltsi:n ta:ki. Mm.
+# text[spa] = Eso es, producen muy, muy bien las matas. Mm.
+# labels = a71 sentence
+^Yeha/Yeha$
+^yon/yo>n$
+^,/,$
+^kwaltsin/kwaltsin$
+^,/,$
+^kwaltsin/kwaltsin$
+^mochiwa/mochiwa$
+^,/,$
+^kwaltsin/kwaltsin$
+^taki/taki$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a74
+# text = Kemeh moskaltia ihkon, mo..., xochiohtiw.
+# text[orig] = Ke:meh moskaltia ihkó:n, mo..., xo:chiohtiw.
+# text[spa] = Como van creciendo así van flo..., floreciendo.
+# labels = a74 sentence
+^Kemeh/Kemeh$
+^moskaltia/moskaltia$
+^ihkon/ihkon$
+^,/,$
+^mo.../mo...$
+^,/,$
+^xochiohtiw/xochiohtiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a75
+# text = Ehe, wan ihkon, ne,hasta kampa tamiti a nen ineiskaltilis, ompa no tami a n' ixochiotsin.
+# text[orig] = Ehe, wa:n ihkó:n, ne:,*hasta** ka:mpa tamiti a ne:n ineiskalti:lis, ompa no: tami a n' ixo:chiotsi:n.
+# text[spa] = Ehe, y así este, hasta cuando terminan de crecer, ahí terminan de florecer.
+# text[a75] = Ehe, wa:n ihkó:n, ne:,*hasta** ka:mpa tamiti a ne:n ineiskalti:lis,
+# text[a76] = ompa no: tami a n' ixo:chiotsi:n.
+# labels = a75 a76 sentence
+^Ehe/Ehe$
+^,/,$
+^wan/wan$
+^ihkon/ihkon$
+^,/,$
+^ne/ne$
+^,/,$
+^hasta/hasta$
+^kampa/kampa$
+^tamiti/tamiti$
+^a/a$
+^nen/nen$
+^ineiskaltilis/ineiskaltilis$
+^,/,$
+^ompa/ompa$
+^no/no$
+^tami/tami$
+^a/a$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a77
+# text = Ehe. Wan kwaltsin taki miak, como que kemeh eskia ne por, por racimitos. Ehe.
+# text[orig] = Ehe. Wa:n kwaltsi:n ta:ki miak, *como que** ke:meh eskia ne: *por, por racimitos**. Ehe.
+# text[spa] = Ehe. Y la mata produce muchos frutos como si fueran este por racimitos. Ehe.
+# text[a77] = Ehe. Wa:n kwaltsi:n ta:ki miak, *como que** ke:meh eskia ne:
+# text[a78] = *por, por racimitos**. Ehe.
+# labels = a77 a78 sentence
+^Ehe/Ehe$
+^./.$
+^Wan/Wan$
+^kwaltsin/kwaltsin$
+^taki/taki$
+^miak/miak$
+^,/,$
+^como/como$
+^que/que$
+^kemeh/kemeh$
+^eskia/eskia$
+^ne/ne$
+^por/por$
+^,/,$
+^por/por$
+^racimitos/racimitos$
+^./.$
+^Ehe/Ehe$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:1
+# text = Wan seki oksitiw a. 
+# text[orig] = Wa:n seki oksitiw a. 
+# text[spa] = Y algunos frutos ya van madurando. 
+# labels = a80 sentence
+^Wan/Wan$
+^seki/seki$
+^oksitiw/oksitiw$
+^a/a$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:2
+# text = Ehe.
+# text[orig] = Ehe.
+# text[spa] = Ehe.
+# labels = a80 sentence
+^Ehe/Ehe$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:3
+# text = Ihkon.
+# text[orig] = Ihkó:n.
+# text[spa] = Así es.
+# labels = a80 sentence
+^Ihkon/Ihkon$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a83
+# text = Kemah, amo ihsiwka tami. Kemah.
+# text[orig] = Ke:mah, a:mo ihsiwka tami. Ke:mah.
+# text[spa] = Sí, no se acaban luego. Sí.
+# labels = a83 sentence
+^Kemah/Kemah$
+^,/,$
+^amo/amo$
+^ihsiwka/ihsiwka$
+^tami/tami$
+^./.$
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a85
+# text = Pos tehan neli kemeh nikihtowa, ne, tik..., tikwih totapalol, tik..., ika t..., chiltekpintsin ika tikmo..., ika tikchihchiwah para totapalol.
+# text[orig] = Pos teha:n neli ke:meh nikihtowa, ne:, tik..., tikwih totapalo:l, tik..., ika t..., chi:ltekpintsi:n ika tikmo:..., ika tikchihchi:wah para totapalo:l.
+# text[spa] = Pues nosotras es cierto como te platico, lo..., usamos los frutos para preparar nuestra comida, lo..., con t..., junto con el chiltepín lo..., lo usamos para preparar nuestra comida.
+# text[a85] = Pos teha:n neli ke:meh nikihtowa, ne:, tik...,
+# text[a86] = tikwih totapalo:l, tik...,
+# text[a87] = ika t..., chi:ltekpintsi:n ika tikmo:..., ika tikchihchi:wah para totapalo:l.
+# labels = a85 a86 a87 sentence
+^Pos/Pos$
+^tehan/tehan$
+^neli/neli$
+^kemeh/kemeh$
+^nikihtowa/nikihtowa$
+^,/,$
+^ne/ne$
+^,/,$
+^tik.../tik...$
+^,/,$
+^tikwih/tikwih$
+^totapalol/totapalol$
+^,/,$
+^tik.../tik...$
+^,/,$
+^ika/ika$
+^t.../t...$
+^,/,$
+^chiltekpintsin/chiltekpintsin$
+^ika/ika$
+^tikmo/tikmo$
+^.../...$
+^,/,$
+^ika/ika$
+^tikchihchiwah/tikchihchiwah$
+^para/para$
+^totapalol/totapalol$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a88
+# text = Wan no wel ika se kichiwa chilposon o se tatomawia ika.
+# text[orig] = Wa:n no: wel ika se: kichi:wa chi:lposo:n *o** se: tatomawia ika.
+# text[spa] = Y tambièn se puede moler para preparar chilpozonte agregandole los jitomates..
+# labels = a88 sentence
+^Wan/Wan$
+^no/no$
+^wel/wel$
+^ika/ika$
+^se/se$
+^kichiwa/kichiwa$
+^chilposon/chilposon$
+^o/o$
+^se/se$
+^tatomawia/tatomawia$
+^ika/ika$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a89
+# text = Wan no weli se, se kikwa iwki como que de tikmoltah wan ihkon tikpaloti a.
+# text[orig] = Wa:n no: weli se:, se: kikwa iwki *como que de** tikmo:ltah wa:n ihkó:n tikpalo:ti a.
+# text[spa] = Y tambièn se puede hacer, se machacan y comemos así con tortillas.
+# labels = a89 sentence
+^Wan/Wan$
+^no/no$
+^weli/weli$
+^se/se$
+^,/,$
+^se/se$
+^kikwa/kikwa$
+^iwki/iwki$
+^como/como$
+^que/que$
+^de/de$
+^tikmoltah/tikmoltah$
+^wan/wan$
+^ihkon/ihkon$
+^tikpaloti/tikpaloti$
+^a/a$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a90
+# text = Kemah. Pero ne, pos neli tisekimeh tikchiwah tikmanah, para amo, kihtowah sekin ne, para amo xokok kisa.
+# text[orig] = Ke:mah. Pero ne:, pos neli tiseki:meh tikchi:wah tikmanah, para a:mo, kihtowah seki:n ne:, para a:mo xoko:k ki:sa.
+# text[spa] = Sí. Pero este, pues de veras que algunas hervimos los frutos, para que no, dicen algunas personas este, para que la comida no tenga un sabor ácido.
+# text[a90] = Ke:mah. Pero ne:,
+# text[a91] = pos neli tiseki:meh tikchi:wah tikmanah,
+# text[a92] = para a:mo, kihtowah seki:n ne:,
+# text[a93] = para a:mo xoko:k ki:sa.
+# labels = a90 a91 a92 a93 sentence
+^Kemah/Kemah$
+^./.$
+^Pero/Pero$
+^ne/ne$
+^,/,$
+^pos/pos$
+^neli/neli$
+^tisekimeh/tisekimeh$
+^tikchiwah/tikchiwah$
+^tikmanah/tikmanah$
+^,/,$
+^para/para$
+^amo/amo$
+^,/,$
+^kihtowah/kihtowah$
+^sekin/sekin$
+^ne/ne$
+^,/,$
+^para/para$
+^amo/amo$
+^xokok/xokok$
+^kisa/kisa$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a94
+# text = Wan tisekimeh tikchiwah tiktewatsah pero semi mokawa itech n' komaltsin porin xamani.
+# text[orig] = Wa:n tiseki:meh tikchi:wah tiktewa:tsah pero semi moka:wa itech n' koma:ltsí:n porin xama:ni.
+# text[spa] = Y otras personas las asamos en el comal pero se pegan mucho porque se truenan fácilmente los frutos
+# labels = a94 sentence
+^Wan/Wan$
+^tisekimeh/tisekimeh$
+^tikchiwah/tikchiwah$
+^tiktewatsah/tiktewatsah$
+^pero/pero$
+^semi/semi$
+^mokawa/mokawa$
+^itech/itech$
+^n'/n'$
+^komaltsin/komaltsin$
+^porin/porin$
+^xamani/xamani$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a95
+# text = Ehe. Wan tisekimeh tikchiwah ne, tikchipawah sayoh wan tikpakah wan ihkon tikchihchiwah tapalol xoxowik.
+# text[orig] = Ehe. Wa:n tiseki:meh tikchi:wah ne:, tikchipa:wah sayoh wa:n tikpa:kah wa:n ihkó:n tikchihchi:wah tapalo:l xoxowik.
+# text[spa] = Ehe. Y otras hacemos este, limpiamos los frutos, lavamos y preparamos comida con los frutos frescos sin hervir.
+# text[a95] = Ehe. Wa:n tiseki:meh tikchi:wah ne:,
+# text[a96] = tikchipa:wah sayoh wa:n tikpa:kah wa:n ihkó:n tikchihchi:wah tapalo:l xoxowik.
+# labels = a95 a96 sentence
+^Ehe/Ehe$
+^./.$
+^Wan/Wan$
+^tisekimeh/tisekimeh$
+^tikchiwah/tikchiwah$
+^ne/ne$
+^,/,$
+^tikchipawah/tikchipawah$
+^sayoh/sayoh$
+^wan/wan$
+^tikpakah/tikpakah$
+^wan/wan$
+^ihkon/ihkon$
+^tikchihchiwah/tikchihchiwah$
+^tapalol/tapalol$
+^xoxowik/xoxowik$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a97
+# text = Ihkon tikch..., tikmoltah. Uhuh.
+# text[orig] = Ihkó:n tikch..., tikmo:ltah. Uhuh.
+# text[spa] = Así lo..., los machacamos. Uhuh.
+# labels = a97 sentence
+^Ihkon/Ihkon$
+^tikch/tikch$
+^.../...$
+^,/,$
+^tikmoltah/tikmoltah$
+^./.$
+^Uhuh/Uhuh$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a98
+# text = Wan, nejon, ihkon ya como que tikmahsewah a. Amo tik..., amo tiktsoyoniah. Mm.
+# text[orig] = Wa:n, nejó:n, ihkó:n ya *como que** tikmahse:wah a. A:mo tik..., a:mo tiktsoyo:niah. Mm.
+# text[spa] = Y este, así lo consumimos. No lo..., no lo freímos. Mm.
+# labels = a98 sentence
+^Wan/Wan$
+^,/,$
+^nejon/nejon$
+^,/,$
+^ihkon/ihkon$
+^ya/ya$
+^como/como$
+^que/que$
+^tikmahsewah/tikmahsewah$
+^a/a$
+^./.$
+^Amo/Amo$
+^tik.../tik...$
+^,/,$
+^amo/amo$
+^tiktsoyoniah/tiktsoyoniah$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a99
+# text = Amo tikchihchiwah ika mantecatsin, sano iwki sah. Ehe.
+# text[orig] = A:mo tikchihchi:wah ika *mantecatsi:n**, sano iwki sah. Ehe.
+# text[spa] = No lo preparamos con manteca, sino que así nada más. Ehe.
+# labels = a99 sentence
+^Amo/Amo$
+^tikchihchiwah/tikchihchiwah$
+^ika/ika$
+^mantecatsin/mantecatsin$
+^,/,$
+^sano/sano$
+^iwki/iwki$
+^sah/sah$
+^./.$
+^Ehe/Ehe$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a101
+# text = Mochiwa.
+# text[orig] = Mochi:wa.
+# text[spa] = Se da.
+# labels = a101 sentence
+^Mochiwa/Mochiwa$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a110
+# text = Eso.
+# text[orig] = *Eso**.
+# text[spa] = Eso.
+# labels = a110 sentence
+^Eso/Eso$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a113
+# text = Tein takowal komo ke.... No kipiah.
+# text[orig] = Tein takowal komo ke .... No: kipiah.
+# text[spa] = El que compran como que .... También tienen.
+# labels = a113 sentence
+^Tein/Tein$
+^takowal/takowal$
+^komo/komo$
+^ke.../ke...$
+^./.$
+^No/No$
+^kipiah/kipiah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a117
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a117 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a119
+# text = Yeha ya, yeha ya n' tapalol.
+# text[orig] = Yeha ya, yeha ya n' tapalo:l.
+# text[spa] = Ese es, ese es la comida.
+# labels = a119 sentence
+^Yeha/Yeha$
+^ya/ya$
+^,/,$
+^yeha/yeha$
+^ya/ya$
+^n'/n'$
+^tapalol/tapalol$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a121
+# text = Ihkon.
+# text[orig] = Ihkó:n.
+# text[spa] = Así es.
+# labels = a121 sentence
+^Ihkon/Ihkon$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a125
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a125 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a128
+# text = Kiwalkwih ok.
+# text[orig] = Kiwa:lkwih ok.
+# text[spa] = Lo traen todavía.
+# labels = a128 sentence
+^Kiwalkwih/Kiwalkwih$
+^ok/ok$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a130
+# text = No tik..., tikowah komo amo teh tikpiyah, pero komohkon ne, onkak no n' kaltsintan pos amo no tikowah ok.
+# text[orig] = No: tik..., tikowah komo a:mo teh tikpiyah, pero komohkó:n ne:, onkak no: n' kaltsi:ntan pos a:mo no: tikowah ok.
+# text[spa] = También lo..., lo compramos si es que no lo tenemos en casa, pero si este, también producimos junto a la casa ya no lo compramos.
+# text[a130] = No: tik..., tikowah komo a:mo teh tikpiyah, pero komohkó:n ne:,
+# text[a131] = onkak no: n' kaltsi:ntan pos a:mo no: tikowah ok.
+# labels = a130 a131 sentence
+^No/No$
+^tik.../tik...$
+^,/,$
+^tikowah/tikowah$
+^komo/komo$
+^amo/amo$
+^teh/teh$
+^tikpiyah/tikpiyah$
+^,/,$
+^pero/pero$
+^komohkon/komohkon$
+^ne/ne$
+^,/,$
+^onkak/onkak$
+^no/no$
+^n'/n'$
+^kaltsintan/kaltsintan$
+^pos/pos$
+^amo/amo$
+^no/no$
+^tikowah/tikowah$
+^ok/ok$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a132
+# text = Kemah, ompa ya se kikwi.
+# text[orig] = Ke:mah, ompa ya se: kikwi.
+# text[spa] = Sí, pues ya lo corta uno ahí.
+# labels = a132 sentence
+^Kemah/Kemah$
+^,/,$
+^ompa/ompa$
+^ya/ya$
+^se/se$
+^kikwi/kikwi$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a135
+# text = Ika tamachiw.
+# text[orig] = Ika tamachi:w.
+# text[spa] = Con medida.
+# labels = a135 sentence
+^Ika/Ika$
+^tamachiw/tamachiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a137
+# text = Kemah. Eh, se xikal, se tazatsin.
+# text[orig] = Ke:mah. Eh, se: xi:kal, se: *tazatsi:n**.
+# text[spa] = Sí. Eh, miden con una jícara, con una taza.
+# labels = a137 sentence
+^Kemah/Kemah$
+^./.$
+^Eh/Eh$
+^,/,$
+^se/se$
+^xikal/xikal$
+^,/,$
+^se/se$
+^tazatsin/tazatsin$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a140
+# text = Iwan i..., iwan ikowyotsin.
+# text[orig] = Iwa:n i..., iwa:n ikowyotsi:n.
+# text[spa] = Junto con su..., con los pedúnculos.
+# labels = a140 sentence
+^Iwan/Iwan$
+^i.../i...$
+^,/,$
+^iwan/iwan$
+^ikowyotsin/ikowyotsin$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a144
+# text = Mm. Neh, neh, ne niwalewa ne Xalpantzingo.
+# text[orig] = Mm. Neh, neh, ne: niwa:le:wa ne: Xalpantzingo.
+# text[spa] = Mm. Yo vengo de Xa:lpantzingo.
+# labels = a144 sentence
+^Mm/Mm$
+^./.$
+^Neh/Neh$
+^,/,$
+^neh/neh$
+^,/,$
+^ne/ne$
+^niwalewa/niwalewa$
+^ne/ne$
+^Xalpantzingo/Xalpantzingo$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a145
+# text = Nimonotsa Cristina Vazquez Hernandez.
+# text[orig] = Nimono:tsa Cristina Vázquez Hernández.
+# text[spa] = Me llamo Cristina Vázquez Hernández.
+# labels = a145 sentence
+^Nimonotsa/Nimonotsa$
+^Cristina/Cristina$
+^Vazquez/Vazquez$
+^Hernandez/Hernandez$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a43
+# text = Bueno pos aman nano mah timonohnotsakan ika yon tomat achi pisiltik, ne, keniw n' teh tikixmati, nen, monotsa.
+# text[orig] = *Bueno** pos a:man na:no mah timonohno:tsaka:n ika yo:n tomat achi pisi:ltik, ne:, ke:ní:w n' teh tiki:xmati, ne:n, mono:tsa.
+# text[spa] = Bueno pues ahora platiquemos señora de ese jitomate que tiene frutos pequeños, este cómo lo conoce usted, cómo se llama.
+# labels = a43 sentence
+^Bueno/Bueno$
+^pos/pos$
+^aman/aman$
+^nano/nano$
+^mah/mah$
+^timonohnotsakan/timonohnotsakan$
+^ika/ika$
+^yon/yo>n$
+^tomat/tomat$
+^achi/achi$
+^pisiltik/pisiltik$
+^,/,$
+^ne/ne$
+^,/,$
+^keniw/keniw$
+^n'/n'$
+^teh/teh$
+^tikixmati/tikixmati$
+^,/,$
+^nen/nen$
+^,/,$
+^monotsa/monotsa$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a48
+# text = Pero tehwan nikan, neh noxolal San Miguel Tzinacapan, ompaka ne tehwan ti..., tikixmatih yon taol, este, taoltomat tikiliah.
+# text[orig] = Pero tehwa:n nika:n, neh noxola:l San Miguel Tzinacapan, ompaka ne: tehwa:n ti..., tiki:xmatih yo:n tao:l, *este**, tao:ltomat tikiliah.
+# text[spa] = Pero acá nosotros, mi pueblo es San Miguel Tzinacapan, por allá nosotros lo..., lo conocemos como tao:l, este lo llamamos <i>tao:ltomat</i>.
+# text[a48] = Pero tehwa:n nika:n, neh noxola:l San Miguel Tzinacapan,
+# text[a49] = ompaka ne: tehwa:n ti..., tiki:xmatih yo:n tao:l, *este**, tao:ltomat tikiliah.
+# labels = a48 a49 sentence
+^Pero/Pero$
+^tehwan/tehwan$
+^nikan/nikan$
+^,/,$
+^neh/neh$
+^noxolal/noxolal$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^,/,$
+^ompaka/ompaka$
+^ne/ne$
+^tehwan/tehwan$
+^ti.../ti...$
+^,/,$
+^tikixmatih/tikixmatih$
+^yon/yo>n$
+^taol/taol$
+^,/,$
+^este/este$
+^,/,$
+^taoltomat/taoltomat$
+^tikiliah/tikiliah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a51
+# text = Amo n'mati keyeh yon iwki kiliah, tak xa porin achi pisiltsitsin ata, nen, taki.
+# text[orig] = A:mo n'mati ke:yeh yo:n iwki kiliah, tak xa: porin achi pisi:ltsitsí:n ata, ne:n, ta:ki.
+# text[spa] = No sé por qué lo llaman así, creo que porque los frutos son un poco pequeños si lo haz visto, cuando produce.
+# labels = a51 sentence
+^Amo/Amo$
+^n'mati/n'mati$
+^keyeh/keyeh$
+^yon/yo>n$
+^iwki/iwki$
+^kiliah/kiliah$
+^,/,$
+^tak/tak$
+^xa/xa$
+^porin/porin$
+^achi/achi$
+^pisiltsitsin/pisiltsitsin$
+^ata/ata$
+^,/,$
+^nen/nen$
+^,/,$
+^taki/taki$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a53
+# text = Pisiltik wan mo..., pos yon, yon tomat mochiwa maskaltsintan oso ne, este, kampa milah no kwali se ki..., se kitoka. Wan yon, yon tomat ata kwaltsin mowiwilana wan wehkapan, wehkapan, este, tehko, komo onkak owasin pos ompa tehko wan komohkon itech, itech tein eski kowit, pane yon, ompa mowilana, mowilana.
+# text[orig] = Pisi:ltik wa:n mo:..., pos yo:n, yo:n tomat mochi:wa *más**kaltsi:ntan oso ne:, *este**, ka:mpa mi:lah no: kwali se: ki..., se: kito:ka. Wa:n yo:n, yo:n tomat ata kwaltsi:n mowi:wila:na wa:n wehkapan, wehkapan, *este**, tehko, komo onkak owasin pos ompa tehko wa:n komohkó:n itech, itech tein eski kowit, pané: yo:n, ompa mowila:na, mowila:na.
+# text[spa] = Son pequeños y se..., pues ese, jitomate se da aunque sea junto a la casa o, este, en la milpa también se puede se..., sembrar. Y los tallos de las matas, si te haz fijado, se extienden en el suelo y suben en lo alto, suben en lo alto, este si hay caña de maíz ahí se suben y parece que se suben en cualquier planta que hay ahí se extiende, se extiende.
+# text[a53] = Pisi:ltik wa:n mo:..., pos yo:n,
+# text[a54] = yo:n tomat mochi:wa *más**kaltsi:ntan oso ne:, *este**,
+# text[a56] = ka:mpa mi:lah no: kwali se: ki..., se: kito:ka. Wa:n yo:n, yo:n tomat ata kwaltsi:n mowi:wila:na wa:n
+# text[a58] = wehkapan, wehkapan, *este**, tehko, komo onkak owasin pos ompa tehko wa:n komohkó:n itech, itech tein eski kowit, pané: yo:n,
+# text[a60] = ompa mowila:na, mowila:na.
+# labels = a53 a54 a56 a58 a60 sentence
+^Pisiltik/Pisiltik$
+^wan/wan$
+^mo.../mo...$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^tomat/tomat$
+^mochiwa/mochiwa$
+^maskaltsintan/maskaltsintan$
+^oso/oso$
+^ne/ne$
+^,/,$
+^este/este$
+^,/,$
+^kampa/kampa$
+^milah/milah$
+^no/no$
+^kwali/kwali$
+^se/se$
+^ki.../ki...$
+^,/,$
+^se/se$
+^kitoka/kitoka$
+^./.$
+^Wan/Wan$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^tomat/tomat$
+^ata/ata$
+^kwaltsin/kwaltsin$
+^mowiwilana/mowiwilana$
+^wan/wan$
+^wehkapan/wehkapan$
+^,/,$
+^wehkapan/wehkapan$
+^,/,$
+^este/este$
+^,/,$
+^tehko/tehko$
+^,/,$
+^komo/komo$
+^onkak/onkak$
+^owasin/owasin$
+^pos/pos$
+^ompa/ompa$
+^tehko/tehko$
+^wan/wan$
+^komohkon/komohkon$
+^itech/itech$
+^,/,$
+^itech/itech$
+^tein/tein$
+^eski/eski$
+^kowit/kowit$
+^,/,$
+^pane/pane$
+^yon/yo>n$
+^,/,$
+^ompa/ompa$
+^mowilana/mowilana$
+^,/,$
+^mowilana/mowilana$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a61
+# text = Wan ihwak xochiwati pero neli, nen, pues, este, kwaltsin xochiowa, kohkostik ata n' ixochio.
+# text[orig] = Wa:n ihwa:k xo:chiwati pero neli, ne:n, *pues, este**, kwaltsi:n xo:chiowa, kohkostik ata n' ixo:chio.
+# text[spa] = Y cuando va a empezar a florecer este, de veras pues este, brotan muchas flores de color amarillo, si lo haz visto.
+# text[a61] = Wa:n ihwa:k xo:chiwati pero neli, ne:n, *pues, este**,
+# text[a63] = kwaltsi:n xo:chiowa, kohkostik ata n' ixo:chio.
+# labels = a61 a63 sentence
+^Wan/Wan$
+^ihwak/ihwak$
+^xochiwati/xochiwati$
+^pero/pero$
+^neli/neli$
+^,/,$
+^nen/nen$
+^,/,$
+^pues/pues$
+^,/,$
+^este/este$
+^,/,$
+^kwaltsin/kwaltsin$
+^xochiowa/xochiowa$
+^,/,$
+^kohkostik/kohkostik$
+^ata/ata$
+^n'/n'$
+^ixochio/ixochio$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a65
+# text = Wan yon neh nikilia yehwa, nen, yon tomat amo sehse mochiwa, ta ata mopihpilowa pane.... Kemah wan ihwak, pos yon pane wehkawa n' taktok porque kemeh yon amo sepa sah xochiowa, ta yon iwki kemeh moskaltihtiw ata iwki mowilantiw wan iwki ompa ne taktiw.
+# text[orig] = Wa:n yo:n neh nikilia yehwa, ne:n, yo:n tomat a:mo sehse: mochi:wa, ta: ata mopihpilowa pané: .... Ke:mah wa:n ihwa:k, pos yo:n pané: wehka:wa n' ta:ktok *porque** ke:meh yo:n a:mo sepa sah xo:chiowa, ta: yo:n iwki ke:meh moskaltihtiw ata iwki mowila:ntiw wa:n iwki ompa ne: ta:ktiw.
+# text[spa] = Y yo digo que ese jitomate no se da uno por uno, sino que parece que .... Sí y cuando, parece que las matas tardan produciendo los frutos porque no florrecen una sola vez, las plantas así como van creciendo se van extendiendo y van produciendo frutos.
+# text[a65] = Wa:n yo:n neh nikilia yehwa, ne:n, yo:n tomat a:mo sehse: mochi:wa, ta: ata mopihpilowa pané: ....
+# text[a72] = Ke:mah wa:n ihwa:k,
+# text[a73] = pos yo:n pané: wehka:wa n' ta:ktok *porque** ke:meh yo:n a:mo sepa sah xo:chiowa, ta: yo:n iwki ke:meh moskaltihtiw ata iwki mowila:ntiw wa:n iwki ompa ne: ta:ktiw.
+# labels = a65 a72 a73 sentence
+^Wan/Wan$
+^yon/yo>n$
+^neh/neh$
+^nikilia/nikilia$
+^yehwa/yehwa$
+^,/,$
+^nen/nen$
+^,/,$
+^yon/yo>n$
+^tomat/tomat$
+^amo/amo$
+^sehse/sehse$
+^mochiwa/mochiwa$
+^,/,$
+^ta/ta$
+^ata/ata$
+^mopihpilowa/mopihpilowa$
+^pane/pane$
+^.../...$
+^./.$
+^Kemah/Kemah$
+^wan/wan$
+^ihwak/ihwak$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^pane/pane$
+^wehkawa/wehkawa$
+^n'/n'$
+^taktok/taktok$
+^porque/porque$
+^kemeh/kemeh$
+^yon/yo>n$
+^amo/amo$
+^sepa/sepa$
+^sah/sah$
+^xochiowa/xochiowa$
+^,/,$
+^ta/ta$
+^yon/yo>n$
+^iwki/iwki$
+^kemeh/kemeh$
+^moskaltihtiw/moskaltihtiw$
+^ata/ata$
+^iwki/iwki$
+^mowilantiw/mowilantiw$
+^wan/wan$
+^iwki/iwki$
+^ompa/ompa$
+^ne/ne$
+^taktiw/taktiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a79
+# text = Kemah, pero yon, yon tomat ata no kwaltsin nen taki wan miak tikwelitah porin, seki pos, este, kemeh iwki mowilantiw xochiohtiw, ata seki xochiohtok ok, seki xohxoxowik sehselik ok wan seki iwki oksitiw.
+# text[orig] = Ke:mah, pero yo:n, yo:n tomat ata no: kwaltsi:n ne:n ta:ki wa:n miak tikwelitah porin, seki pos, *este**, ke:meh iwki mowila:ntiw xo:chiohtiw, ata seki xo:chiohtok ok, seki xohxoxowik sehselik ok wa:n seki iwki oksitiw.
+# text[spa] = Sí, pero ese jitomate se produce muy bien y muchos de nosotros nos gusta porque, otras matas este, así como se van extendiendo van floreciendo, algunas matas están floreciendo, otros frutos están tiernos y otros ya van madurando.
+# text[a79] = Ke:mah, pero yo:n, yo:n tomat ata no: kwaltsi:n ne:n ta:ki wa:n miak tikwelitah porin,
+# text[a81] = seki pos, *este**, ke:meh iwki mowila:ntiw xo:chiohtiw, ata seki xo:chiohtok ok, seki xohxoxowik sehselik ok wa:n seki iwki oksitiw.
+# labels = a79 a81 sentence
+^Kemah/Kemah$
+^,/,$
+^pero/pero$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^tomat/tomat$
+^ata/ata$
+^no/no$
+^kwaltsin/kwaltsin$
+^nen/nen$
+^taki/taki$
+^wan/wan$
+^miak/miak$
+^tikwelitah/tikwelitah$
+^porin/porin$
+^,/,$
+^seki/seki$
+^pos/pos$
+^,/,$
+^este/este$
+^,/,$
+^kemeh/kemeh$
+^iwki/iwki$
+^mowilantiw/mowilantiw$
+^xochiohtiw/xochiohtiw$
+^,/,$
+^ata/ata$
+^seki/seki$
+^xochiohtok/xochiohtok$
+^ok/ok$
+^,/,$
+^seki/seki$
+^xohxoxowik/xohxoxowik$
+^sehselik/sehselik$
+^ok/ok$
+^wan/wan$
+^seki/seki$
+^iwki/iwki$
+^oksitiw/oksitiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a82
+# text = Yehwa ika yon, pos yon wehkawa se kitektok.
+# text[orig] = Yehwa ika yo:n, pos yo:n wehka:wa se: kitektok.
+# text[spa] = Por eso tarda uno cosechando los frutos.
+# labels = a82 sentence
+^Yehwa/Yehwa$
+^ika/ika$
+^yon/yo>n$
+^,/,$
+^pos/pos$
+^yon/yo>n$
+^wehkawa/wehkawa$
+^se/se$
+^kitektok/kitektok$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a84
+# text = Aman, kwali titechtapowis namehwan ompa ne keniw nankitatekiwtiah.
+# text[orig] = A:man, kwali tite:chtapowi:s namehwa:n ompa ne: ke:ní:w nankitatekiwtiah.
+# text[spa] = Ahora me puedes platicar allá ustedes cómo las usan.
+# labels = a84 sentence
+^Aman/Aman$
+^,/,$
+^kwali/kwali$
+^titechtapowis/titechtapowis$
+^namehwan/namehwan$
+^ompa/ompa$
+^ne/ne$
+^keniw/keniw$
+^nankitatekiwtiah/nankitatekiwtiah$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a100
+# text = Kemah, pos nikan neh noxolal nikita, nen, tokniwan pane kikwah yehwa yon, este, tein amo kitokah pos kikowah wan tein kitokah kaltsintan pos yehwa yon Mochiwa, ki..., oksi wan kinaltekih wan ki..., ompaka ne tehwan nochi tikwah nochi chiltamoltal, pero amo keman nikita ox kichiwah, nen, chilposon, ta sayoh ki..., kitekih wan kikomaltemah wan neli yon tikihtowa pihpitsini achi n' komalko.
+# text[orig] = Ke:mah, pos nika:n neh noxola:l nikita, ne:n, tokni:wa:n pané: kikwah yehwa yo:n, *este**, tein a:mo kito:kah pos kikowah wa:n tein kito:kah kaltsi:ntan pos yehwa yo:n Mochi:wa, ki..., oksi wa:n kina:ltekih wa:n ki..., ompaka ne: tehwa:n nochi tikwah nochi chi:ltamo:ltal, pero a:mo ke:man nikita ox kichi:wah, ne:n, chi:lposo:n, ta: sayoh ki..., kitekih wa:n kikoma:lte:mah wa:n neli yo:n tikihtowa pihpitsi:ni achi n' koma:lko.
+# text[spa] = Sí, pues aquí en mi pueblo yo veo que las personas parece que lo consumen ese, este, las personas que no lo siembran pues lo compran, y los que siembran junto a la casa pues ellas Se da, lo..., cuando maduran los frutos los cortan y lo..., por allá nosotros todas las personas lo comen en salsa, pero nunca veo si hacen este, chilpozonte, nada más los cortan y los asan en el comal y es cierto como me platicas que se rompen fácilmente en el comal.
+# text[a100] = Ke:mah, pos nika:n neh noxola:l nikita, ne:n, tokni:wa:n pané: kikwah yehwa yo:n,
+# text[a102] = *este**, tein a:mo kito:kah pos kikowah wa:n tein kito:kah kaltsi:ntan pos yehwa yo:n
+# text[a103] = Mochi:wa, ki..., oksi wa:n kina:ltekih wa:n
+# text[a104] = ki..., ompaka ne: tehwa:n nochi tikwah nochi chi:ltamo:ltal, pero a:mo ke:man nikita ox kichi:wah, ne:n,
+# text[a105] = chi:lposo:n, ta: sayoh ki..., kitekih wa:n kikoma:lte:mah
+# text[a106] = wa:n neli yo:n tikihtowa pihpitsi:ni achi n' koma:lko.
+# labels = a100 a102 a103 a104 a105 a106 sentence
+^Kemah/Kemah$
+^,/,$
+^pos/pos$
+^nikan/nikan$
+^neh/neh$
+^noxolal/noxolal$
+^nikita/nikita$
+^,/,$
+^nen/nen$
+^,/,$
+^tokniwan/tokniwan$
+^pane/pane$
+^kikwah/kikwah$
+^yehwa/yehwa$
+^yon/yo>n$
+^,/,$
+^este/este$
+^,/,$
+^tein/tein$
+^amo/amo$
+^kitokah/kitokah$
+^pos/pos$
+^kikowah/kikowah$
+^wan/wan$
+^tein/tein$
+^kitokah/kitokah$
+^kaltsintan/kaltsintan$
+^pos/pos$
+^yehwa/yehwa$
+^yon/yo>n$
+^Mochiwa/Mochiwa$
+^,/,$
+^ki.../ki...$
+^,/,$
+^oksi/oksi$
+^wan/wan$
+^kinaltekih/kinaltekih$
+^wan/wan$
+^ki.../ki...$
+^,/,$
+^ompaka/ompaka$
+^ne/ne$
+^tehwan/tehwan$
+^nochi/nochi$
+^tikwah/tikwah$
+^nochi/nochi$
+^chiltamoltal/chiltamoltal$
+^,/,$
+^pero/pero$
+^amo/amo$
+^keman/keman$
+^nikita/nikita$
+^ox/ox$
+^kichiwah/kichiwah$
+^,/,$
+^nen/nen$
+^,/,$
+^chilposon/chilposon$
+^,/,$
+^ta/ta$
+^sayoh/sayoh$
+^ki.../ki...$
+^,/,$
+^kitekih/kitekih$
+^wan/wan$
+^kikomaltemah/kikomaltemah$
+^wan/wan$
+^neli/neli$
+^yon/yo>n$
+^tikihtowa/tikihtowa$
+^pihpitsini/pihpitsini$
+^achi/achi$
+^n'/n'$
+^komalko/komalko$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a107
+# text = Pero iwki, iwki kikwih wan ki..., pos kwaltsin ne, kixkah wan ompa no yowi a nen chil, tein kinekiskeh, seki kikwih yon chiltekpinxoxowik oso oksik, wan seki kikwih yon chilxoxowik.
+# text[orig] = Pero iwki, iwki kikwih wa:n ki..., pos kwaltsi:n ne:, kixkah wa:n ompa no: yowi a ne:n chi:l, tein kinekiskeh, seki kikwih yo:n chi:ltekpinxoxowik oso oksik, wa:n seki kikwih yo:n chi:lxoxowik.
+# text[spa] = Pero así, así los consumen y lo...., los asan bien en el comal y enseguida le agregan chile, lo que quieran, otras personas usan el chiltepín verde o maduro, y otras personas usan el chile verde.
+# text[a107] = Pero iwki, iwki kikwih wa:n
+# text[a108] = ki..., pos kwaltsi:n ne:, kixkah
+# text[a109] = wa:n ompa no: yowi a ne:n chi:l,
+# text[a111] = tein kinekiskeh, seki kikwih yo:n chi:ltekpinxoxowik oso oksik,
+# text[a112] = wa:n seki kikwih yo:n chi:lxoxowik.
+# labels = a107 a108 a109 a111 a112 sentence
+^Pero/Pero$
+^iwki/iwki$
+^,/,$
+^iwki/iwki$
+^kikwih/kikwih$
+^wan/wan$
+^ki.../ki...$
+^,/,$
+^pos/pos$
+^kwaltsin/kwaltsin$
+^ne/ne$
+^,/,$
+^kixkah/kixkah$
+^wan/wan$
+^ompa/ompa$
+^no/no$
+^yowi/yowi$
+^a/a$
+^nen/nen$
+^chil/chil$
+^,/,$
+^tein/tein$
+^kinekiskeh/kinekiskeh$
+^,/,$
+^seki/seki$
+^kikwih/kikwih$
+^yon/yo>n$
+^chiltekpinxoxowik/chiltekpinxoxowik$
+^oso/oso$
+^oksik/oksik$
+^,/,$
+^wan/wan$
+^seki/seki$
+^kikwih/kikwih$
+^yon/yo>n$
+^chilxoxowik/chilxoxowik$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a114
+# text = Kemah komohkon, te..., tein takowal wan pos kanah ika newin kitokah ok.
+# text[orig] = Ke:mah komohkó:n, te..., tein takowal wa:n pos kanah ika ne:wí:n kito:kah ok.
+# text[spa] = Sí es que lo..., el que compran y en algunas partes lo siembran todavía.
+# labels = a114 sentence
+^Kemah/Kemah$
+^komohkon/komohkon$
+^,/,$
+^te.../te...$
+^,/,$
+^tein/tein$
+^takowal/takowal$
+^wan/wan$
+^pos/pos$
+^kanah/kanah$
+^ika/ika$
+^newin/newin$
+^kitokah/kitokah$
+^ok/ok$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a115
+# text = Kemah, kanah ika kitokah ok wan pos chiltekpin kanah ika no kipiah n' kaltsintan.
+# text[orig] = Ke:mah, kanah ika kito:kah ok wa:n pos chi:ltekpin kanah ika no: kipiah n' kaltsi:ntan.
+# text[spa] = Sí, algunas partes lo siembran todavía y pues el chiltepín el algunos lugares también tienen sembrado junto a la casa.
+# text[a115] = Ke:mah, kanah ika kito:kah ok wa:n
+# text[a116] = pos chi:ltekpin kanah ika no: kipiah n' kaltsi:ntan.
+# labels = a115 a116 sentence
+^Kemah/Kemah$
+^,/,$
+^kanah/kanah$
+^ika/ika$
+^kitokah/kitokah$
+^ok/ok$
+^wan/wan$
+^pos/pos$
+^chiltekpin/chiltekpin$
+^kanah/kanah$
+^ika/ika$
+^no/no$
+^kipiah/kipiah$
+^n'/n'$
+^kaltsintan/kaltsintan$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a118
+# text = Kemah, ki..., kitokah ompa ne ika se taktson wan ompa ne pos, este, ki..., kitekih n' chiltekxoxowik oso oksik wan yehwa yon kixkah wan.... Kemah, kisemoltah, wan sepa kisemoltah kipoyeliah kahawiah wan yetok a n' tapalol.
+# text[orig] = Ke:mah, ki..., kito:kah ompa ne: ika se: taktso:n wa:n ompa ne: pos, *este**, ki..., kitekih n' chi:ltekxoxowik oso oksik wa:n yehwa yo:n kixkah wa:n .... Ke:mah, kisemo:ltah, wa:n sepa kisemo:ltah kipoye:liah kaha:wiah wa:n yetok a n' tapalo:l.
+# text[spa] = Sí, lo..., lo siembran por lo menos una mata y ahí pues este, lo..., cortan el chiltepín verde o maduro y  eso es lo asan y Sí, los machacan junto, y de una vez machacados le agregan sal, le echan un poco de agua y ya está listo la comida.
+# text[a118] = Ke:mah, ki..., kito:kah ompa ne: ika se: taktso:n wa:n ompa ne: pos, *este**, ki...,
+# text[a120] = kitekih n' chi:ltekxoxowik oso oksik wa:n yehwa yo:n kixkah wa:n ....
+# text[a122] = Ke:mah, kisemo:ltah, wa:n sepa kisemo:ltah kipoye:liah kaha:wiah wa:n yetok a n' tapalo:l.
+# labels = a118 a120 a122 sentence
+^Kemah/Kemah$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kitokah/kitokah$
+^ompa/ompa$
+^ne/ne$
+^ika/ika$
+^se/se$
+^taktson/taktson$
+^wan/wan$
+^ompa/ompa$
+^ne/ne$
+^pos/pos$
+^,/,$
+^este/este$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kitekih/kitekih$
+^n'/n'$
+^chiltekxoxowik/chiltekxoxowik$
+^oso/oso$
+^oksik/oksik$
+^wan/wan$
+^yehwa/yehwa$
+^yon/yo>n$
+^kixkah/kixkah$
+^wan/wan$
+^.../...$
+^./.$
+^Kemah/Kemah$
+^,/,$
+^kisemoltah/kisemoltah$
+^,/,$
+^wan/wan$
+^sepa/sepa$
+^kisemoltah/kisemoltah$
+^kipoyeliah/kipoyeliah$
+^kahawiah/kahawiah$
+^wan/wan$
+^yetok/yetok$
+^a/a$
+^n'/n'$
+^tapalol/tapalol$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a123
+# text = Kemah, wan pues, este, nochi yon, aman pos nochi monamaka.
+# text[orig] = Ke:mah, wa:n *pues, este**, nochi yo:n, a:man pos nochi monamaka.
+# text[spa] = Sí, y pues este, todo eso, pues actualmente todo se vende.
+# text[a123] = Ke:mah, wa:n *pues, este**,
+# text[a124] = nochi yo:n, a:man pos nochi monamaka.
+# labels = a123 a124 sentence
+^Kemah/Kemah$
+^,/,$
+^wan/wan$
+^pues/pues$
+^,/,$
+^este/este$
+^,/,$
+^nochi/nochi$
+^yon/yo>n$
+^,/,$
+^aman/aman$
+^pos/pos$
+^nochi/nochi$
+^monamaka/monamaka$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a126
+# text = Kemah, aman nochi monamaka, yehwa ne yon tomat pisiltik pos, este, tikitah in kwesalan seki tokniwan kwalkwih.
+# text[orig] = Ke:mah, a:man nochi monamaka, yehwa ne: yo:n tomat pisi:ltik pos, *este**, tikitah i:n kwesala:n seki tokni:wa:n kwa:lkwih.
+# text[spa] = Sí, actualmente todo se vende, ese es el jitomate pequeño pues, este, vemos que en Cuetzalan vienen a vender algunas personas.á á é é í í ó ó
+# text[a126] = Ke:mah, a:man nochi monamaka, yehwa ne: yo:n
+# text[a127] = tomat pisi:ltik pos, *este**, tikitah i:n kwesala:n seki tokni:wa:n kwa:lkwih.
+# labels = a126 a127 sentence
+^Kemah/Kemah$
+^,/,$
+^aman/aman$
+^nochi/nochi$
+^monamaka/monamaka$
+^,/,$
+^yehwa/yehwa$
+^ne/ne$
+^yon/yo>n$
+^tomat/tomat$
+^pisiltik/pisiltik$
+^pos/pos$
+^,/,$
+^este/este$
+^,/,$
+^tikitah/tikitah$
+^in/in$
+^kwesalan/kwesalan$
+^seki/seki$
+^tokniwan/tokniwan$
+^kwalkwih/kwalkwih$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a129
+# text = Kiwalkwih.
+# text[orig] = Kiwa:lkwih.
+# text[spa] = Lo traen.
+# labels = a129 sentence
+^Kiwalkwih/Kiwalkwih$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a133
+# text = Kanah, ompa ya se mopalewihtiw.
+# text[orig] = Kanah, ompa ya se: mopale:wihtiw.
+# text[spa] = No, ya se va uno ayudando ahí.
+# labels = a133 sentence
+^Kanah/Kanah$
+^,/,$
+^ompa/ompa$
+^ya/ya$
+^se/se$
+^mopalewihtiw/mopalewihtiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a134
+# text = Kemah wan pos nikan Kwesalan tikitah, este, ki..., ki..., kinamakah amo ika kilo, ta ata ika tamachiw.
+# text[orig] = Ke:mah wa:n pos nika:n Kwesala:n tikitah, *este**, ki..., ki..., kinamakah a:mo ika *kilo**, ta: ata ika tamachi:w.
+# text[spa] = Sí y pues aquí en Cuetzalan vemos este, lo..., no lo...,  venden por kilo, lo venden con medida.
+# text[a134] = Ke:mah wa:n pos nika:n Kwesala:n tikitah, *este**, ki...,
+# text[a136] = ki..., kinamakah a:mo ika *kilo**, ta: ata ika tamachi:w.
+# labels = a134 a136 sentence
+^Kemah/Kemah$
+^wan/wan$
+^pos/pos$
+^nikan/nikan$
+^Kwesalan/Kwesalan$
+^tikitah/tikitah$
+^,/,$
+^este/este$
+^,/,$
+^ki.../ki...$
+^,/,$
+^ki.../ki...$
+^,/,$
+^kinamakah/kinamakah$
+^amo/amo$
+^ika/ika$
+^kilo/kilo$
+^,/,$
+^ta/ta$
+^ata/ata$
+^ika/ika$
+^tamachiw/tamachiw$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a138
+# text = Ika tamachiw, se xikal.
+# text[orig] = Ika tamachi:w, se: xi:kal.
+# text[spa] = Con medida, usan una jícara.
+# labels = a138 sentence
+^Ika/Ika$
+^tamachiw/tamachiw$
+^,/,$
+^se/se$
+^xikal/xikal$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a139
+# text = Aja, yehwa yon ki..., kipexontiah wan kinamakah ata amo, amo tamayektil ta iwki yon kemeh taki.
+# text[orig] = Ajá, yehwa yo:n ki..., kipexo:ntiah wa:n kinamakah ata a:mo, a:mo tama:ye:ktil ta: iwki yo:n ke:meh ta:ki.
+# text[spa] = Ajá, eso es lo que..., lo llenan y Lo venden no, lo limpian sino que así como produce.
+# text[a139] = Ajá, yehwa yo:n ki..., kipexo:ntiah wa:n
+# text[a141] = kinamakah ata a:mo, a:mo tama:ye:ktil ta: iwki yo:n ke:meh ta:ki.
+# labels = a139 a141 sentence
+^Aja/Aja$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^ki.../ki...$
+^,/,$
+^kipexontiah/kipexontiah$
+^wan/wan$
+^kinamakah/kinamakah$
+^ata/ata$
+^amo/amo$
+^,/,$
+^amo/amo$
+^tamayektil/tamayektil$
+^ta/ta$
+^iwki/iwki$
+^yon/yo>n$
+^kemeh/kemeh$
+^taki/taki$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a142
+# text = Iwan ikowyo kemeh taki.
+# text[orig] = Iwa:n ikowyo ke:meh ta:ki.
+# text[spa] = Junto con los pedúnculos como produce la mata.
+# labels = a142 sentence
+^Iwan/Iwan$
+^ikowyo/ikowyo$
+^kemeh/kemeh$
+^taki/taki$
+^./.$
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a143
+# text = Bueno pos neh notokay Eleuterio Gorostiza, niwalewa nikan San Miguel.
+# text[orig] = *Bueno** pos neh noto:ka:y Eleuterio Gorostiza, niwa:le:wa nika:n San Miguel.
+# text[spa] = Bueno pues yo me llamo Eleuterio Gorostiza, vengo de San Miguel.
+# labels = a143 sentence
+^Bueno/Bueno$
+^pos/pos$
+^neh/neh$
+^notokay/notokay$
+^Eleuterio/Eleuterio$
+^Gorostiza/Gorostiza$
+^,/,$
+^niwalewa/niwalewa$
+^nikan/nikan$
+^San/San$
+^Miguel/Miguel$
+^./.$

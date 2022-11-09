@@ -302,10 +302,8 @@
 	"," cm @punct
 "<ihihkak>"
 	"*ihihkak"
-"<weh>"
-	"huej" mod
-"<...>"
-	"..." sent @punct
+"<weh...>"
+	"huej" x @reparandum
 "<,>"
 	"," cm @punct
 "<wewehka>"
@@ -455,30 +453,27 @@
 # text[spa] = Son alargadas y son un poco angostas y un poco puntiagudas en la parte de arriba de la hoja.
 # labels = a108 sentence
 "<Maweweyak>"
-	"mahuejhueyak" adj redup
-	"mahuejhueyak" adj redup s_sg3
+	"mahuejhueyak" adj redup s_sg3 @root #1->0
 "<achi>"
-	"achi" adv
+	"achi" adv @advmod #2->3
 "<pihpitsawak>"
-	"pijpitsahuak" adj redup
-	"pijpitsahuak" adj redup s_sg3
+	"pijpitsahuak" adj redup s_sg3 @conj #3->1
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #4->5
 "<kipia>"
-	"piya" v tv pres s_sg3 o_sg3
+	"piya" v tv pres s_sg3 o_sg3 @conj #5->1
 "<n'>"
-	"in" det @det
+	"in" det @det #6->7
 "<ipuntas>"
-	"*ipuntas"
+	"punta" n f sg px3sg @obj #7->5
 "<tepitsin>"
-	"tepitsin" adv
+	"tepitsin" adv @advmod #8->5
 "<nen>"
-	"nen" ij @discourse
-	"nen" prn
+	"nen" prn @dep #9->10
 "<ikwapan>"
-	"kuapan" n rel px3sg
+	"kuapan" n rel px3sg @obl #10->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->1
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a110
 # text = Entos yehwa yon kiliah chapolistit.
@@ -486,22 +481,18 @@
 # text[spa] = Entonces es ese al que le llaman chapolistit.
 # labels = a110 sentence
 "<Entos>"
-	"entos" adv
+	"entos" adv @advmod #1->2
 "<yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @root #2->0
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @cop #3->5
+		"in" det @mark #4->5
 "<kiliah>"
-	"ilia" v tv pres s_pl3 o_sg3
-	"ilia" v tv pret s_sg3 o_sg3
+	"ilia" v tv pres s_pl3 i_sg3 o_sg3 @csubj #5->2
 "<chapolistit>"
-	"chapolistit" n abs
-;	"chapolistit" n abs s_pl3
-;	"chapolistit" n abs s_sg3
+	"chapolistit" n abs @obj #6->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->2
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a112
 # text = Wan yon no, no kwaltia para ihkon teihsa ihkon pahtsin oso teihsa ihkon, para nikihtos se kikwati a, amo welik.
@@ -576,14 +567,14 @@
 # text[spa] = Ese no es comestible.
 # labels = a114 sentence
 "<Yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @root #1->0
+		"in" det @mark #2->4
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #3->4
 "<welik>"
-	"huelik" adj s_sg3
+	"huelik" adj s_sg3 @csubj #4->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->1
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a117
 # text = Pos yehwa yon, kemasa yon, tehwan tikiliah a..., axix..., axixkokolis, axixtsakwil yon.
@@ -612,21 +603,14 @@
 	"," cm @punct
 "<tehwan>"
 	"tehuan" prn pers pl1 abs
-	"tehuan" prn pers pl1 short
-	"huan" n rel px3aa
 "<tikiliah>"
 	"ilia" v tv pres s_pl1 o_sg3
-	"ilia" v tv pret s_sg2 o_sg3
-"<a>"
-	"a" ij @discourse
-"<...>"
-	"..." sent @punct
+"<a...>"
+	"a" x @reparandum
 "<,>"
 	"," cm @punct
-"<axix>"
-	"*axix"
-"<...>"
-	"..." sent @punct
+"<axix...>"
+	"axix" x @reparandum
 "<,>"
 	"," cm @punct
 "<axixkokolis>"
@@ -1158,28 +1142,27 @@
 # text[a161] = Wa:n ke:mah nikinilia mah kikwitih ya se: tapalkatsí:n, se: *jarrito** ihkó:n ko:ntsí:n.
 # labels = a160 a161 sentence
 "<Ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @root
 "<martillo>"
-	"martillo" n m sg
+	"martillo" n m sg @nmod
 "<oso>"
 	"oso" cnjcoo @cc
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @conj
 "<tet>"
-	"tet" n abs
+	"tet" n abs @nmod
 "<oso>"
 	"oso" cnjcoo @cc
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @conj
 "<kowit>"
-	"kohuit" n abs
+	"kohuit" n abs @nmod
 "<.>"
 	"." sent @punct
 "<Pero>"
 	"pero" cnjcoo @cc
 "<tsikitsitsin>"
-	"tsiki" adj hon pl
-	"tsiki" adj hon pl s_sg3
+	"tsiki" adj hon pl s_sg3 @root
 "<.>"
 	"." sent @punct
 "<Nikxahxamania>"
@@ -3606,31 +3589,24 @@
 "<wan>"
 	"huan" cnjcoo @cc
 "<seki>"
-	"seki" det
-	"seki" prn
+	"seki" det @det
 "<xiwit>"
 	"xihuit" n abs
-;	"xihuit" n abs s_pl3
-;	"xihuit" n abs s_sg3
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<,>"
 	"," cm @punct
 "<ata>"
-	"ata" adv
+	"ata" adv @advmod
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
 "<mochiwa>"
 	"chihua" v tv pres s_sg3 o_ref
 "<kasa>"
-	"kasa" adv
-"<ohti>"
-	"ojti" n abs
-;	"ojti" n abs s_pl3
-;	"ojti" n abs s_sg3
+	"kasa" adv @advmod
+"<ohti>" 
+	"ojti" n abs @obl
 "<.>"
 	"." sent @punct
 
@@ -3642,33 +3618,33 @@
 # text[a190] = mosowa ihkó:n.
 # labels = a189 a190 sentence
 "<Mapapatawak>"
-	"mapajpatahuak" adj redup s_sg3 @root
+	"mapajpatahuak" adj redup s_sg3 @root #1->0
 "<tepitsin>"
-	"tepitsin" adv @advmod
+	"tepitsin" adv @advmod #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->
 "<ihkwikwin>"
-	"ijkuikuin" adv @advmod
+	"ijkuikuin" adv @advmod #4->
 "<mahya>"
 	"majya" adv 
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->
 "<mahya>"
 	"majya" adv
 "<mamohmoloxtik>"
-	"*mamohmoloxtik"
+	"mamojmoloxtik" adj redup s_sg3
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #9->
 "<maweweyak>"
-	"mahuejhueyak" adj redup s_sg3 @conj
+	"mahuejhueyak" adj redup s_sg3 @conj #10->
 "<,>"
-	"," cm @punct
+	"," cm @punct #11->
 "<mosowa>"
-	"sohua" v tv pres s_sg3 o_ref @parataxis
+	"sohua" v tv pres s_sg3 o_ref @parataxis #12->
 "<ihkon>"
-	"ijkon" adv @advmod
+	"ijkon" adv @advmod #13->
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a191
 # text = Wan iyolan mochiwa se xochitsin ihkwin wehkapantik.
@@ -4005,20 +3981,20 @@
 # text[spa] = No, pues ese se machacan.
 # labels = a225 sentence
 "<Amo>"
-	"amo" adv
+	"amo" ij @discourse #1->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<ta>"
-	"ta" adv
+	"ta" adv @advmod #3->4
 "<yon>"
-	"yehua" prn pers sg3 short
-		"in" det
+	"yehua" prn pers sg3 short @root #4->0
+		"in" det @mark #5->7
 "<se>"
-	"se" num
+	"se" num @nsubj #6->7
 "<kixamania>"
-	"xamania" v tv pres s_sg3 o_sg3
+	"xamania" v tv pres s_sg3 o_sg3 @csubj #7->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->4
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a227:1
 # text = Moloni pero amo kiste..., amo kisa n' at. 
@@ -4405,9 +4381,7 @@
 "<sah>"
 	"saj" adv
 "<compadrito>"
-	"compadrito" n m sg
-;	"compadrito" n m sg s_pl3
-;	"compadrito" n m sg s_sg3
+	"compadrito" n m sg @vocative
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -4420,11 +4394,9 @@
 "<ox>"
 	"ox" cnjsub @mark
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod
 "<tikixmattok>"
-	"ixmati" v tv prog pres s_sg2 o_sg3
+	"ixmati" v tv prog pres s_sg2 o_sg3 @parataxis
 "<.>"
 	"." sent @punct
 

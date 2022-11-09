@@ -14,7 +14,7 @@
 ^tikneki/tikneki$
 ^tikmatis/tikmatis$
 ^?/?$
-^Yon/Yon$
+^Yon/Yo>n$
 ^chapolistit/chapolistit$
 ^,/,$
 ^nijon/nijon$
@@ -42,7 +42,7 @@
 # text[a91] = we:wehka mota:lia,
 # text[a92] = ihkó:n yetok. *Por eso** kiliah yo:n chapolistit.
 # labels = a87 a88 a89 a91 a92 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^achi/achi$
 ^nonohnel/nonohnel$
 ^wan/wan$
@@ -174,7 +174,7 @@
 # text[a100] = Yo:n chapolistit kiliah we:wehka *porque** ....
 # text[a101] = Wa:n no: we:wehka n' ixo:chio:tsin ihkó:n *porque** we:wehka kipia *por eso** kiliah chapolistit.
 # labels = a100 a101 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^chapolistit/chapolistit$
 ^kiliah/kiliah$
 ^wewehka/wewehka$
@@ -293,7 +293,7 @@
 # text[orig] = Yo:n a:mo we:lik.
 # text[spa] = Ese no es comestible.
 # labels = a114 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^welik/welik$
 ^./.$
@@ -704,7 +704,7 @@
 ^,/,$
 ^tenamiki/tenamiki$
 ^./.$
-^Yon/Yon$
+^Yon/Yo>n$
 ^kwali/kwali$
 ^semi/semi$
 ^./.$
@@ -943,7 +943,7 @@
 # text[orig] = Yo:n semi miak a:mo kimatih, wa:n miak kimatih.
 # text[spa] = Eso, muchas personas no lo sabes y muchas sí saben.
 # labels = a204 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^semi/semi$
 ^miak/miak$
 ^amo/amo$
@@ -1545,7 +1545,7 @@
 # text[a115] = Yo:n a:mo pero,
 # text[a116] = kihtowah para *remedio** no: kwaltia, para kiliah yo:n, *bueno** pos n' koyo:tahto:l kiliah *mal de orín**.
 # labels = a115 a116 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^pero/pero$
 ^,/,$
@@ -1656,7 +1656,7 @@
 # text[orig] = Yo:n kokolis.
 # text[spa] = Esa enfermedad.
 # labels = a134 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^kokolis/kokolis$
 ^./.$
 
@@ -1766,7 +1766,7 @@
 # text[orig] = Yo:n *morado** ata, mochi:wa ne:wí:n *por** Pata Caballo, ne:ka tani ka:mpa mochi:wa semi.
 # text[spa] = Ese, el morado, ese crece por allá, por Pata Caballo, por allá abajo es donde crece bastante.
 # labels = a153 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^morado/morado$
 ^ata/ata$
 ^,/,$
@@ -1853,7 +1853,7 @@
 # text[orig] = Yo:n sese:k mahyá: yo:n, yo:n xiwit wa:n xoko:k, ika yo:n te:..., te:na:miki.
 # text[spa] = Esa hierba es fria y ácida, por eso nos cura.
 # labels = a176 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^sesek/sesek$
 ^mahya/mahya$
 ^yon/yo>n$
@@ -2315,7 +2315,7 @@
 # text[orig] = Yo:n tein yo:ltokeh.
 # text[spa] = Los que están vivos.
 # labels = a246 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^tein/tein$
 ^yoltokeh/yoltokeh$
 ^./.$
@@ -2351,7 +2351,7 @@
 # text[orig] = Yo:n a:mo, yo:n sayoh para, para pahtsí:n sah.
 # text[spa] = Eso no, esa solamente para, para medicina solamente.
 # labels = a254 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^,/,$
 ^yon/yo>n$

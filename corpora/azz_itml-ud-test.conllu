@@ -10098,6 +10098,49 @@
 1	Wewehka	huehuejka	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a108
+# text = Maweweyak achi pihpitsawak wan kipia n' ipuntas tepitsin nen ikwapan.
+# text[orig] = Ma:we:weyak achi pihpitsa:wak wa:n kipia n' *ipuntas** tepitsi:n ne:n ikwa:pan.
+# text[spa] = Son alargadas y son un poco angostas y un poco puntiagudas en la parte de arriba de la hoja.
+# labels = a108 sentence
+1	Maweweyak	mahuejhueyak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
+2	achi	achi	ADV	_	_	3	advmod	_	_
+3	pihpitsawak	pijpitsahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	1	conj	_	_
+4	wan	huan	CCONJ	_	_	5	cc	_	_
+5	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	conj	_	_
+6	n'	in	DET	_	_	7	det	_	_
+7	ipuntas	punta	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+8	tepitsin	tepitsin	ADV	_	_	5	advmod	_	_
+9	nen	nen	PRON	_	_	10	dep	_	_
+10	ikwapan	kuapan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a110
+# text = Entos yehwa yon kiliah chapolistit.
+# text[orig] = Entó:s yehwa yo:n kiliah chapolistit.
+# text[spa] = Entonces es ese al que le llaman chapolistit.
+# labels = a110 sentence
+1	Entos	entos	ADV	_	_	2	advmod	_	_
+2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+3-4	yon	_	_	_	_	_	_	_	_
+3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	cop	_	_
+4	n	in	DET	_	_	5	mark	_	_
+5	kiliah	ilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	csubj	_	_
+6	chapolistit	chapolistit	NOUN	_	Case=Abs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a114
+# text = Yon amo welik.
+# text[orig] = Yo:n a:mo we:lik.
+# text[spa] = Ese no es comestible.
+# labels = a114 sentence
+1-2	Yon	_	_	_	_	_	_	_	_
+1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2	n	in	DET	_	_	4	mark	_	_
+3	amo	amo	ADV	_	_	4	advmod	_	_
+4	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	csubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a147
 # text = Despues kwali, kwali se yowi a, amo tekokoh ok.
 # text[orig] = *Después** kwali, kwali se: yowi a, a:mo te:kokoh ok.
@@ -10564,6 +10607,21 @@
 4	se	se	NUM	_	_	5	nsubj	_	_
 5	kimati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a225
+# text = Amo, ta yon se kixamania.
+# text[orig] = A:mo, ta: yo:n se: kixama:nia.
+# text[spa] = No, pues ese se machacan.
+# labels = a225 sentence
+1	Amo	amo	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ta	ta	ADV	_	_	4	advmod	_	_
+4-5	yon	_	_	_	_	_	_	_	_
+4	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+5	n	in	DET	_	_	7	mark	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kixamania	xamania	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	csubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a227:2
 # text = Amo.
@@ -12978,4 +13036,116 @@
 2	Salazar	Salazar	PROPN	_	_	1	flat	_	_
 3	Osollo	Osollo	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a44:1
+# text = Pos neh nikixmati sitaltomat.
+# text[orig] = Pos neh niki:xmati si:taltomat.
+# text[spa] = Pues yo lo conozco como <i>si:taltomat</i>.
+# labels = a44 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+3	nikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+4	sitaltomat	sitaltomat	NOUN	_	Case=Abs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a44:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a44 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a55
+# text = No mochiwa.
+# text[orig] = No: mochi:wa.
+# text[spa] = También se da.
+# labels = a55 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a57
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a57 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a59
+# text = Mowilana, mowilana.
+# text[orig] = Mowila:na, mowila:na.
+# text[spa] = Se extiende, se extiende.
+# labels = a59 sentence
+1	Mowilana	huilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mowilana	huilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a62:1
+# text = Kemah, kohkostik n' ixochiotsin.
+# text[orig] = Ke:mah, kohkostik n' ixo:chiotsi:n.
+# text[spa] = Sí, sus florecitas son de color amarillo.
+# labels = a62 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kohkostik	kojkostik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
+4	n'	in	DET	_	_	5	det	_	_
+5	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a62:2
+# text = Kohkostik.
+# text[orig] = Kohkostik.
+# text[spa] = Son de color amarillo.
+# labels = a62 sentence
+1	Kohkostik	kojkostik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:1
+# text = Wan seki oksitiw a.
+# text[orig] = Wa:n seki oksitiw a.
+# text[spa] = Y algunos frutos ya van madurando.
+# labels = a80 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	seki	seki	PRON	_	_	3	nsubj	_	_
+3	oksitiw	oksi	VERB	_	Movement=And|Number[subj]=Plur|Person[subj]=3|Subcat=Intr	0	root	_	_
+4	a	a	INTJ	_	_	3	discourse	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:2
+# text = Ehe.
+# text[orig] = Ehe.
+# text[spa] = Ehe.
+# labels = a80 sentence
+1	Ehe	eje	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:3
+# text = Ihkon.
+# text[orig] = Ihkó:n.
+# text[spa] = Así es.
+# labels = a80 sentence
+1	Ihkon	ijkon	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a94
+# text = Wan tisekimeh tikchiwah tiktewatsah pero semi mokawa itech n' komaltsin porin xamani.
+# text[orig] = Wa:n tiseki:meh tikchi:wah tiktewa:tsah pero semi moka:wa itech n' koma:ltsí:n porin xama:ni.
+# text[spa] = Y otras personas las asamos en el comal pero se pegan mucho porque se truenan fácilmente los frutos
+# labels = a94 sentence
+1	Wan	huan	CCONJ	_	_	2	cc	_	_
+2	tisekimeh	seki	PRON	_	Number=Plur|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+3	tikchiwah	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	conj	_	_
+4	tiktewatsah	tehuatsa	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	conj	_	_
+5	pero	pero	CCONJ	_	_	7	cc	_	_
+6	semi	semi	ADV	_	_	7	advmod	_	_
+7	mokawa	kahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	4	conj	_	_
+8	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+9	n'	in	DET	_	_	10	det	_	_
+10	komaltsin	komal	NOUN	_	Polite=Form	8	nmod	_	_
+11	porin	porin	SCONJ	_	_	12	mark	_	_
+12	xamani	xamani	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
 
