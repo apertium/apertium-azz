@@ -4851,6 +4851,55 @@
 3	junio	junio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:227
+# text = Kemaj se kiayotia ika tenexat uan se kikauantia maj xokokkisa, se kipaka uan se kichiua ya xokoyolemol iuan nakastekilit.
+# text[spa] = Al terminar, se pone a hervir en agua de cal para que suelte lo agrio, se lava y ya se preparan los frijoles con xokoyolin y con tequelite.
+# labels = sentence
+1	Kemaj	kemaj	INTJ	_	_	3	discourse	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kiayotia	ayotia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+5	tenexat	tenexat	NOUN	_	Case=Abs	4	nmod	_	_
+6	uan	huan	CCONJ	_	_	8	cc	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	kikauantia	kauantia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
+9	maj	ma	AUX	_	_	10	aux	_	_
+10	xokokkisa	*xokokkisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	8	dep	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	kipaka	paka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+14	uan	huan	CCONJ	_	_	16	cc	_	_
+15	se	se	NUM	_	_	16	nsubj	_	_
+16	kichiua	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	13	conj	_	_
+17	ya	ya	ADV	_	_	16	advmod	_	_
+18	xokoyolemol	xokoyolemol	NOUN	_	Case=Abs	16	obj	_	_
+19	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	18	nmod	_	_
+20	nakastekilit	nakastekilit	NOUN	_	Case=Abs	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:228
+# text = In euat se kiatema ika refino uan iuan maltantsin uan majase tayi ijuak xoxoula.
+# text[spa] = Se pone la cáscara junto con maltantsin21 en refino y cuando este se pone verde, entonces hay que tomarlo.
+# text[gloss] = La cáscara se pone con refino y con maltantsin y que uno toma cuando se enverdea.
+# labels = sentence check-tokenisation
+1	In	in	DET	_	_	2	det	_	_
+2	euat	ehuat	NOUN	_	Case=Abs	4	obj	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kiatema	atema	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+6	refino	refino	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+7	uan	huan	CCONJ	_	_	8	cc	_	_
+8	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
+9	maltantsin	maltan	NOUN	_	Polite=Form	8	nmod	_	_
+10	uan	huan	CCONJ	_	_	13	cc	_	_
+11-12	majase	_	_	_	_	_	_	_	_
+11	maja	ma	AUX	_	_	13	aux	_	_
+12	se	se	NUM	_	_	13	nsubj	_	_
+13	tayi	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	conj	_	_
+14	ijuak	ijhuak	SCONJ	_	_	15	mark	_	_
+15	xoxoula	xoxoula	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:229
 # text = In sesek, ta selistok, kan niman uaki por in ayoj.
 # text[spa] = Es frío porque reverdece, no se seca luego porque tiene mucha agua.
@@ -4868,6 +4917,23 @@
 11	in	in	DET	_	_	10	fixed	_	_
 12	ayoj	ayoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	9	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:230
+# text = Mochiua maski ojtenoj, no mochiua milaj oso kajfentaj.
+# text[spa] = Se da hasta en las orillas del camino.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	maski	maski	ADV	_	_	1	advmod	_	_
+3-4	ojtenoj	_	_	_	_	_	_	_	SpaceAfter=No
+3	ojtenoj	ojti	NOUN	_	_	4	nmod	_	_
+4		tenoj	NOUN	_	NounType=Relat	1	obl	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	no	no	ADV	_	_	7	advmod	_	_
+7	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+8	milaj	milaj	NOUN	_	Case=Abs	7	obl	_	_
+9	oso	oso	CCONJ	_	_	10	cc	_	_
+10	kajfentaj	kafentaj	NOUN	_	Case=Abs	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:232
 # text = Sesek kemej xokot.
@@ -4950,6 +5016,21 @@
 # text[spa] = JÍCAMA
 # labels =
 1	KAJTSOT	kajtsot	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:240
+# text = In ixochiyo se kikua komaltamal uan no uelik taaman.
+# text[spa] = Su flor se come en tamal de comal y también es sabrosa en caldo.
+# labels = sentence
+1	In	in	DET	_	_	2	det	_	_
+2	ixochiyo	xochiyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+3	se	se	NUM	_	_	4	nsubj	_	_
+4	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+5	komaltamal	komaltamal	NOUN	_	Case=Abs	4	obl	_	_
+6	uan	huan	CCONJ	_	_	8	cc	_	_
+7	no	no	ADV	_	_	8	advmod	_	_
+8	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	4	conj	_	_
+9	taaman	taaman	NOUN	_	Case=Abs	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:241
 # text = Mochiua mas kampa kajfentaj.
