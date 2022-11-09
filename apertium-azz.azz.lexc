@@ -1788,6 +1788,14 @@ kueliltia:kuelilti                                  V-SO-PRET ;
 kueliltia:kuelilti                                  V-SO-FUTR ;
 
 ! ""
+ejkoltia:ejkolti%{y%}a                              V-SO-PRES ;
+ejkoltia:ejkolti%{y%}a                              V-SO-IMPF ;
+ejkoltia:ejkolti                                    V-SO-PROG ;
+ejkoltia:ejkolti                                    V-SO-PRET ;
+ejkoltia:ejkolti                                    V-SO-FUTR ;
+
+
+! ""
 tsotsoltia:tsotsolti%{y%}a                          V-SO-PRES ;
 tsotsoltia:tsotsolti%{y%}a                          V-SO-IMPF ;
 tsotsoltia:tsotsolti                                V-SO-PROG ;
