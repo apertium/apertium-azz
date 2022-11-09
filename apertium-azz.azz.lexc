@@ -5949,10 +5949,7 @@ hueiat:hueia                                        N-TL ; ! "río"
 tsotsoltik:tsotsoltik                               N-Ø ; ! "arrugada"
 texkaltet:texkalte                                  N-TL ; ! "tezontle"
 tena:tena                                           N-Ø ; ! "gemir"
-tekochtik:tekochtik                                 N-Ø ; ! "ahuecado"
-tatehuats:tatehuats                                 N-Ø ; ! "tostado"
-tatek:tatek                                         N-Ø ; ! "cortado"
-tatak:tatak                                         N-Ø ; ! "quemado"
+
 tamayan:tamayan                                     N-Ø ; ! "planicie"
 tamamal:tamamal                                     N-Ø ; ! "carga"
 takualot:takualo                                    N-TL ; ! "carnada"
@@ -6870,6 +6867,12 @@ ololtik:ololtik                                     ADJ ; ! "esférico"
 ojololtik:o%{j%}ololtik                             ADJ-REDUP ; ! "redondo"
 
 yankuik:yankuik                                     ADJ ; ! "nuevo"
+
+tekochtik:tekochtik                                 ADJ ; ! "ahuecado"
+tatehuats:tatehuats                                 ADJ ; ! "tostado"
+tatek:tatek                                         ADJ ; ! "cortado"
+tatak:tatak                                         ADJ ; ! "quemado"
+
 
 ajuiyak:ajuiyak                                     ADJ ; ! "fragrante"
 yolik:yolik                                         ADJ ; ! "difícil"

@@ -749,9 +749,9 @@
 "<Wan>"
 	"huan" cnjcoo @cc #1->2
 "<tisekimeh>"
-	"seki" prn pl s_pl1 @root #2->0
+	"seki" prn pl s_pl1 @dep #2->3
 "<tikchiwah>"
-	"chihua" v tv pres s_pl1 o_sg3 @conj #3->2
+	"chihua" v tv pres s_pl1 o_sg3 @root #3->0
 "<tiktewatsah>"
 	"tehuatsa" v tv pres s_pl1 o_sg3 @conj #4->2
 "<pero>"
