@@ -5649,6 +5649,23 @@
 28	tempalani	tempalani	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	24	advcl	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:303
+# text = Iujki kitokaytiaj por in kualtsin nanakatsin, yemanik uan majyá pojposoktik.
+# text[spa] = Lo llaman así porque el hongo es muy bonito, es blando y un poco esponjado.
+# labels = sentence
+1	Iujki	iuki	ADV	_	_	2	advmod	_	_
+2	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	por	por	ADP	_	_	5	mark	_	_
+4	in	in	DET	_	_	3	fixed	_	_
+5	kualtsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	2	advcl	_	_
+6	nanakatsin	nanakat	NOUN	_	Polite=Form	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	yemanik	yemanik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	parataxis	_	_
+9	uan	huan	CCONJ	_	_	11	cc	_	_
+10	majyá	majya	ADV	_	_	11	advmod	_	_
+11	pojposoktik	pojposoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:304
 # text = In taol, no ouat, ta ouasín kipiya.
 # text[spa] = El maíz también es caña (ouat), porque tiene su caña (ouasin).
@@ -5744,6 +5761,24 @@
 3	ikamojyo	kamojyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:313
+# text = Itakka kitemaka ajkoijkak, amo kipampiloua in ipajpatayo kemej in okseki pajpata.
+# text[spa] = Sus frutos los da hacia arriba, su racimo no se cuelga como los otros tipos de plátanos.
+# labels = sentence
+1	Itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+2	kitemaka	maka	VERB	_	Animacy[obj]=Anim|Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ajkoijkak	ajkoijkak	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	amo	amo	ADV	_	_	6	advmod	_	_
+6	kipampiloua	pilohua	VERB	_	Incorporated=Pan|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+7	in	in	DET	_	_	8	det	_	_
+8	ipajpatayo	pajpatayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	dep	_	_
+9	kemej	kemej	ADP	_	_	12	case	_	_
+10	in	in	DET	_	_	12	det	_	_
+11	okseki	okse	DET	_	Number=Plur	12	det	_	_
+12	pajpata	pajpata	NOUN	_	Case=Abs	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:315
 # text = Xochiyoua itech marzo, sempoual tonal uaki ya in ixochiyo.
 # text[spa] = Florea en marzo, a los veinte días se se secan sus flores.
@@ -5800,6 +5835,19 @@
 13	kimaneloua	manelohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	8	conj	_	_
 14	ya	ya	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:319
+# text = In iujki kitokaytiaj por in metspijpitsaktik moskaltia.
+# text[spa] = Lo llaman así porque su tallo crece muy delgadito (pitsaktik).
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	iujki	iuki	ADV	_	_	3	advmod	_	_
+3	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	por	por	ADP	_	_	7	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	metspijpitsaktik	metspijpitsaktik	ADJ	_	_	7	advmod	_	_
+7	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:320
 # text = In mochiua kuoujtaj uan kaltenoj.
