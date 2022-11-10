@@ -3474,7 +3474,7 @@
 "<se>"
 	"se" num @nsubj #12->13
 "<kikwa>"
-	"kua" v tv pres s_sg3 o_sg3 @parataxis #13->0
+	"kua" v tv pres s_sg3 o_sg3 @root #13->0
 "<.>"
 	"." sent @punct #14->13
 

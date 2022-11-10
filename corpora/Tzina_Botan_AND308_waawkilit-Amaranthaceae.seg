@@ -236,7 +236,7 @@
 # text[orig] = Yo:n no: we:lik para, ne:n, ika chi:ltamo:ltal no: se: kima:pa:ta.
 # text[spa] = Ese también es bueno preparado con salsa, primero se exprime.
 # labels = a17 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^no/no$
 ^welik/welik$
 ^para/para$
@@ -598,7 +598,7 @@
 # text[orig] = Yo:n kikwah. Okseki pos a:mo nikitak ox kikwah.
 # text[spa] = Esos frutos aprovechan los pájaros. Las semillas de los otros quelites nunca he visto que se los coman.
 # labels = a46 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^kikwah/kikwah$
 ^./.$
 ^Okseki/Okseki$
@@ -616,7 +616,7 @@
 # text[a47] = Yo:n kikwah, yo:n kiliah, ne:n,
 # text[a48] = chiwihkoyo.
 # labels = a47 a48 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^kikwah/kikwah$
 ^,/,$
 ^yon/yo>n$
@@ -761,7 +761,7 @@
 # text[a65] = ihko:kó:n de wehwei:n,
 # text[a66] = ke:meh se: piotsi:n.
 # labels = a64 a65 a66 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^chiwihkoyomehwehwein/chiwihkoyomehwehwein$
 ^,/,$
 ^ihkokon/ihkokon$
@@ -838,7 +838,7 @@
 ^kampa/kampa$
 ^.../...$
 ^./.$
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^,/,$
 ^amo/amo$
@@ -1002,7 +1002,7 @@
 # text[orig] = Yo:n semi kwe:liltia.
 # text[spa] = Así queda muy sabrosa la comida.
 # labels = a88 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^semi/semi$
 ^kweliltia/kweliltia$
 ^./.$
@@ -1073,7 +1073,7 @@
 # text[orig] = Yo:n ke:mah nochi, nochi se: kikwa.
 # text[spa] = Así es, se comen todos así.
 # labels = a96 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^kemah/kemah$
 ^nochi/nochi$
 ^,/,$
@@ -1104,7 +1104,7 @@
 # text[orig] = Yo:n de sehselik, pero de chika:wak a:mo wel se: kikwa *porque** takwa:wak *siempre**.
 # text[spa] = Al estar tiernos son buenos, pero cuando cuando los quelites ya están pasados no se pueden comer con el tallo están son duros.
 # labels = a98 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^de/de$
 ^sehselik/sehselik$
 ^,/,$
@@ -1202,7 +1202,7 @@
 ^welik/welik$
 ^siempre/siempre$
 ^./.$
-^Yon/Yon$
+^Yon/Yo>n$
 ^no/no$
 ^kiektiah/kiektiah$
 ^porque/porque$
@@ -1723,7 +1723,7 @@
 ^ihkon/ihkon$
 ^xini/xini$
 ^wan/wan$
-^tatampa/tatampa$
+^tatampa/ta>tampa$
 ^ya/ya$
 ^de/de$
 ^nen/nen$
@@ -1739,7 +1739,7 @@
 # text[orig] = Yo:n ixwa.
 # text[spa] = Las  semillas germinan.
 # labels = a152 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^ixwa/ixwa$
 ^./.$
 
@@ -1781,7 +1781,7 @@
 ^,/,$
 ^.../...$
 ^./.$
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^nikihtos/nikihtos$
 ^tikihkixtilitih/tikihkixtilitih$

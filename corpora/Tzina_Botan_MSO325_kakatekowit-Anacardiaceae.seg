@@ -15,12 +15,12 @@
 # labels = a26 a27 sentence
 ^Pos/Pos$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^kakatekowit/kakatekowit$
 ^neh/neh$
 ^n'mattok/n'mattok$
 ^que/que$
-^yon/yon$
+^yon/yo>n$
 ^nochi/nochi$
 ^serbirowa/serbirowa$
 ^para/para$
@@ -41,12 +41,12 @@
 ^teihsa/teihsa$
 ^,/,$
 ^komo/komo$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^ika/ika$
 ^,/,$
 ^se/se$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^takwecholoni/takwecholoni$
 ^,/,$
@@ -58,7 +58,7 @@
 ^kowit/kowit$
 ^para/para$
 ^serbirowa/serbirowa$
-^yon/yon$
+^yon/yo>n$
 ^amo/amo$
 ^palani/palani$
 ^niman/niman$
@@ -78,7 +78,7 @@
 ^Wan/Wan$
 ^nochi/nochi$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^kihtowah/kihtowah$
 ^que/que$
 ^,/,$
@@ -129,7 +129,7 @@
 ^amo/amo$
 ^palani/palani$
 ^niman/niman$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^para/para$
 ^nejon/nejon$
@@ -144,12 +144,12 @@
 ^para/para$
 ^yehwa/yehwa$
 ^kemeh/kemeh$
-^yon/yon$
+^yon/yo>n$
 ^komo/komo$
 ^se/se$
 ^takwechowa/takwechowa$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kipia/kipia$
 ^i.../i...$
@@ -284,7 +284,7 @@
 ^,/,$
 ^yektekoloh/yektekoloh$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^yekweloktik/yekweloktik$
 ^./.$
 ^Komo/Komo$
@@ -406,8 +406,8 @@
 ^sah/sah$
 ^,/,$
 ^yehwa/yehwa$
-^yon/yon$
-^tein>" /"<tein>" 
+^yon/yo>n$
+^tein/tein$
 ^tamapisiltik/tamapisiltik$
 ^./.$
 
@@ -418,14 +418,14 @@
 # labels = a57 sentence
 ^Amo/Amo$
 ^nikmati/nikmati$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^neh/neh$
 ^amo/amo$
 ^keman/keman$
 ^nikwa/nikwa$
 ^de/de$
-^yon/yon$
+^yon/yo>n$
 ^itakka/itakka$
 ^,/,$
 ^ox/ox$
@@ -454,7 +454,7 @@
 ^cuando/cuando$
 ^mas/mas$
 ^semi/semi$
-^yon/yon$
+^yon/yo>n$
 ^ox/ox$
 ^posoni/posoni$
 ^a/a$
@@ -561,7 +561,7 @@
 ^,/,$
 ^nen/nen$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^tikihtowa/tikihtowa$
 ^kwaltia/kwaltia$
 ^k..../k....$
@@ -584,7 +584,7 @@
 # text[orig] = Yo:n a:mo kito:kah.
 # text[spa] = Ese árbol no se siembra
 # labels = a45 sentence
-^Yon/Yon$
+^Yon/Yo>n$
 ^amo/amo$
 ^kitokah/kitokah$
 ^./.$
