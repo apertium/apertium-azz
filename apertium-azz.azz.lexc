@@ -6125,7 +6125,6 @@ ixanal:ixanal                                       N-Ø ; ! "bizco"
 ikpal:ikpal                                         N-Ø ; ! "banco"
 ekapitsej:ekapitsej                                 N-Ø ; ! "puntiagudo"
 ekapan:ekapan                                       N-Ø ; ! "punta"
-ejkautik:ejkautik                                   N-Ø ; ! "ligero"
 chiltekaxit:chiltekaxi                              N-TL ; ! "molcajete"
 chiloj:chiloj                                       N-Ø ; ! "enchilado"
 chilmol:chilmol                                     N-Ø ; ! "mole"
@@ -6866,6 +6865,7 @@ selontsin:selontsin                                 ADJ-TSIN ; ! "tiernitos"
 
 poyek:poyek                                         ADJ ; ! "salado"
 
+ejkautik:ejkautik                                   ADJ ; ! "ligero"
 tentok:tentok                                       ADJ ; ! "regado"
 patiyoj:patiyoj                                     ADJ ; ! "caro"
 

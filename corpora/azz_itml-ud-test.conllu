@@ -14039,6 +14039,72 @@
 9	wehwelik	huejhuelik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	4	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a125
+# text = Ne, wan ikowyo neh nikmattok que neli n' tikihtowa ne kwaltsin xota pero ne yamax..., mahya xonotik n' ikowyo.
+# text[orig] = Ne:, wa:n ikowyo neh nikmattok *que** neli n' tikihtowa ne: kwaltsi:n xo:ta pero ne: yamax..., mahyá: xo:no:tik n' ikowyo.
+# text[spa] = Este, y yo sé que el tallo, así como tu dices, arde muy bien pero el tronco es un poco fibroso.
+# text[a125] = Ne:,
+# text[a127] = wa:n ikowyo neh nikmattok *que** neli n' tikihtowa ne: kwaltsi:n xo:ta pero ne: yamax..., mahyá: xo:no:tik n' ikowyo.
+# labels = a125 a127 sentence
+1	Ne	ne	ADV	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	wan	huan	CCONJ	_	_	6	cc	_	_
+4	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	dep	_	_
+5	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	nsubj	_	_
+6	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
+8	neli	neli	ADV	_	_	10	advmod	_	_
+9	n'	n	NOUN	_	_	10	dep	_	_
+10	tikihtowa	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	6	ccomp	_	_
+11	ne	ne	ADV	_	_	13	discourse	_	_
+12	kwaltsin	kuali	ADJ	_	Polite=Form	13	advmod	_	_
+13	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	parataxis	_	_
+14	pero	pero	CCONJ	_	_	16	cc	_	_
+15	ne	ne	ADV	_	_	16	discourse	_	_
+16	yamax	yamax	ADJ	_	Number[subj]=Sing|Person[subj]=3	13	conj	_	SpaceAfter=No
+17	...	...	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	mahya	majya	ADV	_	_	20	advmod	_	_
+20	xonotik	xonotik	ADJ	_	Number[subj]=Sing|Person[subj]=3	6	parataxis	_	_
+21	n'	in	DET	_	_	22	det	_	_
+22	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a131
+# text = Kemah, yehwa, yehwa ini, kemeh in, este, nikihtowa neh mahya xonotik n' ikowyo, tak yehwa ika kwaltsin no xota mahya ehkawtik sah.
+# text[orig] = Ke:mah, yehwa, yehwa i:ni, ke:meh i:n, *este**, nikihtowa neh mahyá: xo:no:tik n' ikowyo, tak yehwa ika kwaltsi:n no: xo:ta mahyá: ehkawtik sah.
+# text[spa] = Sí. así, así, como éste, este, yo digo que el tronco es fibroso, quizá por eso arde muy bien, parece que es ligero.
+# labels = a131 sentence
+1	Kemah	kemaj	INTJ	_	_	13	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	13	discourse	_	_
+6	ini	ini	PRON	_	_	13	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	kemeh	kemej	ADP	_	_	9	case	_	_
+9	in	in	DET	_	_	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	este	este	INTJ	_	_	13	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	nikihtowa	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+14	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	13	nsubj	_	_
+15	mahya	majya	ADV	_	_	16	advmod	_	_
+16	xonotik	xonotik	ADJ	_	Number[subj]=Sing|Person[subj]=3	13	ccomp	_	_
+17	n'	in	DET	_	_	18	det	_	_
+18	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	25	punct	_	_
+20	tak	tak	ADV	_	_	25	advmod	_	_
+21	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	22	nmod	_	_
+22	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	25	obl	_	_
+23	kwaltsin	kuali	ADJ	_	Polite=Form	25	advmod	_	_
+24	no	no	ADV	_	_	25	advmod	_	_
+25	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	13	parataxis	_	_
+26	mahya	majya	ADV	_	_	27	advmod	_	_
+27	ehkawtik	ejkautik	ADJ	_	Number[subj]=Sing|Person[subj]=3	13	parataxis	_	_
+28	sah	saj	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	_
+
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a144
 # text = Ah.
 # text[orig] = A:h.
@@ -14054,6 +14120,17 @@
 # labels = a152 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a158
+# text = Tak porin panian katka.
+# text[orig] = Tak porin paniá:n katka.
+# text[spa] = Quizá porque no había tantos árboles.
+# labels = a158 sentence
+1	Tak	tak	ADV	_	_	3	advmod	_	_
+2	porin	porin	SCONJ	_	_	3	mark	_	_
+3	panian	panian	ADV	_	_	0	root	_	_
+4	katka	katka	AUX	_	Number[subj]=Sing|Person[subj]=3	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a165
 # text = Patiyoh, ta tsitsikitsin.

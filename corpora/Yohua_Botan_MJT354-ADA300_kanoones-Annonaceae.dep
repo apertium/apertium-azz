@@ -2986,7 +2986,7 @@
 "<Wewehkatika>"
 	"*Wewehkatika"
 "<onkak>"
-	"onkak" adv
+	"onka" v iv pret s_sg3
 "<.>"
 	"." sent @punct
 
@@ -3101,23 +3101,19 @@
 # text[a120] = mahyá:, ne:n, mahyá: xa:ltik, pero tein iwa:n mokwitok a n' ie:wayotsi:n mahyá: xa:ltik ata.
 # labels = a117 a118 a120 sentence
 "<Ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse
 "<,>"
 	"," cm @punct
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<n'mati>"
-	"mati" v tv pres s_sg1 o_sg3
+	"mati" v tv pres s_sg1 o_sg3 @root
 "<ox>"
 	"ox" cnjsub @mark
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<iwki>"
 	"iuki" adv
 "<n'>"
@@ -3133,10 +3129,8 @@
 	"ni" x @reparandum
 "<,>"
 	"," cm @punct
-"<nek>"
-	"*nek"
-"<...>"
-	"..." sent @punct
+"<nek...>"
+	"nek" x @reparandum
 "<,>"
 	"," cm @punct
 "<keman>"
@@ -3223,61 +3217,51 @@
 # text[a127] = wa:n ikowyo neh nikmattok *que** neli n' tikihtowa ne: kwaltsi:n xo:ta pero ne: yamax..., mahyá: xo:no:tik n' ikowyo.
 # labels = a125 a127 sentence
 "<Ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse #1->6
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #3->6
 "<ikowyo>"
-	"kouyo" n px3sg
+	"kouyo" n px3sg @dep #4->6
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #5->6
 "<nikmattok>"
-	"mati" v tv prog pres s_sg1 o_sg3
+	"mati" v tv prog pres s_sg1 o_sg3 @root #6->0
 "<que>"
-	"que" cnjsub @mark
+	"que" cnjsub @mark #7->10
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod #8->10
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"n" x @dep #9->10
 "<tikihtowa>"
-	"ijtohua" v tv pres s_sg2 o_sg3
+	"ijtohua" v tv pres s_sg2 o_sg3 @ccomp #10->6
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse #11->13
 "<kwaltsin>"
-	"kuali" adj hon
-	"kuali" adj hon s_sg3
+	"kuali" adj hon @advmod #12->13
 "<xota>"
-	"xota" v iv pres s_sg3
+	"xota" v iv pres s_sg3 @parataxis #13->6
 "<pero>"
-	"pero" cnjcoo @cc
+	"pero" cnjcoo @cc #14->16
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse #15->16
 "<yamax>"
-	"*yamax"
+	"yamax" adj s_sg3 @conj #16->13
 "<...>"
-	"..." sent @punct
+	"..." sent @punct #17->20
 "<,>"
-	"," cm @punct
+	"," cm @punct #18->20
 "<mahya>"
-	"majya" adv
+	"majya" adv @advmod #19->20
 "<xonotik>"
-	"xonotik" adj
-	"xonotik" adj s_sg3
+	"xonotik" adj s_sg3 @parataxis #20->6
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #21->22
 "<ikowyo>"
-	"kouyo" n px3sg
+	"kouyo" n px3sg @nsubj #22->20
 "<.>"
-	"." sent @punct
+	"." sent @punct #23->6
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a131
 # text = Kemah, yehwa, yehwa ini, kemeh in, este, nikihtowa neh mahya xonotik n' ikowyo, tak yehwa ika kwaltsin no xota mahya ehkawtik sah.
@@ -3285,75 +3269,63 @@
 # text[spa] = Sí. así, así, como éste, este, yo digo que el tronco es fibroso, quizá por eso arde muy bien, parece que es ligero.
 # labels = a131 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @reparandum #3->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->3
 "<yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @discourse #5->13
 "<ini>"
-	"ini" det
-	"ini" prn
+	"ini" prn @discourse #6->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->6
 "<kemeh>"
-	"kemej" adv
-	"kemej" pr
+	"kemej" pr @case #8->9
 "<in>"
-	"in" det @det
+	"in" det @obl #9->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->9
 "<este>"
-	"este" ij @discourse
+	"este" ij @discourse #11->13
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->11
 "<nikihtowa>"
-	"ijtohua" v tv pres s_sg1 o_sg3
+	"ijtohua" v tv pres s_sg1 o_sg3 @root #13->0
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj #14->13
 "<mahya>"
-	"majya" adv
+	"majya" adv @advmod #15->16
 "<xonotik>"
-	"xonotik" adj
-	"xonotik" adj s_sg3
+	"xonotik" adj s_sg3 @ccomp #16->13
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #17->18
 "<ikowyo>"
-	"kouyo" n px3sg
+	"kouyo" n px3sg @nsubj #18->16
 "<,>"
-	"," cm @punct
+	"," cm @punct #19->25
 "<tak>"
-	"tak" adv
+	"tak" adv @advmod #20->25
 "<yehwa>"
-	"yehuan" prn pers pl3 abs
-	"yehua" prn pers sg3
+	"yehua" prn pers sg3 @nmod #21->22
 "<ika>"
-	"ka" n rel px3sg
+	"ka" n rel px3sg @obl #22->25
 "<kwaltsin>"
-	"kuali" adj hon
-	"kuali" adj hon s_sg3
+	"kuali" adj hon @advmod #23->25
 "<no>"
-	"no" adv
-	"no" det
-;	"no" x
+	"no" adv @advmod #24->25
 "<xota>"
-	"xota" v iv pres s_sg3
+	"xota" v iv pres s_sg3 @parataxis #25->13
 "<mahya>"
-	"majya" adv
+	"majya" adv @advmod #26->27
 "<ehkawtik>"
-	"ejkautik" n abs
-;	"ejkautik" n abs s_pl3
-;	"ejkautik" n abs s_sg3
+	"ejkautik" adj s_sg3 @parataxis #27->13
 "<sah>"
-	"saj" adv
+	"saj" adv @advmod #28->27
 "<.>"
-	"." sent @punct
+	"." sent @punct #29->13
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a132
 # text = Wan nen ixiwyotsin ox no.... Maahalaxtik.
@@ -3387,19 +3359,14 @@
 # text[a137] = Ma:.., telma:pa:pata:wak *o**
 # text[a140] = Ne:, xa: tikmati mah, mah pahti yehwa i:n ixiwyotsi:n oso iteyotsi:n.
 # labels = a137 a140 sentence
-"<Ma>"
-	"ma" aux
-;	"ma" x
-"<..>"
-	".." sent @punct
+"<Ma..>"
+	"ma" x @reparandum
 "<,>"
 	"," cm @punct
 "<telmapapatawak>"
 	"mapajpatahuak" adj redup tel
 "<o>"
-	"oj" ij @discourse
 	"o" cnjcoo @cc
-;	"oj" x
 "<Ne>"
 	"nehua" prn pers sg1 short
 	"ne" adv
@@ -3453,84 +3420,68 @@
 # text[a150] = wa:n neli tikihto:s n' teh a:mo nochipa ta:kia.
 # labels = a147 a148 a150 sentence
 "<Nen>"
-	"nen" ij @discourse
-	"nen" prn
+	"nen" ij @discourse #1->17
 "<chirimoya>"
-	"chirimoya" n f sg
-;	"chirimoya" n f sg s_pl3
-;	"chirimoya" n f sg s_sg3
+	"chirimoya" n f sg @dislocated #2->17
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse #3->17
 "<wehkaw>"
-	"huejkau" adv
+	"huejkau" adv @advmod #4->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->4
 "<ne>"
-	"nehua" prn pers sg1 short
-	"ne" adv
-	"ne" det
+	"ne" adv @advmod #6->17
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
-"<nop>"
-	"*nop"
-"<...>"
-	"..." sent @punct
+	"kampa" adv rel @reparandum #7->10
+"<nop...>"
+	"nop" x @reparandum #8->11
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->8
 "<kampa>"
-	"kampa" adv rel
-	"kampa" n rel
+	"kampa" adv rel @advmod #10->11
 "<nimoskaltih>"
-	"moskaltia" v iv pret s_sg1
+	"moskaltia" v iv pret s_sg1 @advcl #11->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->
 "<nopan>"
-	"panti" n px1sg @nmod
-	"pan" n rel px1sg
-	"pa" n px1sg @nmod
+	"pa" n px1sg @nmod #13->14
 "<ikaltsintan>"
-	"kali" n cmp px3sg @nmod
-		"tsintan" n rel
+	"kali" n cmp px3sg @nmod #14->15
+		"tsintan" n rel @obl #15->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #16->17
 "<ihkatoya>"
-	"ijka" v iv prog impf s_sg3
+	"ijka" v iv prog impf s_sg3 @root #17->0
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod #18->17
 "<se>"
-	"se" num
+	"se" num @reparandum #19->21
 "<,>"
-	"," cm @punct
+	"," cm @punct #20->19
 "<se>"
-	"se" num
+	"se" num @det #21->22
 "<kowtsin>"
-	"kohuit" n hon
-;	"kohuit" n hon s_pl3
-;	"kohuit" n hon s_sg3
+	"kohuit" n hon @nsubj #22->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #23->26
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #24->26
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod #25->26
 "<tikihtos>"
-	"ijtohua" v tv fut s_sg2 o_sg3
+	"ijtohua" v tv fut s_sg2 o_sg3 @conj #26->17
 "<n'>"
-	"in" det @det
-;	"nik" x
+	"in" det @det #27->28
 "<teh>"
-	"tehua" prn pers sg2 short
+	"tehua" prn pers sg2 short @nsubj #28->26
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod #29->31
 "<nochipa>"
-	"nochipa" adv
+	"nochipa" adv @advmod #30->31
 "<takia>"
-	"taki" v iv impf s_sg3
+	"taki" v iv impf s_sg3 @ccomp #31->26
 "<.>"
-	"." sent @punct
+	"." sent @punct #32->17
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a152
 # text = Kemah.
@@ -3554,11 +3505,11 @@
 "<,>"
 	"," cm @punct
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod
 "<okachi>"
-	"kachi" adv
+	"kachi" adv @advmod
 "<moneneki>"
-	"moneneki" v iv pres s_sg3
+	"moneneki" v iv pres s_sg3 @root
 "<yeh>"
 	"yehua" prn pers sg3 short
 "<wan>"
@@ -3592,14 +3543,12 @@
 	"onka" v iv cni s_sg3
 "<ok>"
 	"ok" adv
-;	"ok" x
 "<,>"
 	"," cm @punct
 "<soh>"
 	"soj" adv
 "<kintentekih>"
 	"tenteki" v tv pres s_pl3 o_pl3
-	"tenteki" v tv pret s_sg3 o_pl3
 "<.>"
 	"." sent @punct
 
@@ -3609,15 +3558,15 @@
 # text[spa] = Quizá porque no había tantos árboles.
 # labels = a158 sentence
 "<Tak>"
-	"tak" adv
+	"tak" adv @advmod #1->3
 "<porin>"
-	"porin" cnjsub @mark
+	"porin" cnjsub @mark #2->3
 "<panian>"
-	"panian" adv
+	"panian" adv @root #3->0
 "<katka>"
-	"katka" cop s_sg3
+	"katka" cop s_sg3 @cop #4->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->3
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a160
 # text = Kemah, neli ta kasa ika neli onkak, ompa ne kampa ika neh, neh ninemi ne, tokniwan tak, neh nimolia kichipawah wan miak n' kitakiltia, ta seki kinamakah.
