@@ -13859,6 +13859,266 @@
 11	Miguel	Miguel	PROPN	_	Gender=Masc	10	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a164
+# text = Kinekih die..., tsitsikitsitsin wan kinekih no diez pesos, cada setsin.
+# text[orig] = Kinekih *die...**, tsi:tsikitsitsi:n wa:n kinekih no: *diez pesos, cada** se:tsi:n.
+# text[spa] = Quieren, los frutos son pequeños y piden diez pesos por un fruto.
+# labels = a164 sentence
+1	Kinekih	neki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	reparandum	_	_
+2	die...	die	X	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tsitsikitsitsin	tsitsikitsitsin	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
+5	wan	huan	CCONJ	_	_	6	cc	_	_
+6	kinekih	neki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	conj	_	_
+7	no	no	ADV	_	_	6	advmod	_	_
+8	diez	diez	NUM	_	_	9	nummod	_	_
+9	pesos	peso	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	cada	cada	DET	_	_	12	det	_	_
+12	setsin	se	NUM	_	Polite=Form	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a168:1
+# text = Patiyoh.
+# text[orig] = Pati:yoh.
+# text[spa] = Es muy caro.
+# labels = a168 sentence
+1	Patiyoh	patiyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a173
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Sí.
+# labels = a173 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a175
+# text = Yeh ika ne nimitstahtania no n' tsapotsin, ta neli no taman welik.
+# text[orig] = Yeh ika ne: nimitstahtania no: n' tsapotsí:n, ta: neli no: taman we:lik.
+# text[spa] = Por eso yo te pregunto sobre este tipo de zapote, es cierto que tiene otro sabor.
+# labels = a175 sentence
+1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	nmod	_	_
+2	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+3	ne	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
+4	nimitstahtania	tajtania	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+5	no	no	ADV	_	_	4	advmod	_	_
+6	n'	in	DET	_	_	7	det	_	_
+7	tsapotsin	tsapot	NOUN	_	Polite=Form	4	dep	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	ta	ta	ADV	_	_	13	advmod	_	_
+10	neli	neli	ADV	_	_	13	advmod	_	_
+11	no	no	ADV	_	_	13	advmod	_	_
+12	taman	taman	NOUN	_	Case=Abs	13	nsubj	_	_
+13	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	4	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a176:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm,
+# labels = a176 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a176:2
+# text = No taman welik.
+# text[orig] = No: taman we:lik.
+# text[spa] = Tiene otro sabor.
+# labels = a176 sentence
+1	No	no	ADV	_	_	3	advmod	_	_
+2	taman	taman	NOUN	_	Case=Abs	3	nsubj	_	_
+3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a179
+# text = Welik, welik, xoxokokkawelik pero kwaltsin tsopek.
+# text[orig] = We:lik, we:lik, xo:xokokka:we:lik pero kwaltsi:n tsope:k.
+# text[spa] = Es muy sabroso, es muy sabroso, sabe un poco a agridulce pero es muy dulce.
+# labels = a179 sentence
+1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	xoxokokkawelik	xoxokokkahuelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	_
+6	pero	pero	CCONJ	_	_	8	cc	_	_
+7	kwaltsin	kuali	ADJ	_	Polite=Form	8	advmod	_	_
+8	tsopek	tsopek	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a95
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a95 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a97
+# text = Neli nikitstok, neli kwaltsin, ne, kwaltsin mopihpilowilih.
+# text[orig] = Neli nikitstok, neli kwaltsi:n, ne:, kwaltsi:n mopihpilowilih.
+# text[spa] = Eso es lo que yo veo, se aprecia muy bien los frutos, se ven bien ahí colgados.
+# labels = a97 sentence
+1	Neli	neli	ADV	_	_	2	advmod	_	_
+2	nikitstok	ita	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	neli	neli	ADV	_	_	5	advmod	_	_
+5	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	2	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	ne	ne	INTJ	_	_	2	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	kwaltsin	kuali	ADJ	_	Polite=Form	10	advmod	_	_
+10	mopihpilowilih	pijpilohuilia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	2	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a100
+# text = Chikawayati neli wan amo n'mati kemanian nen xochiowa porque ekintsin neh nikitstok taktok a.
+# text[orig] = Chika:wayati neli wa:n a:mo n'mati ke:maniá:n ne:n xo:chiowa *porque** ekintsi:n neh nikitstok ta:ktok a.
+# text[spa] = Ya se van a arreciar y yo no sé cuando florean porque ahora yo veo que ya hay frutos.
+# labels = a100 sentence
+1	Chikawayati	chikahuaya	VERB	_	Movement=And|Number[subj]=Sing|Person[subj]=3|Subcat=Intr	0	root	_	_
+2	neli	neli	ADV	_	_	1	advmod	_	_
+3	wan	huan	CCONJ	_	_	5	cc	_	_
+4	amo	amo	ADV	_	_	5	advmod	_	_
+5	n'mati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	1	conj	_	_
+6	kemanian	kemanian	ADV	_	PronType=Int	8	advmod	_	_
+7	nen	nen	INTJ	_	_	8	discourse	_	_
+8	xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
+9	porque	porque	SCONJ	_	_	12	mark	_	_
+10	ekintsin	ekintsin	ADV	_	_	12	advmod	_	_
+11	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	12	nsubj	_	_
+12	nikitstok	ita	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	5	advcl	_	_
+13	taktok	*taktok	X	_	_	12	dep	_	_
+14	a	a	INTJ	_	_	12	discourse	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a104
+# text = Kemah, porque ne, ne, pane chikawaya newin n' es..., nochipa in itech in metsti diciembre wan enero.
+# text[orig] = Ke:mah, *porque** ne:, ne:, pané: chika:waya ne:wí:n n' *es...**, nochipa i:n itech i:n me:tsti diciembre wa:n enero.
+# text[spa] = Si, porque..., parece que se maduran en los meses de diciembre y enero.
+# text[a104] = Ke:mah, *porque** ne:, ne:,
+# text[a105] = pané: chika:waya ne:wí:n n' *es...**, nochipa i:n itech i:n me:tsti diciembre wa:n enero.
+# labels = a104 a105 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	9	punct	_	_
+3	porque	porque	SCONJ	_	_	9	mark	_	_
+4	ne	ne	ADV	_	_	6	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ne	ne	ADV	_	_	9	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	pane	pane	ADV	_	_	9	advmod	_	_
+9	chikawaya	chikahuaya	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	advcl	_	_
+10	newin	nehuin	ADV	_	_	9	advmod	_	_
+11	n'	n	NOUN	_	_	14	reparandum	_	_
+12	es...	es	X	_	_	14	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	nochipa	nochipa	ADV	_	_	9	advmod	_	_
+15	in	in	DET	_	_	16	det	_	_
+16	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+17	in	in	DET	_	_	18	det	_	_
+18	metsti	metsti	NOUN	_	Case=Abs	16	nmod	_	_
+19	diciembre	diciembre	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+20	wan	huan	CCONJ	_	_	21	cc	_	_
+21	enero	enero	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a124
+# text = Kemah, neli kwaltsin, este, kwaltsin wehwelik.
+# text[orig] = Ke:mah, neli kwaltsi:n, *este**, kwaltsi:n wehwe:lik.
+# text[spa] = Sí, es muy bueno, este, saben muy sabrosos.
+# labels = a124 sentence
+1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	neli	neli	ADV	_	_	4	advmod	_	_
+4	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	este	este	INTJ	_	_	9	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	kwaltsin	kuali	ADJ	_	Polite=Form	9	advmod	_	_
+9	wehwelik	huejhuelik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	4	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a144
+# text = Ah.
+# text[orig] = A:h.
+# text[spa] = A:.
+# labels = a144 sentence
+1	Ah	aj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a152
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a152 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a165
+# text = Patiyoh, ta tsitsikitsin.
+# text[orig] = Pati:yoh, ta: tsitsikitsi:n.
+# text[spa] = Es muy caro, pues son pequeños.
+# labels = a165 sentence
+1	Patiyoh	patiyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	ta	ta	ADV	_	_	4	mark	_	_
+4	tsitsikitsin	tsitsikitsin	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	1	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a180
+# text = Kemah, welik kwaltsin.
+# text[orig] = Ke:mah, we:lik kwaltsi:n.
+# text[spa] = Si, es muy sabroso.
+# labels = a180 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	kwaltsin	kuali	ADJ	_	Polite=Form	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a181
+# text = Kemah neli.
+# text[orig] = Ke:mah neli.
+# text[spa] = Sí, es cierto.
+# labels = a181 sentence
+1	Kemah	kemaj	INTJ	_	_	2	discourse	_	_
+2	neli	neli	ADV	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a22
+# text = Este, este, axkan nano nikan ne timonoh..., timonohnotstokeh, nikneki xnechtapowi xa tikixmati se kowit kilwiah ne tahkwilolxochit oso tahkwilolkowit.
+# text[orig] = *Este, este**, a:xka:n na:no nika:n ne: timonoh..., timonohno:tstokeh, nikneki xne:chtapowi xa: tiki:xmati se: kowit kilwiah ne: tahkwilo:lxo:chit oso tahkwilo:lkowit.
+# text[spa] = Este, este, señora, ahora que estamos aquí hablando, quiero que me cuentes sobre un árbol que le llaman, este, tahkwilo:lxo:chit o tahkwilo:lkowit.
+# text[a22] = *Este, este**, a:xka:n na:no nika:n ne: timonoh..., timonohno:tstokeh,
+# text[a23] = nikneki xne:chtapowi xa: tiki:xmati se: kowit kilwiah ne:
+# text[a24] = tahkwilo:lxo:chit oso tahkwilo:lkowit.
+# labels = a22 a23 a24 sentence
+1	Este	este	INTJ	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	este	este	INTJ	_	_	11	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	axkan	axkan	ADV	_	_	11	advmod	_	_
+6	nano	nano	NOUN	_	Case=Abs	11	vocative	_	_
+7	nikan	nikan	ADV	_	_	11	advmod	_	_
+8	ne	ne	ADV	_	_	11	discourse	_	_
+9	timonoh...	timonoj	X	_	_	11	reparandum	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	timonohnotstokeh	monojnotsa	VERB	_	Aspect=Prog|Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	nikneki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	11	parataxis	_	_
+14	xnechtapowi	tapohui	VERB	_	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pres	13	dep	_	_
+15	xa	xa	ADV	_	_	16	mark	_	_
+16	tikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	14	dep	_	_
+17	se	se	NUM	_	_	18	det	_	_
+18	kowit	kohuit	NOUN	_	Case=Abs	16	obj	_	_
+19	kilwiah	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	18	acl:relcl	_	_
+20	ne	ne	INTJ	_	_	19	discourse	_	_
+21	tahkwilolxochit	tajkhuilolxochit	NOUN	_	Case=Abs	19	obj	_	_
+22	oso	oso	CCONJ	_	_	23	cc	_	_
+23	tahkwilolkowit	tajkuilolkohuit	NOUN	_	Case=Abs	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
 # sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a34
 # text = ¿Keniwki n' ixochiotsin?
 # text[orig] = ¿Ke:niwki n' ixo:chiotsi:n?
@@ -13911,6 +14171,30 @@
 3	tahkwilolkowit	tajkuilolkohuit	NOUN	_	Case=Abs	1	conj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a26
+# text = Neh nikixmattok yon kowtsin kwaltsin takwawak wan no kwali xota, monotsa tahkwilolxochit.
+# text[orig] = Neh niki:xmattok yo:n kowtsí:n kwaltsi:n takwa:wak wa:n no: kwali xo:ta, mono:tsa tahkwilo:lxo:chit.
+# text[spa] = Yo conozco ese árbol, es muy macizo y también sirve para leña, se llama tahkwilo:lxo:chit.
+# text[a26] = Neh niki:xmattok yo:n kowtsí:n kwaltsi:n takwa:wak wa:n no: kwali xo:ta,
+# text[a27] = mono:tsa tahkwilo:lxo:chit.
+# labels = a26 a27 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3-4	yon	_	_	_	_	_	_	_	_
+3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	obj	_	_
+4	n	in	DET	_	_	5	mark	_	_
+5	kowtsin	kohuit	NOUN	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	dep	_	_
+6	kwaltsin	kuali	ADJ	_	Polite=Form	7	advmod	_	_
+7	takwawak	takuahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	parataxis	_	_
+8	wan	huan	CCONJ	_	_	11	cc	_	_
+9	no	no	ADV	_	_	11	advmod	_	_
+10	kwali	kuali	ADV	_	_	11	advmod	_	_
+11	xota	xota	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	monotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+14	tahkwilolxochit	tajkhuilolxochit	NOUN	_	Case=Abs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a39
 # text = Ipa se taman sah.
 # text[orig] = I:pa se: taman sah.
@@ -13951,6 +14235,22 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 5	Selia	selia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a51
+# text = Pan..., pane kan pahti sayoh,sayoh kwalneskatsah.
+# text[orig] = Pan..., pané: ka:n pahti sayoh,sayoh kwalne:skatsah.
+# text[spa] = Parece que no es medicinal, solamente es un ornamental.
+# labels = a51 sentence
+1	Pan...	pan	X	_	Incorporated=Pan	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pane	pane	ADV	_	_	5	advmod	_	_
+4	kan	kan	ADV	_	_	5	advmod	_	_
+5	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+6	sayoh	sayoj	ADV	_	_	8	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	sayoh	sayoj	ADV	_	_	9	advmod	_	_
+9	kwalneskatsah	*kualneskatsaj	X	_	_	5	dep	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a57
 # text = Neh, neh nimonotsa Maria de Jesus Tecuaco wan nimo..., niwalewa neka Yohualichan xolal.

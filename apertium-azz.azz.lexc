@@ -2219,6 +2219,7 @@ pantemilia:pantemilia                               V-SO-PROG ;
 pantemilia:pantemili                                V-SO-PRET ;
 pantemilia:pantemili                                V-SO-FUTR ;
 
+
 ! ""
 chihuilia:chihuilia                                 V-SO-PRES ;
 chihuilia:chihuilia                                 V-SO-IMPF ;
@@ -2645,6 +2646,12 @@ xelohua:xelohua                                       V-SO-IMPF ; ! "repartir"
 xelohua:xelo                                          V-SO-PROG ; ! "repartir"
 xelohua:xelo                                          V-SO-PRET ; ! "repartir"
 xelohua:xelo                                          V-SO-FUTR ; ! "repartir"
+
+pijpilohuilia:pi%{j%}pilohuilia                       V-SO-PRES ;
+pijpilohuilia:pi%{j%}pilohuilia                       V-SO-IMPF ;
+pijpilohuilia:pi%{j%}pilohuilia                       V-SO-PROG ;
+pijpilohuilia:pi%{j%}pilohuili                        V-SO-PRET ;
+pijpilohuilia:pi%{j%}pilohuili                        V-SO-FUTR ;
 
 pajpampilohua:pa%{j%}pampilohua                       V-SO-PRES ; ! ""
 pajpampilohua:pa%{j%}pampilohua                       V-SO-IMPF ; ! ""
@@ -5811,12 +5818,10 @@ kokok:kokok                                         N-Ø ; ! "picoso"
 esti:es                                             N-TLI ; ! "sangre"
 kahua:kahua                                         N-Ø ; ! "dejar"
 tokait:tokai                                        N-TL ; ! "nombre"
-tentok:tentok                                       N-Ø ; ! "regado"
 taixkal:taixkal                                     N-Ø ; ! "asado"
 tempalan:tempalan                                   N-Ø ; ! "aftas"
 totomoch:totomoch                                   N-Ø ; ! "totomochtle"
 netatil:netatil                                     N-Ø ; ! "escarlatina"
-patiyoj:patiyoj                                     N-Ø ; ! "caro"
 kohuehuat:kohuehua                                  N-TL ; ! "corteza"
 tapajtijkej:tapajtijkej                             N-Ø ; ! "médico"
 opochejkat:opochejka                                N-TL ; ! "bronquitis"
@@ -6860,6 +6865,9 @@ sejselik:se%{j%}selik                               ADJ-REDUP ; ! "tierno"
 selontsin:selontsin                                 ADJ-TSIN ; ! "tiernitos"
 
 poyek:poyek                                         ADJ ; ! "salado"
+
+tentok:tentok                                       ADJ ; ! "regado"
+patiyoj:patiyoj                                     ADJ ; ! "caro"
 
 matsiki:matsiki                                     ADJ ; ! ""
 mapijpisiltik:mapi%{j%}pisiltik                     ADJ-REDUP ; ! ""

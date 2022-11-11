@@ -1,0 +1,599 @@
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a22
+# text = Este, este, axkan nano nikan ne timonoh..., timonohnotstokeh, nikneki xnechtapowi xa tikixmati se kowit kilwiah ne tahkwilolxochit oso tahkwilolkowit.
+# text[orig] = *Este, este**, a:xka:n na:no nika:n ne: timonoh..., timonohno:tstokeh, nikneki xne:chtapowi xa: tiki:xmati se: kowit kilwiah ne: tahkwilo:lxo:chit oso tahkwilo:lkowit.
+# text[spa] = Este, este, señora, ahora que estamos aquí hablando, quiero que me cuentes sobre un árbol que le llaman, este, tahkwilo:lxo:chit o tahkwilo:lkowit.
+# text[a22] = *Este, este**, a:xka:n na:no nika:n ne: timonoh..., timonohno:tstokeh,
+# text[a23] = nikneki xne:chtapowi xa: tiki:xmati se: kowit kilwiah ne:
+# text[a24] = tahkwilo:lxo:chit oso tahkwilo:lkowit.
+# labels = a22 a23 a24 sentence
+^Este/Este$
+^,/,$
+^este/este$
+^,/,$
+^axkan/axkan$
+^nano/nano$
+^nikan/nikan$
+^ne/ne$
+^timonoh.../timonoh...$
+^,/,$
+^timonohnotstokeh/timonohnotstokeh$
+^,/,$
+^nikneki/nikneki$
+^xnechtapowi/xnechtapowi$
+^xa/xa$
+^tikixmati/tikixmati$
+^se/se$
+^kowit/kowit$
+^kilwiah/kilwiah$
+^ne/ne$
+^tahkwilolxochit/tahkwilolxochit$
+^oso/oso$
+^tahkwilolkowit/tahkwilolkowit$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a28
+# text = ¿Kani n' mochiwa wan key..., keyeh kiliah tahkwilolxochit?
+# text[orig] = ¿Ka:ni n' mochi:wa wa:n ke:y..., ke:yeh kiliah tahkwilo:lxo:chit?
+# text[spa] = ¿Donde se da y porqué le llaman tahkwilo:lxo:chit?
+# labels = a28 sentence
+^¿/¿$
+^Kani/Kani$
+^n'/n'$
+^mochiwa/mochiwa$
+^wan/wan$
+^key/key$
+^.../...$
+^,/,$
+^keyeh/keyeh$
+^kiliah/kiliah$
+^tahkwilolxochit/tahkwilolxochit$
+^?/?$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a34
+# text = ¿Keniwki n' ixochiotsin?
+# text[orig] = ¿Ke:niwki n' ixo:chiotsi:n?
+# text[spa] = ¿Cómo son las flores?
+# labels = a34 sentence
+^¿/¿$
+^Keniwki/Keniwki$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^?/?$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a38
+# text = ¿Ipa sentaman sah, nen, tapal onkak?
+# text[orig] = ¿I:pa sentaman sah, ne:n, tapal onkak?
+# text[spa] = ¿Solamente hay un solo color?
+# labels = a38 sentence
+^¿/¿$
+^Ipa/Ipa$
+^sentaman/sentaman$
+^sah/sah$
+^,/,$
+^nen/nen$
+^,/,$
+^tapal/tapal$
+^onkak/onkak$
+^?/?$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a41
+# text = Ne..., tikihtowa que kwali s..., kwali se kikwi kowtatil, ne ipa yehwa sah se kikwi oso kwaltia para sentamanok? ¿Wan kani, nen, semi mochiwa in kowit?
+# text[orig] = Ne:..., tikihtowa *que** kwali s..., kwali se: kikwi kowtati:l, ne: i:pa yehwa sah se: kikwi oso kwaltia para sentamanok? ¿Wa:n ka:ni, ne:n, semi mochi:wa i:n kowit?
+# text[spa] = Dices que se puede usar como leña, este, ¿Solamente se usa para eso o sirve para otra cosa? ¿Yo donde, este, éste árbol donde se da mucho?
+# text[a41] = Ne:..., tikihtowa *que** kwali s..., kwali se: kikwi kowtati:l, ne: i:pa yehwa sah se: kikwi oso kwaltia para sentamanok?
+# text[a45] = ¿Wa:n ka:ni, ne:n, semi mochi:wa i:n kowit?
+# labels = a41 a45 sentence
+^Ne/Ne$
+^.../...$
+^,/,$
+^tikihtowa/tikihtowa$
+^que/que$
+^kwali/kwali$
+^s.../s...$
+^,/,$
+^kwali/kwali$
+^se/se$
+^kikwi/kikwi$
+^kowtatil/kowtatil$
+^,/,$
+^ne/ne$
+^ipa/ipa$
+^yehwa/yehwa$
+^sah/sah$
+^se/se$
+^kikwi/kikwi$
+^oso/oso$
+^kwaltia/kwaltia$
+^para/para$
+^sentamanok/sentamanok$
+^?/?$
+^¿/¿$
+^Wan/Wan$
+^kani/kani$
+^,/,$
+^nen/nen$
+^,/,$
+^semi/semi$
+^mochiwa/mochiwa$
+^in/in$
+^kowit/kowit$
+^?/?$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a49
+# text = ¿Xa tikmati xa pahti, nen, ixo..., n' ixochiots..., ixochio oso, nen, ikowyo oso ixiwyo? Xa teihsa tikelnamiki ok de yehwa in kowtsin, xtechtapowi xa n.... Pos iwki a nano miak tasohkamatik.
+# text[orig] = ¿Xa: tikmati xa: pahti, ne:n, ixo:..., n' ixo:chiots..., ixo:chio oso, ne:n, ikowyo oso ixiwyo? Xa: teihsá: tikelna:miki ok de yehwa i:n kowtsí:n, xte:chtapowi xa: n.... Pos iwki a na:no miak tasohka:matik.
+# text[spa] = ¿Acaso sabes si la flor es medicinal o este, el tronco o las hojas? Acaso recuerdas algo más sobre este árbol, cuéntanos si acaso ..., Pues es así señora, muchas gracias.
+# text[a49] = ¿Xa: tikmati xa: pahti, ne:n, ixo:..., n' ixo:chiots...,
+# text[a50] = ixo:chio oso, ne:n, ikowyo oso ixiwyo?
+# text[a52] = Xa: teihsá: tikelna:miki ok de yehwa i:n kowtsí:n, xte:chtapowi xa: n....
+# text[a54] = Pos iwki a na:no miak tasohka:matik.
+# labels = a49 a50 a52 a54 sentence
+^¿/¿$
+^Xa/Xa$
+^tikmati/tikmati$
+^xa/xa$
+^pahti/pahti$
+^,/,$
+^nen/nen$
+^,/,$
+^ixo/ixo$
+^.../...$
+^,/,$
+^n'/n'$
+^ixochiots/ixochiots$
+^.../...$
+^,/,$
+^ixochio/ixochio$
+^oso/oso$
+^,/,$
+^nen/nen$
+^,/,$
+^ikowyo/ikowyo$
+^oso/oso$
+^ixiwyo/ixiwyo$
+^?/?$
+^Xa/Xa$
+^teihsa/teihsa$
+^tikelnamiki/tikelnamiki$
+^ok/ok$
+^de/de$
+^yehwa/yehwa$
+^in/in$
+^kowtsin/kowtsin$
+^,/,$
+^xtechtapowi/xtechtapowi$
+^xa/xa$
+^n/n$
+^.../...$
+^./.$
+^Pos/Pos$
+^iwki/iwki$
+^a/a$
+^nano/nano$
+^miak/miak$
+^tasohkamatik/tasohkamatik$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a56
+# text = 'Nechili sayoh motokay wan kani n' tiwalewa.
+# text[orig] = 'Ne:chili sayoh moto:ka:y wa:n ka:ni n' tiwa:le:wa.
+# text[spa] = Solamente dime tu nombre y de donde vienes.
+# labels = a56 sentence
+^'Nechili/'Nechili$
+^sayoh/sayoh$
+^motokay/motokay$
+^wan/wan$
+^kani/kani$
+^n'/n'$
+^tiwalewa/tiwalewa$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a58
+# text = ¿Kanachi xiwit tikpia?
+# text[orig] = ¿Ka:nachi xiwit tikpia?
+# text[spa] = ¿Cuántos años tienes?
+# labels = a58 sentence
+^¿/¿$
+^Kanachi/Kanachi$
+^xiwit/xiwit$
+^tikpia/tikpia$
+^?/?$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a60
+# text = Bueno, pos neh notokay Amelia Dominguez Alcantara, nikayot ompa ne Xaltipan.
+# text[orig] = *Bueno**, pos neh noto:ka:y Amelia Domínguez Alcántara, nikayo:t ompa ne: Xaltipan.
+# text[spa] = Bueno pues, pues yo me llamo Amelia Domínguez Alcántara, soy de allá de Xaltipan.
+# labels = a60 sentence
+^Bueno/Bueno$
+^,/,$
+^pos/pos$
+^neh/neh$
+^notokay/notokay$
+^Amelia/Amelia$
+^Dominguez/Dominguez$
+^Alcantara/Alcantara$
+^,/,$
+^nikayot/nikayot$
+^ompa/ompa$
+^ne/ne$
+^Xaltipan/Xaltipan$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a25
+# text = Tahkwilolxochit wan tahkwilolkowit.
+# text[orig] = Tahkwilo:lxo:chit wa:n tahkwilo:lkowit.
+# text[spa] = Tahkwilo:lxo:chit y tahkwilo:lkowit.
+# labels = a25 sentence
+^Tahkwilolxochit/Tahkwilolxochit$
+^wan/wan$
+^tahkwilolkowit/tahkwilolkowit$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a26
+# text = Neh nikixmattok yon kowtsin kwaltsin takwawak wan no kwali xota, monotsa tahkwilolxochit.
+# text[orig] = Neh niki:xmattok yo:n kowtsí:n kwaltsi:n takwa:wak wa:n no: kwali xo:ta, mono:tsa tahkwilo:lxo:chit.
+# text[spa] = Yo conozco ese árbol, es muy macizo y también sirve para leña, se llama tahkwilo:lxo:chit.
+# text[a26] = Neh niki:xmattok yo:n kowtsí:n kwaltsi:n takwa:wak wa:n no: kwali xo:ta,
+# text[a27] = mono:tsa tahkwilo:lxo:chit.
+# labels = a26 a27 sentence
+^Neh/Neh$
+^nikixmattok/nikixmattok$
+^yon/yo>n$
+^kowtsin/kowtsin$
+^kwaltsin/kwaltsin$
+^takwawak/takwawak$
+^wan/wan$
+^no/no$
+^kwali/kwali$
+^xota/xota$
+^,/,$
+^monotsa/monotsa$
+^tahkwilolxochit/tahkwilolxochit$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a29
+# text = Pos ipa iwki tak ne monotsa porque mahya ih..., itahtay tak neh nimolia xiloxochit, keyeh yon iwki monotsa porque kwaltsin kipia n' inombre tahkwilolkowit wan tahkwilolxochit.
+# text[orig] = Pos i:pa iwki tak ne: mono:tsa *porque** mahyá: i:h..., itahta:y tak neh nimolia xi:lo:xo:chit, ke:yeh yo:n iwki mono:tsa *porque** kwaltsi:n kipia n' *inombre** tahkwilo:lkowit wa:n tahkwilo:lxo:chit.
+# text[spa] = Pues de por sí así se llama porque parece ..., quizá porque se parece al xi:lo:xo:chit, porqué se llama así, porque tiene bonito nombre, tahkwilo:lkowit y tahkwilo:lxo:chit.
+# text[a29] = Pos i:pa iwki tak ne: mono:tsa *porque** mahyá: i:h...,
+# text[a30] = itahta:y tak neh nimolia xi:lo:xo:chit, ke:yeh yo:n iwki mono:tsa *porque**
+# text[a31] = kwaltsi:n kipia n' *inombre** tahkwilo:lkowit wa:n tahkwilo:lxo:chit.
+# labels = a29 a30 a31 sentence
+^Pos/Pos$
+^ipa/ipa$
+^iwki/iwki$
+^tak/tak$
+^ne/ne$
+^monotsa/monotsa$
+^porque/porque$
+^mahya/mahya$
+^ih.../ih...$
+^,/,$
+^itahtay/itahtay$
+^tak/tak$
+^neh/neh$
+^nimolia/nimolia$
+^xiloxochit/xiloxochit$
+^,/,$
+^keyeh/keyeh$
+^yon/yo>n$
+^iwki/iwki$
+^monotsa/monotsa$
+^porque/porque$
+^kwaltsin/kwaltsin$
+^kipia/kipia$
+^n'/n'$
+^inombre/inombre$
+^tahkwilolkowit/tahkwilolkowit$
+^wan/wan$
+^tahkwilolxochit/tahkwilolxochit$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a32
+# text = Porque kanah ika xkaki newin wehka Tahkwilolxochiko.
+# text[orig] = *Porque** kanah ika xkaki ne:wí:n wehka Tahkwilo:lxo:chiko.
+# text[spa] = Porque en algunos lugares lejanos se escucha (que se llaman) Tahkwilo:lxo:chiko.
+# labels = a32 sentence
+^Porque/Porque$
+^kanah/kanah$
+^ika/ika$
+^xkaki/xkaki$
+^newin/newin$
+^wehka/wehka$
+^Tahkwilolxochiko/Tahkwilolxochiko$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a33
+# text = Kipia inombre komohkon telonkak yon, yon matas. Mm.
+# text[orig] = Kipia *inombre** komohkó:n telonkak yo:n, yo:n *matas**. Mm.
+# text[spa] = Tiene el nombre, si hay en ambundancia de ese, esos árboles. Mm
+# labels = a33 sentence
+^Kipia/Kipia$
+^inombre/inombre$
+^komohkon/komohkon$
+^telonkak/telonkak$
+^yon/yo>n$
+^,/,$
+^yon/yo>n$
+^matas/matas$
+^./.$
+^Mm/Mm$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a35
+# text = Iwki neh.... Kwaltsin ixochiotsin mo que mahya yon xahkaltik wan mapapatawak nen ix..., n' ix..., n' i..., n' ipanewayotsin ya iwki mopatawaya wan chichiltik nen ikwapayo. Istak.
+# text[orig] = Iwki neh .... Kwaltsi:n ixo:chiotsi:n *mo que** mahyá: yo:n xahkaltik wa:n ma:pa:pata:wak ne:n ix..., n' ix..., n' i..., n' ipane:wayotsi:n ya iwki mopata:waya wa:n chi:chi:ltik ne:n ikwa:payo. Ista:k.
+# text[spa] = Se parece ..., Las flores son muy bonitas, pareciera enmarañada y las hojas son anchas este ..., este, la capa que cubre la flor, se van abriendo y en la punta de la flor es roja. (La flor) es blanca.
+# text[a35] = Iwki neh ....
+# text[a36] = Kwaltsi:n ixo:chiotsi:n *mo que** mahyá: yo:n xahkaltik wa:n ma:pa:pata:wak ne:n ix..., n' ix..., n' i..., n' ipane:wayotsi:n ya iwki mopata:waya wa:n
+# text[a37] = chi:chi:ltik ne:n ikwa:payo. Ista:k.
+# labels = a35 a36 a37 sentence
+^Iwki/Iwki$
+^neh/neh$
+^.../...$
+^./.$
+^Kwaltsin/Kwaltsin$
+^ixochiotsin/ixochiotsin$
+^mo/mo$
+^que/que$
+^mahya/mahya$
+^yon/yo>n$
+^xahkaltik/xahkaltik$
+^wan/wan$
+^mapapatawak/mapapatawak$
+^nen/nen$
+^ix.../ix...$
+^,/,$
+^n'/n'$
+^ix.../ix...$
+^,/,$
+^n'/n'$
+^i.../i...$
+^,/,$
+^n'/n'$
+^ipanewayotsin/ipanewayotsin$
+^ya/ya$
+^iwki/iwki$
+^mopatawaya/mopatawaya$
+^wan/wan$
+^chichiltik/chichiltik$
+^nen/nen$
+^ikwapayo/ikwapayo$
+^./.$
+^Istak/Istak$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a39
+# text = Ipa se taman sah.
+# text[orig] = I:pa se: taman sah.
+# text[spa] = Solamente hay un solo color.
+# labels = a39 sentence
+^Ipa/Ipa$
+^se/se$
+^taman/taman$
+^sah/sah$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a40
+# text = Eh, de yon tahkwilolxochit yon ipa se taman sah.
+# text[orig] = Eh, de yo:n tahkwilo:lxo:chit yo:n i:pa se: taman sah.
+# text[spa] = Del tahkwilo:lxo:chit solo hay un tipo.
+# labels = a40 sentence
+^Eh/Eh$
+^,/,$
+^de/de$
+^yon/yo>n$
+^tahkwilolxochit/tahkwilolxochit$
+^yon/yo>n$
+^ipa/ipa$
+^se/se$
+^taman/taman$
+^sah/sah$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a42
+# text = No kwali s..., este, kwaltia no kalikxit seki kikwih.
+# text[orig] = No: kwali s..., *este**, kwaltia no: kalikxit seki kikwih.
+# text[spa] = También se puede .... Este, también sirve para horcón, algunos lo usan.
+# labels = a42 sentence
+^No/No$
+^kwali/kwali$
+^s.../s...$
+^,/,$
+^este/este$
+^,/,$
+^kwaltia/kwaltia$
+^no/no$
+^kalikxit/kalikxit$
+^seki/seki$
+^kikwih/kikwih$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a43
+# text = Kwali kalikxitsin kemeh in tein weli se ikaltsin no kwaltia.
+# text[orig] = Kwali kalikxitsí:n ke:meh i:n tein weli se: ikaltsi:n no: kwaltia.
+# text[spa] = Es muy bueno para horcón, cuando nuestra nuestra casa está construída muy sencilla.
+# labels = a43 sentence
+^Kwali/Kwali$
+^kalikxitsin/kalikxitsin$
+^kemeh/kemeh$
+^in/in$
+^tein/tein$
+^weli/weli$
+^se/se$
+^ikaltsin/ikaltsin$
+^no/no$
+^kwaltia/kwaltia$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a44
+# text = ¿Porque keyeh? Selia.
+# text[orig] = ¿*Porque** ke:yeh? Selia.
+# text[spa] = ¿Porqué? (Porque) retoña.
+# labels = a44 sentence
+^¿/¿$
+^Porque/Porque$
+^keyeh/keyeh$
+^?/?$
+^Selia/Selia$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a46
+# text = Pos kampa kitohtoka, itech linderos kitokah kanah ika wan ompa ya kwaltsin posontok oso kanah ika kitokah tatahko kahfentah.
+# text[orig] = Pos ka:mpa kitohto:ka, itech *linderos** kito:kah kanah ika wa:n ompa ya kwaltsi:n poso:ntok oso kanah ika kito:kah tatahko kahfe:ntah.
+# text[spa] = Pues donde lo siembran, en algunas partes, en los linderos y es ahí donde se aprecia bien al florear o en algunas partes lo siembran en medio del cafetal.
+# labels = a46 sentence
+^Pos/Pos$
+^kampa/kampa$
+^kitohtoka/kitohtoka$
+^,/,$
+^itech/itech$
+^linderos/linderos$
+^kitokah/kitokah$
+^kanah/kanah$
+^ika/ika$
+^wan/wan$
+^ompa/ompa$
+^ya/ya$
+^kwaltsin/kwaltsin$
+^posontok/posontok$
+^oso/oso$
+^kanah/kanah$
+^ika/ika$
+^kitokah/kitokah$
+^tatahko/tatahko$
+^kahfentah/kahfentah$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a47
+# text = porque kwelitah yon kwaltsin walpoch..., pochintok wan kwaltsin walkwahkwaihkak xochitsin, kwaltsin mahya pos ompa mahya ihkwin maxahxahkalewtok.
+# text[orig] = *porque** kwelitah yo:n kwaltsi:n wa:lpoch..., pochi:ntok wa:n kwaltsi:n wa:lkwahkwa:ihkak xo:chitsí:n, kwaltsi:n mahyá: pos ompa mahyá: ihkwí:n ma:xahxahkale:wtok.
+# text[spa] = porque les gusta, ese, lo blanco de la flor, se ve a lo lejos y se ven bien las flores al estar erectas, se ve bien, pareciera  ..., pues ahí se ve así, como amarañado.
+# text[a47] = *porque** kwelitah yo:n kwaltsi:n wa:lpoch..., pochi:ntok wa:n kwaltsi:n wa:lkwahkwa:ihkak xo:chitsí:n, kwaltsi:n mahyá:
+# text[a48] = pos ompa mahyá: ihkwí:n ma:xahxahkale:wtok.
+# labels = a47 a48 sentence
+^porque/porque$
+^kwelitah/kwelitah$
+^yon/yo>n$
+^kwaltsin/kwaltsin$
+^walpoch/walpoch$
+^.../...$
+^,/,$
+^pochintok/pochintok$
+^wan/wan$
+^kwaltsin/kwaltsin$
+^walkwahkwaihkak/walkwahkwaihkak$
+^xochitsin/xochitsin$
+^,/,$
+^kwaltsin/kwaltsin$
+^mahya/mahya$
+^pos/pos$
+^ompa/ompa$
+^mahya/mahya$
+^ihkwin/ihkwin$
+^maxahxahkalewtok/maxahxahkalewtok$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a51
+# text = Pan..., pane kan pahti sayoh,sayoh kwalneskatsah.
+# text[orig] = Pan..., pané: ka:n pahti sayoh,sayoh kwalne:skatsah.
+# text[spa] = Parece que no es medicinal, solamente es un ornamental.
+# labels = a51 sentence
+^Pan.../Pan...$
+^,/,$
+^pane/pane$
+^kan/kan$
+^pahti/pahti$
+^sayoh/sayoh$
+^,/,$
+^sayoh/sayoh$
+^kwalneskatsah/kwalneskatsah$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a53
+# text = Pos neh nikixmati sayoh para linderos kiketsah wan para yehwa yon servirowa para kalikxit, horcones.
+# text[orig] = Pos neh niki:xmati sayoh *para linderos** kiketsah wa:n para yehwa yo:n *servi:rowa para** kalikxit, *horcones**.
+# text[spa] = Pues yo solamente conozco que lo siembran en los linderos y para los horcones.
+# labels = a53 sentence
+^Pos/Pos$
+^neh/neh$
+^nikixmati/nikixmati$
+^sayoh/sayoh$
+^para/para$
+^linderos/linderos$
+^kiketsah/kiketsah$
+^wan/wan$
+^para/para$
+^yehwa/yehwa$
+^yon/yo>n$
+^servirowa/servirowa$
+^para/para$
+^kalikxit/kalikxit$
+^,/,$
+^horcones/horcones$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a55
+# text = Pos kan teihsa tasohkamatik de tehwatsin tinechtahtanihtok keniw monotsa.
+# text[orig] = Pos ka:n teihsá: tasohka:matik de tehwa:tsi:n tine:chtahtanihtok ke:ní:w mono:tsa.
+# text[spa] = Pues no es nada, te agradezco por haberme preguntado de cómo se llama.
+# labels = a55 sentence
+^Pos/Pos$
+^kan/kan$
+^teihsa/teihsa$
+^tasohkamatik/tasohkamatik$
+^de/de$
+^tehwatsin/tehwatsin$
+^tinechtahtanihtok/tinechtahtanihtok$
+^keniw/keniw$
+^monotsa/monotsa$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a57
+# text = Neh, neh nimonotsa Maria de Jesus Tecuaco wan nimo..., niwalewa neka Yohualichan xolal.
+# text[orig] = Neh, neh nimono:tsa María de Jesús Tecuaco wa:n nimo..., niwa:le:wa ne:ka Yohualichan xola:l.
+# text[spa] = Yo, yo me llamo María de Jesús Tecuaco y vengo del pueblo de Yohualichan
+# labels = a57 sentence
+^Neh/Neh$
+^,/,$
+^neh/neh$
+^nimonotsa/nimonotsa$
+^Maria/Maria$
+^de/de$
+^Jesus/Jesus$
+^Tecuaco/Tecuaco$
+^wan/wan$
+^nimo.../nimo...$
+^,/,$
+^niwalewa/niwalewa$
+^neka/neka$
+^Yohualichan/Yohualichan$
+^xolal/xolal$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a59
+# text = Itech, nen, cincuenta y seis.
+# text[orig] = Itech, ne:n, *cincuenta y seis**.
+# text[spa] = En el (año) cincuenta y seis.
+# labels = a59 sentence
+^Itech/Itech$
+^,/,$
+^nen/nen$
+^,/,$
+^cincuenta/cincuenta$
+^y/y$
+^seis/seis$
+^./.$
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a61
+# text = A, ihkon neh no nimonotsa.
+# text[orig] = A:, ihkó:n neh no: nimono:tsa.
+# text[spa] = A:, así también me llamo.
+# labels = a61 sentence
+^A/A$
+^,/,$
+^ihkon/ihkon$
+^neh/neh$
+^no/no$
+^nimonotsa/nimonotsa$
+^./.$
