@@ -366,7 +366,7 @@
 "<ipanko>"
 	"panko" n rel px3sg
 "<mahya>"
-	"mahya" adv
+	"mahya" adv @advmod
 "<panrarayado>"
 	"rarayado" adj redup pan @root
 "<wan>"
@@ -380,7 +380,7 @@
 "<de>"
 	"de" pr
 "<takwawak>"
-	"takuahuak" adj s_sg3
+	"takuahuak" adj s_sg3 @conj
 "<neli>"
 	"neli" adv
 "<mochiwa>"
@@ -424,7 +424,7 @@
 "<rayitas>"
 	"rayita" n f pl @obj
 "<n'>"
-	"in" det
+	"in" det @det
 "<ipanko>"
 	"panko" n rel px3sg
 "<nen>"

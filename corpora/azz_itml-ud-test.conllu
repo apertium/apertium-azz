@@ -13859,3 +13859,145 @@
 11	Miguel	Miguel	PROPN	_	Gender=Masc	10	flat	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a34
+# text = ¿Keniwki n' ixochiotsin?
+# text[orig] = ¿Ke:niwki n' ixo:chiotsi:n?
+# text[spa] = ¿Cómo son las flores?
+# labels = a34 sentence
+1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Keniwki	keniuki	ADV	_	PronType=Int	0	root	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a58
+# text = ¿Kanachi xiwit tikpia?
+# text[orig] = ¿Ka:nachi xiwit tikpia?
+# text[spa] = ¿Cuántos años tienes?
+# labels = a58 sentence
+1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Kanachi	kanachi	DET	_	_	3	det	_	_
+3	xiwit	xihuit	NOUN	_	Case=Abs	4	obj	_	_
+4	tikpia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a60
+# text = Bueno, pos neh notokay Amelia Dominguez Alcantara, nikayot ompa ne Xaltipan.
+# text[orig] = *Bueno**, pos neh noto:ka:y Amelia Domínguez Alcántara, nikayo:t ompa ne: Xaltipan.
+# text[spa] = Bueno pues, pues yo me llamo Amelia Domínguez Alcántara, soy de allá de Xaltipan.
+# labels = a60 sentence
+1	Bueno	bueno	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pos	pos	ADV	_	_	6	advmod	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nmod	_	_
+5	notokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
+6	Amelia	Amelia	PROPN	_	Gender=Fem	0	root	_	_
+7	Dominguez	Dominguez	PROPN	_	_	6	flat	_	_
+8	Alcantara	Alcantara	PROPN	_	_	6	flat	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	nikayot	kayot	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=1	6	parataxis	_	_
+11	ompa	ompa	ADV	_	_	10	advmod	_	_
+12	ne	ne	ADV	_	_	10	advmod	_	_
+13	Xaltipan	Xaltipan	PROPN	_	_	12	appos	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a25
+# text = Tahkwilolxochit wan tahkwilolkowit.
+# text[orig] = Tahkwilo:lxo:chit wa:n tahkwilo:lkowit.
+# text[spa] = Tahkwilo:lxo:chit y tahkwilo:lkowit.
+# labels = a25 sentence
+1	Tahkwilolxochit	tajkhuilolxochit	NOUN	_	Case=Abs	0	root	_	_
+2	wan	huan	CCONJ	_	_	3	cc	_	_
+3	tahkwilolkowit	tajkuilolkohuit	NOUN	_	Case=Abs	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a39
+# text = Ipa se taman sah.
+# text[orig] = I:pa se: taman sah.
+# text[spa] = Solamente hay un solo color.
+# labels = a39 sentence
+1	Ipa	ipa	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nummod	_	_
+3	taman	taman	NOUN	_	Case=Abs	0	root	_	_
+4	sah	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a42
+# text = No kwali s..., este, kwaltia no kalikxit seki kikwih.
+# text[orig] = No: kwali s..., *este**, kwaltia no: kalikxit seki kikwih.
+# text[spa] = También se puede .... Este, también sirve para horcón, algunos lo usan.
+# labels = a42 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	s...	s	X	_	_	5	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	este	este	INTJ	_	_	7	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+8	no	no	ADV	_	_	7	advmod	_	_
+9	kalikxit	kalikxit	NOUN	_	Case=Abs	7	obl	_	_
+10	seki	seki	PRON	_	_	11	nsubj	_	_
+11	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a44
+# text = ¿Porque keyeh? Selia.
+# text[orig] = ¿*Porque** ke:yeh? Selia.
+# text[spa] = ¿Porqué? (Porque) retoña.
+# labels = a44 sentence
+1	¿	¿	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Porque	porque	SCONJ	_	_	3	mark	_	_
+3	keyeh	keyej	ADV	_	PronType=Int	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+5	Selia	selia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a57
+# text = Neh, neh nimonotsa Maria de Jesus Tecuaco wan nimo..., niwalewa neka Yohualichan xolal.
+# text[orig] = Neh, neh nimono:tsa María de Jesús Tecuaco wa:n nimo..., niwa:le:wa ne:ka Yohualichan xola:l.
+# text[spa] = Yo, yo me llamo María de Jesús Tecuaco y vengo del pueblo de Yohualichan
+# labels = a57 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
+4	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+5	Maria	María	PROPN	_	Gender=Fem	4	obj	_	_
+6	de	de	ADP	_	_	5	flat	_	_
+7	Jesus	Jesus	PROPN	_	Gender=Masc	5	flat	_	_
+8	Tecuaco	Tecuaco	PROPN	_	_	5	flat	_	_
+9	wan	huan	CCONJ	_	_	12	cc	_	_
+10	nimo...	nimo	X	_	_	12	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	niwalewa	huala	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	4	conj	_	_
+13	neka	neka	ADV	_	_	12	advmod	_	_
+14	Yohualichan	Yohualichan	PROPN	_	_	12	obl	_	_
+15	xolal	xolal	NOUN	_	Case=Abs	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a59
+# text = Itech, nen, cincuenta y seis.
+# text[orig] = Itech, ne:n, *cincuenta y seis**.
+# text[spa] = En el (año) cincuenta y seis.
+# labels = a59 sentence
+1	Itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	nen	nen	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	cincuenta	cincuenta	NUM	_	_	1	nmod	_	_
+6	y	y	CCONJ	_	_	5	compound	_	_
+7	seis	seis	NUM	_	_	5	compound	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n_ed-2018-04-02_trad-ADA_FORM.eaf:a61
+# text = A, ihkon neh no nimonotsa.
+# text[orig] = A:, ihkó:n neh no: nimono:tsa.
+# text[spa] = A:, así también me llamo.
+# labels = a61 sentence
+1	A	a	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ihkon	ijkon	ADV	_	_	6	advmod	_	_
+4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	nsubj	_	_
+5	no	no	ADV	_	_	6	advmod	_	_
+6	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
