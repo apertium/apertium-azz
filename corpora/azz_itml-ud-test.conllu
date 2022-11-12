@@ -8478,6 +8478,44 @@
 1	Xiuit	xihuit	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:767
+# text = KAKATEKUOUIT
+# text[spa] = BIENVENIDO
+# labels =
+1	KAKATEKUOUIT	kakatekuohuit	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:768
+# text = Mochiua kampa eski uan maj se kitameui ijuak tsikitsin.
+# text[spa] = Se da dondequiera, pero que se limpie cuando es pequeño.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kampa	kampa	ADV	_	PronType=Rel	1	advcl	_	_
+3	eski	etok	AUX	_	Number[subj]=Sing|Person[subj]=3|Tense=Fut	2	cop	_	_
+4	uan	huan	CCONJ	_	_	7	cc	_	_
+5	maj	ma	AUX	_	_	7	aux	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kitameui	tamehui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	conj	_	_
+8	ijuak	ijhuak	SCONJ	_	_	9	mark	_	_
+9	tsikitsin	tsiki	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	7	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:769
+# text = Nikauín mochiua, komo se kitemoua se kajsi sikieraj se tamatsoltsin.
+# text[spa] = Por aquí se da. Si uno lo busca, se encuentra un puñado, por lo menos.
+# labels = sentence
+1	Nikauín	nikahuin	ADV	_	_	2	advmod	_	_
+2	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	komo	komo	ADV	_	_	6	mark	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kitemoua	temohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	_
+7	se	se	NUM	_	_	8	nsubj	_	_
+8	kajsi	ajsi	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+9	sikieraj	sikiera	ADV	_	_	11	advmod	_	_
+10	se	se	NUM	_	_	11	nummod	_	_
+11	tamatsoltsin	tamatsol	NOUN	_	Polite=Form	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:772
 # text = Se kikua nochi ika ieuayo, amo uel pixki.
 # text[spa] = Se come con todo y cáscara, no se puede pelar.
