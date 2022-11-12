@@ -7976,6 +7976,38 @@
 10	ueyi	huei	ADJ	_	Number[subj]=Sing|Person[subj]=3	9	acl:relcl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:717
+# text = UITSUAUJKILIT
+# text[spa] = QUINTONILE ESPINOSO
+# labels =
+1	UITSUAUJKILIT	huitsuaujkilit	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:718
+# text = In amo kualtia pajti, sólo para se kikua, se kimana, uelik chilposontsin uan komo se kineki caldito.
+# text[spa] = No sirve para medicina, solo para comerse. Se hierve, es bueno en chilpozonte o encaldito.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+4	pajti	pajti	NOUN	_	Case=Abs	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	sólo	sólo	ADV	_	_	9	advmod	_	_
+7	para	para	SCONJ	_	_	9	mark	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	se	se	NUM	_	_	12	nsubj	_	_
+12	kimana	mana	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	parataxis	_	_
+15	chilposontsin	chilposon	NOUN	_	Polite=Form	14	nsubj	_	_
+16	uan	huan	CCONJ	_	_	19	cc	_	_
+17	komo	komo	ADV	_	_	19	mark	_	_
+18	se	se	NUM	_	_	19	nsubj	_	_
+19	kineki	neki	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	14	conj	_	_
+20	caldito	caldito	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:772
 # text = Se kikua nochi ika ieuayo, amo uel pixki.
 # text[spa] = Se come con todo y cáscara, no se puede pelar.
