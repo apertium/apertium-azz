@@ -7827,6 +7827,155 @@
 5	saj	saj	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:707
+# text = Se kinamaka tamanal ya ne Kuesalan.
+# text[spa] = Se vende ya hervido en Cuetzalan.
+# labels = sentence
+1	Se	se	NUM	_	_	2	nsubj	_	_
+2	kinamaka	namaka	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	tamanal	tamanal	ADJ	_	_	2	dep	_	_
+4	ya	ya	ADV	_	_	2	advmod	_	_
+5	ne	ne	ADV	_	_	2	advmod	_	_
+6	Kuesalan	Cuetzalan	PROPN	_	_	5	appos	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:708
+# text = In mochiua saj, amo se kitoka.
+# text[spa] = Se da solo, no hay que sembrarlo.
+# labels = sentence
+1	In	in	DET	_	_	2	dep	_	_
+2	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	saj	saj	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	amo	amo	ADV	_	_	7	advmod	_	_
+6	se	se	NUM	_	_	7	nsubj	_	_
+7	kitoka	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:709:1
+# text = No se kikua: se kieuayojkixtia uan se kitema itech se cubeta kipiya at iuan kuoujnex.
+# text[spa] = También se come: se le quita la cáscara y se echa a una cubeta de agua con ceniza, después se le quita el agua, se lava y se pone a los frijoles, se agrega ajonjolí y nacastequelite y ya se deja hervir.
+# labels = sentence incorporation
+1	No	no	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kieuayojkixtia	ehuayojkixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
+7	uan	huan	CCONJ	_	_	9	cc	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kitema	tema	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	conj	_	_
+10	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+11	se	se	NUM	_	_	12	det	_	_
+12	cubeta	cubeta	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	kipiya	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	12	acl:relcl	_	_
+14	at	at	NOUN	_	Case=Abs	13	obj	_	_
+15	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	nmod	_	_
+16	kuoujnex	kuoujnex	NOUN	_	Case=Abs	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:709:2
+# text = Satepan se kiakixtia, se kipaka uan se kitema iuan emol uan se kitalilia akolin uan nakasuiyo uan se kikaua maj moloni ya.
+# text[spa] = También se come: se le quita la cáscara y se echa a una cubeta de agua con ceniza, después se le quita el agua, se lava y se pone a los frijoles, se agrega ajonjolí y nacastequelite y ya se deja hervir.
+# labels = sentence incorporation
+1	Satepan	satepan	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kiakixtia	akixtia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	se	se	NUM	_	_	6	nsubj	_	_
+6	kipaka	paka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
+7	uan	huan	CCONJ	_	_	9	cc	_	_
+8	se	se	NUM	_	_	9	nsubj	_	_
+9	kitema	tema	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
+10	iuan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+11	emol	emol	NOUN	_	Case=Abs	10	nmod	_	_
+12	uan	huan	CCONJ	_	_	14	cc	_	_
+13	se	se	NUM	_	_	14	nsubj	_	_
+14	kitalilia	talilia	VERB	_	Number[iobj]=Sing|Number[subj]=Sing|Person[iobj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	conj	_	_
+15	akolin	akolin	NOUN	_	Case=Abs	14	obj	_	_
+16	uan	huan	CCONJ	_	_	17	cc	_	_
+17	nakasuiyo	nakasuiyo	NOUN	_	Case=Abs	15	conj	_	_
+18	uan	huan	CCONJ	_	_	20	cc	_	_
+19	se	se	NUM	_	_	20	nsubj	_	_
+20	kikaua	kahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	9	conj	_	_
+21	maj	ma	AUX	_	_	22	aux	_	_
+22	moloni	moloni	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	20	dep	_	_
+23	ya	ya	ADV	_	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:710
+# text = Mochiua kampa atauj uan kampa milaj.
+# text[spa] = Se da en los barrancos y en las milpas.
+# labels = sentence
+1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+2	kampa	kampa	ADV	_	PronType=Rel	3	advmod	_	_
+3	atauj	atauj	NOUN	_	Case=Abs	1	advcl	_	_
+4	uan	huan	CCONJ	_	_	6	cc	_	_
+5	kampa	kampa	ADV	_	PronType=Rel	6	advmod	_	_
+6	milaj	milaj	NOUN	_	Case=Abs	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:711
+# text = In iujki kitokaytiaj por in panuijuitsyoj in itakka.
+# text[spa] = Le llaman así porque sus frutos son espinosos.
+# labels = sentence
+1	In	in	DET	_	_	3	dep	_	_
+2	iujki	iuki	ADV	_	_	3	advmod	_	_
+3	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	por	por	ADP	_	_	6	mark	_	_
+5	in	in	DET	_	_	4	fixed	_	_
+6	panuijuitsyoj	panuijuitsyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	3	advcl	_	_
+7	in	in	DET	_	_	8	det	_	_
+8	itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:712
+# text = KUOUJXOKOT
+# text[spa] = JOBO
+# labels =
+1	KUOUJXOKOT	kuoujxokot	NOUN	_	Case=Abs	0	root	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:713
+# text = Okseki kikuij ika kipantsakuaj in vivero de kajfen.
+# text[spa] = Otras las emplean para techar los viveros de cafe.
+# labels = sentence
+1	Okseki	okse	PRON	_	Number=Plur	2	nsubj	_	_
+2	kikuij	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	kipantsakuaj	pantsakuaj	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	acl:relcl	_	_
+5	in	in	DET	_	_	6	det	_	_
+6	vivero	vivero	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	kajfen	kafen	NOUN	_	Case=Abs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:714
+# text = Xochiyoua abril uan mayo teyoua.
+# text[spa] = Florece en abril y en mayo da su semilla.
+# labels = sentence
+1	Xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	abril	abril	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+3	uan	huan	CCONJ	_	_	5	cc	_	_
+4	mayo	mayo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+5	teyoua	teyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:715
+# text = Ome taman onkak : tein tsikitsin, uan tein ueyi.
+# text[spa] = Hay de dos clases, el grande y el pequeño.
+# labels = sentence
+1	Ome	ome	NUM	_	_	2	nummod	_	_
+2	taman	taman	NOUN	_	Case=Abs	3	nsubj	_	_
+3	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	tein	tein	PRON	_	_	3	parataxis	_	_
+6	tsikitsin	tsiki	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	5	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	uan	huan	CCONJ	_	_	9	cc	_	_
+9	tein	tein	PRON	_	_	5	conj	_	_
+10	ueyi	huei	ADJ	_	Number[subj]=Sing|Person[subj]=3	9	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:772
 # text = Se kikua nochi ika ieuayo, amo uel pixki.
 # text[spa] = Se come con todo y cáscara, no se puede pelar.
