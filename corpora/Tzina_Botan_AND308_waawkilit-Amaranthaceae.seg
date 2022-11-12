@@ -593,7 +593,7 @@
 ^chiktehmeh/chiktehmeh$
 ^./.$
 
-# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a46
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a46:1
 # text = Yon kikwah. Okseki pos amo nikitak ox kikwah.
 # text[orig] = Yo:n kikwah. Okseki pos a:mo nikitak ox kikwah.
 # text[spa] = Esos frutos aprovechan los pájaros. Las semillas de los otros quelites nunca he visto que se los coman.
@@ -601,6 +601,12 @@
 ^Yon/Yo>n$
 ^kikwah/kikwah$
 ^./.$
+
+# sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a46:2
+# text = Yon kikwah. Okseki pos amo nikitak ox kikwah.
+# text[orig] = Yo:n kikwah. Okseki pos a:mo nikitak ox kikwah.
+# text[spa] = Esos frutos aprovechan los pájaros. Las semillas de los otros quelites nunca he visto que se los coman.
+# labels = a46 sentence
 ^Okseki/Okseki$
 ^pos/pos$
 ^amo/amo$

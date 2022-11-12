@@ -3771,6 +3771,13 @@ huihuiyoka:huihuiyoka                                 V-S-PROG ; ! "temblar"
 huihuiyoka:huihuiyoka                                 V-S-PRET ; ! "temblar"
 huihuiyoka:huihuiyoka                                 V-S-FUTR ; ! "temblar"
 
+tijtilehui:ti%{j%}tilehui                             V-S-PRES ; ! ""
+tijtilehui:ti%{j%}tilehui                             V-S-IMPF ; ! ""
+tijtilehui:ti%{j%}tilehui                             V-S-PROG ; ! ""
+tijtilehui:ti%{j%}tilehui                             V-S-PRET ; ! ""
+tijtilehui:ti%{j%}tilehui                             V-S-FUTR ; ! ""
+
+
 huilehui:huilehui                                     V-S-PRES ; ! ""
 huilehui:huilehui                                     V-S-IMPF ; ! ""
 huilehui:huilehui                                     V-S-PROG ; ! ""
