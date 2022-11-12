@@ -3685,11 +3685,11 @@
 # text[spa] = Eso es cierto.
 # labels = a167 sentence
 "<Yeh>"
-	"yehua" prn pers sg3 short
+	"yehua" prn pers sg3 short @nsubj #1->2
 "<neli>"
-	"neli" adv
+	"neli" adv s_sg3 @root #2->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->2
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a169
 # text = Kemah, neli ta patiyoh kinekih, tak porin kan semi wei tei ok.
@@ -3705,12 +3705,9 @@
 "<ta>"
 	"ta" adv
 "<patiyoh>"
-	"patiyoj" n abs
-;	"patiyoj" n abs s_pl3
-;	"patiyoj" n abs s_sg3
+	"patiyoj" adj 
 "<kinekih>"
 	"neki" v tv pres s_pl3 o_sg3
-	"neki" v tv pret s_sg3 o_sg3
 "<,>"
 	"," cm @punct
 "<tak>"
@@ -3729,7 +3726,6 @@
 ;	"tei" x
 "<ok>"
 	"ok" adv
-;	"ok" x
 "<.>"
 	"." sent @punct
 
@@ -3741,27 +3737,25 @@
 # text[a174] = Ke:mah, we:wehkatiká: onkak ok neli.
 # labels = a170 a174 sentence
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #1->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #2->1
 "<nanotsin>"
-	"nano" n hon @vocative
+	"nano" n hon @vocative #3->7
 "<Kemah>"
-	"kemaj" ij @discourse
+	"kemaj" ij @discourse #4->7
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->4
 "<wewehkatika>"
-	"*wewehkatika"
+	"huehuejkatika" adv @advmod #6->7
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @root #7->0
 "<ok>"
-	"ok" adv
-;	"ok" x
+	"ok" adv @advmod #8->7
 "<neli>"
-	"neli" adv
+	"neli" adv @advmod #9->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->7
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a177
 # text = Kemah, nano neli no taman welik wan kwaltsin nikilia ne, mahya yon alaxtik, kwaltsin ika no, s.... Welik kwaltsin.
@@ -3775,29 +3769,19 @@
 "<,>"
 	"," cm @punct
 "<nano>"
-	"nano" n abs
-	"nano" n abs s_sg3
-;	"nano" n abs s_pl3
+	"nano" n abs @vocative
 "<neli>"
 	"neli" adv
 "<no>"
 	"no" adv
-	"no" det
-;	"no" x
 "<taman>"
 	"taman" n abs
-	"man" n px3nn
-	"taman" n abs s_sg3
-;	"taman" n abs s_pl3
 "<welik>"
-	"huelik" adj
 	"huelik" adj s_sg3
-	"hueli" v iv pret s_sg3
 "<wan>"
 	"huan" cnjcoo @cc
 "<kwaltsin>"
 	"kuali" adj hon
-	"kuali" adj hon s_sg3
 "<nikilia>"
 	"ilia" v tv pres s_sg1 o_sg3
 "<ne>"

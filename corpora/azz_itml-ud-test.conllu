@@ -14143,6 +14143,33 @@
 4	tsitsikitsin	tsitsikitsin	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	1	parataxis	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a167
+# text = Yeh neli.
+# text[orig] = Yeh neli.
+# text[spa] = Eso es cierto.
+# labels = a167 sentence
+1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	nsubj	_	_
+2	neli	neli	ADV	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a170
+# text = Kemah, nanotsin Kemah, wewehkatika onkak ok neli.
+# text[orig] = Ke:mah, na:notsi:n Ke:mah, we:wehkatiká: onkak ok neli.
+# text[spa] = Así es señora. En partes todavía hay.
+# text[a170] = Ke:mah, na:notsi:n
+# text[a174] = Ke:mah, we:wehkatiká: onkak ok neli.
+# labels = a170 a174 sentence
+1	Kemah	kemaj	INTJ	_	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nanotsin	nano	NOUN	_	Polite=Form	7	vocative	_	_
+4	Kemah	kemaj	INTJ	_	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	wewehkatika	huehuejkatika	ADV	_	_	7	advmod	_	_
+7	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
+8	ok	ok	ADV	_	_	7	advmod	_	_
+9	neli	neli	ADV	_	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a180
 # text = Kemah, welik kwaltsin.
 # text[orig] = Ke:mah, we:lik kwaltsi:n.
