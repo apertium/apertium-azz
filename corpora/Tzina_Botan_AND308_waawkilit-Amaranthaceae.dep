@@ -2945,7 +2945,7 @@
 "<kwaltsin>"
 	"kuali" adj hon @advmod
 "<ihkon>"
-	"ijkon" adv
+	"ijkon" adv @advmod
 "<.>"
 	"." sent @punct
 
@@ -3013,18 +3013,18 @@
 # text[spa] = Este no, yo creo que por el peso de las semillas.
 # labels = a143 sentence
 "<Nijon>"
-	"nijon" prn
+	"nijon" prn @
 "<amo>"
 	"amo" adv
 "<,>"
 	"," cm @punct
 "<tak>"
-	"tak" adv
+	"tak" adv @advmod
 "<kitani>"
 	"ita" v tv cnt s_sg3 o_sg3
 	"ita" v tv pp s_sg3 o_sg3
 "<de>"
-	"de" pr
+	"de" pr @case
 "<n'>"
 	"in" det @det
 "<iteyo>"
