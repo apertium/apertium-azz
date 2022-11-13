@@ -1670,15 +1670,19 @@
 # text = Wan nen ixiwyotsin ox no.... Maahalaxtik.
 # text[orig] = Wa:n ne:n ixiwyotsi:n ox no: .... Ma:ahalaxtik.
 # text[spa] = Y acaso las hojas también..., Las hojas son lisas.
-# text[a132] = Wa:n ne:n ixiwyotsi:n ox no: ....
-# text[a135] = Ma:ahalaxtik.
-# labels = a132 a135 sentence
+# labels = a132 sentence
 ^Wan/Wan$
 ^nen/nen$
 ^ixiwyotsin/ixiwyotsin$
 ^ox/ox$
 ^no.../no...$
 ^./.$
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a135
+# text = Wan nen ixiwyotsin ox no.... Maahalaxtik.
+# text[orig] = Wa:n ne:n ixiwyotsi:n ox no: .... Ma:ahalaxtik.
+# text[spa] = Y acaso las hojas también..., Las hojas son lisas.
+# labels = a135 sentence
 ^Maahalaxtik/Maahalaxtik$
 ^./.$
 

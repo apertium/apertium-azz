@@ -2593,9 +2593,7 @@
 "<yeh>"
 	"yehua" prn pers sg3 short
 "<nano>"
-	"nano" n abs
-;	"nano" n abs s_pl3
-;	"nano" n abs s_sg3
+	"nano" n abs @vocative
 "<,>"
 	"," cm @punct
 "<ne>"
@@ -2882,11 +2880,11 @@
 "<teltaki>"
 	"taki" v iv pres s_sg3 tel @root
 "<keman>"
-	"keman" adv
+	"keman" adv @advmod
 "<,>"
 	"," cm @punct
 "<kampa>"
-	"kampa" adv rel
+	"kampa" adv rel @advmod
 "<yon>"
 	"yehua" prn pers sg3 short
 		"in" det
@@ -2897,9 +2895,9 @@
 "<ihkatok>"
 	"ijka" v iv prog pres s_sg3
 "<mahya>"
-	"majya" adv
+	"majya" adv @advmod
 "<teltaki>"
-	"taki" v iv pres s_sg3 tel
+	"taki" v iv pres s_sg3 tel @
 "<.>"
 	"." sent @punct
 
@@ -3327,29 +3325,32 @@
 	"." sent @punct #29->13
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a132
-# text = Wan nen ixiwyotsin ox no.... Maahalaxtik.
-# text[orig] = Wa:n ne:n ixiwyotsi:n ox no: .... Ma:ahalaxtik.
-# text[spa] = Y acaso las hojas también..., Las hojas son lisas.
-# text[a132] = Wa:n ne:n ixiwyotsi:n ox no: ....
-# text[a135] = Ma:ahalaxtik.
-# labels = a132 a135 sentence
+# text = Wan nen ixiwyotsin ox no.... 
+# text[orig] = Wa:n ne:n ixiwyotsi:n ox no: .... 
+# text[spa] = Y acaso las hojas también..., 
+# labels = a132 sentence
 "<Wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #1->3
 "<nen>"
-	"nen" ij @discourse
-	"nen" prn
+	"nen" ij @discourse #2->3
 "<ixiwyotsin>"
-	"xiuyo" n hon px3sg
+	"xiuyo" n hon px3sg @root #3->0
 "<ox>"
-	"ox" cnjsub @mark
+	"ox" cnjsub @mark #4->5
 "<no...>"
-	"no" x @reparandum
+	"no" x @parataxis #5->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->3
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a135
+# text = Maahalaxtik.
+# text[orig] = Ma:ahalaxtik.
+# text[spa] = Las hojas son lisas.
+# labels = a135 sentence
 "<Maahalaxtik>"
-	"maajalaxtik" adj s_sg3
+	"maajalaxtik" adj s_sg3 @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a137
 # text = Ma.., telmapapatawak o Ne, xa tikmati mah, mah pahti yehwa in ixiwyotsin oso iteyotsin.

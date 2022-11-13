@@ -10474,6 +10474,42 @@
 5	kikuaj	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a130:1
+# text = Eheyi tonal.
+# text[orig] = Ehe:yi to:nal.
+# text[spa] = Cada tres dias.
+# labels = a130 sentence
+1	Eheyi	ejeyi	NUM	_	_	2	nummod	_	_
+2	tonal	tonal	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a132:1
+# text = A.
+# text[orig] = A:.
+# text[spa] = Ah.
+# labels = a132 sentence
+1	A	a	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a132:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a132 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a135
+# text = Pos amo nikmatia kit.
+# text[orig] = Pos a:mo nikmatia kit.
+# text[spa] = Pues yo no sabía.
+# labels = a135 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	nikmatia	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
+4	kit	kit	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:1
 # text = Amo nikmati ox kipipina porque pane wakkatik.
 # text[orig] = A:mo nikmati ox kipipi:na *porque** pané: wa:kkatik.
@@ -15755,6 +15791,26 @@
 27	ehkawtik	ejkautik	ADJ	_	Number[subj]=Sing|Person[subj]=3	13	parataxis	_	_
 28	sah	saj	ADV	_	_	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a132
+# text = Wan nen ixiwyotsin ox no....
+# text[orig] = Wa:n ne:n ixiwyotsi:n ox no: ....
+# text[spa] = Y acaso las hojas también...,
+# labels = a132 sentence
+1	Wan	huan	CCONJ	_	_	3	cc	_	_
+2	nen	nen	INTJ	_	_	3	discourse	_	_
+3	ixiwyotsin	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	0	root	_	_
+4	ox	ox	SCONJ	_	_	5	mark	_	_
+5	no...	no	X	_	_	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a135
+# text = Maahalaxtik.
+# text[orig] = Ma:ahalaxtik.
+# text[spa] = Las hojas son lisas.
+# labels = a135 sentence
+1	Maahalaxtik	maajalaxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a144
 # text = Ah.
