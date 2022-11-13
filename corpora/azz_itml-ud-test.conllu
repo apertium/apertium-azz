@@ -13111,6 +13111,26 @@
 2	compadrito	compadrito	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a19
+# text = Ekin nikakik namohnotstoyah ne, in tomakil..., in tomakilit onkak eyi taman.
+# text[orig] = Ekin nikakik namohno:tstoyah ne:, i:n tomakil..., i:n tomakilit onkak e:yi taman.
+# text[spa] = Hace un ratito ustedes estaban platicando, este, del <i>tomakilit<i> hay tres tipos.
+# labels = a19 sentence
+1	Ekin	ekin	ADV	_	_	2	advmod	_	_
+2	nikakik	kaki	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pret	0	root	_	_
+3	namohnotstoyah	notsa	VERB	_	Aspect=Imp|Aspect=Prog|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran	2	dep	_	_
+4	ne	ne	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	11	punct	_	_
+6	in	in	DET	_	_	9	reparandum	_	_
+7	tomakil...	tomakil	X	_	_	10	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	in	in	DET	_	_	11	det	_	_
+10	tomakilit	tomakilit	NOUN	_	Case=Abs	11	dislocated	_	_
+11	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	_
+12	eyi	eyi	NUM	_	_	13	nummod	_	_
+13	taman	taman	NOUN	_	Case=Abs	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
 # text[orig] = Tikihtowa:ya *que** onkak se: ista:k, se: *morado** wa:n se: kowtah tomakilit.
@@ -13258,6 +13278,31 @@
 2	xnechili	ilia	VERB	_	Mood=Imp|Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=1|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	1	dep	_	_
 3	motokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=2	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a24
+# text = Pos in istak tomakilit tikixmatih, porque xoxoktik nochi n' iixko wan imaikan xoxoktik.
+# text[orig] = Pos i:n ista:k tomakilit tiki:xmatih, *porque** xoxoktik nochi n' ii:xko wa:n ima:i:ka:n xoxoktik.
+# text[spa] = Pues al que conocemos como <i>ista:ktomakilit<i>, porque el haz y el envés de la hoja es verde.
+# text[a24] = Pos i:n ista:k tomakilit tiki:xmatih,
+# text[a25] = *porque** xoxoktik nochi n' ii:xko wa:n ima:i:ka:n xoxoktik.
+# labels = a24 a25 sentence
+1	Pos	pos	ADV	_	_	5	advmod	_	_
+2	in	in	DET	_	_	4	det	_	_
+3	istak	istak	ADJ	_	_	4	amod	_	_
+4	tomakilit	tomakilit	NOUN	_	Case=Abs	5	obj	_	_
+5	tikixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	porque	porque	SCONJ	_	_	8	mark	_	_
+8	xoxoktik	xoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	5	advcl	_	_
+9	nochi	nochi	PRON	_	_	8	nsubj	_	_
+10	n'	in	DET	_	_	11	det	_	_
+11	iixko	ixko	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+12	wan	huan	CCONJ	_	_	15	cc	_	_
+13-14	imaikan	_	_	_	_	_	_	_	_
+13	ima	mait	NOUN	_	Number[psor]=Sing|Person[psor]=3	14	nmod	_	_
+14	ikan	ikan	NOUN	_	NounType=Relat	15	obl	_	_
+15	xoxoktik	xoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a26
 # text = Wan, nejon, i..., i..., ixochio, istak no wan tsiki..., tsikitsitsin, kan semi wehwei mochiwa n' ixochio.

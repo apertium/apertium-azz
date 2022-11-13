@@ -4,40 +4,33 @@
 # text[spa] = Hace un ratito ustedes estaban platicando, este, del <i>tomakilit<i> hay tres tipos.
 # labels = a19 sentence
 "<Ekin>"
-	"ekin" adv
+	"ekin" adv @advmod #1->2
 "<nikakik>"
-	"kaki" v iv pret s_sg1
+	"kaki" v iv pret s_sg1 @root #2->0
 "<namohnotstoyah>"
-	"*namohnotstoyah"
+	"notsa" v tv prog impf s_pl2 i_ref o_sg3 @dep #3->2
 "<ne>"
-	"ne" adv
-	"ne" det
+	"ne" adv @discourse #4->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->11
 "<in>"
-	"in" det
+	"in" det @reparandum #6->9
 "<tomakil...>"
-	"tomakil" x @reparandum
+	"tomakil" x @reparandum #7->10
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->7
 "<in>"
-	"in" det
+	"in" det @det #9->11
 "<tomakilit>"
-	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3
-;	"tomakilit" n abs s_sg3
+	"tomakilit" n abs @dislocated #10->11
 "<onkak>"
-	"onkak" adv
-	"onka" v iv pret s_sg3
+	"onka" v iv pret s_sg3 @parataxis #11->3
 "<eyi>"
-	"eyi" num
+	"eyi" num @nummod #12->13
 "<taman>"
-	"taman" n abs
-	"man" n px3nn
-	"taman" n abs s_sg3
-;	"taman" n abs s_pl3
+	"taman" n abs @nsubj #13->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->2
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a20
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
@@ -214,32 +207,29 @@
 # text[a72] = pero a:mo pos, a:mo nikmatia ox ta:taman.
 # labels = a66 a67 a69 a71 a72 sentence
 "<Neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @reparandum
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<nikini...>"
 	"nikini" x @reparandum
 "<,>"
 	"," cm @punct
 "<neh>"
-	"nehua" prn pers sg1 short
+	"nehua" prn pers sg1 short @nsubj
 "<nis...>"
 	"nis" x @reparandum
 "<,>"
 	"," cm @punct
 "<nikixmattok>"
-	"ixmati" v tv prog pres s_sg1 o_sg3
+	"ixmati" v tv prog pres s_sg1 o_sg3 @root
 "<n'>"
 	"in" det
-;	"nik" x
 "<tomakilit>"
-	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3
-;	"tomakilit" n abs s_sg3
+	"tomakilit" n abs @obj
 "<,>"
 	"," cm @punct
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<nikitani>"
 	"ita" v tv pp s_sg1 o_sg3
 "<seki>"
@@ -256,7 +246,7 @@
 	"mapisiltik" adj
 	"mapisiltik" adj s_sg3
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc
 "<neli>"
 	"neli" adv
 "<seki>"
@@ -267,24 +257,21 @@
 "<matohtomawak>"
 	"*matohtomawak"
 "<pero>"
-	"pero" cnjcoo
+	"pero" cnjcoo @cc
 "<amo>"
-	"amo" adv
+	"amo" adv @reparandum
 "<pos>"
-	"pos" adv
+	"pos" adv @advmod
 "<,>"
 	"," cm @punct
 "<amo>"
-	"amo" adv
+	"amo" adv @advmod
 "<nikmatia>"
 	"mati" v tv impf s_sg1 o_sg3
 "<ox>"
-	"ox" cnjsub
+	"ox" cnjsub @mark
 "<tataman>"
-	"tataman" n abs
-	"taman" n px3nn
-;	"tataman" n abs s_pl3
-;	"tataman" n abs s_sg3
+	"tataman" adj s_sg3 @advcl
 "<.>"
 	"." sent @punct
 
@@ -403,44 +390,36 @@
 # text[a25] = *porque** xoxoktik nochi n' ii:xko wa:n ima:i:ka:n xoxoktik.
 # labels = a24 a25 sentence
 "<Pos>"
-	"pos" adv
+	"pos" adv @advmod #1->5
 "<in>"
-	"in" det
+	"in" det @det #2->4
 "<istak>"
-	"istak" adj
-	"istak" adj s_sg3
+	"istak" adj @amod #3->4
 "<tomakilit>"
-	"tomakilit" n abs
-;	"tomakilit" n abs s_pl3
-;	"tomakilit" n abs s_sg3
+	"tomakilit" n abs @obj #4->5
 "<tikixmatih>"
-	"ixmati" v tv pres s_pl1 o_sg3
-	"ixmati" v tv pret s_sg2 o_sg3
+	"ixmati" v tv pres s_pl1 o_sg3 @root #5->0
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->8
 "<porque>"
-	"porque" cnjsub
+	"porque" cnjsub @mark #7->8
 "<xoxoktik>"
-	"xoxoktik" adj
-	"xoxoktik" adj s_sg3
+	"xoxoktik" adj s_sg3 @advcl #8->5
 "<nochi>"
-	"nochi" det
-	"nochi" prn
+	"nochi" prn @nsubj #9->8
 "<n'>"
-	"in" det
-;	"nik" x
+	"in" det @det #10->11
 "<iixko>"
-	"ixko" n rel px3sg
+	"ixko" n rel px3sg @obl #11->8
 "<wan>"
-	"huan" cnjcoo
+	"huan" cnjcoo @cc #12->15
 "<imaikan>"
-	"mait" n cmp px3sg
-		"ikan" n rel
+	"mait" n cmp px3sg @nmod #13->14
+		"ikan" n rel @obl #14->15
 "<xoxoktik>"
-	"xoxoktik" adj
-	"xoxoktik" adj s_sg3
+	"xoxoktik" adj s_sg3 @conj #15->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->5
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a26
 # text = Wan, nejon, i..., i..., ixochio, istak no wan tsiki..., tsikitsitsin, kan semi wehwei mochiwa n' ixochio.
