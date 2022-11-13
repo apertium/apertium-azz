@@ -13876,7 +13876,7 @@
 # text[a74] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
 # text[a75] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
 # text[a76] = a:mo nikmatia ox ika tapepechowah.
-# labels = a74 a75 a76
+# labels = a74 a75 a76 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	pane	pane	ADV	_	_	3	advmod	_	_
 3	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -13918,7 +13918,7 @@
 # text[a80] = Tikihtowa *que** i:n, ne:n,
 # text[a81] = kow..., kowit icho:kilo,
 # text[a82] = kwali ika kipepechowah ke:man kichi:wah *globos**.
-# labels = a77 a80 a81 a82
+# labels = a77 a80 a81 a82 sentence
 1	Ne	ne	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -14054,7 +14054,7 @@
 # text[spa] = A:, ..., ¿Y es grande la tela que lo hacen en bola?
 # text[a108] = A:, wa:...
 # text[a110] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
-# labels = a108 a110
+# labels = a108 a110 sentence
 1	A	a	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	wa...	wa	X	_	_	5	reparandum	_	_
@@ -14073,7 +14073,7 @@
 # text[spa] = Pues solamente dime tu nombre y de donde vienes.
 # text[a118] = Pos, 'ne:chili moto:ka:y sayoh wa:n
 # text[a119] = ka:ni n' tiwa:le:wa.
-# labels = a118 a119
+# labels = a118 a119 sentence
 1	Pos	pos	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	'nechili	ilia	VERB	_	Mood=Imp|Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=1|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
