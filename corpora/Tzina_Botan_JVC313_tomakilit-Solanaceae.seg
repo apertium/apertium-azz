@@ -246,7 +246,7 @@
 ^n'/n'$
 ^iixko/iixko$
 ^wan/wan$
-^imaikan/imaikan$
+^imaikan/ima>ikan$
 ^xoxoktik/xoxoktik$
 ^./.$
 
@@ -329,10 +329,9 @@
 ^a/a$
 ^komo/komo$
 ^se/se$
-^kitokasneki/kitokasneki$
+^kitokasneki/kitokas>neki$
 ^,/,$
-^e/e$
-^../..$
+^e../e..$
 ^,/,$
 ^morado/morado$
 ^ya/ya$
@@ -429,9 +428,9 @@
 # text[spa] = Y el envés, el envés de la hoja es morado.
 # labels = a37 sentence
 ^Wan/Wan$
-^imatampa/imatampa$
+^imatampa/ima>tampa$
 ^,/,$
-^imatampa/imatampa$
+^imatampa/ima>tampa$
 ^ya/ya$
 ^ompa/ompa$
 ^moradito/moradito$

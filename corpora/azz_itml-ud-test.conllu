@@ -13291,6 +13291,65 @@
 23	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	21	nsubj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	11	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a28
+# text = Wan mochiwa ika racimito n' ixochiotsin, wan, nejon, iteyo cuando xoxo..., cuando selik xoxoktik.
+# text[orig] = Wa:n mochi:wa ika *racimito** n' ixo:chiotsi:n, wa:n, nejó:n, iteyo *cuando** xoxo..., *cuando** selik xoxoktik.
+# text[spa] = Y las flores salen racimitos, y, este, cuando los frutos son ver..., cuando están tiernos son verdes.
+# text[a28] = Wa:n mochi:wa ika *racimito** n' ixo:chiotsi:n,
+# text[a29] = wa:n, nejó:n, iteyo *cuando** xoxo..., *cuando** selik xoxoktik.
+# labels = a28 a29 sentence
+1	Wan	huan	CCONJ	_	_	2	cc	_	_
+2	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	racimito	racimito	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+5	n'	in	DET	_	_	6	det	_	_
+6	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	18	punct	_	_
+8	wan	huan	CCONJ	_	_	18	cc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	nejon	nejon	PRON	_	_	18	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	18	dislocated	_	_
+13	cuando	cuando	SCONJ	_	_	16	reparandum	_	_
+14	xoxo...	xoxo	X	_	_	17	reparandum	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	cuando	cuando	SCONJ	_	_	18	mark	_	_
+17	selik	selik	ADJ	_	Number[subj]=Sing|Person[subj]=3	18	advcl	_	_
+18	xoxoktik	xoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a30
+# text = Wan cuando chikawak ya, de kwali para se kitekilis a komo se kitokasneki, e.., morado ya nen iteyotsin.
+# text[orig] = Wa:n *cuando** chika:wak ya, de kwali para se: kitekili:s a komo se: kito:kasneki, e:.., *morado** ya ne:n iteyotsi:n.
+# text[spa] = Y cuando ya están recios, cuando ya se puede cosechar, bueno pues si uno quiere sembrarlo, el fruto ya es morado.
+# text[a30] = Wa:n *cuando** chika:wak ya, de kwali para se: kitekili:s a komo se: kito:kasneki,
+# text[a31] = e:.., *morado** ya ne:n iteyotsi:n.
+# labels = a30 a31 sentence
+1	Wan	huan	CCONJ	_	_	19	cc	_	_
+2	cuando	cuando	SCONJ	_	_	3	mark	_	_
+3	chikawak	chikahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	19	advcl	_	_
+4	ya	ya	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	19	advcl	_	_
+8	para	para	SCONJ	_	_	10	mark	_	_
+9	se	se	NUM	_	_	10	nsubj	_	_
+10	kitekilis	tekilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	7	advcl	_	_
+11	a	a	INTJ	_	_	10	discourse	_	_
+12	komo	komo	ADV	_	_	14	mark	_	_
+13	se	se	NUM	_	_	14	nsubj	_	_
+14-15	kitokasneki	_	_	_	_	_	_	_	SpaceAfter=No
+14	kitokas	toka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	19	advcl	_	_
+15	neki	neki	AUX	_	_	14	aux	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	e..	e	X	_	_	19	dep	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	morado	morado	ADJ	_	Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+20	ya	ya	ADV	_	_	19	advmod	_	_
+21	nen	nen	DET	_	_	22	det	_	_
+22	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	19	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	19	punct	_	_
+
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a32:1
 # text = Kemah.
 # text[orig] = Ke:mah.
@@ -13317,6 +13376,24 @@
 11	n'	in	DET	_	_	12	det	_	_
 12	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	10	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a37
+# text = Wan imatampa, imatampa ya ompa moradito.
+# text[orig] = Wa:n ima:tampa, ima:tampa ya ompa *moradito**.
+# text[spa] = Y el envés, el envés de la hoja es morado.
+# labels = a37 sentence
+1	Wan	huan	CCONJ	_	_	9	cc	_	_
+2-3	imatampa	_	_	_	_	_	_	_	SpaceAfter=No
+2	ima	mait	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
+3	tampa	tampa	NOUN	_	NounType=Relat	6	reparandum	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	imatampa	_	_	_	_	_	_	_	_
+5	ima	mait	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
+6	tampa	tampa	NOUN	_	NounType=Relat	9	obl	_	_
+7	ya	ya	ADV	_	_	9	advmod	_	_
+8	ompa	ompa	ADV	_	_	9	advmod	_	_
+9	moradito	morado	ADJ	_	Deriv=Dim|Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a39
 # text = Wan ixochio no iwki sah nen ihistak.
@@ -13375,6 +13452,45 @@
 1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
 2	wehweitsitsin	huejhuei	ADJ	_	Number=Plur|Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a45:2
+# text = Yehwa ika mopata que morado.
+# text[orig] = Yehwa ika mopata *que morado**.
+# text[spa] = Esa es la diferencia, es morada.
+# labels = a45 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	nmod	_	_
+2	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	mopata	pata	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	morado	morado	ADJ	_	Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	3	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a48:2
+# text = Nochipa xoxoktik kemeh iixko, kemeh imaikan wan tepitsin kowyohpihpitsawak, amo tomawak n' ikowyo.
+# text[orig] = Nochipa xoxoktik ke:meh ii:xko, ke:meh ima:i:ka:n wa:n tepitsi:n kowyohpihpitsa:wak, a:mo toma:wak n' ikowyo.
+# text[spa] = Siempre es verde como en el haz tanto el envés. Y el tallo es un poco delgado, los tallos no son gruesos.
+# text[gloss] = Siempre es verde como su haz como su envés y es poquito delgado de tallo, no son gruesos los tallos.
+# text[a48] = Nochipa xoxoktik ke:meh ii:xko, ke:meh ima:i:ka:n
+# text[a49] = wa:n tepitsi:n kowyohpihpitsa:wak, a:mo toma:wak n' ikowyo.
+# labels = a48 a49 sentence
+1	Nochipa	nochipa	ADV	_	_	2	advmod	_	_
+2	xoxoktik	xoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	kemeh	kemej	ADP	_	_	4	case	_	_
+4	iixko	ixko	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	kemeh	kemej	ADP	_	_	8	case	_	_
+7-8	imaikan	_	_	_	_	_	_	_	_
+7	imaikan	mait	NOUN	_	Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
+8		ikan	NOUN	_	NounType=Relat	2	obl	_	_
+9	wan	huan	CCONJ	_	_	11	cc	_	_
+10	tepitsin	tepitsin	ADV	_	_	11	advmod	_	_
+11	kowyohpihpitsawak	kouyojpijpitsahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	amo	amo	ADV	_	_	14	advmod	_	_
+14	tomawak	tomahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	parataxis	_	_
+15	n'	in	DET	_	_	16	det	_	_
+16	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a56
 # text = Yeh no welik.
@@ -13580,6 +13696,22 @@
 9	kikwa	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	parataxis	_	_
 10	no	no	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a81
+# text = Welik, amo teh..., amo tepahwih nion tei.
+# text[orig] = We:lik, a:mo teh..., a:mo te:pahwih nió:n tei.
+# text[spa] = Es sabroso, no, no es tóxico, no causa nada.
+# labels = a81 sentence
+1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	7	punct	_	_
+3	amo	amo	ADV	_	_	7	advmod	_	_
+4	teh...	teh	X	_	_	7	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	amo	amo	ADV	_	_	7	advmod	_	_
+7	tepahwih	tepajuij	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	parataxis	_	_
+8	nion	nion	ADV	_	_	9	advmod	_	_
+9	tei	tei	PRON	_	_	1	dep	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a83
 # text = Kemah.
