@@ -1,8 +1,12 @@
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a40
-# text = Axkan ne nikneki xnechtapowi in se kowit,
-# text[orig] = A:xka:n ne: nikneki xne:chtapowi i:n se: kowit,
-# text[spa] = Ahora quiero que me cuentes de este otro árbol,
-# labels = a40 fragment
+# text = Axkan ne nikneki xnechtapowi in se kowit, kitokaytiah chichiwalayokowit, xa tikixmattos, 'nechtapowi ne keniwki n' ixiwyo, xochiowa, wei n' kowit wan kani n' taki.
+# text[orig] = A:xka:n ne: nikneki xne:chtapowi i:n se: kowit, kito:ka:ytiah chi:chiwala:yo:kowit, xa: tiki:xmattos, 'ne:chtapowi ne: ke:niwki n' ixiwyo, xo:chiowa, we:i n' kowit wa:n ka:ni n' ta:ki.
+# text[spa] = Ahora quiero que me cuentes de este otro árbol, le llaman chi:chiwala:yo:kowit, quizá lo conozcas, cuéntame este, como son las hojas, (cómo) florea, es grande el árbol y en donde se da.
+# text[a40] = A:xka:n ne: nikneki xne:chtapowi i:n se: kowit,
+# text[a41] = kito:ka:ytiah chi:chiwala:yo:kowit, xa: tiki:xmattos,
+# text[a42] = 'ne:chtapowi ne: ke:niwki n' ixiwyo, xo:chiowa,
+# text[a43] = we:i n' kowit wa:n ka:ni n' ta:ki.
+# labels = a40 a41 a42 a43 sentence
 ^Axkan/Axkan$
 ^ne/ne$
 ^nikneki/nikneki$
@@ -11,24 +15,12 @@
 ^se/se$
 ^kowit/kowit$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a41
-# text = kitokaytiah chichiwalayokowit, xa tikixmattos,
-# text[orig] = kito:ka:ytiah chi:chiwala:yo:kowit, xa: tiki:xmattos,
-# text[spa] = le llaman chi:chiwala:yo:kowit, quizá lo conozcas,
-# labels = a41 fragment
 ^kitokaytiah/kitokaytiah$
 ^chichiwalayokowit/chichiwalayokowit$
 ^,/,$
 ^xa/xa$
 ^tikixmattos/tikixmattos$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a42
-# text = 'nechtapowi ne keniwki n' ixiwyo, xochiowa,
-# text[orig] = 'ne:chtapowi ne: ke:niwki n' ixiwyo, xo:chiowa,
-# text[spa] = cuéntame este, como son las hojas, (cómo) florea,
-# labels = a42 fragment
 ^'nechtapowi/'nechtapowi$
 ^ne/ne$
 ^keniwki/keniwki$
@@ -37,12 +29,6 @@
 ^,/,$
 ^xochiowa/xochiowa$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a43
-# text = wei n' kowit wan kani n' taki.
-# text[orig] = we:i n' kowit wa:n ka:ni n' ta:ki.
-# text[spa] = es grande el árbol y en donde se da.
-# labels = a43 fragment
 ^wei/wei$
 ^n'/n'$
 ^kowit/kowit$
@@ -56,7 +42,7 @@
 # text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?
 # text[orig] = I:n iteyotsi:n, ¿se: kikwa *o** teihsá: se: kichi:wilia?
 # text[spa] = ¿Los frutos se pueden comer uno o tienen algún uso?
-# labels = a55 fragment
+# labels = a55 sentence
 ^In/In$
 ^iteyotsin/iteyotsin$
 ^,/,$
@@ -73,7 +59,7 @@
 # text = Nen ki..., tein ika tapepechowayah itech iteyo kikixtiliayah.
 # text[orig] = Ne:n ki..., tein ika tapepechowa:yah itech iteyo kiki:xtilia:yah.
 # text[spa] = Lo que usaban como pegamento lo sacaban de la semilla.
-# labels = a61 sentence
+# labels = a61 sentence complete-tree
 ^Nen/Nen$
 ^ki.../ki...$
 ^,/,$
@@ -89,7 +75,7 @@
 # text = Kampa kitsontekih oso kipostekih.
 # text[orig] = Ka:mpa kitsontekih oso kipostekih.
 # text[spa] = Donde lo rebanan o lo parten.
-# labels = a63 sentence
+# labels = a63 sentence complete
 ^Kampa/Kampa$
 ^kitsontekih/kitsontekih$
 ^oso/oso$
@@ -100,7 +86,7 @@
 # text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
 # text[orig] = ¿I:n kowit wehwei, ne:n, moskaltia oso tsikitsitsi:n?
 # text[spa] = ¿Este árbol crece alto o son pequeños?
-# labels = a67 sentence
+# labels = a67 sentence complete
 ^¿/¿$
 ^In/In$
 ^kowit/kowit$
@@ -117,7 +103,7 @@
 # text = Aja.
 # text[orig] = *Ajá**.
 # text[spa] = Aha.
-# labels = a70 sentence
+# labels = a70 sentence complete
 ^Aja/Aja$
 ^./.$
 
@@ -125,7 +111,7 @@
 # text = ¿Wan ixochiotsin kwali se kaketsa?
 # text[orig] = ¿Wa:n ixo:chiotsi:n kwali se: ka:ketsa?
 # text[spa] = ¿Y las flores se puede poner en florero?
-# labels = a71 sentence
+# labels = a71 sentence complete
 ^¿/¿$
 ^Wan/Wan$
 ^ixochiotsin/ixochiotsin$
@@ -135,10 +121,13 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a74
-# text = Pos pane yehwa sah, neh, neh amo, nejon,
-# text[orig] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
-# text[spa] = Pues parece que es todo, yo, yo no..., este,
-# labels = a74 a75 a76
+# text = Pos pane yehwa sah, neh, neh amo, nejon, neh no nikitani ix..., in kowit pero amo n..., amo, amo nikmatia ox ika tapepechowah.
+# text[orig] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n, neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo, a:mo nikmatia ox ika tapepechowah.
+# text[spa] = Pues parece que es todo, yo, yo no..., este, yo también he visto este árbol pero no..., no, no sabía si lo usan como pegamento.
+# text[a74] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
+# text[a75] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
+# text[a76] = a:mo nikmatia ox ika tapepechowah.
+# labels = a74 a75 a76 sentence
 ^Pos/Pos$
 ^pane/pane$
 ^yehwa/yehwa$
@@ -173,10 +162,14 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a77
-# text = Ne...,
-# text[orig] = Ne:...,
-# text[spa] = Este...,
-# labels = a77 a80 a81 a82
+# text = Ne..., tikihtowa que in, nen, kow..., kowit ichokilo, kwali ika kipepechowah keman kichiwah globos.
+# text[orig] = Ne:..., tikihtowa *que** i:n, ne:n, kow..., kowit icho:kilo, kwali ika kipepechowah ke:man kichi:wah *globos**.
+# text[spa] = Este... dices que ésta, este, savia de (este) árbol, con ella pueden pegar el papel (de china) con que hacen los globos.
+# text[a77] = Ne:...,
+# text[a80] = Tikihtowa *que** i:n, ne:n,
+# text[a81] = kow..., kowit icho:kilo,
+# text[a82] = kwali ika kipepechowah ke:man kichi:wah *globos**.
+# labels = a77 a80 a81 a82 sentence
 ^Ne/Ne$
 ^.../...$
 ^,/,$
@@ -203,7 +196,7 @@
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
 # text[orig] = Ne:, xte:chtapowi ke:ní:w n' kichihchi:wah ne:n tikihtowa *globo**.
 # text[spa] = Este, cuéntanos como hacen los globos.
-# labels = a84 sentence
+# labels = a84 sentence complete
 ^Ne/Ne$
 ^,/,$
 ^xtechtapowi/xtechtapowi$
@@ -215,14 +208,21 @@
 ^globo/globo$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:1
 # text = Mm. In, globo tikihtowa yehwa yon tein nen....
 # text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
 # text[spa] = Mm, Éste globo que dices, es el que...,
-# labels = a90 fragment
+# labels = a90 sentence
 ^Mm/Mm$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a90:2
+# text = In, globo tikihtowa yehwa yon tein nen.... ika yon amat kichihchiwah, yon kiliah papel de china.
+# text[orig] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n .... Ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
+# text[spa] = Mm, Éste globo que dices, es el que..., con ese papel lo hacen, ese que le llaman papel de china.
+# text[a90] = Mm. I:n, *globo** tikihtowa yehwa yo:n tein ne:n ....
+# text[a93] = ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
+# labels = a90 a93 sentence
 ^In/In$
 ^,/,$
 ^globo/globo$
@@ -232,14 +232,7 @@
 ^tein/tein$
 ^nen/nen$
 ^.../...$
-^./.$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a93
-# text = Ika yon amat kichihchiwah, yon kiliah papel de china.
-# text[orig] = Ika yo:n a:mat kichihchi:wah, yo:n kiliah *papel de china**.
-# text[spa] = Con ese papel lo hacen, ese que le llaman papel de china.
-# labels = a93 sentence
-^Ika/Ika$
+^ika/ika$
 ^yon/yo>n$
 ^amat/amat$
 ^kichihchiwah/kichihchiwah$
@@ -255,7 +248,7 @@
 # text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
 # text[orig] = *Bueno**, pos neh a:mo niki..., ke:man nikitak mah ika kipepecho:ka:n, neh nochipa nikita kipepechowah ika ne: tein kikowah ya ne: ka:mpa tanamakah.
 # text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
-# labels = a95 sentence
+# labels = a95 sentence complete
 ^Bueno/Bueno$
 ^,/,$
 ^pos/pos$
@@ -287,14 +280,14 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# labels = a96 sentence
+# labels = a96 sentence complete
 ^Kemah/Kemah$
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:1
-# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
-# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
-# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
+# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? 
+# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? 
+# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? 
 # labels = a98 sentence
 ^¿/¿$
 ^Wan/Wan$
@@ -309,10 +302,10 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a98:2
-# text = ¿Wan keniw nen tikihtowa yowi we..., yowi wehkapan? ¿Keniw n' kichi..., keniw yowi?
-# text[orig] = ¿Wa:n ke:ní:w ne:n tikihtowa yowi we..., yowi wehkapan? ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
-# text[spa] = ¿Y cómo..., este, dices que se eleva a lo alto? ¿Cómo lo hacen, cómo es que se eleva?
-# labels = a98 sentence
+# text = ¿Keniw n' kichi..., keniw yowi?
+# text[orig] = ¿Ke:ní:w n' kichi:..., ke:ní:w yowi?
+# text[spa] = ¿Cómo lo hacen, cómo es que se eleva?
+# labels = a98 sentence complete
 ^¿/¿$
 ^Keniw/Keniw$
 ^n'/n'$
@@ -346,7 +339,7 @@
 # text = ¿Wan keniw xota, toni k..., nen kitaliliah para xota?
 # text[orig] = ¿Wa:n ke:ní:w xo:ta, toni k..., ne:n kita:liliah para xo:ta?
 # text[spa] = ¿Y cómo prende, qué le ponen para que pueda prender?
-# labels = a103 sentence
+# labels = a103 sentence complete
 ^¿/¿$
 ^Wan/Wan$
 ^keniw/keniw$
@@ -362,9 +355,11 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a108
-# text = ¿Wan wei nen tilmah tikihtowa kiololchiwah?
-# text[orig] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
-# text[spa] = ¿Y es grande la tela que lo hacen en bola?
+# text = A, wa... ¿Wan wei nen tilmah tikihtowa kiololchiwah?
+# text[orig] = A:, wa:... ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
+# text[spa] = A:, ..., ¿Y es grande la tela que lo hacen en bola?
+# text[a108] = A:, wa:...
+# text[a110] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
 # labels = a108 a110 sentence
 ^A/A$
 ^,/,$
@@ -395,10 +390,12 @@
 ^?/?$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a118
-# text = Pos, 'nechili motokay sayoh wan
-# text[orig] = Pos, 'ne:chili moto:ka:y sayoh wa:n
-# text[spa] = Pues solamente dime tu nombre y
-# labels = a118 fragment
+# text = Pos, 'nechili motokay sayoh wan kani n' tiwalewa.
+# text[orig] = Pos, 'ne:chili moto:ka:y sayoh wa:n ka:ni n' tiwa:le:wa.
+# text[spa] = Pues solamente dime tu nombre y de donde vienes.
+# text[a118] = Pos, 'ne:chili moto:ka:y sayoh wa:n
+# text[a119] = ka:ni n' tiwa:le:wa.
+# labels = a118 a119 sentence
 ^Pos/Pos$
 ^,/,$
 ^'nechili/'nechili$
@@ -419,10 +416,13 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a44
-# text = Pos onkak kan..., kanika eski yon mochiwa wan,
-# text[orig] = Pos onkak ka:n..., ka:nika eski yo:n mochi:wa wa:n,
-# text[spa] = Pues hay..., en cualquier parte se da y,
-# labels = a44 fragment
+# text = Pos onkak kan..., kanika eski yon mochiwa wan, wan no n' ikowyo mahya achi istak n' ikes:pan, wan ixiwyo, nejon, no tepitsin maahalaxtik.
+# text[orig] = Pos onkak ka:n..., ka:nika eski yo:n mochi:wa wa:n, wa:n no: n' ikowyo mahyá: achi ista:k n' ikes:pan, wa:n ixiwyo, nejó:n, no: tepitsi:n ma:ahalaxtik.
+# text[spa] = Pues hay..., en cualquier parte se da y, y también el tronco es un blanquecino en la superficie, y las hojas, este, son un poco lisas.
+# text[a44] = Pos onkak ka:n..., ka:nika eski yo:n mochi:wa wa:n,
+# text[a45] = wa:n no: n' ikowyo mahyá: achi ista:k n' ikes:pan,
+# text[a46] = wa:n ixiwyo, nejó:n, no: tepitsi:n ma:ahalaxtik.
+# labels = a44 a45 a46 sentence
 ^Pos/Pos$
 ^onkak/onkak$
 ^kan/kan$
@@ -434,12 +434,6 @@
 ^mochiwa/mochiwa$
 ^wan/wan$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a45
-# text = wan no n' ikowyo mahya achi istak n' ikes:pan,
-# text[orig] = wa:n no: n' ikowyo mahyá: achi ista:k n' ikes:pan,
-# text[spa] = y también el tronco es un blanquecino en la superficie,
-# labels = a45 fragment
 ^wan/wan$
 ^no/no$
 ^n'/n'$
@@ -452,12 +446,6 @@
 ^:/:$
 ^pan/pan$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a46
-# text = wan ixiwyo, nejon, no tepitsin maahalaxtik.
-# text[orig] = wa:n ixiwyo, nejó:n, no: tepitsi:n ma:ahalaxtik.
-# text[spa] = y las hojas, este, son un poco lisas.
-# labels = a46 fragment
 ^wan/wan$
 ^ixiwyo/ixiwyo$
 ^,/,$
@@ -469,10 +457,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a47
-# text = Wan cuando pewa no posoni a, pos de yon posoni a n' ixochiotsin xiini a no,
-# text[orig] = Wa:n *cuando** pe:wa no: poso:ni a, pos de yo:n poso:ni a n' ixo:chiotsi:n xi:i:ni a no:,
-# text[spa] = Y cuando empieza a florear, una vez que florea, se caen,
-# labels = a47 fragment
+# text = Wan cuando pewa no posoni a, pos de yon posoni a n' ixochiotsin xiini a no, ihistak n' ixochio.
+# text[orig] = Wa:n *cuando** pe:wa no: poso:ni a, pos de yo:n poso:ni a n' ixo:chiotsi:n xi:i:ni a no:, ihista:k n' ixo:chio.
+# text[spa] = Y cuando empieza a florear, una vez que florea, se caen, las flores son blancas.
+# text[a47] = Wa:n *cuando** pe:wa no: poso:ni a, pos de yo:n poso:ni a n' ixo:chiotsi:n xi:i:ni a no:,
+# text[a48] = ihista:k n' ixo:chio.
+# labels = a47 a48 sentence
 ^Wan/Wan$
 ^cuando/cuando$
 ^pewa/pewa$
@@ -491,12 +481,6 @@
 ^a/a$
 ^no/no$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a48
-# text = ihistak n' ixochio.
-# text[orig] = ihista:k n' ixo:chio.
-# text[spa] = las flores son blancas.
-# labels = a48 fragment
 ^ihistak/ihistak$
 ^n'/n'$
 ^ixochio/ixochio$
@@ -564,10 +548,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a52
-# text = Kemah, wan de pewa xiini a pos yon kampa wetsiti ompa mahya tahtapani a,
-# text[orig] = Ke:mah, wa:n de pe:wa xi:i:ni a pos yo:n ka:mpa wetsiti ompa mahyá: tahtapa:ni a,
-# text[spa] = Sí, y cuando ya se caen del árbol, donde caen ahí se abren los frutos,
-# labels = a52 fragment
+# text = Kemah, wan de pewa xiini a pos yon kampa wetsiti ompa mahya tahtapani a, de chikawaya ya.
+# text[orig] = Ke:mah, wa:n de pe:wa xi:i:ni a pos yo:n ka:mpa wetsiti ompa mahyá: tahtapa:ni a, de chika:waya ya.
+# text[spa] = Sí, y cuando ya se caen del árbol, donde caen ahí se abren los frutos, una vez que se maduran.
+# text[a52] = Ke:mah, wa:n de pe:wa xi:i:ni a pos yo:n ka:mpa wetsiti ompa mahyá: tahtapa:ni a,
+# text[a53] = de chika:waya ya.
+# labels = a52 a53 sentence
 ^Kemah/Kemah$
 ^,/,$
 ^wan/wan$
@@ -584,12 +570,6 @@
 ^tahtapani/tahtapani$
 ^a/a$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a53
-# text = de chikawaya ya.
-# text[orig] = de chika:waya ya.
-# text[spa] = una vez que se maduran.
-# labels = a53 fragment
 ^de/de$
 ^chikawaya/chikawaya$
 ^ya/ya$
@@ -602,8 +582,7 @@
 # labels = a54 sentence
 ^Iwki/Iwki$
 ^neh/neh$
-^n/n$
-^.../...$
+^n.../n...$
 ^,/,$
 ^iwki/iwki$
 ^neh/neh$
@@ -611,10 +590,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a56
-# text = Amo, yehwa yon iteyo amo n'mati, yon amo se kikwa, pero n' tein yehwa yon, cuando, cuando de kemeh yon tein welaman ne, chikawtok,
-# text[orig] = A:mo, yehwa yo:n iteyo a:mo n'mati, yo:n a:mo se: kikwa, pero n' tein yehwa yo:n, *cuando, cuando de** ke:meh yo:n tein wela:man ne:, chika:wtok,
-# text[spa] = No, sobre esas semillas no sé, esos no se comen, pero si, esos, cuando, cuando justo cuando están bien maduros,
-# labels = a56 fragment
+# text = Amo, yehwa yon iteyo amo n'mati, yon amo se kikwa, pero n' tein yehwa yon, cuando, cuando de kemeh yon tein welaman ne, chikawtok, pos se, komo se kiteki cuando xiini a pos no de pan..., panotok a tak de nejon amo kisas ok n' ichokilo, pero cuando kwaltsin de yon oksik apenas kisa n' ichokilo.
+# text[orig] = A:mo, yehwa yo:n iteyo a:mo n'mati, yo:n a:mo se: kikwa, pero n' tein yehwa yo:n, *cuando, cuando de** ke:meh yo:n tein wela:man ne:, chika:wtok, pos se:, komo se: kiteki *cuando** xi:i:ni a pos no: de pan..., pano:tok a tak de nejó:n a:mo ki:sas ok n' icho:kilo, *pero cuando** kwaltsi:n de yo:n oksik *apenas** ki:sa n' icho:kilo.
+# text[spa] = No, sobre esas semillas no sé, esos no se comen, pero si, esos, cuando, cuando justo cuando están bien maduros, pues uno, si uno los corta..., cuando se caen, pues de que se caen, pues ya están muy recios ya no le sale la savia pero cuando alcanzan el punto exacto de maduración, le sale la savia.
+# text[a56] = A:mo, yehwa yo:n iteyo a:mo n'mati, yo:n a:mo se: kikwa, pero n' tein yehwa yo:n, *cuando, cuando de** ke:meh yo:n tein wela:man ne:, chika:wtok,
+# text[a57] = pos se:, komo se: kiteki *cuando** xi:i:ni a pos no: de pan..., pano:tok a tak de nejó:n a:mo ki:sas ok n' icho:kilo, *pero cuando** kwaltsi:n de yo:n oksik *apenas** ki:sa n' icho:kilo.
+# labels = a56 a57 sentence
 ^Amo/Amo$
 ^,/,$
 ^yehwa/yehwa$
@@ -646,12 +627,6 @@
 ^,/,$
 ^chikawtok/chikawtok$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a57
-# text = pos se, komo se kiteki cuando xiini a pos no de pan..., panotok a tak de nejon amo kisas ok n' ichokilo, pero cuando kwaltsin de yon oksik apenas kisa n' ichokilo.
-# text[orig] = pos se:, komo se: kiteki *cuando** xi:i:ni a pos no: de pan..., pano:tok a tak de nejó:n a:mo ki:sas ok n' icho:kilo, *pero cuando** kwaltsi:n de yo:n oksik *apenas** ki:sa n' icho:kilo.
-# text[spa] = pues uno, si uno los corta..., cuando se caen, pues de que se caen, pues ya están muy recios ya no le sale la savia pero cuando alcanzan el punto exacto de maduración, le sale la savia.
-# labels = a57 fragment
 ^pos/pos$
 ^se/se$
 ^,/,$
@@ -704,10 +679,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a59
-# text = Kemeh yon ipa kichiwah globos, ne keman yehwa ika kipepechowayah, pero aman amo yehwa ok n' kikwih, aman kikwih nochi tein ne
-# text[orig] = Ke:meh yo:n i:pa kichi:wah *globos**, ne: ke:man yehwa ika kipepechowa:yah, pero a:man a:mo yehwa ok n' kikwih, a:man kikwih nochi tein ne:
-# text[spa] = Como cuando hacen los globos, en aquéllos tiempos lo usaban como pegamento, pero ahora ya no lo usan, ahora lo usan todo lo que
-# labels = a59 fragment
+# text = Kemeh yon ipa kichiwah globos, ne keman yehwa ika kipepechowayah, pero aman amo yehwa ok n' kikwih, aman kikwih nochi tein ne monamaka kemeh ne nejon, kampa tana..., tanamakaloyan ya.
+# text[orig] = Ke:meh yo:n i:pa kichi:wah *globos**, ne: ke:man yehwa ika kipepechowa:yah, pero a:man a:mo yehwa ok n' kikwih, a:man kikwih nochi tein ne: monamaka ke:meh ne: nejó:n, ka:mpa tana..., tanamakalo:ya:n ya.
+# text[spa] = Como cuando hacen los globos, en aquéllos tiempos lo usaban como pegamento, pero ahora ya no lo usan, ahora lo usan todo lo que venden como allá, este, en las tiendas.
+# text[a59] = Ke:meh yo:n i:pa kichi:wah *globos**, ne: ke:man yehwa ika kipepechowa:yah, pero a:man a:mo yehwa ok n' kikwih, a:man kikwih nochi tein ne:
+# text[1] = monamaka ke:meh ne: nejó:n, ka:mpa tana..., tanamakalo:ya:n ya.
+# labels = a59 a60 sentence
 ^Kemeh/Kemeh$
 ^yon/yo>n$
 ^ipa/ipa$
@@ -733,25 +710,23 @@
 ^nochi/nochi$
 ^tein/tein$
 ^ne/ne$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a60
-# text = monamaka kemeh ne nejon, kampa tana..., tanamakaloyan ya. Amo yehwa ok kikwih n' aman, am..., ne keman kikwiah yehwa, pero aman amo ok.
-# text[orig] = monamaka ke:meh ne: nejó:n, ka:mpa tana..., tanamakalo:ya:n ya. A:mo yehwa ok kikwih n' a:man, a:m..., ne: ke:man kikwiah yehwa, pero a:man a:mo ok.
-# text[spa] = venden como allá, este, en las tiendas. Ahora ya no lo usan, en aquéllos tiempos lo usaban pero ahora ya no.
-# labels = a60 fragment
 ^monamaka/monamaka$
 ^kemeh/kemeh$
 ^ne/ne$
 ^nejon/nejon$
 ^,/,$
 ^kampa/kampa$
-^tana/tana$
-^.../...$
+^tana.../tana...$
 ^,/,$
 ^tanamakaloyan/tanamakaloyan$
 ^ya/ya$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a60:2
+# text = Amo yehwa ok kikwih n' aman, am..., ne keman kikwiah yehwa, pero aman amo ok.
+# text[orig] = A:mo yehwa ok kikwih n' a:man, a:m..., ne: ke:man kikwiah yehwa, pero a:man a:mo ok.
+# text[spa] = Ahora ya no lo usan, en aquéllos tiempos lo usaban pero ahora ya no.
+# labels = a60 sentence 
 ^Amo/Amo$
 ^yehwa/yehwa$
 ^ok/ok$
@@ -797,20 +772,30 @@
 ^ichokilotsin/ichokilotsin$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a64
-# text = Wan k.... Mm, kemah. Amo kampa kisa ya wan ompa ki..., kwali kitekih wan kisa n' ichokilo.
-# text[orig] = Wa:n k.... Mm, ke:mah. A:mo ka:mpa ki:sa ya wa:n ompa ki..., kwali kitekih wa:n ki:sa n' icho:kilo.
-# text[spa] = Y..., Mm, si. No, donde sale y ahí..., lo pueden cortar y ya sale la savia.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a64:1
+# text = Wan k.... 
+# text[orig] = Wa:n k.... 
+# text[spa] = Y..., 
 # labels = a64 sentence
 ^Wan/Wan$
 ^k.../k...$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a64:2
+# text = Mm, kemah.
+# text[orig] = Mm, ke:mah.
+# text[spa] = Mm, si. 
+# labels = a64 sentence
 ^Mm/Mm$
 ^,/,$
 ^kemah/kemah$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a64:3
+# text = Amo kampa kisa ya wan ompa ki..., kwali kitekih wan kisa n' ichokilo.
+# text[orig] = A:mo ka:mpa ki:sa ya wa:n ompa ki..., kwali kitekih wa:n ki:sa n' icho:kilo.
+# text[spa] = No, donde sale y ahí..., lo pueden cortar y ya sale la savia.
+# labels = a64 sentence
 ^Amo/Amo$
 ^kampa/kampa$
 ^kisa/kisa$
@@ -827,14 +812,19 @@
 ^ichokilo/ichokilo$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a65
-# text = Mm. Yehwa yon kohkostik a.
-# text[orig] = Mm. Yehwa yo:n kohkostik a.
-# text[spa] = Mm. Son esos, los amarillos.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a65:1
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm. 
 # labels = a65 sentence
 ^Mm/Mm$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a65:2
+# text = Yehwa yon kohkostik a.
+# text[orig] = Yehwa yo:n kohkostik a.
+# text[spa] = Son esos, los amarillos.
+# labels = a65 sentence
 ^Yehwa/Yehwa$
 ^yon/yo>n$
 ^kohkostik/kohkostik$
@@ -845,7 +835,7 @@
 # text = Kisa n' ichokilo istak kwaltsin.
 # text[orig] = Ki:sa n' icho:kilo ista:k kwaltsi:n.
 # text[spa] = Sale la savia, es blanca.
-# labels = a66 sentence
+# labels = a66 sentence complete
 ^Kisa/Kisa$
 ^n'/n'$
 ^ichokilo/ichokilo$
@@ -853,11 +843,11 @@
 ^kwaltsin/kwaltsin$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a68
-# text = Seki wehwei moskaltia wan seki tsikitsitsin. Pero komo wehkawa ihkatok pos mochiwa wei,
-# text[orig] = Seki wehwei moskaltia wa:n seki tsikitsitsi:n. Pero komo wehka:wa ihkatok pos mochi:wa we:i,
-# text[spa] = Unos crecen altos y unos pequeños. Pero si el árbol permanece mucho tiempo, crece alto,
-# labels = a68 fragment
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a68:1
+# text = Seki wehwei moskaltia wan seki tsikitsitsin. 
+# text[orig] = Seki wehwei moskaltia wa:n seki tsikitsitsi:n. 
+# text[spa] = Unos crecen altos y unos pequeños. 
+# labels = a68 sentence 
 ^Seki/Seki$
 ^wehwei/wehwei$
 ^moskaltia/moskaltia$
@@ -866,6 +856,13 @@
 ^tsikitsitsin/tsikitsitsin$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a68:2
+# text = Pero komo wehkawa ihkatok pos mochiwa wei, komo amo kiteximah.
+# text[orig] = Pero komo wehka:wa ihkatok pos mochi:wa we:i, komo a:mo kite:xi:mah.
+# text[spa] = Pero si el árbol permanece mucho tiempo, crece alto, si acaso no lo tumban.
+# text[2] = Pero komo wehka:wa ihkatok pos mochi:wa we:i,
+# text[a69] = komo a:mo kite:xi:mah.
+# labels = a68 a69 sentence
 ^Pero/Pero$
 ^komo/komo$
 ^wehkawa/wehkawa$
@@ -874,12 +871,6 @@
 ^mochiwa/mochiwa$
 ^wei/wei$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a69
-# text = komo amo kiteximah.
-# text[orig] = komo a:mo kite:xi:mah.
-# text[spa] = si acaso no lo tumban.
-# labels = a69 fragment
 ^komo/komo$
 ^amo/amo$
 ^kiteximah/kiteximah$
@@ -889,7 +880,7 @@
 # text = Amo weli, ta in yeh tsikitsitsin.
 # text[orig] = A:mo weli, ta: i:n yeh tsikitsitsi:n.
 # text[spa] = No es posible, pues estas son pequeñas.
-# labels = a72 sentence
+# labels = a72 sentence complete
 ^Amo/Amo$
 ^weli/weli$
 ^,/,$
@@ -899,10 +890,10 @@
 ^tsikitsitsin/tsikitsitsin$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a73
-# text = Kan wel se kaketsa. Pero ahwiak kwaltsin no n' ixochio. Mm.
-# text[orig] = Ka:n wel se: ka:ketsa. Pero ahwia:k kwaltsi:n no: n' ixo:chio. Mm.
-# text[spa] = No se puede poner en floreros. Pero las flores tiene un olor agradable. Mm.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a73:1
+# text = Kan wel se kaketsa. 
+# text[orig] = Ka:n wel se: ka:ketsa. 
+# text[spa] = No se puede poner en floreros. 
 # labels = a73 sentence
 ^Kan/Kan$
 ^wel/wel$
@@ -910,6 +901,11 @@
 ^kaketsa/kaketsa$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a73:2
+# text = Pero ahwiak kwaltsin no n' ixochio. 
+# text[orig] = Pero ahwia:k kwaltsi:n no: n' ixo:chio. 
+# text[spa] = Pero las flores tiene un olor agradable. 
+# labels = a73 sentence
 ^Pero/Pero$
 ^ahwiak/ahwiak$
 ^kwaltsin/kwaltsin$
@@ -918,6 +914,11 @@
 ^ixochio/ixochio$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a73:3
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a73 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -934,14 +935,19 @@
 ^tapepechowah/tapepechowah$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a79
-# text = Mm. Kwaltia pero neli ipa solamente para yon globo sah kichiwah. Mm.
-# text[orig] = Mm. Kwaltia pero neli i:pa *solamente para** yo:n *globo** sah kichi:wah. Mm.
-# text[spa] = Mm. Sirve pero es cierto, solamente para pegar el papel para un globo. Mm.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a79:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
 # labels = a79 sentence
 ^Mm/Mm$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a79:2
+# text = Kwaltia pero neli ipa solamente para yon globo sah kichiwah.
+# text[orig] = Kwaltia pero neli i:pa *solamente para** yo:n *globo** sah kichi:wah.
+# text[spa] = Sirve pero es cierto, solamente para pegar el papel para un globo.
+# labels = a79 sentence
 ^Kwaltia/Kwaltia$
 ^pero/pero$
 ^neli/neli$
@@ -954,6 +960,11 @@
 ^kichiwah/kichiwah$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a79:3
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a79 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -966,10 +977,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a85
-# text = Pos neh amo nikmati, amo keman n'chiwani yon globo, pero nikitani ipa kemeh kichihchiwah, kipehpepechowah de yon amat monamaka ompa ne, kampa t..., ne,
-# text[orig] = Pos neh a:mo nikmati, a:mo ke:man n'chi:wani yo:n *globo**, pero nikitani i:pa ke:meh kichihchi:wah, kipehpepechowah de yo:n a:mat monamaka ompa ne:, ka:mpa t..., ne:,
-# text[spa] = Pues yo no sé, nunca he hecho ese globo, pero he visto como lo hacen, pegan ese papel que se vende allá
-# labels = a85 fragment
+# text = Pos neh amo nikmati, amo keman n'chiwani yon globo, pero nikitani ipa kemeh kichihchiwah, kipehpepechowah de yon amat monamaka ompa ne, kampa t..., ne, tanamakaloyan.
+# text[orig] = Pos neh a:mo nikmati, a:mo ke:man n'chi:wani yo:n *globo**, pero nikitani i:pa ke:meh kichihchi:wah, kipehpepechowah de yo:n a:mat monamaka ompa ne:, ka:mpa t..., ne:, tanamakalo:ya:n.
+# text[spa] = Pues yo no sé, nunca he hecho ese globo, pero he visto como lo hacen, pegan ese papel que se vende allá en la tienda.
+# text[a85] = Pos neh a:mo nikmati, a:mo ke:man n'chi:wani yo:n *globo**, pero nikitani i:pa ke:meh kichihchi:wah, kipehpepechowah de yo:n a:mat monamaka ompa ne:, ka:mpa t..., ne:,
+# text[a86] = tanamakalo:ya:n.
+# labels = a85 a86 sentence
 ^Pos/Pos$
 ^neh/neh$
 ^amo/amo$
@@ -1000,19 +1013,13 @@
 ^,/,$
 ^ne/ne$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a86
-# text = tanamakaloyan.
-# text[orig] = tanamakalo:ya:n.
-# text[spa] = en la tienda.
-# labels = a86 fragment
 ^tanamakaloyan/tanamakaloyan$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a87
-# text = Wan ompa ne n' kikowah, nejon, onkak, onkak de miak colores. Wan yehwa yon nikiita neh kichihchiwah, pero amo keman n'chihchiwa neh, pero nikiitani keniw n' kichiwah, pos kipehpechowah ika.
-# text[orig] = Wa:n ompa ne: n' kikowah, nejó:n, onkak, onkak de miak *colores**. Wa:n yehwa yo:n niki:ita neh kichihchi:wah, pero a:mo ke:man n'chihchi:wa neh, pero niki:itani ke:ní:w n' kichi:wah, pos kipehpechowah ika.
-# text[spa] = Y ahí lo compran, este, hay, hay bastantes colores. Y ese es lo que he visto que lo hacen, pero yo nunca lo he hecho pero he visto como lo elaboran pues con ello lo pegan.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a87:1
+# text = Wan ompa ne n' kikowah, nejon, onkak, onkak de miak colores. 
+# text[orig] = Wa:n ompa ne: n' kikowah, nejó:n, onkak, onkak de miak *colores**. 
+# text[spa] = Y ahí lo compran, este, hay, hay bastantes colores. 
 # labels = a87 sentence
 ^Wan/Wan$
 ^ompa/ompa$
@@ -1030,6 +1037,11 @@
 ^colores/colores$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a87:2
+# text = Wan yehwa yon nikiita neh kichihchiwah, pero amo keman n'chihchiwa neh, pero nikiitani keniw n' kichiwah, pos kipehpechowah ika.
+# text[orig] = Wa:n yehwa yo:n niki:ita neh kichihchi:wah, pero a:mo ke:man n'chihchi:wa neh, pero niki:itani ke:ní:w n' kichi:wah, pos kipehpechowah ika.
+# text[spa] = Y ese es lo que he visto que lo hacen, pero yo nunca lo he hecho pero he visto como lo elaboran pues con ello lo pegan.
+# labels = a87 sentence
 ^Wan/Wan$
 ^yehwa/yehwa$
 ^yon/yo>n$
@@ -1114,7 +1126,7 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:1
-# text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
+# text = Tein, kemah, yon pankisa ahko, yowi wehka.
 # text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
 # text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
 # labels = a91 sentence
@@ -1131,7 +1143,7 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a91:2
-# text = Tein, kemah, yon pankisa ahko, yowi wehka. Mm.
+# text = Mm.
 # text[orig] = Tein, ke:mah, yo:n panki:sa ahko, yowi wehka. Mm.
 # text[spa] = Es el..., sí, el que se eleva a lo alto, se va lejos. Mm.
 # labels = a91 sentence
@@ -1169,19 +1181,29 @@
 ^a/a$
 ^./.$
 
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a94
-# text = Kemah. Aja, yehwa. Mm.
-# text[orig] = Ke:mah. Ajá, yehwa. Mm.
-# text[spa] = Sí. Aha, esas. Mm.
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a94:1
+# text = Kemah. 
+# text[orig] = Ke:mah. 
+# text[spa] = Sí. 
 # labels = a94 sentence
 ^Kemah/Kemah$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a94:2
+# text = Aja, yehwa. 
+# text[orig] = Ajá, yehwa. 
+# text[spa] = Aha, esas. 
+# labels = a94 sentence
 ^Aja/Aja$
 ^,/,$
 ^yehwa/yehwa$
 ^./.$
 
+# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a94:3
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a94 sentence
 ^Mm/Mm$
 ^./.$
 
@@ -1215,10 +1237,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a99
-# text = Pos cuando, cuando yon pankisa ya, cuando, cuando pankisati a ata kipipitsa, komo amo kipipitsah ika sombrero,
-# text[orig] = Pos *cuando, cuando** yo:n panki:sa ya, *cuando, cuando** panki:sati a ata kipi:pi:tsa, komo a:mo kipi:pi:tsah ika *sombrero**,
-# text[spa] = Pues cuando ya se eleva, cuando, cuando todavía se va a elevar lo soplan, o lo soplan con un sombrero,
-# labels = a99 fragment
+# text = Pos cuando, cuando yon pankisa ya, cuando, cuando pankisati a ata kipipitsa, komo amo kipipitsah ika sombrero, wan kemah pewa pankisa ya posoni a wan kemah yowi, yowi ehekaixko ya, yowi, yowi wehka, ta pos tein kwali yowi, yowi wehka, amo nejon, amo se kita ok despues.
+# text[orig] = Pos *cuando, cuando** yo:n panki:sa ya, *cuando, cuando** panki:sati a ata kipi:pi:tsa, komo a:mo kipi:pi:tsah ika *sombrero**, wa:n ke:mah pe:wa pa:nki:sa ya poso:ni a wa:n ke:mah yowi, yowi ehekai:xko ya, yowi, yowi wehka, ta: pos tein kwali yowi, yowi wehka, a:mo nejó:n, a:mo se: kita ok *después**.
+# text[spa] = Pues cuando ya se eleva, cuando, cuando todavía se va a elevar lo soplan, o lo soplan con un sombrero, y luego ya empieza a elevarse, se infla y luego ya se va, se va en el aire, se va, se va lejos, pues el que se eleva, se va lejos, no, este, ya no se vuelve a mirar después.
+# text[a99] = Pos *cuando, cuando** yo:n panki:sa ya, *cuando, cuando** panki:sati a ata kipi:pi:tsa, komo a:mo kipi:pi:tsah ika *sombrero**,
+# text[a100] = wa:n ke:mah pe:wa pa:nki:sa ya poso:ni a wa:n ke:mah yowi, yowi ehekai:xko ya, yowi, yowi wehka, ta: pos tein kwali yowi, yowi wehka, a:mo nejó:n, a:mo se: kita ok *después**.
+# labels = a100 a99 sentence
 ^Pos/Pos$
 ^cuando/cuando$
 ^,/,$
@@ -1241,12 +1265,6 @@
 ^ika/ika$
 ^sombrero/sombrero$
 ^,/,$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a100
-# text = wan kemah pewa pankisa ya posoni a wan kemah yowi, yowi ehekaixko ya, yowi, yowi wehka, ta pos tein kwali yowi, yowi wehka, amo nejon, amo se kita ok despues.
-# text[orig] = wa:n ke:mah pe:wa pa:nki:sa ya poso:ni a wa:n ke:mah yowi, yowi ehekai:xko ya, yowi, yowi wehka, ta: pos tein kwali yowi, yowi wehka, a:mo nejó:n, a:mo se: kita ok *después**.
-# text[spa] = y luego ya empieza a elevarse, se infla y luego ya se va, se va en el aire, se va, se va lejos, pues el que se eleva, se va lejos, no, este, ya no se vuelve a mirar después.
-# labels = a100 fragment
 ^wan/wan$
 ^kemah/kemah$
 ^pewa/pewa$
@@ -1259,7 +1277,7 @@
 ^yowi/yowi$
 ^,/,$
 ^yowi/yowi$
-^ehekaixko/eheka>ixko$
+^ehekaixko/ehekaixko$
 ^ya/ya$
 ^,/,$
 ^yowi/yowi$
@@ -1327,10 +1345,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a105
-# text = Yehwa ne keman ipa ki..., kikwiah wan yehwa yon se tilmah kitaliliah s..., kichiwah se weibola ihkwin wan no iw..., ne taihtik kitaliliah mah se
-# text[orig] = Yehwa ne: ke:man i:pa ki..., kikwiah wa:n yehwa yo:n se: tilmah kita:liliah s..., kichi:wah se: *we:ibola** ihkwí:n wa:n no: iw..., ne: taihtik kita:liliah mah se:
-# text[spa] = Eso es lo que siempre lo usaban en aquéllos tiempos y le ponen una tela, hacen una bola grande (con la tela), así y también allá adentro le ponen (como) un
-# labels = a105 fragment
+# text = Yehwa ne keman ipa ki..., kikwiah wan yehwa yon se tilmah kitaliliah s..., kichiwah se weibola ihkwin wan no iw..., ne taihtik kitaliliah mah se alambre ihkwini, mah tenkoyoktik ihkwini wan ompa ya n' kitaliliah wan kemah kixotaltiah ya.
+# text[orig] = Yehwa ne: ke:man i:pa ki..., kikwiah wa:n yehwa yo:n se: tilmah kita:liliah s..., kichi:wah se: *we:ibola** ihkwí:n wa:n no: iw..., ne: taihtik kita:liliah mah se: *alambre** ihkwi:ni, mah te:nkoyoktik ihkwi:ni wa:n ompa ya n' kita:liliah wa:n ke:mah kixo:taltiah ya.
+# text[spa] = Eso es lo que siempre lo usaban en aquéllos tiempos y le ponen una tela, hacen una bola grande (con la tela), así y también allá adentro le ponen (como) un alambre, así, que tenga una perforación (boca)así y ahí le ponen y luego ya lo prenden.
+# text[a105] = Yehwa ne: ke:man i:pa ki..., kikwiah wa:n yehwa yo:n se: tilmah kita:liliah s..., kichi:wah se: *we:ibola** ihkwí:n wa:n no: iw..., ne: taihtik kita:liliah mah se:
+# text[a106] = *alambre** ihkwi:ni, mah te:nkoyoktik ihkwi:ni wa:n ompa ya n' kita:liliah wa:n ke:mah kixo:taltiah ya.
+# labels = a105 a106 sentence
 ^Yehwa/Yehwa$
 ^ne/ne$
 ^keman/keman$
@@ -1359,12 +1379,6 @@
 ^kitaliliah/kitaliliah$
 ^mah/mah$
 ^se/se$
-
-# sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a106
-# text = alambre ihkwini, mah tenkoyoktik ihkwini wan ompa ya n' kitaliliah wan kemah kixotaltiah ya.
-# text[orig] = *alambre** ihkwi:ni, mah te:nkoyoktik ihkwi:ni wa:n ompa ya n' kita:liliah wa:n ke:mah kixo:taltiah ya.
-# text[spa] = alambre, así, que tenga una perforación (boca)así y ahí le ponen y luego ya lo prenden.
-# labels = a106 fragment
 ^alambre/alambre$
 ^ihkwini/ihkwini$
 ^,/,$
@@ -1401,7 +1415,7 @@
 ^Kemah/Kemah$
 ^,/,$
 ^yowi/yowi$
-^ehekaixko/eheka>ixko$
+^ehekaixko/ehekaixko$
 ^,/,$
 ^yowi/yowi$
 ^wehka/wehka$
@@ -1429,17 +1443,17 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:1
-# text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
-# text[orig] = Mm. Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. Mm.
-# text[spa] = Mm, así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. Mm.
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm.
 # labels = a112 sentence
 ^Mm/Mm$
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:2
-# text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
-# text[orig] = Mm. Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. Mm.
-# text[spa] = Mm, así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. Mm.
+# text =  Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. 
+# text[orig] =  Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. 
+# text[spa] = así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. 
 # labels = a112 sentence
 ^Ihkwin/Ihkwin$
 ^kichiwah/kichiwah$
@@ -1472,15 +1486,15 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a112:3
-# text = Mm. Ihkwin kichiwah ololtsini, pos ke..., wan kikwiah seki ne keman pos 'kwiah nochi onkaya tilmah de yon okseki, pero aman onkak nochi yon alaxtik a. Mm.
-# text[orig] = Mm. Ihkwí:n kichi:wah ololtsi:ni, pos ke..., wa:n kikwiah seki ne: ke:man pos 'kwiah nochi onkaya tilmah de yo:n okseki, pero a:man onkak nochi yo:n alaxtik a. Mm.
-# text[spa] = Mm, así lo hacen en bola, pues..., y lo usaban una..., en aquéllos tiempos pues usaban una tela que había, de otro tipo de tela, pero en estos tiempos hay de esa que es lisa. Mm.
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm, 
 # labels = a112 sentence
 ^Mm/Mm$
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a114:1
-# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota. 
+# text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota.
 # text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
 # text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
 # labels = a114 sentence
@@ -1551,10 +1565,12 @@
 ^./.$
 
 # sent_id = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i_ed-2017-12-20_trad-ADA_FORM.eaf:a116
-# text = Neh iwki yon n'mattok ipa, pero yehwa n'mattok tein kwaltia solamente manta,
-# text[orig] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**,
-# text[spa] = Yo sé de esa manera, pues eso sé que sirve solamente la manta,
-# labels = a116 fragment
+# text = Neh iwki yon n'mattok ipa, pero yehwa n'mattok tein kwaltia solamente manta, oso yehwa n' tein popelinatilmah.
+# text[orig] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**, oso yehwa n' tein *popeli:natilmah**.
+# text[spa] = Yo sé de esa manera, pues eso sé que sirve solamente la manta, o la tela de popelina.
+# text[a116] = Neh iwki yo:n n'mattok i:pa, pero yehwa n'mattok tein kwaltia *solamente manta**,
+# text[a117] = oso yehwa n' tein *popeli:natilmah**.
+# labels = a116 a117 sentence
 ^Neh/Neh$
 ^iwki/iwki$
 ^yon/yo>n$
@@ -1580,7 +1596,7 @@
 # text = Neh nimonotsa, aja, niMaria Salazar Osollo, niwitsa de San Miguel.
 # text[orig] = Neh nimono:tsa, ajá, niMaría Salazar Osollo, niwi:tsa de San Miguel.
 # text[spa] = Me llamo María Salazar Osollo, vengo de San Miguel.
-# labels = a120 sentence
+# labels = a120 sentence complete
 ^Neh/Neh$
 ^nimonotsa/nimonotsa$
 ^,/,$
@@ -1604,4 +1620,3 @@
 ^Amo/Amo$
 ^teihsa/teihsa$
 ^./.$
-
