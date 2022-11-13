@@ -166,7 +166,7 @@
 # text[spa] = Ese, el que dices que es el <i>kowtahtomakilit<i> no lo había escuchado de alguna otra persona.
 # labels = a74 sentence
 ^N/N$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tikihtowa/tikihtowa$
 ^ne/ne$
@@ -380,7 +380,7 @@
 ^tein/tein$
 ^xoxoktik/xoxoktik$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tikihtowa/tikihtowa$
 ^istak/istak$
@@ -406,7 +406,7 @@
 ^tomakilit/tomakilit$
 ^yeh/yeh$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^se/se$
 ^kixmati/kixmati$
 ^porque/porque$
@@ -442,7 +442,7 @@
 # text[spa] = Es ese al que le llamamos <i>mora:dohtomakilit<i>.
 # labels = a38 sentence
 ^Yehwa/Yehwa$
-^yon/yon$
+^yon/yo>n$
 ^tikiliah/tikiliah$
 ^que/que$
 ^morado/morado$
@@ -611,7 +611,7 @@
 ^iixko/iixko$
 ^,/,$
 ^kemeh/kemeh$
-^imaikan/imaikan$
+^imaikan/imai>kan$
 ^wan/wan$
 ^tepitsin/tepitsin$
 ^kowyohpihpitsawak/kowyohpihpitsawak$
@@ -648,9 +648,9 @@
 ^,/,$
 ^yekapanweweyak/yekapanweweyak$
 ^tikihtokan/tikihtokan$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^weikowtah/weikowtah$
 ^tomakilit/tomakilit$
 ^,/,$
@@ -797,7 +797,7 @@
 # text[spa] = Así es el morado.
 # labels = a58 sentence
 ^Yehwa>" /"<Yehwa>" 
-^yon/yon$
+^yon/yo>n$
 ^morado/morado$
 ^./.$
 
@@ -841,7 +841,7 @@
 ^kemeh/kemeh$
 ^ome/ome$
 ^taman/taman$
-^yon/yon$
+^yon/yo>n$
 ^tein/tein$
 ^tatoktah/tatoktah$
 ^mochiwa/mochiwa$
@@ -876,7 +876,7 @@
 ^weikowtah/weikowtah$
 ^tomakilit/tomakilit$
 ^,/,$
-^yon/yon$
+^yon/yo>n$
 ^kemah/kemah$
 ^tepitsin/tepitsin$
 ^kipata/kipata$
@@ -966,7 +966,7 @@
 ^,/,$
 ^amo/amo$
 ^kitokah/kitokah$
-^yon/yon$
+^yon/yo>n$
 ^,/,$
 ^mochiwa/mochiwa$
 ^sah/sah$

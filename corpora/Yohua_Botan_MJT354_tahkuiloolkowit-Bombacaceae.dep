@@ -747,7 +747,7 @@
 "<,>"
 	"," cm @punct #6->5
 "<kwaltia>"
-	"kualtia" v iv pres s_sg3 @parataxis #7->0
+	"kualtia" v iv pres s_sg3 @parataxis #7->2
 "<no>"
 	"no" adv @advmod #8->7
 "<kalikxit>"

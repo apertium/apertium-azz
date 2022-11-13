@@ -2553,30 +2553,29 @@
 "<.>"
 	"." sent @punct #5->4
 
-# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a187:1
+# sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a187:2
 # text = Tasohkamatik os nikan timoitakeh wan nipawin tiowih ya.
 # text[orig] = Tasohka:matik os nika:n timoitakeh wa:n nipawí:n tiowih ya.
 # text[spa] = Gracias, pues aqui nos hemos visto y ya nos vamos de este lado.
 # labels = a187 sentence
 "<Tasohkamatik>"
-	"tasojkamatik" ij @discourse
+	"tasojkamatik" ij @root #1->0
 "<os>"
-	"os" cnjsub @mark
+	"os" cnjsub @mark #2->4
 "<nikan>"
-	"nikan" adv
+	"nikan" adv @advmod #3->4
 "<timoitakeh>"
-	"ita" v tv pret s_pl1 o_ref
+	"ita" v tv pret s_pl1 o_ref @parataxis #4->1
 "<wan>"
-	"huan" cnjcoo @cc
+	"huan" cnjcoo @cc #5->7
 "<nipawin>"
-	"*nipawin"
+	"nipahuin" adv @advmod #6->7
 "<tiowih>"
-	"yohui" v iv pres s_pl1
-	"ohuij" adj s_sg2
+	"yohui" v iv pres s_pl1 @conj #7->4
 "<ya>"
-	"ya" adv
+	"ya" adv @advmod #8->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->1
 
 # sent_id = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l_ed-2017-12-04_trad-ADA_FORM.eaf:a65
 # text = Kemah yeh nano, ne kampa ika neh ninemi ne pos ekintsin amo semi mochiwa ok. Ne wehkaw, keman katka ne, nipili mahya nenken ok, nen, teltakia, porque neh nikelnamiktok, ne, iwan nokniwan tiayah tion..., tikontekiah, tiko..., tikowtetehkoyah, semi tikwelitayah tikowtetehkoskeh.
