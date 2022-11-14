@@ -2579,16 +2579,20 @@
 ^./.$
 
 # sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a178
-# text = Iwki timonotsa, wenoh Neh nimonotsa Leonor Osollo Segura, niwalew ne Tecoltepec.
-# text[orig] = Iwki timono:tsa, we:noh Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
-# text[spa] = Así te llamas, bueno. Yo me llamo Leonor Osollo Segura, vengo de Tecoltepec.
-# text[a178] = Iwki timono:tsa, we:noh
-# text[a180] = Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
-# labels = a178 a180 sentence
+# text = Iwki timonotsa, wenoh 
+# text[orig] = Iwki timono:tsa, we:noh 
+# text[spa] = Así te llamas, bueno. 
+# labels = a178 sentence
 ^Iwki/Iwki$
 ^timonotsa/timonotsa$
 ^,/,$
 ^wenoh/wenoh$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a180
+# text = Neh nimonotsa Leonor Osollo Segura, niwalew ne Tecoltepec.
+# text[orig] = Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
+# text[spa] = Yo me llamo Leonor Osollo Segura, vengo de Tecoltepec.
+# labels = a180 sentence
 ^Neh/Neh$
 ^nimonotsa/nimonotsa$
 ^Leonor/Leonor$

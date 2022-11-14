@@ -11056,8 +11056,8 @@
 # labels = a131 sentence
 1	Se	se	NUM	_	_	2	det	_	_
 2	rollito	rollito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
-5	mm	mm	INTJ	_	_	2	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	mm	mm	INTJ	_	_	2	parataxis	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	se	se	NUM	_	_	7	det	_	_
 7	rollito	rollito	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
@@ -11197,6 +11197,32 @@
 # labels = a175 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a178
+# text = Iwki timonotsa, wenoh
+# text[orig] = Iwki timono:tsa, we:noh
+# text[spa] = Así te llamas, bueno.
+# labels = a178 sentence
+1	Iwki	iuki	ADV	_	_	2	advmod	_	_
+2	timonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	wenoh	huenoj	INTJ	_	_	2	discourse	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a180
+# text = Neh nimonotsa Leonor Osollo Segura, niwalew ne Tecoltepec.
+# text[orig] = Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
+# text[spa] = Yo me llamo Leonor Osollo Segura, vengo de Tecoltepec.
+# labels = a180 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
+3	Leonor	Leonor	PROPN	_	Gender=Fem	2	obj	_	_
+4	Osollo	Osollo	PROPN	_	_	3	flat	_	_
+5	Segura	Segura	PROPN	_	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	2	parataxis	_	_
+8	ne	ne	ADV	_	_	7	advmod	_	_
+9	Tecoltepec	Tecoltepec	PROPN	_	_	8	appos	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a182
 # text = Mm.

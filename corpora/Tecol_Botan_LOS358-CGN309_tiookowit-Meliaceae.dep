@@ -3849,7 +3849,7 @@
 "<,>"
 	"," cm @punct #3->4
 "<mm>"
-	"mm" ij @parataxis #5->2
+	"mm" ij @parataxis #4->2
 "<,>"
 	"," cm @punct #5->7
 "<se>"
@@ -4634,8 +4634,8 @@
 	"." sent @punct #2->1
 
 # sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a178
-# text = Iwki timonotsa, wenoh 
-# text[orig] = Iwki timono:tsa, we:noh 
+# text = Iwki timonotsa, wenoh
+# text[orig] = Iwki timono:tsa, we:noh
 # text[spa] = Así te llamas, bueno. 
 # labels = a178 sentence
 "<Iwki>"
