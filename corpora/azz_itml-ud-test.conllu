@@ -10510,6 +10510,280 @@
 4	kit	kit	ADV	_	_	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a91:2
+# text = No kipia iteyo.
+# text[orig] = No: kipia iteyo.
+# text[spa] = Tiene frutos.
+# labels = a91 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a93:1
+# text = Kanah.
+# text[orig] = Ka:nah.
+# text[spa] = No.
+# labels = a93 sentence
+1	Kanah	kanaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a93:2
+# text = Kemah, pos kan mochiwa, ta mochiwa ompa ne kampa ika tehwan tinemih, mm.
+# text[orig] = Ke:mah, pos ka:n mochi:wa, ta: mochi:wa ompa ne: ka:mpa ika tehwa:n tinemih, mm.
+# text[spa] = Si, (hí donde tú vives,) pues no nace, allá por donde nosotros vivimos nacen bastantes plantitas.
+# labels = a93 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	pos	pos	ADV	_	_	5	advmod	_	_
+4	kan	kan	ADV	_	_	5	advmod	_	_
+5	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	ta	ta	ADV	_	_	8	advmod	_	_
+8	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
+9	ompa	ompa	ADV	_	_	8	advmod	_	_
+10	ne	ne	ADV	_	_	8	advmod	_	_
+11	kampa	kampa	ADV	_	PronType=Rel	14	advmod	_	_
+12	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+13	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	14	nsubj	_	_
+14	tinemih	nemi	VERB	_	Number[subj]=Plur|Person[subj]=1|Subcat=Intr|Tense=Pres	8	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	mm	mm	INTJ	_	_	1	discourse	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a97:2
+# text = Yehwa ya ixwa, mm.
+# text[orig] = Yehwa ya ixwa, mm.
+# text[spa] = Son las que germinan, mm.
+# labels = a97 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
+2	ya	ya	ADV	_	_	3	advmod	_	_
+3	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	mm	mm	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a110:1
+# text = Kemah wan tsohyaya, mm.
+# text[orig] = Ke:mah wa:n tsohya:ya, mm.
+# text[spa] = Si, apesta mucho, mm.
+# labels = a110 sentence
+1	Kemah	kemaj	INTJ	_	_	3	discourse	_	_
+2	wan	huan	CCONJ	_	_	3	cc	_	_
+3	tsohyaya	tsojyaya	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	mm	mm	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a114
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a114 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a118
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a118 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a120
+# text = Pahti ixiwyotsin.
+# text[orig] = Pahti ixiwyotsi:n.
+# text[spa] = Las hojas se ocupan para medicina.
+# labels = a120 sentence
+1	Pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	ixiwyotsin	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a123:1
+# text = A, ta no kwali para pahti, eheh.
+# text[orig] = A:, ta: no: kwali para pahti, eheh.
+# text[spa] = Si, es muy bueno para medicina, ehe.
+# labels = a123 sentence
+1	A	a	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	ta	ta	ADV	_	_	5	advmod	_	_
+4	no	no	ADV	_	_	5	advmod	_	_
+5	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	parataxis	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	pahti	pajti	NOUN	_	Case=Abs	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	eheh	ejej	INTJ	_	_	1	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a123:2
+# text = No kwali para pahti.
+# text[orig] = No: kwali para pahti.
+# text[spa] = Es muy bueno para medicina.
+# labels = a123 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	para	para	ADP	_	_	4	case	_	_
+4	pahti	pajti	NOUN	_	Case=Abs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a131:2
+# text = Se rollito, mm, se rollito.
+# text[orig] = Se: *rollito**, mm, se: *rollito**.
+# text[spa] = Un rollito, si, un rollito.
+# labels = a131 sentence
+1	Se	se	NUM	_	_	2	det	_	_
+2	rollito	rollito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+5	mm	mm	INTJ	_	_	2	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	se	se	NUM	_	_	7	det	_	_
+7	rollito	rollito	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a136:1
+# text = Yehwa yon tenamiki.
+# text[orig] = Yehwa yo:n te:na:miki.
+# text[spa] = Con eso se cura uno.
+# labels = a136 sentence
+1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
+2-3	yon	_	_	_	_	_	_	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	1	cop	_	_
+3	n	in	DET	_	_	4	mark	_	_
+4	tenamiki	namiki	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	csubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a136:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a136 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a141:1
+# text = Amo, ta kwali pahti.
+# text[orig] = A:mo, ta: kwali pahti.
+# text[spa] = No, pues es muy buena medicina.
+# labels = a141 sentence
+1	Amo	amo	ADV	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	ta	ta	ADV	_	_	5	advmod	_	_
+4	kwali	kuali	ADJ	_	_	5	advmod	_	_
+5	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	1	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a141:2
+# text = Neh nikmattok kwali pahti porque yehwa ika tehwan wehkaw timopahtiayah.
+# text[orig] = Neh nikmattok kwali pahti *porque** yehwa ika tehwa:n wehka:w timopahtia:yah.
+# text[spa] = Yo sé que es muy buena medicina porque con eso nos curábamos hace tiempo.
+# labels = a141 sentence
+1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
+2	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
+3	kwali	kuali	ADJ	_	_	4	amod	_	_
+4	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	2	ccomp	_	_
+5	porque	porque	SCONJ	_	_	10	mark	_	_
+6	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	7	nmod	_	_
+7	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+8	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	10	nsubj	_	_
+9	wehkaw	huejkau	ADV	_	_	10	advmod	_	_
+10	timopahtiayah	pajtia	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=1|Reflexive[obj]=Yes|Subcat=Tran	2	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a143
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a143 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a149:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a149 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a149:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a149 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a152:1
+# text = Amo tepahtia, mm.
+# text[orig] = A:mo te:pahtia, mm.
+# text[spa] = No nos cura, mm.
+# labels = a152 sentence
+1	Amo	amo	ADV	_	_	2	advmod	_	_
+2	tepahtia	pajtia	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	mm	mm	INTJ	_	_	2	discourse	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a156
+# text = Amo se kimati, mm.
+# text[orig] = A:mo se: kimati, mm.
+# text[spa] = Uno no se entera, mm.
+# labels = a156 sentence
+1	Amo	amo	ADV	_	_	3	advmod	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kimati	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	mm	mm	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a160:1
+# text = Tak yehwa ika.
+# text[orig] = Tak yehwa ika.
+# text[spa] = Quiza sea por eso.
+# labels = a160 sentence
+1	Tak	tak	ADV	_	_	3	advmod	_	_
+2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nmod	_	_
+3	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a174:1
+# text = Kemah, mm.
+# text[orig] = Ke:mah, mm.
+# text[spa] = Si, mm.
+# labels = a174 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mm	mm	INTJ	_	_	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a174:2
+# text = Kisa itapal, mm.
+# text[orig] = Ki:sa itapal, mm.
+# text[spa] = Se despinta, mm.
+# labels = a174 sentence
+1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+2	itapal	tapal	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	mm	mm	INTJ	_	_	1	discourse	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a175
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a175 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a182
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a182 sentence
+1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Tzina_Botan_AND308-JVC313_wehwei-kwiikwilehkaw-Smallanthus-Asteraceae_2012-08-02-b_ed-2018-05-27_trad-CSC_FORM.eaf:a77:1
 # text = Amo nikmati ox kipipina porque pane wakkatik.
 # text[orig] = A:mo nikmati ox kipipi:na *porque** pané: wa:kkatik.
