@@ -1,0 +1,2609 @@
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a53
+# text = Wenoh, ekintsin sepan nikan timoahsikeh nikneki nimitstahtanis yon tiokowit, kihtowah ome taman onkak.
+# text[orig] = We:noh, ekintsi:n sepan nika:n timoahsikeh nikneki nimitstahtani:s yo:n tio:kowit, kihtowah o:me taman onkak.
+# text[spa] = Bueno, una vez más nos encontramos aquí quiero preguntarte sobre el cedro, dicen que hay dos tipos.
+# text[a53] = We:noh, ekintsi:n sepan nika:n timoahsikeh
+# text[a54] = nikneki nimitstahtani:s yo:n tio:kowit, kihtowah o:me taman onkak.
+# labels = a53 a54 sentence
+^Wenoh/Wenoh$
+^,/,$
+^ekintsin/ekintsin$
+^sepan/sepan$
+^nikan/nikan$
+^timoahsikeh/timoahsikeh$
+^nikneki/nikneki$
+^nimitstahtanis/nimitstahtanis$
+^yon/yo>n$
+^tiokowit/tiokowit$
+^,/,$
+^kihtowah/kihtowah$
+^ome/ome$
+^taman/taman$
+^onkak/onkak$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a55:1
+# text = Kemah. 
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a55 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a55:2
+# text = Se chichiltik.
+# text[orig] = Se: chi:chi:ltik.
+# text[spa] = Uno es rojo.
+# labels = a55 sentence
+^Se/Se$
+^chichiltik/chichiltik$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a57
+# text = Yehwa yon nikmatisneki, nejon kihtowah no pahti yon ox ixiwyotsin.
+# text[orig] = Yehwa yo:n nikmatisneki, nejó:n kihtowah no: pahti yo:n ox ixiwyotsi:n.
+# text[spa] = Eso es lo que yo quiero saber, dicen que las hojas del cedro también es medicinal.
+# labels = a57 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^nikmatisneki/nikmatisneki$
+^,/,$
+^nejon/nejon$
+^kihtowah/kihtowah$
+^no/no$
+^pahti/pahti$
+^yon/yo>n$
+^ox/ox$
+^ixiwyotsin/ixiwyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a59
+# text = Kemah, yon nikmattok neli kwaltia para kalkowit wan nejon....
+# text[orig] = Ke:mah, yo:n nikmattok neli kwaltia para kalkowit wa:n nejó:n ....
+# text[spa] = Si, eso sí sé que se usa para construir una casa y este....
+# labels = a59 sentence
+^Kemah/Kemah$
+^,/,$
+^yon/yo>n$
+^nikmattok/nikmattok$
+^neli/neli$
+^kwaltia/kwaltia$
+^para/para$
+^kalkowit/kalkowit$
+^wan/wan$
+^nejon/nejon$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a61
+# text = Nochi kwaltia wan kemeh yon teisa. Kwaltia para pahti.
+# text[orig] = Nochi kwaltia wa:n ke:meh yo:n teisá:. Kwaltia para pahti.
+# text[spa] = Sirve para todo y para ... Sirve para medicina.
+# labels = a61 sentence
+^Nochi/Nochi$
+^kwaltia/kwaltia$
+^wan/wan$
+^kemeh/kemeh$
+^yon/yo>n$
+^teisa/teisa$
+^./.$
+^Kwaltia/Kwaltia$
+^para/para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a63
+# text = ¿Wan yon para, para toni n' pahti yon?
+# text[orig] = ¿Wa:n yo:n para, para toni n' pahti yo:n?
+# text[spa] = ¿Y esas hojas, qué enfermedad cura?
+# labels = a63 sentence
+^¿/¿$
+^Wan/Wan$
+^yon/yo>n$
+^para/para$
+^,/,$
+^para/para$
+^toni/toni$
+^n'/n'$
+^pahti/pahti$
+^yon/yo>n$
+^?/?$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a65
+# text = Tahchiwil.
+# text[orig] = Tahchi:wi:l.
+# text[spa] = Tahchi:wi:l.
+# labels = a65 sentence
+^Tahchiwil/Tahchiwil$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a67
+# text = ¿Wan yon tahchiwil toni yoni?
+# text[orig] = ¿Wa:n yo:n tahchi:wi:l toni yo:ni?
+# text[spa] = ¿Y qué es eso que dices tahchi:wi:l?
+# labels = a67 sentence
+^¿/¿$
+^Wan/Wan$
+^yon/yo>n$
+^tahchiwil/tahchiwil$
+^toni/toni$
+^yoni/yoni$
+^?/?$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a69
+# text = A, yehwa yon ika....
+# text[orig] = A:, yehwa yo:n ika ....
+# text[spa] = A:, es eso ....
+# labels = a69 sentence
+^A/A$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^ika/ika$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a71
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a71 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a73
+# text = A, wan yehwa yon kwali pahti yon xiwtsin.
+# text[orig] = A:, wa:n yehwa yo:n kwali pahti yo:n xiwtsí:n.
+# text[spa] = A:, y esas hojas son muy buenas para curar.
+# labels = a73 sentence
+^A/A$
+^,/,$
+^wan/wan$
+^yehwa/yehwa$
+^yon/yo>n$
+^kwali/kwali$
+^pahti/pahti$
+^yon/yo>n$
+^xiwtsin/xiwtsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a76
+# text = A, n' iwki yoni tekwiltiah.
+# text[orig] = A:, n' iwki yo:ni te:kwi:ltiah.
+# text[spa] = Ah. Así lo hacen.
+# labels = a76 sentence
+^A/A$
+^,/,$
+^n'/n'$
+^iwki/iwki$
+^yoni/yoni$
+^tekwiltiah/tekwiltiah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a78
+# text = Pos kemeh yon tel..., semi teltekokoh, mah se itsontekon nochipa ya tekokohtok.
+# text[orig] = Pos ke:meh yo:n tel..., semi telte:kokoh, mah se: itsontekon nochipa ya te:kokohtok.
+# text[spa] = Pues cuando uno se enferma de dolor de cabeza, todo el tiempo anda uno con el dolor.
+# labels = a78 sentence
+^Pos/Pos$
+^kemeh/kemeh$
+^yon/yo>n$
+^tel.../tel...$
+^,/,$
+^semi/semi$
+^teltekokoh/teltekokoh$
+^,/,$
+^mah/mah$
+^se/se$
+^itsontekon/itsontekon$
+^nochipa/nochipa$
+^ya/ya$
+^tekokohtok/tekokohtok$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a79
+# text = Yehwa ya n' tahchiwil se kipia.
+# text[orig] = Yehwa ya n' tahchi:wi:l se: kipia.
+# text[spa] = Es la enfermedad de la brujería.
+# labels = a79 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^n'/n'$
+^tahchiwil/tahchiwil$
+^se/se$
+^kipia/kipia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a81
+# text = Pos yon amo nikmatia.
+# text[orig] = Pos yo:n a:mo nikmatia.
+# text[spa] = Pues eso no sabía.
+# labels = a81 sentence
+^Pos/Pos$
+^yon/yo>n$
+^amo/amo$
+^nikmatia/nikmatia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a84
+# text = Kisa n' kokolis.
+# text[orig] = Ki:sa n' kokolis.
+# text[spa] = Se sale la enfermedad.
+# labels = a84 sentence
+^Kisa/Kisa$
+^n'/n'$
+^kokolis/kokolis$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a86
+# text = Pos amo nikmatia yon keniw se kitatekiwtiaya.
+# text[orig] = Pos a:mo nikmatia yo:n ke:ní:w se: kitatekiwtia:ya.
+# text[spa] = Pues no sabía como se usaban esas hojas.
+# labels = a86 sentence
+^Pos/Pos$
+^amo/amo$
+^nikmatia/nikmatia$
+^yon/yo>n$
+^keniw/keniw$
+^se/se$
+^kitatekiwtiaya/kitatekiwtiaya$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a88
+# text = Mah se kimana xiwtsin.
+# text[orig] = Mah se: kimana xiwtsí:n.
+# text[spa] = Uno debe hervir las hojitas.
+# labels = a88 sentence
+^Mah/Mah$
+^se/se$
+^kimana/kimana$
+^xiwtsin/xiwtsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a90:1
+# text = Kemah, ta.... 
+# text[orig] = Ke:mah, ta: .... 
+# text[spa] = Si, pues..., 
+# labels = a90 sentence
+^Kemah/Kemah$
+^,/,$
+^ta/ta$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a90:2
+# text = No kipia n' iteyo, pos nikan, nikan tehwan amo tikixmatih n' iteyotsin.
+# text[orig] = No: kipia n' iteyo, pos nika:n, nika:n tehwa:n a:mo tiki:xmatih n' iteyotsi:n.
+# text[spa] = Tambíen tiene frutos, pues aquí, nosotros no conocemos los frutos.
+# labels = a90 sentence
+^No/No$
+^kipia/kipia$
+^n'/n'$
+^iteyo/iteyo$
+^,/,$
+^pos/pos$
+^nikan/nikan$
+^,/,$
+^nikan/nikan$
+^tehwan/tehwan$
+^amo/amo$
+^tikixmatih/tikixmatih$
+^n'/n'$
+^iteyotsin/iteyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a92:1
+# text = Kampa tinemi, ompakahkwin semi yehwa n' onkak. 
+# text[orig] = Ka:mpa tinemi, ompakahkwí:n semi yehwa n' onkak. 
+# text[spa] = Donde vives, por ahí abunda mucho. 
+# labels = a92 sentence
+^Amo/Amo$
+^,/,$
+^niono/niono$
+^n'/n'$
+^ixochio/ixochio$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a92:2
+# text = Kampa tinemi, ompakahkwin semi yehwa n' onkak. Pos, nikitani, nikitani, nen, n' ixiwyotsin.
+# text[orig] = Ka:mpa tinemi, ompakahkwí:n semi yehwa n' onkak. Pos, nikitani, nikitani, ne:n, n' ixiwyotsi:n.
+# text[spa] = Donde vives, por ahí abunda mucho. Pues he visto las hojitas.
+# labels = a92 sentence
+^Kampa/Kampa$
+^tinemi/tinemi$
+^,/,$
+^ompakahkwin/ompakahkwin$
+^semi/semi$
+^yehwa/yehwa$
+^n'/n'$
+^onkak/onkak$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a92:3
+# text = Pos, nikitani, nikitani, nen, n' ixiwyotsin.
+# text[orig] = Pos, nikitani, nikitani, ne:n, n' ixiwyotsi:n.
+# text[spa] = Pues he visto las hojitas.
+# labels = a92 sentence
+^Pos/Pos$
+^,/,$
+^nikitani/nikitani$
+^,/,$
+^nikitani/nikitani$
+^,/,$
+^nen/nen$
+^,/,$
+^n'/n'$
+^ixiwyotsin/ixiwyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a94
+# text = Pisiltik no.
+# text[orig] = Pisi:ltik no:.
+# text[spa] = Muy pequeñas.
+# labels = a94 sentence
+^Pisiltik/Pisiltik$
+^no/no$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a96:1
+# text = Wan chikawaya ya. 
+# text[orig] = Wa:n chika:waya ya. 
+# text[spa] = Y ya se maduran. 
+# labels = a96 sentence
+^Wan/Wan$
+^chikawaya/chikawaya$
+^ya/ya$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a96:2
+# text = Yehwa ya ixwatiw, yon pane, pane weweyak mochiwa, nen, mahya iahtapal a.
+# text[orig] = Yehwa ya ixwatiw, yo:n pané:, pané: we:weyak mochi:wa, ne:n, mahyá: iahtapal a.
+# text[spa] = Son las que van germinando, esos que son, son alargados, (el fruto) le salen como alas.
+# labels = a96 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^ixwatiw/ixwatiw$
+^,/,$
+^yon/yo>n$
+^pane/pane$
+^,/,$
+^pane/pane$
+^weweyak/weweyak$
+^mochiwa/mochiwa$
+^,/,$
+^nen/nen$
+^,/,$
+^mahya/mahya$
+^iahtapal/iahtapal$
+^a/a$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a99
+# text = Pero nen taihtik n', aha, weweyak wan yon se kahkawa kwaltsin momamalakachohtiw.
+# text[orig] = Pero ne:n taihtik n', aha, we:weyak wa:n yo:n se: kahka:wa kwaltsi:n moma:malakachohtiw.
+# text[spa] = Pero por dentro..., aha. son alargados y al tirar, se va (volando) haciendo giros.
+# labels = a99 sentence
+^Pero/Pero$
+^nen/nen$
+^taihtik/taihtik$
+^n'/n'$
+^,/,$
+^aha/aha$
+^,/,$
+^weweyak/weweyak$
+^wan/wan$
+^yon/yo>n$
+^se/se$
+^kahkawa/kahkawa$
+^kwaltsin/kwaltsin$
+^momamalakachohtiw/momamalakachohtiw$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a101
+# text = Yehwa ya yon iteyo.
+# text[orig] = Yehwa ya yo:n iteyo.
+# text[spa] = Esos son los frutos.
+# labels = a101 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^yon/yo>n$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a103
+# text = Mm, pos neh nejon.... Yehwa ika, tekixtilia.
+# text[orig] = Mm, pos neh nejó:n .... Yehwa ika, te:ki:xtilia.
+# text[spa] = Mm, pues este..., Con eso, se sana uno.
+# text[a103] = Mm, pos neh nejó:n ....
+# text[a105] = Yehwa ika, te:ki:xtilia.
+# labels = a103 a105 sentence
+^Mm/Mm$
+^,/,$
+^pos/pos$
+^neh/neh$
+^nejon/nejon$
+^..../....$
+^Yehwa/Yehwa$
+^ika/ika$
+^,/,$
+^tekixtilia/tekixtilia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a107:1
+# text = Pos amo nik.... 
+# text[orig] = Pos a:mo nik.... 
+# text[spa] = Pues no se..., 
+# labels = a107 sentence
+^Pos/Pos$
+^amo/amo$
+^nik.../nik...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a107:2
+# text = A, yon teltsohyak, se tiempo ata yon yekmaxiini.
+# text[orig] = A:, yo:n teltsohya:k, se: *tiempo** ata yo:n ye:kma:xi:i:ni.
+# text[spa] = A:, eso tiene un olor muy desagradable, hay una temporada, cuando el árbol se le caen las hojas.
+# labels = a107 sentence
+^A/A$
+^,/,$
+^yon/yo>n$
+^teltsohyak/teltsohyak$
+^,/,$
+^se/se$
+^tiempo/tiempo$
+^ata/ata$
+^yon/yo>n$
+^yekmaxiini/yekmaxiini$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a109
+# text = Nochi wetsi n' ixiwyo, yektsohyaya, tel, tel..., teltsohyak ixiwyo.
+# text[orig] = Nochi wetsi n' ixiwyo, ye:ktsohya:ya, tel, tel..., teltsohya:k ixiwyo.
+# text[spa] = Se le caen todas las hojas, se percibe el olor desagradable de las hojas.
+# labels = a109 sentence
+^Nochi/Nochi$
+^wetsi/wetsi$
+^n'/n'$
+^ixiwyo/ixiwyo$
+^,/,$
+^yektsohyaya/yektsohyaya$
+^,/,$
+^tel/tel$
+^,/,$
+^tel/tel$
+^.../...$
+^,/,$
+^teltsohyak/teltsohyak$
+^ixiwyo/ixiwyo$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a111:1
+# text = A, yehwa ika. 
+# text[orig] = A:, yehwa ika. 
+# text[spa] = A:, por eso. 
+# labels = a111 sentence
+^A/A$
+^,/,$
+^yehwa/yehwa$
+^ika/ika$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a111:2
+# text = A. 
+# text[orig] = A:. 
+# text[spa] = A:. 
+# labels = a111 sentence
+^A/A$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a111:3
+# text = Yehwa ya n' ika.
+# text[orig] = Yehwa ya n' ika.
+# text[spa] = Por eso.
+# labels = a111 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^n'/n'$
+^ika/ika$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a113
+# text = Pos amo nikmatia yon keniw, pahti n'mattok ke neli nejon kwaltia para 'kixtiah tein wehwei kowmeh, 'kixtiah nejon tablones o tablas.
+# text[orig] = Pos a:mo nikmatia yo:n ke:ní:w, pahti n'mattok ke neli nejó:n kwaltia para 'ki:xtiah tein wehwei kowmeh, 'ki:xtiah nejó:n *tablones o tablas**.
+# text[spa] = Pues yo no sabía cómo se usaba como medicina, sé que de esos árboles, los más grandes se puede sacar tablones o tablas.
+# labels = a113 sentence
+^Pos/Pos$
+^amo/amo$
+^nikmatia/nikmatia$
+^yon/yo>n$
+^keniw/keniw$
+^,/,$
+^pahti/pahti$
+^n'mattok/n'mattok$
+^ke/ke$
+^neli/neli$
+^nejon/nejon$
+^kwaltia/kwaltia$
+^para/para$
+^'kixtiah/'kixtiah$
+^tein/tein$
+^wehwei/wehwei$
+^kowmeh/kowmeh$
+^,/,$
+^'kixtiah/'kixtiah$
+^nejon/nejon$
+^tablones/tablones$
+^o/o$
+^tablas/tablas$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a115
+# text = Wan kwaltia para se ichantsin, tsin..., itsintsakwil.
+# text[orig] = Wa:n kwaltia para se: icha:ntsi:n, tsi:n..., itsi:ntsakwil.
+# text[spa] = Y sirve para construir nuestra casa.
+# labels = a115 sentence
+^Wan/Wan$
+^kwaltia/kwaltia$
+^para/para$
+^se/se$
+^ichantsin/ichantsin$
+^,/,$
+^tsin.../tsin...$
+^,/,$
+^itsintsakwil/itsintsakwil$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a117
+# text = No kwaltia.
+# text[orig] = No: kwaltia.
+# text[spa] = También sirven.
+# labels = a117 sentence
+^No/No$
+^kwaltia/kwaltia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a119
+# text = Pos yehwa yon amo nikmatia ox no panti nen ixiwyotsin.
+# text[orig] = Pos yehwa yo:n a:mo nikmatia ox no: panti ne:n ixiwyotsi:n.
+# text[spa] = Pues es eso lo que yo no sabía si las hojas es medicinal.
+# labels = a119 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^yon/yo>n$
+^amo/amo$
+^nikmatia/nikmatia$
+^ox/ox$
+^no/no$
+^panti/panti$
+^nen/nen$
+^ixiwyotsin/ixiwyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a121
+# text = Kemah, yehwa yon ne nikahsikamatik aman, porque neli pos tikitah ipa nen kowtsin mochiwa wan teltsohyak.
+# text[orig] = Ke:mah, yehwa yo:n ne: nikahsika:matik a:man, *porque** neli pos tikitah i:pa ne:n kowtsí:n mochi:wa wa:n teltsohya:k.
+# text[spa] = Eso es lo que me he enterado el dia de hoy, pues es cierto que vemos que crece el árbol y tiene un olor desagradable.
+# labels = a121 sentence
+^Kemah/Kemah$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^ne/ne$
+^nikahsikamatik/nikahsikamatik$
+^aman/aman$
+^,/,$
+^porque/porque$
+^neli/neli$
+^pos/pos$
+^tikitah/tikitah$
+^ipa/ipa$
+^nen/nen$
+^kowtsin/kowtsin$
+^mochiwa/mochiwa$
+^wan/wan$
+^teltsohyak/teltsohyak$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a122
+# text = Pero amo tikmatiah ox no kwali para tah..., tikihtowa tahxchiwil ika tekixtiliah.
+# text[orig] = Pero a:mo tikmatiah ox no: kwali para tah..., tikihtowa tahxchi:wi:l ika te:ki:xtiliah.
+# text[spa] = Pero no sabiamos si es bueno para curar la enfermedad a causa de la brujería.
+# labels = a122 sentence
+^Pero/Pero$
+^amo/amo$
+^tikmatiah/tikmatiah$
+^ox/ox$
+^no/no$
+^kwali/kwali$
+^para/para$
+^tah.../tah...$
+^,/,$
+^tikihtowa/tikihtowa$
+^tahxchiwil/tahxchiwil$
+^ika/ika$
+^tekixtiliah/tekixtiliah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a125
+# text = Neh amo nikmatia yon keniw ika se mopahtia, neli komohkon, nikmattok semi yehwa ika tepahtia yehwa ya xometsin oso yon albahaca.
+# text[orig] = Neh a:mo nikmatia yo:n ke:ní:w ika se: mopahtia, neli komohkó:n, nikmattok semi yehwa ika te:pahtia yehwa ya xo:me:tsi:n oso yo:n *albahaca**.
+# text[spa] = Yo no sabía cómo se usaba como medicina, así como tú dices, ??? Yo se que para curar sé que usan mucho el xo:me:t o el albahaca.
+# labels = a125 sentence
+^Neh/Neh$
+^amo/amo$
+^nikmatia/nikmatia$
+^yon/yo>n$
+^keniw/keniw$
+^ika/ika$
+^se/se$
+^mopahtia/mopahtia$
+^,/,$
+^neli/neli$
+^komohkon/komohkon$
+^,/,$
+^nikmattok/nikmattok$
+^semi/semi$
+^yehwa/yehwa$
+^ika/ika$
+^tepahtia/tepahtia$
+^yehwa/yehwa$
+^ya/ya$
+^xometsin/xometsin$
+^oso/oso$
+^yon/yo>n$
+^albahaca/albahaca$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a126:1
+# text = Yehwa ya xiwtsin. 
+# text[orig] = Yehwa ya xiwtsi:n. 
+# text[spa] = Esas hierbas. 
+# labels = a126 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^xiwtsin/xiwtsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a126:2
+# text = Wan yon ox miak se kikwi.
+# text[orig] = Wa:n yo:n ox miak se: kikwi.
+# text[spa] = ¿Y esas hojas se ocupan muchas?.
+# labels = a126 sentence
+^Wan/Wan$
+^yon/yo>n$
+^ox/ox$
+^miak/miak$
+^se/se$
+^kikwi/kikwi$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a128
+# text = ¿Wan yetok tonal sah?
+# text[orig] = ¿Wa:n yetok to:nal sah?
+# text[spa] = ¿Y hay un dia especial?
+# labels = a128 sentence
+^¿/¿$
+^Wan/Wan$
+^yetok/yetok$
+^tonal/tonal$
+^sah/sah$
+^?/?$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a130:1
+# text = Eheyi tonal. 
+# text[orig] = Ehe:yi to:nal. 
+# text[spa] = Cada tres dias. 
+# labels = a130 sentence
+^Eheyi/Eheyi$
+^tonal/tonal$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a130:2
+# text = Wan ox miak se kikwis, se oloch oso tepitsin sah.
+# text[orig] = Wa:n ox miak se: kikwis, se: olo:ch oso tepitsi:n sah.
+# text[spa] = Y se debe ocupar muchas hojas, un buen rollo o pocas (hojas).
+# labels = a130 sentence
+^Wan/Wan$
+^ox/ox$
+^miak/miak$
+^se/se$
+^kikwis/kikwis$
+^,/,$
+^se/se$
+^oloch/oloch$
+^oso/oso$
+^tepitsin/tepitsin$
+^sah/sah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a132:1
+# text = A.
+# text[orig] = A:.
+# text[spa] = Ah.
+# labels = a132 sentence
+^A/A$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a132:2
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a132 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a134
+# text = Wan yehwa ya yon tenamiki.
+# text[orig] = Wa:n yehwa ya yo:n te:na:miki.
+# text[spa] = Y con eso ya se cura uno.
+# labels = a134 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^ya/ya$
+^yon/yo>n$
+^tenamiki/tenamiki$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a135
+# text = Pos amo nikmatia kit.
+# text[orig] = Pos a:mo nikmatia kit.
+# text[spa] = Pues yo no sabía.
+# labels = a135 sentence
+^Pos/Pos$
+^amo/amo$
+^nikmatia/nikmatia$
+^kit/kit$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a137
+# text = Se kelkawa ya.
+# text[orig] = Se: kelka:wa ya.
+# text[spa] = Se le quita el dolor (olvidando la enfermedad).
+# labels = a137 sentence
+^Se/Se$
+^kelkawa/kelkawa$
+^ya/ya$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a139
+# text = Pos yehwa yon amo nikmattoya kit komohkon no kwali pahti para nen tikihtowa tahchiwil.
+# text[orig] = Pos yehwa yo:n a:mo nikmattoya kit komohkó:n no: kwali pahti para ne:n tikihtowa tahchi:wi:l.
+# text[spa] = Pues eso sí, yo no sabía si es muy bueno para curar la brujería.
+# labels = a139 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^yon/yo>n$
+^amo/amo$
+^nikmattoya/nikmattoya$
+^kit/kit$
+^komohkon/komohkon$
+^no/no$
+^kwali/kwali$
+^pahti/pahti$
+^para/para$
+^nen/nen$
+^tikihtowa/tikihtowa$
+^tahchiwil/tahchiwil$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a140
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a140 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a142
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a142 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a144
+# text = Kemah, pos yehwa sah yon neh nimits..., Yehwa ya namechilwiaya, katini n' pahti.
+# text[orig] = Ke:mah, pos yehwa sah yo:n neh nimits..., Yehwa ya name:chilwia:ya, kati:ni n' pahti.
+# text[spa] = Si, pues solamente eso es lo que yo te he (preguntado). Es ella la que les decía qué plantas son medicinales.
+# text[a144] = Ke:mah, pos yehwa sah yo:n neh nimits...,
+# text[a146] = Yehwa ya name:chilwia:ya, kati:ni n' pahti.
+# labels = a144 a146 sentence
+^Kemah/Kemah$
+^,/,$
+^pos/pos$
+^yehwa/yehwa$
+^sah/sah$
+^yon/yo>n$
+^neh/neh$
+^nimits.../nimits...$
+^,/,$
+^Yehwa/Yehwa$
+^ya/ya$
+^namechilwiaya/namechilwiaya$
+^,/,$
+^katini/katini$
+^n'/n'$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a148
+# text = Kemah, pos de teilwiah neli nochi se kitemowa toni kinamikis.
+# text[orig] = Ke:mah, pos de te:ilwiah neli nochi se: kite:mowa toni kina:mikis.
+# text[spa] = Si, pues cuando le comentan a uno, uno busca exactamente con qué podemos curarnos.
+# labels = a148 sentence
+^Kemah/Kemah$
+^,/,$
+^pos/pos$
+^de/de$
+^teilwiah/teilwiah$
+^neli/neli$
+^nochi/nochi$
+^se/se$
+^kitemowa/kitemowa$
+^toni/toni$
+^kinamikis/kinamikis$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a150
+# text = Kemah, porque iwan doctor, yon tikilia tahchiwil amo tepahtia yeh. Amo tepahtia ta in ipa tepahtiah, in kemeh in kahkalpah. Ika xiwtsitsin, kemah wan....
+# text[orig] = Ke:mah, *porque** iwa:n *doctor**, yo:n tikilia tahchi:wi:l a:mo te:pahtia yeh. A:mo te:pahtia ta: i:n i:pa te:pahtiah, i:n ke:meh i:n kahkalpah. Ika xiwtsitsi:n, ke:mah wa:n ....
+# text[spa] = Si, Porque si nos enfermamos de la brujería y acudimos con el doctor, no nos cura. Pues de la brujería nos puede curar alguna persona que no es doctor. Con hierbas, si y....
+# text[a150] = Ke:mah, *porque** iwa:n *doctor**, yo:n tikilia tahchi:wi:l
+# text[a151] = A:mo te:pahtia ta: i:n i:pa te:pahtiah, i:n ke:meh i:n kahkalpah. Ika xiwtsitsi:n, ke:mah wa:n ....
+# text[a151] = A:mo te:pahtia ta: i:n i:pa te:pahtiah, i:n ke:meh i:n kahkalpah. Ika xiwtsitsi:n, ke:mah wa:n ....
+# labels = a150 a151 a151 sentence
+^Kemah/Kemah$
+^,/,$
+^porque/porque$
+^iwan/iwan$
+^doctor/doctor$
+^,/,$
+^yon/yo>n$
+^tikilia/tikilia$
+^tahchiwil/tahchiwil$
+^amo/amo$
+^tepahtia/tepahtia$
+^yeh/yeh$
+^./.$
+^Amo/Amo$
+^tepahtia/tepahtia$
+^ta/ta$
+^in/in$
+^ipa/ipa$
+^tepahtiah/tepahtiah$
+^,/,$
+^in/in$
+^kemeh/kemeh$
+^in/in$
+^kahkalpah/kahkalpah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a151:3
+# text = Ika xiwtsitsin, kemah wan....
+# text[orig] = Ika xiwtsitsi:n, ke:mah wa:n ....
+# text[spa] = Con hierbas, si y....
+# labels = a151 sentence 
+^Ika/Ika$
+^xiwtsitsin/xiwtsitsin$
+^,/,$
+^kemah/kemah$
+^wan/wan$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a153
+# text = Kemah, yehwa yon neli ika se pahti porque neli ne akin toka mokwehmolowa pos yeh mowelistok a mah, mah tech..., techweikwi yon.... Kan se kimati, miak amo kimatih wan, Wan nimolia neh tak no techichina yon komohkon neli n..., tekwi n' tahchiwil pero niono se kelnamiki tak nen totepixkatsin.
+# text[orig] = Ke:mah, yehwa yo:n neli ika se: pahti *porque** neli ne: a:kin toka mokwehmolowa pos yeh mowelistok a mah, mah te:ch..., te:chwe:ikwi yo:n .... Ka:n se: kimati, miak a:mo kimatih wa:n, Wa:n nimolia neh tak no: te:chichi:na yo:n komohkó:n neli n..., te:kwi n' tahchi:wi:l pero nio:nó: se: kelna:miki tak ne:n tote:pixka:tsi:n.
+# text[spa] = Si, es cierto, con esas se cura uno pues quien nos embruja le da gusto a que cada vez más nos enfermemos. Uno no se entera, muchos no se enteran y, Y yo creo que cada vez más, uno empeora de la ennfermedad a causa de la brujería pero tampoco nos acordamos de nuestro creador.
+# text[a153] = Ke:mah, yehwa yo:n neli ika se: pahti *porque** neli ne: a:kin toka mokwehmolowa pos yeh mowelistok a mah, mah te:ch..., te:chwe:ikwi yo:n ....
+# text[a155] = Ka:n se: kimati, miak a:mo kimatih wa:n,
+# text[a157] = Wa:n nimolia neh tak no: te:chichi:na yo:n komohkó:n neli n..., te:kwi n' tahchi:wi:l
+# text[a158] = pero nio:nó: se: kelna:miki tak ne:n tote:pixka:tsi:n.
+# labels = a153 a155 a157 a158 sentence
+^Kemah/Kemah$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^neli/neli$
+^ika/ika$
+^se/se$
+^pahti/pahti$
+^porque/porque$
+^neli/neli$
+^ne/ne$
+^akin/akin$
+^toka/toka$
+^mokwehmolowa/mokwehmolowa$
+^pos/pos$
+^yeh/yeh$
+^mowelistok/mowelistok$
+^a/a$
+^mah/mah$
+^,/,$
+^mah/mah$
+^tech/tech$
+^.../...$
+^,/,$
+^techweikwi/techweikwi$
+^yon/yo>n$
+^.../...$
+^./.$
+^Kan/Kan$
+^se/se$
+^kimati/kimati$
+^,/,$
+^miak/miak$
+^amo/amo$
+^kimatih/kimatih$
+^wan/wan$
+^,/,$
+^Wan/Wan$
+^nimolia/nimolia$
+^neh/neh$
+^tak/tak$
+^no/no$
+^techichina/techichina$
+^yon/yo>n$
+^komohkon/komohkon$
+^neli/neli$
+^n/n$
+^.../...$
+^,/,$
+^tekwi/tekwi$
+^n'/n'$
+^tahchiwil/tahchiwil$
+^pero/pero$
+^niono/niono$
+^se/se$
+^kelnamiki/kelnamiki$
+^tak/tak$
+^nen/nen$
+^totepixkatsin/totepixkatsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a159
+# text = Pero komo....
+# text[orig] = Pero komo ....
+# text[spa] = Pero como ....
+# labels = a159 sentence
+^Pero/Pero$
+^komo/komo$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a162
+# text = Wan yehwa yon ika tekwi.
+# text[orig] = Wa:n yehwa yo:n ika te:kwi.
+# text[spa] = Y con eso nos enfermamos.
+# labels = a162 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^yon/yo>n$
+^ika/ika$
+^tekwi/tekwi$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a164
+# text = Pos neli kihtowah ke ohti sah no tekwi, kok..., nen, ehekakokolis pero pos neh amo nikneltoka Porque neli amo keman n'mati keniw yon kihtowah tekwi eheka..., eheka..., ehekakokolis.
+# text[orig] = Pos neli kihtowah ke ohti sah no: te:kwi, kok..., ne:n, ehekakokolis pero pos neh a:mo nikneltoka *Porque** neli a:mo ke:man n'mati ke:ní:w yo:n kihtowah te:kwi eheka..., eheka..., ehekakokolis.
+# text[spa] = Pues es cierto, dicen que al estar caminando nos puede atacar el mal aire pero yo no creo Porque es ciero, nunca he visto como se enferma uno de la brujería o mal aire.
+# text[a164] = Pos neli kihtowah ke ohti sah no: te:kwi, kok..., ne:n, ehekakokolis pero pos neh a:mo nikneltoka
+# text[a166] = *Porque** neli a:mo ke:man n'mati ke:ní:w yo:n kihtowah te:kwi eheka..., eheka..., ehekakokolis.
+# labels = a164 a166 sentence
+^Pos/Pos$
+^neli/neli$
+^kihtowah/kihtowah$
+^ke/ke$
+^ohti/ohti$
+^sah/sah$
+^no/no$
+^tekwi/tekwi$
+^,/,$
+^kok.../kok...$
+^,/,$
+^nen/nen$
+^,/,$
+^ehekakokolis/ehekakokolis$
+^pero/pero$
+^pos/pos$
+^neh/neh$
+^amo/amo$
+^nikneltoka/nikneltoka$
+^Porque/Porque$
+^neli/neli$
+^amo/amo$
+^keman/keman$
+^n'mati/n'mati$
+^keniw/keniw$
+^yon/yo>n$
+^kihtowah/kihtowah$
+^tekwi/tekwi$
+^eheka.../eheka...$
+^,/,$
+^eheka.../eheka...$
+^,/,$
+^ehekakokolis/ehekakokolis$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a167:1
+# text = Kemah, pero yakin se kimati pos kemeh yon tikihtowa nochi komohkon sanipa tekokoh wan amo teh tenamiki. 
+# text[orig] = Ke:mah, pero ya:kin se: kimati pos ke:meh yo:n tikihtowa nochi komohkó:n sanipa te:kokoh wa:n a:mo teh te:na:miki. 
+# text[spa] = Si, pero qué bueno que uno se entera, pues cuando sentimos que nos duele todo el cuerpo y nada nos puede curar. 
+# labels = a167 sentence
+^Kemah/Kemah$
+^,/,$
+^pero/pero$
+^yakin/yakin$
+^se/se$
+^kimati/kimati$
+^pos/pos$
+^kemeh/kemeh$
+^yon/yo>n$
+^tikihtowa/tikihtowa$
+^nochi/nochi$
+^komohkon/komohkon$
+^sanipa/sanipa$
+^tekokoh/tekokoh$
+^wan/wan$
+^amo/amo$
+^teh/teh$
+^tenamiki/tenamiki$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a167:2
+# text = Pos yehwa ya mah ika se, yehwa ya se taolochtsin se kikwiti.
+# text[orig] = Pos yehwa ya mah ika se:, yehwa ya se: taolo:chtsi:n se: kikwiti.
+# text[spa] = Pues con esa hojas, uno debe (bañarse)..., que vaya uno a traer un rollito.
+# labels = a167 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^ya/ya$
+^mah/mah$
+^ika/ika$
+^se/se$
+^,/,$
+^yehwa/yehwa$
+^ya/ya$
+^se/se$
+^taolochtsin/taolochtsin$
+^se/se$
+^kikwiti/kikwiti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a169:1
+# text = Wan mah se kimamana. 
+# text[orig] = Wa:n mah se: kima:mana. 
+# text[spa] = Que se hiervan. 
+# labels = a169 sentence
+^Wan/Wan$
+^mah/mah$
+^se/se$
+^kimamana/kimamana$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a169:2
+# text = Mm, pos tel..., yehwa yon niknekik nikmatis.
+# text[orig] = Mm, pos tel..., yehwa yo:n niknekik nikmatis.
+# text[spa] = Mm, pues eso es lo que yo quería saber.
+# labels = a169 sentence
+^Mm/Mm$
+^,/,$
+^pos/pos$
+^tel/tel$
+^.../...$
+^,/,$
+^yehwa/yehwa$
+^yon/yo>n$
+^niknekik/niknekik$
+^nikmatis/nikmatis$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a171:1
+# text = Yehwa n' ome taman oso ipa tein chichiltik sah wan.... 
+# text[orig] = Yehwa n' o:me taman oso i:pa tein chi:chi:ltik sah wa:n .... 
+# text[spa] = De los dos tipos o solamente el cedro rojo y..., 
+# labels = a171 sentence
+^Yehwa/Yehwa$
+^n'/n'$
+^ome/ome$
+^taman/taman$
+^oso/oso$
+^ipa/ipa$
+^tein/tein$
+^chichiltik/chichiltik$
+^sah/sah$
+^wan/wan$
+^.../...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a171:2
+# text = Kemah. 
+# text[orig] = Ke:mah. 
+# text[spa] = Si. 
+# labels = a171 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a171:3
+# text = Ihwak a kimatih, wan nimolia tak no ixkisas komo se kimana.
+# text[orig] = Ihwa:k a kimatih, wa:n nimolia tak no: i:xki:sas komo se: kimana.
+# text[spa] = En ese momento se enteran y yo creo que al hervir, suelta el color, (pintándolo al agua).
+# labels = a171 sentence
+^Ihwak/Ihwak$
+^a/a$
+^kimatih/kimatih$
+^,/,$
+^wan/wan$
+^nimolia/nimolia$
+^tak/tak$
+^no/no$
+^ixkisas/ixkisas$
+^komo/komo$
+^se/se$
+^kimana/kimana$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a173:1
+# text = Kisa nen itapal, ixkisa. 
+# text[orig] = Ki:sa ne:n itapal, i:xki:sa. 
+# text[spa] = Se despinta, se despinta, (pintando el agua), 
+# labels = a173 sentence
+^Kisa/Kisa$
+^nen/nen$
+^itapal/itapal$
+^,/,$
+^ixkisa/ixkisa$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a173:2
+# text = Mm, pos yehwa sah in nimits..., nimitstahtanisnekik keniw, nen, tikihtowa tikwi para, nen, se mopahtia.
+# text[orig] = Mm, pos yehwa sah i:n nimits..., nimitstahtani:snekik ke:ní:w, ne:n, tikihtowa tikwi para, ne:n, se: mopahtia.
+# text[spa] = pues solamente esto quise preguntarte, de cómo la usas para curar.
+# labels = a173 sentence
+^Mm/Mm$
+^,/,$
+^pos/pos$
+^yehwa/yehwa$
+^sah/sah$
+^in/in$
+^nimits.../nimits...$
+^,/,$
+^nimitstahtanisnekik/nimitstahtanisnekik$
+^keniw/keniw$
+^,/,$
+^nen/nen$
+^,/,$
+^tikihtowa/tikihtowa$
+^tikwi/tikwi$
+^para/para$
+^,/,$
+^nen/nen$
+^,/,$
+^se/se$
+^mopahtia/mopahtia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a176
+# text = Pos telmiak tasohkamatik tinechilih keniw se kikwi wan neh niwalew ne San Miguel Tzinacapan wan nimonotsa niCelina Gonzalez Nazario.
+# text[orig] = Pos telmiak tasohka:matik tine:chilih ke:ní:w se: kikwi wa:n neh niwa:le:w ne: San Miguel Tzinacapan wa:n nimono:tsa niCelina González Nazario.
+# text[spa] = Pues muchas gracias por haberme contado de cómo se usan esas hojas y yo vengo de San Miguel Tzinacapan y me llamo Celina González Nazario.
+# labels = a176 sentence
+^Pos/Pos$
+^telmiak/telmiak$
+^tasohkamatik/tasohkamatik$
+^tinechilih/tinechilih$
+^keniw/keniw$
+^se/se$
+^kikwi/kikwi$
+^wan/wan$
+^neh/neh$
+^niwalew/niwalew$
+^ne/ne$
+^San/San$
+^Miguel/Miguel$
+^Tzinacapan/Tzinacapan$
+^wan/wan$
+^nimonotsa/nimonotsa$
+^niCelina/niCelina$
+^Gonzalez/Gonzalez$
+^Nazario/Nazario$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a177
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a177 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a179:1
+# text = ¿Tehwatsin keniw timonotsa?
+# text[orig] = ¿Tehwa:tsi:n ke:ní:w timono:tsa? 
+# text[spa] = ¿Usted cómo se llamas? 
+# labels = a179 sentence
+^¿/¿$
+^Tehwatsin/Tehwatsin$
+^keniw/keniw$
+^timonotsa/timonotsa$
+^?/?$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a179:2
+# text = A.
+# text[orig] = A:. 
+# text[spa] = A.
+# labels = a179 sentence
+^A/A$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a181
+# text = A wenoh, pos telmiak tasohkamatik.
+# text[orig] = A: we:noh, pos telmiak tasohka:matik.
+# text[spa] = A. Bueno, pues muchas gracias.
+# labels = a181 sentence
+^A/A$
+^wenoh/wenoh$
+^,/,$
+^pos/pos$
+^telmiak/telmiak$
+^tasohkamatik/tasohkamatik$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a56
+# text = A, tiokowit, kemah, ome taman, se istak wan se chichiltik, mm.
+# text[orig] = A:, tio:kowit, ke:mah, o:me taman, se: ista:k wa:n se: chi:chi:ltik, mm.
+# text[spa] = A:, el cedro, si, son dos tipos, uno es blanco y otro es rojo, mm.
+# labels = a56 sentence
+^A/A$
+^,/,$
+^tiokowit/tiokowit$
+^,/,$
+^kemah/kemah$
+^,/,$
+^ome/ome$
+^taman/taman$
+^,/,$
+^se/se$
+^istak/istak$
+^wan/wan$
+^se/se$
+^chichiltik/chichiltik$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a58
+# text = Ixiwyotsin, no pahti wan no kwaltia kemeh yon kichiwah ne kalkowit kitekih.
+# text[orig] = Ixiwyotsi:n, no: pahti wa:n no: kwaltia ke:meh yo:n kichi:wah ne: kalkowit kitekih.
+# text[spa] = Las hojas también es medicinal y el tronco se puede usar para construir una casa.
+# labels = a58 sentence
+^Ixiwyotsin/Ixiwyotsin$
+^,/,$
+^no/no$
+^pahti/pahti$
+^wan/wan$
+^no/no$
+^kwaltia/kwaltia$
+^kemeh/kemeh$
+^yon/yo>n$
+^kichiwah/kichiwah$
+^ne/ne$
+^kalkowit/kalkowit$
+^kitekih/kitekih$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a60:1
+# text = Mm, mm. 
+# text[orig] = Mm, mm. 
+# text[spa] = Mm, mm. 
+# labels = a60 sentence
+^Mm/Mm$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a60:2
+# text = Kichiwah tablas, nochi kwaltia.
+# text[orig] = Kichi:wah *tablas**, nochi kwaltia.
+# text[spa] = Del tronco, sacan tablas, se puede aprovechar de diferentes maneras.
+# labels = a60 sentence
+^Kichiwah/Kichiwah$
+^tablas/tablas$
+^,/,$
+^nochi/nochi$
+^kwaltia/kwaltia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a62:1
+# text = Mm, wan yon ne ixoch..., i..., ix..., i..., ixiwyotsin pos kwaltia para pahti, mm. 
+# text[orig] = Mm, wa:n yo:n ne: ixo:ch..., i..., ix..., i..., [i]xiwyotsi:n pos kwaltia para pahti, mm. 
+# text[spa] = Mm, y las flores..., las hojas sirven para medicina, mm. 
+# labels = a62 sentence
+^Mm/Mm$
+^,/,$
+^wan/wan$
+^yon/yo>n$
+^ne/ne$
+^ixoch.../ixoch...$
+^,/,$
+^i.../i...$
+^,/,$
+^ix.../ix...$
+^,/,$
+^i.../i...$
+^,/,$
+^ixiwyotsin/ixiwyotsin$
+^pos/pos$
+^kwaltia/kwaltia$
+^para/para$
+^pahti/pahti$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a62:2
+# text = Para pahti.
+# text[orig] = Para pahti.
+# text[spa] = Para medicina.
+# labels = a62 sentence
+^Para/Para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a64
+# text = Pos mah se kimana wan mah ika se malti wan komohkon neli se kipia yon kihtowah ne, ne keman katka ne to..., totatahwan kihtowayah Ne tahchiwil. Tahchiwil.
+# text[orig] = Pos mah se: kimana wa:n mah ika se: malti wa:n komohkó:n neli se: kipia yo:n kihtowah ne:, ne: ke:man katka ne: to..., tota:tahwa:n kihtowa:yah Ne: tahchi:wi:l. Tahchi:wi:l.
+# text[spa] = Pues deben ser hervidas y con el agua se baña uno (como enfermo), si uno está enfermo de la enfermedad, que nuestros padres lo denominaban Este, tahchi:wi:l. Tahchi:wi:l.
+# text[a64] = Pos mah se: kimana wa:n mah ika se: malti wa:n komohkó:n neli se: kipia yo:n kihtowah ne:, ne: ke:man katka ne: to..., tota:tahwa:n kihtowa:yah
+# text[a66] = Ne: tahchi:wi:l. Tahchi:wi:l.
+# labels = a64 a66 sentence
+^Pos/Pos$
+^mah/mah$
+^se/se$
+^kimana/kimana$
+^wan/wan$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^wan/wan$
+^komohkon/komohkon$
+^neli/neli$
+^se/se$
+^kipia/kipia$
+^yon/yo>n$
+^kihtowah/kihtowah$
+^ne/ne$
+^,/,$
+^ne/ne$
+^keman/keman$
+^katka/katka$
+^ne/ne$
+^to.../to...$
+^,/,$
+^totatahwan/totatahwan$
+^kihtowayah/kihtowayah$
+^Ne/Ne$
+^tahchiwil/tahchiwil$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a66:2
+# text = Tahchiwil.
+# text[orig] = Tahchi:wi:l.
+# text[spa] = Tahchi:wi:l.
+# labels = a66 sentence
+^Tahchiwil/Tahchiwil$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a68
+# text = Pos ne teehekamotah.
+# text[orig] = Pos ne: te:ehekamo:tah.
+# text[spa] = Pues te enfermas de mal aire.
+# labels = a68 sentence
+^Pos/Pos$
+^ne/ne$
+^teehekamotah/teehekamotah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a70
+# text = Mm, tetaresarowiliah wan kinotsah nen yon o..., okse takat para mah yehwa ya ne teehekamaka.
+# text[orig] = Mm, te:taresa:rowiliah wa:n kino:tsah ne:n yo:n o..., oksé: ta:kat para mah yehwa ya ne: te:ehekamaka.
+# text[spa] = Mm, le dedican rosarios a la persona para que se enferme, invocando en el nombre del diablo. para que él se encargue de enfermar a la persona.
+# text[a70] = Mm, te:taresa:rowiliah wa:n kino:tsah ne:n yo:n o..., oksé: ta:kat
+# text[a72] = para mah yehwa ya ne: te:ehekamaka.
+# labels = a70 a72 sentence
+^Mm/Mm$
+^,/,$
+^tetaresarowiliah/tetaresarowiliah$
+^wan/wan$
+^kinotsah/kinotsah$
+^nen/nen$
+^yon/yo>n$
+^o.../o...$
+^,/,$
+^okse/okse$
+^takat/takat$
+^para/para$
+^mah/mah$
+^yehwa/yehwa$
+^ya/ya$
+^ne/ne$
+^teehekamaka/teehekamaka$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a74
+# text = Mm, mm wan yon, kihtowah yon kichiwah yon tahchiwil komoke ne tetahchiwilwiah, mah ne te..., tetokaitiah ompa kit wan cuando yon nejon tetokaitiah kit ompa chihchihchah para ma tekwi a kit yon brujeria.
+# text[orig] = Mm, mm wa:n yo:n, kihtowah yo:n kichi:wah yo:n tahchi:wi:l komoke ne: te:tahchi:wi:lwiah, mah ne: te..., te:to:ka:itiah ompa kit wa:n *cuando** yo:n nejó:n te:to:ka:itiah kit ompa chihchihchah para ma te:kwi a kit yo:n *brujeria**.
+# text[spa] = Mm, mm y dicen que cuando te embrujan, cuando te hechizan, mencionan el nombre de uno y (el brujo) escupe la saliva para que uno se enferme de brujería.
+# text[a74] = Mm, mm wa:n yo:n, kihtowah yo:n kichi:wah yo:n tahchi:wi:l komoke ne: te:tahchi:wi:lwiah,
+# text[a75] = mah ne: te..., te:to:ka:itiah ompa kit wa:n *cuando** yo:n nejó:n te:to:ka:itiah kit ompa chihchihchah para ma te:kwi a kit yo:n *brujeria**.
+# labels = a74 a75 sentence
+^Mm/Mm$
+^,/,$
+^mm/mm$
+^wan/wan$
+^yon/yo>n$
+^,/,$
+^kihtowah/kihtowah$
+^yon/yo>n$
+^kichiwah/kichiwah$
+^yon/yo>n$
+^tahchiwil/tahchiwil$
+^komoke/komoke$
+^ne/ne$
+^tetahchiwilwiah/tetahchiwilwiah$
+^,/,$
+^mah/mah$
+^ne/ne$
+^te.../te...$
+^,/,$
+^tetokaitiah/tetokaitiah$
+^ompa/ompa$
+^kit/kit$
+^wan/wan$
+^cuando/cuando$
+^yon/yo>n$
+^nejon/nejon$
+^tetokaitiah/tetokaitiah$
+^kit/kit$
+^ompa/ompa$
+^chihchihchah/chihchihchah$
+^para/para$
+^ma/ma$
+^tekwi/tekwi$
+^a/a$
+^kit/kit$
+^yon/yo>n$
+^brujeria/brujeria$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a77
+# text = Mm, iwki yoni kichiwah, mm.
+# text[orig] = Mm, iwki yo:ni kichi:wah, mm.
+# text[spa] = Mm, así lo hacen, mm.
+# labels = a77 sentence
+^Mm/Mm$
+^,/,$
+^iwki/iwki$
+^yoni/yoni$
+^kichiwah/kichiwah$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a80:1
+# text = Pos yehwa yon se kipia, mm. 
+# text[orig] = Pos yehwa yo:n se: kipia, mm. 
+# text[spa] = Pues quizá uno se enferma de brujería, mm. 
+# labels = a80 sentence
+^Pos/Pos$
+^yehwa/yehwa$
+^yon/yo>n$
+^se/se$
+^kipia/kipia$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a80:2
+# text = Yehwa ya tak tahchiwil se kipia.
+# text[orig] = Yehwa ya tak tahchi:wi:l se: kipia.
+# text[spa] = Quizá sea la brujería.
+# labels = a80 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^tak/tak$
+^tahchiwil/tahchiwil$
+^se/se$
+^kipia/kipia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a82
+# text = Wan mah ika se malti yehwa yon xiwtsin.
+# text[orig] = Wa:n mah ika se: ma:lti yehwa yo:n xiwtsí:n.
+# text[spa] = Y uno debe bañarse con el agua de esas hojas.
+# labels = a82 sentence
+^Wan/Wan$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^yehwa/yehwa$
+^yon/yo>n$
+^xiwtsin/xiwtsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a83
+# text = Entos ne se kelkawa tepitsin, komoke kisa.
+# text[orig] = Entó:s ne: se: kelka:wa tepitsi:n, komoke ki:sa.
+# text[spa] = Entonces sientes el alivio, se va la enfermedad.
+# labels = a83 sentence
+^Entos/Entos$
+^ne/ne$
+^se/se$
+^kelkawa/kelkawa$
+^tepitsin/tepitsin$
+^,/,$
+^komoke/komoke$
+^kisa/kisa$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a85
+# text = Kisa n' kokolis, mm.
+# text[orig] = Ki:sa n' kokolis, mm.
+# text[spa] = Se sale la enfermedad, mm.
+# labels = a85 sentence
+^Kisa/Kisa$
+^n'/n'$
+^kokolis/kokolis$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a87
+# text = Yehwa yon ixiwyotsin mah se kimana.
+# text[orig] = Yehwa yo:n ixiwyotsi:n mah se: kimana.
+# text[spa] = Las hojas del cedro deben ser hervidas.
+# labels = a87 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^ixiwyotsin/ixiwyotsin$
+^mah/mah$
+^se/se$
+^kimana/kimana$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a89
+# text = Mah se kimana wan mah ika se malti, mm.
+# text[orig] = Mah se: kimana wa:n mah ika se: ma:lti, mm.
+# text[spa] = Uno debe hervir las hojitas y posteriormente uno debe bañarse con el agua, mm.
+# labels = a89 sentence
+^Mah/Mah$
+^se/se$
+^kimana/kimana$
+^wan/wan$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a91:1
+# text = Wan yon kowtsin no kipia n' ixochiotsin wan no kipia n' iteyotsin. No kipia iteyo.
+# text[orig] = Wa:n yo:n kowtsí:n no: kipia n' ixo:chiotsi:n wa:n no: kipia n' iteyotsi:n. No: kipia iteyo.
+# text[spa] = Y ese árbol también florea y produce frutos. Tiene frutos.
+# labels = a91 sentence
+^Wan/Wan$
+^yon/yo>n$
+^kowtsin/kowtsin$
+^no/no$
+^kipia/kipia$
+^n'/n'$
+^ixochiotsin/ixochiotsin$
+^wan/wan$
+^no/no$
+^kipia/kipia$
+^n'/n'$
+^iteyotsin/iteyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a91:2
+# text = No kipia iteyo.
+# text[orig] = No: kipia iteyo.
+# text[spa] = Tiene frutos.
+# labels = a91 sentence
+^No/No$
+^kipia/kipia$
+^iteyo/iteyo$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a93:1
+# text = Kanah. 
+# text[orig] = Ka:nah. 
+# text[spa] = No. 
+# labels = a93 sentence
+^Kanah/Kanah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a93:2
+# text = Kemah, pos kan mochiwa, ta mochiwa ompa ne kampa ika tehwan tinemih, mm. 
+# text[orig] = Ke:mah, pos ka:n mochi:wa, ta: mochi:wa ompa ne: ka:mpa ika tehwa:n tinemih, mm. 
+# text[spa] = Si, (hí donde tú vives,) pues no nace, allá por donde nosotros vivimos nacen bastantes plantitas. 
+# labels = a93 sentence
+^Kemah/Kemah$
+^,/,$
+^pos/pos$
+^kan/kan$
+^mochiwa/mochiwa$
+^,/,$
+^ta/ta$
+^mochiwa/mochiwa$
+^ompa/ompa$
+^ne/ne$
+^kampa/kampa$
+^ika/ika$
+^tehwan/tehwan$
+^tinemih/tinemih$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a93:3
+# text = N' i..., n' iteyotsin mahya yon, iteyotsin yewaltik wan, nen, cuando yon, nen, posoni ne ixochiotsin yeh pisiltik.
+# text[orig] = N' i..., n' iteyotsi:n mahyá: yo:n, iteyotsi:n yewaltik wa:n, ne:n, *cuando** yo:n, ne:n, poso:ni ne: ixo:chiotsi:n yeh pisi:ltik.
+# text[spa] = El fruto parace que es circular y cuando está en flor, las flores son muy pequeñas.
+# labels = a93 sentence
+^N'/N'$
+^i.../i...$
+^,/,$
+^n'/n'$
+^iteyotsin/iteyotsin$
+^mahya/mahya$
+^yon/yo>n$
+^,/,$
+^iteyotsin/iteyotsin$
+^yewaltik/yewaltik$
+^wan/wan$
+^,/,$
+^nen/nen$
+^,/,$
+^cuando/cuando$
+^yon/yo>n$
+^,/,$
+^nen/nen$
+^,/,$
+^posoni/posoni$
+^ne/ne$
+^ixochiotsin/ixochiotsin$
+^yeh/yeh$
+^pisiltik/pisiltik$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a95
+# text = Pisiltik wan panxini ixochiotsin wan ompa kemah mopilowa ya yon iteyotsin.
+# text[orig] = Pisi:ltik wa:n panxi:ni ixo:chiotsi:n wa:n ompa ke:mah mopilowa ya yo:n iteyotsi:n.
+# text[spa] = Son muy pequeñas y se caen y ahí mismo salen los frutos.
+# labels = a95 sentence
+^Pisiltik/Pisiltik$
+^wan/wan$
+^panxini/panxini$
+^ixochiotsin/ixochiotsin$
+^wan/wan$
+^ompa/ompa$
+^kemah/kemah$
+^mopilowa/mopilowa$
+^ya/ya$
+^yon/yo>n$
+^iteyotsin/iteyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a97:1
+# text = Wan i..., wan yon iteyotsin ixtapani no wan posoni ne i..., iyolotsin wan panxini, yehwa ya ixwa. 
+# text[orig] = Wa:n i..., wa:n yo:n iteyotsi:n i:xtapa:ni no: wa:n poso:ni ne: i..., iyo:lotsi:n wa:n panxi:ni, yehwa ya ixwa. 
+# text[spa] = Y esos frutos se parten y se abren, lo que hay en el interior (del fruto) se caen y son las que germinan. 
+# labels = a97 sentence
+^Wan/Wan$
+^i.../i...$
+^,/,$
+^wan/wan$
+^yon/yo>n$
+^iteyotsin/iteyotsin$
+^ixtapani/ixtapani$
+^no/no$
+^wan/wan$
+^posoni/posoni$
+^ne/ne$
+^i.../i...$
+^,/,$
+^iyolotsin/iyolotsin$
+^wan/wan$
+^panxini/panxini$
+^,/,$
+^yehwa/yehwa$
+^ya/ya$
+^ixwa/ixwa$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a97:2
+# text = Yehwa ya ixwa, mm.
+# text[orig] = Yehwa ya ixwa, mm.
+# text[spa] = Son las que germinan, mm.
+# labels = a97 sentence
+^Yehwa/Yehwa$
+^ya/ya$
+^ixwa/ixwa$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a98
+# text = Kanah, de, nen, n' ikowtetsin ihkokontsitsin.
+# text[orig] = Kanah, de, ne:n, n' ikowtetsi:n ihko:ko:ntsitsi:n.
+# text[spa] = No, los frutos son de este tamaño.
+# labels = a98 sentence
+^Kanah/Kanah$
+^,/,$
+^de/de$
+^,/,$
+^nen/nen$
+^,/,$
+^n'/n'$
+^ikowtetsin/ikowtetsin$
+^ihkokontsitsin/ihkokontsitsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a100:1
+# text = A, nen, n' iyolotsin weweyaktsitsin, yeh w.... 
+# text[orig] = A:, ne:n, n' iyo:lotsi:n we:weyaktsitsi:n, yeh w.... 
+# text[spa] = A:, el corazón del fruto son alargados, esos..., 
+# labels = a100 sentence
+^A/A$
+^,/,$
+^nen/nen$
+^,/,$
+^n'/n'$
+^iyolotsin/iyolotsin$
+^weweyaktsitsin/weweyaktsitsin$
+^,/,$
+^yeh/yeh$
+^w.../w...$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a100:2
+# text = Kemah, kwaltsin yon, mm.
+# text[orig] = Ke:mah, kwaltsi:n yo:n, mm.
+# text[spa] = Si, esos son bonitos, mm.
+# labels = a100 sentence
+^Kemah/Kemah$
+^,/,$
+^kwaltsin/kwaltsin$
+^yon/yo>n$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a102
+# text = Yehwa yon iteyotsin, yehwa n' tiokowit iteyotsin.
+# text[orig] = Yehwa yo:n iteyotsi:n, yehwa n' tio:kowit iteyotsi:n.
+# text[spa] = Esos son los frutos, son los frutos del cedro.
+# labels = a102 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^iteyotsin/iteyotsin$
+^,/,$
+^yehwa/yehwa$
+^n'/n'$
+^tiokowit/tiokowit$
+^iteyotsin/iteyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a104
+# text = Mm, wan yehwa yon nen neh nikixmati, yon ipa ne wehkaw kihtowayah ne no..., no..., noweitatwan ke ne kwali para yon ehekat ika se ko..., komo temo..., tetamotilihkeh yon ehekat kit mah ika se malti wan kisa.
+# text[orig] = Mm, wa:n yehwa yo:n ne:n neh niki:xmati, yo:n i:pa ne: wehka:w kihtowa:yah ne: no..., no..., nowe:ita:twa:n ke ne: kwali para yo:n ehekat ika se: ko..., komo te:mo..., te:tamo:tilihkeh yo:n ehekat kit mah ika se: ma:lti wa:n ki:sa.
+# text[spa] = Mm, y eso es lo que yo conozco, hace tiempo de por sí comentaban mis abuelos que es muy bueno para curar la brujería, en caso de que uno haya sido embrujado.
+# labels = a104 sentence
+^Mm/Mm$
+^,/,$
+^wan/wan$
+^yehwa/yehwa$
+^yon/yo>n$
+^nen/nen$
+^neh/neh$
+^nikixmati/nikixmati$
+^,/,$
+^yon/yo>n$
+^ipa/ipa$
+^ne/ne$
+^wehkaw/wehkaw$
+^kihtowayah/kihtowayah$
+^ne/ne$
+^no.../no...$
+^,/,$
+^no.../no...$
+^,/,$
+^noweitatwan/noweitatwan$
+^ke/ke$
+^ne/ne$
+^kwali/kwali$
+^para/para$
+^yon/yo>n$
+^ehekat/ehekat$
+^ika/ika$
+^se/se$
+^ko/ko$
+^.../...$
+^,/,$
+^komo/komo$
+^temo/temo$
+^.../...$
+^,/,$
+^tetamotilihkeh/tetamotilihkeh$
+^yon/yo>n$
+^ehekat/ehekat$
+^kit/kit$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^wan/wan$
+^kisa/kisa$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a106
+# text = Mm, weh..., ika, tekixtilia.
+# text[orig] = Mm, weh..., ika, te:ki:xtilia.
+# text[spa] = Mm, con eso se sana uno.
+# labels = a106 sentence
+^Mm/Mm$
+^,/,$
+^weh/weh$
+^.../...$
+^,/,$
+^ika/ika$
+^,/,$
+^tekixtilia/tekixtilia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a108
+# text = Pero tsohyak wan ne chichik, mm.
+# text[orig] = Pero tsohyak wa:n ne: chichi:k, mm.
+# text[spa] = Pero apesta y es amargo, mm.
+# labels = a108 sentence
+^Pero/Pero$
+^tsohyak/tsohyak$
+^wan/wan$
+^ne/ne$
+^chichik/chichik$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a110:1
+# text = Kemah wan tsohyaya, mm. 
+# text[orig] = Ke:mah wa:n tsohya:ya, mm. 
+# text[spa] = Si, apesta mucho, mm. 
+# labels = a110 sentence
+^Kemah/Kemah$
+^wan/wan$
+^tsohyaya/tsohyaya$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a110:2
+# text = Yektsohyaya, yehwa ika kit yoni pahti.
+# text[orig] = Ye:ktsohya:ya, yehwa ika kit yo:ni pahti.
+# text[spa] = Apesta mucho, por eso dicen que es medicinal.
+# labels = a110 sentence
+^Yektsohyaya/Yektsohyaya$
+^,/,$
+^yehwa/yehwa$
+^ika/ika$
+^kit/kit$
+^yoni/yoni$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a112:1
+# text = Yehwa ika kit yoni pahti, mm. 
+# text[orig] = Yehwa ika kit yo:ni pahti, mm. 
+# text[spa] = Por eso dicen que es medicinal, mm. 
+# labels = a112 sentence
+^Yehwa/Yehwa$
+^ika/ika$
+^kit/kit$
+^yoni/yoni$
+^pahti/pahti$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a112:2
+# text = Yehwa yon komohkon te..., aksa tetawelita, te..., teehekamota pos tekixtilia yon k..., yon xiwtsin mah ika se malti.
+# text[orig] = Yehwa yo:n komohkó:n te..., a:ksá: te:tawe:lita, te:..., te:ehekamo:ta pos te:ki:xtilia yo:n k..., yo:n xiwtsi:n mah ika se: ma:lti.
+# text[spa] = Si acaso, con eso..., si alguien nos envidia, nos hace brujería con esas hojas podemos curarnos, debemos bañarnos con el agua de esas hojas.
+# labels = a112 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^komohkon/komohkon$
+^te.../te...$
+^,/,$
+^aksa/aksa$
+^tetawelita/tetawelita$
+^,/,$
+^te.../te...$
+^,/,$
+^teehekamota/teehekamota$
+^pos/pos$
+^tekixtilia/tekixtilia$
+^yon/yo>n$
+^k.../k...$
+^,/,$
+^yon/yo>n$
+^xiwtsin/xiwtsin$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a114
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a114 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a116
+# text = Mm, kwaltia, nochi kwaltia pero no nochi kwaltia hasta ixiwyotsin kwaltia.
+# text[orig] = Mm, kwaltia, nochi kwaltia pero no: nochi kwaltia *hasta** ixiwyotsi:n kwaltia.
+# text[spa] = Mm, sirve, sirve para todo, pues hasta las hojas sirven.
+# labels = a116 sentence
+^Mm/Mm$
+^,/,$
+^kwaltia/kwaltia$
+^,/,$
+^nochi/nochi$
+^kwaltia/kwaltia$
+^pero/pero$
+^no/no$
+^nochi/nochi$
+^kwaltia/kwaltia$
+^hasta/hasta$
+^ixiwyotsin/ixiwyotsin$
+^kwaltia/kwaltia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a118
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a118 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a120
+# text = Pahti ixiwyotsin.
+# text[orig] = Pahti ixiwyotsi:n.
+# text[spa] = Las hojas se ocupan para medicina.
+# labels = a120 sentence
+^Pahti/Pahti$
+^ixiwyotsin/ixiwyotsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a123:1
+# text = A, ta no kwali para pahti, eheh. 
+# text[orig] = A:, ta: no: kwali para pahti, eheh. 
+# text[spa] = Si, es muy bueno para medicina, ehe. 
+# labels = a123 sentence
+^A/A$
+^,/,$
+^ta/ta$
+^no/no$
+^kwali/kwali$
+^para/para$
+^pahti/pahti$
+^,/,$
+^eheh/eheh$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a123:2
+# text = No kwali para pahti.
+# text[orig] = No: kwali para pahti.
+# text[spa] = Es muy bueno para medicina.
+# labels = a123 sentence
+^No/No$
+^kwali/kwali$
+^para/para$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a124
+# text = Yehwa yon neh nikmattok ke kwali yon kwowtsin, mm.
+# text[orig] = Yehwa yo:n neh nikmattok ke kwali yo:n kwowtsi:n, mm.
+# text[spa] = Sí, yo sé que ese árbol es muy bueno, mm.
+# labels = a124 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^neh/neh$
+^nikmattok/nikmattok$
+^ke/ke$
+^kwali/kwali$
+^yon/yo>n$
+^kwowtsin/kwowtsin$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a127:1
+# text = Kemah, xomet wan albahaca pero para neli komo se itech a techichintok a yon ehekat, mah ika se malti yehwa yon xiwit. 
+# text[orig] = Ke:mah, xo:me:t wa:n *albahaca** pero para neli komo se: itech a te:chichi:ntok a yo:n ehekat, mah ika se: ma:lti yehwa yo:n xiwit. 
+# text[spa] = Si, el xo:me:t y el albahaca pero cuando uno ya está muy grave de la brujería. 
+# labels = a127 sentence
+^Kemah/Kemah$
+^,/,$
+^xomet/xomet$
+^wan/wan$
+^albahaca/albahaca$
+^pero/pero$
+^para/para$
+^neli/neli$
+^komo/komo$
+^se/se$
+^itech/itech$
+^a/a$
+^techichintok/techichintok$
+^a/a$
+^yon/yo>n$
+^ehekat/ehekat$
+^,/,$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^yehwa/yehwa$
+^yon/yo>n$
+^xiwit/xiwit$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a127:2
+# text = Wan amo, amo sayoh sepa timaltis ta importah timaltis nawi viaje.
+# text[orig] = Wa:n a:mo, a:mo sayoh sepa tima:lti:s ta: *impo:rtah** tima:lti:s na:wi *viaje**.
+# text[spa] = (Se hierven las hojas y con el agua) uno debe bañarse no solamente una vez sino se requiere de cuatros baños.
+# labels = a127 sentence
+^Wan/Wan$
+^amo/amo$
+^,/,$
+^amo/amo$
+^sayoh/sayoh$
+^sepa/sepa$
+^timaltis/timaltis$
+^ta/ta$
+^importah/importah$
+^timaltis/timaltis$
+^nawi/nawi$
+^viaje/viaje$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a129
+# text = Kanah, cuando pewas timaltis, ximalti cada eyi tonal ika yehwa yon xiwtsin.
+# text[orig] = Kanah, *cuando** pe:was tima:ltis, xima:lti *cada** e:yi to:nal ika yehwa yo:n xiwtsí:n.
+# text[spa] = No, cuando empieces a bañarte, despues te bañas cada tercer dia con el agua de las hojas de ese árbol.
+# labels = a129 sentence
+^Kanah/Kanah$
+^,/,$
+^cuando/cuando$
+^pewas/pewas$
+^timaltis/timaltis$
+^,/,$
+^ximalti/ximalti$
+^cada/cada$
+^eyi/eyi$
+^tonal/tonal$
+^ika/ika$
+^yehwa/yehwa$
+^yon/yo>n$
+^xiwtsin/xiwtsin$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a131:1
+# text = Mm, eheyi tonalika. 
+# text[orig] = Mm, ehe:yi to:nalika. 
+# text[spa] = Mm, cada tres dias. 
+# labels = a131 sentence
+^Mm/Mm$
+^,/,$
+^eheyi/eheyi$
+^tonalika/tonalika$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a131:2
+# text = Se rollito, mm, se rollito.
+# text[orig] = Se: *rollito**, mm, se: *rollito**.
+# text[spa] = Un rollito, si, un rollito.
+# labels = a131 sentence
+^Se/Se$
+^rollito/rollito$
+^,/,$
+^mm/mm$
+^,/,$
+^se/se$
+^rollito/rollito$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a133
+# text = Para mah kwali oksi wan ika se motetekilia ya, mm.
+# text[orig] = Para mah kwali oksi wa:n ika se: mote:te:kilia ya, mm.
+# text[spa] = Para que (las hojas) puedan cocerce y posteriormente ya se baña uno con el agua ( de las hojas hervidas).
+# labels = a133 sentence
+^Para/Para$
+^mah/mah$
+^kwali/kwali$
+^oksi/oksi$
+^wan/wan$
+^ika/ika$
+^se/se$
+^motetekilia/motetekilia$
+^ya/ya$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a136:1
+# text = Yehwa yon tenamiki. 
+# text[orig] = Yehwa yo:n te:na:miki. 
+# text[spa] = Con eso se cura uno. 
+# labels = a136 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^tenamiki/tenamiki$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a136:2
+# text = Mm. 
+# text[orig] = Mm.
+# text[spa] = Mm. 
+# labels = a136 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a136:3
+# text = Wan se kelkawa ya yehwa yon koh..., koh..., fieroh se kimachilia.
+# text[orig] = Wa:n se: kelka:wa ya yehwa yo:n koh..., koh..., fie:roh se: kimachilia.
+# text[spa] = Y poco a poco, uno se le olvida los síntomas de esa enfermedad, porque uno se siente muy mal.
+# labels = a136 sentence
+^Wan/Wan$
+^se/se$
+^kelkawa/kelkawa$
+^ya/ya$
+^yehwa/yehwa$
+^yon/yo>n$
+^koh/koh$
+^.../...$
+^,/,$
+^koh/koh$
+^.../...$
+^,/,$
+^fieroh/fieroh$
+^se/se$
+^kimachilia/kimachilia$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a138
+# text = Se kelkawa.
+# text[orig] = Se: kelka:wa.
+# text[spa] = Se quita el dolor (olvidando la enfermedad)
+# labels = a138 sentence
+^Se/Se$
+^kelkawa/kelkawa$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a141:1
+# text = Amo, ta kwali pahti. 
+# text[orig] = A:mo, ta: kwali pahti. 
+# text[spa] = No, pues es muy buena medicina. 
+# labels = a141 sentence
+^Amo/Amo$
+^,/,$
+^ta/ta$
+^kwali/kwali$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a141:2
+# text = Neh nikmattok kwali pahti porque yehwa ika tehwan wehkaw timopahtiayah.
+# text[orig] = Neh nikmattok kwali pahti *porque** yehwa ika tehwa:n wehka:w timopahtia:yah.
+# text[spa] = Yo sé que es muy buena medicina porque con eso nos curábamos hace tiempo.
+# labels = a141 sentence
+^Neh/Neh$
+^nikmattok/nikmattok$
+^kwali/kwali$
+^pahti/pahti$
+^porque/porque$
+^yehwa/yehwa$
+^ika/ika$
+^tehwan/tehwan$
+^wehkaw/wehkaw$
+^timopahtiayah/timopahtiayah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a143
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a143 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a145
+# text = Wan yehwa, nen, akin tapahtiaya pos techiliaya ke yehwa ini pahti wan yehwa ini pahti, neh nikixmattok.
+# text[orig] = Wa:n yehwa, ne:n, a:kin tapahtia:ya pos te:chilia:ya ke yehwa i:ni pahti wa:n yehwa i:ni pahti, neh niki:xmattok.
+# text[spa] = Y la persona quien nos curaba, pues ella nos decía que las hojas del (tio:kowit) es medicinal y esta es muy buena medicina, yo lo conozco.
+# labels = a145 sentence
+^Wan/Wan$
+^yehwa/yehwa$
+^,/,$
+^nen/nen$
+^,/,$
+^akin/akin$
+^tapahtiaya/tapahtiaya$
+^pos/pos$
+^techiliaya/techiliaya$
+^ke/ke$
+^yehwa/yehwa$
+^ini/ini$
+^pahti/pahti$
+^wan/wan$
+^yehwa/yehwa$
+^ini/ini$
+^pahti/pahti$
+^,/,$
+^neh/neh$
+^nikixmattok/nikixmattok$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a147
+# text = Yehwa yon techilwiaya por eso tikmattokeh ke pahti neli.
+# text[orig] = Yehwa yo:n te:chilwia:ya *por eso** tikmattokeh ke pahti neli.
+# text[spa] = Él nos decía por eso sabemos que ciertamente es medicinal.
+# labels = a147 sentence
+^Yehwa/Yehwa$
+^yon/yo>n$
+^techilwiaya/techilwiaya$
+^por/por$
+^eso/eso$
+^tikmattokeh/tikmattokeh$
+^ke/ke$
+^pahti/pahti$
+^neli/neli$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a149:1
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a149 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a149:2
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a149 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a152:1
+# text = Amo tepahtia, mm. 
+# text[orig] = A:mo te:pahtia, mm. 
+# text[spa] = No nos cura, mm. 
+# labels = a152 sentence
+^Amo/Amo$
+^tepahtia/tepahtia$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a152:2
+# text = Ipa ika xiwtsitsin, ika xiwtsitsin, ika xiwpahmeh ne se pahti.
+# text[orig] = I:pa ika xiwtsitsi:n, ika xiwtsitsi:n, ika xiwpahmeh ne: se: pahti.
+# text[spa] = (Nos curamos) solamente con las hierbas, uno se cura con las plantas medicinales.
+# labels = a152 sentence
+^Ipa/Ipa$
+^ika/ika$
+^xiwtsitsin/xiwtsitsin$
+^,/,$
+^ika/ika$
+^xiwtsitsin/xiwtsitsin$
+^,/,$
+^ika/ika$
+^xiwpahmeh/xiwpahmeh$
+^ne/ne$
+^se/se$
+^pahti/pahti$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a154:1
+# text = Mm. 
+# text[orig] = Mm. 
+# text[spa] = Mm. 
+# labels = a154 sentence
+^Mm/Mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a154:2
+# text = Pos ta yeh ihsiwka pero cuando yon tetamotiliah amo sikiera se kimati.
+# text[orig] = Pos ta: yeh ihsiwka pero *cuando** yo:n te:tamo:tiliah a:mo sikie:ra se: kimati.
+# text[spa] = Pues uno se enferma repentinamente y no se da uno cuenta en qué momento fuimos embrujados.
+# labels = a154 sentence
+^Pos/Pos$
+^ta/ta$
+^yeh/yeh$
+^ihsiwka/ihsiwka$
+^pero/pero$
+^cuando/cuando$
+^yon/yo>n$
+^tetamotiliah/tetamotiliah$
+^amo/amo$
+^sikiera/sikiera$
+^se/se$
+^kimati/kimati$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a156
+# text = Amo se kimati, mm.
+# text[orig] = A:mo se: kimati, mm.
+# text[spa] = Uno no se entera, mm.
+# labels = a156 sentence
+^Amo/Amo$
+^se/se$
+^kimati/kimati$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a160:1
+# text = Tak yehwa ika.
+# text[orig] = Tak yehwa ika. 
+# text[spa] = Quiza sea por eso. 
+# labels = a160 sentence
+^Tak/Tak$
+^yehwa/yehwa$
+^ika/ika$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a160:2
+# text = Amo ta ipa tak yetok ne suerte para cuando tekwis.
+# text[orig] = A:mo ta: i:pa tak yetok ne: *suerte** para *cuando** te:kwis.
+# text[spa] = O quizá ya es la mala suerte de que uno se enferme.
+# labels = a160 sentence
+^Amo/Amo$
+^ta/ta$
+^ipa/ipa$
+^tak/tak$
+^yetok/yetok$
+^ne/ne$
+^suerte/suerte$
+^para/para$
+^cuando/cuando$
+^tekwis/tekwis$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a161
+# text = A, yon tekwi pero amo nejon, kemeh yon maski se ohtokatok wan yon orah tepitstikisa kemeskia yon ehekat.
+# text[orig] = A:, yo:n te:kwi pero a:mo nejó:n, ke:meh yo:n ma:ski se: ohtokatok wa:n yo:n o:rah te:pi:tstiki:sa ke:meskia yo:n ehekat.
+# text[spa] = Ah, de esa enfermedad nos ataca en cualquier momento, puede ser en el trayecto de un camino, cuando vamos a alguna parte, en ese momento nos sopla el (mal) aire.
+# labels = a161 sentence
+^A/A$
+^,/,$
+^yon/yo>n$
+^tekwi/tekwi$
+^pero/pero$
+^amo/amo$
+^nejon/nejon$
+^,/,$
+^kemeh/kemeh$
+^yon/yo>n$
+^maski/maski$
+^se/se$
+^ohtokatok/ohtokatok$
+^wan/wan$
+^yon/yo>n$
+^orah/orah$
+^tepitstikisa/tepitstikisa$
+^kemeskia/kemeskia$
+^yon/yo>n$
+^ehekat/ehekat$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a163
+# text = Mm, yehwa ya yon tekwi, mm.
+# text[orig] = Mm, yehwa ya yo:n te:kwi, mm.
+# text[spa] = Mm, por eso nos enfermamos, mm.
+# labels = a163 sentence
+^Mm/Mm$
+^,/,$
+^yehwa/yehwa$
+^ya/ya$
+^yon/yo>n$
+^tekwi/tekwi$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a165
+# text = Mm, kemah.
+# text[orig] = Mm, ke:mah.
+# text[spa] = Mm, si.
+# labels = a165 sentence
+^Mm/Mm$
+^,/,$
+^kemah/kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a168:1
+# text = Kemah. 
+# text[orig] = Ke:mah. 
+# text[spa] = Si. 
+# labels = a168 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a168:2
+# text = Kemah, yehwa ke..., kemeh yon xiwtsitsin ya mah ika se malti a, mm, mm.
+# text[orig] = Ke:mah, yehwa ke..., ke:meh yo:n xiwtsitsi:n ya mah ika se: ma:lti a, mm, mm.
+# text[spa] = Si, que se bañe uno con (el gua hervida de) esas hojas, mm, mm.
+# labels = a168 sentence
+^Kemah/Kemah$
+^,/,$
+^yehwa/yehwa$
+^ke.../ke...$
+^,/,$
+^kemeh/kemeh$
+^yon/yo>n$
+^xiwtsitsin/xiwtsitsin$
+^ya/ya$
+^mah/mah$
+^ika/ika$
+^se/se$
+^malti/malti$
+^a/a$
+^,/,$
+^mm/mm$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a170
+# text = Mah se kimana wan mah se malti a, mm.
+# text[orig] = Mah se: kimana wa:n mah se: ma:lti a, mm.
+# text[spa] = Que se hiervan (las hojas) y luego ya se baña uno, mm.
+# labels = a170 sentence
+^Mah/Mah$
+^se/se$
+^kimana/kimana$
+^wan/wan$
+^mah/mah$
+^se/se$
+^malti/malti$
+^a/a$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a172:1
+# text = Yehwa yoni ne tiokowit ixochio, i..., ixiwyo, mm. 
+# text[orig] = Yehwa yo:ni ne: tio:kowit ixo:chio, i..., ixiwyo, mm. 
+# text[spa] = Esas, las flores del tio:kowit, ..., las hojas, mm. 
+# labels = a172 sentence
+^Yehwa/Yehwa$
+^yoni/yoni$
+^ne/ne$
+^tiokowit/tiokowit$
+^ixochio/ixochio$
+^,/,$
+^i.../i...$
+^,/,$
+^ixiwyo/ixiwyo$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a172:2
+# text = Tein chichiltik wan yehwa ya tein istak oso kan se kimati katin, ta se kimati cuando yon ne se kitekih ya, ihwak a kixmatih, mm.
+# text[orig] = Tein chi:chi:ltik wa:n yehwa ya tein ista:k oso ka:n se: kimati katí:n, ta: se: kimati *cuando** yo:n ne: se: kitekih ya, ihwa:k a ki:xmatih, mm.
+# text[spa] = El cedro rojo y el blanco o quien sabe cual es, porque uno se da cuenta que es rojo o blanco después de haber cortado, mm.
+# labels = a172 sentence
+^Tein/Tein$
+^chichiltik/chichiltik$
+^wan/wan$
+^yehwa/yehwa$
+^ya/ya$
+^tein/tein$
+^istak/istak$
+^oso/oso$
+^kan/kan$
+^se/se$
+^kimati/kimati$
+^katin/katin$
+^,/,$
+^ta/ta$
+^se/se$
+^kimati/kimati$
+^cuando/cuando$
+^yon/yo>n$
+^ne/ne$
+^se/se$
+^kitekih/kitekih$
+^ya/ya$
+^,/,$
+^ihwak/ihwak$
+^a/a$
+^kixmatih/kixmatih$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a174:1
+# text = Kemah, mm. 
+# text[orig] = Ke:mah, mm. 
+# text[spa] = Si, mm. 
+# labels = a174 sentence
+^Kemah/Kemah$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a174:2
+# text = Kisa itapal, mm.
+# text[orig] = Ki:sa itapal, mm.
+# text[spa] = Se despinta, mm.
+# labels = a174 sentence
+^Kisa/Kisa$
+^itapal/itapal$
+^,/,$
+^mm/mm$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a175
+# text = Kemah.
+# text[orig] = Ke:mah.
+# text[spa] = Si.
+# labels = a175 sentence
+^Kemah/Kemah$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a178
+# text = Iwki timonotsa, wenoh Neh nimonotsa Leonor Osollo Segura, niwalew ne Tecoltepec.
+# text[orig] = Iwki timono:tsa, we:noh Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
+# text[spa] = Así te llamas, bueno. Yo me llamo Leonor Osollo Segura, vengo de Tecoltepec.
+# text[a178] = Iwki timono:tsa, we:noh
+# text[a180] = Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
+# labels = a178 a180 sentence
+^Iwki/Iwki$
+^timonotsa/timonotsa$
+^,/,$
+^wenoh/wenoh$
+^Neh/Neh$
+^nimonotsa/nimonotsa$
+^Leonor/Leonor$
+^Osollo/Osollo$
+^Segura/Segura$
+^,/,$
+^niwalew/niwalew$
+^ne/ne$
+^Tecoltepec/Tecoltepec$
+^./.$
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a182
+# text = Mm.
+# text[orig] = Mm.
+# text[spa] = Mm.
+# labels = a182 sentence
+^Mm/Mm$
+^./.$
