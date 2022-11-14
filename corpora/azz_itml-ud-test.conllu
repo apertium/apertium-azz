@@ -10474,6 +10474,95 @@
 5	kikuaj	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a88
+# text = Mah se kimana xiwtsin.
+# text[orig] = Mah se: kimana xiwtsí:n.
+# text[spa] = Uno debe hervir las hojitas.
+# labels = a88 sentence
+1	Mah	ma	AUX	_	_	3	aux	_	_
+2	se	se	NUM	_	_	3	nsubj	_	_
+3	kimana	mana	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+4	xiwtsin	xihuit	NOUN	_	Polite=Form	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a90:1
+# text = Kemah, ta....
+# text[orig] = Ke:mah, ta: ....
+# text[spa] = Si, pues...,
+# labels = a90 sentence
+1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	ta	ta	ADV	_	_	1	parataxis	_	SpaceAfter=No
+4	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a90:2
+# text = No kipia n' iteyo, pos nikan, nikan tehwan amo tikixmatih n' iteyotsin.
+# text[orig] = No: kipia n' iteyo, pos nika:n, nika:n tehwa:n a:mo tiki:xmatih n' iteyotsi:n.
+# text[spa] = Tambíen tiene frutos, pues aquí, nosotros no conocemos los frutos.
+# labels = a90 sentence
+1	No	no	ADV	_	_	2	advmod	_	_
+2	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
+3	n'	in	DET	_	_	4	det	_	_
+4	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	12	punct	_	_
+6	pos	pos	ADV	_	_	12	advmod	_	_
+7	nikan	nikan	ADV	_	_	9	reparandum	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	nikan	nikan	ADV	_	_	12	advmod	_	_
+10	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	12	nsubj	_	_
+11	amo	amo	ADV	_	_	12	advmod	_	_
+12	tikixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	2	parataxis	_	_
+13	n'	in	DET	_	_	14	det	_	_
+14	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a92:3
+# text = Pos, nikitani, nikitani, nen, n' ixiwyotsin.
+# text[orig] = Pos, nikitani, nikitani, ne:n, n' ixiwyotsi:n.
+# text[spa] = Pues he visto las hojitas.
+# labels = a92 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nikitani	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Past	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	nikitani	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Past	3	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	nen	nen	INTJ	_	_	5	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	n'	in	DET	_	_	10	det	_	_
+10	ixiwyotsin	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	5	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a94
+# text = Pisiltik no.
+# text[orig] = Pisi:ltik no:.
+# text[spa] = Muy pequeñas.
+# labels = a94 sentence
+1	Pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	no	no	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a96:1
+# text = Wan chikawaya ya.
+# text[orig] = Wa:n chika:waya ya.
+# text[spa] = Y ya se maduran.
+# labels = a96 sentence
+1	Wan	huan	CCONJ	_	_	2	cc	_	_
+2	chikawaya	chikahuaya	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+3	ya	ya	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a107:1
+# text = Pos amo nik....
+# text[orig] = Pos a:mo nik....
+# text[spa] = Pues no se...,
+# labels = a107 sentence
+1	Pos	pos	ADV	_	_	3	advmod	_	_
+2	amo	amo	ADV	_	_	3	advmod	_	_
+3	nik...	nik	X	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a111:1
 # text = A, yehwa ika.
 # text[orig] = A:, yehwa ika.
