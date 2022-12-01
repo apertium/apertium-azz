@@ -1283,7 +1283,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
 # text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
-# labels = complete check:adverb
+# labels = complete check-adverb
 1	Miyakej	miak	DET	_	Number=Plur	2	det	_	_
 2	sitalimej	sitalin	NOUN	_	Number=Plur	8	nsubj	_	_
 3	teyin	tein	PRON	_	_	4	obj	_	_
