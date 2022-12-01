@@ -2,7 +2,7 @@
 # text = Yehwa yon neh nikahsikamatisnekia.
 # text[orig] = Yehwa yo:n neh nikahsika:matisnekia.
 # text[spa] = Eso es lo que yo quería saber.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a69
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a69
 # labels = a69 sentence
 1	Yehwa	yehuan	PRON	_	Case=Abs|Number=Plur|Person=3|PronType=Pers	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -18,7 +18,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a84
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a84
 # labels = a84 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -27,7 +27,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a92
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a92
 # labels = a92 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -38,7 +38,7 @@
 # text[spa] = Sabes que cada planta o arbolito, hay dos o hasta tres tipos, pero no todos los conocemos.
 # text[a96] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n,
 # text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
-#audio : 1-a96
+# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a96
 # labels = a96 a97 sentence
 1	Tikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
 2	cada	cada	DET	_	_	3	det	_	_
@@ -68,7 +68,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a106
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a106
 # labels = a106 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -80,7 +80,7 @@
 # text[a111] = 'Tasohka:matilia <i>que</i> ti..., timonohno:tskeh nika:n i:n,
 # text[a112] = neh nimono:tsa niRubén Macario, niwa:le:wa de Chilcuauhta
 # text[a113] = wa:n nipowi nika:n <i>cerca</i> San Miguel.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a111
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a111
 # labels = a111 a112 a113 sentence
 1	'Tasohkamatilia	tasojkamatilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=2|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 2	que	que	SCONJ	_	_	5	mark	_	_
@@ -110,7 +110,7 @@
 # text = Pos neh nikixmattok de yon kilwiah mowih, neh nikixmattok ipa sentaman sah.
 # text[orig] = Pos neh niki:xmattok de yo:n kilwiah mowih, neh niki:xmattok i:pa sentaman sah.
 # text[spa] = Pues, yo conozco de este que dicen <i>mowih</i>, yo conozco acaso solamente uno hay.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a28
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a28
 # labels = a28 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -133,7 +133,7 @@
 # text = A, no iwki.
 # text[orig] = A:, no: iwki.
 # text[spa] = Ah, así son.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a38
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a38
 # labels = a38 sentence
 1	A	a	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
@@ -145,7 +145,7 @@
 # text = Wan kwaltsin mochiwa neli n' at, yek..., yektapalat mochiwa, yekchichiltik.
 # text[orig] = Wa:n kwaltsi:n mochi:wa neli n' a:t, ye:k..., ye:ktapala:t mochi:wa, ye:kchi:chi:ltik.
 # text[spa] = El agua queda bien bonita, colorada, queda muy rojizo.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a53
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a53
 # labels = a53 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
 2	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	dep	_	_
@@ -166,7 +166,7 @@
 # text = Porque neh amo keman nikita komo xochiowa oso teyowa.
 # text[orig] = <i>Porque</i> neh a:mo ke:man nikita komo xo:chiowa oso teyowa.
 # text[spa] = Porque yo nunca he visto que floree o que tenga semillas.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a61
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a61
 # labels = a61 sentence
 1	Porque	porque	SCONJ	_	_	5	mark	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
@@ -183,7 +183,7 @@
 # text = Wan amo keman nikita ox xochiowa, pero neh nimolia que xa ikowyotsin no kitokah wan selia.
 # text[orig] = Wa:n a:mo ke:man nikita ox xo:chiowa, pero neh nimolia <i>que</i> xa: ikowyotsi:n no: kito:kah wa:n selia.
 # text[spa] = Y nunca la he visto que floree pero yo me imagino que a lo mejor siembran el tallo y retoña.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a66
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a66
 # labels = a66 sentence
 1	Wan	huan	CCONJ	_	_	4	cc	_	_
 2	amo	amo	ADV	_	_	4	advmod	_	_
@@ -208,7 +208,7 @@
 # text = Pero neh amo keman nikwik de yon xiwtsini, pero nikmattok kihtowah neli que pahti.
 # text[orig] = Pero neh a:mo ke:man nikwik de yo:n xiwtsi:ni, pero nikmattok kihtowah neli <i>que</i> pahti.
 # text[spa] = Pero yo nunca ocupé las hojas de esa planta, pero sí sé que dicen que esa planta es medicinal.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a77
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a77
 # labels = a77 sentence
 1	Pero	pero	CCONJ	_	_	5	cc	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
@@ -233,7 +233,7 @@
 # text = Kemah, porque kimattokeh que pahti.
 # text[orig] = Ke:mah, <i>porque</i> kimattokeh <i>que</i> pahti.
 # text[spa] = Si, pues saben que es medicinal.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a83
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a83
 # labels = a83 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
@@ -257,7 +257,7 @@
 # text[spa] = Pues sí, no ... Sí.
 # text[a99] = Pos ke:mah ka:n ...
 # text[a102] = Ke:mah.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a99
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a99
 # labels = a102 a99 sentence
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2	kemah	kemaj	INTJ	_	_	0	root	_	_
@@ -269,7 +269,7 @@
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a105
 # text = Pos kemah se ki..., se kiita ya que nochi iwki sah.
 # text[orig] = Pos ke:mah se: ki..., se: kiita ya <i>que</i> nochi iwki sah.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a105
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j-a105
 # text[spa] = Pues sí... uno lo ve que todos son iguales.
 # labels = a105 sentence
 1	Pos	pos	ADV	_	_	7	advmod	_	_
@@ -384,7 +384,7 @@
 # text = ¿Kani mochiwa wan keniwki n' ixochio?
 # text[orig] = ¿Ka:ni mochi:wa wa:n ke:niwki n' ixo:chio?
 # text[spa] = ¿Dónde crece y cómo es la flor?
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a23
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a23
 # labels = a23 sentence
 1	¿	¿	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Kani	kani	ADV	_	PronType=Int	3	advmod	_	_
@@ -403,7 +403,7 @@
 # text[a25] = ta: *mismo** ochpa:wa:s,
 # text[a26] = sayoh ke:meh neh nimitsilia porin,
 # text[a27] = porin wehkapan moskaltia wa:n ma:tohtohmiyoh.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a24
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a24
 # labels = a24 a25 a26 a27 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nsubj	_	SpaceAfter=No
@@ -438,7 +438,7 @@
 # text[spa] = Y la flor es blanca como el, la flor es blanca y empieza a crecer alto.
 # text[a28] = Wa:n ixo:chiotsi:n ista:k ke:meh,
 # text[a29] = ista:k n' ixo:chiotsi:n wa:n pe:wa moskaltia wehkapan.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a28
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a28
 # labels = a28 a29 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
 2	ixochiotsin	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	3	nsubj	_	_
@@ -460,7 +460,7 @@
 # text[spa] = No es muy alto, solamente, como el, muy [alto] como el, como el tamaño de uno [la altura de una persona adulta, quiza entre 1.50 cm.]
 # text[a29] = A:mo semi telwehkapan *más que solamente**, ke:meh, semi ke:meh,
 # text[a30] = ke:meh se: neketsal sah.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a29
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a29
 # labels = a28 a29 a30 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	semi	semi	ADV	_	_	3	advmod	_	_
@@ -484,7 +484,7 @@
 # text = Onkak, onkak kemeh se neketsal de wehkapan.
 # text[orig] = Onkak, onkak ke:meh se: neketsal de wehkapan.
 # text[spa] = Hay, hay unos como la altura de una persona adulta
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a31
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a31
 # labels = a31 sentence
 1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -500,7 +500,7 @@
 # text = Neh nimonotsa Ruben Macario, ninemi nikan Chilkwowtah.
 # text[orig] = Neh nimono:tsa Rubén Macario, ninemi nika:n Chi:lkwowtah.
 # text[spa] = Yo me llamo Ruben Macario, vivo en Chilcouhta.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a38
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a38
 # labels = a38 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -516,7 +516,7 @@
 # text = Niwalew casi s..., Chilkwowtah, cerca de San Miguel.
 # text[orig] = Niwa:le:w *casi** s..., Chi:lkwowtah, *cerca de** San Miguel.
 # text[spa] = Vengo casi de Chilcoutah, cerca de San Miguel.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a39
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a39
 # labels = a39 sentence
 1	Niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
 2	casi	casi	ADV	_	_	5	advmod	_	_
@@ -556,7 +556,7 @@
 # text = Pues neh nikixmattok solamente se, ome taman.
 # text[orig] = *Pues** neh niki:xmattok *solamente** se:, o:me taman.
 # text[spa] = Pues yo solamente conozco uno ..., dos tipos.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a8
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a8
 # labels = a8 sentence
 1	Pues	pues	ADV	_	_	3	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -575,7 +575,7 @@
 # text[a9] = Se: yo:n tein wehkapan moskaltia ata,
 # text[a10] = wa[:n] wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsi:n wa:n seki,
 # text[a11] = *más** pisi:ltik.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a9
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a9
 # labels = a10 a11 a9 sentence
 1	Se	se	NUM	_	_	2	dislocated	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -614,7 +614,7 @@
 # text[spa] = Que yo vea que lo ..., que sirva para algo, no se ocupa.
 # text[a14] = *Que** ihkó:n nikita neh para mah ...,
 # text[a15] = teihsá: mah kwaltia ihkó:n, a:mo kwaltia.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a14
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a14
 # labels = a14 a15 sentence
 1	Que	que	SCONJ	_	_	3	mark	_	_
 2	ihkon	ijkon	ADV	_	_	3	advmod	_	_
@@ -639,7 +639,7 @@
 # text[spa] = Solamente para los niños, con ello juegan, cortan los frutos y se lo avientan uno al otro, porque es muy pegagoso.
 # text[a16] = *Solamente** ke:meh i:n para pi:piltsitsi:n ika ma:wiltihtinemih, kitekih ne:n iteyotsi:n ata wa:n motamo:tiliah,
 # text[a17] = *porque** semi telsasaltik.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a16
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a16
 # labels = a16 a17 sentence
 1	Solamente	solamente	ADV	_	_	7	advmod	_	_
 2	kemeh	kemej	ADV	_	_	7	advmod	_	_
@@ -667,7 +667,7 @@
 # text = Tamelawa sayoh xiwit sah.
 # text[orig] = Tamela:wa sayoh xiwit sah.
 # text[spa] = Simplemente es una hierba.
-# audio : Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a22
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d-a22
 # labels = a22 sentence
 1	Tamelawa	tamelawa	ADV	_	_	3	advmod	_	_
 2	sayoh	sayoj	ADV	_	_	3	advmod	_	_
@@ -10522,7 +10522,7 @@
 # text = Kemah, yon nikmattok neli kwaltia para kalkowit wan nejon....
 # text[orig] = Ke:mah, yo:n nikmattok neli kwaltia para kalkowit wa:n nejó:n ....
 # text[spa] = Si, eso sí sé que se usa para construir una casa y este....
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a59
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a59
 # labels = a59 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10543,7 +10543,7 @@
 # text = Tahchiwil.
 # text[orig] = Tahchi:wi:l.
 # text[spa] = Tahchi:wi:l.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a65
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a65
 # labels = a65 sentence
 1	Tahchiwil	tajchihuil	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10552,7 +10552,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a71
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a71
 # labels = a71 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10561,7 +10561,7 @@
 # text = Pos yon amo nikmatia.
 # text[orig] = Pos yo:n a:mo nikmatia.
 # text[spa] = Pues eso no sabía.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a81
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a81
 # labels = a81 sentence
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -10575,7 +10575,7 @@
 # text = Kisa n' kokolis.
 # text[orig] = Ki:sa n' kokolis.
 # text[spa] = Se sale la enfermedad.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a84
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a84
 # labels = a84 sentence
 1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	n'	in	DET	_	_	3	det	_	_
@@ -10586,7 +10586,7 @@
 # text = Pos amo nikmatia yon keniw se kitatekiwtiaya.
 # text[orig] = Pos a:mo nikmatia yo:n ke:ní:w se: kitatekiwtia:ya.
 # text[spa] = Pues no sabía como se usaban esas hojas.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a86
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a86
 # labels = a86 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -10603,7 +10603,7 @@
 # text = Mah se kimana xiwtsin.
 # text[orig] = Mah se: kimana xiwtsí:n.
 # text[spa] = Uno debe hervir las hojitas.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a88
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a88
 # labels = a88 sentence
 1	Mah	ma	AUX	_	_	3	aux	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
@@ -10647,7 +10647,7 @@
 # text = Pos, nikitani, nikitani, nen, n' ixiwyotsin.
 # text[orig] = Pos, nikitani, nikitani, ne:n, n' ixiwyotsi:n.
 # text[spa] = Pues he visto las hojitas.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a92
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a92
 # labels = a92 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10665,7 +10665,7 @@
 # text = Pisiltik no.
 # text[orig] = Pisi:ltik no:.
 # text[spa] = Muy pequeñas.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a94
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a94
 # labels = a94 sentence
 1	Pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	no	no	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -10675,7 +10675,7 @@
 # text = Wan chikawaya ya.
 # text[orig] = Wa:n chika:waya ya.
 # text[spa] = Y ya se maduran.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a96
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a96
 # labels = a96 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	chikawaya	chikahuaya	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -10686,7 +10686,7 @@
 # text = Pos amo nik....
 # text[orig] = Pos a:mo nik....
 # text[spa] = Pues no se...,
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a107
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a107
 # labels = a107 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -10716,7 +10716,7 @@
 # text = Wan kwaltia para se ichantsin, tsin..., itsintsakwil.
 # text[orig] = Wa:n kwaltia para se: icha:ntsi:n, tsi:n..., itsi:ntsakwil.
 # text[spa] = Y sirve para construir nuestra casa.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a115
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a115
 # labels = a115 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -10733,7 +10733,7 @@
 # text = No kwaltia.
 # text[orig] = No: kwaltia.
 # text[spa] = También sirven.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a117
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a117
 # labels = a117 sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
@@ -10743,7 +10743,7 @@
 # text = Pero amo tikmatiah ox no kwali para tah..., tikihtowa tahxchiwil ika tekixtiliah.
 # text[orig] = Pero a:mo tikmatiah ox no: kwali para tah..., tikihtowa tahxchi:wi:l ika te:ki:xtiliah.
 # text[spa] = Pero no sabiamos si es bueno para curar la enfermedad a causa de la brujería.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a122
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a122
 # labels = a122 sentence
 1	Pero	pero	CCONJ	_	_	3	cc	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -10764,7 +10764,7 @@
 # text = Wan yon ox miak se kikwi.
 # text[orig] = Wa:n yo:n ox miak se: kikwi.
 # text[spa] = ¿Y esas hojas se ocupan muchas?.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a126
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a126
 # labels = a126 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -10780,7 +10780,7 @@
 # text = Eheyi tonal.
 # text[orig] = Ehe:yi to:nal.
 # text[spa] = Cada tres dias.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a130
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a130
 # labels = a130 sentence
 1	Eheyi	ejeyi	NUM	_	_	2	nummod	_	_
 2	tonal	tonal	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
@@ -10806,7 +10806,7 @@
 # text = Pos amo nikmatia kit.
 # text[orig] = Pos a:mo nikmatia kit.
 # text[spa] = Pues yo no sabía.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a135
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a135
 # labels = a135 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -10818,7 +10818,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a140
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a140
 # labels = a140 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10827,7 +10827,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a142
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a142
 # labels = a142 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10836,7 +10836,7 @@
 # text = Ika xiwtsitsin, kemah wan....
 # text[orig] = Ika xiwtsitsi:n, ke:mah wa:n ....
 # text[spa] = Con hierbas, si y....
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a151
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a151
 # labels = a151 sentence
 1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 2	xiwtsitsin	xihuit	NOUN	_	Number=Plur|Polite=Form	1	nmod	_	SpaceAfter=No
@@ -10850,7 +10850,7 @@
 # text = Pero komo....
 # text[orig] = Pero komo ....
 # text[spa] = Pero como ....
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a159
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a159
 # labels = a159 sentence
 1	Pero	pero	CCONJ	_	_	2	cc	_	_
 2	komo	komo	ADV	_	_	0	root	_	SpaceAfter=No
@@ -10861,7 +10861,7 @@
 # text = Wan yehwa yon ika tekwi.
 # text[orig] = Wa:n yehwa yo:n ika te:kwi.
 # text[spa] = Y con eso nos enfermamos.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a162
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a162
 # labels = a162 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -10876,7 +10876,7 @@
 # text = Wan mah se kimamana.
 # text[orig] = Wa:n mah se: kima:mana.
 # text[spa] = Que se hiervan.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a169
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a169
 # labels = a169 sentence
 1	Wan	huan	CCONJ	_	_	4	cc	_	_
 2	mah	ma	AUX	_	_	4	aux	_	_
@@ -10888,7 +10888,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a171
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a171
 # labels = a171 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10897,7 +10897,7 @@
 # text = Kisa nen itapal, ixkisa.
 # text[orig] = Ki:sa ne:n itapal, i:xki:sa.
 # text[spa] = Se despinta, se despinta, (pintando el agua),
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a173
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a173
 # labels = a173 sentence
 1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	nen	nen	DET	_	_	3	det	_	_
@@ -10910,7 +10910,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a177
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a177
 # labels = a177 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10960,7 +10960,7 @@
 # text = Para pahti.
 # text[orig] = Para pahti.
 # text[spa] = Para medicina.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a62
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a62
 # labels = a62 sentence
 1	Para	para	ADP	_	_	2	case	_	_
 2	pahti	pajti	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
@@ -10970,7 +10970,7 @@
 # text = Tahchiwil.
 # text[orig] = Tahchi:wi:l.
 # text[spa] = Tahchi:wi:l.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a66
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a66
 # labels = a66 sentence
 1	Tahchiwil	tajchihuil	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -10979,7 +10979,7 @@
 # text = Kisa n' kokolis, mm.
 # text[orig] = Ki:sa n' kokolis, mm.
 # text[spa] = Se sale la enfermedad, mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a85
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a85
 # labels = a85 sentence
 1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	n'	in	DET	_	_	3	det	_	_
@@ -10992,7 +10992,7 @@
 # text = No kipia iteyo.
 # text[orig] = No: kipia iteyo.
 # text[spa] = Tiene frutos.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a91
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a91
 # labels = a91 sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -11034,7 +11034,7 @@
 # text = Yehwa ya ixwa, mm.
 # text[orig] = Yehwa ya ixwa, mm.
 # text[spa] = Son las que germinan, mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a97
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a97
 # labels = a97 sentence
 1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
 2	ya	ya	ADV	_	_	3	advmod	_	_
@@ -11047,7 +11047,7 @@
 # text = Kemah wan tsohyaya, mm.
 # text[orig] = Ke:mah wa:n tsohya:ya, mm.
 # text[spa] = Si, apesta mucho, mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a110
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a110
 # labels = a110 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	_
 2	wan	huan	CCONJ	_	_	3	cc	_	_
@@ -11060,7 +11060,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a114
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a114
 # labels = a114 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11069,7 +11069,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a118
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a118
 # labels = a118 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11078,7 +11078,7 @@
 # text = Pahti ixiwyotsin.
 # text[orig] = Pahti ixiwyotsi:n.
 # text[spa] = Las hojas se ocupan para medicina.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a120
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a120
 # labels = a120 sentence
 1	Pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	ixiwyotsin	xiuyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	1	nsubj	_	SpaceAfter=No
@@ -11115,7 +11115,7 @@
 # text = Se rollito, mm, se rollito.
 # text[orig] = Se: *rollito**, mm, se: *rollito**.
 # text[spa] = Un rollito, si, un rollito.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a131
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a131
 # labels = a131 sentence
 1	Se	se	NUM	_	_	2	det	_	_
 2	rollito	rollito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -11179,7 +11179,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a143
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a143
 # labels = a143 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11204,7 +11204,7 @@
 # text = Amo tepahtia, mm.
 # text[orig] = A:mo te:pahtia, mm.
 # text[spa] = No nos cura, mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a152
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a152
 # labels = a152 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	tepahtia	pajtia	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -11216,7 +11216,7 @@
 # text = Amo se kimati, mm.
 # text[orig] = A:mo se: kimati, mm.
 # text[spa] = Uno no se entera, mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a156
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a156
 # labels = a156 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
@@ -11229,7 +11229,7 @@
 # text = Tak yehwa ika.
 # text[orig] = Tak yehwa ika.
 # text[spa] = Quiza sea por eso.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a160
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a160
 # labels = a160 sentence
 1	Tak	tak	ADV	_	_	3	advmod	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nmod	_	_
@@ -11261,7 +11261,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a175
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a175
 # labels = a175 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11270,7 +11270,7 @@
 # text = Iwki timonotsa, wenoh
 # text[orig] = Iwki timono:tsa, we:noh
 # text[spa] = Así te llamas, bueno.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a178
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a178
 # labels = a178 sentence
 1	Iwki	iuki	ADV	_	_	2	advmod	_	_
 2	timonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -11281,7 +11281,7 @@
 # text = Neh nimonotsa Leonor Osollo Segura, niwalew ne Tecoltepec.
 # text[orig] = Neh nimono:tsa Leonor Osollo Segura, niwa:le:w ne: Tecoltepec.
 # text[spa] = Yo me llamo Leonor Osollo Segura, vengo de Tecoltepec.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a180
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a180
 # labels = a180 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -11298,7 +11298,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm.
-# audio : Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a182
+# audio = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m-a182
 # labels = a182 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11329,7 +11329,7 @@
 # text = Kemasa ompa kitalia, ne, itapahsol, ihkon kichihchiwa ichantsin.
 # text[orig] = Ke:masá: ompa kita:lia, ne:, itapahsol, ihkó:n kichihchi:wa icha:ntsi:n.
 # text[spa] = A veces ahí pone, este, su nido, así hace su casita.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a79
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a79
 # labels = a79 sentence
 1	Kemasa	kemasa	ADV	_	_	3	advmod	_	_
 2	ompa	ompa	ADV	_	_	3	advmod	_	_
@@ -11348,7 +11348,7 @@
 # text = Kemah, de ompa amo apaliwi kampa ichantsin pos ki..., kitalilia pos ompa no yetok.
 # text[orig] = Ke:mah, de ompa a:mo a:paliwi ka:mpa icha:ntsi:n pos ki..., kita:lilia pos ompa no: yetok.
 # text[spa] = Si, de ahí no se moja donde su casa lo..., le pone pues ahí está también.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a85
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a85
 # labels = a85 sentence
 1	Kemah	kemaj	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -11372,7 +11372,7 @@
 # text = Amo keman nikitas mah ki..., mah kikwa, nijon, tapialtsin.
 # text[orig] = A:mo ke:man nikitas mah ki..., mah kikwa, nijó:n, tapialtsi:n.
 # text[spa] = Nunca lo veo que..., que lo coma, ese, animal doméstico.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a106
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a106
 # labels = a106 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	keman	keman	ADV	_	_	3	advmod	_	_
@@ -11392,7 +11392,7 @@
 # text = Ne kwakwehtsin oso teisa ihkon se tapialtsin amo keman nikita mah ki..., kikwa.
 # text[orig] = Ne: kwa:kwehtsi:n oso teisá: ihkó:n se: tapialtsi:n a:mo ke:man nikita mah ki..., kikwa.
 # text[spa] = El res o algún animal así nunca lo veo que lo..., que lo coma.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a108
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a108
 # labels = a108 sentence
 1	Ne	ne	DET	_	_	2	det	_	_
 2	kwakwehtsin	kuakohuej	NOUN	_	Polite=Form	10	dislocated	_	_
@@ -11414,7 +11414,7 @@
 # text = Pos nehwa nimonotsa Anastacio Nicolas Damian, neh niwalew de xolal de San Miguel Tzinacapan.
 # text[orig] = Pos nehwa nimono:tsa Anastacio Nicolás Damián, neh niwa:le:w de xola:l de San Miguel Tzinacapan.
 # text[spa] = Pues yo me llamo Anastacio Nicolás Damián, yo vengo del pueblo de San Miguel Tzinacapan.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a127
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a127
 # labels = a127 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	nehwa	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -11437,7 +11437,7 @@
 # text = A wenoh, tasohkamatik.
 # text[orig] = A: we:noh, tasohka:matik.
 # text[spa] = A bueno, gracias.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a129
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a129
 # labels = a129 sentence
 1	A	a	INTJ	_	_	0	root	_	_
 2	wenoh	huenoj	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -11449,7 +11449,7 @@
 # text = A
 # text[orig] = A:
 # text[spa] = Aa
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a38
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a38
 # labels = a38 fragment
 1	A	a	INTJ	_	_	0	root	_	_
 
@@ -11457,7 +11457,7 @@
 # text = Tankwakwikwil, kemah.
 # text[orig] = Tankwa:kwi:kwil, ke:mah.
 # text[spa] = Tankwa:kwi:kwil, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a40
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a40
 # labels = a40 sentence
 1	Tankwakwikwil	tankuakuikuil	NOUN	_	Case=Abs	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11468,7 +11468,7 @@
 # text = Mm, mm.
 # text[orig] = Mm, mm.
 # text[spa] = Si, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a45
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a45
 # labels = a45 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11479,7 +11479,7 @@
 # text = Mm, mm.
 # text[orig] = Mm, mm.
 # text[spa] = Si, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a47
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a47
 # labels = a47 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11490,7 +11490,7 @@
 # text = Kemah, kemah.
 # text[orig] = Ke:mah, ke:mah.
 # text[spa] = Si, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a63
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a63
 # labels = a63 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11501,7 +11501,7 @@
 # text = Wan moskaltia wehkapan wan ixochio no kostik, kostik ixochio.
 # text[orig] = Wa:n moskaltia wehkapan wa:n ixo:chio no: kostik, kostik ixo:chio.
 # text[spa] = Y crece alto y sus flores también son amarillas, sus flores son amarillas.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a67
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a67
 # labels = a67 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -11519,7 +11519,7 @@
 # text = Kemah, mm.
 # text[orig] = Ke:mah, mm.
 # text[spa] = Si, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a78
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a78
 # labels = a78 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11530,7 +11530,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a80
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a80
 # labels = a80 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11539,7 +11539,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a82
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a82
 # labels = a82 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11548,7 +11548,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a86
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a86
 # labels = a86 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11576,7 +11576,7 @@
 # text = Palani a, kemah.
 # text[orig] = Pala:ni a, ke:mah.
 # text[spa] = Ya se pudre, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a86
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a86
 # labels = a96 sentence
 1	Palani	palani	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	a	a	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -11588,7 +11588,7 @@
 # text = Kemah, kwaltia tapalan nochi.
 # text[orig] = Ke:mah, kwaltia tapala:n nochi.
 # text[spa] = Si, sirve todo para abono.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a98
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a98
 # labels = a98 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -11623,7 +11623,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a102
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a102
 # labels = a102 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11632,7 +11632,7 @@
 # text = Kemah, kan, kan kikwah, amo kikwa, mm.
 # text[orig] = Ke:mah, ka:n, ka:n kikwah, a:mo kikwa, mm.
 # text[spa] = Si, no, no lo comen, no lo comen, si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a105
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a105
 # labels = a105 sentence
 1	Kemah	kemaj	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -11651,7 +11651,7 @@
 # text = Kan kikwah, kan kikwah por eso....
 # text[orig] = Ka:n kikwah, ka:n kikwah *por eso** ....
 # text[spa] = No lo comen, no lo comen por eso...
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a109
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a109
 # labels = a109 fragment
 1	Kan	kan	ADV	_	_	2	advmod	_	_
 2	kikwah	kua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -11667,7 +11667,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a112
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a112
 # labels = a112 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11676,7 +11676,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a116
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a116
 # labels = a116 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11685,7 +11685,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a118
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a118
 # labels = a118 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11694,7 +11694,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a121
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a121
 # labels = a121 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11703,7 +11703,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a122
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a122
 # labels = a122 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -11712,7 +11712,7 @@
 # text = Neh, neh nimonotsa niErnesto Vazquez no niwalew San Miguel Tzinacapan.
 # text[orig] = Neh, neh nimono:tsa niErnesto Vázquez no: niwa:le:w San Miguel Tzinacapan.
 # text[spa] = Yo, yo me llamo Ernesto Vázquez también vengo de San Miguel Tzinacapan.
-# audio : Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a128
+# audio = Tzina_Botan_AND308-JVC313_wehwei-kuiikuilehkaw-Smallanthus-Asteraceae_2012-08-02-b-a128
 # labels = a128 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -11731,7 +11731,7 @@
 # text = Ekintsin Tacho 'technohnotsa de, nen, kanachi taman, nen, wawkilit n' teh tikixmattok.
 # text[orig] = Ekintsi:n Tacho 'te:chnohno:tsa de, ne:n, ka:nachi taman, ne:n, wa:wkilit n' teh tiki:xmattok.
 # text[spa] = Ahora don Tacho platícanos cuantos tipos de wa:wkilit conoce usted.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a9
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a9
 # labels = a9 sentence
 1	Ekintsin	ekintsin	ADV	_	_	3	advmod	_	_
 2	Tacho	Tacho	PROPN	_	Gender=Masc	3	vocative	_	_
@@ -11755,7 +11755,7 @@
 # text = ¿N' iteyo welik oso amo welik?
 # text[orig] = ¿N' iteyo we:lik oso a:mo we:lik?
 # text[spa] = ¿Y sus semillas son comestibles o no?
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a147
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a147
 # labels = a147 sentence
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	N'	in	DET	_	_	3	det	_	_
@@ -11770,7 +11770,7 @@
 # text = Nijon neh nikixmati nen nawi taman.
 # text[orig] = Nijó:n neh niki:xmati ne:n na:wi taman.
 # text[spa] = Este yo conozco cuatro tipos.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a10
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a10
 # labels = a10 sentence
 1	Nijon	nijon	PRON	_	_	3	discourse	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -11784,7 +11784,7 @@
 # text = Ne kwowtah, pos yon ne, tehwan no tikiliah mismo de yeh, ahmolkilit.
 # text[orig] = Ne: kwowtah, pos yo:n ne:, tehwa:n no: tikiliah *mismo de** yeh, ahmo:lkilit.
 # text[spa] = El que se da en el bosque es el que nosotros también le llamamos ahmo:lkilit.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a12
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a12
 # labels = a12 sentence
 1	Ne	ne	ADV	_	_	5	advmod	_	_
 2	kwowtah	kuoutaj	NOUN	_	Case=Abs	1	appos	_	SpaceAfter=No
@@ -11809,7 +11809,7 @@
 # text = Nijon tehwan tikiliah, nen, kiltonil, kiltonil tikiliah.
 # text[orig] = Nijó:n tehwa:n tikiliah, ne:n, kilto:ni:l, kilto:ni:l tikiliah.
 # text[spa] = Nosotros le llamamos quiltonile, le llamamos quiltonile.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a15
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a15
 # labels = a15 sentence
 1	Nijon	nijon	PRON	_	_	3	discourse	_	_
 2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
@@ -11827,7 +11827,7 @@
 # text = Wan okse no, no igual yon chichiltik no.
 # text[orig] = Wa:n oksé: no:, no: *igual** yo:n chi:chi:ltik no:.
 # text[spa] = Y otro también es igual, ése también es rojo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a16
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a16
 # labels = a16 sentence
 1	Wan	huan	CCONJ	_	_	6	cc	_	_
 2	okse	okse	PRON	_	_	6	nsubj	_	_
@@ -11848,7 +11848,7 @@
 # text[spa] = Lo exprimen bien el quelite hervido, enseguida trituran los chiles para la salsa y ya se..., ya se consume.
 # text[a18] = Kima:pa:tskah kwaltsi:n, wa:n se: kita:lia ihkó:n wa:n seki kita:liliah, ne:n, *chilito** 'kwe:chowah
 # text[a19] = iwa:n se: ki..., se: kikwa ya.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a18
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a18
 # labels = a18 a19 sentence
 1	Kimapatskah	mapatska	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 2	kwaltsin	kuali	ADJ	_	Polite=Form	1	advmod	_	SpaceAfter=No
@@ -11878,7 +11878,7 @@
 # text = Wan yon o..., ome taman para kichiwah ne tapalol, kitsoyoniah no.
 # text[orig] = Wa:n yo:n o:..., o:me taman para kichi:wah ne: tapalo:l, kitsoyo:niah no:.
 # text[spa] = Hay dos formas de preparar la comida, también se pueden freir.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a20
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a20
 # labels = a20 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -11903,7 +11903,7 @@
 # text[spa] = Limpian el quelite, le sacan las semillas, porque se juntan los quelites con las semillas, las semillas son negras.
 # text[a21] = Kitsoyo:niah, ne:n, kiki:xtiliah n' iteyo,
 # text[a22] = yo:n iwa:n moma:nelowa n' iteyo, iteyo tihti:ltik.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a21
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a21
 # labels = a21 a22 sentence
 1	Kitsoyoniah	tsoyonia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11929,7 +11929,7 @@
 # text = Kitaliliah, nen, manteca.
 # text[orig] = Kita:liliah, ne:n, *manteca**.
 # text[spa] = Lo guisan con manteca.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a27
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a27
 # labels = a27 sentence
 1	Kitaliliah	talilia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11942,7 +11942,7 @@
 # text = N' iteyo tihtiltik.
 # text[orig] = N' iteyo tihti:ltik.
 # text[spa] = Sus semillas son de color negro.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a36
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a36
 # labels = a36 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
@@ -11956,7 +11956,7 @@
 # text[gloss] Sus frutos son rojos también, y se amarillan, cuando secan ya pues también, también _ se hacen negros.
 # text[a43] = Iteyo chihchi:chi:ltik no:,
 # text[a44] = wa:n kosawia, de wa:ki a pos no:, no: tihti:le:wi.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a43
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a43
 # labels = a43 a44 sentence
 1	Iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	chihchichiltik	chijchichiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
@@ -11979,7 +11979,7 @@
 # text = Pos yon no semi kikwah nen chiktehmeh.
 # text[orig] = Pos yo:n no: semi kikwah ne:n chiktehmeh.
 # text[spa] = Los pájaros también se alimentan con los frutos de ese quelite.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a45
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a45
 # labels = a45 sentence
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -12022,7 +12022,7 @@
 # text[spa] = El que se alimenta de esos frutos es el pájaro que le llaman perdíz.
 # text[a47] = Yo:n kikwah, yo:n kiliah, ne:n,
 # text[a48] = chiwihkoyo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a47
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a47
 # labels = a47 a48 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12043,7 +12043,7 @@
 # text = Tikiliah kitepewah o kixiniah, nochi.
 # text[orig] = Tikiliah kitepe:wah *o** kixi:niah, nochi.
 # text[spa] = Nosotros decimos que riegan las semillas.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a77
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a77
 # labels = a77 sentence
 1	Tikiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 2	kitepewah	tepehua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	ccomp	_	_
@@ -12060,7 +12060,7 @@
 # text[a84] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah,
 # text[a85] = ki..., kipa:tayah kwaltsi:n, kima:pa:tayah,
 # text[a86] = wa:n kita:lia:yah itech se: yo:n sokikaxit.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a84
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a84
 # labels = a84 a85 a86 sentence incorporation
 1	Pero	pero	CCONJ	_	_	3	cc	_	_
 2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
@@ -12090,7 +12090,7 @@
 # text = Ompa kitaliayah wan tiktekiliayah nen chiltamoltal, chiltekpin.
 # text[orig] = Ompa kita:lia:yah wa:n tikte:kilia:yah ne:n chi:ltamo:ltal, chi:ltekpin.
 # text[spa] = En el plato le echaban salsa de chiltepín.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a87
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a87
 # labels = a87 sentence
 1	Ompa	ompa	ADV	_	_	2	advmod	_	_
 2	kitaliayah	talia	VERB	_	Aspect=Imp|Number[iobj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[subj]=3|Subcat=Tran	0	root	_	_
@@ -12106,7 +12106,7 @@
 # text = Yon semi kweliltia.
 # text[orig] = Yo:n semi kwe:liltia.
 # text[spa] = Así queda muy sabrosa la comida.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a88
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a88
 # labels = a88 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12121,7 +12121,7 @@
 # text[spa] = Así queda muy sabrosa esa comida, de quelites, esos quelites.
 # text[a94] = Kwaltsi:n we:lik nijó:n,
 # text[a95] = nijó:n kilit, kilit nijó:n.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a94
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a94
 # labels = a94 a95 sentence
 1	Kwaltsin	kuali	ADJ	_	Polite=Form	2	advmod	_	_
 2	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
@@ -12138,7 +12138,7 @@
 # text = De sehselik se kikwa hasta n' i..., n' ikowyotsin.
 # text[orig] = De sehselik se: kikwa *hasta** n' i..., n' ikowyotsi:n.
 # text[spa] = Los quelites tiernos se les puede comer hasta los ta..., tallos.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a97
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a97
 # labels = a97 sentence
 1	De	de	ADP	_	_	2	mark	_	_
 2	sehselik	sejselik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	4	advcl	_	_
@@ -12157,7 +12157,7 @@
 # text[orig] = De teyowa a:mo *igual** we:lik.
 # text[spa] = Cuando ya tienen semillas ya tienen el mismo sabor.
 # text[gloss] = Cuando ya tienen semillas no son igual de sabrosos.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a101
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a101
 # labels = a101 sentence
 1	De	de	ADP	_	_	2	mark	_	_
 2	teyowa	teyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
@@ -12170,7 +12170,7 @@
 # text = Chichilewi.
 # text[orig] = Chi:chi:le:wi.
 # text[spa] = Es rojo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a114
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a114
 # labels = a114 sentence
 1	Chichilewi	chichilehui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12181,7 +12181,7 @@
 # text[spa] = Entonces cuando hierven, el caldo se convierte en rojo. Es de color rojo.
 # text[a118] = Entó:s *de que** kimanah ya ne:,
 # text[a119] = nochi chi:chi:le:wi n' a:tsí:n. Chi:chi:le:wi.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a118
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a118
 # labels = a118 a119 sentence
 1	Entos	entos	ADV	_	_	9	advmod	_	_
 2	de	de	ADP	_	_	4	mark	_	_
@@ -12202,7 +12202,7 @@
 # text = Pos neh nik..., neh nikitak ne keman, nen, ki..., kitepewah sah.
 # text[orig] = Pos neh nik..., neh nikitak ne: ke:man, ne:n, ki..., kitepe:wah sah.
 # text[spa] = Pues yo lo..., lo vi hace años, lo..., riegan así en el suelo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a126
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a126
 # labels = a126 sentence
 1	Pos	pos	ADV	_	_	6	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	reparandum	_	_
@@ -12227,7 +12227,7 @@
 # text[spa] = Ahí nacen las plantas, algunas partes los ve uno así, que están creciendo muchas plantas pequeñas.
 # text[a127] = Ompa ixwa, ka:siká: se: kita ihkó:n,
 # text[a128] = miak ixwatok tsikitsitsi:n.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a127
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a127
 # labels = a127 a128 sentence
 1	Ompa	ompa	ADV	_	_	2	advmod	_	_
 2	ixwa	ixhua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
@@ -12246,7 +12246,7 @@
 # text = Ompa se kikwihkwi wan se ki..., se kwika ya no.
 # text[orig] = Ompa se: kikwihkwi wa:n se: ki..., se: kwi:ka ya no:.
 # text[spa] = Ahí los corta uno y se..., llevan a la casa también.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a129
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a129
 # labels = a129 sentence
 1	Ompa	ompa	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
@@ -12267,7 +12267,7 @@
 # text[spa] = Pues el de color rojo crece así hacia arriba y después de florear se cuelga hacia abajo un poco.
 # text[a134] = Pos de n' chi:chi:ltik ihkó:n yowi,
 # text[a135] = wa:n ihkó:n mopampilowa tepitsi:n.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a134
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a134
 # labels = a134 a135 sentence
 1	Pos	pos	ADV	_	_	6	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12286,7 +12286,7 @@
 # text = Entos de chik..., chikawaya ihkon mopilowa ihkon.
 # text[orig] = Entó:s de chik..., chika:waya ihkó:n mopilowa ihkó:n.
 # text[spa] = Entonces cuando las semillas ma..., maduran se cuelgan así hacia abajo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a141
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a141
 # labels = a141 sentence
 1	Entos	entos	ADV	_	_	7	advmod	_	_
 2	de	de	ADP	_	_	5	mark	_	_
@@ -12302,7 +12302,7 @@
 # text = Wan okse pos no, no igual, ihkon nas..., nakasikayowi ihkon.
 # text[orig] = Wa:n oksé: pos no:, no: *igual**, ihkó:n nas..., nakasikayowi ihkó:n.
 # text[spa] = Y el otro pues también es igual, así se va..., de lado hacia abajo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a142
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a142
 # labels = a142 sentence
 1	Wan	huan	CCONJ	_	_	7	cc	_	_
 2	okse	okse	PRON	_	_	7	nsubj	_	_
@@ -12323,7 +12323,7 @@
 # text = Maski moketsa ihkon, pero siempre ki..., kitani, ihkon mixpilowa.
 # text[orig] = Ma:ski moketsa ihkó:n, *pero siempre** ki..., kita:ni, ihkó:n mi:xpilowa.
 # text[spa] = La mata crece erecta, pero siempre sel va..., de lado.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a145
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a145
 # labels = a145 sentence
 1	Maski	maski	SCONJ	_	_	2	mark	_	_
 2	moketsa	moketsa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -12345,7 +12345,7 @@
 # text[spa] = A..., así caen al suelo y germinan después las semillas.
 # text[a150] = I..., [i]hkó:n xi:ni wa:n tatampa ya de ne:n, ixwa,
 # text[a151] = n' iteyo.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a150
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a150
 # labels = a150 a151 sentence
 1	I...	i	X	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -12369,7 +12369,7 @@
 # text = Yon ixwa.
 # text[orig] = Yo:n ixwa.
 # text[spa] = Las  semillas germinan.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a152
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a152
 # labels = a152 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12381,7 +12381,7 @@
 # text = Wan amo keman nikita mah kikwa, nen, se kikwa.
 # text[orig] = Wa:n a:mo ke:man nikita mah kikwa, ne:n, se: kikwa.
 # text[spa] = Y nunca veo que se consuman o que alguien las consuma.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a153
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a153
 # labels = a153 sentence
 1	Wan	huan	CCONJ	_	_	4	cc	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -12402,7 +12402,7 @@
 # text[spa] = Se come hasta el tallo si los quelites están tier..., tiernos, se come todo.
 # text[a157] = Nochi de n' ikowyo komo seh..., sehselik,
 # text[a158] = pos nochi se: kikwa.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a157
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a157
 # labels = a157 a158 sentence
 1	Nochi	nochi	PRON	_	_	13	dislocated	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -12442,7 +12442,7 @@
 # text = Pos neh nimonotsa Anastacio Nicolas Damian.
 # text[orig] = Pos neh nimono:tsa Anastacio Nicolás Damián.
 # text[spa] = Pues yo me llamo Anastacio Nicolás Damián.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a163
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a163
 # labels = a163 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -12456,7 +12456,7 @@
 # text = Niwalew de ne xolalpan de San Miguel Tzinacapan.
 # text[orig] = Niwa:le:w de ne: xola:lpan de San Miguel Tzinacapan.
 # text[spa] = Vengo del pueblo de San Miguel Tzinacapan.
-# audio : Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a164
+# audio = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n-a164
 # labels = a164 sentence
 1	Niwalew	hualeu	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
@@ -12474,7 +12474,7 @@
 # text = Wewehka.
 # text[orig] = We:wehka.
 # text[spa] = Muy dispersas.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a103
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a103
 # labels = a103 sentence
 1	Wewehka	huehuejka	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12483,7 +12483,7 @@
 # text = Maweweyak achi pihpitsawak wan kipia n' ipuntas tepitsin nen ikwapan.
 # text[orig] = Ma:we:weyak achi pihpitsa:wak wa:n kipia n' *ipuntas** tepitsi:n ne:n ikwa:pan.
 # text[spa] = Son alargadas y son un poco angostas y un poco puntiagudas en la parte de arriba de la hoja.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a108
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a108
 # labels = a108 sentence
 1	Maweweyak	mahuejhueyak	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
 2	achi	achi	ADV	_	_	3	advmod	_	_
@@ -12501,7 +12501,7 @@
 # text = Entos yehwa yon kiliah chapolistit.
 # text[orig] = Entó:s yehwa yo:n kiliah chapolistit.
 # text[spa] = Entonces es ese al que le llaman chapolistit.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a110
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a110
 # labels = a110 sentence
 1	Entos	entos	ADV	_	_	2	advmod	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12516,7 +12516,7 @@
 # text = Yon amo welik.
 # text[orig] = Yo:n a:mo we:lik.
 # text[spa] = Ese no es comestible.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a114
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a114
 # labels = a114 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12529,7 +12529,7 @@
 # text = Despues kwali, kwali se yowi a, amo tekokoh ok.
 # text[orig] = *Después** kwali, kwali se: yowi a, a:mo te:kokoh ok.
 # text[spa] = Después uno ya puede orinar, ya no duele.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a147
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a147
 # labels = a147 sentence
 1	Despues	después	ADV	_	_	6	advmod	_	_
 2	kwali	kuali	ADJ	_	_	4	reparandum	_	SpaceAfter=No
@@ -12548,7 +12548,7 @@
 # text = Ompa tsikilitsin ya, kemah se tai a.
 # text[orig] = Ompa tsikilitsi:n ya, ke:mah se: tai a.
 # text[spa] = Una vez que queda muy poco, ya lo bebe uno.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a167
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a167
 # labels = a167 sentence
 1	Ompa	ompa	ADV	_	_	2	advmod	_	_
 2	tsikilitsin	tsikili	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	0	root	_	_
@@ -12564,7 +12564,7 @@
 # text = Se tai a.
 # text[orig] = Se: tai a.
 # text[spa] = Ya lo bebe uno.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a169
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a169
 # labels = a169 sentence
 1	Se	se	NUM	_	_	2	nsubj	_	_
 2	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -12575,7 +12575,7 @@
 # text = Por eso tikiliah chapolistit.
 # text[orig] = *Por eso** tikiliah chapolistit.
 # text[spa] = Por eso le llamamos chapolistit.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a200
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a200
 # labels = a200 sentence
 1	Por	por	ADP	_	_	2	case	_	_
 2	eso	eso	PRON	_	_	3	obl	_	_
@@ -12587,7 +12587,7 @@
 # text = Pos no igual, nen, te..., tenamiki.
 # text[orig] = Pos no: *igual**, ne:n, te:..., te:na:miki.
 # text[spa] = Pues también, este, nos cura.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a203
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a203
 # labels = a203 sentence
 1	Pos	pos	ADV	_	_	9	advmod	_	_
 2	no	no	ADV	_	_	9	advmod	_	_
@@ -12604,7 +12604,7 @@
 # text = Kemah miak kimatih no para se ki..., se kichiwas, nijon, semi pahti.
 # text[orig] = Ke:mah miak kimatih no: para se: ki..., se: kichi:was, nijó:n, semi pahti.
 # text[spa] = Sí, muchas sí saben cómo hacerlo, este, es muy buena medicina.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a207
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a207
 # labels = a207 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	_
 2	miak	miak	PRON	_	_	3	nsubj	_	_
@@ -12627,7 +12627,7 @@
 # text = Amo kwaltia porque selik.
 # text[orig] = A:mo kwaltia *porque** selik.
 # text[spa] = No sirve porque es tierno.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a215
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a215
 # labels = a215 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -12639,7 +12639,7 @@
 # text = 'Panketsah ya wan..., kemasa nehwa nikchiwa nijon.
 # text[orig] = 'Panketsah ya wa:n ..., ke:masá: nehwa nikchi:wa nijó:n.
 # text[spa] = Ya lo paran y ..., a veces yo lo hago, este,
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a219
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a219
 # labels = a219 sentence
 1	'Panketsah	ketsa	VERB	_	Incorporated=Pan|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 2	ya	ya	ADV	_	_	1	advmod	_	_
@@ -12656,7 +12656,7 @@
 # text = Ta nijon pahti seki amo tikmatih.
 # text[orig] = Ta: nijó:n pahti seki a:mo tikmatih.
 # text[spa] = Pues ese es medicinal, algunos no lo sabemos.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a220
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a220
 # labels = a220 sentence
 1	Ta	ta	ADV	_	_	3	advmod	_	_
 2	nijon	nijon	PRON	_	_	3	nsubj	_	_
@@ -12670,7 +12670,7 @@
 # text = Mah se kimapatska kwaltsin.
 # text[orig] = Mah se: kima:pa:tska kwaltsi:n.
 # text[spa] = Que lo apachurre muy bien.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a231
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a231
 # labels = a231 sentence
 1	Mah	ma	AUX	_	_	3	aux	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
@@ -12682,7 +12682,7 @@
 # text = Pos yehwa ekintsin nikan timonohnotstokeh, compadrito.
 # text[orig] = Pos yehwa ekintsi:n nika:n timonohno:tstokeh, *compadrito**.
 # text[spa] = Pues es eso lo que ahora estamos platicando compradrito.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a233
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a233
 # labels = a233 sentence
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12715,7 +12715,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a84
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a84
 # labels = a84 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12724,7 +12724,7 @@
 # text = Wewehka sah motalia n' iteyo ata.
 # text[orig] = We:wehka sah mota:lia n' iteyo ata.
 # text[spa] = Las semillas salen muy dispersas.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a90
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a90
 # labels = a90 sentence
 1	Wewehka	huehuejka	ADV	_	_	3	advmod	_	_
 2	sah	saj	ADV	_	_	3	advmod	_	_
@@ -12738,7 +12738,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a93
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a93
 # labels = a93 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12747,7 +12747,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a98
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a98
 # labels = a98 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12772,7 +12772,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a111
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a111
 # labels = a111 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12781,7 +12781,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a126
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a126
 # labels = a126 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12790,7 +12790,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a130
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a130
 # labels = a130 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12799,7 +12799,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a132
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a132
 # labels = a132 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12808,7 +12808,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a136
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a136
 # labels = a136 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12817,7 +12817,7 @@
 # text = Kemah, kan weli.
 # text[orig] = Ke:mah, ka:n weli.
 # text[spa] = Sí, no se puede.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a140
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a140
 # labels = a140 sentence
 1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -12829,7 +12829,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a142
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a142
 # labels = a142 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12838,7 +12838,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a159
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a159
 # labels = a159 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12847,7 +12847,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a163
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a163
 # labels = a163 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12856,7 +12856,7 @@
 # text = Se tai a.
 # text[orig] = Se: tai a.
 # text[spa] = Ya lo bebe uno.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a168
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a168
 # labels = a168 sentence
 1	Se	se	NUM	_	_	2	nsubj	_	_
 2	tai	tai	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -12867,7 +12867,7 @@
 # text = Kemah, kwali pahti.
 # text[orig] = Ke:mah, kwali pahti.
 # text[spa] = Sí, es muy buena medicina.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a173
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a173
 # labels = a173 sentence
 1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -12879,7 +12879,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a178
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a178
 # labels = a178 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12888,7 +12888,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a180
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a180
 # labels = a180 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12897,7 +12897,7 @@
 # text = Kemah, ihkoni.
 # text[orig] = Ke:mah, ihko:ni.
 # text[spa] = Sí, asi es.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a182
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a182
 # labels = a182 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -12908,7 +12908,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a186
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a186
 # labels = a186 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12917,7 +12917,7 @@
 # text = Wan iyolan mochiwa se xochitsin ihkwin wehkapantik.
 # text[orig] = Wa:n iyo:la:n mochi:wa se: xo:chitsí:n ihkwí:n wehkapantik.
 # text[spa] = Y en el cogollo sale una florecita, así de alto.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a191
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a191
 # labels = a191 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
 2	iyolan	yolan	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -12951,7 +12951,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a197
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a197
 # labels = a197 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12960,7 +12960,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a202
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a202
 # labels = a202 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12969,7 +12969,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a205
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a205
 # labels = a205 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12978,7 +12978,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a206
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a206
 # labels = a206 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -12987,7 +12987,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a210
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a210
 # labels = a210 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13012,7 +13012,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a214
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a214
 # labels = a214 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13021,7 +13021,7 @@
 # text = Kemah, kan se kimati.
 # text[orig] = Ke:mah, ka:n se: kimati.
 # text[spa] = Sí, uno no lo sabe.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a222
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a222
 # labels = a222 sentence
 1	Kemah	kemaj	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13034,7 +13034,7 @@
 # text = Amo, ta yon se kixamania.
 # text[orig] = A:mo, ta: yo:n se: kixama:nia.
 # text[spa] = No, pues ese se machacan.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a225
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a225
 # labels = a225 sentence
 1	Amo	amo	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13074,7 +13074,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a234
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a234
 # labels = a234 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13083,7 +13083,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a237
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a237
 # labels = a237 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13092,7 +13092,7 @@
 # text = Mah, mah, mah se motapowi.
 # text[orig] = Mah, mah, mah se: motapowi.
 # text[spa] = Que, que lo cuente uno.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a239
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a239
 # labels = a239 sentence
 1	Mah	ma	AUX	_	_	5	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13107,7 +13107,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a241
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a241
 # labels = a241 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13134,7 +13134,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a250
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a250
 # labels = a250 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13143,7 +13143,7 @@
 # text = Kemah, tasohkamatik kemah, compadrito.
 # text[orig] = Ke:mah, tasohka:matik ke:mah, *compadrito**.
 # text[spa] = Sí, pues gracias compadrito.
-# audio : Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a256
+# audio = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l-a256
 # labels = a256 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -13188,7 +13188,7 @@
 # text[spa] = Se da a la orilla del rio, a la orilla de los manantiales o en otros lugares despejados, en algunos cafetales se puede encontrar un árbol.
 # text[a57] = Ka:nsika onkak a:te:n, a:te:nte:noh oso ihkó:n ka:mpa
 # text[a58] = paniá:n kahfe:ntah ka:nsika etok.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a57
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a57
 # labels = a57 a58 sentence
 1	Kansika	kansika	ADV	_	_	2	advmod	_	_
 2	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
@@ -13212,7 +13212,7 @@
 # text = Xohxoxoktik.
 # text[orig] = Xohxoxoktik.
 # text[spa] = Son verdes.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a68
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a68
 # labels = a68 sentence
 1	Xohxoxoktik	xojxoxoktik	ADJ	_	Number[subj]=Plur|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13247,7 +13247,7 @@
 # text = Ki..., kisah nikan okwilimeh wan nijon despues niman posteki.
 # text[orig] = Ki..., ki:sah nika:n okwilimeh wa:n nijó:n <i>después</i> niman posteki.
 # text[spa] = Sa..., nacen ahí los gusanos y después de apolillarse luego se quiebra.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a84
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a84
 # labels = a84 sentence
 1	Ki...	ki	X	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13265,7 +13265,7 @@
 # text = Yon amo kachi kikwih.
 # text[orig] = Yo:n a:mo kachi kikwih.
 # text[spa] = Ésa madera casi no la usan.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a85
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a85
 # labels = a85 sentence cleft
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -13283,7 +13283,7 @@
 # text[a87] = pos a:mo kachi kikwih <i>porque</i>,
 # text[a88] = pos nijó:n ma:ski neh nikita,
 # text[a89] = ma:s chika:wak me:tsti ihkó:n, pero nijó:n okwilowa.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a86
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a86
 # labels = a86 a87 a88 a89 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	kachi	kachi	ADV	_	_	3	advmod	_	_
@@ -13324,7 +13324,7 @@
 # text[spa] = Ésa madera también la usan para la..., le..., leña, se parten los trozos con hacha, algunos trozos se pueden partir bien y otros son así como muy torcidos.
 # text[a90] = Yo:n kikwih no: s..., kow..., kowtati:l,
 # text[a91] = se: kitahtapa:na, pero yo:n seki kwaltsi:n tahtapa:ni wa:n seki achi tehtetsi:ltik.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a90
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a90
 # labels = a90 a91 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -13357,7 +13357,7 @@
 # text = Wan seki kwaltsin nen, melawak, de n' melawak kwaltsin se kitapana.
 # text[orig] = Wa:n seki kwaltsi:n ne:n, mela:wak, de n' mela:wak kwaltsi:n se: kitapa:na.
 # text[spa] = Y algunos trozos son rectos, los que están rectos, los trozos rectos se pueden partir con facilidad.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a96
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a96
 # labels = a96 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
 2	seki	seki	PRON	_	_	3	nsubj	_	_
@@ -13378,7 +13378,7 @@
 # text = Kemasa siquiera nawi se 'kixtia.
 # text[orig] = Ke:masá: <i>siquiera</i> na:wi se: 'ki:xtia.
 # text[spa] = Algunas veces se pueden partir en cuatro partes un trozo.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a97
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a97
 # labels = a97 sentence
 1	Kemasa	kemasa	ADV	_	_	5	advmod	_	_
 2	siquiera	siquiera	ADV	_	_	5	advmod	_	_
@@ -13392,7 +13392,7 @@
 # text[orig] = Tsope:k sayoh <i>que</i> nijó:n ista:k ne:n icho:kilo, n' icho:kilo.
 # text[spa] = Son dulces y tienen la savia de color blanco.
 # text[gloss] = Son dulces sólo que este es blanco, este savia, el savia.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a108
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a108
 # labels = a108 sentence
 1	Tsopek	tsopek	ADJ	_	Number[subj]=Plur|Person[subj]=3	0	root	_	_
 2	sayoh	sayoj	ADV	_	_	5	advmod	_	_
@@ -13411,7 +13411,7 @@
 # text[orig] = Ista:k wa:n se:, ka:mpa te:kwi ihkó:n a:mo kineki ki:sas, <i>hasta</i> se: ima:ko ihkó:n moka:wa sasaltik.
 # text[spa] = La savia es blanca y cuando uno se mancha ya no sale, al tocar los frutos queda pegada la savia en las manos y se siente así como pegajosa.
 # text[gloss] = Es blanca y uno, cuando se mancha uno así no quiere salir, hasta uno
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a110
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a110
 # labels = a110 sentence
 1	Istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	wan	huan	CCONJ	_	_	9	cc	_	_
@@ -13440,7 +13440,7 @@
 # text[a112] = a:mo, a:mo kineki niman ki:sas, ma:s se: momahtekia ihkó:n,
 # text[a113] = pero a:mo kineki ki:sas <i>porque</i> semi telchika:wak nijó:n i...,
 # text[a114] = icho:kilo.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a111
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a111
 # labels = a111 a112 a113 a114 sentence
 1	Mokawa	mokahua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	sasaltik	sasaltik	ADJ	_	_	1	dep	_	_
@@ -13475,7 +13475,7 @@
 # text = Ichokilo istak.
 # text[orig] = Icho:kilo ista:k.
 # text[spa] = La savia es blanca.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a115
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a115
 # labels = a115 sentence
 1	Ichokilo	chokilo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	istak	istak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
@@ -13485,7 +13485,7 @@
 # text = Mohmoloxtik n' i..., n' ipanko nikan.
 # text[orig] = Mohmoloxtik n' i..., n' ipanko nika:n.
 # text[spa] = Tiene así como pelitos finos aquí por en..., encima.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a130
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a130
 # labels = a130 sentence
 1	Mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	_
 2	n'	in	DET	_	_	5	reparandum	_	_
@@ -13503,7 +13503,7 @@
 # text[a138] = Pos ne:, ka:nsika se: kita ixwa ihkó:n, ompa ne: ka:nsika ihkó:n mo...,
 # text[a139] = i..., i..., kiowalte:mah ne:n pe:sohmeh,
 # text[a140] = wa:n ki..., ompa ne: ixwa ya.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a138
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a138
 # labels = a138 a139 a140 sentence
 1	Pos	pos	ADV	_	_	6	advmod	_	_
 2	ne	ne	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -13542,7 +13542,7 @@
 # text[orig] = N' ima:y nochi kipostekih <i>porque</i> yo:n achi teiktik.
 # text[spa] = Las ramas delgadas las cortan porque son suaves.
 # text[gloss] = Sus ramas todas las cortan porque son estos que son suaves.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a185
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a185
 # labels = a185 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	dislocated	_	_
@@ -13560,7 +13560,7 @@
 # text = Achi teiktik n' imay, nen, de kitilanah posteki.
 # text[orig] = Achi teiktik n' ima:y, ne:n, de kitila:nah posteki.
 # text[spa] = Son un poco suaves las ramas y al jalarlo pues se quiebran.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a187
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a187
 # labels = a187 sentence
 1	Achi	achi	ADV	_	_	2	advmod	_	_
 2	teiktik	teiktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
@@ -13578,7 +13578,7 @@
 # text = Posteki wan seki panwetsi wan seki ompa mokawa ya.
 # text[orig] = Posteki wa:n seki pa:nwetsi wa:n seki ompa moka:wa ya.
 # text[spa] = Se quiebran, unas caen al suelo y otras se quedan arriba.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a188
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a188
 # labels = a188 sentence
 1	Posteki	posteki	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	wan	huan	CCONJ	_	_	4	cc	_	_
@@ -13595,7 +13595,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Así es.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a195
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a195
 # labels = a195 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13604,7 +13604,7 @@
 # text = Amo kimatih ox welik.
 # text[orig] = A:mo kimatih ox we:lik.
 # text[spa] = No sabe si es sabroso.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a197
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a197
 # labels = a197 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	kimatih	mati	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -13616,7 +13616,7 @@
 # text = Pos ne keman neh nikitaya, nen, notatahwan kwalkwiah ika se kontsin.
 # text[orig] = Pos ne: ke:man neh nikitaya, ne:n, nota:tahwa:n kwa:lkwiah ika se: ko:ntsí:n.
 # text[spa] = Pues yo veía que mis padres traían los frutos en una ollita pequeña.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a201
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a201
 # labels = a201 sentence
 1	Pos	pos	ADV	_	_	5	advmod	_	_
 2	ne	ne	ADV	_	_	5	advmod	_	_
@@ -13638,7 +13638,7 @@
 # text[orig] = Ika se: ko:ntsí:n ihkó:n kiliah me:liohko:mit.
 # text[spa] = Traían con una ollita mediana que le llamaban me:liohko:mit.
 # text[gloss] = Con una ollita que así le llamaban me:liohko:mit.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a202
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a202
 # labels = a202 sentence
 1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 2	se	se	NUM	_	_	3	det	_	_
@@ -13654,7 +13654,7 @@
 # text[spa] = Lo traen pero cortan los frutos con las manos, porque si uno agita las ramas para que caigan al suelo se rompen rápidamente. porque son muy suaves.
 # text[a203] = Kwa..., kikwitih ya ne: tikma:tekitih, <i>porque</i> yo:n se: kitsetselowa wa:n semi pa:ti,
 # text[a205] = <i>porque</i> yema:nik.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a203
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a203
 # labels = a203 a205 sentence incorporation
 1	Kwa...	kua	X	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13681,7 +13681,7 @@
 # text = Nijon iayo no kwali se tai.
 # text[orig] = Nijó:n ia:yo no: kwali se: tai.
 # text[spa] = El jugo también se puede tomar.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a209
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a209
 # labels = a209 sentence
 1	Nijon	nijon	DET	_	_	2	det	_	_
 2	iayo	ayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
@@ -13698,7 +13698,7 @@
 # text[a210] = S..., i..., no: se: tai, moma:nelowa iwa:n icho:kilo, pos n' icho:kilo a:mo se: kita ok,
 # text[a211] = <i>porque</i> nijó:n,
 # text[a212] = ista:k n' icho:kilo wa:n pos se: kita <i>porque</i> se: ima:ko mopepechowa.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a210
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a210
 # labels = a210 a211 a212 sentence
 1	S...	s	X	_	_	5	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13740,7 +13740,7 @@
 # text = Pos yehwa yon neh nik..., nikmattok... compadrito.
 # text[orig] = Pos yehwa yo:n neh nik..., nikmattok [...]<i>compadrito</i>.
 # text[spa] = Pues eso es lo que yo sé..., sé compadrito.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a221
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a221
 # labels = a221 sentence
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -13759,7 +13759,7 @@
 # text = A, bueno.
 # text[orig] = A:, <i>bueno</i>.
 # text[spa] = A bueno.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a224
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a224
 # labels = a224 sentence
 1	A	a	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -13770,7 +13770,7 @@
 # text = Yehwa sah neh no nikmati compadrito.
 # text[orig] = Yehwa sah neh no: nikmati <i>compadrito</i>.
 # text[spa] = Pues eso es todo lo que yo sé también compadrito.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a226
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a226
 # labels = a226 sentence
 1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2	sah	saj	ADV	_	_	1	advmod	_	_
@@ -13784,7 +13784,7 @@
 # text = Pos kwali tinechilis mo..., motokay, keniw timonotsa wan kani n' tiwalew.
 # text[orig] = Pos kwali tine:chili:s mo..., moto:ka:y, ke:ní:w timono:tsa wa:n ka:ni n' tiwa:le:w.
 # text[spa] = Pues puedes decirme tu..., tu nombre, cómo te llamas y de donde vienes.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a228
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a228
 # labels = a228 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	kwali	kuali	ADV	_	_	3	advmod	_	_
@@ -13807,7 +13807,7 @@
 # text[spa] = Pues yo me llamo Anastacio Nicolás Damián de, también vengo de San Miguel Tzinacapan.
 # text[a230] = Pos neh nimono:tsa Anastacio Nicolás Damián, de
 # text[a232] = de xola:l nika:n San Miguel Tzinacapan no: niwa:le:w.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a230
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a230
 # labels = a230 a232 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
@@ -13837,7 +13837,7 @@
 # text[a53] = o..., ox se: kikwa oso,
 # text[a54] = oso ka:nah <i>compadrito</i>.
 # text[a54] = Yehwa n' tiknekih timitstahtani:skeh.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a50
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a50
 # labels = a50 a51 a52 a53 a54 sentence
 1	Pos	pos	ADV	_	_	4	advmod	_	_
 2	t...	t	X	_	_	4	reparandum	_	SpaceAfter=No
@@ -13886,7 +13886,7 @@
 # text[orig] = Yehwa n' tiknekih timitstahtani:skeh.
 # text[spa] = Eso es lo que queremos preguntarle.
 # text[a54] = oso ka:nah <i>compadrito</i>. Yehwa n' tiknekih timitstahtani:skeh.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a54
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a54
 # labels = a54 sentence
 1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2	n'	in	DET	_	_	3	mark	_	_
@@ -13898,7 +13898,7 @@
 # text = Mohmoloxtik.
 # text[orig] = Mohmoloxtik.
 # text[spa] = Son suavecitos.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a72
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a72
 # labels = a72 sentence
 1	Mohmoloxtik	mojmoloxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3|Reduplicated=Yes	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13907,7 +13907,7 @@
 # text = Welik.
 # text[orig] = We:lik.
 # text[spa] = Son buenos.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a76
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a76
 # labels = a76 sentence
 1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13916,7 +13916,7 @@
 # text = Melaktik.
 # text[orig] = Melaktik.
 # text[spa] = Son rectos.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a92
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a92
 # labels = a92 sentence
 1	Melaktik	melaktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13925,7 +13925,7 @@
 # text = N' iteyo.
 # text[orig] = N' iteyo.
 # text[spa] = Los frutos.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a101
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a101
 # labels = a101 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
@@ -13954,7 +13954,7 @@
 # text = Wehweia.
 # text[orig] = Wehweia.
 # text[spa] = Si son grandes.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a117
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a117
 # labels = a117 sentence
 1	Wehweia	huehueia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13963,7 +13963,7 @@
 # text = Tepeyoh.
 # text[orig] = Tepe:yoh.
 # text[spa] = En los cerros.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a125
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a125
 # labels = a125 sentence
 1	Tepeyoh	tepeyoh	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -13972,7 +13972,7 @@
 # text = Amo, amo no....
 # text[orig] = A:mo, a:mo no: ....
 # text[spa] = No, no tampoco ....
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a137
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a137
 # labels = a137 sentence
 1	Amo	amo	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -13984,7 +13984,7 @@
 # text = Nikahkwin amo mochiwa, pero nehkwin kowtahpa mochiwa semi ata.
 # text[orig] = Nikahkwí:n a:mo mochi:wa, pero nehkwí:n kowtahpa mochi:wa semi ata.
 # text[spa] = Por aquí no se da, pero por allá en el bosque grande abunda mucho.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a171
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a171
 # labels = a171 sentence
 1	Nikahkwin	nikakuin	ADV	_	_	3	advmod	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
@@ -14018,7 +14018,7 @@
 # text = N' okwilimeh.
 # text[orig] = N' okwilimeh.
 # text[spa] = Los animales.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a180
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a180
 # labels = a180 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	okwilimeh	okuilin	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
@@ -14028,7 +14028,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Así es.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a186
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a186
 # labels = a186 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14037,7 +14037,7 @@
 # text = Kan nochi se kimati.
 # text[orig] = Ka:n nochi se: kimati.
 # text[spa] = No lo  sabemos todo.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a192
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a192
 # labels = a192 sentence
 1	Kan	kan	ADV	_	_	4	advmod	_	_
 2	nochi	nochi	PRON	_	_	4	obj	_	_
@@ -14049,7 +14049,7 @@
 # text = Amo kixmatih.
 # text[orig] = A:mo ki:xmatih.
 # text[spa] = No lo conoce.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a196
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a196
 # labels = a196 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	kixmatih	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pret	0	root	_	SpaceAfter=No
@@ -14059,7 +14059,7 @@
 # text = Yemanik.
 # text[orig] = Yema:nik.
 # text[spa] = Son muy suaves.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a206
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a206
 # labels = a206 sentence
 1	Yemanik	yemanik	ADJ	_	Number[subj]=Plur|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14068,7 +14068,7 @@
 # text = Iayo.
 # text[orig] = Ia:yo.
 # text[spa] = El jugo.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a207
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a207
 # labels = a207 sentence
 1	Iayo	ayo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14077,7 +14077,7 @@
 # text = Sasaltik neli.
 # text[orig] = Sasaltik neli.
 # text[spa] = Es cierto que es muy pegajosa.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a214
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a214
 # labels = a214 sentence
 1	Sasaltik	sasaltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	neli	neli	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -14087,7 +14087,7 @@
 # text = Ompa sah.
 # text[orig] = Ompa sah.
 # text[spa] = Ahí es.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a219
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a219
 # labels = a219 sentence
 1	Ompa	ompa	ADV	_	_	0	root	_	_
 2	sah	saj	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -14097,7 +14097,7 @@
 # text = Soh se kikwa sah komo se kineki, komo amo pos ompa moawilowa ne kowtah, kikwah okwilimeh sah.
 # text[orig] = Soh se: kikwa sah komo se: kineki, komo a:mo pos ompa moa:wilowa ne: kowtah, kikwah okwilimeh sah.
 # text[spa] = Sólo se comen los frutos si uno quiere, si no pues ahí se echan a perder en el campo y los animales aprovechan para alimentarse.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a222
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a222
 # labels = a222 sentence
 1	Soh	soj	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
@@ -14124,7 +14124,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Así es.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a225
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a225
 # labels = a225 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14135,7 +14135,7 @@
 # text[spa] = A pues yo me llamo Ernesto Vázquez compadrito, vengo de San Miguel Tzinacapan.
 # text[a227] = A:, pos neh nimono:tsa, <i>compadrito</i>, niErnesto Vázquez,
 # text[a229] = de San Miguel Tzinacapan niwa:le:w.
-# audio : Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a227
+# audio = Tzina_Botan_JVC313-AND308_tepeetomat-Moraceae_2011-07-29-e-a227
 # labels = a227 a229 sentence
 1	A	a	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14178,7 +14178,7 @@
 # text = Ekin nikakik namohnotstoyah ne, in tomakil..., in tomakilit onkak eyi taman.
 # text[orig] = Ekin nikakik namohno:tstoyah ne:, i:n tomakil..., i:n tomakilit onkak e:yi taman.
 # text[spa] = Hace un ratito ustedes estaban platicando, este, del <i>tomakilit<i> hay tres tipos.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a19
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a19
 # labels = a19 sentence
 1	Ekin	ekin	ADV	_	_	2	advmod	_	_
 2	nikakik	kaki	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pret	0	root	_	_
@@ -14199,7 +14199,7 @@
 # text = Tikihtowaya que onkak se istak, se morado wan se kowtah tomakilit.
 # text[orig] = Tikihtowa:ya *que** onkak se: ista:k, se: *morado** wa:n se: kowtah tomakilit.
 # text[spa] = Comentabas que hay un blanco, un morado y otro es el <i>kowtahtomakilit<i>.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a20
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a20
 # labels = a20 sentence
 1	Tikihtowaya	ijtohua	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
 2	que	que	SCONJ	_	_	3	mark	_	_
@@ -14221,7 +14221,7 @@
 # text[spa] = Quisiera que me contaras sobre el <i>ista:ktomakilit<i>, cómo es la flor, como es el fruto, como son las hojas, cómo es el tallo.
 # text[a21] = Niknekiskia xine:chtapowi i:n ista:k tomakilit,
 # text[a22] = ke:niwki n' ixo:chio, ke:niwki n' iteyo, ke:ní:wki n' ixiwyo, ke:niwki n' ikowyo.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a21
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a21
 # labels = a21 a22 sentence
 1	Niknekiskia	neki	VERB	_	Mood=Cond|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
 2	xinechtapowi	tapohui	VERB	_	Mood=Imp|Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Sing|Person[iobj]=1|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	1	dep	_	_
@@ -14250,7 +14250,7 @@
 # text = Wan ox se kikwa wan kani mochiwa.
 # text[orig] = Wa:n ox se: kikwa wa:n ka:ni mochi:wa.
 # text[spa] = Y si es comestible y dónde crece.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a23
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a23
 # labels = a23 sentence
 1	Wan	huan	CCONJ	_	_	4	cc	_	_
 2	ox	ox	SCONJ	_	_	4	dep	_	_
@@ -14267,7 +14267,7 @@
 # text[spa] = Lo ..., Decias que el morado, el tallo es poco más grueso y las hojas son un poco más anchas.
 # text[a47] = Tiki...
 # text[a59] = Tikihtowa:ya *que** i:n *morado** okachi kowyohtohtoma:wak wa:n okachi ne:nke:n pahpata:..., pa:pata:wak n' ixiwyo.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a47
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a47
 # labels = a47 a59 sentence
 1	Tiki...	tiki	X	_	_	2	reparandum	_	_
 2	Tikihtowaya	ijtohua	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
@@ -14290,7 +14290,7 @@
 # text = Pos semi kwali que tikinixmati.
 # text[orig] = Pos semi kwali *que** tikini:xmati.
 # text[spa] = Pues es muy bueno que los conoces.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a66
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a66
 # labels = a66 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	semi	semi	ADV	_	_	3	advmod	_	_
@@ -14303,7 +14303,7 @@
 # text = ¿Wan miakeh kikwah?
 # text[orig] = ¿Wa:n miakeh kikwah?
 # text[spa] = ¿Y muchas personas lo comen?
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a77
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a77
 # labels = a77 sentence
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	4	cc	_	_
@@ -14315,7 +14315,7 @@
 # text = Pos semi kwali a tinechyolmelaw, porque neli amo nikmatia neh.
 # text[orig] = Pos semi kwali a tine:chyo:lmela:w, *porque** neli a:mo nikmatia neh.
 # text[spa] = Pues qué bueno que me hayas informado porque ciertamente no lo sabía.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a82
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a82
 # labels = a82 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	semi	semi	ADV	_	_	3	advmod	_	_
@@ -14356,7 +14356,7 @@
 # text[spa] = Pues al que conocemos como <i>ista:ktomakilit<i>, porque el haz y el envés de la hoja es verde.
 # text[a24] = Pos i:n ista:k tomakilit tiki:xmatih,
 # text[a25] = *porque** xoxoktik nochi n' ii:xko wa:n ima:i:ka:n xoxoktik.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a24
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a24
 # labels = a24 a25 sentence
 1	Pos	pos	ADV	_	_	5	advmod	_	_
 2	in	in	DET	_	_	4	det	_	_
@@ -14382,7 +14382,7 @@
 # text[spa] = Y, este, la flor también es blanca y son pequeñas, las flores no son muy grandes.
 # text[a26] = Wa:n, nejó:n, i..., i..., ixo:chio,
 # text[a27] = ista:k no: wa:n tsiki..., tsikitsitsi:n, ka:n semi wehwei mochi:wa n' ixo:chio.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a26
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a26
 # labels = a26 a27 sentence
 1	Wan	huan	CCONJ	_	_	11	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14415,7 +14415,7 @@
 # text[spa] = Y las flores salen racimitos, y, este, cuando los frutos son ver..., cuando están tiernos son verdes.
 # text[a28] = Wa:n mochi:wa ika *racimito** n' ixo:chiotsi:n,
 # text[a29] = wa:n, nejó:n, iteyo *cuando** xoxo..., *cuando** selik xoxoktik.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a28
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a28
 # labels = a28 a29 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -14443,7 +14443,7 @@
 # text[spa] = Y cuando ya están recios, cuando ya se puede cosechar, bueno pues si uno quiere sembrarlo, el fruto ya es morado.
 # text[a30] = Wa:n *cuando** chika:wak ya, de kwali para se: kitekili:s a komo se: kito:kasneki,
 # text[a31] = e:.., *morado** ya ne:n iteyotsi:n.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a30
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a30
 # labels = a30 a31 sentence
 1	Wan	huan	CCONJ	_	_	19	cc	_	_
 2	cuando	cuando	SCONJ	_	_	3	mark	_	_
@@ -14501,7 +14501,7 @@
 # text = Wan imatampa, imatampa ya ompa moradito.
 # text[orig] = Wa:n ima:tampa, ima:tampa ya ompa *moradito**.
 # text[spa] = Y el envés, el envés de la hoja es morado.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a37
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a37
 # labels = a37 sentence
 1	Wan	huan	CCONJ	_	_	9	cc	_	_
 2-3	imatampa	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14520,7 +14520,7 @@
 # text = Wan ixochio no iwki sah nen ihistak.
 # text[orig] = Wa:n ixo:chio no: iwki sah ne:n ihista:k.
 # text[spa] = Y la flor también es blanca.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a39
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a39
 # labels = a39 sentence
 1	Wan	huan	CCONJ	_	_	7	cc	_	_
 2	ixochio	xochiot	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	dislocated	_	_
@@ -14535,7 +14535,7 @@
 # text = Pero tepitsin sah mopata, de moradito xochitsin yeh.
 # text[orig] = Pero tepitsi:n sah mopata, de *moradito** xo:chitsí:n yeh.
 # text[spa] = Pero la diferencia solo es un poco, la flor es un poco morada.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a40
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a40
 # labels = a40 sentence
 1	Pero	pero	CCONJ	_	_	4	cc	_	_
 2	tepitsin	tepitsin	ADV	_	_	4	advmod	_	_
@@ -14552,7 +14552,7 @@
 # text = Tepitsin moradito, tepitsin, amo semi san ke..., tepitsin sah.
 # text[orig] = Tepitsi:n *moradito**, tepitsi:n, a:mo semi san ke:..., tepitsi:n sah.
 # text[spa] = Torna a ser un poco morada, un poco, no es tanto, sólo es un poco.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a41
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a41
 # labels = a41 sentence
 1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
 2	moradito	morado	ADJ	_	Deriv=Dim|Gender=Masc|Number=Sing|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
@@ -14596,7 +14596,7 @@
 # text[gloss] = Siempre es verde como su haz como su envés y es poquito delgado de tallo, no son gruesos los tallos.
 # text[a48] = Nochipa xoxoktik ke:meh ii:xko, ke:meh ima:i:ka:n
 # text[a49] = wa:n tepitsi:n kowyohpihpitsa:wak, a:mo toma:wak n' ikowyo.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a48
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a48
 # labels = a48 a49 sentence
 1	Nochipa	nochipa	ADV	_	_	2	advmod	_	_
 2	xoxoktik	xoxoktik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
@@ -14621,7 +14621,7 @@
 # text = Yeh no welik.
 # text[orig] = Yeh no: we:lik.
 # text[spa] = Ese también es sabroso.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a56
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a56
 # labels = a56 sentence
 1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
 2	no	no	ADV	_	_	3	advmod	_	_
@@ -14697,7 +14697,7 @@
 # text = Kemah, wan in xoxoktik tepitsin matsikitsitsin, achi mapihpisiltik tikihtokan.
 # text[orig] = Ke:mah, wa:n i:n xoxoktik tepitsi:n ma:tsikitsitsi:n, achi ma:pihpisi:ltik tikihto:ka:n.
 # text[spa] = Sí, y el verde, las hojas son más pequeñas, digamos que las hojas son más pequeñas.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a60
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a60
 # labels = a60 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	7	punct	_	_
@@ -14716,7 +14716,7 @@
 # text = Tepitsin kipata de welik de weikowtah tomakilit, yon kemah tepitsin kipata.
 # text[orig] = Tepitsi:n kipata de we:lik de we:ikowtah tomakilit, yo:n ke:mah tepitsi:n kipata.
 # text[spa] = El que sabe un poco diferente es el <i>we:ikowtahtomakilit<i>, ese sí, el sabor es diferente.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a64
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a64
 # labels = a64 sentence
 1	Tepitsin	tepitsin	ADV	_	_	2	advmod	_	_
 2	kipata	pata	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -14738,7 +14738,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a65
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a65
 # labels = a65 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14768,7 +14768,7 @@
 # text = N' tehwan tikmattokeh porque newin kowtah ay tinemih, tikixmatih kowtah tomakilit.
 # text[orig] = N' tehwa:n tikmattokeh *porque** ne:wí:n kowtah ay tinemih, tiki:xmatih kowtah tomakilit.
 # text[spa] = Nosotros lo sabemos porque como andamos allá en el monte, conocemos al <i>kowtahtomakilit<i>.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a75
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a75
 # labels = a75 sentence
 1	N'	in	DET	_	_	2	det	_	_
 2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
@@ -14788,7 +14788,7 @@
 # text = Ompa moch..., ompa mochiwa, mochiwa sah, amo, amo kitokah yon, mochiwa sah.
 # text[orig] = Ompa moch..., ompa mochi:wa, mochi:wa sah, a:mo, a:mo kito:kah yo:n, mochi:wa sah.
 # text[spa] = Ahí crece, ahí crece, crece por sí sola, no, ese no lo siembran, crece por sí sola.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a76
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a76
 # labels = a76 sentence
 1	Ompa	ompa	ADV	_	_	4	reparandum	_	_
 2	moch...	moch	X	_	_	5	reparandum	_	SpaceAfter=No
@@ -14815,7 +14815,7 @@
 # text = No s..., no se kikwa, se kikwa no.
 # text[orig] = No: s..., no: se: kikwa, se: kikwa no:.
 # text[spa] = También, también es comestible, también es comestible.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a78
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a78
 # labels = a78 sentence
 1	No	no	ADV	_	_	4	reparandum	_	_
 2	s...	s	X	_	_	5	reparandum	_	SpaceAfter=No
@@ -14833,7 +14833,7 @@
 # text = Welik, amo teh..., amo tepahwih nion tei.
 # text[orig] = We:lik, a:mo teh..., a:mo te:pahwih nió:n tei.
 # text[spa] = Es sabroso, no, no es tóxico, no causa nada.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a81
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a81
 # labels = a81 sentence
 1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	7	punct	_	_
@@ -14850,7 +14850,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a83
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a83
 # labels = a83 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14861,7 +14861,7 @@
 # text[spa] = Mi nombre es Ernesto Vázquez Chanico, de Tzinapacan, San Miguel Tzinacapan.
 # text[a85] = Neh noto:ka:y Ernesto Vázquez Chanico,
 # text[a86] = de Tzinacapan, San Miguel Tzinacapan.
-# audio : Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a85
+# audio = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p-a85
 # labels = a85 a86 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	dislocated	_	_
 2	notokay	tokay	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
@@ -14881,7 +14881,7 @@
 # text = In iteyotsin, ¿se kikwa o teihsa se kichiwilia?
 # text[orig] = I:n iteyotsi:n, ¿se: kikwa *o** teihsá: se: kichi:wilia?
 # text[spa] = ¿Los frutos se pueden comer uno o tienen algún uso?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a55
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a55
 # labels = a55 sentence
 1	In	in	DET	_	_	2	det	_	_
 2	iteyotsin	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3|Polite=Form	6	dislocated	_	SpaceAfter=No
@@ -14899,7 +14899,7 @@
 # text = Nen ki..., tein ika tapepechowayah itech iteyo kikixtiliayah.
 # text[orig] = Ne:n ki..., tein ika tapepechowa:yah itech iteyo kiki:xtilia:yah.
 # text[spa] = Lo que usaban como pegamento lo sacaban de la semilla.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a61
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a61
 # labels = a61 sentence complete-tree
 1	Nen	nen	PRON	_	_	4	reparandum	_	_
 2	ki...	ki	X	_	_	1	dep	_	SpaceAfter=No
@@ -14916,7 +14916,7 @@
 # text = Kampa kitsontekih oso kipostekih.
 # text[orig] = Ka:mpa kitsontekih oso kipostekih.
 # text[spa] = Donde lo rebanan o lo parten.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a63
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a63
 # labels = a63 sentence complete
 1	Kampa	kampa	ADV	_	PronType=Rel	2	advmod	_	_
 2	kitsontekih	tsonteki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -14928,7 +14928,7 @@
 # text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
 # text[orig] = ¿I:n kowit wehwei, ne:n, moskaltia oso tsikitsitsi:n?
 # text[spa] = ¿Este árbol crece alto o son pequeños?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a67
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a67
 # labels = a67 sentence complete
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	In	in	DET	_	_	4	det	_	_
@@ -14946,7 +14946,7 @@
 # text = Aja.
 # text[orig] = *Ajá**.
 # text[spa] = Aha.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a70
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a70
 # labels = a70 sentence complete
 1	Aja	aja	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -14955,7 +14955,7 @@
 # text = ¿Wan ixochiotsin kwali se kaketsa?
 # text[orig] = ¿Wa:n ixo:chiotsi:n kwali se: ka:ketsa?
 # text[spa] = ¿Y las flores se puede poner en florero?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a71
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a71
 # labels = a71 sentence complete
 1	¿	¿	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	6	cc	_	_
@@ -14972,7 +14972,7 @@
 # text[a74] = Pos pané: yehwa sah, neh, neh a:mo, nejó:n,
 # text[a75] = neh no: nikitani i:x..., i:n kowit pero a:mo n..., a:mo,
 # text[a76] = a:mo nikmatia ox ika tapepechowah.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a74
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a74
 # labels = a74 a75 a76 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	pane	pane	ADV	_	_	3	advmod	_	_
@@ -15015,7 +15015,7 @@
 # text[a80] = Tikihtowa *que** i:n, ne:n,
 # text[a81] = kow..., kowit icho:kilo,
 # text[a82] = kwali ika kipepechowah ke:man kichi:wah *globos**.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a77
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a77
 # labels = a77 a80 a81 a82 sentence
 1	Ne	ne	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
@@ -15043,7 +15043,7 @@
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
 # text[orig] = Ne:, xte:chtapowi ke:ní:w n' kichihchi:wah ne:n tikihtowa *globo**.
 # text[spa] = Este, cuéntanos como hacen los globos.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a84
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a84
 # labels = a84 sentence complete
 1	Ne	ne	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15060,7 +15060,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm,
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a90
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a90
 # labels = a90 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15069,7 +15069,7 @@
 # text = Bueno, pos neh amo niki..., keman nikitak mah ika kipepechokan, neh nochipa nikita kipepechowah ika ne tein kikowah ya ne kampa tanamakah.
 # text[orig] = *Bueno**, pos neh a:mo niki..., ke:man nikitak mah ika kipepecho:ka:n, neh nochipa nikita kipepechowah ika ne: tein kikowah ya ne: ka:mpa tanamakah.
 # text[spa] = Bueno, pues yo nunca ví que lo ocuparan para pegar, yo siempre he visto que lo pegan con el pegamento que lo compran allá en la tienda.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a95
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a95
 # labels = a95 sentence complete
 1	Bueno	bueno	INTJ	_	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15102,7 +15102,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a96
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a96
 # labels = a96 sentence complete
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15143,7 +15143,7 @@
 # text = ¿Wan keniw xota, toni k..., nen kitaliliah para xota?
 # text[orig] = ¿Wa:n ke:ní:w xo:ta, toni k..., ne:n kita:liliah para xo:ta?
 # text[spa] = ¿Y cómo prende, qué le ponen para que pueda prender?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a103
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a103
 # labels = a103 sentence complete
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	4	cc	_	_
@@ -15165,7 +15165,7 @@
 # text[spa] = A:, ..., ¿Y es grande la tela que lo hacen en bola?
 # text[a108] = A:, wa:...
 # text[a110] = ¿Wa:n we:i ne:n tilmah tikihtowa kiololchi:wah?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a108
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a108
 # labels = a108 a110 sentence
 1	A	a	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15183,7 +15183,7 @@
 # text = ¿Wan ekintsin maski yon alaxtik, no kwaltia?
 # text[orig] = ¿Wa:n ekintsi:n ma:ski yo:n alaxtik, no: kwaltia?
 # text[spa] = ¿Y ahora aunque sea de esa lisa, también sirve?
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a113
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a113
 # labels = a113 sentence
 1	¿	¿	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	10	cc	_	_
@@ -15204,7 +15204,7 @@
 # text[spa] = Pues solamente dime tu nombre y de donde vienes.
 # text[a118] = Pos, 'ne:chili moto:ka:y sayoh wa:n
 # text[a119] = ka:ni n' tiwa:le:wa.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a118
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a118
 # labels = a118 a119 sentence
 1	Pos	pos	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15221,7 +15221,7 @@
 # text = Tasohkamatik.
 # text[orig] = Tasohka:matik.
 # text[spa] = Gracias.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a121
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a121
 # labels = a121 sentence
 1	Tasohkamatik	tasojkamatik	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15230,7 +15230,7 @@
 # text = Mahya ihkwin metsweweyak xochitsini.
 # text[orig] = Mahyá: ihkwí:n metswe:weyak xo:chitsi:ni.
 # text[spa] = parece que el peciolo de las flores son así.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a49
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a49
 # labels = a49 sentence
 1	Mahya	mahya	ADV	_	_	3	advmod	_	_
 2	ihkwin	ijkuin	ADV	_	_	3	advmod	_	_
@@ -15244,7 +15244,7 @@
 # text[spa] = Sí, y cuando ya se caen del árbol, donde caen ahí se abren los frutos, una vez que se maduran.
 # text[a52] = Ke:mah, wa:n de pe:wa xi:i:ni a pos yo:n ka:mpa wetsiti ompa mahyá: tahtapa:ni a,
 # text[a53] = de chika:waya ya.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a52
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a52
 # labels = a52 a53 sentence
 1	Kemah	kemaj	INTJ	_	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15273,7 +15273,7 @@
 # text = Iwki neh n..., iwki neh nikixmattok.
 # text[orig] = Iwki neh n..., iwki neh niki:xmattok.
 # text[spa] = Así yo..., así yo lo conozco.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a54
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a54
 # labels = a54 sentence
 1	Iwki	iuki	ADV	_	_	5	reparandum	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	reparandum	_	_
@@ -15288,7 +15288,7 @@
 # text = Yehwa yon kitekih seki ika tapepechowah.
 # text[orig] = Yehwa yo:n kitekih seki ika tapepechowah.
 # text[spa] = Esos los cortan para usar como pegamento.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a58
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a58
 # labels = a58 sentence
 1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -15365,7 +15365,7 @@
 # text = Kisa n' ichokilo istak kwaltsin.
 # text[orig] = Ki:sa n' icho:kilo ista:k kwaltsi:n.
 # text[spa] = Sale la savia, es blanca.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a66
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a66
 # labels = a66 sentence complete
 1	Kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	n'	in	DET	_	_	3	det	_	_
@@ -15411,7 +15411,7 @@
 # text = Amo weli, ta in yeh tsikitsitsin.
 # text[orig] = A:mo weli, ta: i:n yeh tsikitsitsi:n.
 # text[spa] = No es posible, pues estas son pequeñas.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a72
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a72
 # labels = a72 sentence complete
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	weli	hueli	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
@@ -15458,7 +15458,7 @@
 # text = Amo, ta kwaltia ika tapepechowah.
 # text[orig] = A:mo, ta: kwaltia ika tapepechowah.
 # text[spa] = No, pues sirve como pegamento.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a78
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a78
 # labels = a78 sentence
 1	Amo	amo	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15488,7 +15488,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a83
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a83
 # labels = a83 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15497,7 +15497,7 @@
 # text = Wan ompa ne n' kikowah, nejon, onkak, onkak de miak colores.
 # text[orig] = Wa:n ompa ne: n' kikowah, nejó:n, onkak, onkak de miak *colores**.
 # text[spa] = Y ahí lo compran, este, hay, hay bastantes colores.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a87
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a87
 # labels = a87 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	ompa	ompa	ADV	_	_	0	root	_	_
@@ -15519,7 +15519,7 @@
 # text = Wan kichiwah wei, seki kiliah kichiwah, seki de, nikiitaseki kichiwah kiliah de, de estrella.
 # text[orig] = Wa:n kichi:wah we:i, seki kiliah kichi:wah, seki de, niki:itaseki kichi:wah kiliah de, de *estrella**.
 # text[spa] = Lo hacen grande, algunos le llaman, unos de, he visto que unos lo hacen, le llaman, de estrella.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a88
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a88
 # labels = a88 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	kichiwah	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -15600,7 +15600,7 @@
 # text = N..., kemah, amo ta kwaltia, yehwa yon kikwiah ne keman, pero pos neli aman amo kikwih yehwa ok.
 # text[orig] = N..., ke:mah, a:mo ta: kwaltia, yehwa yo:n kikwiah ne: ke:man, pero pos neli a:man a:mo kikwih yehwa ok.
 # text[spa] = Sí, no, pues sirve, eso es lo que ocupaban en aquellós tiempos, pero es cierto que en estos tiempos ya no lo usan.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a97
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a97
 # labels = a97 sentence
 1	N...	n	NOUN	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15632,7 +15632,7 @@
 # text = Kikwih yon gas.
 # text[orig] = Kikwih yo:n *gas**.
 # text[spa] = Usan el gas.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a104
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a104
 # labels = a104 sentence
 1	Kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
@@ -15645,7 +15645,7 @@
 # text = Wan yowi hasta ahko.
 # text[orig] = Wa:n yowi *hasta** ahko.
 # text[spa] = Y ya se va, elevándose hasta muy arriba.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a107
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a107
 # labels = a107 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	yowi	yohui	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -15657,7 +15657,7 @@
 # text = Kemah, yowi ehekaixko, yowi wehka neli seki.
 # text[orig] = Ke:mah, yowi ehekai:xko, yowi wehka neli seki.
 # text[spa] = Sí, se va en el aíre, unos se van lejos.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a109
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a109
 # labels = a109 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -15692,7 +15692,7 @@
 # text = Amo kwaltia porque yeh mahya motsotsolowa sah, amo wel xota.
 # text[orig] = A:mo kwaltia *porque** yeh mahyá: motsotsolowa sah, a:mo wel xo:ta. Ta: *más** kikwih ke:meh yo:n *manta**.
 # text[spa] = No sirve porque (con la lumbre) solamente se arruga, no prende. Pues generalmente usan la manta.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a114
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a114
 # labels = a114 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -15711,7 +15711,7 @@
 # text = Neh nimonotsa, aja, niMaria Salazar Osollo, niwitsa de San Miguel.
 # text[orig] = Neh nimono:tsa, ajá, niMaría Salazar Osollo, niwi:tsa de San Miguel.
 # text[spa] = Me llamo María Salazar Osollo, vengo de San Miguel.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a120
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a120
 # labels = a120 sentence complete
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -15732,7 +15732,7 @@
 # text = Amo teihsa.
 # text[orig] = A:mo teihsá:.
 # text[spa] = No es nada.
-# audio : Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a122
+# audio = Tzina_Botan_MSO325_chiichiwalaayoot-Apocynaceae_2012-07-17-i-a122
 # labels = a122 sentence
 1	Amo	amo	ADV	_	_	2	advmod	_	_
 2	teihsa	teisa	PRON	_	_	0	root	_	SpaceAfter=No
@@ -15742,7 +15742,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] = Mm.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a26
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a26
 # labels = a26 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15751,7 +15751,7 @@
 # text = Kichiwa sakera se, se kaxtol xiwit, wehkawa yetok.
 # text[orig] = Kichi:wa sake:ra se:, se: kaxto:l xiwit, wehka:wa yetok.
 # text[spa] = Por lo menos puede durar unos quince años, tarda mucho tiempo.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a30
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a30
 # labels = a30 sentence
 1	Kichiwa	chihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 2	sakera	sakera	ADV	_	_	1	advmod	_	_
@@ -15769,7 +15769,7 @@
 # text = Ixiwyo pisiltik n' imaxiwyo.
 # text[orig] = Ixiwyo pisi:ltik n' ima:xiwyo.
 # text[spa] = Las hojas son pequeñas.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a33
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a33
 # labels = a33 sentence
 1	Ixiwyo	xiuyo	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	2	dislocated	_	_
 2	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
@@ -15781,7 +15781,7 @@
 # text = Mm.
 # text[orig] = Mm.
 # text[spa] =
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a35
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a35
 # labels = a35 sentence
 1	Mm	mm	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15790,7 +15790,7 @@
 # text = Kemah nikixmattok mahya oh..., ohololtsitsini n' ixochiotsin.
 # text[orig] = Ke:mah niki:xmattok mahyá: oh..., ohololtsitsi:ni n' ixo:chiotsi:n.
 # text[spa] = Si, creo que sí la conozco, las flores son redondas.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a37
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a37
 # labels = a37 sentence
 1	Kemah	kemaj	INTJ	_	_	2	discourse	_	_
 2	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -15808,7 +15808,7 @@
 # text[spa] = (Cuando aserran) el tronco suelta el color con tinte a rojo,
 # text[a39] = Itapalo ki:sa mahyá: ye:kchi:chi:ltik,
 # text[a40] = *cuando** kitekih.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a39
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a39
 # labels = a39 a40 sentence
 1	Itapalo	tapalo	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	kisa	kisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -15823,7 +15823,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a42
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a42
 # labels = a42 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15832,7 +15832,7 @@
 # text = Amo.
 # text[orig] = A:mo.
 # text[spa] = No.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a46
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a46
 # labels = a46 sentence
 1	Amo	amo	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -15841,7 +15841,7 @@
 # text = Mochiwa kanika eski.
 # text[orig] = Mochi:wa ka:nika eski.
 # text[spa] = Se da en cualquier parte.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a48
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a48
 # labels = a48 sentence
 1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 2	kanika	kanika	ADV	_	_	1	advcl	_	_
@@ -15852,7 +15852,7 @@
 # text = Mochiwa kanika eski, porque tehwan ne kampa ne nejon kowtah no onkak.
 # text[orig] = Mochi:wa ka:nika eski, *porque** tehwa:n ne: ka:mpa ne: nejó:n kowtah no: onkak.
 # text[spa] = Se da en cualquier parte, porque allá en el monte, cerca de donde vivimos también hay.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a49
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a49
 # labels = a49 sentence
 1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 2	kanika	kanika	ADV	_	_	1	advcl	_	_
@@ -15873,7 +15873,7 @@
 # text = Neh nikixmattok ipa se taman sah, amo n'mati ox onkak ome taman, neh nikixmattok ipa se taman sah, yehwa yon tein tamapisiltik.
 # text[orig] = Neh niki:xmattok i:pa se: taman sah, a:mo n'mati ox onkak o:me taman, neh niki:xmattok i:pa se: taman sah, yehwa yo:n tein tama:pisi:ltik.
 # text[spa] = Yo solamente conozco un solo tipo, no sé si exsta dos tipos, yo solamente conozco un solo tipo, el que tiene hojas pequeñas.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a55
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a55
 # labels = a55 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -15908,7 +15908,7 @@
 # text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.
 # text[orig] = Neh nimono:tsa niMaría Salazar Osollo, niwi:tsa de San Miguel.
 # text[spa] = Yo me llamo María Salazar Osollo, vengo de San Miguel.
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a63
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a63
 # labels = a63 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -15926,7 +15926,7 @@
 # text = ¿Wan ixiwyo keniwki?
 # text[orig] = ¿Wa:n ixiwyo ke:niwki?
 # text[spa] = ¿Y cómo son las hojas?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a32
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a32
 # labels = a32 sentence
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	4	cc	_	_
@@ -15938,7 +15938,7 @@
 # text = Xa tikixmati n' ixochio.
 # text[orig] = Xa: tiki:xmati n' ixo:chio.
 # text[spa] = Acaso conoces la flor (del kakatekowit)
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a36
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a36
 # labels = a36 sentence
 1	Xa	xa	ADV	_	_	2	advmod	_	_
 2	tikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -15950,7 +15950,7 @@
 # text = Wan, nen, itapalo.
 # text[orig] = Wa:n, ne:n, itapalo.
 # text[spa] = ¿De qué color es (quizá se refiera al color de la flor o del trocno)?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a38
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a38
 # labels = a38 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -15963,7 +15963,7 @@
 # text = Yon amo kitokah.
 # text[orig] = Yo:n a:mo kito:kah.
 # text[spa] = Ese árbol no se siembra
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a45
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a45
 # labels = a45 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -15976,7 +15976,7 @@
 # text = ¿Wan kani, nen, mochiwa?
 # text[orig] = ¿Wa:n ka:ni, ne:n, mochi:wa?
 # text[spa] = ¿Y donde se reproduce?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a47
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a47
 # labels = a47 sentence
 1	¿	¿	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	3	cc	_	_
@@ -15991,7 +15991,7 @@
 # text = Wan, nen,
 # text[orig] = Wa:n, ne:n,
 # text[spa] = Y ...
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a50
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a50
 # labels = a50 sentence
 1	Wan	huan	CCONJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -16002,7 +16002,7 @@
 # text = ¿komo se kitoka kaltsintan no mochiwa?
 # text[orig] = ¿komo se: kito:ka kaltsi:ntan no: mochi:wa?
 # text[spa] = ¿Y si acaso se siembra cerca de la casa, crecerá?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a51
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a51
 # labels = a51 sentence
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	komo	komo	ADV	_	_	4	advmod	_	_
@@ -16021,7 +16021,7 @@
 # text[spa] = Buenos, pues si acaso, de éste, ¿Hay un solo tipo de kakate o hay varios tipos?
 # text[a53] = *Bueno**, pos *este**, komohkó:n,
 # text[a54] = i:n, ¿i:pa se: taman sah oso miak taman onkak?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a53
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a53
 # labels = a53 a54 sentence
 1	Bueno	bueno	INTJ	_	_	18	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16047,7 +16047,7 @@
 # text = ¿Wan itakka kan welik?
 # text[orig] = ¿Wa:n ita:kka ka:n we:lik?
 # text[spa] = ¿Y los frutos no son comestibles?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a56
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a56
 # labels = a56 sentence
 1	¿	¿	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Wan	huan	CCONJ	_	_	5	cc	_	_
@@ -16060,7 +16060,7 @@
 # text = ¿Keniwki nen itakka, tikixmati?
 # text[orig] = ¿Ke:niwki ne:n ita:kka, tiki:xmati?
 # text[spa] = ¿Cómo son los frutos que tú conoces?
-# audio : Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a58
+# audio = Tzina_Botan_MSO325_kakatekowit-Anacardiaceae_Tzina_Botan_2012-07-17-a-a58
 # labels = a58 sentence
 1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Keniwki	keniuki	ADV	_	PronType=Int	0	root	_	_
@@ -16074,7 +16074,7 @@
 # text = Neh nikixmati que monotsa tatapits, amo nikmati keniw n' tehwatsin tiktokaytia.
 # text[orig] = Neh niki:xmati *que** mono:tsa ta:tapits, a:mo nikmati ke:ní:w n' tehwa:tsi:n tikto:ka:ytia.
 # text[spa] = Yo lo conozco que se llama ta:tapi:ts, no sé cómo lo llama usted.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a40
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a40
 # labels = a40 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nikixmati	ixmati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -16094,7 +16094,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a66
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a66
 # labels = a66 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16105,7 +16105,7 @@
 # text[spa] = Pues está muy bien, este yo, te..., quiero saber de donde viene usted.
 # text[a101] = Pos no: kwali, *este**, ne:n, neh nim...,
 # text[a102] = nikneki nikmatis de ka:n[i]tehwa:tsi:n tiwa:le:wa.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a101
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a101
 # labels = a101 a102 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	no	no	ADV	_	_	3	advmod	_	_
@@ -16131,7 +16131,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a61
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a61
 # labels = a61 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16140,7 +16140,7 @@
 # text = Xochiowa pane ihistak n' ixochio, amo nikyekelnamiki keniw, pero xochiowa no.
 # text[orig] = Xo:chiowa pané: ihista:k n' ixo:chio, a:mo nikye:kelna:miki ke:ní:w, pero xo:chiowa no:.
 # text[spa] = Sí florece, parece que sus flores son blancas, no me acuerdo exactamente pero también florece.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a80
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a80
 # labels = a80 sentence
 1	Xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 2	pane	pane	ADV	_	_	3	advmod	_	_
@@ -16161,7 +16161,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a97
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a97
 # labels = a97 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16170,7 +16170,7 @@
 # text = Neh niwitsa de San Miguel.
 # text[orig] = Neh niwi:tsa de San Miguel.
 # text[spa] = Yo vengo de San Miguel.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a103
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a103
 # labels = a103 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	niwitsa	huitsa	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	0	root	_	_
@@ -16183,7 +16183,7 @@
 # text = Maria Salazar Osollo.
 # text[orig] = María Salazar Osollo.
 # text[spa] = María Salazar Osollo.
-# audio : Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a105
+# audio = Tzina_Botan_MSO325-RMM302_taatapiits-Apiaceae_2012-07-17-b-a105
 # labels = a105 sentence
 1	Maria	María	PROPN	_	Gender=Fem	0	root	_	_
 2	Salazar	Salazar	PROPN	_	_	1	flat	_	_
@@ -16213,7 +16213,7 @@
 # text = No mochiwa.
 # text[orig] = No: mochi:wa.
 # text[spa] = También se da.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a55
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a55
 # labels = a55 sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -16223,7 +16223,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a57
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a57
 # labels = a57 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16232,7 +16232,7 @@
 # text = Mowilana, mowilana.
 # text[orig] = Mowila:na, mowila:na.
 # text[spa] = Se extiende, se extiende.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a59
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a59
 # labels = a59 sentence
 1	Mowilana	huilana	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -16290,7 +16290,7 @@
 # text = Wan tisekimeh tikchiwah tiktewatsah pero semi mokawa itech n' komaltsin porin xamani.
 # text[orig] = Wa:n tiseki:meh tikchi:wah tiktewa:tsah pero semi moka:wa itech n' koma:ltsí:n porin xama:ni.
 # text[spa] = Y otras personas las asamos en el comal pero se pegan mucho porque se truenan fácilmente los frutos
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a94
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a94
 # labels = a94 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	tisekimeh	seki	PRON	_	Number=Plur|Number[subj]=Plur|Person[subj]=1	3	dep	_	_
@@ -16329,7 +16329,7 @@
 # text = Mochiwa.
 # text[orig] = Mochi:wa.
 # text[spa] = Se da.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a101
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a101
 # labels = a101 sentence
 1	Mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16338,7 +16338,7 @@
 # text = Eso.
 # text[orig] = *Eso**.
 # text[spa] = Eso.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a110
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a110
 # labels = a110 sentence
 1	Eso	eso	PRON	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16347,7 +16347,7 @@
 # text = Ihkon.
 # text[orig] = Ihkó:n.
 # text[spa] = Así es.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a121
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a121
 # labels = a121 sentence
 1	Ihkon	ijkon	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16356,7 +16356,7 @@
 # text = Kiwalkwih ok.
 # text[orig] = Kiwa:lkwih ok.
 # text[spa] = Lo traen todavía.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a128
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a128
 # labels = a128 sentence
 1	Kiwalkwih	kui	VERB	_	Movement=Ven|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 2	ok	ok	ADV	_	_	1	advmod	_	SpaceAfter=No
@@ -16368,7 +16368,7 @@
 # text[spa] = También lo..., lo compramos si es que no lo tenemos en casa, pero si este, también producimos junto a la casa ya no lo compramos.
 # text[a130] = No: tik..., tikowah komo a:mo teh tikpiyah, pero komohkó:n ne:,
 # text[a131] = onkak no: n' kaltsi:ntan pos a:mo no: tikowah ok.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a130
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a130
 # labels = a130 a131 sentence
 1	No	no	ADV	_	_	4	advmod	_	_
 2	tik...	tik	X	_	_	4	reparandum	_	SpaceAfter=No
@@ -16400,7 +16400,7 @@
 # text = Kemah, ompa ya se kikwi.
 # text[orig] = Ke:mah, ompa ya se: kikwi.
 # text[spa] = Sí, pues ya lo corta uno ahí.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a132
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a132
 # labels = a132 sentence
 1	Kemah	kemaj	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16414,7 +16414,7 @@
 # text = Ika tamachiw.
 # text[orig] = Ika tamachi:w.
 # text[spa] = Con medida.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a135
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a135
 # labels = a135 sentence
 1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 2	tamachiw	tamachiuj	NOUN	_	Case=Abs	1	nmod	_	SpaceAfter=No
@@ -16424,7 +16424,7 @@
 # text = Iwan i..., iwan ikowyotsin.
 # text[orig] = Iwa:n i..., iwa:n ikowyotsi:n.
 # text[spa] = Junto con su..., con los pedúnculos.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a140
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a140
 # labels = a140 sentence
 1	Iwan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	reparandum	_	_
 2	i...	i	X	_	_	5	reparandum	_	SpaceAfter=No
@@ -16460,7 +16460,7 @@
 # text = Nimonotsa Cristina Vazquez Hernandez.
 # text[orig] = Nimono:tsa Cristina Vázquez Hernández.
 # text[spa] = Me llamo Cristina Vázquez Hernández.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a145
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a145
 # labels = a145 sentence
 1	Nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 2	Cristina	Cristina	PROPN	_	Gender=Fem	1	obj	_	_
@@ -16472,7 +16472,7 @@
 # text = Aman, kwali titechtapowis namehwan ompa ne keniw nankitatekiwtiah.
 # text[orig] = A:man, kwali tite:chtapowi:s namehwa:n ompa ne: ke:ní:w nankitatekiwtiah.
 # text[spa] = Ahora me puedes platicar allá ustedes cómo las usan.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a84
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a84
 # labels = a84 sentence
 1	Aman	aman	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16491,7 +16491,7 @@
 # text[spa] = Sí, algunas partes lo siembran todavía y pues el chiltepín el algunos lugares también tienen sembrado junto a la casa.
 # text[a115] = Ke:mah, kanah ika kito:kah ok wa:n
 # text[a116] = pos chi:ltekpin kanah ika no: kipiah n' kaltsi:ntan.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a115
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a115
 # labels = a115 a116 sentence
 1	Kemah	kemaj	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16516,7 +16516,7 @@
 # text = Kiwalkwih.
 # text[orig] = Kiwa:lkwih.
 # text[spa] = Lo traen.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a129
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a129
 # labels = a129 sentence
 1	Kiwalkwih	kui	VERB	_	Movement=Ven|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16527,7 +16527,7 @@
 # text[spa] = Sí y pues aquí en Cuetzalan vemos este, lo..., no lo...,  venden por kilo, lo venden con medida.
 # text[a134] = Ke:mah wa:n pos nika:n Kwesala:n tikitah, *este**, ki...,
 # text[a136] = ki..., kinamakah a:mo ika *kilo**, ta: ata ika tamachi:w.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a134
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a134
 # labels = a134 a136 sentence
 1	Kemah	kemaj	INTJ	_	_	6	discourse	_	_
 2	wan	huan	CCONJ	_	_	6	cc	_	_
@@ -16557,7 +16557,7 @@
 # text = Ika tamachiw, se xikal.
 # text[orig] = Ika tamachi:w, se: xi:kal.
 # text[spa] = Con medida, usan una jícara.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a138
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a138
 # labels = a138 sentence
 1	Ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 2	tamachiw	tamachiuj	NOUN	_	Case=Abs	1	nmod	_	SpaceAfter=No
@@ -16570,7 +16570,7 @@
 # text = Bueno pos neh notokay Eleuterio Gorostiza, niwalewa nikan San Miguel.
 # text[orig] = *Bueno** pos neh noto:ka:y Eleuterio Gorostiza, niwa:le:wa nika:n San Miguel.
 # text[spa] = Bueno pues yo me llamo Eleuterio Gorostiza, vengo de San Miguel.
-# audio : Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a143
+# audio = Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e-a143
 # labels = a143 sentence
 1	Bueno	bueno	INTJ	_	_	5	discourse	_	_
 2	pos	pos	ADV	_	_	5	advmod	_	_
@@ -16589,7 +16589,7 @@
 # text = Kemeh, kemeh, nen, tikiliah iyat imay.
 # text[orig] = Ke:meh, ke:meh, ne:n, tikiliah iyat ima:y.
 # text[spa] = Como, como, este, las hojas del tabaco.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a25
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a25
 # labels = a25 sentence
 1	Kemeh	kemej	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16606,7 +16606,7 @@
 # text = Ta y..., ampowin onkas.
 # text[orig] = Ta: y..., ampo:wí:n onkas.
 # text[spa] = Pues..., por ahí debe haber.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a43
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a43
 # labels = a43 sentence
 1	Ta	ta	ADV	_	_	6	advmod	_	_
 2	y	y	CCONJ	_	_	6	cc	_	SpaceAfter=No
@@ -16620,7 +16620,7 @@
 # text = Kemah, chichiltik.
 # text[orig] = Ke:mah, chi:chi:ltik.
 # text[spa] = Sí, son rojas.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a44
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a44
 # labels = a44 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -16633,7 +16633,7 @@
 # text[spa] = Son rojas, las flores son rojas, y se hace frondoso, así de este tamaño.
 # text[a45] = Chi:chi:ltik, chi:chi:ltik n' ixo:chio,
 # text[a46] = wa:n mochi:wa malakachtsí:n ihko:ntsi:n.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a45
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a45
 # labels = a45 a46 sentence
 1	Chichiltik	chijchiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -16651,7 +16651,7 @@
 # text = No tenamiki iksa kwali, kwali.
 # text[orig] = No: te:na:miki i:ksá: kwali, kwali.
 # text[spa] = A veces nos cura, es muy bueno, muy bueno.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a56
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a56
 # labels = a56 sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	tenamiki	namiki	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -16665,7 +16665,7 @@
 # text = ¿Ikowyo?
 # text[orig] = ¿Ikowyo?
 # text[spa] = ¿El tronco?
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a58
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a58
 # labels = a58 sentence
 1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
@@ -16675,7 +16675,7 @@
 # text = Ampon kasa ika ixtawat onkas.
 # text[orig] = Ampó:n ka:sá: ika ixta:wat onkas.
 # text[spa] = Por ahí, en algún potrero debe haber.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a61
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a61
 # labels = a61 sentence
 1	Ampon	ampon	ADV	_	_	5	advmod	_	_
 2	kasa	kasa	ADV	_	_	5	advmod	_	_
@@ -16688,7 +16688,7 @@
 # text = Amo wei kwowit.
 # text[orig] = A:mo we:i kwowit.
 # text[spa] = No crece grande la mata.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a67
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a67
 # labels = a67 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	wei	huei	ADJ	_	_	3	amod	_	_
@@ -16701,7 +16701,7 @@
 # text[spa] = Ah, pues vengo de Xaltipan y me llamo María Ocotlán.
 # text[a69] = A:, pos Xaltipan niwa:le:w wa:n
 # text[a70] = nimono:tsa María Ocotlán.
-# audio : Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a69
+# audio = Xaltn_Botan_MFC307_tanokwilpahxiwit-Verbenaceae_2011-07-19-c-a69
 # labels = a69 a70 sentence
 1	A	a	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16718,7 +16718,7 @@
 # text = Kinekih die..., tsitsikitsitsin wan kinekih no diez pesos, cada setsin.
 # text[orig] = Kinekih *die...**, tsi:tsikitsitsi:n wa:n kinekih no: *diez pesos, cada** se:tsi:n.
 # text[spa] = Quieren, los frutos son pequeños y piden diez pesos por un fruto.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a164
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a164
 # labels = a164 sentence
 1	Kinekih	neki	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	6	reparandum	_	_
 2	die...	die	X	_	_	4	reparandum	_	SpaceAfter=No
@@ -16738,7 +16738,7 @@
 # text = Patiyoh.
 # text[orig] = Pati:yoh.
 # text[spa] = Es muy caro.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a168
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a168
 # labels = a168 sentence
 1	Patiyoh	patiyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16747,7 +16747,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Sí.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a173
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a173
 # labels = a173 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16756,7 +16756,7 @@
 # text = Yeh ika ne nimitstahtania no n' tsapotsin, ta neli no taman welik.
 # text[orig] = Yeh ika ne: nimitstahtania no: n' tsapotsí:n, ta: neli no: taman we:lik.
 # text[spa] = Por eso yo te pregunto sobre este tipo de zapote, es cierto que tiene otro sabor.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a175
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a175
 # labels = a175 sentence
 1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	nmod	_	_
 2	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
@@ -16795,7 +16795,7 @@
 # text = Welik, welik, xoxokokkawelik pero kwaltsin tsopek.
 # text[orig] = We:lik, we:lik, xo:xokokka:we:lik pero kwaltsi:n tsope:k.
 # text[spa] = Es muy sabroso, es muy sabroso, sabe un poco a agridulce pero es muy dulce.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a179
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a179
 # labels = a179 sentence
 1	Welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -16837,7 +16837,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a95
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a95
 # labels = a95 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -16846,7 +16846,7 @@
 # text = Neli nikitstok, neli kwaltsin, ne, kwaltsin mopihpilowilih.
 # text[orig] = Neli nikitstok, neli kwaltsi:n, ne:, kwaltsi:n mopihpilowilih.
 # text[spa] = Eso es lo que yo veo, se aprecia muy bien los frutos, se ven bien ahí colgados.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a97
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a97
 # labels = a97 sentence
 1	Neli	neli	ADV	_	_	2	advmod	_	_
 2	nikitstok	ita	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
@@ -16864,7 +16864,7 @@
 # text = Chikawayati neli wan amo n'mati kemanian nen xochiowa porque ekintsin neh nikitstok taktok a.
 # text[orig] = Chika:wayati neli wa:n a:mo n'mati ke:maniá:n ne:n xo:chiowa *porque** ekintsi:n neh nikitstok ta:ktok a.
 # text[spa] = Ya se van a arreciar y yo no sé cuando florean porque ahora yo veo que ya hay frutos.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a100
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a100
 # labels = a100 sentence
 1	Chikawayati	chikahuaya	VERB	_	Movement=And|Number[subj]=Sing|Person[subj]=3|Subcat=Intr	0	root	_	_
 2	neli	neli	ADV	_	_	1	advmod	_	_
@@ -16888,7 +16888,7 @@
 # text[spa] = Si, porque..., parece que se maduran en los meses de diciembre y enero.
 # text[a104] = Ke:mah, *porque** ne:, ne:,
 # text[a105] = pané: chika:waya ne:wí:n n' *es...**, nochipa i:n itech i:n me:tsti diciembre wa:n enero.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a104
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a104
 # labels = a104 a105 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	9	punct	_	_
@@ -16917,7 +16917,7 @@
 # text = Kemah, neli kwaltsin, este, kwaltsin wehwelik.
 # text[orig] = Ke:mah, neli kwaltsi:n, *este**, kwaltsi:n wehwe:lik.
 # text[spa] = Sí, es muy bueno, este, saben muy sabrosos.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a124
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a124
 # labels = a124 sentence
 1	Kemah	kemaj	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16936,7 +16936,7 @@
 # text[spa] = Este, y yo sé que el tallo, así como tu dices, arde muy bien pero el tronco es un poco fibroso.
 # text[a125] = Ne:,
 # text[a127] = wa:n ikowyo neh nikmattok *que** neli n' tikihtowa ne: kwaltsi:n xo:ta pero ne: yamax..., mahyá: xo:no:tik n' ikowyo.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a125
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a125
 # labels = a125 a127 sentence
 1	Ne	ne	ADV	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -16966,7 +16966,7 @@
 # text = Kemah, yehwa, yehwa ini, kemeh in, este, nikihtowa neh mahya xonotik n' ikowyo, tak yehwa ika kwaltsin no xota mahya ehkawtik sah.
 # text[orig] = Ke:mah, yehwa, yehwa i:ni, ke:meh i:n, *este**, nikihtowa neh mahyá: xo:no:tik n' ikowyo, tak yehwa ika kwaltsi:n no: xo:ta mahyá: ehkawtik sah.
 # text[spa] = Sí. así, así, como éste, este, yo digo que el tronco es fibroso, quizá por eso arde muy bien, parece que es ligero.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a131
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a131
 # labels = a131 sentence
 1	Kemah	kemaj	INTJ	_	_	13	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17002,7 +17002,7 @@
 # text = Wan nen ixiwyotsin ox no....
 # text[orig] = Wa:n ne:n ixiwyotsi:n ox no: ....
 # text[spa] = Y acaso las hojas también...,
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a132
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a132
 # labels = a132 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
 2	nen	nen	INTJ	_	_	3	discourse	_	_
@@ -17015,7 +17015,7 @@
 # text = Maahalaxtik.
 # text[orig] = Ma:ahalaxtik.
 # text[spa] = Las hojas son lisas.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a135
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a135
 # labels = a135 sentence
 1	Maahalaxtik	maajalaxtik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -17024,7 +17024,7 @@
 # text = Ah.
 # text[orig] = A:h.
 # text[spa] = A:.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a144
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a144
 # labels = a144 sentence
 1	Ah	aj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -17033,7 +17033,7 @@
 # text = Kemah.
 # text[orig] = Ke:mah.
 # text[spa] = Si.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a152
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a152
 # labels = a152 sentence
 1	Kemah	kemaj	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
@@ -17042,7 +17042,7 @@
 # text = Tak porin panian katka.
 # text[orig] = Tak porin paniá:n katka.
 # text[spa] = Quizá porque no había tantos árboles.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a158
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a158
 # labels = a158 sentence
 1	Tak	tak	ADV	_	_	3	advmod	_	_
 2	porin	porin	SCONJ	_	_	3	mark	_	_
@@ -17054,7 +17054,7 @@
 # text = Patiyoh, ta tsitsikitsin.
 # text[orig] = Pati:yoh, ta: tsitsikitsi:n.
 # text[spa] = Es muy caro, pues son pequeños.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a165
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a165
 # labels = a165 sentence
 1	Patiyoh	patiyoj	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
@@ -17066,7 +17066,7 @@
 # text = Yeh neli.
 # text[orig] = Yeh neli.
 # text[spa] = Eso es cierto.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a167
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a167
 # labels = a167 sentence
 1	Yeh	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	2	nsubj	_	_
 2	neli	neli	ADV	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
@@ -17078,7 +17078,7 @@
 # text[spa] = Así es señora. En partes todavía hay.
 # text[a170] = Ke:mah, na:notsi:n
 # text[a174] = Ke:mah, we:wehkatiká: onkak ok neli.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a170
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a170
 # labels = a170 a174 sentence
 1	Kemah	kemaj	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17095,7 +17095,7 @@
 # text = Kemah, welik kwaltsin.
 # text[orig] = Ke:mah, we:lik kwaltsi:n.
 # text[spa] = Si, es muy sabroso.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a180
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a180
 # labels = a180 sentence
 1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17107,7 +17107,7 @@
 # text = Kemah neli.
 # text[orig] = Ke:mah neli.
 # text[spa] = Sí, es cierto.
-# audio : Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a181
+# audio = Yohua_Botan_MJT354-ADA300_kanoones-Annonaceae_2012-07-25-l-a181
 # labels = a181 sentence
 1	Kemah	kemaj	INTJ	_	_	2	discourse	_	_
 2	neli	neli	ADV	_	_	0	root	_	SpaceAfter=No
@@ -17120,7 +17120,7 @@
 # text[a22] = *Este, este**, a:xka:n na:no nika:n ne: timonoh..., timonohno:tstokeh,
 # text[a23] = nikneki xne:chtapowi xa: tiki:xmati se: kowit kilwiah ne:
 # text[a24] = tahkwilo:lxo:chit oso tahkwilo:lkowit.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a22
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a22
 # labels = a22 a23 a24 sentence
 1	Este	este	INTJ	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17151,7 +17151,7 @@
 # text = ¿Keniwki n' ixochiotsin?
 # text[orig] = ¿Ke:niwki n' ixo:chiotsi:n?
 # text[spa] = ¿Cómo son las flores?
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a34
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a34
 # labels = a34 sentence
 1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Keniwki	keniuki	ADV	_	PronType=Int	0	root	_	_
@@ -17163,7 +17163,7 @@
 # text = ¿Kanachi xiwit tikpia?
 # text[orig] = ¿Ka:nachi xiwit tikpia?
 # text[spa] = ¿Cuántos años tienes?
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a58
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a58
 # labels = a58 sentence
 1	¿	¿	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Kanachi	kanachi	DET	_	_	3	det	_	_
@@ -17175,7 +17175,7 @@
 # text = Bueno, pos neh notokay Amelia Dominguez Alcantara, nikayot ompa ne Xaltipan.
 # text[orig] = *Bueno**, pos neh noto:ka:y Amelia Domínguez Alcántara, nikayo:t ompa ne: Xaltipan.
 # text[spa] = Bueno pues, pues yo me llamo Amelia Domínguez Alcántara, soy de allá de Xaltipan.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a60
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a60
 # labels = a60 sentence
 1	Bueno	bueno	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17196,7 +17196,7 @@
 # text = Tahkwilolxochit wan tahkwilolkowit.
 # text[orig] = Tahkwilo:lxo:chit wa:n tahkwilo:lkowit.
 # text[spa] = Tahkwilo:lxo:chit y tahkwilo:lkowit.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a25
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a25
 # labels = a25 sentence
 1	Tahkwilolxochit	tajkhuilolxochit	NOUN	_	Case=Abs	0	root	_	_
 2	wan	huan	CCONJ	_	_	3	cc	_	_
@@ -17209,7 +17209,7 @@
 # text[spa] = Yo conozco ese árbol, es muy macizo y también sirve para leña, se llama tahkwilo:lxo:chit.
 # text[a26] = Neh niki:xmattok yo:n kowtsí:n kwaltsi:n takwa:wak wa:n no: kwali xo:ta,
 # text[a27] = mono:tsa tahkwilo:lxo:chit.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a26
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a26
 # labels = a26 a27 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -17232,7 +17232,7 @@
 # text = Ipa se taman sah.
 # text[orig] = I:pa se: taman sah.
 # text[spa] = Solamente hay un solo color.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a39
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a39
 # labels = a39 sentence
 1	Ipa	ipa	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nummod	_	_
@@ -17244,7 +17244,7 @@
 # text = No kwali s..., este, kwaltia no kalikxit seki kikwih.
 # text[orig] = No: kwali s..., *este**, kwaltia no: kalikxit seki kikwih.
 # text[spa] = También se puede .... Este, también sirve para horcón, algunos lo usan.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a42
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a42
 # labels = a42 sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	kwali	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
@@ -17263,7 +17263,7 @@
 # text = ¿Porque keyeh? Selia.
 # text[orig] = ¿*Porque** ke:yeh? Selia.
 # text[spa] = ¿Porqué? (Porque) retoña.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a44
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a44
 # labels = a44 sentence
 1	¿	¿	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Porque	porque	SCONJ	_	_	3	mark	_	_
@@ -17276,7 +17276,7 @@
 # text = Pan..., pane kan pahti sayoh,sayoh kwalneskatsah.
 # text[orig] = Pan..., pané: ka:n pahti sayoh,sayoh kwalne:skatsah.
 # text[spa] = Parece que no es medicinal, solamente es un ornamental.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a51
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a51
 # labels = a51 sentence
 1	Pan...	pan	X	_	Incorporated=Pan	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17293,7 +17293,7 @@
 # text = Neh, neh nimonotsa Maria de Jesus Tecuaco wan nimo..., niwalewa neka Yohualichan xolal.
 # text[orig] = Neh, neh nimono:tsa María de Jesús Tecuaco wa:n nimo..., niwa:le:wa ne:ka Yohualichan xola:l.
 # text[spa] = Yo, yo me llamo María de Jesús Tecuaco y vengo del pueblo de Yohualichan
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a57
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a57
 # labels = a57 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -17316,7 +17316,7 @@
 # text = Itech, nen, cincuenta y seis.
 # text[orig] = Itech, ne:n, *cincuenta y seis**.
 # text[spa] = En el (año) cincuenta y seis.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a59
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a59
 # labels = a59 sentence
 1	Itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -17331,7 +17331,7 @@
 # text = A, ihkon neh no nimonotsa.
 # text[orig] = A:, ihkó:n neh no: nimono:tsa.
 # text[spa] = A:, así también me llamo.
-# audio : Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a61
+# audio = Yohua_Botan_MJT354_tahkuiloolkowit-Bombacaceae_2012-07-20-n-a61
 # labels = a61 sentence
 1	A	a	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
