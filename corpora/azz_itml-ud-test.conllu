@@ -38,7 +38,7 @@
 # text[spa] = Sabes que cada planta o arbolito, hay dos o hasta tres tipos, pero no todos los conocemos.
 # text[a96] = Tikmatis <i>cada</i> xiwtsitsí:n ihkó:n teihsá: kowtsí:n, xiwtsí:n,
 # text[a97] = onkak o:me taman, onkak <i>hasta</i> e:yi taman, pero a:mo nochi tikihi:xmatih.
-# audio : Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j:a96
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j:a96
 # labels = a96 a97 sentence
 1	Tikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
 2	cada	cada	DET	_	_	3	det	_	_
@@ -269,8 +269,8 @@
 # sent_id = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j_ed-2018-11-25_Trad-ADA_FORM.eaf:a105
 # text = Pos kemah se ki..., se kiita ya que nochi iwki sah.
 # text[orig] = Pos ke:mah se: ki..., se: kiita ya <i>que</i> nochi iwki sah.
-# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j:a105
 # text[spa] = Pues sí... uno lo ve que todos son iguales.
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j:a105
 # labels = a105 sentence
 1	Pos	pos	ADV	_	_	7	advmod	_	_
 2	kemah	kemaj	INTJ	_	_	7	discourse	_	_
@@ -306,6 +306,7 @@
 # text = Neh nimonotsa niMaria Salazar Osollo, niwitsa de San Miguel.
 # text[orig] = Neh nimono:tsa niMaría Salazar Osollo, niwi:tsa de San Miguel.
 # text[spa] = Yo me llamo María Salazar Osollo, vengo de San Miguel.
+# audio = Chilc_Botan_RMM302-MSO325_mowih-Acanthaceae_2011-07-27-j:a114
 # labels = a114 sentence
 1	Neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	2	nsubj	_	_
 2	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -327,6 +328,7 @@
 # text[a5] = tsons..., seki kiliah tsonsasal, neh nikilia tsonsasal, a:mo n'mati teh ke:ní:w t'to:ka:ytia ox,
 # text[a6] = no: miak taman onkak wa:n,
 # text[a7] = ox kwali se: kikwi, ka:ni mochi:wa.
+# audio = Chilc_Botan_RMM302_tsonsasa-Tiliaceae_2011-07-14-d:a4
 # labels = a4 a5 a6 a7 sentence
 1	Aman	aman	ADV	_	_	3	advmod	_	_
 2	Ruben	Rubén	PROPN	_	Gender=Masc	3	vocative	_	_
@@ -1283,7 +1285,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
 # text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
-# labels = complete check-adverb
+# labels = complete check:adverb
 1	Miyakej	miak	DET	_	Number=Plur	2	det	_	_
 2	sitalimej	sitalin	NOUN	_	Number=Plur	8	nsubj	_	_
 3	teyin	tein	PRON	_	_	4	obj	_	_
