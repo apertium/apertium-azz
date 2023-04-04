@@ -165,6 +165,7 @@ LEXICON Root
                                                    Interyecciones ;
                                                    Digitos ; 
                                                    Irregulares ; 
+                                                   !Guesser ; 
                                                    Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -179,12 +180,12 @@ LEXICON Predicados
 
 LEXICON Prefijos
 
-%<yek%>:%{y%}ek%>                                  Adjetivos ;
+%<yek%>:%{y%}ek%>                                  Adjetivos ; ! Mucho
 %<tel%>:tel%>                                      Adjetivos ;
 %<pan%>:pa%>                                       Adjetivos ;
-%<pan%>:pa%{N%}%>                                  Adjetivos ;
-%<sen%>:se%{N%}%>                                  Adjetivos ;
-%<nal%>:nal%>                                      Adjetivos ;
+%<pan%>:pa%{N%}%>                                  Adjetivos ; 
+%<sen%>:se%{N%}%>                                  Adjetivos ; ! Juntos
+%<nal%>:nal%>                                      Adjetivos ; ! Towards
                                                    Adjetivos ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1187,6 +1188,13 @@ ilpilia:%{i%}lpili                                    V-SIO-PRET ; ! ""
 ilpilia:%{i%}lpili                                    V-SIO-FUTR ; ! ""
 
 
+! "enviar"
+titanilia:titanilia                                   V-SIO-PRES ;
+titanilia:titanilia                                   V-SIO-IMPF ;
+titanilia:titanili                                   V-SIO-PROG ;
+titanilia:titanili                                   V-SIO-PRET ;
+titanilia:titanili                                   V-SIO-FUTR ;
+
 ! "limpiar"
 chipahuia:chipahuia                                   V-SIO-PRES ;
 chipahuia:chipahuia                                   V-SIO-IMPF ;
@@ -1467,6 +1475,13 @@ pajtia:pajtia                                       V-SO-IMPF ;
 pajtia:pajti                                        V-SO-PROG ;
 pajtia:pajti                                        V-SO-PRET ;
 pajtia:pajti                                        V-SO-FUTR ;
+
+! ""
+tanehui:tanehui                                     V-SO-PRES ;
+tanehui:tanehui                                     V-SO-IMPF ;
+tanehui:tanehui                                     V-SO-PROG ;
+tanehui:tanehui                                     V-SO-PRET ;
+tanehui:tanehui                                     V-SO-FUTR ;
 
 ! ""
 kuiti:kuiti                                         V-SO-PRES ;
@@ -2063,12 +2078,12 @@ temohua:temohua                                     V-SO-PROG ;
 temohua:temo                                        V-SO-PRET ;
 temohua:temo                                        V-SO-FUTR ;
 
-! "vender"
+! "vender, comprar"
 kohua:kohua                                         V-SO-PRES ;
 kohua:kohua                                         V-SO-IMPF ;
 kohua:kohua                                         V-SO-PROG ;
-kohua:ko                                            V-SO-PRET ;
-kohua:ko                                            V-SO-FUTR ;
+kohua:kohua                                         V-SO-PRET ;
+kohua:kohua                                         V-SO-FUTR ;
 
 ! "sacudir"
 tsetselohua:tsetselohua                             V-SO-PRES ;
@@ -2768,6 +2783,14 @@ cuidarohua:cuidarohua                                 V-SO-IMPF ; ! ""
 cuidarohua:cuidaro                                    V-SO-PROG ; ! ""
 cuidarohua:cuidaro                                    V-SO-PRET ; ! ""
 cuidarohua:cuidaro                                    V-SO-FUTR ; ! ""
+
+! "escuchar"
+kaki:kaki                                             V-SO-PRES ;
+kaki:kaki                                             V-SO-IMPF ;
+kaki:kaki                                             V-SO-PROG ;
+kaki:kaki                                             V-SO-PRET ;
+kaki:kaki                                             V-SO-FUTR ;
+
 
 
 
@@ -4956,6 +4979,10 @@ LEXICON Yohui
 %<s_sg3%>yohui%<v%>%<iv%>%<fut%>:ya%>s             # ;
 %<s_pl3%>yohui%<v%>%<iv%>%<fut%>:ya%>s%>kej        # ;
 
+%<s_sg1%>yohui%<v%>%<iv%>%<impf%>:ni%>yo%>ya       # ;
+%<s_sg2%>yohui%<v%>%<iv%>%<impf%>:ti%>yo%>ya       # ;
+%<s_sg3%>yohui%<v%>%<iv%>%<impf%>:yo%>ya           # ;
+
 LEXICON Huitsa
 
 %<s_sg1%>huitsa%<v%>%<iv%>%<pres%>:ni%>huitsa      # ;
@@ -4984,6 +5011,7 @@ in%<det%>%+%<px3sg%>:n%>i%>                        Sustantivos ;
 in%<det%>%+%<px3pl%>:n%>in%>                       Sustantivos ;
 
 de%<pr%>%+el%<det%>%<def%>:de%>l                   # ;
+de%<pr%>%+in%<det%>:de%>n                          # ;
 
 ! FIXME: Comprobar
 yehua%<prn%>%<pers%>%<sg3%>%<short%>%+nin%<prn%>:yoni # ;  
@@ -5452,7 +5480,7 @@ tokay:tokay                                         N-Ø ; ! "nombre" ! Use/Inco
 pajti:paj                                           N-TLI ; ! "medicina"
 pajti:pa                                            N-TLI ; ! "medicina"
 masehualpajti:masehual%>pajti                       N-Ø ; ! "medicina tradicional"
-tilmaj:tilmaj                                       N-Ø ; ! ""
+tilmaj:tilma%{j%}                                   N-Ø ; ! "ropa"
 popelinatilmaj:popelina%>tilmaj                     N-Ø ; ! ""
 pili:pili                                           N-Ø ; ! "niño"
 pili:pil                                            N-LI ; ! "niño"
@@ -6552,6 +6580,7 @@ año:año                                             N-SPA-PESO ; ! ""
 baño:baño                                           N-SPA-PESO ; ! ""
 caño:caño                                           N-SPA-PESO ; ! ""
 tamaño:tamaño                                       N-SPA-PESO ; ! ""
+presupuesto:presupuesto                             N-SPA-PESO ; ! ""
 dueño:dueño                                         N-SPA-PESO ; ! ""
 retoño:retoño                                       N-SPA-PESO ; ! ""
 campo:campo                                         N-SPA-PESO ; ! ""
@@ -7128,6 +7157,7 @@ keyej:keyej                                         ADV-ITG ; ! "por qué"
 keyej:keyéj                                         ADV-ITG ; ! "por qué"
 
 kani:kani                                           ADV-ITG ; ! "dónde"
+kani:kan                                            ADV-ITG ; ! "dónde"
 kanachpa:kanachpa                                   ADV-ITG ; ! "cuántas veces"
 
 kualkan:kualkan                                     ADV ; ! "temprano"
@@ -7235,6 +7265,7 @@ sepa:sepa                                           ADV ; ! "otro vez"
 yek:yek                                             ADV ; ! "muy"
 tel:tel                                             ADV ; ! "muy"
 
+
 senka:senka                                         ADV ; ! "en exceso"
 
 iuki:iu%{j%}ki                                      ADV ; ! "así"
@@ -7245,6 +7276,7 @@ sayoj:sayoj                                         ADV ; ! "sólo"
 
 ajko:ajko                                           ADV ; ! "arriba"
 
+ekin:%{y%}ekin                                      ADV ; ! "apenas"
 ekintsin:%{y%}ekintsin                              ADV ; ! "ahora"
 ekintsin:kintsin                                    ADV ; ! "ahora"
 aman:aman                                           ADV ; ! "ahora"
@@ -7430,6 +7462,7 @@ eee:eee                                             INTERJ ; ! ""
 ee:ee                                               INTERJ ; ! ""
 eej:eej                                             INTERJ ; ! ""
 eje:eje                                             INTERJ ; ! ""
+haaaa:haaaa                                         INTERJ ; ! ""
 ay:ay                                               INTERJ ; ! ""
 aja:aja                                             INTERJ ; ! ""
 aj:aj                                               INTERJ ; ! ""
@@ -7458,6 +7491,44 @@ LEXICON Digitos
 
 <[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
 <[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ [ %, | %. ] [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
+
+!LEXICON NP-UNK 
+!
+!%<np%>%<unk%>: # ;
+!
+!LEXICON GUESS-QUEUE
+!
+!<(a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z)+> NP-UNK ;
+!
+!LEXICON Guesser
+!
+!A:A GUESS-QUEUE ;
+!B:B GUESS-QUEUE ;
+!C:C GUESS-QUEUE ;
+!D:D GUESS-QUEUE ;
+!E:E GUESS-QUEUE ;
+!F:F GUESS-QUEUE ;
+!G:G GUESS-QUEUE ;
+!H:H GUESS-QUEUE ;
+!I:I GUESS-QUEUE ;
+!J:J GUESS-QUEUE ;
+!K:K GUESS-QUEUE ;
+!L:L GUESS-QUEUE ;
+!M:M GUESS-QUEUE ;
+!N:N GUESS-QUEUE ;
+!O:O GUESS-QUEUE ;
+!P:P GUESS-QUEUE ;
+!Q:Q GUESS-QUEUE ;
+!R:R GUESS-QUEUE ;
+!S:S GUESS-QUEUE ;
+!T:T GUESS-QUEUE ;
+!U:U GUESS-QUEUE ;
+!V:V GUESS-QUEUE ;
+!W:W GUESS-QUEUE ;
+!X:X GUESS-QUEUE ;
+!Y:Y GUESS-QUEUE ;
+!Z:Z GUESS-QUEUE ;
+!
 
 LEXICON Punctuación
 

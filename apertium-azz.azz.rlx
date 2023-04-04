@@ -1,0 +1,112 @@
+DELIMITERS = "." "¶" ".." "?" "!" ;
+
+LIST BOS = >>> ;
+LIST EOS = <<< ; 
+
+LIST N = n ;
+LIST Prop = np ;
+LIST X = x ;
+LIST V = v ;
+LIST A = adj ;
+LIST Adv = adv ;
+LIST Interj = ij ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Det = det ;
+LIST Aux = vaux ;
+
+LIST Unk = unk ;
+
+LIST Pl = pl ;
+
+LIST SSg1 = s_sg1 ;
+LIST SSg2 = s_sg2 ;
+LIST SSg3 = s_sg3 ;
+LIST SPl1 = s_pl1 ;
+LIST SPl2 = s_pl2 ;
+LIST SPl3 = s_pl3 ;
+
+LIST Relat = (n rel) ;
+
+LIST Ant = ant ;
+LIST Cog = cog ;
+
+LIST In = "in" ;
+LIST Por = "por" ;
+
+LIST San = "San" ;
+
+LIST MaybePl = "<.*[hj]>"r ;
+LIST MaybeReparandum = "<[A-Za-z]+\\.\\.\\.>"r ;
+
+SET PossibleRoot = N | Interj | V | A | Adv ;
+
+LIST Cm = cm ;
+LIST Sent = sent ;
+LIST Quot = quot ;
+
+LIST @discourse = @discourse ;
+LIST @punct = @punct ;
+LIST @cc = @cc ;
+LIST @flat = @flat ;
+LIST @reparandum = @reparandum ;
+LIST @root = @root ; 
+LIST @det = @det ;
+LIST @mark = @mark ;
+LIST @nmod = @nmod ;
+LIST @obl = @obl ;
+LIST @fixed = @fixed ;
+LIST @aux = @aux ;
+
+SET PUNCT = Cm | Sent | Quot ;
+
+SET NOMINAL = Prop | N ; 
+
+SET SS = SSg1 | SSg2 | SSg3 | SPl1 | SPl2 | SPl3 ;
+
+SECTION
+
+REMOVE SS IF (0C NOMINAL) (-1C* SS) ;
+
+REMOVE SS IF (0C NOMINAL) (1C* SS) ;
+
+REMOVE SS IF (-1C Ant) (0C Cog) ;
+
+SELECT San IF (1 Ant) ;
+
+SECTION
+
+REMOVE SPl3 (NEGATE -1* Pl) (NEGATE 1* Pl) (NOT 0 MaybePl) ;
+
+REMOVE X ;
+
+REMOVE Unk ; 
+
+
+SECTION 
+
+MAP @root TARGET Interj IF (-1 BOS) (1 EOS OR Sent) ;
+
+MAP @punct TARGET PUNCT;
+
+MAP @discourse TARGET Interj ;
+
+MAP @cc TARGET CC ;
+
+MAP @det TARGET Det IF (0C Det) ;
+
+MAP @flat TARGET Cog IF (-1C Ant OR Cog) ;
+
+MAP @flat TARGET Ant IF (-1C San) ;
+
+MAP @reparandum TARGET MaybeReparandum ;
+
+MAP @mark TARGET CS ;
+
+MAP @nmod TARGET N - Relat IF (0/* Relat) ;
+
+MAP @fixed TARGET In IF (-1C Por) ;
+
+MAP @mark TARGET Por IF (1C In) ;
+
+MAP @aux TARGET Aux ; 
