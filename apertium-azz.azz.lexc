@@ -115,6 +115,15 @@ Multichar_Symbols
 %<pan%>                      !
 %<tel%>                      !
 
+%<cnt%>                      !
+%<def%>                      !
+%<loc%>                      !
+%<quot%>                     !
+%<redup%>                    !
+%<s_ind%>                    !
+%<unk%>                      !
+
+
 %{y%}                        !
 %{j%}                        !
 %{w%}                        !
