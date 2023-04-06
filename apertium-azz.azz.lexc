@@ -1383,6 +1383,14 @@ teki:teki                                           V-SO-PROG ;
 teki:teki                                           V-SO-PRET ;
 teki:teki                                           V-SO-FUTR ;
 
+! "amar"
+tasojta:taso%{j%}ta                                 V-SO-PRES ;
+tasojta:taso%{j%}ta                                 V-SO-IMPF ;
+tasojta:taso%{j%}ta                                 V-SO-PROG ;
+tasojta:taso%{j%}ta                                 V-SO-PRET ;
+tasojta:taso%{j%}ta                                 V-SO-FUTR ;
+
+
 ! "sembrar"
 toka:toka                                           V-SO-PRES ;
 toka:toka                                           V-SO-IMPF ;
@@ -5887,7 +5895,8 @@ huajkal:huajkal                                     N-Ø ; ! "huacal"
 nepantaj:nepantaj                                   N-Ø ; ! "mediodia"
 xal:xal                                             N-Ø ; ! "arena"
 tataxis:tataxis                                     N-Ø ; ! "tos"
-tasojti:tasoj                                       N-TLI ; ! "escasear"
+tasojti:tasoj                                       N-TLI ; ! ""
+tasojtalis:tasojtalis                               N-Ø ; ! ""
 pesma:pesma                                         N-Ø ; ! "helecho"
 mimiltik:mimiltik                                   N-Ø ; ! "cilíndrico"
 koukamoj:koukamoj                                   N-Ø ; ! "yuca"
