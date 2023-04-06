@@ -1029,6 +1029,14 @@ tasojkamatilia:tasojkamatili                       V-SIO-PRET ;
 tasojkamatilia:tasojkamatili                       V-SIO-FUTR ; 
 
 ! ""
+tasojtilia:tasojtilia                      V-SIO-PRES ; 
+tasojtilia:tasojtilia                      V-SIO-IMPF ;
+tasojtilia:tasojtili                       V-SIO-PROG ;
+tasojtilia:tasojtili                       V-SIO-PRET ; 
+tasojtilia:tasojtili                       V-SIO-FUTR ; 
+
+
+! ""
 tamotilia:tamotilia                                V-SIO-PRES ;
 tamotilia:tamotilia                                V-SIO-IMPF ;
 tamotilia:tamotilia                                V-SIO-PROG ;
@@ -6912,6 +6920,8 @@ huejueyin:hue%{j%}ueyin                             ADJ ; ! "grande"
 miak:miak                                           ADJ ; ! "mucho"
 tsiki:tsiki                                         ADJ ; ! "pequeño"
 tsikili:tsikili                                     ADJ ; ! "pequeño"
+azultik:azultik                                     ADJ ; ! "azul"
+ajazultik:a%{j%}azultik                             ADJ-REDUP ; ! "azul"
 pisiltik:pisiltik                                   ADJ ; ! "chiquito"
 selik:selik                                         ADJ ; ! "tierno"
 sejselik:se%{j%}selik                               ADJ-REDUP ; ! "tierno"
