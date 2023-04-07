@@ -1105,11 +1105,11 @@ temolia:temolia                                     V-SIO-PRET ;
 temolia:temoli                                      V-SIO-FUTR ;
 
 ! "decirle"
-ilhuia:ilhuia                                       V-SIO-PRES ;
-ilhuia:ilhuia                                       V-SIO-IMPF ;
-ilhuia:ilhuia                                       V-SIO-PROG ;
-ilhuia:ilhui                                        V-SIO-PRET ;
-ilhuia:ilhui                                        V-SIO-FUTR ;
+iluia:iluia                                       V-SIO-PRES ;
+iluia:iluia                                       V-SIO-IMPF ;
+iluia:iluia                                       V-SIO-PROG ;
+iluia:ilui                                        V-SIO-PRET ;
+iluia:ilui                                        V-SIO-FUTR ;
 
 ! ""
 kixtilia:kixtili%{y%}a                              V-SIO-PRES ;
@@ -3113,11 +3113,11 @@ itsmolini:itsmolini                                 V-S-PRET ;
 itsmolini:itsmolini                                 V-S-FUTR ;
 
 ! "nacer"
-ixhua:ixhua                                         V-S-PRES ;
-ixhua:ixhua                                         V-S-IMPF ;
-ixhua:ixhua                                         V-S-PROG ;
-ixhua:ixhua                                         V-S-PRET ;
-ixhua:ixhua                                         V-S-FUTR ;
+ixua:ixua                                         V-S-PRES ;
+ixua:ixua                                         V-S-IMPF ;
+ixua:ixua                                         V-S-PROG ;
+ixua:ixua                                         V-S-PRET ;
+ixua:ixua                                         V-S-FUTR ;
 
 ! "dejar de existir"
 ixpolihui:%{i%}xpolihui                             V-S-PRES ;
@@ -5177,10 +5177,10 @@ ait%<mod%>:ait                                     # ; ! "quien sabe?"
 
 %<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilia%<v%>%<tv%>%<pres%>:%'nech%>ili # ;
 %<imp%>%<s_sg2%>%<i_pl1%>%<o_sg3%>ilia%<v%>%<tv%>%<pres%>:x%>tech%>ili # ;
-%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:%'nech%>ilhui # ;
-%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:nech%>ilhui # ;
-%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:x%{i%}%>nech%>ilhui # ;
-%<imp%>%<s_sg2%>%<i_pl1%>%<o_sg3%>ilhuia%<v%>%<tv%>%<pres%>:x%{i%}%>tech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>iluia%<v%>%<tv%>%<pres%>:%'nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>iluia%<v%>%<tv%>%<pres%>:nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_sg1%>%<o_sg3%>iluia%<v%>%<tv%>%<pres%>:x%{i%}%>nech%>ilhui # ;
+%<imp%>%<s_sg2%>%<i_pl1%>%<o_sg3%>iluia%<v%>%<tv%>%<pres%>:x%{i%}%>tech%>ilhui # ;
 
 ! Se kiteki, nen, nochi ka n' xoxowik se kiteki.
 %<px3sg%>ka%<n%>%<rel%>:ka                         # ;
@@ -5785,8 +5785,8 @@ axokoxihuit:axoko%>xi                               N-HUITL ; ! ""
 chichikxihuit:chichik%>xi                           N-HUITL ; ! ""
 huakojxihuit:huakoj%>xi                             N-HUITL ; ! ""
 huitsikixihuit:huitsiki%>xi                         N-HUITL ; ! ""
-kabayojkhuitaxihuit:kabayojkhuita%>xi               N-HUITL ; ! ""
-khuakhualaxihuit:khuakhuala%>xi                     N-HUITL ; ! ""
+kabayojkuitaxihuit:kabayojkuita%>xi               N-HUITL ; ! ""
+kuakualaxihuit:kuakuala%>xi                     N-HUITL ; ! ""
 kohuapajxihuit:kohuapaj%>xi                         N-HUITL ; ! ""
 kohuatapitsxihuit:kohuatapits%>xi                   N-HUITL ; ! ""
 kouxihuit:kou%>xi                                   N-HUITL ; ! ""
@@ -5794,7 +5794,7 @@ mohuijxihuit:mohuij%>xi                             N-HUITL ; ! ""
 pitsoaxihuit:pitsoa%>xi                             N-HUITL ; ! ""
 polihuinixihuit:polihuini%>xi                       N-HUITL ; ! ""
 tanechikolxihuit:tanechikol%>xi                     N-HUITL ; ! ""
-tanokhuilpajxihuit:tanokhuilpaj%>xi                 N-HUITL ; ! ""
+tanokuilpajxihuit:tanokuilpaj%>xi                 N-HUITL ; ! ""
 tenayopajxihuit:tenayopaj%>xi                       N-HUITL ; ! ""
 topitsxihuit:topits%>xi                             N-HUITL ; ! ""
 tsopelikxihuit:tsopelik%>xi                         N-HUITL ; ! ""
@@ -5802,15 +5802,15 @@ tsotsokapajxihuit:tsotsokapaj%>xi                   N-HUITL ; ! ""
 yolpolihukaxihuit:yolpolihuka%>xi                   N-HUITL ; ! ""
 
 oloxochit:olo%>xochi                                N-TL ; ! ""
-tanokhuilpajxochit:tanokhuilpaj%>xochi              N-TL ; ! ""
-tenkhuakhualaxochit:tenkhuakhuala%>xochi            N-TL ; ! ""
+tanokuilpajxochit:tanokuilpaj%>xochi              N-TL ; ! ""
+tenkuakualaxochit:tenkuakuala%>xochi            N-TL ; ! ""
 kakaloxochit:kakalo%>xochi                          N-TL ; ! ""
 xiloxochit:xilo%>xochi                              N-TL ; ! ""
-atenkhuakhualaxochit:atenkhuakhuala%>xochi          N-TL ; ! ""
+atenkuakualaxochit:atenkuakuala%>xochi          N-TL ; ! ""
 istakxochit:istak%>xochi                            N-TL ; ! ""
 xelajxochit:xelaj%>xochi                            N-TL ; ! ""
 tejtsonkilxochit:tejtsonkil%>xochi                  N-TL ; ! ""
-tajkhuilolxochit:tajkhuilol%>xochi                  N-TL ; ! ""
+tajkuilolxochit:tajkuilol%>xochi                  N-TL ; ! ""
 
 piokuitakohuit:pio%>kuita%>ko                       N-HUITL ; ! ""
 ayakachkohuit:ayakach%>ko                           N-HUITL ; ! ""
