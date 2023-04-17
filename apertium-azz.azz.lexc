@@ -753,6 +753,7 @@ LEXICON N-SPA-FUSIÓN
 LEXICON CMPND 
 
 :                                                  Locativos ;
+:%>t%{i%}                                          Locativos ;
 
 LEXICON N-POSS
 
@@ -5399,6 +5400,7 @@ tampa:tampa                                        N-LOC ;
 ixko:ixko                                          N-LOC ;
 ijtik:i%{j%}tik                                    N-LOC ;
 ixpan:ixpan                                        N-LOC ; ! ""
+ikpak:ikpak                                        N-LOC ; ! ""
 ikan:ikan                                          N-LOC ; ! ""
 kechko:kechko                                      N-LOC ; ! ""
 kechtan:kechtan                                    N-LOC ; ! ""
