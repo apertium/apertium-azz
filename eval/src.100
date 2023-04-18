@@ -24,12 +24,12 @@ _	26	^xochiowa/<s_sg3>xochiohua<v><iv><pres>$
 	51	^in/in<det>$
 	53	^mahmakwil/majmakuil<num><redup>$
 	54	^tikxelowa/<s_sg2><o_sg3>xelohua<v><tv><pres>$
-	55	^tikpias/<s_sg2><o_sg3>piya<v><tv><fut>$
+_	55	^tikpias/<s_sg2><o_sg3>piya<v><tv><fut>$
 	61	^tinechilia/<s_sg2><o_sg1>ilia<v><tv><pres>$
 	63	^nikwalkwia/<s_sg1><o_sg3>hualkui<v><tv><impf>/<s_sg1><o_sg3><hual>kui<v><tv><impf>$
 	64	^walewaya/<s_sg3><hual>ehua<v><iv><impf>$
 	65	^pexontoc/pexontok<adj>/<s_sg3>pexontok<adj>$
-	68	^mejor/mejor<adj><mf><sg>/<s_pl3>mejor<adj><mf><sg>/<s_sg3>mejor<adj><mf><sg>$
+_	68	^mejor/mejor<adj><mf><sg>/<s_pl3>mejor<adj><mf><sg>/<s_sg3>mejor<adj><mf><sg>$
 	71	^Tema/<px3aa>mait<n>$
 	73	^Miercoles/miércoles<n><m><pl>/miércoles<n><m><sg>/<s_pl3>miércoles<n><m><pl>/<s_pl3>miércoles<n><m><sg>/<s_sg3>miércoles<n><m><pl>/<s_sg3>miércoles<n><m><sg>$
 	76	^nikpitsa/<s_sg1><o_sg3>pitsa<v><tv><pres>$
@@ -46,7 +46,7 @@ _	26	^xochiowa/<s_sg3>xochiohua<v><iv><pres>$
 	96	^nechilwiaya/<s_sg3><i_sg1><o_sg3>iluia<v><tv><impf>$
 	99	^motokotso/<s_sg3><o_ref>tokotsohua<v><tv><pret>$
 	100	^Tomauak/tomahuak<adj>/<s_sg3>tomahuak<adj>$
-	101	^Arturo/Arturo<np><ant><m>/<s_pl3>Arturo<np><ant><m>/<s_sg3>Arturo<np><ant><m>$
+_	101	^Arturo/Arturo<np><ant><m>/<s_pl3>Arturo<np><ant><m>/<s_sg3>Arturo<np><ant><m>$
 	102	^wakia/<s_sg3>huaki<v><iv><impf>$
 	104	^tapahtiah/<s_pl3><o_nn>pajtia<v><tv><pres>$
 	110	'^Taiti/<s_sg3>tai<v><iv><and>$
@@ -69,14 +69,14 @@ _	26	^xochiowa/<s_sg3>xochiohua<v><iv><pres>$
 	153	^kisaya/<s_sg3>kisa<v><iv><impf>$
 	156	^sintsin/sinti<n><hon>/<s_pl3>sinti<n><hon>/<s_sg3>sinti<n><hon>$
 	157	^mosenmoyawa/<s_sg3><o_ref><sen>moyahua<v><tv><pres>$
-	159	^microscopio/microscópio<n><m><sg>/<s_pl3>microscópio<n><m><sg>/<s_sg3>microscópio<n><m><sg>$
+_	159	^microscopio/microscópio<n><m><sg>/<s_pl3>microscópio<n><m><sg>/<s_sg3>microscópio<n><m><sg>$
 	161	^nikixtia/<s_sg1><o_sg3>kixtia<v><tv><pres>$
 	162	^notaxkaltsin/<px1sg>taxkal<n><hon>$
 	165	^telmawehwei/<tel>mahuejuei<adj>$
-	169	^xo.../xo<x>$
+_	169	^xo.../xo<x>$
 	173	^tiktehtekiah/<s_pl1><o_sg3>tejteki<v><tv><impf>$
 	175	^mosowa/<s_sg3><o_ref>sohua<v><tv><pres>$
-	178	^Ernsto/Ernesto<np><ant><m>/<s_pl3>Ernesto<np><ant><m>/<s_sg3>Ernesto<np><ant><m>$
+_	178	^Ernsto/Ernesto<np><ant><m>/<s_pl3>Ernesto<np><ant><m>/<s_sg3>Ernesto<np><ant><m>$
 	180	^kiahsis/<s_sg3><o_sg3>ajsi<v><tv><fut>$
 	186	^malas/malo<adj><f><pl>/<s_pl3>malo<adj><f><pl>/<s_sg3>malo<adj><f><pl>$
 	187	^tikihtoskeh/<s_pl1><o_sg3>ijtohua<v><tv><fut>$
@@ -86,7 +86,7 @@ _	26	^xochiowa/<s_sg3>xochiohua<v><iv><pres>$
 	196	^ayakachmeh/ayakach<n><pl>/<s_pl3>ayakach<n><pl>/<s_sg3>ayakach<n><pl>$
 	197	^timotamakah/<s_pl1><i_ref>tamaka<v><tv><pres>/<s_pl1><i_ref><o_nn>maka<v><tv><pres>/<s_sg2><i_ref>tamaka<v><tv><pret>/<s_sg2><i_ref><o_nn>maka<v><tv><pret>$
 	198	^kitekiti/<s_sg3><o_sg3>tekiti<v><tv><pres>/<s_sg3><o_sg3>teki<v><tv><and>$
-	200	^X/X<x>/x<x>$
+_	200	^X/X<x>/x<x>$
 	203	^yekonkak/<s_sg3><yek>onka<v><iv><pret>$
 	204	^claro/claro<n><m><sg>/<s_pl3>claro<n><m><sg>/<s_sg3>claro<n><m><sg>$
 	205	^tiktekitih/<s_pl1><o_sg3>tekiti<v><tv><pres>/<s_pl1><o_sg3>teki<v><tv><and>/<s_sg2><o_sg3>tekiti<v><tv><pret>$
