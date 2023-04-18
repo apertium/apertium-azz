@@ -1,100 +1,102 @@
-j	1	^pohpopototik/*pohpopototik$
-	2	^nikyekoh/*nikyekoh$
-	3	^ohtenakas/*ohtenakas$
-v	4	^moezyotia/*moezyotia$
-	6	^quintacahuiliah/*quintacahuiliah$
-	8	^yan'/*yan'$
-	14	^nimotiotakwis/*nimotiotakwis$
-	15	^monahnal/*monahnal$
-j	16	^Tsitsikitsitsin/*Tsitsikitsitsin$
-	18	^kitokaitiayah/*kitokaitiayah$
-	19	^achí/*achí$
-	22	^kimetstexima/*kimetstexima$
-	23	^momemetspaka/*momemetspaka$
-	24	^tikwelilia/*tikwelilia$
-	28	^yakan/*yakan$
-	29	^nimahsito/*nimahsito$
-	30	^motamania/*motamania$
-	31	^mosenkitskia/*mosenkitskia$
-	33	^metstsonkamohatol/*metstsonkamohatol$
-	35	^nikawilita/*nikawilita$
-	37	^timocahuaz/*timocahuaz$
-	40	^tapitstinemih/*tapitstinemih$
-	44	^nikixtawakiw/*nikixtawakiw$
-	45	^okwilkwowit/*okwilkwowit$
-	46	^nepasihkwaltsin/*nepasihkwaltsin$
-	47	^moiyanayah/*moiyanayah$
-	50	^xiow/*xiow$
-	52	^xoyo/*xoyo$
-	56	^ximoixquepa/*ximoixquepa$
-	57	^tikitatoh/*tikitatoh$
-	58	^tikechtekiti/*tikechtekiti$
-	59	^Has/*Has$
-	60	^tikpal/*tikpal$
-	62	^Ixweweyak/*Ixweweyak$
-	66	^talabonoh/*talabonoh$
-	67	^difuntitohtsin/*difuntitohtsin$
-	69	^tikitowa/*tikitowa$
-	70	^tiktsoponia/*tiktsoponia$
-	72	^inxilot/*inxilot$
-	74	^tiktetentiayah/*tiktetentiayah$
-	75	^imikwemekayo/*imikwemekayo$
-	78	^mawiah/*mawiah$
-	79	^Tehtsonkil/*Tehtsonkil$
-	83	^chaparritos/*chaparritos$
-	87	^tap/*tap$
-	88	^Atepoliui/*Atepoliui$
-	89	^kowtahpaya/*kowtahpaya$
-	92	^timasewaltsits/*timasewaltsits$
-	93	^gastito/*gastito$
-	95	^kixokokmati/*kixokokmati$
-	97	^Kemahihkon/*Kemahihkon$
-	98	^moap/*moap$
-	103	^Telnalwayoh/*Telnalwayoh$
-	105	^tamixochiowa/*tamixochiowa$
-	106	^kichiwalti/*kichiwalti$
-	107	^niknentaliti/*niknentaliti$
-	108	^mihsotasneki/*mihsotasneki$
-	109	^kalikxiawat/*kalikxiawat$
-	111	^taktiw/*taktiw$
-	113	^wehweikiliti/*wehweikiliti$
-	115	^ixmat/*ixmat$
-	116	^exokuetax/*exokuetax$
-	118	^tacehui/*tacehui$
-	119	^chileancho/*chileancho$
-	121	^nike/*nike$
-	123	^xkwali/*xkwali$
-	124	^Zchi/*Zchi$
-	126	^tatakes/*tatakes$
-	127	^ehekatsoleh/*ehekatsoleh$
-	128	^tepalkat/*tepalkat$
-	129	^Atepoliwi/*Atepoliwi$
-	130	^kwailpiayah/*kwailpiayah$
-	132	^chaparrera/*chaparrera$
-	133	^tamokwilin/*tamokwilin$
-	135	^Alakcho/*Alakcho$
-	137	^ihkin/*ihkin$
-	140	^kimatililia/*kimatililia$
-	141	^TSOJPIKILIT/*TSOJPIKILIT$
-	144	^kintachihchiwiskeh/*kintachihchiwiskeh$
-	147	^kahkaltsintampa/*kahkaltsintampa$
-	148	^weweyah/*weweyah$
-	149	^timosewiti/*timosewiti$
-	151	^iomio/*iomio$
-	152	^mometskohkoyonis/*mometskohkoyonis$
-	154	^okmakowit/*okmakowit$
-	155	^t'titipitstoti/*t'titipitstoti$
-	158	^xikteka/*xikteka$
-	160	^kiohoya/*kiohoya$
-	163	^xalyoh/*xalyoh$
-	164	^T'pitsawkatehtekih/*T'pitsawkatehtekih$
-	166	^niktokayixmattok/*niktokayixmattok$
-	167	^analkopa/*analkopa$
-	168	^una/*una$
-	170	^koyotapalan/*koyotapalan$
-	171	^kinextilihkeh/*kinextilihkeh$
-	172	^kemasanochi/*kemasanochi$
-	174	^walmewah/*walmewah$
-	176	^tahs/*tahs$
-	177	^kimakohkotonkeh/*kimakohkotonkeh$
-	179	^mixpilowa/*mixpilowa$
+# j = adjective, v = verb, n = noun, d = determiner, x = not a word
+# m = morphotactics, o = orthography, c = compound, r = reduplication, d = codeswitch, s = spanish, t = tokenisation, l = lexicon
+j	lr	1	^pohpopototik/*pohpopototik$
+		2	^nikyekoh/*nikyekoh$
+		3	^ohtenakas/*ohtenakas$
+v		4	^moezyotia/*moezyotia$
+		6	^quintacahuiliah/*quintacahuiliah$
+x	t	8	^yan'/*yan'$
+		14	^nimotiotakwis/*nimotiotakwis$
+		15	^monahnal/*monahnal$
+j	lmr	16	^Tsitsikitsitsin/*Tsitsikitsitsin$
+		18	^kitokaitiayah/*kitokaitiayah$
+		19	^achí/*achí$
+		22	^kimetstexima/*kimetstexima$
+		23	^momemetspaka/*momemetspaka$
+		24	^tikwelilia/*tikwelilia$
+		28	^yakan/*yakan$
+v	m	29	^nimahsito/*nimahsito$
+		30	^motamania/*motamania$
+		31	^mosenkitskia/*mosenkitskia$
+		33	^metstsonkamohatol/*metstsonkamohatol$
+		35	^nikawilita/*nikawilita$
+v	o	37	^timocahuaz/*timocahuaz$
+		40	^tapitstinemih/*tapitstinemih$
+		44	^nikixtawakiw/*nikixtawakiw$
+n	c	45	^okwilkwowit/*okwilkwowit$
+		46	^nepasihkwaltsin/*nepasihkwaltsin$
+		47	^moiyanayah/*moiyanayah$
+		50	^xiow/*xiow$
+		52	^xoyo/*xoyo$
+v		56	^ximoixquepa/*ximoixquepa$
+		57	^tikitatoh/*tikitatoh$
+		58	^tikechtekiti/*tikechtekiti$
+x	t	59	^Has/*Has$
+x	t	60	^tikpal/*tikpal$
+		62	^Ixweweyak/*Ixweweyak$
+n	d	66	^talabonoh/*talabonoh$
+n	d	67	^difuntitohtsin/*difuntitohtsin$
+		69	^tikitowa/*tikitowa$
+		70	^tiktsoponia/*tiktsoponia$
+		72	^inxilot/*inxilot$
+		74	^tiktetentiayah/*tiktetentiayah$
+		75	^imikwemekayo/*imikwemekayo$
+		78	^mawiah/*mawiah$
+		79	^Tehtsonkil/*Tehtsonkil$
+j	s	83	^chaparritos/*chaparritos$
+x	t	87	^tap/*tap$
+		88	^Atepoliui/*Atepoliui$
+		89	^kowtahpaya/*kowtahpaya$
+		92	^timasewaltsits/*timasewaltsits$
+n	s	93	^gastito/*gastito$
+		95	^kixokokmati/*kixokokmati$
+		97	^Kemahihkon/*Kemahihkon$
+x	t	98	^moap/*moap$
+		103	^Telnalwayoh/*Telnalwayoh$
+		105	^tamixochiowa/*tamixochiowa$
+		106	^kichiwalti/*kichiwalti$
+		107	^niknentaliti/*niknentaliti$
+		108	^mihsotasneki/*mihsotasneki$
+		109	^kalikxiawat/*kalikxiawat$
+		111	^taktiw/*taktiw$
+		113	^wehweikiliti/*wehweikiliti$
+		115	^ixmat/*ixmat$
+		116	^exokuetax/*exokuetax$
+		118	^tacehui/*tacehui$
+		119	^chileancho/*chileancho$
+		121	^nike/*nike$
+		123	^xkwali/*xkwali$
+		124	^Zchi/*Zchi$
+		126	^tatakes/*tatakes$
+		127	^ehekatsoleh/*ehekatsoleh$
+		128	^tepalkat/*tepalkat$
+		129	^Atepoliwi/*Atepoliwi$
+		130	^kwailpiayah/*kwailpiayah$
+		132	^chaparrera/*chaparrera$
+		133	^tamokwilin/*tamokwilin$
+		135	^Alakcho/*Alakcho$
+		137	^ihkin/*ihkin$
+		140	^kimatililia/*kimatililia$
+n	c	141	^TSOJPIKILIT/*TSOJPIKILIT$
+		144	^kintachihchiwiskeh/*kintachihchiwiskeh$
+		147	^kahkaltsintampa/*kahkaltsintampa$
+		148	^weweyah/*weweyah$
+v		149	^timosewiti/*timosewiti$
+		151	^iomio/*iomio$
+v		152	^mometskohkoyonis/*mometskohkoyonis$
+n	c	154	^okmakowit/*okmakowit$
+		155	^t'titipitstoti/*t'titipitstoti$
+		158	^xikteka/*xikteka$
+		160	^kiohoya/*kiohoya$
+		163	^xalyoh/*xalyoh$
+		164	^T'pitsawkatehtekih/*T'pitsawkatehtekih$
+		166	^niktokayixmattok/*niktokayixmattok$
+		167	^analkopa/*analkopa$
+d	s	168	^una/*una$
+		170	^koyotapalan/*koyotapalan$
+		171	^kinextilihkeh/*kinextilihkeh$
+		172	^kemasanochi/*kemasanochi$
+		174	^walmewah/*walmewah$
+x	t	176	^tahs/*tahs$
+		177	^kimakohkotonkeh/*kimakohkotonkeh$
+		179	^mixpilowa/*mixpilowa$
