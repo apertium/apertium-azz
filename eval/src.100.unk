@@ -2,12 +2,12 @@
 # m = morphotactics, o = orthography, c = compound, r = reduplication, d = codeswitch, s = spanish, t = tokenisation, l = lexicon
 j	lr	1	^pohpopototik/*pohpopototik$
 v		3	^nikyekoh/*nikyekoh$
-		3	^ohtenakas/*ohtenakas$
+a	c	3	^ohtenakas/*ohtenakas$
 v		4	^moezyotia/*moezyotia$
 v		6	^quintacahuiliah/*quintacahuiliah$
 x	t	8	^yan'/*yan'$
 v		14	^nimotiotakwis/*nimotiotakwis$
-		15	^monahnal/*monahnal$
+v	l	15	^monahnal/*monahnal$
 j	lmr	16	^Tsitsikitsitsin/*Tsitsikitsitsin$
 v		18	^kitokaitiayah/*kitokaitiayah$
 l		19	^achí/*achí$
@@ -24,8 +24,8 @@ v	o	37	^timocahuaz/*timocahuaz$
 v		40	^tapitstinemih/*tapitstinemih$
 v	m	44	^nikixtawakiw/*nikixtawakiw$
 n	c	45	^okwilkwowit/*okwilkwowit$
-		46	^nepasihkwaltsin/*nepasihkwaltsin$
-		47	^moiyanayah/*moiyanayah$
+x	t	46	^nepasihkwaltsin/*nepasihkwaltsin$
+v		47	^moiyanayah/*moiyanayah$
 v		50	^xiow/*xiow$
 v	o	52	^xoyo/*xoyo$
 v		56	^ximoixquepa/*ximoixquepa$
@@ -40,63 +40,63 @@ v	l	69	^tikitowa/*tikitowa$
 v		70	^tiktsoponia/*tiktsoponia$
 n		72	^inxilot/*inxilot$
 v		74	^tiktetentiayah/*tiktetentiayah$
-		75	^imikwemekayo/*imikwemekayo$
-		78	^mawiah/*mawiah$
-		79	^Tehtsonkil/*Tehtsonkil$
+n		75	^imikwemekayo/*imikwemekayo$
+v	l	78	^mawiah/*mawiah$
+n	o	79	^Tehtsonkil/*Tehtsonkil$
 j	s	83	^chaparritos/*chaparritos$
 x	t	87	^tap/*tap$
 v		88	^Atepoliui/*Atepoliui$
 v		89	^kowtahpaya/*kowtahpaya$
-		92	^timasewaltsits/*timasewaltsits$
+x	t	92	^timasewaltsits/*timasewaltsits$
 n	s	93	^gastito/*gastito$
-		95	^kixokokmati/*kixokokmati$
+v	lc	95	^kixokokmati/*kixokokmati$
 x	t	97	^Kemahihkon/*Kemahihkon$
 x	t	98	^moap/*moap$
-		103	^Telnalwayoh/*Telnalwayoh$
-		105	^tamixochiowa/*tamixochiowa$
-		106	^kichiwalti/*kichiwalti$
-		107	^niknentaliti/*niknentaliti$
+v	l	103	^Telnalwayoh/*Telnalwayoh$
+v	cm	105	^tamixochiowa/*tamixochiowa$
+v		106	^kichiwalti/*kichiwalti$
+v		107	^niknentaliti/*niknentaliti$
 v	c	108	^mihsotasneki/*mihsotasneki$
-		109	^kalikxiawat/*kalikxiawat$
-		111	^taktiw/*taktiw$
-		113	^wehweikiliti/*wehweikiliti$
+n	c	109	^kalikxiawat/*kalikxiawat$
+v	l	111	^taktiw/*taktiw$
+n	oc	113	^wehweikiliti/*wehweikiliti$
 v	c	115	^ixmat/*ixmat$
-		116	^exokuetax/*exokuetax$
-		118	^tacehui/*tacehui$
+n	l	116	^exokuetax/*exokuetax$
+v	l	118	^tacehui/*tacehui$
 n	s	119	^chileancho/*chileancho$
-		121	^nike/*nike$
+x	o	121	^nike/*nike$
 x		123	^xkwali/*xkwali$
-x		124	^Zchi/*Zchi$
-		126	^tatakes/*tatakes$
-		127	^ehekatsoleh/*ehekatsoleh$
-		128	^tepalkat/*tepalkat$
-		129	^Atepoliwi/*Atepoliwi$
+x	t	124	^Zchi/*Zchi$
+v	o	126	^tatakes/*tatakes$
+n		127	^ehekatsoleh/*ehekatsoleh$
+v		128	^tepalkat/*tepalkat$
+v		129	^Atepoliwi/*Atepoliwi$
 v	c	130	^kwailpiayah/*kwailpiayah$
-		132	^chaparrera/*chaparrera$
-		133	^tamokwilin/*tamokwilin$
-		135	^Alakcho/*Alakcho$
-		137	^ihkin/*ihkin$
+n	s	132	^chaparrera/*chaparrera$
+n	o	133	^tamokwilin/*tamokwilin$
+n		135	^Alakcho/*Alakcho$
+a		137	^ihkin/*ihkin$
 v		140	^kimatililia/*kimatililia$
 n	c	141	^TSOJPIKILIT/*TSOJPIKILIT$
-		144	^kintachihchiwiskeh/*kintachihchiwiskeh$
-		147	^kahkaltsintampa/*kahkaltsintampa$
+v	l	144	^kintachihchiwiskeh/*kintachihchiwiskeh$
+a		147	^kahkaltsintampa/*kahkaltsintampa$
 j		148	^weweyah/*weweyah$
 v		149	^timosewiti/*timosewiti$
 n	o	151	^iomio/*iomio$
 v		152	^mometskohkoyonis/*mometskohkoyonis$
 n	c	154	^okmakowit/*okmakowit$
 v	o	155	^t'titipitstoti/*t'titipitstoti$
-		158	^xikteka/*xikteka$
-		160	^kiohoya/*kiohoya$
-		163	^xalyoh/*xalyoh$
+v		158	^xikteka/*xikteka$
+v	l	160	^kiohoya/*kiohoya$
+v		163	^xalyoh/*xalyoh$
 v	o	164	^T'pitsawkatehtekih/*T'pitsawkatehtekih$
 v	c	166	^niktokayixmattok/*niktokayixmattok$
-		167	^analkopa/*analkopa$
+n		167	^analkopa/*analkopa$
 d	s	168	^una/*una$
-		170	^koyotapalan/*koyotapalan$
+n	l	170	^koyotapalan/*koyotapalan$
 v		171	^kinextilihkeh/*kinextilihkeh$
 x	t	172	^kemasanochi/*kemasanochi$
 v		174	^walmewah/*walmewah$
 x	t	176	^tahs/*tahs$
-		177	^kimakohkotonkeh/*kimakohkotonkeh$
+v	c	177	^kimakohkotonkeh/*kimakohkotonkeh$
 v	c	179	^mixpilowa/*mixpilowa$
