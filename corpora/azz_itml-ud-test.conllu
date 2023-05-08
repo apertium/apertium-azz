@@ -139,7 +139,7 @@
 # text[spa] = El agua queda bien bonita, colorada, queda muy rojizo.
 # labels = a53 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
-2	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	dep	_	_
+2	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	xcomp	_	_
 3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 4	neli	neli	ADV	_	_	3	advmod	_	_
 5	n'	in	DET	_	_	6	det	_	_
@@ -147,7 +147,7 @@
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	yek...	yek	X	_	Incorporated=Yek	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	yektapalat	tapalat	ADJ	_	Incorporated=Yek	11	dep	_	_
+10	yektapalat	tapalat	ADJ	_	Incorporated=Yek	11	xcomp	_	_
 11	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	yekchichiltik	chijchiltik	ADJ	_	Incorporated=Yek	3	parataxis	_	SpaceAfter=No
@@ -446,8 +446,8 @@
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	semi	semi	ADV	_	_	3	advmod	_	_
 3	telwehkapan	huejkapan	ADJ	_	Incorporated=Tel|Number[subj]=Sing|Person[subj]=3	0	root	_	_
-4	mas	más	ADV	_	_	5	dep	_	_
-5	que	que	SCONJ	_	_	15	mark	_	_
+4	mas	más	ADV	_	_	15	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
 6	solamente	solamente	ADV	_	_	15	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	kemeh	kemej	ADP	_	_	13	reparandum	_	SpaceAfter=No
@@ -728,12 +728,12 @@
 7	nejin	nejin	PRON	_	_	11	nsubj	_	_
 8	teyin	tein	PRON	_	_	9	nsubj	_	_
 9	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	acl:relcl	_	_
-10	ololtik	ololtik	ADJ	_	_	9	dep	_	_
+10	ololtik	ololtik	ADJ	_	_	9	xcomp	_	_
 11	moskaltiya	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	5	parataxis	_	_
 14	tel	tel	ADV	_	Incorporated=Tel	15	advmod	_	_
-15	ueyi	huei	ADJ	_	_	13	dep	_	_
+15	ueyi	huei	ADJ	_	_	13	xcomp	_	_
 16	uan	huan	CCONJ	_	_	18	cc	_	_
 17	ijkon	ijkon	ADV	_	_	18	advmod	_	_
 18	moteltaliya	tali	VERB	_	Aspect=Imp|Incorporated=Tel|Number[subj]=Sing|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran	13	conj	_	_
@@ -823,7 +823,7 @@
 12	timotajtanijtoskiyaj	tajtania	VERB	_	Aspect=Prog|Mood=Cond|Number[subj]=Plur|Person[subj]=1|Reflexive[obj]=Yes|Subcat=Tran	10	advcl	_	_
 13	¿	¿	PUNCT	_	_	15	punct	_	SpaceAfter=No
 14	keniuj	keni	ADV	_	PronType=Int	15	advmod	_	_
-15	mochiujkej	chia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	dep	_	_
+15	mochiujkej	chiua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	parataxis	_	_
 16	ne	ne	DET	_	_	17	det	_	_
 17	sitalimej	sitalin	NOUN	_	Number=Plur	15	nsubj	_	SpaceAfter=No
 18	?	?	PUNCT	_	_	15	punct	_	_
@@ -1040,10 +1040,10 @@
 7	ueyichikuakameyot	ueyichikuakameyot	NOUN	_	Case=Abs	5	nmod	_	_
 8	radiación	radiación	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 9	electromagnética	electromagnética	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
 11	nejin	nejin	PRON	_	_	10	nmod	_	_
-12	peuak	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	_
-13	mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	12	dep	_	_
+12	peuak	pehua	AUX	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	13	aux	_	_
+13	mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	parataxis	_	_
 14	yankuik	yankuik	ADJ	_	_	15	amod	_	_
 15	teposmej	tepos	NOUN	_	Number=Plur	13	nsubj	_	_
 16	kemej	kemej	ADP	_	_	17	case	_	_
@@ -1056,10 +1056,10 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
 25	uan	huan	CCONJ	_	_	26	cc	_	_
-26	motamatsintokatok	*motamatsintokatok	X	_	_	17	dep	_	_
-27	kenuij	keni	ADV	_	PronType=Int	29	dep	_	_
+26	motamatsintokatok	*motamatsintokatok	VERB	_	_	17	conj	_	_
+27	kenuij	keni	ADV	_	PronType=Int	29	advmod	_	_
 28	kuali	kuali	ADV	_	_	29	advmod	_	_
-29	tapaleuis	palehuia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	26	dep	_	_
+29	tapaleuis	palehuia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	26	ccomp	_	_
 30	maj	ma	AUX	_	_	31	mark	_	_
 31	motokotso	tokotsohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	29	ccomp	_	_
 32	in	in	DET	_	_	33	det	_	_
