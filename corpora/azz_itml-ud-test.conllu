@@ -1174,7 +1174,7 @@
 15	tajuachuetsi	ajuachuetsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	7	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	23	punct	_	_
 17	nejin	nejin	DET	_	_	18	det	_	_
-18	chipauakat	chipahuakat	NOUN	_	Case=Abs	23	dep	_	_
+18	chipauakat	chipahuakat	NOUN	_	Case=Abs	23	dislocated	_	_
 19	teyin	tein	PRON	_	_	20	nsubj	_	_
 20	mosentiliya	sentilia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	18	acl:relcl	_	_
 21	uelis	hueli	AUX	_	Tense=Fut	23	aux	_	_
@@ -1194,20 +1194,20 @@
 6	uelis	hueli	AUX	_	Tense=Fut	7	aux	_	_
 7	sekichiuas	chihua	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Fut	3	conj	_	_
 8	kachi	kachi	ADV	_	_	9	advmod	_	_
-9	kuali	kuali	ADJ	_	_	7	dep	_	_
+9	kuali	kuali	ADJ	_	_	7	xcomp	_	_
 10	nejin	nejin	DET	_	_	11	det	_	_
 11	achipaualis	achipahualis	NOUN	_	Case=Abs	7	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	uan	huan	CCONJ	_	_	16	cc	_	_
 14	uelis	hueli	AUX	_	Tense=Fut	16	aux	_	_
 15	se	se	NUM	_	_	16	nsubj	_	_
-16	kiuikas	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	dep	_	SpaceAfter=No
+16	kiuikas	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 19	chipaujkayot	chipaujkayot	NOUN	_	Case=Abs	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	ne	ne	DET	_	_	22	det	_	_
-22	istajat	istajat	NOUN	_	Case=Abs	16	dep	_	_
+22	istajat	istajat	NOUN	_	Case=Abs	16	obj	_	_
 23	kanpa	kampa	ADV	_	PronType=Rel	25	advmod	_	_
 24	se	se	NUM	_	_	25	nsubj	_	_
 25	kichipauas	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	22	acl:relcl	_	SpaceAfter=No
@@ -1216,11 +1216,11 @@
 # sent_id = kiteixmatiltijtok-tamachilis:41
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
-# text[gloss] = Se quiere que uno se espera y así luego unos días, que puede uno ver,  _ máquinas que no _ ,  _ que tiene nuestra agua.
+# text[gloss] = Se quiere que uno se espere y así luego unos días, que puede uno ver,  _ máquinas que no _ ,  _ que tiene nuestra agua.
 # labels =
 1	Moneki	neki	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 2	maj	ma	AUX	_	_	3	aux	_	_
-3	semochiya	chia	VERB	_	Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	dep	_	_
+3	semochiya	chia	VERB	_	Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	csubj	_	_
 4	uan	huan	CCONJ	_	_	13	cc	_	_
 5	ijkon	ijkon	ADV	_	_	13	advmod	_	_
 6	satepan	satepan	ADV	_	_	13	advmod	_	_

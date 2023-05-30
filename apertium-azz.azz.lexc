@@ -3212,6 +3212,13 @@ mohueitalia:mohueitalia                             V-S-PROG ;
 mohueitalia:mohueitalia                             V-S-PRET ;
 mohueitalia:mohueitalia                             V-S-FUTR ;
 
+! "bailar"
+mihtotia:mihtotia                                   V-S-PRES ;
+mihtotia:mihtotia                                   V-S-IMPF ;
+mihtotia:mihtotia                                   V-S-PROG ;
+mihtotia:mihtotia                                   V-S-PRET ;
+mihtotia:mihtotia                                   V-S-FUTR ;
+
 ! "quedar"
 mokahua:mokahua                                     V-S-PRES ;
 mokahua:mokahua                                     V-S-IMPF ;
@@ -6210,7 +6217,7 @@ koutusan:koutusan                                   N-Ø ; ! "tuza"
 kuitaxkol:kuitaxkol                                 N-Ø ; ! "intestinos"
 maltomoj:maltomoj                                   N-Ø ; ! "mayordomo"
 maltomojyot:maltomojyo                              N-TL ; ! "mayordomía"
-mikesahuamej:mikesahuamej                           N-Ø ; ! "sarpullido"
+mikesahuamej:mikesahuamej                           N-Ø ; ! "sarpullido" ! this looks like a plural... or two words "mike sahuame"
 moto:moto                                           N-Ø ; ! "ardilla"
 naylon:naylon                                       N-Ø ; ! "nailon"
 pajpata:pajpata                                     N-Ø ; ! "plátano"
@@ -6228,7 +6235,7 @@ tatamachihualoni:tatamachihualoni                   N-Ø ; ! "báscula"
 tatsomotaloni:tatsomotaloni                         N-Ø ; ! "parte"
 teposmekat:teposmeka                                N-TL ; ! "teléfono"
 tepotadoj:tepotadoj                                 N-Ø ; ! "diputado"
-huitsikitsin:huitsikitsin                           N-Ø ; ! "colibrí"
+huitsikitsin:huitsikitsin                           N-Ø ; ! "colibrí" ! this is dim, should have huitsikitl
 xantoj:xantoj                                       N-Ø ; ! "santo"
 xapoj:xapoj                                         N-Ø ; ! "jabón"
 xipoj:xipoj                                         N-Ø ; ! ""

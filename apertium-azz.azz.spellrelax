@@ -18,11 +18,15 @@
  [ ?* [ ó -> o | ó ] ?* ]  .o.
  [ ?* [ ú -> u | ú ] ?* ]  .o.
  [ ?* [ a k -> a c | a k ] ?* ]  .o.
+ [ ?* [k i -> q u i | k i] ?*] .o.
  [ ?* [ e k -> e c | e k ] ?* ]  .o.
  [ ?* [ i k -> i c | i k ] ?* ]  .o.
  [ ?* [ o k -> o c | o k ] ?* ]  .o.
  [ ?* [ k u -> k w | k u ] ?* ]  .o.
  [ ?* [ h u -> u | h u ] ?* ]  .o.
+ [ ?* [s -> z] ?*] .o.
+ [ ?* [s e -> c e | s e] ?*] .o.
+ [ ?* [s i -> c i | s i] ?*] .o.
  [ ?* [ .#. m o p i a -> m %' p i a | m o p i a ] ?* ]  .o.
  [ ?* [ .#. t i k -> t %' | t i k ] ?* ]  
  [ ?* [ .#. n i k -> n %' | n i k ] ?* ]  
