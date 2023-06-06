@@ -26,6 +26,8 @@ LIST SPl1 = s_pl1 ;
 LIST SPl2 = s_pl2 ;
 LIST SPl3 = s_pl3 ;
 
+LIST ORefl = o_ref ;
+
 LIST Relat = (n rel) ;
 
 LIST Ant = ant ;
@@ -76,11 +78,14 @@ SELECT San IF (1 Ant) ;
 
 SECTION
 
-REMOVE SPl3 (NEGATE -1* Pl) (NEGATE 1* Pl) (NOT 0 MaybePl) ;
+REMOVE SSg3 IF (0 MaybePl) (0C ORefl) ;
+
+REMOVE SPl3 IF (NEGATE -1* Pl) (NEGATE 1* Pl) (NOT 0 MaybePl) ;
 
 REMOVE X ;
 
 REMOVE Unk ; 
+
 
 
 SECTION 
