@@ -1264,7 +1264,7 @@ ixmati:ixmati                                       V-SO-FUTR ;
 chihua:chihua                                       V-SO-PRES ;
 chihua:chihua                                       V-SO-IMPF ;
 chihua:chihu                                        V-SO-PROG ;
-chihua:chihua                                       V-SO-PRET ;
+chihua:chiuj                                        V-SO-PRET ;
 chihua:chihua                                       V-SO-FUTR ;
 
 ! "hacer"
@@ -5229,7 +5229,7 @@ takan:takan                                        CS ; ! "si"
 os:os                                              CS ; ! "si"
 
 ijkuak:i%{j%}kuak                                  CS ; ! "cuando"
-ijkuak:kuak                                        CS ; ! "cuando"
+ijkuak:kuak                                        CS ; ! "cuando" ! Dir/LR
 
 LEXICON Pronombres
 
@@ -5282,9 +5282,9 @@ lo:lo                                              PRON ;
 
 LEXICON Determinantes 
 
-in:in                                              DET ; ! "el"
-in:n                                               DET ; ! "el"
-in:n%'                                             DET ; ! "el"
+in:in                                              DET ; ! "el" 
+in:n                                               DET ; ! "el" ! Dir/LR
+in:n%'                                             DET ; ! "el" ! Dir/LR
 
 no:no                                              DET ; ! "este"
 ne:ne                                              DET ; ! "este"
@@ -7247,10 +7247,10 @@ senkaj:senkaj                                       ADV ; ! ""
 
 ayamo:ayamo                                         ADV ; ! ""
 
-ijkon:i%{j%}kon                                     ADV ; ! "así"
-ijkon:i%{j%}kón                                     ADV ; ! "así"
+ijkon:i%{j%}kon                                     ADV ; ! "así" 
+ijkon:i%{j%}kón                                     ADV ; ! "así" ! Dir/LR
 ijkokon:i%{j%}kokon                                 ADV ; ! "así"
-ijkon:jkon                                          ADV ; ! "así"
+ijkon:jkon                                          ADV ; ! "así" ! Dir/LR
 ijkoni:i%{j%}koni                                   ADV ; ! "así"
 ijkuin:i%{j%}kuin                                   ADV ; ! "así"
 ijkuin:%{j%}kuin                                    ADV ; ! "así"
@@ -7492,6 +7492,7 @@ nen:nen                                             INTERJ ; ! ""
 ej:ej                                               INTERJ ; ! ""
 eeee:eeee                                           INTERJ ; ! ""
 eee:eee                                             INTERJ ; ! ""
+aaa:aaa                                             INTERJ ; ! ""
 ee:ee                                               INTERJ ; ! ""
 eej:eej                                             INTERJ ; ! ""
 eje:eje                                             INTERJ ; ! ""
