@@ -5213,7 +5213,7 @@ mientras:mientras                                  CS ; ! "mientras"
 ke:ke                                              CS ; ! "que"
 keman:keman                                        CS ; ! "cuando"
 ijhuak:ijhuak                                      CS ; ! "cuando"
-
+ta:ta                                              CS ; ! "si"
 ! las siguientes palabras pueden ser contracciones
 ! como + así
 ! como + no
@@ -6923,9 +6923,9 @@ huelik:huelik                                       ADJ ; ! "bueno"
 huejhuelik:hue%{j%}huelik                           ADJ-REDUP ; ! "bueno"
 kuali:kual                                          ADJ-KUALI ; ! "bonito"
 kuakuali:kua%{j%}kual                               ADJ-KUALI ; ! "bonito"
-huei:hue                                            ADJ-KUALI ; ! "grande"
-huejhuei:hue%{j%}hue                                ADJ-HUEI; ! "grande"
-huejueyin:hue%{j%}ueyin                             ADJ ; ! "grande"
+hueyi:hue                                            ADJ-KUALI ; ! "grande"
+hueyi:hue%{j%}hue                                   ADJ-HUEI; ! "grande"
+hueyi:hue%{j%}ueyin                                 ADJ ; ! "grande"
 miak:miak                                           ADJ ; ! "mucho"
 tsiki:tsiki                                         ADJ ; ! "pequeño"
 tsikili:tsikili                                     ADJ ; ! "pequeño"
