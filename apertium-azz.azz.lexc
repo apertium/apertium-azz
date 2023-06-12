@@ -248,6 +248,7 @@ LEXICON AGR-SUBJ-FLAGS
 @P.SUBJ.1@:@P.SUBJ.1@                              AGR-OBJ-SO ; 
 @P.SUBJ.1@:@P.SUBJ.1@                              AGR-OBJ-SI ; 
 @P.SUBJ.1@:@P.SUBJ.1@                              INCORP-ADV ; 
+@P.SUBJ.1@:@P.SUBJ.1@                              Posesivos ; 
 
 !LEXICON AGR-SUBJ-NV
 !
@@ -2224,6 +2225,14 @@ machilia:machilia                                   V-SO-IMPF ;
 machilia:machilia                                   V-SO-PROG ;
 machilia:machili                                    V-SO-PRET ;
 machilia:machili                                    V-SO-FUTR ;
+
+! "contestar"
+nankilia:nankilia                                     V-SO-PRES ;
+nankilia:nankilia                                     V-SO-IMPF ;
+nankilia:nankilia                                     V-SO-PROG ;
+nankilia:nankili                                      V-SO-PRET ;
+nankilia:nankili                                      V-SO-FUTR ;
+
 
 ! ""
 tekilia:tekilia                                     V-SO-PRES ;
