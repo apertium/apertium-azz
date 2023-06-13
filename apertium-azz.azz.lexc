@@ -202,6 +202,7 @@ LEXICON AGR-SUBJ-NV
 
 %<s_sg1%>:ni%>                                     AGR-SUBJ-NV-FLAGS ;
 %<s_sg2%>:ti%>                                     AGR-SUBJ-NV-FLAGS ;
+%<s_sg2%>%<hon%>:t%>on                             AGR-SUBJ-NV-FLAGS ;
 %<s_sg3%>:0%>                                      AGR-SUBJ-NV-FLAGS ;
 %<s_pl1%>:ti%>                                     AGR-SUBJ-NV-FLAGS-PLUR ;
 %<s_pl2%>:nan%>                                    AGR-SUBJ-NV-FLAGS-PLUR ;
@@ -219,6 +220,7 @@ LEXICON NO-VERBALES
                                                    Adjetivos ;
                                                    Propios ;
                                                    Comunes ;
+                                                   Posesivos ;
                                                    Copula ;
 LEXICON AGR-ZERO 
 
@@ -248,7 +250,6 @@ LEXICON AGR-SUBJ-FLAGS
 @P.SUBJ.1@:@P.SUBJ.1@                              AGR-OBJ-SO ; 
 @P.SUBJ.1@:@P.SUBJ.1@                              AGR-OBJ-SI ; 
 @P.SUBJ.1@:@P.SUBJ.1@                              INCORP-ADV ; 
-@P.SUBJ.1@:@P.SUBJ.1@                              Posesivos ; 
 
 !LEXICON AGR-SUBJ-NV
 !
@@ -758,6 +759,7 @@ LEXICON CMPND
 
 LEXICON N-POSS
 
+@R.POSS.1@:@R.POSS.1@                              # ; ! Dir/LR
 @R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;
 @R.POSS.1@%<pl%>:@R.POSS.1@%>huan                  # ;
 
@@ -5001,8 +5003,10 @@ Huala ;
 
 LEXICON Yohui 
 
-%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%}      # ;
-%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ;
+%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo           # ;
+%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo           # ;
+%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%}      # ; ! Dir/LR
+%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ; ! Dir/LR
 %<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui            # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej     # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>ohu%>ij      # ;
@@ -5956,6 +5960,7 @@ aokuilimej:aokuilimej                               N-Ø ; ! "sabañones"
 tamolontil:tamolontil                               N-Ø ; ! "hervido"
 neton:neton                                         N-Ø ; ! "sudor"
 mostaj:mostaj                                       N-Ø ; ! "diario"
+mama:mama                                           N-Ø ; ! ""
 ayat:aya                                            N-TL ; ! "cobija"
 tsonti:tson                                         N-TLI ; ! "cabello"
 tat:ta                                              N-TL ; ! "padre"
