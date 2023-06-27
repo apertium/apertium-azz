@@ -4791,7 +4791,7 @@ tsotsoltia:tsotsoltia                                 V-S-PRET ; ! ""
 tsotsoltia:tsotsoltia                                 V-S-FUTR ; ! ""
 
 
-! "prender"
+! "prender / brillar"
 milini:milini                                         V-S-PRES ; ! ""
 milini:milini                                         V-S-IMPF ; ! ""
 milini:milini                                         V-S-PROG ; ! ""
@@ -5387,6 +5387,7 @@ LEXICON Relacionales
 
 huan:huan                                          N-REL ; ! "con"
 ka:ka                                              N-REL ; ! "con"
+ka:jka                                             N-REL ; ! "con" Dir/LR
 tech:tech                                          N-REL ; ! ""
 panko:panko                                        N-REL ; ! ""
 poxko:poxko                                        N-REL ; ! ""
@@ -6313,6 +6314,7 @@ física:física                                       N-SPA-MESA ; ! ""
 estuca:estuca                                       N-SPA-MESA ; ! ""
 molécula:molécula                                   N-SPA-MESA ; ! ""
 célula:célula                                       N-SPA-MESA ; ! ""
+danza:danza                                         N-SPA-MESA ; ! ""
 semana:semana                                       N-SPA-MESA ; ! ""
 kuenta:kuenta%{j%}                                  N-Ø ; ! ""
 hora:hora                                           N-SPA-MESA ; ! ""
@@ -6341,6 +6343,7 @@ color:color                                         N-SPA-LUGAR ; ! ""
 
 cáncer:cáncer                                       N-SPA-LUGAR ; ! ""
 dios:dios                                           N-SPA-LUGAR ; ! ""
+celular:celular                                     N-SPA-LUGAR ; ! ""
 cimarrón:cimarr                                     N-SPA-FUSIÓN ; ! ""
 televisión:televisi                                 N-SPA-FUSIÓN ; ! ""
 radiación:radiaci                                   N-SPA-FUSIÓN ; ! ""
@@ -6826,7 +6829,8 @@ Santos:Santos                                       NP-COG ;
 Rivera:Rivera                                       NP-COG ;
 
 Próxima:Próxima                                     NP-TOP ;
-Centauri:Centauri                                   NP-TOP ;
+Centauri:centauri                                   NP-TOP ;
+
 
 México:México                                       NP-TOP ;
 Puebla:Puebla                                       NP-TOP ;
