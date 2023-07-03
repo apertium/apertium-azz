@@ -6168,6 +6168,7 @@ potokyo:potokyo                                     N-Ø ; ! "algondoncillo"
 pitsini:pitsini                                     N-Ø ; ! "tronar"
 piltenan:piltenan                                   N-Ø ; ! "mamá"
 pilkonet:pilkone                                    N-TL ; ! "bebé"
+teposkonet:teposkone                                N-TL ; ! "dispositivo"
 pejpech:pejpech                                     N-Ø ; ! "guangoche"
 paltel:paltel                                       N-Ø ; ! "talega"
 ijpotok:ijpotok                                     N-Ø ; ! "vapor"
@@ -7176,6 +7177,7 @@ mero:mer                                            ADJ-SPA-MALO ; ! ""
 mismo:mism                                          ADJ-SPA-MALO ; ! ""
 delicado:delicad                                    ADJ-SPA-MALO ; ! ""
 momorado:mo%{j%}morad                               ADJ-SPA-MALO ; ! ""
+nanométrica:nanométric                              ADJ-SPA-MALO ; ! ""  
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
