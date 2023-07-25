@@ -5471,6 +5471,7 @@ mestli:mes                                          N-TLI ; ! "luna"
 nojpal:nojpal                                       N-Ø ; ! "nopal"
 nojpal:noipal                                       N-Ø ; ! "" ! Typo/Yes
 okichpil:okichpil                                   N-Ø ; ! "niño"
+huipil:huipil                                       N-Ø ; ! "niño"
 piyo:piyo                                           N-Ø ; ! "pollo"
 sihuat:sihua                                        N-TL ; ! "mujer"
 sihuapil:sihuapil                                   N-Ø ; ! "niña"
@@ -5775,6 +5776,7 @@ panehuayot:panehuayo                                N-TL ; ! "cáscara"
 
 toknihuan:toknihua                                  N-HUAN ; ! "persona"
 tokniu:tokniu                                       N-Ø ; ! "persona"
+ikni:%{i%}kni                                       N-Ø ; ! ""
 hueitokniu:huei%>tokniu                             N-Ø ; ! "persona adulta"
 masehual:masehual                                   N-Ø ; ! "campesino"
 
