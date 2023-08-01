@@ -706,14 +706,14 @@ LEXICON N-HUITL
 %<n%>%<hon%>%<pl%>:u%>tsi%>tsin                    # ;
 %<n%>%<cmp%>%+:u                                   CMPND ;
 
-LEXICON N-HUAN
+! LEXICON N-HUAN
 
-%<n%>%<abs%>:n                                     NO-POSS ;
-%<n%>:                                             N-POSS ;
-%<n%>%<hon%>:n%>tsin                               # ;
-%<n%>%<pl%>:%>j                                    # ;
-%<n%>%<hon%>%<pl%>:n%>tsi%>tsin                    # ;
-%<n%>%<cmp%>%+:n                                   CMPND ;
+! %<n%>%<abs%>:n                                     NO-POSS ;
+! %<n%>:                                             N-POSS ;
+! %<n%>%<hon%>:n%>tsin                               # ;
+! %<n%>%<pl%>:%>j                                    # ;
+! %<n%>%<hon%>%<pl%>:n%>tsi%>tsin                    # ;
+! %<n%>%<cmp%>%+:n                                   CMPND ;
 
 LEXICON N-SPA-PESO
 
@@ -1223,6 +1223,20 @@ chipahuia:chipahui                                   V-SIO-FUTR ;
 
  
 LEXICON SO
+
+! "beber"
+i:i                                        V-S-PRES ;
+i:i                                        V-S-IMPF ;
+i:i                                        V-S-PROG ;
+i:i                                        V-S-PRET ;
+i:i                                        V-S-FUTR ;
+
+! "llamar"
+notsa:notsa                                        V-SO-PRES ; 
+notsa:notsa                                        V-SO-IMPF ;
+notsa:nots                                         V-SO-PROG ;
+notsa:nots                                         V-SO-PRET ; 
+notsa:notsa                                        V-SO-FUTR ; 
 
 ! "tener"
 piya:piya                                          V-SO-PRES  ; 
@@ -1978,6 +1992,14 @@ tenijtohua:tenijto                                  V-SO-PRET ;
 tenijtohua:tenijto                                  V-SO-FUTR ;
 
 
+! "hace nacer"
+yolitia:yoliti%{y%}a                        V-SO-PRES ;
+yolitia:yoliti%{y%}a                        V-SO-IMPF ;
+yolitia:yoliti%{y%}                         V-SO-PROG ;
+yolitia:yoliti%{y%}                         V-SO-PRET ;
+yolitia:yoliti%{y%}                         V-SO-FUTR ;
+
+
 ! ""
 yehualohua:yehualohua                               V-SO-PRES ;
 yehualohua:yehualohua                               V-SO-IMPF ;
@@ -2433,7 +2455,7 @@ tapohua:tapohua                                     V-SO-PROG ;
 tapohua:tapohua                                     V-SO-PRET ;
 tapohua:tapohua                                     V-SO-FUTR ;
      
-! "cortar"
+! "cortar (el cabello)"
 tsonteki:tsonteki                                   V-SO-PRES ;
 tsonteki:tsonteki                                   V-SO-IMPF ;
 tsonteki:tsonteki                                   V-SO-PROG ;
@@ -2945,7 +2967,7 @@ hueli:hueli                                         V-S-PROG ;
 hueli:hueli                                         V-S-PRET ;
 hueli:hueli                                         V-S-FUTR ;
 
-! "llegar"
+! "llegar" (?)
 huala:huala                                         V-S-PRES ;
 huala:huala                                         V-S-IMPF ;
 huala:huala                                         V-S-PROG ;
@@ -3183,6 +3205,13 @@ kualtia:kualti%{y%}a                                V-S-PROG ;
 kualtia:kualti%{y%}a                                V-S-PRET ;
 kualtia:kualti%{y%}a                                V-S-FUTR ;
 
+! "bailar"
+mijtotia:mijtoti%{y%}a                                V-S-PRES ;
+mijtotia:mijtoti%{y%}a                                V-S-IMPF ;
+mijtotia:mijtoti%{y%}a                                V-S-PROG ;
+mijtotia:mijtoti%{y%}a                                V-S-PRET ;
+mijtotia:mijtoti%{y%}a                                V-S-FUTR ;
+
 ! "terminar"
 matami:matami                                       V-S-PRES ;
 matami:matami                                       V-S-IMPF ;
@@ -3394,7 +3423,7 @@ poyeya:poyeya                                       V-S-PROG ;
 poyeya:poyeya                                       V-S-PRET ;
 poyeya:poyeya                                       V-S-FUTR ;
 
-! ""
+! "descansar"
 sehui:sehui                                         V-S-PRES ;
 sehui:sehui                                         V-S-IMPF ;
 sehui:sehui                                         V-S-PROG ;
@@ -3408,12 +3437,13 @@ selia:selia                                         V-S-PROG ;
 selia:selia                                         V-S-PRET ;
 selia:selia                                         V-S-FUTR ;
 
+
 ! "beber"
-tai:ta%{y%}i                                        V-S-PRES ;
-tai:ta%{y%}i                                        V-S-IMPF ;
-tai:ta%{y%}i                                        V-S-PROG ;
-tai:ta%{y%}i                                        V-S-PRET ;
-tai:ta%{y%}i                                        V-S-FUTR ;
+! tai:ta%{y%}i                                        V-S-PRES ;
+! tai:ta%{y%}i                                        V-S-IMPF ;
+! tai:ta%{y%}i                                        V-S-PROG ;
+! tai:ta%{y%}i                                        V-S-PRET ;
+! tai:ta%{y%}i                                        V-S-FUTR ;
 
 ! "producir"
 taki:taki                                           V-S-PRES ;
@@ -5264,7 +5294,7 @@ nijon:nijo%{n%}                                    PRON-NEJIN ;
 nijin:niji%{n%}                                    PRON-NEJIN ; 
 nejin:neji%{n%}                                    PRON-NEJIN ; 
 
-teisa:tei%{j%}sa                                   PRON ; ! "algo"
+teisa:tei%{j%}sa                                   PRON ; ! "algo" (anything/whatever)
 teisa:te%{j%}sa                                    PRON ; ! "algo"
 tei:tei                                            PRON ; ! "algo"
 
@@ -5314,7 +5344,15 @@ lo:lo                                              DET ; ! ""
 kanachi:kanachi                                    DET ; ! "cuántos"
 
 katin:katin                                        DET ; ! "cuál, qué"
-katin:katini                                      DET ; ! "cuál, qué"
+katin:katini                                       DET ; ! "cuál, qué"
+
+! determinantes del español
+el%<det%>%<m%>:el                                  # ;
+el%<det%>%<f%>:la                                  # ;
+el%<det%>%<pl%>%<m%>:los                           # ;
+el%<det%>%<pl%>%<m%>:las                           # ;
+
+
 
 LEXICON Números 
 
@@ -5371,6 +5409,7 @@ LEXICON Posesivos
 %<px1pl%>:to%{j%}%>                                Poseído ; ! tojomiuan
 %<px2pl%>:namo%>                                   Poseído ;
 %<px3pl%>:i%{N%}%>                                 Poseído ;
+%<px3pl%>:ini%{N%}%>                               Poseído ; ! Dir/LR
 %<px3nn%>:ta%>                                     Poseído ;
 %<px3aa%>:te%>                                     Poseído ;
 
@@ -5534,6 +5573,7 @@ hueinanaj:huei%>nanaj                               N-Ø ; ! "abuela"
 nananaj:nananaj                                     N-Ø ; ! "mujer"
 tepexilot:tepexilo                                  N-TL ; ! "tejilote"
 konet:kone                                          N-TL ; ! "niño"
+teposkonet:tepos%>kone                              N-TL ; ! "dispositivo"
 tepet:tepe                                          N-TL ; ! "montaña"
 tejtepet:tejtepe                                    N-PL-REDUP ; ! "cerros"
 mixkohuat:mixkohua                                  N-TL ; ! ""
@@ -5698,8 +5738,11 @@ tajko:tajko                                         N-Ø ; ! "medio"
 talmanik:talmanik                                   N-Ø ; ! "tierra"
 tepesin:tepesin                                     N-Ø ; ! ""
 pa:pa%{n%}                                          N-Ø ; ! "papá"
+
 knihuan:knihuan                                     N-Ø ; ! "hermano"
+
 pipiliknihuan:pipili%>knihuan                       N-Ø ; ! ""
+
 chokil:chokil                                       N-Ø ; ! ""
 nexuitil:nexuitil                                   N-Ø ; ! "empacho"
 
@@ -5761,14 +5804,17 @@ taijtiyot:taijtiyo                                  N-TL ; ! ""
 takot:tako                                          N-TL ; ! ""
 tototsapot:toto%>tsapo                              N-TL ; ! ""
 tsapot:tsapo                                        N-TL ; ! ""
+huehuejchot:huehuejcho                              N-TL ; ! "huajolote"
 tatok:tatok                                         N-Ø ; ! ""
 nekmej:nekmej                                       N-Ø ; ! "abeja"
 nechikol:nechikol                                   N-Ø ; ! "reunión"
 
 panehuayot:panehuayo                                N-TL ; ! "cáscara"
 
-toknihuan:toknihua                                  N-HUAN ; ! "persona"
-tokniu:tokniu                                       N-Ø ; ! "persona"
+! toknihuan:toknihua                                  N-HUAN ; ! "persona"
+!tokniu:tokniu                                       N-Ø ; ! "persona"
+ikniu:ikniu                                         N-Ø ;
+
 hueitokniu:huei%>tokniu                             N-Ø ; ! "persona adulta"
 masehual:masehual                                   N-Ø ; ! "campesino"
 
@@ -5989,6 +6035,7 @@ tekoch:tekoch                                       N-Ø ; ! "cavidad"
 tanesi:tanesi                                       N-Ø ; ! "amanecer"
 tamanis:tamanis                                     N-Ø ; ! "planicie"
 tail:tail                                           N-Ø ; ! "aguardiente"
+huipil:huipil                                       N-Ø ; ! "huipil"
 melau:melau                                         N-Ø ; ! "exageradamente"
 kokototsa:kokototsa                                 N-Ø ; ! "despedazar"
 kayot:kayo                                          N-TL ; ! "originario"
@@ -6280,6 +6327,7 @@ globo:globo                                         N-SPA-PESO ; ! ""
 caballo:caballo                                     N-SPA-PESO ; ! ""
 
 trabajo:trabajo                                     N-SPA-PESO ; ! ""
+pueblo:pueblo                                       N-SPA-PESO ; ! ""
 metro:metro                                         N-SPA-PESO ; ! ""
 centímetro:centímetro                               N-SPA-PESO ; ! ""
 nanómetro:nanómetro                                 N-SPA-PESO ; ! ""
@@ -6294,6 +6342,7 @@ esquinado:esquinado                                 N-SPA-PESO ; ! ""
 eskinado:eskinado%{j%}                              N-Ø ; ! ""
 tiempo:tiempo                                       N-SPA-PESO ; ! ""
 cuidado:cuidado                                     N-SPA-PESO ; ! ""
+compañero:compañero                                 N-SPA-PESO ; ! ""
 compadre:compadre                                   N-SPA-PESO ; ! ""
 comadre:comadre                                     N-SPA-MESA ; ! ""
 komadre:komadre                                     N-SPA-MESA ; ! ""
@@ -6377,6 +6426,8 @@ octubre:octubre                                     N-SPA-PESO ; ! ""
 noviembre:noviembre                                 N-SPA-PESO ; ! ""
 deciembre:deciembre                                 N-SPA-PESO ; ! ""
 diciembre:diciembre                                 N-SPA-PESO ; ! ""
+sombrero:sombrero                                   N-SPA-PESO ; ! ""
+
 
 lunes:lunes                                         N-SPA-LUNES ; ! ""
 martes:martes                                       N-SPA-LUNES ; ! ""
@@ -6545,6 +6596,7 @@ matanza:matanza                                     N-SPA-MESA ; ! ""
 pinza:pinza                                         N-SPA-MESA ; ! ""
 fuerza:fuerza                                       N-SPA-MESA ; ! ""
 comal:comal                                         N-SPA-LUGAR ; ! ""
+quetzal:quetzal                                     N-SPA-LUGAR ; ! ""
 anal:anal                                           N-SPA-LUGAR ; ! ""
 canal:canal                                         N-SPA-LUGAR ; ! ""
 panal:panal                                         N-SPA-LUGAR ; ! ""
@@ -6729,6 +6781,9 @@ kes:kes                                             N-Ø ; ! "pie"
 nakas:nakas                                         N-Ø ; ! "oreja" ! Use/Incorp
 mets:mets                                           N-Ø ; ! "pierna"
 mait:ma                                             N-ITL ; ! "mano"
+kueyitl:kuey                                        N-ITL ; ! "mano"
+istakkueyitl:istakkuey                              N-ITL ; ! "mano"
+
 kech:kech                                           N-Ø ; ! "cuello"
 ixtololo:ixtololo                                   N-Ø ; ! "ojo"
 
@@ -7163,6 +7218,7 @@ libre:libre                                         ADJ-SPA-LIBRE ;
 indígena:indígena                                   ADJ-SPA-LIBRE ;
 
 malo:mal                                            ADJ-SPA-MALO ;
+borracho:borrach                                    ADJ-SPA-MALO ; ! ""
 lácteo:lácte                                        ADJ-SPA-MALO ; ! ""
 seguido:seguid                                      ADJ-SPA-MALO ; ! ""
 cancerígeno:cancerígen                              ADJ-SPA-MALO ;
