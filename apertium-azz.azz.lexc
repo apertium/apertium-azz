@@ -1984,6 +1984,13 @@ ijtohua:ijtohua                                     V-SO-PROG ;
 ijtohua:ijto                                        V-SO-PRET ;
 ijtohua:ijto                                        V-SO-FUTR ;
 
+! "pertenecer"
+pertenecerohua:pertenecerohua                                     V-SO-PRES ;
+pertenecerohua:pertenecerohua                                     V-SO-IMPF ;
+pertenecerohua:pertenecerohua                                     V-SO-PROG ;
+pertenecerohua:pertenecero                                        V-SO-PRET ;
+pertenecerohua:pertenecero                                        V-SO-FUTR ;
+
 ! "ofrecer"
 tenijtohua:tenijtohua                               V-SO-PRES ;
 tenijtohua:tenijtohua                               V-SO-IMPF ;
@@ -4310,6 +4317,12 @@ pachihui:pachihui                                     V-S-PROG ; ! ""
 pachihui:pachihui                                     V-S-PRET ; ! ""
 pachihui:pachihui                                     V-S-FUTR ; ! ""
 
+invitarohua:invitarohua                                   V-S-PRES ; ! "invitar"
+invitarohua:invitarohua                                   V-S-IMPF ; ! ""
+invitarohua:invitarohua                                   V-S-PROG ; ! ""
+invitarohua:invitarohua                                   V-S-PRET ; ! ""
+invitarohua:invitarohua                                   V-S-FUTR ; ! ""
+
 pachiohua:pachiohua                                   V-S-PRES ; ! ""
 pachiohua:pachiohua                                   V-S-IMPF ; ! ""
 pachiohua:pachiohua                                   V-S-PROG ; ! ""
@@ -5739,7 +5752,7 @@ talmanik:talmanik                                   N-Ø ; ! "tierra"
 tepesin:tepesin                                     N-Ø ; ! ""
 pa:pa%{n%}                                          N-Ø ; ! "papá"
 
-knihuan:knihuan                                     N-Ø ; ! "hermano"
+ikni%<n%>%<pl%>%<px1pl%>:knihuan                 #; ! "hermanos"
 
 pipiliknihuan:pipili%>knihuan                       N-Ø ; ! ""
 
@@ -5994,6 +6007,7 @@ panti:pan                                           N-TLI ; ! "culparle"
 ohuapachtik:ohuapachtik                             N-Ø ; ! "bofo"
 nokta:nokta                                         N-Ø ; ! "demasiado"
 nextamal:nextamal                                   N-Ø ; ! "nixtamal"
+maxtahual:maxtahual                                 N-Ø ; ! "listón"
 koutakot:koutako                                    N-TL ; ! "ramita"
 kotona:kotona                                       N-Ø ; ! "cortar"
 chichi:chichi                                       N-Ø ; ! "mamar"
@@ -6030,7 +6044,12 @@ tsintsakual:tsintsakual                             N-Ø ; ! "pared"
 tsahual:tsahual                                     N-Ø ; ! "telaraña"
 tikotaj:tikotaj                                     N-Ø ; ! "fogón"
 teskat:teska                                        N-TL ; ! "vidrio"
+chichilkoskat:chichilkoska                          N-TL ; ! "collar rojo"
 tenex:tenex                                         N-Ø ; ! "cal"
+
+istakkalson:istakkalson                             N-Ø ; ! "calzon blanco"
+istakkamisa:istakkamisa                             N-Ø ; ! "camisa blanca"
+
 tekoch:tekoch                                       N-Ø ; ! "cavidad"
 tanesi:tanesi                                       N-Ø ; ! "amanecer"
 tamanis:tamanis                                     N-Ø ; ! "planicie"
