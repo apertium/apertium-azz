@@ -1278,7 +1278,7 @@ ixmati:ixmati                                       V-SO-FUTR ;
 chihua:chihua                                       V-SO-PRES ;
 chihua:chihua                                       V-SO-IMPF ;
 chihua:chihu                                        V-SO-PROG ;
-chihua:chihua                                       V-SO-PRET ;
+chihua:chihu                                        V-SO-PRET ;
 chihua:chihua                                       V-SO-FUTR ;
 
 ! "hacer"
@@ -2218,6 +2218,15 @@ mati:mat                                            V-SO-PROG ;
 mati:mati                                           V-SO-PRET ; ! nikmatik
 mati:mat                                            V-SO-PRET ; ! tikmatkej
 mati:mati                                           V-SO-FUTR ;
+
+! "tejer"
+ijkiti:ijkiti                                           V-SO-PRES ;
+ijkiti:ijkiti                                           V-SO-IMPF ;
+ijkiti:ijkit                                            V-SO-PROG ;
+ijkiti:ijkiti                                           V-SO-PRET ; ! nikmatik
+ijkiti:ijkit                                            V-SO-PRET ; ! tikmatkej
+ijkiti:ijkiti                                           V-SO-FUTR ;
+
 
 ! "nombrar"
 tokaytia:tokayti%{y%}a                              V-SO-PRES ;
@@ -5643,6 +5652,10 @@ tepexonot:tepexono                                  N-TL ; ! ""
 naluat:nalua                                        N-TL ; ! "raíz"
 milajmosot:milajmoso                                N-TL ; ! ""
 huejhueikilit:huejhueikili                          N-TL ; ! ""
+
+ilpikatl:ilpika                                     N-TL ; ! "cinturón"
+chichililpikatl:chichililpika                       N-TL ; ! "cinturón rojo"
+
 tepechilkohuit:tepe%>chil%>ko                       N-HUITL ; ! ""
 kuitakohuit:kuita%>ko                               N-HUITL ; ! ""
 komit:komi                                          N-TL ; ! "olla"
@@ -6221,6 +6234,7 @@ takotik:takotik                                     N-Ø ; ! "delgado"
 takehual:takehual                                   N-Ø ; ! "peón"
 takechpanol:takechpanol                             N-Ø ; ! "carga"
 taixuipankayot:taixuipankayo                        N-TL ; ! "travesaño"
+neskayot:neskayot                                   N-TL ; ! "imagen"
 tajtakol:tajtakol                                   N-Ø ; ! "pecado"
 tajpixkej:tajpixkej                                 N-Ø ; ! "vigilante"
 sokitaj:sokitaj                                     N-Ø ; ! "lodazal"
@@ -7279,6 +7293,7 @@ kani:kani                                           ADV-ITG ; ! "dónde"
 kani:kan                                            ADV-ITG ; ! "dónde"
 kanachpa:kanachpa                                   ADV-ITG ; ! "cuántas veces"
 
+huejkaw:huejkaw                                     ADV ; ! "lejos, hace mucho tiempo"
 kualkan:kualkan                                     ADV ; ! "temprano"
 importaj:importa%{j%}                               ADV ; ! ""
 inachi:inachi                                       ADV ; ! ""
