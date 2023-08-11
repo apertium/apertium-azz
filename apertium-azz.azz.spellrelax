@@ -22,6 +22,7 @@
  [ ?* [k i -> q u i | k i] ?*] .o.
  [ ?* [ e k -> e c | e k ] ?* ]  .o.
  [ ?* [ i k -> i c | i k ] ?* ]  .o.
+ [ ?* [ o h u a -> o a | o h u a ] ?* ]  .o.
  [ ?* [ o k -> o c | o k ] ?* ]  .o.
  [ ?* [ k u -> k w | k u ] ?* ]  .o.
  [ ?* [ h u -> u | h u ] ?* ]  .o.
