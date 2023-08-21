@@ -5344,6 +5344,11 @@ LEXICON Pronombres
 nehua:ne                                           PRON-SG1 ;
 tehua:te                                           PRON-SG2 ;
 yehua:ye                                           PRON-SG3 ;
+
+nehua:nej                                           PRON-SG1 ; ! Dir/LR
+tehua:tej                                           PRON-SG2 ; ! Dir/LR
+yehua:yej                                           PRON-SG3 ; ! Dir/LR
+
 tehuan:te%{j%}                                       PRON-PL1 ;
 namehuan:name                                        PRON-PL2 ;
 yehuan:ye%{j%}                                       PRON-PL3 ;
