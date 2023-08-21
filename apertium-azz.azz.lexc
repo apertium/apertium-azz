@@ -1166,6 +1166,13 @@ poxpepechohuilia:pox%>pepechohuili                  V-SIO-PROG ;
 poxpepechohuilia:pox%>pepechohuili                  V-SIO-PRET ;
 poxpepechohuilia:pox%>pepechohuili                  V-SIO-FUTR ;
 
+! "echarle "
+echarhuilia:echarhuilia                 V-SIO-PRES ;
+echarhuilia:echarhuilia                 V-SIO-IMPF ;
+echarhuilia:echarhuili                  V-SIO-PROG ;
+echarhuilia:echarhuili                  V-SIO-PRET ;
+echarhuilia:echarhuili                  V-SIO-FUTR ;
+
 ! ""
 pepechohuilia:pepechohuilia                 V-SIO-PRES ;
 pepechohuilia:pepechohuilia                 V-SIO-IMPF ;
@@ -5387,7 +5394,11 @@ in:in                                              DET ; ! "el"
 in:n                                               DET ; ! "el"
 in:n%'                                             DET ; ! "el"
 
-no:no                                              DET ; ! "este"
+non:no                                              DET ; ! "ese"
+non:non                                             DET ; ! "ese"
+nin:nin                                             DET ; ! "ese"
+
+
 ne:ne                                              DET ; ! "este"
 okse:oks                                           DET-OKSE ; ! "otro"
 miak:mi%{y%}ak                                     DET-MIAK ; ! "mucho"
@@ -5401,6 +5412,7 @@ nejin:neji%{n%}                                    DET ;
 
 neni:neni                                          DET ; 
 ini:ini                                            DET ; 
+nini:nini                                            DET ; 
 
 cada:cada                                          DET ; ! ""
 lo:lo                                              DET ; ! ""
@@ -6401,6 +6413,7 @@ lado:lado                                           N-SPA-PESO ; ! ""
 lazo:lazo                                           N-SPA-PESO ; ! ""
 globo:globo                                         N-SPA-PESO ; ! ""
 caballo:caballo                                     N-SPA-PESO ; ! ""
+presidente:presidente                               N-SPA-PESO ; ! ""
 
 trabajo:trabajo                                     N-SPA-PESO ; ! ""
 pueblo:pueblo                                       N-SPA-PESO ; ! ""
