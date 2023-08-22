@@ -362,36 +362,36 @@ LEXICON INCORP-NOMINAL-FLAGS
 
 LEXICON V-SIO-PRES 
 
-%<v%>%<tv%>%<pres%>:                               V-AGR-PRES ;
-%<v%>%<tv%>%<pp%>:%>ni                             V-AGR-PRES ;
+%<v%>%<tv2%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<tv2%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-SIO-PRET
 
-%<v%>%<tv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
-%<v%>%<tv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
+%<v%>%<tv2%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<tv2%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-SIO-IMPF
 
-%<v%>%<tv%>%<impf%>:%>ya                           V-AGR-PRES ;
+%<v%>%<tv2%>%<impf%>:%>ya                           V-AGR-PRES ;
 
 LEXICON V-SIO-PROG
 
-%<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
-%<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
-%<v%>%<tv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
-%<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
+%<v%>%<tv2%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
+%<v%>%<tv2%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv2%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
+%<v%>%<tv2%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
+%<v%>%<tv2%>:%{j%}%>t                               V-AUX-II ;
 
-%<v%>%<tv%>:                                       V-DIR ;
+%<v%>%<tv2%>:                                       V-DIR ;
 
 
 LEXICON V-SIO-FUTR
 
-%<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
-%<v%>%<tv%>%<fut%>:%>s                             V-AUX-I ;
-%<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
-%<v%>%<tv%>%<cnt%>:%>ni                            V-AGR-PRES ;
-%<v%>%<tv%>%<opt%>:                                V-AGR-OPT ;
+%<v%>%<tv2%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<tv2%>%<fut%>:%>s                             V-AUX-I ;
+%<v%>%<tv2%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<tv2%>%<cnt%>:%>ni                            V-AGR-PRES ;
+%<v%>%<tv2%>%<opt%>:                                V-AGR-OPT ;
 ! %<v%>%<tv%>:                                       V-DIR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
