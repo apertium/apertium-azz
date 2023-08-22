@@ -6,7 +6,7 @@
 1	Yehwa	yehuan	PRON	_	Case=Abs|Number=Plur|Person=3|PronType=Pers	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	cop	_	_
-3	n	in	DET	_	_	5	mark	_	_
+3	n	in	SCONJ	_	_	5	mark	_	_
 4	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
 5-6	nikahsikamatisnekia	_	_	_	_	_	_	_	SpaceAfter=No
 5	nikahsikamatis	ajsikamati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Fut	1	csubj	_	_
@@ -38,18 +38,18 @@
 # labels = a96 a97 sentence
 1	Tikmatis	mati	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Fut	0	root	_	_
 2	cada	cada	DET	_	_	3	det	_	_
-3	xiwtsitsin	xihuit	NOUN	_	Number=Plur|Polite=Form	1	obj	_	_
+3	xiwtsitsin	xihuit	NOUN	_	Number=Plur|Polite=Form	10	obl	_	_
 4	ihkon	ijkon	ADV	_	_	6	advmod	_	_
-5	teihsa	teisa	PRON	_	_	6	dep	_	_
+5	teihsa	teisa	DET	_	_	6	det	_	_
 6	kowtsin	kohuit	NOUN	_	Polite=Form	3	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	xiwtsin	xihuit	NOUN	_	Polite=Form	3	appos	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	parataxis	_	_
+10	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	ccomp	_	_
 11	ome	ome	NUM	_	_	12	nummod	_	_
 12	taman	taman	NOUN	_	Case=Abs	10	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	1	parataxis	_	_
+14	onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	10	parataxis	_	_
 15	hasta	hasta	ADV	_	_	16	advmod	_	_
 16	eyi	eyi	NUM	_	_	17	nummod	_	_
 17	taman	taman	NOUN	_	Case=Abs	14	nsubj	_	SpaceAfter=No
@@ -82,11 +82,11 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	timonohnotskeh	nojnotsa	VERB	_	Number[subj]=Plur|Person[subj]=1|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	1	ccomp	_	_
 6	nikan	nikan	ADV	_	_	5	advmod	_	_
-7	in	in	DET	_	_	5	dep	_	SpaceAfter=No
+7	in	in	DET	_	_	5	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	10	nsubj	_	_
 10	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	1	parataxis	_	_
-11	niRuben	Rubén	PROPN	_	Gender=Masc|Number[subj]=Sing|Person[subj]=1	10	obj	_	_
+11	niRuben	Rubén	PROPN	_	Gender=Masc|Number[subj]=Sing|Person[subj]=1	1	parataxis	_	_
 12	Macario	Macario	PROPN	_	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	niwalewa	huala	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	1	parataxis	_	_
@@ -95,8 +95,8 @@
 17	wan	huan	CCONJ	_	_	18	cc	_	_
 18	nipowi	pohui	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	14	conj	_	_
 19	nikan	nikan	ADV	_	_	18	advmod	_	_
-20	cerca	cerca	ADV	_	_	21	advmod	_	_
-21	San	San	PROPN	_	_	19	appos	_	_
+20	cerca	cerca	ADV	_	_	19	appos	_	_
+21	San	San	PROPN	_	_	18	obl	_	_
 22	Miguel	Miguel	PROPN	_	Gender=Masc	21	flat	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -110,15 +110,15 @@
 3	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5-6	yon	_	_	_	_	_	_	_	_
-5	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	obj	_	_
+5	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	obl	_	_
 6	n	in	DET	_	_	7	mark	_	_
-7	kilwiah	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	csubj	_	_
+7	kilwiah	ilhuia	VERB	_	Number[iobj]=Sing|Number[obj]=Sing|Number[subj]=Plur|Person[iobj]=3|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	5	acl	_	_
 8	mowih	mohuij	NOUN	_	Case=Abs	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	11	nsubj	_	_
 11	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	parataxis	_	_
 12	ipa	ipa	ADV	_	_	11	advmod	_	_
-13	sentaman	sentaman	ADV	_	_	11	advmod	_	_
+13	sentaman	sentaman	NOUN	_	_	11	obj	_	_
 14	sah	saj	ADV	_	_	11	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -139,7 +139,7 @@
 # text[spa] = El agua queda bien bonita, colorada, queda muy rojizo.
 # labels = a53 sentence
 1	Wan	huan	CCONJ	_	_	3	cc	_	_
-2	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	dep	_	_
+2	kwaltsin	kuali	ADJ	_	Number[subj]=Sing|Person[subj]=3|Polite=Form	3	xcomp	_	_
 3	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 4	neli	neli	ADV	_	_	3	advmod	_	_
 5	n'	in	DET	_	_	6	det	_	_
@@ -147,7 +147,7 @@
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	yek...	yek	X	_	Incorporated=Yek	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	yektapalat	tapalat	ADJ	_	Incorporated=Yek	11	dep	_	_
+10	yektapalat	tapalat	ADJ	_	Incorporated=Yek	11	xcomp	_	_
 11	mochiwa	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	yekchichiltik	chijchiltik	ADJ	_	Incorporated=Yek	3	parataxis	_	SpaceAfter=No
@@ -161,7 +161,7 @@
 1	Porque	porque	SCONJ	_	_	5	mark	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
 3	amo	amo	ADV	_	_	5	advmod	_	_
-4	keman	keman	ADV	_	_	5	advmod	_	_
+4	keman	keman	ADV	_	_	3	fixed	_	_
 5	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 6	komo	komo	ADV	_	_	7	mark	_	_
 7	xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	advcl	_	_
@@ -176,7 +176,7 @@
 # labels = a66 sentence
 1	Wan	huan	CCONJ	_	_	4	cc	_	_
 2	amo	amo	ADV	_	_	4	advmod	_	_
-3	keman	keman	ADV	_	_	4	advmod	_	_
+3	keman	keman	ADV	_	_	2	fixed	_	_
 4	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 5	ox	ox	SCONJ	_	_	6	mark	_	_
 6	xochiowa	xochiohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	ccomp	_	SpaceAfter=No
@@ -201,7 +201,7 @@
 1	Pero	pero	CCONJ	_	_	5	cc	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
 3	amo	amo	ADV	_	_	5	advmod	_	_
-4	keman	keman	ADV	_	_	5	advmod	_	_
+4	keman	keman	ADV	_	_	3	fixed	_	_
 5	nikwik	kui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7-8	yon	_	_	_	_	_	_	_	_
@@ -446,8 +446,8 @@
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	semi	semi	ADV	_	_	3	advmod	_	_
 3	telwehkapan	huejkapan	ADJ	_	Incorporated=Tel|Number[subj]=Sing|Person[subj]=3	0	root	_	_
-4	mas	más	ADV	_	_	5	dep	_	_
-5	que	que	SCONJ	_	_	15	mark	_	_
+4	mas	más	ADV	_	_	15	mark	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
 6	solamente	solamente	ADV	_	_	15	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	kemeh	kemej	ADP	_	_	13	reparandum	_	SpaceAfter=No
@@ -728,12 +728,12 @@
 7	nejin	nejin	PRON	_	_	11	nsubj	_	_
 8	teyin	tein	PRON	_	_	9	nsubj	_	_
 9	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	7	acl:relcl	_	_
-10	ololtik	ololtik	ADJ	_	_	9	dep	_	_
+10	ololtik	ololtik	ADJ	_	_	9	xcomp	_	_
 11	moskaltiya	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	5	parataxis	_	_
 14	tel	tel	ADV	_	Incorporated=Tel	15	advmod	_	_
-15	ueyi	huei	ADJ	_	_	13	dep	_	_
+15	ueyi	huei	ADJ	_	_	13	xcomp	_	_
 16	uan	huan	CCONJ	_	_	18	cc	_	_
 17	ijkon	ijkon	ADV	_	_	18	advmod	_	_
 18	moteltaliya	tali	VERB	_	Aspect=Imp|Incorporated=Tel|Number[subj]=Sing|Person[subj]=3|Reflexive[iobj]=Yes|Subcat=Tran	13	conj	_	_
@@ -823,7 +823,7 @@
 12	timotajtanijtoskiyaj	tajtania	VERB	_	Aspect=Prog|Mood=Cond|Number[subj]=Plur|Person[subj]=1|Reflexive[obj]=Yes|Subcat=Tran	10	advcl	_	_
 13	¿	¿	PUNCT	_	_	15	punct	_	SpaceAfter=No
 14	keniuj	keni	ADV	_	PronType=Int	15	advmod	_	_
-15	mochiujkej	chia	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	dep	_	_
+15	mochiujkej	chiua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	12	parataxis	_	_
 16	ne	ne	DET	_	_	17	det	_	_
 17	sitalimej	sitalin	NOUN	_	Number=Plur	15	nsubj	_	SpaceAfter=No
 18	?	?	PUNCT	_	_	15	punct	_	_
@@ -1040,10 +1040,10 @@
 7	ueyichikuakameyot	ueyichikuakameyot	NOUN	_	Case=Abs	5	nmod	_	_
 8	radiación	radiación	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 9	electromagnética	electromagnética	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+10	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
 11	nejin	nejin	PRON	_	_	10	nmod	_	_
-12	peuak	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	3	parataxis	_	_
-13	mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	12	dep	_	_
+12	peuak	pehua	AUX	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	13	aux	_	_
+13	mochijchiuaj	chijchihua	VERB	_	Number[subj]=Plur|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	3	parataxis	_	_
 14	yankuik	yankuik	ADJ	_	_	15	amod	_	_
 15	teposmej	tepos	NOUN	_	Number=Plur	13	nsubj	_	_
 16	kemej	kemej	ADP	_	_	17	case	_	_
@@ -1056,10 +1056,10 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
 25	uan	huan	CCONJ	_	_	26	cc	_	_
-26	motamatsintokatok	*motamatsintokatok	X	_	_	17	dep	_	_
-27	kenuij	keni	ADV	_	PronType=Int	29	dep	_	_
+26	motamatsintokatok	*motamatsintokatok	VERB	_	_	17	conj	_	_
+27	kenuij	keni	ADV	_	PronType=Int	29	advmod	_	_
 28	kuali	kuali	ADV	_	_	29	advmod	_	_
-29	tapaleuis	palehuia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	26	dep	_	_
+29	tapaleuis	palehuia	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	26	ccomp	_	_
 30	maj	ma	AUX	_	_	31	mark	_	_
 31	motokotso	tokotsohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pret	29	ccomp	_	_
 32	in	in	DET	_	_	33	det	_	_
@@ -1174,7 +1174,7 @@
 15	tajuachuetsi	ajuachuetsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	7	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	23	punct	_	_
 17	nejin	nejin	DET	_	_	18	det	_	_
-18	chipauakat	chipahuakat	NOUN	_	Case=Abs	23	dep	_	_
+18	chipauakat	chipahuakat	NOUN	_	Case=Abs	23	dislocated	_	_
 19	teyin	tein	PRON	_	_	20	nsubj	_	_
 20	mosentiliya	sentilia	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	18	acl:relcl	_	_
 21	uelis	hueli	AUX	_	Tense=Fut	23	aux	_	_
@@ -1194,20 +1194,20 @@
 6	uelis	hueli	AUX	_	Tense=Fut	7	aux	_	_
 7	sekichiuas	chihua	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Fut	3	conj	_	_
 8	kachi	kachi	ADV	_	_	9	advmod	_	_
-9	kuali	kuali	ADJ	_	_	7	dep	_	_
+9	kuali	kuali	ADJ	_	_	7	xcomp	_	_
 10	nejin	nejin	DET	_	_	11	det	_	_
 11	achipaualis	achipahualis	NOUN	_	Case=Abs	7	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	uan	huan	CCONJ	_	_	16	cc	_	_
 14	uelis	hueli	AUX	_	Tense=Fut	16	aux	_	_
 15	se	se	NUM	_	_	16	nsubj	_	_
-16	kiuikas	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	dep	_	SpaceAfter=No
+16	kiuikas	huika	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	3	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 19	chipaujkayot	chipaujkayot	NOUN	_	Case=Abs	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	ne	ne	DET	_	_	22	det	_	_
-22	istajat	istajat	NOUN	_	Case=Abs	16	dep	_	_
+22	istajat	istajat	NOUN	_	Case=Abs	16	obj	_	_
 23	kanpa	kampa	ADV	_	PronType=Rel	25	advmod	_	_
 24	se	se	NUM	_	_	25	nsubj	_	_
 25	kichipauas	chipahua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Fut	22	acl:relcl	_	SpaceAfter=No
@@ -1216,11 +1216,11 @@
 # sent_id = kiteixmatiltijtok-tamachilis:41
 # text = Moneki maj semochiya uan ijkon satepan oksekin tonalmej, maj ueli se kitas, ijka teposmej teyin amo tapitsochiuaj, nejin nekuelmololmej teyin kipiya toatsin.
 # text[spa] = Ésta podría ser una alternativa para resolver el problema del agua y así tener agua potable para todos.
-# text[gloss] = Se quiere que uno se espera y así luego unos días, que puede uno ver,  _ máquinas que no _ ,  _ que tiene nuestra agua.
+# text[gloss] = Se quiere que uno se espere y así luego unos días, que puede uno ver,  _ máquinas que no _ ,  _ que tiene nuestra agua.
 # labels =
 1	Moneki	neki	VERB	_	Number[subj]=Sing|Person[subj]=3|Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	_
 2	maj	ma	AUX	_	_	3	aux	_	_
-3	semochiya	chia	VERB	_	Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	dep	_	_
+3	semochiya	chia	VERB	_	Reflexive[obj]=Yes|Subcat=Tran|Tense=Pres	1	csubj	_	_
 4	uan	huan	CCONJ	_	_	13	cc	_	_
 5	ijkon	ijkon	ADV	_	_	13	advmod	_	_
 6	satepan	satepan	ADV	_	_	13	advmod	_	_
@@ -1810,7 +1810,7 @@
 3	sekinemiliya	nemilia	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 4	ke	ke	SCONJ	_	_	6	mark	_	_
 5	nochi	nochi	PRON	_	_	6	nsubj	_	_
-6	taolochiujtoya	taolochihua	VERB	_	Aspect=Imp|Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran	3	ccomp	_	SpaceAfter=No
+6	taolochiujtoya	taolochihua	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Past	3	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:78
@@ -13948,7 +13948,7 @@
 # labels = a19 sentence
 1	Ekin	ekin	ADV	_	_	2	advmod	_	_
 2	nikakik	kaki	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pret	0	root	_	_
-3	namohnotstoyah	notsa	VERB	_	Aspect=Imp|Aspect=Prog|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran	2	dep	_	_
+3	namohnotstoyah	notsa	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Past	2	dep	_	_
 4	ne	ne	ADV	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	in	in	DET	_	_	9	reparandum	_	_
@@ -16953,4 +16953,3 @@
 5	no	no	ADV	_	_	6	advmod	_	_
 6	nimonotsa	notsa	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Reflexive[iobj]=Yes|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
-
