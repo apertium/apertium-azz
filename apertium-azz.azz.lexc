@@ -777,8 +777,8 @@ LEXICON CMPND
 
 LEXICON N-POSS
 
-@R.POSS.1@:@R.POSS.1@                              # ; ! Dir/LR
-@R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;
+@R.POSS.1@:@R.POSS.1@                              # ; 
+@R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;! Dir/LR
 @R.POSS.1@%<pl%>:@R.POSS.1@%>huan                  # ;
 
 
@@ -5427,6 +5427,7 @@ seki:seki%{n%}                                     DET ; ! "algunos"
 neje:neje                                          DET ; ! "este"
 nijin:niji%{n%}                                    DET ; 
 nejin:neji%{n%}                                    DET ; 
+nejon:nejo%{n%}                                    DET ; 
 
 neni:neni                                          DET ; 
 ini:ini                                            DET ; 
@@ -6419,6 +6420,7 @@ teléfono:teléfono                                   N-SPA-PESO ; ! ""
 microscópio:microscópio                             N-SPA-PESO ; ! ""
 
 nombre:nombre                                       N-SPA-PESO ; ! ""
+ganso:ganso                                         N-SPA-PESO ; ! ""
 átomo:átomo                                         N-SPA-PESO ; ! ""
 rayo:rayo                                           N-SPA-PESO ; ! ""
 kilo:kilo                                           N-SPA-PESO ; ! ""
@@ -6437,6 +6439,9 @@ caballo:caballo                                     N-SPA-PESO ; ! ""
 presidente:presidente                               N-SPA-PESO ; ! ""
 
 trabajo:trabajo                                     N-SPA-PESO ; ! ""
+pitero:pitero                                       N-SPA-PESO ; ! ""
+maestro:maestro                                     N-SPA-PESO ; ! ""
+
 pueblo:pueblo                                       N-SPA-PESO ; ! ""
 metro:metro                                         N-SPA-PESO ; ! ""
 centímetro:centímetro                               N-SPA-PESO ; ! ""
@@ -6451,6 +6456,8 @@ rollo:rollo                                         N-SPA-PESO ; ! ""
 esquinado:esquinado                                 N-SPA-PESO ; ! ""
 eskinado:eskinado%{j%}                              N-Ø ; ! ""
 tiempo:tiempo                                       N-SPA-PESO ; ! ""
+aceite:aceite                                       N-SPA-PESO ; ! ""
+integrante:integrante                               N-SPA-PESO ; ! ""
 cuidado:cuidado                                     N-SPA-PESO ; ! ""
 compañero:compañero                                 N-SPA-PESO ; ! ""
 compadre:compadre                                   N-SPA-PESO ; ! ""
@@ -6491,7 +6498,7 @@ cebolla:cebolla                                     N-SPA-MESA ; ! ""
 ciruela:ciruela                                     N-SPA-MESA ; ! ""
 cuarta:cuarta                                       N-SPA-MESA ; ! ""
 manteca:manteca                                     N-SPA-MESA ; ! ""
-aceite:aceite                                       N-SPA-MESA ; ! ""
+
 machete:machete                                     N-SPA-MESA ; ! ""
 viaje:viaje                                         N-SPA-MESA ; ! ""
 esquina:esquina                                     N-SPA-MESA ; ! ""
@@ -6511,6 +6518,8 @@ fusión:fusi                                         N-SPA-FUSIÓN ; ! ""
 riñón:riñ                                           N-SPA-FUSIÓN ; ! ""
 gas:gas                                             N-SPA-LUGAR ; ! ""
 mal:mal                                             N-SPA-LUGAR ; ! ""
+caporal:caporal                                     N-SPA-LUGAR ; ! ""
+
 robot:robot                                         N-SPA-PESO ; ! ""
 nano-robot:nano-robot                               N-SPA-PESO ; ! ""
 
@@ -7324,6 +7333,7 @@ celular:celular                                     ADJ-SPA-MEJOR ;
 mejor:mejor                                         ADJ-SPA-MEJOR ;
 nacional:nacional                                   ADJ-SPA-MEJOR ;
 intercultural:intercultural                         ADJ-SPA-MEJOR ;
+principal:principal                                 ADJ-SPA-MEJOR ;
 cultural:cultural                                   ADJ-SPA-MEJOR ;
 
 libre:libre                                         ADJ-SPA-LIBRE ;
