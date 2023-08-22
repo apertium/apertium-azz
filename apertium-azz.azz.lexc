@@ -2608,6 +2608,12 @@ kalakia:kalaki                                      V-SO-PRET ;
 kalakia:kalaki                                      V-SO-FUTR ;
 
 
+invitarohua:invitarohua                                   V-SO-PRES ; ! "invitar"
+invitarohua:invitarohua                                   V-SO-IMPF ; ! ""
+invitarohua:invitaroh                                     V-SO-PROG ; ! ""
+invitarohua:invitaroh                                     V-SO-PRET ; ! ""
+invitarohua:invitarohua                                   V-SO-FUTR ; ! ""
+
 ! "machacar"
 pitsinia:pitsinia                                   V-SO-PRES ;
 pitsinia:pitsinia                                   V-SO-IMPF ;
@@ -4381,12 +4387,6 @@ pachihui:pachihui                                     V-S-IMPF ; ! ""
 pachihui:pachihui                                     V-S-PROG ; ! ""
 pachihui:pachihui                                     V-S-PRET ; ! ""
 pachihui:pachihui                                     V-S-FUTR ; ! ""
-
-invitarohua:invitarohua                                   V-S-PRES ; ! "invitar"
-invitarohua:invitarohua                                   V-S-IMPF ; ! ""
-invitarohua:invitaroh                                     V-S-PROG ; ! ""
-invitarohua:invitaroh                                     V-S-PRET ; ! ""
-invitarohua:invitarohua                                   V-S-FUTR ; ! ""
 
 pachiohua:pachiohua                                   V-S-PRES ; ! ""
 pachiohua:pachiohua                                   V-S-IMPF ; ! ""
