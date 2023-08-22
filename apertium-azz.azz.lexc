@@ -931,7 +931,7 @@ LEXICON ADV-REL
 
 LEXICON ADJ
 
-%<adj%>:                                           V-AGR-PRET ; 
+%<adj%>%<sg%>:                                           V-AGR-PRET ; 
 %<adj%>%<pl%>:%>mej                                V-AGR-PRET ; 
 %<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
 %<adj%>%<hon%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
@@ -944,18 +944,18 @@ LEXICON ADJ-REDUP
 %<adj%>%<redup%>%<hon%>%<pl%>:%>tsi%>tsin          V-AGR-PRET ; 
 
 LEXICON ADJ-HUEI
-%<adj%>:%>i                                        V-AGR-PRET ; 
-%<adj%>%<hon%>:i%>tsin                             V-AGR-PRET ; 
+%<adj%>%<sg%>:%>i                                        V-AGR-PRET ; 
+%<adj%>%<hon%>%<sg%>:i%>tsin                             V-AGR-PRET ; 
 %<adj%>%<hon%>%<pl%>:i%>tsi%>tsin                  V-AGR-PRET ; 
 
 LEXICON ADJ-KUALI
-%<adj%>:%>i                                        V-AGR-PRET ; 
-%<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
+%<adj%>%<sg%>:%>i                                        V-AGR-PRET ; 
+%<adj%>%<hon%>%<sg%>:%>tsin                              V-AGR-PRET ; 
 %<adj%>%<hon%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
 
 LEXICON ADJ-TSIN
 
-%<adj%>:                                           V-AGR-PRET ; 
+%<adj%>%<sg%>:                                           V-AGR-PRET ; 
 
 LEXICON ADJ-SPA-MEJOR
 
@@ -5650,6 +5650,8 @@ chiltekpin:chiltekpin                               N-Ø ; ! "chiltepín"
 tokay:tokay                                         N-Ø ; ! "nombre" ! Use/Incorp
 pajti:paj                                           N-TLI ; ! "medicina"
 pajti:pa                                            N-TLI ; ! "medicina"
+takenti:taken                                       N-TLI ; ! "medicina"
+
 masehualpajti:masehual%>pajti                       N-Ø ; ! "medicina tradicional"
 tilmaj:tilma%{j%}                                   N-Ø ; ! "ropa"
 popelinatilmaj:popelina%>tilmaj                     N-Ø ; ! ""
@@ -7398,6 +7400,7 @@ nestok:nestok                                       ADV ; ! ""
 santeinamo:santeinamo                               ADV ; ! ""
 talchik:talchik                                     ADV ; ! ""
 teki:teki                                           ADV ; ! ""
+pon:pon                                             ADV ; ! ""
 
 ilihuis:ilihuis                                     ADV ; ! ""
 
