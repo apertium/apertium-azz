@@ -305,7 +305,7 @@ LEXICON AGR-REFL
 LEXICON AGR-IOBJ-SIO
 
 %<o_sg3%>:                                         AGR-OBJ-SIO-FLAGS  ; 
-%<o_pl3%>:i%{n%}%>                                 AGR-OBJ-SIO-FLAGS  ; 
+%<o_pl3%>:i%{N%}%>                                 AGR-OBJ-SIO-FLAGS  ; 
                                                    INCORP-ADV ;
 LEXICON AGR-OBJ-SIO-FLAGS
 
@@ -5687,7 +5687,7 @@ ixtahuat:ixtahua                                    N-TL ; ! "potrero"
 koutet:kou%>te                                      N-TL ; ! "fruto" ! kou#tet
 chiltet:chil%>te                                    N-TL ; ! "fruto" ! kou#tet
 tet:te                                              N-TL ; ! "piedra"
-nahuatl:nahua                                       N-TL ; ! "piedra"
+nahuat:nahua                                       N-TL ; ! "Nahuatl"
 !piot:pio                                            N-TL ; ! "gallina"
 pio:pio                                             N-Ø ; ! "gallina"
 olopio:olopio                                       N-Ø ; ! ""
@@ -6437,6 +6437,8 @@ lazo:lazo                                           N-SPA-PESO ; ! ""
 globo:globo                                         N-SPA-PESO ; ! ""
 caballo:caballo                                     N-SPA-PESO ; ! ""
 presidente:presidente                               N-SPA-PESO ; ! ""
+tenacho:tenacho                                     N-SPA-PESO ; ! ""
+
 
 trabajo:trabajo                                     N-SPA-PESO ; ! ""
 pitero:pitero                                       N-SPA-PESO ; ! ""
@@ -6628,7 +6630,7 @@ gana:gana                                           N-SPA-MESA ; ! ""
 pana:pana                                           N-SPA-MESA ; ! ""
 manzana:manzana                                     N-SPA-MESA ; ! ""
 faena:faena                                         N-SPA-MESA ; ! ""
-traje:traje                                         N-SPA-MESA ; ! ""
+traje:traje                                         N-SPA-PESO ; ! ""
 hierbabuena:hierbabuena                             N-SPA-MESA ; ! ""
 yerbabuena:yerbabuena                               N-SPA-MESA ; ! ""
 nochebuena:nochebuena                               N-SPA-MESA ; ! ""
