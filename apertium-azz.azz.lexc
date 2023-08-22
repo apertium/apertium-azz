@@ -83,7 +83,7 @@ Multichar_Symbols
 %<i_pl3%>                    !
 %<i_ref%>                    !
 
-%<on%>                       !
+%<hon%>                       !
 %<hual%>                     !
 
 
@@ -327,7 +327,7 @@ LEXICON INCORP-ADV
 
 LEXICON INCORP-DIR
 
-%<on%>:on%>                                        INCORP-DIR-FLAGS ;
+%<hon%>:on%>                                        INCORP-DIR-FLAGS ;
 %<hual%>:hual%>                                    INCORP-DIR-FLAGS ;
                                                    INCORP-DIR-FLAGS ;
 
@@ -364,36 +364,36 @@ LEXICON INCORP-NOMINAL-FLAGS
 
 LEXICON V-SIO-PRES 
 
-%<v%>%<tv2%>%<pres%>:                               V-AGR-PRES ;
-%<v%>%<tv2%>%<pp%>:%>ni                             V-AGR-PRES ;
+%<v%>%<tv%>%<pres%>:                               V-AGR-PRES ;
+%<v%>%<tv%>%<pp%>:%>ni                             V-AGR-PRES ;
 
 LEXICON V-SIO-PRET
 
-%<v%>%<tv2%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
-%<v%>%<tv2%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
+%<v%>%<tv%>%<pret%>:%{j%}%>%{k%}                   V-AGR-PRET ;
+%<v%>%<tv%>%<plu%>:%{j%}%>ka                       V-AGR-PRES ;
 
 LEXICON V-SIO-IMPF
 
-%<v%>%<tv2%>%<impf%>:%>ya                           V-AGR-PRES ;
+%<v%>%<tv%>%<impf%>:%>ya                           V-AGR-PRES ;
 
 LEXICON V-SIO-PROG
 
-%<v%>%<tv2%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
-%<v%>%<tv2%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
-%<v%>%<tv2%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
-%<v%>%<tv2%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
-%<v%>%<tv2%>:%{j%}%>t                               V-AUX-II ;
+%<v%>%<tv%>%<prog%>%<pres%>:%{j%}%>to%>k           V-AGR-PRET ;
+%<v%>%<tv%>%<prog%>%<fut%>:%{j%}%>to%>s            V-AGR-FUTR;
+%<v%>%<tv%>%<prog%>%<cni%>:%{j%}%>to%>s%>ki%{y%}a  V-AGR-PRES;
+%<v%>%<tv%>%<prog%>%<impf%>:%{j%}%>to%>ya          V-AGR-PRES ;
+%<v%>%<tv%>:%{j%}%>t                               V-AUX-II ;
 
-%<v%>%<tv2%>:                                       V-DIR ;
+%<v%>%<tv%>:                                       V-DIR ;
 
 
 LEXICON V-SIO-FUTR
 
-%<v%>%<tv2%>%<fut%>:%>s                             V-AGR-FUTR ;
-%<v%>%<tv2%>%<fut%>:%>s                             V-AUX-I ;
-%<v%>%<tv2%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
-%<v%>%<tv2%>%<cnt%>:%>ni                            V-AGR-PRES ;
-%<v%>%<tv2%>%<opt%>:                                V-AGR-OPT ;
+%<v%>%<tv%>%<fut%>:%>s                             V-AGR-FUTR ;
+%<v%>%<tv%>%<fut%>:%>s                             V-AUX-I ;
+%<v%>%<tv%>%<cni%>:%>s%>kia                        V-AGR-PRES ;
+%<v%>%<tv%>%<cnt%>:%>ni                            V-AGR-PRES ;
+%<v%>%<tv%>%<opt%>:                                V-AGR-OPT ;
 ! %<v%>%<tv%>:                                       V-DIR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -5113,7 +5113,7 @@ LEXICON Yohui
 %<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ; ! Dir/LR
 %<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui            # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej     # ;
-%<s_pl1%>yohui%<v%>%<iv%>%<opt%>:ti%>ya%>kan     # ;
+%<s_pl1%>yohui%<v%>%<iv%>%<opt%>:ti%>ya%>kan       # ;
 
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>ohu%>ij      # ;
 %<s_pl2%>yohui%<v%>%<iv%>%<pres%>:nan%>yohui%    # ;
@@ -6488,6 +6488,8 @@ hora:hora                                           N-SPA-MESA ; ! ""
 esquina:eesquina                                    N-SPA-MESA ; ! "" ! Use/?
 eskina:eskina%{j%}                                  N-Ø ; ! ""
 panela:panela                                       N-SPA-MESA ; ! ""
+chela:chela                                       N-SPA-MESA ; ! ""
+
 panela:panela%{j%}                                  N-Ø ; ! ""
 costumbre:costumbre                                 N-SPA-MESA ; ! ""
 semillita:semill%>ita                               N-SPA-MESA ; ! ""
@@ -6776,6 +6778,7 @@ cuchillo:cuchillo                                   N-SPA-PESO ; ! ""
 martillo:martillo                                   N-SPA-PESO ; ! ""
 criollo:criollo                                     N-SPA-PESO ; ! ""
 pollo:pollo                                         N-SPA-PESO ; ! ""
+pulque:pulque                                       N-SPA-PESO ; ! ""
 capullo:capullo                                     N-SPA-PESO ; ! ""
 ejemplo:ejemplo                                     N-SPA-PESO ; ! ""
 mayordomo:mayordomo                                 N-SPA-PESO ; ! ""
@@ -7667,6 +7670,7 @@ demás:demás                                         ADV-SPA ;
 apenas:apenas                                       ADV-SPA ;
 
 tanto:tanto                                         ADV-SPA ;
+aparte:aparte                                       ADV-SPA ;
 bien:bien                                           ADV-SPA ; ! "
 ahorita:ahorita                                     ADV-SPA ; ! "
 siempre:siempre                                     ADV-SPA ; ! "
