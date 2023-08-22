@@ -5504,7 +5504,7 @@ LEXICON Posesivos
 %<px1pl%>:to%{j%}%>                                Poseído ; ! tojomiuan
 %<px2pl%>:namo%>                                   Poseído ;
 %<px3pl%>:i%{N%}%>                                 Poseído ;
-%<px3pl%>:ini%{N%}%>                               Poseído ; ! Dir/LR
+%<px3pl%>:inin%>                                   Poseído ; ! Dir/LR
 %<px3nn%>:ta%>                                     Poseído ;
 %<px3aa%>:te%>                                     Poseído ;
 
@@ -5568,6 +5568,10 @@ kopa:kopa                                          N-LOC ; ! "" ! Comprobar: Só
 LEXICON Comunes 
 
 at:a                                                N-TL ; ! "agua"
+ilpikat:ilpika                                      N-TL ; ! "cinturon"
+chichililpikat:chichililpika                        N-TL ; ! "cinturon rojo"
+
+
 istajat:ista%{j%}%>a                                N-TL ; ! "agua salada"
 hueyistajat:huey%>ista%{j%}%>a                      N-TL ; ! "mar"
 ahuakat:ahuaka                                      N-TL ; ! "aguacate"
@@ -5640,6 +5644,7 @@ ayo:ayo                                             N-YO ; ! "jugo"
 kapolin:kapol                                       N-IN ; ! "capulin"
 chapolin:chapol                                     N-IN ; ! "capulin"
 kalikxit:kalikxi                                    N-TL ; ! "horcón"
+neskayot:neskayo                                    N-TL ; ! "imagen"
 koukalikxit:kou%>kalikxi                            N-TL ; ! "horcón"
 kuoukalikxit:kuou%>kalikxi                          N-TL ; ! "horcón"
 xalkapolin:xal%>kapol                               N-IN ; ! ""
@@ -5729,9 +5734,6 @@ tepexonot:tepexono                                  N-TL ; ! ""
 naluat:nalua                                        N-TL ; ! "raíz"
 milajmosot:milajmoso                                N-TL ; ! ""
 huejhueikilit:huejhueikili                          N-TL ; ! ""
-
-ilpikatl:ilpika                                     N-TL ; ! "cinturón"
-chichililpikatl:chichililpika                       N-TL ; ! "cinturón rojo"
 
 tepechilkohuit:tepe%>chil%>ko                       N-HUITL ; ! ""
 kuitakohuit:kuita%>ko                               N-HUITL ; ! ""
