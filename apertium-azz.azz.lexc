@@ -109,6 +109,8 @@ Multichar_Symbols
 %<and%>                      !
 %<ven%>                      !
 
+%<cfact%>                    ! counterfactual
+
 %<sen%>                      !
 %<yek%>                      !
 %<nal%>                      !
@@ -587,7 +589,7 @@ LEXICON V-AGR-FUTR
 @R.PLUR.1@:@R.PLUR.1@%>kej                         # ; 
 
 LEXICON V-AGR-OPT
-
+# ;
 @R.PLUR.1@:@R.PLUR.1@%>kan                         # ; 
 
 
@@ -778,7 +780,7 @@ LEXICON CMPND
 LEXICON N-POSS
 
 @R.POSS.1@:@R.POSS.1@                              # ; 
-@R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;! Dir/LR
+@R.POSS.1@:@R.POSS.1@%>%{w%}                       # ;! Dir/RL
 @R.POSS.1@%<pl%>:@R.POSS.1@%>huan                  # ;
 
 
@@ -3411,10 +3413,10 @@ oksi:oksi                                           V-S-PRET ;
 oksi:oksi                                           V-S-FUTR ;
 
 ! "haber"
-onka:onka                                           V-S-PRES ;
+! onka:onka                                           V-S-PRES ;
 onka:onka                                           V-S-IMPF ;
 onka:onka                                           V-S-PROG ;
-onka:onka                                           V-S-PRET ;
+! onka:onka                                           V-S-PRET ;
 onka:onka                                           V-S-FUTR ;
 
 ! "pudrirse"
@@ -4929,12 +4931,14 @@ yolsahuani:yolsahuani                                 V-S-PROG ; ! ""
 yolsahuani:yolsahuani                                 V-S-PRET ; ! ""
 yolsahuani:yolsahuani                                 V-S-FUTR ; ! ""
 
-! "hacer"
-chijchihua:chi%{j%}chihua                             V-S-PRES ;
-chijchihua:chi%{j%}chihua                             V-S-IMPF ;
-chijchihua:chi%{j%}chihu                              V-S-PROG ;
-chijchihua:chi%{j%}chihua                             V-S-PRET ;
-chijchihua:chi%{j%}chihua                             V-S-FUTR ;
+
+! todo: investigate why this was ever here in the first place...
+! ! "hacer"
+! chijchihua:chi%{j%}chihua                             V-S-PRES ;
+! chijchihua:chi%{j%}chihua                             V-S-IMPF ;
+! chijchihua:chi%{j%}chihu                              V-S-PROG ;
+! chijchihua:chi%{j%}chihua                             V-S-PRET ;
+! chijchihua:chi%{j%}chihua                             V-S-FUTR ;
 
 chihui:chihui                                         V-S-PRES ; ! "acontecer"
 chihui:chihui                                         V-S-IMPF ; ! "acontecer"
@@ -5103,14 +5107,26 @@ LEXICON Irregulares
 Yohui ; 
 Huitsa ; 
 Huala ; 
+Onkak ;
+
+LEXICON Onkak
+
+%<s_sg3%>onkak%<v%>%<iv%>%<pres%>:onkak            # ;
+%<s_pl3%>onkak%<v%>%<iv%>%<pres%>:onkak%>ej        # ;
+
+%<s_sg3%>onkak%<v%>%<iv%>%<cfact%>:onka%>ni        # ;
+%<s_pl3%>onkak%<v%>%<iv%>%<cfact%>:onka%>ni%>j     # ;
+
+%<s_sg3%>onkak%<v%>%<iv%>%<fut%>:onka%>s        # ;
+%<s_pl3%>onkak%<v%>%<iv%>%<fut%>:onka%>s%>kej     # ;
 
 
 LEXICON Yohui 
 
 %<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo           # ;
 %<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo           # ;
-%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%}      # ; ! Dir/LR
-%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ; ! Dir/LR
+%<s_sg1%>yohui%<v%>%<iv%>%<pres%>:ni%>yo%{w%}      # ; ! Dir/RL
+%<s_sg2%>yohui%<v%>%<iv%>%<pres%>:ti%>yo%{w%}      # ; ! Dir/RL
 %<s_sg3%>yohui%<v%>%<iv%>%<pres%>:yohui            # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<pres%>:ti%>yohu%>ej     # ;
 %<s_pl1%>yohui%<v%>%<iv%>%<opt%>:ti%>ya%>kan       # ;
@@ -5325,6 +5341,8 @@ cuando:cuan                                        CS ; ! "cuando" ! False start
 que:que                                            CS ; ! "que"
 mientras:mientras                                  CS ; ! "mientras"
 ke:ke                                              CS ; ! "que"
+ke:kej                                             CS ; ! "que"
+
 keman:keman                                        CS ; ! "cuando"
 ijhuak:ijhuak                                      CS ; ! "cuando"
 ta:ta                                              CS ; ! "si"
@@ -5350,7 +5368,7 @@ takan:takan                                        CS ; ! "si"
 os:os                                              CS ; ! "si"
 
 ijkuak:i%{j%}kuak                                  CS ; ! "cuando"
-ijkuak:kuak                                        CS ; ! "cuando" ! Dir/LR
+ijkuak:kuak                                        CS ; ! "cuando" ! Dir/RL
 
 LEXICON Pronombres
 
@@ -5358,9 +5376,9 @@ nehua:ne                                           PRON-SG1 ;
 tehua:te                                           PRON-SG2 ;
 yehua:ye                                           PRON-SG3 ;
 
-nehua:nej                                           PRON-SG1 ; ! Dir/LR
-tehua:tej                                           PRON-SG2 ; ! Dir/LR
-yehua:yej                                           PRON-SG3 ; ! Dir/LR
+nehua:nej                                           PRON-SG1 ; ! Dir/RL
+tehua:tej                                           PRON-SG2 ; ! Dir/RL
+yehua:yej                                           PRON-SG3 ; ! Dir/RL
 
 tehuan:te%{j%}                                       PRON-PL1 ;
 namehuan:name                                        PRON-PL2 ;
@@ -5409,8 +5427,8 @@ lo:lo                                              PRON ;
 LEXICON Determinantes 
 
 in:in                                              DET ; ! "el" 
-in:n                                               DET ; ! "el" ! Dir/LR
-in:n%'                                             DET ; ! "el" ! Dir/LR
+in:n                                               DET ; ! "el" ! Dir/RL
+in:n%'                                             DET ; ! "el" ! Dir/RL
 
 non:no                                              DET ; ! "ese"
 non:non                                             DET ; ! "ese"
@@ -5504,7 +5522,7 @@ LEXICON Posesivos
 %<px1pl%>:to%{j%}%>                                Poseído ; ! tojomiuan
 %<px2pl%>:namo%>                                   Poseído ;
 %<px3pl%>:i%{N%}%>                                 Poseído ;
-%<px3pl%>:inin%>                                   Poseído ; ! Dir/LR
+%<px3pl%>:inin%>                                   Poseído ; ! Dir/RL
 %<px3nn%>:ta%>                                     Poseído ;
 %<px3aa%>:te%>                                     Poseído ;
 
@@ -5521,7 +5539,7 @@ LEXICON Relacionales
 
 huan:huan                                          N-REL ; ! "con"
 ka:ka                                              N-REL ; ! "con"
-ka:jka                                             N-REL ; ! "con" Dir/LR
+ka:jka                                             N-REL ; ! "con" Dir/RL
 tech:tech                                          N-REL ; ! ""
 panko:panko                                        N-REL ; ! ""
 poxko:poxko                                        N-REL ; ! ""
@@ -5763,6 +5781,7 @@ xitomachil:xitoma%>chil                             N-Ø ; ! ""
 xolal:xolal                                         N-Ø ; ! "pueblo"
 xolal:xolol                                         N-Ø ; ! "pueblo"
 xolalkonet:xolal%>kone                              N-TL ; ! ""
+tahmachkamisa:tahmachkamisa                         N-Ø ; ! "camisa bordada"
 teyo:teyo                                           N-Ø ; ! "fruto"
 ehuayo:ehuayo                                       N-Ø ; ! "cáscara"
 atol:atol                                           N-Ø ; ! "atole"
@@ -6481,7 +6500,6 @@ cuenta:cuenta                                       N-SPA-MESA ; ! ""
 nanotecnología:nanotecnología                       N-SPA-MESA ; ! ""
 radiografía:radiografía                             N-SPA-MESA ; ! ""
 electromagnética:electromagnética                   N-SPA-MESA ; ! ""
-nanométrica:nanométrica                             N-SPA-MESA ; ! ""
 vía:vía                                             N-SPA-MESA ; ! ""
 física:física                                       N-SPA-MESA ; ! ""
 estuca:estuca                                       N-SPA-MESA ; ! ""
@@ -7364,7 +7382,7 @@ mero:mer                                            ADJ-SPA-MALO ; ! ""
 mismo:mism                                          ADJ-SPA-MALO ; ! ""
 delicado:delicad                                    ADJ-SPA-MALO ; ! ""
 momorado:mo%{j%}morad                               ADJ-SPA-MALO ; ! ""
-nanométrica:nanométric                              ADJ-SPA-MALO ; ! ""  
+nanométrico:nanométric                              ADJ-SPA-MALO ; ! ""  
 originario:originari                                ADJ-SPA-MALO ;
 
 
@@ -7419,7 +7437,7 @@ ompaka:ompaka                                       ADV ; ! "allá"
 ompakahuin:ompakahuin                               ADV ; ! "allá"
 ne:ne                                               ADV ; ! "allá"
 nepa:nepa                                           ADV ; ! "allá"
-onkak:onkak                                         ADV ; ! "aquí"
+! onkak:onkak                                         ADV ; ! "aquí"
 
 ilihuis:ilihuis                                     ADV ; ! " muy"
 
@@ -7455,9 +7473,9 @@ senkaj:senkaj                                       ADV ; ! ""
 ayamo:ayamo                                         ADV ; ! ""
 
 ijkon:i%{j%}kon                                     ADV ; ! "así" 
-ijkon:i%{j%}kón                                     ADV ; ! "así" ! Dir/LR
+ijkon:i%{j%}kón                                     ADV ; ! "así" ! Dir/RL
 ijkokon:i%{j%}kokon                                 ADV ; ! "así"
-ijkon:jkon                                          ADV ; ! "así" ! Dir/LR
+ijkon:jkon                                          ADV ; ! "así" ! Dir/RL
 ijkoni:i%{j%}koni                                   ADV ; ! "así"
 ijkuin:i%{j%}kuin                                   ADV ; ! "así"
 ijkuin:%{j%}kuin                                    ADV ; ! "así"
