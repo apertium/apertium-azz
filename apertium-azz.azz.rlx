@@ -76,6 +76,7 @@ REMOVE SS IF (-1C Ant) (0C Cog) ;
 
 SELECT San IF (1 Ant) ;
 
+SELECT Adv IF (1 Adv) ;
 
 SECTION
 
