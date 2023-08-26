@@ -46,7 +46,7 @@ Multichar_Symbols
 %<cog%>                      !
 %<cmp%>                      !
 %<dim%>                      !
-%<on%>                      !
+%<hon%>                      !
 %<incorp%>                   !
 
 %<f%>                        !
@@ -83,7 +83,7 @@ Multichar_Symbols
 %<i_pl3%>                    !
 %<i_ref%>                    !
 
-%<on%>                       !
+%<hon%>                       !
 %<hual%>                     !
 
 
@@ -205,7 +205,7 @@ LEXICON AGR-SUBJ-NV
 
 %<s_sg1%>:ni%>                                     AGR-SUBJ-NV-FLAGS ;
 %<s_sg2%>:ti%>                                     AGR-SUBJ-NV-FLAGS ;
-%<s_sg2%>%<on%>:t%>on                             AGR-SUBJ-NV-FLAGS ;
+%<s_sg2%>%<hon%>:t%>on                             AGR-SUBJ-NV-FLAGS ;
 %<s_sg3%>:0%>                                      AGR-SUBJ-NV-FLAGS ;
 %<s_pl1%>:ti%>                                     AGR-SUBJ-NV-FLAGS-PLUR ;
 %<s_pl2%>:nan%>                                    AGR-SUBJ-NV-FLAGS-PLUR ;
@@ -270,7 +270,7 @@ LEXICON AGR-OBJ-SI
 
 %<i_sg1%>:nech%>                                   AGR-OBJ-SI-FLAGS ;
 %<i_sg2%>:mits%>                                   AGR-OBJ-SI-FLAGS ;
-%<i_sg2%>%<on%>:mits%>on%>                        AGR-OBJ-SI-FLAGS ;
+%<i_sg2%>%<hon%>:mits%>on%>                        AGR-OBJ-SI-FLAGS ;
 %<i_sg3%>:k%{i%}%>                                 AGR-OBJ-SI-FLAGS ;
 %<i_pl1%>:tech%>                                   AGR-OBJ-SI-FLAGS ;
 %<i_pl2%>:namech%>                                 AGR-OBJ-SI-FLAGS ;
@@ -285,7 +285,7 @@ LEXICON AGR-OBJ-SO
 
 %<o_sg1%>:nech%>                                   AGR-OBJ-SO-FLAGS ;
 %<o_sg2%>:mits%>                                   AGR-OBJ-SO-FLAGS ;
-%<o_sg2%>%<on%>:mits%>on%>                        AGR-OBJ-SO-FLAGS ;
+%<o_sg2%>%<hon%>:mits%>on%>                        AGR-OBJ-SO-FLAGS ;
 %<o_sg3%>:k%{i%}%>                                 AGR-OBJ-SO-FLAGS ;
 %<o_pl1%>:tech%>                                   AGR-OBJ-SO-FLAGS ;
 %<o_pl2%>:namech%>                                 AGR-OBJ-SO-FLAGS ;
@@ -329,7 +329,7 @@ LEXICON INCORP-ADV
 
 LEXICON INCORP-DIR
 
-%<on%>:on%>                                        INCORP-DIR-FLAGS ;
+%<hon%>:on%>                                        INCORP-DIR-FLAGS ;
 %<hual%>:hual%>                                    INCORP-DIR-FLAGS ;
                                                    INCORP-DIR-FLAGS ;
 
@@ -618,57 +618,57 @@ LEXICON NO-POSS
 LEXICON N-REL
 
 @R.POSS.1@%<n%>%<rel%>:@R.POSS.1@                  # ;
-%<n%>%<rel%>%<on%>:%>tsin                         # ;
-%<n%>%<rel%>%<on%>%<pl%>:%>tsitsin                # ;
-%<n%>%<rel%>%<on%>%<loc%>:%>tsin%>ko              # ;
-%<n%>%<rel%>%<on%>%<pl%>%<loc%>:%>tsitsin%>ko     # ;
+%<n%>%<rel%>%<hon%>:%>tsin                         # ;
+%<n%>%<rel%>%<hon%>%<pl%>:%>tsitsin                # ;
+%<n%>%<rel%>%<hon%>%<loc%>:%>tsin%>ko              # ;
+%<n%>%<rel%>%<hon%>%<pl%>%<loc%>:%>tsitsin%>ko     # ;
 
 LEXICON N-LOC
 
 %<n%>%<rel%>:                                      # ;
-%<n%>%<rel%>%<on%>:%>tsin                         # ;
-%<n%>%<rel%>%<on%>%<pl%>:%>tsitsin                # ;
+%<n%>%<rel%>%<hon%>:%>tsin                         # ;
+%<n%>%<rel%>%<hon%>%<pl%>:%>tsitsin                # ;
 
 LEXICON N-TL 
 
 %<n%>%<abs%>:%>t                                   NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-PL-REDUP
 
 %<n%>%<pl%>:                                       # ;
-%<n%>%<on%>%<pl%>:%>tsin                          # ;
+%<n%>%<hon%>%<pl%>:%>tsin                          # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>ti                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-Ø
 
 %<n%>%<abs%>:%>                                    NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-OYAN
 
 %<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 
@@ -676,65 +676,65 @@ LEXICON N-ITL
 
 %<n%>%<abs%>:%>it                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-LI
 
 %<n%>%<abs%>:%>i                                   NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>mej                                  # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-IN
 
 %<n%>%<abs%>:%>in                                  NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:i%>mej                                 # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-YO
 
 %<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-NI
 
 %<n%>%<abs%>:                                      NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:%>tsin                                # ;
+%<n%>%<hon%>:%>tsin                                # ;
 %<n%>%<pl%>:%>j                                    # ;
-%<n%>%<on%>%<pl%>:%>tsi%>tsin                     # ;
+%<n%>%<hon%>%<pl%>:%>tsi%>tsin                     # ;
 %<n%>%<cmp%>%+:                                    CMPND ;
 
 LEXICON N-HUITL
 
 %<n%>%<abs%>:%>huit                                NO-POSS ;
 %<n%>:                                             N-POSS ;
-%<n%>%<on%>:u%>tsin                               # ;
-%<n%>%<on%>:ui%>tsin                              # ;
+%<n%>%<hon%>:u%>tsin                               # ;
+%<n%>%<hon%>:ui%>tsin                              # ;
 %<n%>%<pl%>:u%{j%}%>mej                            # ;
 %<n%>%<pl%>:hui%>mej                               # ;
-%<n%>%<on%>%<pl%>:u%>tsi%>tsin                    # ;
+%<n%>%<hon%>%<pl%>:u%>tsi%>tsin                    # ;
 %<n%>%<cmp%>%+:u                                   CMPND ;
 
 ! LEXICON N-HUAN
 
 ! %<n%>%<abs%>:n                                     NO-POSS ;
 ! %<n%>:                                             N-POSS ;
-! %<n%>%<on%>:n%>tsin                               # ;
+! %<n%>%<hon%>:n%>tsin                               # ;
 ! %<n%>%<pl%>:%>j                                    # ;
-! %<n%>%<on%>%<pl%>:n%>tsi%>tsin                    # ;
+! %<n%>%<hon%>%<pl%>:n%>tsi%>tsin                    # ;
 ! %<n%>%<cmp%>%+:n                                   CMPND ;
 
 LEXICON N-SPA-PESO
@@ -829,12 +829,12 @@ LEXICON NP-COG
 LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>:                                # ;
-%<np%>%<ant%>%<m%>%<on%>:%>tsin                   # ;
+%<np%>%<ant%>%<m%>%<hon%>:%>tsin                   # ;
 
 LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>:                                # ;
-%<np%>%<ant%>%<f%>%<on%>:%>tsin                   # ;
+%<np%>%<ant%>%<f%>%<hon%>:%>tsin                   # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -857,7 +857,7 @@ LEXICON DET-MIAK
 LEXICON PRON-NEHUATL
 
 %<abs%>:%>huatl                                    # ; 
-%<on%>:%>hua%>tsin                                # ; 
+%<hon%>:%>hua%>tsin                                # ; 
 %<short%>:%>j                                      # ; 
 %<short%>:                                         # ; 
 :%>hua                                             # ; 
@@ -867,7 +867,7 @@ LEXICON PRON-TEHUAN
 
 %<abs%>:%>huan                                     # ; 
 %<abs%>:%>hua                                      # ; 
-!%<on%>:%>hua%>tsin                                # ; 
+!%<hon%>:%>hua%>tsin                                # ; 
 %<short%>:%>jan                                    # ; 
 !:%>hua                                             # ; 
 
@@ -914,8 +914,8 @@ LEXICON PRON-NEJIN
 LEXICON ADV
 
 %<adv%>:                                           # ; 
-%<adv%>%<on%>:%>tsin                              # ; 
-%<adv%>%<on%>%<pl%>:%>tsi%>tsin                   # ; 
+%<adv%>%<hon%>:%>tsin                              # ; 
+%<adv%>%<hon%>%<pl%>:%>tsi%>tsin                   # ; 
 
 LEXICON ADV-SPA
 
@@ -935,25 +935,25 @@ LEXICON ADJ
 
 %<adj%>%<sg%>:                                           V-AGR-PRET ; 
 %<adj%>%<pl%>:%>mej                                V-AGR-PRET ; 
-%<adj%>%<on%>:%>tsin                              V-AGR-PRET ; 
-%<adj%>%<on%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
+%<adj%>%<hon%>:%>tsin                              V-AGR-PRET ; 
+%<adj%>%<hon%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
 
 LEXICON ADJ-REDUP
 
 %<adj%>%<redup%>:                                  V-AGR-PRET ; 
 %<adj%>%<redup%>%<pl%>:%>mej                       V-AGR-PRET ; 
-%<adj%>%<redup%>%<on%>:%>tsin                     V-AGR-PRET ; 
-%<adj%>%<redup%>%<on%>%<pl%>:%>tsi%>tsin          V-AGR-PRET ; 
+%<adj%>%<redup%>%<hon%>:%>tsin                     V-AGR-PRET ; 
+%<adj%>%<redup%>%<hon%>%<pl%>:%>tsi%>tsin          V-AGR-PRET ; 
 
 LEXICON ADJ-HUEI
 %<adj%>%<sg%>:%>i                                        V-AGR-PRET ; 
-%<adj%>%<on%>%<sg%>:i%>tsin                             V-AGR-PRET ; 
-%<adj%>%<on%>%<pl%>:i%>tsi%>tsin                  V-AGR-PRET ; 
+%<adj%>%<hon%>%<sg%>:i%>tsin                             V-AGR-PRET ; 
+%<adj%>%<hon%>%<pl%>:i%>tsi%>tsin                  V-AGR-PRET ; 
 
 LEXICON ADJ-KUALI
 %<adj%>%<sg%>:%>i                                        V-AGR-PRET ; 
-%<adj%>%<on%>%<sg%>:%>tsin                              V-AGR-PRET ; 
-%<adj%>%<on%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
+%<adj%>%<hon%>%<sg%>:%>tsin                              V-AGR-PRET ; 
+%<adj%>%<hon%>%<pl%>:%>tsi%>tsin                   V-AGR-PRET ; 
 
 LEXICON ADJ-TSIN
 
@@ -996,7 +996,7 @@ LEXICON NUM-REDUP
 LEXICON NUM-SE
 
 %<num%>:                                           # ; 
-%<num%>%<on%>:%>tsin                              # ; 
+%<num%>%<hon%>:%>tsin                              # ; 
 
 LEXICON NUM-SPA
 
@@ -6572,6 +6572,7 @@ noviembre:noviembre                                 N-SPA-PESO ; ! ""
 deciembre:deciembre                                 N-SPA-PESO ; ! ""
 diciembre:diciembre                                 N-SPA-PESO ; ! ""
 sombrero:sombrero                                   N-SPA-PESO ; ! ""
+mixiote:mixiote                                     N-SPA-PESO ; ! ""
 
 
 lunes:lunes                                         N-SPA-LUNES ; ! ""

@@ -78,6 +78,8 @@ SELECT San IF (1 Ant) ;
 
 SELECT Adv IF (1 Adv) ;
 
+SELECT V IF (-1 Adv) (NOT -1 V) (NOT 1 V);
+
 SECTION
 
 REMOVE SSg3 IF (0 MaybePl) (0C ORefl) ;
