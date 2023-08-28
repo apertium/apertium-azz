@@ -30,12 +30,15 @@ TARGETS_INTERMEDIATE = $(LANG1).mor.hfst $(LANG1).seg.hfst $(LANG1).gen.hfst $(L
 ###############################################################################
 
 # nimahtlapaltzin:<s_sg1>mahtlapal<n><dim>
-.deps/azz.mor.hfst: .deps/azz.gen.hfst .deps/azz.mor.twol.hfst
-	hfst-compose-intersect -1 .deps/azz.gen.hfst -2 .deps/azz.mor.twol.hfst | hfst-minimise | hfst-invert -o $@
+.deps/azz.mor.hfst: .deps/azz.LR.gen.hfst .deps/azz.mor.twol.hfst
+	hfst-compose-intersect -1 .deps/azz.LR.gen.hfst -2 .deps/azz.mor.twol.hfst | hfst-minimise | hfst-invert -o $@
 
 # amatl<n><dim><pl>:ama>tzi>tzin
 .deps/azz.gen.hfst: .deps/azz.RL.lexc.hfst .deps/azz.twol.hfst
 	hfst-compose-intersect -1 .deps/azz.RL.lexc.hfst -2 .deps/azz.twol.hfst | hfst-minimise  -o $@
+
+.deps/azz.LR.gen.hfst: .deps/azz.lexc.hfst .deps/azz.twol.hfst
+	hfst-compose-intersect -1 .deps/azz.lexc.hfst -2 .deps/azz.twol.hfst | hfst-minimise  -o $@
 
 .deps/azz.twol.hfst: apertium-azz.azz.twol
 	hfst-twolc $< -o $@
