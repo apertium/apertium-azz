@@ -552,7 +552,7 @@
 # text[a9] = Se: yo:n tein wehkapan moskaltia ata,
 # text[a10] = wa[:n] wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsi:n wa:n seki,
 # text[a11] = *más** pisi:ltik.
-# labels = a10 a11 a9 sentence, check
+# labels = a10 a11 a9 sentence
 1	Se	se	NUM	_	_	2	dislocated	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -1083,7 +1083,6 @@
 # sent_id = kiteixmatiltijtok-tamachilis:33
 # text = ¡Maj sekikixtili in istat!
 # text[spa] = ¡Sí, quitándole la sal!
-# labels = check-morph
 1	¡	¡	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Maj	ma	AUX	_	_	3	aux	_	_
 3	sekikixtili	kixtilia	VERB	_	Number[obj]=Sing|Person[obj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -3045,7 +3044,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:76
 # text = Mochiua kajfentaj.
 # text[spa] = Se da en el cafetal.
-# labels = sentence, kafentah-noun-or-adv
+# labels = sentence
 1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[obj]=Yes
 2	kajfentaj	kafentaj	NOUN	_	Case=Abs	1	obl	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -4219,7 +4218,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:185:4
 # text = Iteyo Yek pisiltik.
 # text[spa] = Su semilla es muy pequeñita.
-# labels = sentence, should yek be joined to pisiltik? its an adverbial morpheme
+# labels = sentence yek-word-or-prefix
 1	Iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 2	Yek	yek	ADV	_	_	3	advmod	_	Incorporated=Yek
 3	pisiltik	pisiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
@@ -5340,12 +5339,12 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:281
 # text = Ueyi moketsa, kachi uejkapantik ke se kali.
 # text[spa] = Crece alto, más alto que una casa.
-# labels = sentence, not-sure-about-first-advcl-maybe-should-be-parataxis
+# labels = sentence
 1	Ueyi	huei	ADJ	_	_	2	advmod	_	_
 2	moketsa	moketsa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	kachi	kachi	ADV	_	_	5	advmod	_	_
-5	uejkapantik	huejkapantik	ADJ	_	_	2	advmod	_	_
+5	uejkapantik	huejkapantik	ADJ	_	_	2	parataxis	_	_
 6	ke	ke	SCONJ	_	_	8	mark	_	_
 7	se	se	NUM	_	_	8	det	_	_
 8	kali	kali	NOUN	_	Case=Abs	5	nmod	_	SpaceAfter=No
@@ -5703,7 +5702,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:313
 # text = Itakka kitemaka ajkoijkak, amo kipampiloua in ipajpatayo kemej in okseki pajpata.
 # text[spa] = Sus frutos los da hacia arriba, su racimo no se cuelga como los otros tipos de plátanos.
-# labels = sentence, how-to-treat-ok-seki
+# labels = sentence
 1	Itakka	takka	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	kitemaka	maka	VERB	_	Animacy[obj]=Anim|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Number[iobj]=Sing|Person[iobj]=3
 3	ajkoijkak	ajkoijkak	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -5746,7 +5745,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:317
 # text = Mochiua miak ne Kalikampa.
 # text[spa] = Por Kalikan se da bastante.
-# labels = sentence, miak-adv-or-pron
+# labels = sentence
 1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[obj]=Yes
 2	miak	miak	ADV	_	_	1	advmod	_	_
 3	ne	ne	ADV	_	_	1	advmod	_	_
@@ -6103,9 +6102,7 @@
 # text = Nochiua itech ixtauat.
 # text[spa] = Se da en los potreros.
 # labels = sentence typo
-1-2	Nochiua	_	_	_	_	_	_	_	_
-1	No	No	ADV	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advmod	_	Reflexive[obj]=Yes
-2	chihua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[obj]=Yes
+2	Nochihua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres|Typo=yes	0	root	_	Reflexive[obj]=Yes|CorrectForm=Mochihua
 3	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 4	ixtauat	ixtahuat	NOUN	_	Case=Abs	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
@@ -7517,7 +7514,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:563
 # text = Iujki kitokaytiaj por in ijuak se kiki xtilia in ieuayo uan peua se kikua mokaujtiuj itech iteyo pané seki tsonti.
 # text[spa] = Se llama así porque cuando uno le quita la cáscara y se lo empieza a comer, se le van quedando en la semilla unos como cabellos.
-# labels = sentence, pane-as-adv-or-aux
+# labels = sentence
 1	Iujki	iuki	ADV	_	_	2	advmod	_	_
 2	kitokaytiaj	tokaytia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 3	por	por	ADP	_	_	15	mark	_	_
@@ -7945,11 +7942,11 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:721:1
 # text = No kualtia se kichijchiua atol uan se tayi.
 # text[spa] = Su camote sirve también para hacer atole: se muele el camote, se cuela y se revuelve con masa, se hierve y se endulza y a beberlo.
-# labels = sentence, csubj-or-advcl-without-the-para
+# labels = sentence
 1	No	no	ADV	_	_	2	advmod	_	_
 2	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 3	se	se	NUM	_	_	4	nsubj	_	_
-4	kichijchiua	chijchihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	_
+4	kichijchiua	chijchihua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	csubj	_	_
 5	atol	atol	NOUN	_	Case=Abs	4	obj	_	_
 6	uan	huan	CCONJ	_	_	8	cc	_	_
 7	se	se	NUM	_	_	8	nsubj	_	_
@@ -8345,7 +8342,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:762
 # text = Monamaka ikamojyo tamanal oso xoxouik.
 # text[spa] = El camote se vende hervido o crudo.
-# labels = sentence, weird-case-of-adv-modifying-implicit-subj
+# labels = sentence
 1	Monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[iobj]=Yes
 2	ikamojyo	kamojyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	obj	_	_
 3	tamanal	tamanal	ADJ	_	_	1	xcomp	_	_
@@ -8650,9 +8647,9 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:799:1
 # text = In tokniuan tein pouij itech in Taller tatsintokakej, kiijkuilojkej in tajtol uan kipatakej koyokopa.
 # text[spa] = Los miembros del Taller hicieron las entrevistas, las transcribieron y las tradujeron.
-# labels = sentence, update-number[psor]-for-toknihuan
+# labels = sentence
 1	In	in	DET	_	_	2	det	_	_
-2	tokniuan	ikni	NOUN	_	Case=Abs	8	nsubj	_	_
+2	tokniuan	ikni	NOUN	_	Case=Abs|Number[psor]=Plur|Person[psor]=1	8	nsubj	_	_
 3	tein	tein	PRON	_	_	4	nsubj	_	_
 4	pouij	pohui	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Intr|Tense=Pres	2	acl:relcl	_	_
 5	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
@@ -9382,7 +9379,6 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1527
 # text = solo kininmaka in pitsotsitsin inixiujyo.
 # text[spa] = solo les dan sus hojas a los puerquitos.
-# labels = fragment
 1	solo	sólo	ADV	_	_	2	advmod	_	_
 2	kininmaka	maka	VERB	_	Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Number[iobj]=Plur|Person[iobj]=3
 3	in	in	DET	_	_	4	det	_	_
@@ -10595,7 +10591,7 @@
 # text = Wan yon ox miak se kikwi.
 # text[orig] = Wa:n yo:n ox miak se: kikwi.
 # text[spa] = ¿Y esas hojas se ocupan muchas?.
-# labels = a126 sentence, questionable-treatment-of-yo
+# labels = a126 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -12950,7 +12946,7 @@
 # text = Yon amo kachi kikwih.
 # text[orig] = Yo:n a:mo kachi kikwih.
 # text[spa] = Ésa madera casi no la usan.
-# labels = a85 sentence cleft
+# labels = a85 sentence
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2	n	in	DET	_	_	5	mark	_	_
@@ -13495,7 +13491,7 @@
 # text[a52] = ka:ni mochi:wa, ne: katí:n achi de wehkapan mochi:wa n' kwowit,
 # text[a53] = o..., ox se: kikwa oso,
 # text[a54] = Yehwa n' tiknekih timitstahtani:skeh.
-# labels = a50 a51 a52 a53 a54 sentence, why-is-ox-mark-not-eg-aux
+# labels = a50 a51 a52 a53 a54 sentence
 1	Pos	pos	ADV	_	_	4	advmod	_	_
 2	t...	t	X	_	_	4	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -13963,7 +13959,7 @@
 # text = Tel miak tasohkamatik.
 # text[orig] = Tel miak tasohka:matik.
 # text[spa] = Muchas gracias, quiero que me digas tu nombre.
-# labels = a84 sentence, seems-weird
+# labels = a84 sentence
 1	Tel	tel	ADV	_	_	2	advmod	_	Incorporated=Tel
 2	miak	miak	ADJ	_	_	3	amod	_	_
 3	tasohkamatik	tasojkamatik	INTJ	_	_	0	root	_	SpaceAfter=No
@@ -14284,7 +14280,7 @@
 # text = Mapatawak n' imay, mapapatawak mas achi yewaltik achi n' imay, imawan.
 # text[orig] = Ma:pata:wak n' ima:y, ma:pa:pata:wak *más** achi yewaltik achi n' ima:y, ima:wa:n.
 # text[spa] = Las hojas son anchas, las hojas son más anchas, son un poco más redondas.
-# labels = a58 sentence, imai-imawan-appos-or-reparandum
+# labels = a58 sentence
 1	Mapatawak	mapatahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	n'	in	DET	_	_	3	det	_	_
 3	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
@@ -14295,9 +14291,9 @@
 8	yewaltik	yehualtik	ADJ	_	_	1	parataxis	_	_
 9	achi	achi	ADV	_	_	8	advmod	_	_
 10	n'	in	DET	_	_	11	det	_	_
-11	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	8	nsubj	_	SpaceAfter=No
+11	imay	may	NOUN	_	Number[psor]=Sing|Person[psor]=3	13	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	imawan	mait	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	11	appos	_	SpaceAfter=No
+13	imawan	mait	NOUN	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tzina_Botan_JVC313_tomakilit-Solanaceae_2011-07-18-p_ed-2020-02-05_Trad-ADA_FORM.eaf:a58:3
@@ -15511,7 +15507,7 @@
 # text = Wan, nen, itapalo.
 # text[orig] = Wa:n, ne:n, itapalo.
 # text[spa] = ¿De qué color es (quizá se refiera al color de la flor o del trocno)?
-# labels = a38 sentence, weird-translation
+# labels = a38 sentence
 1	Wan	huan	CCONJ	_	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	nen	nen	INTJ	_	_	5	discourse	_	SpaceAfter=No
@@ -16115,7 +16111,7 @@
 # text = Kemeh, kemeh, nen, tikiliah iyat imay.
 # text[orig] = Ke:meh, ke:meh, ne:n, tikiliah iyat ima:y.
 # text[spa] = Como, como, este, las hojas del tabaco.
-# labels = a25 sentence, check-mait-lemma
+# labels = a25 sentence
 1	Kemeh	kemej	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	kemeh	kemej	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -16156,7 +16152,7 @@
 # text[spa] = Son rojas, las flores son rojas, y se hace frondoso, así de este tamaño.
 # text[a45] = Chi:chi:ltik, chi:chi:ltik n' ixo:chio,
 # text[a46] = wa:n mochi:wa malakachtsí:n ihko:ntsi:n.
-# labels = a45 a46 sentence, check-secondary predication of mochiwa
+# labels = a45 a46 sentence
 1	Chichiltik	chijchiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	chichiltik	chijchiltik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	parataxis	_	_
@@ -16443,11 +16439,11 @@
 # text[spa] = Este, y yo sé que el tallo, así como tu dices, arde muy bien pero el tronco es un poco fibroso.
 # text[a125] = Ne:,
 # text[a127] = wa:n ikowyo neh nikmattok *que** neli n' tikihtowa ne: kwaltsi:n xo:ta pero ne: yamax..., mahyá: xo:no:tik n' ikowyo.
-# labels = a125 a127 sentence check-fronted-nsubj
-1	Ne	ne	ADV	_	_	6	discourse	_	SpaceAfter=No
+# labels = a125 a127 sentence
+1	Ne	ne	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	wan	huan	CCONJ	_	_	6	cc	_	_
-4	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
+4	ikowyo	kouyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	13	dislocated	_	_
 5	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	6	nsubj	_	_
 6	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
 7	que	que	SCONJ	_	_	10	mark	_	_
