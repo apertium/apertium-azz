@@ -662,10 +662,10 @@
 # sent_id = kiteixmatiltijtok-tamachilis:3
 # text = Se youal keman takistok uan amo metstona, itech milaj, uelis se kinitas miyakej sitalimej itech iluikak.
 # text[spa] = En una noche despejada y sin luna, desde el campo, podemos ver una gran cantidad de estrellas en el cielo.
-# labels = complete-tree check-mark
+# labels = complete-tree
 1	Se	se	NUM	_	_	2	det	_	_
 2	youal	yohual	NOUN	_	Case=Abs	14	obl	_	_
-3	keman	keman	ADV	_	_	4	mark	_	_
+3	keman	keman	ADV	_	_	4	advmod	_	_
 4	takistok	takistok	ADJ	_	Number[subj]=Sing|Person[subj]=3	2	advcl	_	_
 5	uan	huan	CCONJ	_	_	7	cc	_	_
 6	amo	amo	ADV	_	_	7	advmod	_	_
@@ -1093,8 +1093,8 @@
 
 # sent_id = kiteixmatiltijtok-tamachilis:34
 # text = ¿Tikmatiya ke onkak miyak tamatemolis uan mochiuaj teposmej teyin ika uelis sekikixtilis istat in at?
-# text[spa] = Hay mucha investigación y desarrollo de tecnologías sobre las maneras que nos permiten hacer esto.
-# labels = complete-tree check-arguments
+# text[spa] = Sabías que hay mucha investigación y desarrollo de tecnologías que pueden quitarle la sal al agua?
+# labels = complete-tree
 1	¿	¿	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Tikmatiya	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran	0	root	_	_
 3	ke	ke	SCONJ	_	_	4	mark	_	_
@@ -1117,7 +1117,7 @@
 # text = Keman se kisentiliya itech uejueyi kuetaxmej uan nejinkej, maj yetokan taijtik kanpa takauani kemej se invernadero, uelis mochipauas in at.
 # text[spa] = Si colocamos el agua de mar en tambos y ponemos estos tambos dentro de una estructura de tipo invernadero se logra reproducir el ciclo del agua.
 # text[gloss] = Cuando uno lo coloca en grandes plásticos y éstos, que queden dentro de algo donde calienta como un invernadero, puede hacerse el agua.
-# labels = complete-tree check-dislocated
+# labels = complete-tree
 1	Keman	keman	ADV	_	_	3	mark	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kisentiliya	sentilia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	20	advcl	_	_
@@ -1244,7 +1244,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:45
 # text = Miyakej sitalimej teyin tikinitaj itech iluikak uelis kipiyaskej oksekin kemej taltikpak teyin no kinyeualouaj.
 # text[spa] = Muchas de las estrellas que vemos en el cielo pueden tener planetas que giren a su alrededor.
-# labels = complete check-adverb
+# labels = complete
 1	Miyakej	miak	DET	_	Number=Plur	2	det	_	_
 2	sitalimej	sitalin	NOUN	_	Number=Plur	8	nsubj	_	_
 3	teyin	tein	PRON	_	_	4	obj	_	_
@@ -1280,7 +1280,6 @@
 # text = Uelis moajsis nemilis itech oksekin taltikpakmej semi teyoltanemililtiya, yejua ika miyakej tokniuan tamatemouaj keniuj uan kani uelis moajsiskej ne oksekin taltikpakmej itech neje sitalimej.
 # text[spa] = La posibilidad de encontrar vida fuera de nuestro planeta resulta muy emocionante y por esa razón muchos científicos investigan cómo y dónde encontrar planetas alrededor de otras estrellas.
 # text[gloss] = Puede encontrarse vida en otras planetas muy a algunos ocurre, con eso muchas personas buscan cómo y dónde se puede encontrar estos otros planetas en esas estrellas.
-# labels = check "ne" ...is it ADV or DET?
 1	Uelis	hueli	AUX	_	Tense=Fut	2	aux	_	_
 2	moajsis	ajsi	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Fut	0	root	_	Reflexive[obj]=Yes
 3	nemilis	nemilis	NOUN	_	Case=Abs	2	nsubj	_	_
@@ -1300,7 +1299,7 @@
 17	kani	kani	ADV	_	PronType=Int	15	conj	_	_
 18	uelis	hueli	AUX	_	Tense=Fut	19	aux	_	_
 19	moajsiskej	ajsi	VERB	_	Number[subj]=Plur|Person[subj]=3|Subcat=Tran|Tense=Fut	14	advcl	_	Reflexive[obj]=Yes
-20	ne	ne	DET	_	_	22	det	_	_
+20	ne	ne	ADV	_	_	19	advmod	_	_
 21	oksekin	okse	DET	_	Number=Plur	22	det	_	_
 22	taltikpakmej	taltikpak	NOUN	_	Number=Plur	19	nsubj	_	_
 23	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
@@ -1965,7 +1964,7 @@
 # sent_id = kiteixmatiltijtok-tamachilis:104:1
 # text = moléculas: ikuak ome oso kachi miyak átomos monetechouaj.
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
-# labels = complete check-coord
+# labels = complete
 1	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	ikuak	ijkuak	SCONJ	_	_	9	mark	_	_
@@ -1980,11 +1979,11 @@
 # sent_id = kiteixmatiltijtok-tamachilis:104:2
 # text = In kiskaltia se molecula.
 # text[spa] = molécula: unión de dos o más átomos y forman un nuevo material.
-# labels = complete check-subord
-1	In	in	DET	_	_	2	mark	_	_
+# labels = complete
+1	In	in	PRON	_	_	2	nsubj	_	_
 2	kiskaltia	iskaltia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 3	se	se	NUM	_	_	4	det	_	_
-4	molecula	molécula	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	molecula	molécula	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = kiteixmatiltijtok-tamachilis:114
@@ -2025,7 +2024,7 @@
 # text = radiografías: Kitekitiltiyaj tapajtiyanij teyin ika kixtiliyaj ixtakopin tojomiuan.
 # text[spa] = radiografía: imagen que se toma de los huesos con ayuda de los rayos X.
 # text[gloss] = radiografía: Usan los médicos éste con lo cual sacan imagen de nuestros huesos.
-# labels = complete check-relative
+# labels = complete
 1	radiografías	radiografía	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Kitekitiltiyaj	tekitiltia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	appos	_	_
@@ -2250,8 +2249,8 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:18
 # text = Ijuak se kimeua xochiyojtok.
 # text[spa] = Cuando uno lo limpia, ya está floreando.
-# labels = sentence, check ijkuak advmod vs mark
-1	Ijuak	ijhuak	SCONJ	_	_	3	mark	_	_
+# labels = sentence
+1	Ijuak	ijkuak	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kimeua	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	advcl	_	_
 4	xochiyojtok	xochiyohua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
@@ -3588,7 +3587,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:124
 # text = Mochiua neuín parajko.
 # text[spa] = Se da por allá arriba.
-# labels = sentence, check-parajko-maybe-mwt
+# labels = sentence
 1	Mochiua	chihua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[obj]=Yes
 2	neuín	nehuin	ADV	_	_	1	advmod	_	_
 3	parajko	parajko	NOUN	_	Case=Abs	2	appos	_	SpaceAfter=No
@@ -3839,7 +3838,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:149
 # text = Komo miak se kikua tekuilia in esti.
 # text[spa] = Sí uno lo come mucho le roba la sangre.
-# labels = sentence, check-miak-adv-or-pronoun
+# labels = sentence
 1	Komo	komo	ADV	_	_	4	mark	_	_
 2	miak	miak	ADV	_	_	4	advmod	_	_
 3	se	se	NUM	_	_	4	nsubj	_	_
@@ -3889,14 +3888,14 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:155
 # text = Ijuak achi uejka ya peua xochiyoua.
 # text[spa] = Cuando ya creció, empieza a florear.
-# labels = sentence, check-pewa-as-aux
+# labels = sentence
 1	Ijuak	ijhuak	SCONJ	_	_	3	mark	_	_
 2	achi	achi	ADV	_	_	3	advmod	_	_
-3	uejka	huejka	ADV	_	_	6	advcl	_	_
+3	uejka	huejka	ADV	_	_	5	advcl	_	_
 4	ya	ya	ADV	_	_	3	advmod	_	_
-5	peua	pehua	AUX	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	6	aux	_	_
-6	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+5	peua	pehua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
+6	xochiyoua	xochiyohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:156
 # text = No pajti para reuma: se kiatema in iteyo uan se motalilia.
@@ -4805,7 +4804,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:227
 # text = Kemaj se kiayotia ika tenexat uan se kikauantia maj xokokkisa, se kipaka uan se kichiua ya xokoyolemol iuan nakastekilit.
 # text[spa] = Al terminar, se pone a hervir en agua de cal para que suelte lo agrio, se lava y ya se preparan los frijoles con xokoyolin y con tequelite.
-# labels = sentence, check-xcomp
+# labels = sentence
 1	Kemaj	kemaj	INTJ	_	_	3	discourse	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kiayotia	ayotia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -4815,7 +4814,7 @@
 7	se	se	NUM	_	_	8	nsubj	_	_
 8	kikauantia	kauantia	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	conj	_	_
 9	maj	ma	AUX	_	_	10	aux	_	_
-10	xokokkisa	*xokokkisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	8	xcomp	_	SpaceAfter=No
+10	xokokkisa	xokokkisa	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	8	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	se	se	NUM	_	_	13	nsubj	_	_
 13	kipaka	paka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	3	parataxis	_	_
@@ -4832,7 +4831,7 @@
 # text = In euat se kiatema ika refino uan iuan maltantsin uan majase tayi ijuak xoxoula.
 # text[spa] = Se pone la cáscara junto con maltantsin21 en refino y cuando este se pone verde, entonces hay que tomarlo.
 # text[gloss] = La cáscara se pone con refino y con maltantsin y que uno toma cuando se enverdea.
-# labels = sentence check-tokenisation
+# labels = sentence
 1	In	in	DET	_	_	2	det	_	_
 2	euat	ehuat	NOUN	_	Case=Abs	4	obj	_	_
 3	se	se	NUM	_	_	4	nsubj	_	_
@@ -5258,7 +5257,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:272
 # text = Onkak ome taman: chichiltik uan istak.
 # text[spa] = Hay dos clases: roja y blanca.
-# labels = sentence, check apposition after colon
+# labels = sentence
 1	Onkak	onka	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pret	0	root	_	_
 2	ome	ome	NUM	_	_	3	nummod	_	_
 3	taman	taman	NOUN	_	Case=Abs	1	nsubj	_	SpaceAfter=No
@@ -5503,7 +5502,7 @@
 6	pero	pero	CCONJ	_	_	7	cc	_	_
 7	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	2	conj	_	_
 8	se	se	NUM	_	_	9	nsubj	_	_
-9	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	advcl	_	_
+9	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	7	csubj	_	_
 10	in	in	DET	_	_	11	det	_	_
 11	iteyo	teyo	NOUN	_	Number[psor]=Sing|Person[psor]=3	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
@@ -5990,7 +5989,6 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:350
 # text = Seki kijtouaj eski sesek porque itech tet mochiua uan seki kijtouaj eski totonik porque akin amo kinamiki semi moijpotsa uan soneujkui.
 # text[spa] = Unos dicen que ha de ser fría porque se da en las piedras y otros dicen que ha de ser caliente, porque a quien no le cae bien, eructa mucho y se le inflama el estómago.
-# labels = sentence, check-akin-is-it-rel?
 1	Seki	seki	PRON	_	_	2	nsubj	_	_
 2	kijtouaj	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 3	eski	etok	AUX	_	Number[subj]=Sing|Person[subj]=3|Tense=Fut	4	cop	_	_
@@ -6740,7 +6738,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:442
 # text = In monamaka tamanal.
 # text[spa] = Se vende hervido.
-# labels = sentence,check-xcomp-looks.like-ewt-example-food-hot
+# labels = sentence
 1	In	in	PRON	_	_	2	nsubj	_	_
 2	monamaka	namaka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	Reflexive[iobj]=Yes
 3	tamanal	tamanal	ADJ	_	_	2	xcomp	_	SpaceAfter=No
@@ -8323,7 +8321,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:756
 # text = No se kikua in kilit iujki xoxouik.
 # text[spa] = Este quelite se come así crudo.
-# labels = sentence, check-adv-modifying-subj
+# labels = sentence
 1	No	no	ADV	_	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kikua	kua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -8463,15 +8461,15 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:777
 # text = Uelik taixkal itech komal uan no uelik tamanal.
 # text[spa] = Es sabrosa asada al comal, también es sabrosa hervida.
-# labels = sentence, check-taixkal-and-reln
+# labels = sentence
 1	Uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 2	taixkal	taixkal	NOUN	_	Case=Abs	1	xcomp	_	_
-3	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+3	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
 4	komal	komal	NOUN	_	Case=Abs	3	nmod	_	_
 5	uan	huan	CCONJ	_	_	7	cc	_	_
 6	no	no	ADV	_	_	7	advmod	_	_
 7	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	_
-8	tamanal	tamanal	ADJ	_	_	7	dep	_	SpaceAfter=No
+8	tamanal	tamanal	ADJ	_	_	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:778
@@ -9933,7 +9931,7 @@
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1587
 # text = Semi uelik ika se takua.
 # text[spa] = Es muy sabroso.
-# labels = sentence, check-parse
+# labels = sentence
 1	Semi	semi	ADV	_	_	2	advmod	_	_
 2	uelik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
 3	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
@@ -10428,7 +10426,7 @@
 # text = Pos amo nikmatia yon keniw se kitatekiwtiaya.
 # text[orig] = Pos a:mo nikmatia yo:n ke:ní:w se: kitatekiwtia:ya.
 # text[spa] = Pues no sabía como se usaban esas hojas.
-# labels = a86 sentence, check-csubj-yo
+# labels = a86 sentence
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	amo	amo	ADV	_	_	3	advmod	_	_
 3	nikmatia	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
@@ -11647,7 +11645,7 @@
 # text = Wan yon o..., ome taman para kichiwah ne tapalol, kitsoyoniah no.
 # text[orig] = Wa:n yo:n o:..., o:me taman para kichi:wah ne: tapalo:l, kitsoyo:niah no:.
 # text[spa] = Hay dos formas de preparar la comida, también se pueden freir.
-# labels = a20 sentence, check-all-yons
+# labels = a20 sentence
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -11878,16 +11876,16 @@
 # text[spa] = Así queda muy sabrosa esa comida, de quelites, esos quelites.
 # text[a94] = Kwaltsi:n we:lik nijó:n,
 # text[a95] = nijó:n kilit, kilit nijó:n.
-# labels = a94 a95 sentence, check-reparandum
+# labels = a94 a95 sentence
 1	Kwaltsin	kuali	ADJ	_	Polite=Form	2	advmod	_	_
 2	welik	huelik	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	_
-3	nijon	nijon	PRON	_	_	5	reparandum	_	SpaceAfter=No
+3	nijon	nijon	DET	_	_	5	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	nijon	nijon	DET	_	_	6	det	_	_
 6	kilit	kilit	NOUN	_	Case=Abs	2	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	kilit	kilit	NOUN	_	Case=Abs	6	appos	_	_
-9	nijon	nijon	PRON	_	_	8	dep	_	SpaceAfter=No
+9	nijon	nijon	PRON	_	_	8	appos	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a97
@@ -12969,7 +12967,7 @@
 # text[a87] = pos a:mo kachi kikwih <i>porque</i>,
 # text[a88] = pos nijó:n ma:ski neh nikita,
 # text[a89] = ma:s chika:wak me:tsti ihkó:n, pero nijó:n okwilowa.
-# labels = a86 a87 a88 a89 sentence, check-nijon-make-sure-annotated-consistently-pos-and-rel
+# labels = a86 a87 a88 a89 sentence
 1	Amo	amo	ADV	_	_	3	advmod	_	_
 2	kachi	kachi	ADV	_	_	3	advmod	_	_
 3	kikwih	kui	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -12988,7 +12986,7 @@
 16	porque	porque	SCONJ	_	_	25	mark	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	pos	pos	ADV	_	_	22	advmod	_	_
-19	nijon	nijon	INTJ	_	_	22	discourse	_	_
+19	nijon	nijon	PRON	_	_	22	obj	_	_
 20	maski	maski	SCONJ	_	_	22	mark	_	_
 21	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	22	nsubj	_	_
 22	nikita	ita	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	15	parataxis	_	SpaceAfter=No
@@ -14537,7 +14535,7 @@
 # text = ¿In kowit wehwei, nen, moskaltia oso tsikitsitsin?
 # text[orig] = ¿I:n kowit wehwei, ne:n, moskaltia oso tsikitsitsi:n?
 # text[spa] = ¿Este árbol crece alto o son pequeños?
-# labels = a67 sentence complete, check
+# labels = a67 sentence complete
 1	¿	¿	PUNCT	_	_	8	punct	_	SpaceAfter=No
 2	In	in	DET	_	_	3	det	_	_
 3	kowit	kohuit	NOUN	_	Case=Abs	8	nsubj	_	_
@@ -14647,14 +14645,14 @@
 # text = Ne, xtechtapowi keniw n' kichihchiwah nen tikihtowa globo.
 # text[orig] = Ne:, xte:chtapowi ke:ní:w n' kichihchi:wah ne:n tikihtowa *globo**.
 # text[spa] = Este, cuéntanos como hacen los globos.
-# labels = a84 sentence complete, check
+# labels = a84 sentence complete
 1	Ne	ne	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	xtechtapowi	tapohui	VERB	_	Mood=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Subcat=Tran|Tense=Pres	0	root	_	_
 4	keniw	keni	ADV	_	PronType=Int	3	ccomp	_	_
 5	n'	in	DET	_	_	6	mark	_	_
 6	kichihchiwah	chijchihua	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	csubj	_	_
-7	nen	nen	PRON	_	_	6	obj	_	_
+7	nen	nen	INTJ	_	_	6	discourse	_	_
 8	tikihtowa	ijtohua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	7	acl:relcl	_	_
 9	globo	globo	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -14968,7 +14966,7 @@
 # text = Seki wehwei moskaltia wan seki tsikitsitsin.
 # text[orig] = Seki wehwei moskaltia wa:n seki tsikitsitsi:n.
 # text[spa] = Unos crecen altos y unos pequeños.
-# labels = a68 sentence, double-check
+# labels = a68 sentence
 1	Seki	seki	PRON	_	_	3	nsubj	_	_
 2	wehwei	huehuei	ADJ	_	_	3	advmod	_	_
 3	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
