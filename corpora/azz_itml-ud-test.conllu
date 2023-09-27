@@ -2,7 +2,7 @@
 # text = Yehwa yon neh nikahsikamatisnekia.
 # text[orig] = Yehwa yo:n neh nikahsika:matisnekia.
 # text[spa] = Eso es lo que yo quería saber.
-# labels = a69 sentence
+# labels = a69 sentence done
 1	Yehwa	yehuan	PRON	_	Case=Abs|Number=Plur|Person=3|PronType=Pers	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	cop	_	_
@@ -104,7 +104,7 @@
 # text = Pos neh nikixmattok de yon kilwiah mowih, neh nikixmattok ipa sentaman sah.
 # text[orig] = Pos neh niki:xmattok de yo:n kilwiah mowih, neh niki:xmattok i:pa sentaman sah.
 # text[spa] = Pues, yo conozco de este que dicen <i>mowih</i>, yo conozco acaso solamente uno hay.
-# labels = a28 sentence
+# labels = a28 sentence done
 1	Pos	pos	ADV	_	_	3	advmod	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
 3	nikixmattok	ixmati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	0	root	_	_
@@ -197,7 +197,7 @@
 # text = Pero neh amo keman nikwik de yon xiwtsini, pero nikmattok kihtowah neli que pahti.
 # text[orig] = Pero neh a:mo ke:man nikwik de yo:n xiwtsi:ni, pero nikmattok kihtowah neli <i>que</i> pahti.
 # text[spa] = Pero yo nunca ocupé las hojas de esa planta, pero sí sé que dicen que esa planta es medicinal.
-# labels = a77 sentence
+# labels = a77 sentence done
 1	Pero	pero	CCONJ	_	_	5	cc	_	_
 2	neh	nehua	PRON	_	Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
 3	amo	amo	ADV	_	_	5	advmod	_	_
@@ -205,9 +205,9 @@
 5	nikwik	kui	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pret	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7-8	yon	_	_	_	_	_	_	_	_
-7	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	obj	_	_
-8	n	in	DET	_	_	9	det	_	_
-9	xiwtsini	xihuit	NOUN	_	Polite=Form	7	nsubj	_	SpaceAfter=No
+7	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	obl	_	_
+8	n	in	SCONJ	_	_	9	mark	_	_
+9	xiwtsini	xihuit	NOUN	_	Polite=Form	7	acl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	pero	pero	CCONJ	_	_	12	cc	_	_
 12	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	5	conj	_	_
@@ -323,12 +323,12 @@
 8	tikimattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Subcat=Tran|Tense=Pres	3	parataxis	_	_
 9-10	yon	_	_	_	_	_	_	_	_
 9	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	8	obj	_	_
-10	n	in	DET	_	_	11	mark	_	_
-11	xiwit	xihuit	NOUN	_	Case=Abs	9	nsubj	_	SpaceAfter=No
+10	n	in	SCONJ	_	_	11	mark	_	_
+11	xiwit	xihuit	NOUN	_	Case=Abs	9	acl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	yon	_	_	_	_	_	_	_	_
 13	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	11	appos	_	_
-14	n	in	DET	_	_	15	mark	_	_
+14	n	in	SCONJ	_	_	15	mark	_	_
 15	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	13	csubj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	este	este	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -552,14 +552,14 @@
 # text[a9] = Se: yo:n tein wehkapan moskaltia ata,
 # text[a10] = wa[:n] wehwei n' i..., n' i..., n' i..., n' i... n' iteyotsi:n wa:n seki,
 # text[a11] = *más** pisi:ltik.
-# labels = a10 a11 a9 sentence
-1	Se	se	NUM	_	_	2	dislocated	_	_
+# labels = a10 a11 a9 sentence done
+1	Se	se	NUM	_	_	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
-2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
-3	n	in	DET	_	_	4	det	_	_
-4	tein	tein	PRON	_	_	2	nsubj	_	_
+2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	6	cop	_	_
+3	n	in	SCONJ	_	_	6	mark	_	_
+4	tein	tein	PRON	_	_	6	nsubj	_	_
 5	wehkapan	huejkapan	ADJ	_	_	6	advmod	_	_
-6	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	4	acl:relcl	_	_
+6	moskaltia	moskaltia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	1	csubj	_	_
 7	ata	ata	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	wan	huan	CCONJ	_	_	10	cc	_	_
@@ -2249,7 +2249,7 @@
 # text = Ijuak se kimeua xochiyojtok.
 # text[spa] = Cuando uno lo limpia, ya está floreando.
 # labels = sentence
-1	Ijuak	ijkuak	_	_	3	advmod	_	_
+1	Ijuak	ijkuak	SCONJ	_	3	advmod	_	_
 2	se	se	NUM	_	_	3	nsubj	_	_
 3	kimeua	mehua	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	4	advcl	_	_
 4	xochiyojtok	xochiyohua	VERB	_	Aspect=Prog|Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	SpaceAfter=No
@@ -5942,7 +5942,7 @@
 8	1973	1973	NUM	_	_	7	nmod	_	_
 9	kipiyaj	piya	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	_
 10	se	se	NUM	_	_	11	det	_	_
-11	asterisco	asterisco	_	_	_	9	obj	_	SpaceAfter=No
+11	asterisco	asterisco	NOUN	_	_	9	obj	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:345
@@ -8860,7 +8860,7 @@
 55	la	el	DET	_	Gender=Fem|Number=Sing	56	det	_	_
 56	UNAM	UNAM	PROPN	_	_	51	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	58	punct	_	_
-58	cuad.	cuad.	_	_	_	49	appos	_	_
+58	cuad.	cuad.	X	_	_	49	appos	_	_
 59	27	27	NUM	_	_	58	appos	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	59	punct	_	_
 61	1	1	NUM	_	_	62	appos	_	_
@@ -9234,7 +9234,7 @@
 # text[spa] = YERBAMORA (TOMAKILIT)
 1	TOMAKILIT	tomakilit	NOUN	_	Case=Abs	0	root	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	YERBAMORA	yerbamora	_	_	_	1	appos	_	SpaceAfter=No
+3	YERBAMORA	yerbamora	NOUN	_	_	1	appos	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:1506
@@ -10262,7 +10262,7 @@
 # labels = sentence
 1	Ixochiyo	xochiyot	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	kualtia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
-3	para	para	_	_	_	6	mark	_	_
+3	para	para	SCONJ	_	_	6	mark	_	_
 4	ika	ka	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	se	se	NUM	_	_	6	nsubj	_	_
 6	tachijchiua	chijchihua	VERB	_	Animacy[obj]=Inan|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	advcl	_	SpaceAfter=No
@@ -10364,14 +10364,14 @@
 # text[orig] = Ke:mah, yo:n nikmattok neli kwaltia para kalkowit wa:n nejó:n ....
 # text[spa] = Si, eso sí sé que se usa para construir una casa y este....
 # labels = a59 sentence
-1	Kemah	kemaj	INTJ	_	_	3	discourse	_	SpaceAfter=No
+1	Kemah	kemaj	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	yon	_	_	_	_	_	_	_	_
-3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
-4	n	in	DET	_	_	5	mark	_	_
-5	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	3	csubj	_	_
+3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	7	cop	_	_
+4	n	in	SCONJ	_	_	5	mark	_	_
+5	nikmattok	mati	VERB	_	Aspect=Prog|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran|Tense=Pres	7	csubj	_	_
 6	neli	neli	ADV	_	_	7	advmod	_	_
-7	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	5	ccomp	_	_
+7	kwaltia	kualtia	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Intr|Tense=Pres	0	root	_	_
 8	para	para	ADP	_	_	9	case	_	_
 9	kalkowit	kalkohuit	NOUN	_	Case=Abs	7	obl	_	_
 10	wan	huan	CCONJ	_	_	11	cc	_	_
@@ -10428,10 +10428,10 @@
 3	nikmatia	mati	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
 4-5	yon	_	_	_	_	_	_	_	_
 4	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	3	obj	_	_
-5	n	in	DET	_	_	8	mark	_	_
+5	n	in	SCONJ	_	_	8	mark	_	_
 6	keniw	keni	ADV	_	PronType=Int	8	advmod	_	_
 7	se	se	NUM	_	_	8	nsubj	_	_
-8	kitatekiwtiaya	tatekiutia	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran	3	csubj	_	Number[iobj]=Sing|Person[iobj]=3|SpaceAfter=No
+8	kitatekiwtiaya	tatekiutia	VERB	_	Aspect=Imp|Number[subj]=Sing|Person[subj]=3|Subcat=Tran       4       acl	_	Number[iobj]=Sing|Person[iobj]=3|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tecol_Botan_LOS358-CGN309_tiookowit-Meliaceae_2012-07-31-m_ed-2017-04-24_trad-ADA_FORM.eaf:a88
@@ -10591,7 +10591,7 @@
 # text = Wan yon ox miak se kikwi.
 # text[orig] = Wa:n yo:n ox miak se: kikwi.
 # text[spa] = ¿Y esas hojas se ocupan muchas?.
-# labels = a126 sentence
+# labels = a126 sentence come-back-to
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -10681,7 +10681,7 @@
 # text = Wan yehwa yon ika tekwi.
 # text[orig] = Wa:n yehwa yo:n ika te:kwi.
 # text[spa] = Y con eso nos enfermamos.
-# labels = a162 sentence
+# labels = a162 sentence done yon-class3
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 3-4	yon	_	_	_	_	_	_	_	_
@@ -10935,7 +10935,7 @@
 # text = Yehwa yon tenamiki.
 # text[orig] = Yehwa yo:n te:na:miki.
 # text[spa] = Con eso se cura uno.
-# labels = a136 sentence
+# labels = a136 sentence done yon-class3
 1	Yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	1	cop	_	_
@@ -11551,7 +11551,8 @@
 # text = Ne kwowtah, pos yon ne, tehwan no tikiliah mismo de yeh, ahmolkilit.
 # text[orig] = Ne: kwowtah, pos yo:n ne:, tehwa:n no: tikiliah *mismo de** yeh, ahmo:lkilit.
 # text[spa] = El que se da en el bosque es el que nosotros también le llamamos ahmo:lkilit.
-# labels = a12 sentence
+# text[gloss] = Allá en el bosque, pues ese que este, nosotros también le decimos igual que al otro, ahmolkilit.
+# labels = a12 sentence come-back-to
 1	Ne	ne	ADV	_	_	5	advmod	_	_
 2	kwowtah	kuoutaj	NOUN	_	Case=Abs	1	appos	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -11592,7 +11593,7 @@
 # text = Wan okse no, no igual yon chichiltik no.
 # text[orig] = Wa:n oksé: no:, no: *igual** yo:n chi:chi:ltik no:.
 # text[spa] = Y otro también es igual, ése también es rojo.
-# labels = a16 sentence
+# labels = a16 sentence done yon-class6
 1	Wan	huan	CCONJ	_	_	6	cc	_	_
 2	okse	okse	PRON	_	_	6	nsubj	_	_
 3	no	no	ADV	_	_	5	reparandum	_	SpaceAfter=No
@@ -11641,7 +11642,7 @@
 # text = Wan yon o..., ome taman para kichiwah ne tapalol, kitsoyoniah no.
 # text[orig] = Wa:n yo:n o:..., o:me taman para kichi:wah ne: tapalo:l, kitsoyo:niah no:.
 # text[spa] = Hay dos formas de preparar la comida, también se pueden freir.
-# labels = a20 sentence
+# labels = a20 sentence come-back-to
 1	Wan	huan	CCONJ	_	_	2	cc	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -11665,7 +11666,7 @@
 # text[spa] = Limpian el quelite, le sacan las semillas, porque se juntan los quelites con las semillas, las semillas son negras.
 # text[a21] = Kitsoyo:niah, ne:n, kiki:xtiliah n' iteyo,
 # text[a22] = yo:n iwa:n moma:nelowa n' iteyo, iteyo tihti:ltik.
-# labels = a21 a22 sentence
+# labels = a21 a22 sentence done yon-class6
 1	Kitsoyoniah	tsoyonia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	nen	nen	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -11676,7 +11677,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9-10	yon	_	_	_	_	_	_	_	_
 9	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	1	parataxis	_	_
-10	n	in	DET	_	_	12	mark	_	_
+10	n	in	SCONJ	_	_	12	mark	_	_
 11	iwan	huan	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
 12	momanelowa	manelohua	VERB	_	Number[subj]=Sing|Person[subj]=3|Subcat=Tran|Tense=Pres	9	csubj	_	Reflexive[obj]=Yes
 13	n'	in	DET	_	_	14	det	_	_
@@ -11736,7 +11737,7 @@
 # text = Pos yon no semi kikwah nen chiktehmeh.
 # text[orig] = Pos yo:n no: semi kikwah ne:n chiktehmeh.
 # text[spa] = Los pájaros también se alimentan con los frutos de ese quelite.
-# labels = a45 sentence
+# labels = a45 sentence done yon-class6
 1	Pos	pos	ADV	_	_	2	advmod	_	_
 2-3	yon	_	_	_	_	_	_	_	_
 2	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
@@ -11752,7 +11753,7 @@
 # text = Yon kikwah.
 # text[orig] = Yo:n kikwah.
 # text[spa] = Esos frutos aprovechan los pájaros.
-# labels = a46 sentence
+# labels = a46 sentence done yon-class6
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2	n	in	DET	_	_	3	mark	_	_
@@ -11778,7 +11779,7 @@
 # text[spa] = El que se alimenta de esos frutos es el pájaro que le llaman perdíz.
 # text[a47] = Yo:n kikwah, yo:n kiliah, ne:n,
 # text[a48] = chiwihkoyo.
-# labels = a47 a48 sentence
+# labels = a47 a48 sentence done yon-class6 (x2)
 1-2	Yon	_	_	_	_	_	_	_	_
 1	Yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 2	n	in	DET	_	_	3	mark	_	_
@@ -11814,7 +11815,7 @@
 # text[a84] = Pero tehwa:n tikitayah ne:n tota:tahwa:n kikwa:yah,
 # text[a85] = ki..., kipa:tayah kwaltsi:n, kima:pa:tayah,
 # text[a86] = wa:n kita:lia:yah itech se: yo:n sokikaxit.
-# labels = a84 a85 a86 sentence incorporation
+# labels = a84 a85 a86 sentence incorporation come-back-to yon-class-3
 1	Pero	pero	CCONJ	_	_	3	cc	_	_
 2	tehwan	tehuan	PRON	_	Case=Abs|Number=Plur|Person=1|PronType=Pers	3	nsubj	_	_
 3	tikitayah	ita	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	0	root	_	_
@@ -11832,11 +11833,11 @@
 15	wan	huan	CCONJ	_	_	16	cc	_	_
 16	kitaliayah	talia	VERB	_	Aspect=Imp|Number[subj]=Plur|Person[subj]=3|Subcat=Tran	13	conj	_	Number[iobj]=Sing|Person[iobj]=3
 17	itech	tech	NOUN	_	NounType=Relat|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
-18	se	se	NUM	_	_	19	det	_	_
+18	se	se	PRON	_	_	17	nmod	_	_
 19-20	yon	_	_	_	_	_	_	_	_
-19	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	17	dep	_	_
+19	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	21	cop	_	_
 20	n	in	DET	_	_	21	dep	_	_
-21	sokikaxit	sokikaxit	NOUN	_	Case=Abs	19	dep	_	SpaceAfter=No
+21	sokikaxit	sokikaxit	NOUN	_	Case=Abs	18	csubj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Tzina_Botan_AND308_waawkilit-Amaranthaceae_2012-07-16-n_ed-2017-10-12_trad-HSO_FORM.eaf:a87
@@ -11850,6 +11851,8 @@
 4	tiktekiliayah	tekilia	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Subcat=Tran	2	conj	_	_
 5	nen	nen	INTJ	_	_	6	discourse	_	_
 6	chiltamoltal	chiltamoltal	NOUN	_	Case=Abs	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	chiltekpin	chiltekpin	NOUN	_	Case=Abs	6	appos	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -12218,8 +12221,6 @@
 # labels = a108 sentence
 1	Maweweyak	mahuejhueyak	ADJ	_	Number[subj]=Sing|Person[subj]=3	0	root	_	Reduplicated=Yes
 2	achi	achi	ADV	_	_	3	advmod	_	_
-3	pihpitsawak	pijpitsahuak	ADJ	_	Number[subj]=Sing|Person[subj]=3	1	conj	_	Reduplicated=Yes
-4	wan	huan	CCONJ	_	_	5	cc	_	_
 5	kipia	piya	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	1	conj	_	_
 6	n'	in	DET	_	_	7	det	_	_
 7	ipuntas	punta	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
@@ -12232,12 +12233,12 @@
 # text = Entos yehwa yon kiliah chapolistit.
 # text[orig] = Entó:s yehwa yo:n kiliah chapolistit.
 # text[spa] = Entonces es ese al que le llaman chapolistit.
-# labels = a110 sentence
+# labels = a110 sentence yon-class3
 1	Entos	entos	ADV	_	_	2	advmod	_	_
 2	yehwa	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	0	root	_	_
 3-4	yon	_	_	_	_	_	_	_	_
 3	yo	yehua	PRON	_	Number=Sing|Person=3|PronType=Pers	5	cop	_	_
-4	n	in	DET	_	_	5	mark	_	_
+4	n	in	SCONJ	_	_	5	mark	_	_
 5	kiliah	ilia	VERB	_	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Subcat=Tran|Tense=Pres	2	csubj	_	Number[iobj]=Sing|Person[iobj]=3
 6	chapolistit	chapolistit	NOUN	_	Case=Abs	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -12297,6 +12298,8 @@
 3	a	a	INTJ	_	_	2	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a200
+# sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a200
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a200
 # text = Por eso tikiliah chapolistit.
 # text[orig] = *Por eso** tikiliah chapolistit.
@@ -12643,8 +12646,6 @@
 2	no	no	ADV	_	_	4	advmod	_	_
 3	kwali	kuali	ADJ	_	_	4	amod	_	_
 4	pahti	pajti	NOUN	_	Case=Abs|Number[subj]=Sing|Person[subj]=3	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
-
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a197
 # text = Kemah.
 # text[orig] = Ke:mah.
@@ -12725,7 +12726,7 @@
 # text = Amo, ta yon se kixamania.
 # text[orig] = A:mo, ta: yo:n se: kixama:nia.
 # text[spa] = No, pues ese se machacan.
-# labels = a225 sentence
+# labels = a225 sentence done yon-class6
 1	Amo	amo	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ta	ta	ADV	_	_	4	advmod	_	_
@@ -12738,6 +12739,8 @@
 
 # sent_id = Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a227:1
 # text = Moloni pero amo kiste..., amo kisa n' at.
+# text[orig] = Molo:ni pero a:mo kiste..., a:mo ki:sa n' a:t.
+# text[orig] = Molo:ni pero a:mo kiste..., a:mo ki:sa n' a:t.
 # text[orig] = Molo:ni pero a:mo kiste..., a:mo ki:sa n' a:t.
 # text[spa] = Hierve pero no ..., no sale el agua.
 # labels = a227 sentence
@@ -16782,8 +16785,6 @@
 5	Maria	María	PROPN	_	Gender=Fem	4	obj	_	_
 6	de	de	ADP	_	_	5	flat	_	_
 7	Jesus	Jesus	PROPN	_	Gender=Masc	5	flat	_	_
-8	Tecuaco	Tecuaco	PROPN	_	_	5	flat	_	_
-9	wan	huan	CCONJ	_	_	12	cc	_	_
 10	nimo...	nimo	X	_	_	12	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	niwalewa	huala	VERB	_	Number[subj]=Sing|Person[subj]=1|Subcat=Intr|Tense=Pres	4	conj	_	_
