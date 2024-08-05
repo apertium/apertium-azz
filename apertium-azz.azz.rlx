@@ -38,6 +38,9 @@ LIST Por = "por" ;
 
 LIST San = "San" ;
 
+LIST Neki = "neki" ;
+LIST I = "i" ;
+
 LIST MaybePl = "<.*[hj]>"r ;
 LIST MaybeReparandum = "<[A-Za-z]+\\.\\.\\.>"r ;
 
@@ -80,11 +83,16 @@ SELECT Adv IF (1 Adv) ;
 
 SELECT V IF (-1 Adv) (NOT -1 V) (NOT 1 V);
 
+# Heuristic rules
 SECTION
 
 REMOVE SSg3 IF (0 MaybePl) (0C ORefl) ;
 
 REMOVE SPl3 IF (NEGATE -1* Pl) (NEGATE 1* Pl) (NOT 0 MaybePl) ;
+
+REMOVE SSg3 IF (0C SSg3 OR SPl3) (0 MaybePl) ;
+
+SELECT Neki IF (0C Neki OR I) ;
 
 REMOVE X ;
 

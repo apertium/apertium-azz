@@ -64,3 +64,22 @@ n:0 <=> .#. n a _ %>: m ;
 h:0 <=> k :0* %>: _ u [ e | i ] ; 
 
 !@ ni>k{i}>huelita
+
+"I removal before -to"
+i:0 <=> _ %{j%}: %>: t o %>:  ;
+      except 
+          %>: Cns+ _ %{j%}: %>: t o %>: ;
+          %>: Cns Vow Cns Cns _ %{j%}: %>: t o %>: ;
+
+!@ kinektoyaj
+!@ >k{i}>neki{j}>to>ya>j
+
+!@ tekuitok
+!@ pixkitok
+
+!@ ihcatoqueh
+!@ hualahtoc
+!@ momolokatok 
+!@ nimitzilhuihtoc
+!@ tiksentilijtokej
+!@ nimotematitos
