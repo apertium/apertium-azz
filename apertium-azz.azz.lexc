@@ -1403,6 +1403,14 @@ xijxima:xi%{j%}xima                                 V-SO-PRET ;
 xijxima:xi%{j%}xima                                 V-SO-FUTR ;
 
 
+! "recibir"
+selia:selia                                         V-SO-PRES ;
+selia:selia                                         V-SO-IMPF ;
+selia:seli                                         V-SO-PROG ;
+selia:seli                                         V-SO-PRET ;
+selia:seli                                         V-SO-FUTR ;
+
+
 
 ! ""
 ixuitia:ixuiti%{y%}a                                V-SO-PRES ;
@@ -1410,6 +1418,14 @@ ixuitia:ixuiti%{y%}a                                V-SO-IMPF ;
 ixuitia:ixuiti                                      V-SO-PROG ;
 ixuitia:ixuiti                                      V-SO-PRET ;
 ixuitia:ixuiti                                      V-SO-FUTR ;
+
+! "escribir"
+tajkuilouilia:tajkuilouili%{y%}a                     V-SO-PRES ;
+tajkuilouilia:tajkuilouili%{y%}a                     V-SO-IMPF ;
+tajkuilouilia:tajkuilouili                           V-SO-PROG ;
+tajkuilouilia:tajkuilouili                           V-SO-PRET ;
+tajkuilouilia:tajkuilouili                           V-SO-FUTR ;
+
 
 ! "enseñar"
 nextilia:nextili%{y%}a                                V-SO-PRES ;
@@ -1497,7 +1513,7 @@ kui:kui                                             V-SO-PROG ;
 kui:kui                                             V-SO-PRET ;
 kui:kui                                             V-SO-FUTR ;
 
-! "regar"
+! "perder, destruir"
 ixpolohua:ixpolohua                                 V-SO-PRES ;
 ixpolohua:ixpolohua                                 V-SO-IMPF ;
 ixpolohua:ixpolohua                                 V-SO-PROG ;
@@ -1511,7 +1527,7 @@ tepehua:tepehua                                     V-SO-PROG ;
 tepehua:tepehua                                     V-SO-PRET ;
 tepehua:tepehua                                     V-SO-FUTR ;
 
-! "limpiar"
+! "ensuciar, nombrar un lugar"
 taluia:taluia                                       V-SO-PRES ;
 taluia:taluia                                       V-SO-IMPF ;
 taluia:talui                                        V-SO-PROG ;
@@ -1528,11 +1544,11 @@ maxima:maxima                                       V-SO-FUTR ;
 
 
 ! ""
-kuapi:kuapi                                         V-SO-PRES ;
-kuapi:kuapi                                         V-SO-IMPF ;
-kuapi:kuapi                                         V-SO-PROG ;
-kuapi:kuapi                                         V-SO-PRET ;
-kuapi:kuapi                                         V-SO-FUTR ;
+kuapiki:kuapiki                                         V-SO-PRES ;
+kuapiki:kuapiki                                         V-SO-IMPF ;
+kuapiki:kuapiki                                         V-SO-PROG ;
+kuapiki:kuapiki                                         V-SO-PRET ;
+kuapiki:kuapiki                                         V-SO-FUTR ;
 
 
 ! "matar"
@@ -1669,7 +1685,7 @@ tejteki:te%{j%}teki                                 V-SO-PROG ;
 tejteki:te%{j%}teki                                 V-SO-PRET ;
 tejteki:te%{j%}teki                                 V-SO-FUTR ;
 
-! "llamar"
+! "decir, platicar"
 ilia:ilia                                           V-SO-PRES ;
 ilia:ilia                                           V-SO-IMPF ;
 ilia:ili                                            V-SO-PROG ;
@@ -1755,14 +1771,7 @@ tenteki:tenteki                                     V-SO-PROG ;
 tenteki:tenteki                                     V-SO-PRET ;
 tenteki:tenteki                                     V-SO-FUTR ;
 
-! ""
-huilita:huilita                                     V-SO-PRES ;
-huilita:huilita                                     V-SO-IMPF ;
-huilita:huilita                                     V-SO-PROG ;
-huilita:huilita                                     V-SO-PRET ;
-huilita:huilita                                     V-SO-FUTR ;
-
-! "usar"
+! "apreciar, gustar"
 huelita:huelita                                     V-SO-PRES ;
 huelita:huelita                                     V-SO-IMPF ;
 huelita:huelita                                     V-SO-PROG ;
@@ -1832,7 +1841,7 @@ chipahua:chipahua                                   V-SO-PROG ;
 chipahua:chipahua                                   V-SO-PRET ;
 chipahua:chipahua                                   V-SO-FUTR ;
 
-! "desinflama"
+! "aflojarse, soltarse"
 kaxani:kaxani                                       V-SO-PRES ;
 kaxani:kaxani                                       V-SO-IMPF ;
 kaxani:kaxani                                       V-SO-PROG ;
@@ -5380,6 +5389,8 @@ ait%<mod%>:ait                                     # ; ! "quien sabe?"
 %<px3sg%>ka%<n%>%<rel%>:ka                         # ;
 %<px3sg%>tech%<n%>%<rel%>:tech                     # ;
 
+okseki%<prn%>%<pl%>%+ok%<adv%>:oksekin%>ok        # ;
+
 LEXICON Conjunciones 
 
 pero:pero                                          CC ; ! "pero"
@@ -7003,6 +7014,9 @@ istakkueyitl:istakkuey                              N-ITL ; ! "mano"
 
 kech:kech                                           N-Ø ; ! "cuello"
 ixtololo:ixtololo                                   N-Ø ; ! "ojo"
+internet:internet                                N-Ø ; ! "internet"
+tamachtijkat:tamachtijka                            N-TL ; ! "profesor"
+tamachtijkej:tamachtijkej                            N-Ø ; ! "profesor"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
