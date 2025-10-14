@@ -543,7 +543,7 @@ LEXICON V-Ø-FUTR
 
 LEXICON V-AUX-I
 
-%+neki%<vaux%>:%>neki                              V-AGR-PRES ;
+%+neki%<vaux%>%<pres%>:%>neki                      V-AGR-PRES ;
 %+neki%<vaux%>%<impf%>:%>neki%>%{y%}a              V-AGR-PRES ;
 
 LEXICON V-AUX-II
@@ -1290,6 +1290,14 @@ teteliksa:te%{j%}teliksa                   V-SO-IMPF ;
 teteliksa:te%{j%}teliks                    V-SO-PROG ;
 teteliksa:te%{j%}teliks                    V-SO-PRET ; 
 teteliksa:te%{j%}teliksa                   V-SO-FUTR ; 
+
+
+! "saludar"
+tapalohua:tapalohua                        V-SO-PRES ; ! ""
+tapalohua:tapalohua                        V-SO-IMPF ; ! ""
+tapalohua:tapalohua                        V-SO-PROG ; ! ""
+tapalohua:tapalohua                        V-SO-PRET ; ! ""
+tapalohua:tapalohua                        V-SO-FUTR ; ! ""
 
 
 ! "tener"
@@ -2527,6 +2535,14 @@ chia:chi%{y%}                                       V-SO-PROG ;
 chia:chi%{y%}                                       V-SO-PRET ;
 chia:chi%{y%}                                       V-SO-FUTR ;
 
+! "esperar"
+chia:cha                                      V-SO-PRES ;
+chia:cha                                      V-SO-IMPF ;
+chia:cha                                       V-SO-PROG ;
+chia:cha                                       V-SO-PRET ;
+chia:cha                                       V-SO-FUTR ;
+
+
 ! "hacer sudar"
 itonia:itoni%{y%}a                                  V-SO-PRES ;
 itonia:itoni%{y%}a                                  V-SO-IMPF ;
@@ -3300,7 +3316,7 @@ kisa:kisa                                           V-S-FUTR ;
 ! "dormir"
 kochi:kochi                                         V-S-PRES ;
 kochi:kochi                                         V-S-IMPF ;
-kochi:kochi                                         V-S-PROG ;
+kochi:koch                                          V-S-PROG ;
 kochi:kochi                                         V-S-PRET ;
 kochi:kochi                                         V-S-FUTR ;
 
@@ -5848,6 +5864,7 @@ ejekatajtol:ejeka%>ta%{j%}tol                       N-Ø ; ! ""
 masehualtajtol:masehual%>ta%{j%}tol                 N-Ø ; ! ""
 masehualtajtol:masehuala%>ta%{j%}tol                N-Ø ; ! "" ! Use/Typo
 masehualtajtol:maseula%>ta%{j%}tol                  N-Ø ; ! "" ! Use/Typo
+masehualtajtolis:masehualtajtolis                   N-Ø ; ! "náhuatl"
 chil:chil                                           N-Ø ; ! "chile"
 xitomachil:xitoma%>chil                             N-Ø ; ! ""
 xolal:xolal                                         N-Ø ; ! "pueblo"
@@ -5873,6 +5890,7 @@ iluikataixpejpenani:iluikataixpejpenani             N-NI ; ! "astrónomo"
 tajtoleualoni:tajtoleualoni                         N-Ø ; ! "glosario"
 tatoponilis:tatoponilis                             N-Ø ; ! "acontecimiento"
 achipahualis:achipahualis                           N-Ø ; ! ""
+tamachtilis:tamachtilis                             N-Ø ; ! "enseñanza"
 tsontekon:tsontekon                                 N-Ø ; ! "cabeza"
 tonal:tonal                                         N-Ø ; ! "día"
 !sitalin:sitali                                       N-Ø ; ! "estrella"
@@ -7017,6 +7035,7 @@ ixtololo:ixtololo                                   N-Ø ; ! "ojo"
 internet:internet                                N-Ø ; ! "internet"
 tamachtijkat:tamachtijka                            N-TL ; ! "profesor"
 tamachtijkej:tamachtijkej                            N-Ø ; ! "profesor"
+tanahuatilis:tanahuatilis                            N-Ø ; ! "mensaje"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
